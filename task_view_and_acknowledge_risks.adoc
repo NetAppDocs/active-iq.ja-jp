@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_view_and_acknowledge_risks.html 
+keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, acknowledge, unacknowledge, disregard 
+summary: ストレージシステムの健全性を確認および分析し、リスクを承認するための情報を提供します。 
+---
+= リスクを確認して承認します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ストレージシステムの健全性属性を分析するには、関連する操作とリスクを表示します。対処方法を確認し、リスクを手動で軽減する必要があります。
+
+.手順
+. ダッシュボードで健全性属性ウィジェットをクリックするか、 * すべての操作の表示 * をクリックして、すべてのアクションとリスクのリストを表示します。
+. 健全性属性に関連付けられている * アクション * と * リスク * を表示します。
+. アクション * をクリックしてアクションに関連するリスクを表示するか、 * リスク * をクリックしてすべてのリスクを表示するか、 * 影響を受けるシステム * をクリックして注意が必要なシステムを表示します。
+. リスクをクリックすると、リスクの概要が表示されます。
+. リスクを承認するには、 [* Ack] をクリックします。
++
+リスクの詳細な概要情報と、リスクを軽減するために手動で実行する必要がある対処方法が表示されます。
+
+. 現在リスクを軽減したくない場合、または緩和できない場合は、フィールドに値を入力して、 [* Acknowledge * （確認） ] をクリックします。
++
+リスクは承認済みのリスクに追加されます。
+
+
+
+
+NOTE: リスクを承認する必要がなくなった場合は、 * Un-Ack * をクリックして同じ手順に従うことで、リスクを無視してかまいません。

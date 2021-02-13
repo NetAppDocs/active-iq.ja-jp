@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: reference_ansible_troubleshoot_feedback_support.html 
+keywords: troubleshoot, feedback, support 
+summary: Ansible に関する詳細情報を提供します。 
+---
+= 詳細はこちらをご覧ください
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+さまざまなリソースからヘルプを参照したり、詳細情報を確認したりできます。
+
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["トラブルシューティング情報"]
+* link:https://netapp.io/["余裕期間ワークスペース"]
+* mailto ： ng-active-iq-feedback@netapp.com [ 電子メール ]
+* Active IQ Digital Advisor のサポートボタンをクリックして、サポートとフィードバックを受けてください。
+

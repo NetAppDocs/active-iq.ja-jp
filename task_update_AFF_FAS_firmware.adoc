@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: AFF および FAS ファームウェアを更新する方法について説明します。 
+---
+= AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+特定されたリスクを軽減し、ストレージシステムを最新の状態に保つには、 Ansible を使用して AFF および FAS のファームウェアを更新する必要があります。
+
+
+
+== 作業を開始する前に
+
+Ansible を使用して AFF および FAS ファームウェアを更新する前に、次の作業を行う必要があります。
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["ストレージシステムに Ansible をインストールしてセットアップします"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["ストレージシステムに Ansible 2.9 とコレクションをインストールします"]
+* ストレージシステムを ONTAP 9.1 以降にアップグレードします
+* 管理者ロールを持つアカウントを設定します
+
+
+.手順
+. ダッシュボードでいずれかの健全性ウィジェットをクリックするか、 * すべての操作の表示 * をクリックして、すべての操作とリスクのリストを表示します。
+. [* ファームウェアアップグレード * ] をクリックして、すべてのファームウェアアップグレードのリスクを表示します。
+. アップデート AFF と FAS ファームウェア * をクリックして、利用可能なすべてを表示します パッケージを更新するか、をクリックします image:update_ansible.png["Ansible を更新します"] をクリックして、そのリスクに固有のパッケージを更新します。
+. ZIP ファイルをダウンロードしてストレージ・システムを更新するには、 * Download * をクリックします。
++
+zip ファイルには次のものが含まれています。
+
++
+** Ansible Playbook - ディスク、シェルフ、サービスプロセッサのファームウェア更新を実行するための Ansible スクリプトを含む YAML ファイルです。
+** Inventory - ファームウェアの更新に適用可能なシステムの詳細を含む YAML ファイル。
+** ディスク、シェルフ、およびサービスプロセッサ / BMC ファームウェアパッケージの名前は、それぞれ「 * all.zip * 」、「 * all_self-fw_.zip * 」、および「 * <SP / BMC >/BMC_<version_number>_fw.zip * 」です。
+
+
+
+
+
+NOTE: インベントリファイルへのクラスタとコントローラの手動追加はサポートされていません。

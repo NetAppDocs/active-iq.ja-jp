@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_renew_software_and_hardware.html 
+keywords: renew, hardware, software 
+summary: ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。 
+---
+= ストレージシステムのソフトウェアとハードウェアを更新する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+有効期限が切れているソフトウェアやハードウェアを 6 カ月以内にプロアクティブに特定し、ハードウェアやソフトウェアの更新を申請することができます。
+
+.手順
+. ダッシュボードの * Renewals * ウィジェットをクリックするか、 * Planning * ウィジェットの * Renewals * をクリックします。
+. 更新するシステムを選択し、 * 更新 * をクリックします。
+. 必要に応じて、追加のコメントを入力します。
+. [ 送信（ Send ） ] をクリックします。
+

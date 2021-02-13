@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: task_validate_firmware_installation.html 
+keywords: validate, firmware, firmware installation 
+summary: ファームウェアのインストールを検証する方法について説明します。 
+---
+= ファームウェアのインストールを確認
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+プレイブックの実行後、クラスタ管理者としてクラスタにログインします。
+
+
+
+== ディスクファームウェアのインストールを検証する
+
+.手順
+. ドライブファームウェアがインストールされていることを確認します。
++
+[listing]
+----
+::*> storage disk show -fields firmware-revision,model
+disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
++
+コマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage disk show] を参照してください。
+
+. 新しい NVMe Flash Cache ファームウェアがインストールされていることを確認します。
++
+[listing]
+----
+::*> system controller flash-cache show
+----
++
+このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [ システムコントローラ Flash Cache show ] を参照してください。
+
+
+
+
+
+== シェルフファームウェアのインストールを検証する
+
+.手順
+. 新しいシェルフファームウェアが更新されたことを確認します。
++
+[listing]
+----
+::*> system node run -node * -command sysconfig -v
+----
++
+の出力で、各シェルフのファームウェアが目的のレベルに更新されたことを確認します。例：
+
++
+[listing]
+----
+Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
+----
++
+コマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [ system node run ] を参照してください。
+
+. 新しい ACP ファームウェアが更新されたことを確認します。
++
+[listing]
+----
+::*> storage shelf acp module show -instance
+----
++
+このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp module show] を参照してください。
+
+. 目的の ACP モードが設定されていることを確認します。
++
+[listing]
+----
+::*> storage shelf acp show
+----
++
+このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp show] を参照してください。
+
+. ACP モード（チャネル）を変更します。
++
+[listing]
+----
+::*> storage shelf acp configure -channel [in-band | out-of-band]
+----
++
+このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp configure] を参照してください。
+
+
+
+
+
+== SP / BMC ファームウェアのインストールを検証しています
+
+サービスプロセッサ / BMC ファームウェアの更新の Ansible Playbook は有効になっており、コントローラへの最新の SP/BMC ファームウェアのインストールを確認するオプションがあります。検証が完了すると（更新に最長で 2 時間かかる場合があります）、 Ansible Playbook は、 SP / BMC コンソールに接続することで、内部スイッチファームウェアの更新版を適用します。
+
+SP / BMC ファームウェアおよび内部スイッチファームウェアのインストールに関する障害と成功の情報は、 Ansible Playbook の実行後に通知されます。SP / BMC ファームウェア / 内部スイッチファームウェアのインストールが失敗した場合は、 Ansible Playbook に記載されている手順に従ってください。

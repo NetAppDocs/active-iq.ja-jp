@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: に、設定ドリフト機能の概要を示します 
+---
+= 構成の偏差を把握する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Config Drift 機能は、システムの構成偏差をプロアクティブに特定するのに役立ちます。システム構成またはクラスタ構成を、 AutoSupport データを生成するシステムを使用して作成したテンプレートとオンデマンドで比較できます。
+
+集合知に基づくテンプレートやその他のオプションが今後のリリースで追加される予定です。
+
+次の図を参考に、設定の違いを特定してレポートを生成するワークフローを把握してください。
+
+image:config_drift.png["ドリフトの設定ワークフロー"]

@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task_view_risks_remediated_unified_manager.html 
+keywords: risks, actions, remediation, corrective action, unified manager 
+summary: Unified Manager を使用して自動的に修正できるリスクを表示するための情報を提供します。 
+---
+= Unified Manager を使用して自動で軽減できるリスクを表示します Ansible Playbook もご覧いただけます
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+アクションやリスクを確認することでストレージシステムを分析し、 Active IQ Unified Manager や Ansible Playbook を使用して軽減できます。
+
+video::XusFvXM7h-E[youtube, width=848,height=480]
+.手順
+. ダッシュボードで * すべてのアクションを表示 * をクリックします。
+. アクション * をクリックしてアクションに関連するリスクを表示するか、 * リスク * をクリックしてすべてのリスクを表示するか、 * 影響を受けるシステム * をクリックして注意が必要なシステムを表示します。
++
+Active IQ Unified Manager を使用してリスクを軽減できる場合は、を参照してください image:spanner.png["スパナー"] アイコンが強調表示され、 Ansible プレイブックを使用してリスクを軽減できる場合は、を参照してください image:update_ansible.png["Ansible を更新します"] アイコンが強調表示されます。
+
+
+
+[cols="50,50"]
+|===
+| リスクを軽減するには、 Unified Manager を使用します | Ansible Playbook を使用すれば、リスクを軽減できます 
+
+
+ a| 
+. をクリックします image:spanner.png["スパナー"] をクリックします。
+. [* Fix it* （修正） ] をクリックして Active IQ Unified Manager を起動します。
+. Active IQ Unified Manager 9.7 以降をインストールするには、 * Install * をクリックして * Fix it * オプションを使用します。
+. Active IQ Unified Manager 9.7 以降にアップグレードするには、 * アップグレード * をクリックして、 * 修正 * オプションを使用します。
+
+ a| 
+. をクリックします image:update_ansible.png["Ansible を更新します"] をクリックします。
+. Download * をクリックして、 AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。
+
+
+|===
+
+NOTE: 「 Fix it 」オプションと Ansible Playbook 機能を使用するには、 SupportEdge Advisor または SupportEdge Expert の契約が必要です。

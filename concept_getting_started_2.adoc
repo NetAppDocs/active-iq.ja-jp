@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concept_getting_started_2.html 
+keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
+summary: Active IQ デジタルアドバイザのワークフローを理解し、使用を開始するのに役立ちます。 
+---
+= Active IQ デジタルアドバイザのクイックスタート
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザは、タスクをより効果的に実行できるように強化され、再設計されました。ユーザインターフェイスは、目的の目標を達成するためのガイドとして開発されました。
+
+次の図を参考に、 Active IQ デジタルアドバイザのワークフローを理解してください。
+
+image:activeiq2_workflow.png["Active IQ デジタルアドバイザのワークフロー"]
+
+Active IQ デジタルアドバイザを使い始めるには、次のビデオをご覧ください。
+
+video::rEPtldosjWM[youtube, width=848,height=480]
+すべての Active IQ デジタルアドバイザウィジェットは、すべてのプラットフォームでサポートされているわけではありませんActive IQ デジタルアドバイザはお使いのストレージシステムのプラットフォームを特定し、ストレージシステムで実行できる一連のタスクのみを表示します。
+
+ストレージシステムでサポートされるウィジェットについては、次の点に注意してください。
+
+[cols="4*"]
+|===
+| * ウィジェット * | * お客様 * | * クラスタ * | * ノード * 
+
+
+| 健康 | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます 
+
+
+| 契約更新 | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます 
+
+
+| 容量の追加 | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） 
+
+
+| 在庫 | すべてのプラットフォームでサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
+
+
+| アップグレード | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
+
+
+| 相互運用性 | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） 
+|===

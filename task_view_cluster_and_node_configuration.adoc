@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_view_cluster_and_node_configuration.html 
+keywords: cluster, node, configuration 
+summary: クラスタとノードの構成に関する情報が表示されます。 
+---
+= クラスタとノードの構成を表示します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Cluster Viewer には、物理構成と論理構成の詳細情報が表示されます。これらの詳細情報は、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する情報を示すスタック図、およびケーブルの可視化など、複数のタブにまたがるいくつかのわかりやすい表に記載されています。ケーブル視覚化グラフィックは SVG 形式でダウンロードすることもできます。
+
+video::FVbb2bbIY9E[youtube, width=848,height=480]
+.手順
+. クラスタレベルで、 * クラスタ構成 * ウィジェットの横にある * 詳細の表示 * をクリックします。
+. [* Visualization * ] タブをクリックすると、クラスタがグラフィカルに表示されます。
+

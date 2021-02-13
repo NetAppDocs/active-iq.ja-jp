@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_dashboard.html 
+keywords: overview, provision, dashboard, widget, watchlist 
+summary: ダッシュボード、監視リスト、およびウィジェットに関する情報が表示されます。 
+---
+= Active IQ ダッシュボードについて理解する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザダッシュボードには、ストレージシステムの全体的なステータスに関する情報が表示されます。システムの健全性に関する概要情報、インベントリ、計画、アップグレード、監視リストレベルの価値ある分析情報が表示されます。
+
+Active IQ デジタルアドバイザに初めてアクセスしたとき、デフォルトでは、ダッシュボードに入力された情報はお客様の ID に基づいています。これで、最大 50 個のダッシュボードを作成し、これらのダッシュボードに監視リストを追加できます。
+
+また、カードに適用される色についても注意する必要があります。色は、リスクの重大度とタイプを示します。
+
+video::ITgFFwjJfjA[youtube, width=848,height=480]

@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_planning.html 
+keywords: overview, planning, increate capacity, renew, software, hardware, expiry, expired 
+summary: システムの容量や、有効期限が切れるソフトウェアやハードウェアを特定するための情報を提供します。 
+---
+= 計画の理解
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+* 計画 * ウィジェットは、容量の使用率が 90% を超えているか、容量の 90% に近づいている容量要件を特定し、期限切れになったソフトウェアやハードウェア、または今後 6 カ月以内に期限切れに近づいているハードウェアを特定するのに役立ちます。ストレージシステムの容量の拡張やハードウェアおよびソフトウェアの更新を要求することができます。
+
+video::ZJwz3WSD2u0[youtube, width=848,height=480]

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_view_upgrade.html 
+keywords: upgrade, current version, benefits 
+summary: ストレージシステムを表示およびアップグレードする方法について説明します。 
+---
+= ストレージシステムの ONTAP バージョンをアップグレードします
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ストレージシステムの保留中のアップグレードを表示して、新しいバージョンの ONTAP にアップグレードできます。
+
+また、相互運用性に関する最新のデータも確認できます。Active IQ OneCollect AutoSupport データに基づいてデータが入力されます。
+
+.手順
+. ダッシュボードで、アップグレード待ちの状態を * アップグレード * ウィジェットで確認します。
+. [Number of * Actions] * をクリックすると、保留中のアップグレードが表示されます。
+. 必要なアップグレードオプションを選択します。
+. ウィジェットに表示されているシステム数をクリックすると、 * Upgrade Advisor * タブが表示されます。
++
+リリースノートでは、リリースに関する詳細情報を確認することもできます。
+
+. リスクアドバイザ * タブで、リスクのリストとその重大度レベルを表示します。これは、アップグレードにより緩和されます。
+. [Generate Upgrade Plan] をクリックして、 * Upgrade Advisor * に移動します。
+

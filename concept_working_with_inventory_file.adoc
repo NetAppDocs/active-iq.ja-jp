@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: concept_working_with_inventory_file.html 
+keywords: inventory file, file format 
+summary: インベントリファイルの操作に関する情報を提供します。 
+---
+= インベントリファイルを操作します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+インベントリファイルは、ファームウェア更新の対象となるシステムのクラスタ管理 LIF で構成されています。このリストには、ディスクとシェルフファームウェアのファイル名情報が該当する場合に表示されます。
+
+サービスプロセッサファームウェアの更新の場合、インベントリファイルにノードのホスト名と SP / BMC IP が記録されます。
+
+
+
+== インベントリファイルの形式
+
+次に、ディスクファームウェアとシェルフファームウェアの両方が更新されたインベントリファイルのサンプル形式を示します。
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+
+  - clustername: <cluster management LIF-2>
+    disk_fw_file: all.zip
+    sp_nodes:
+    - hostname: <node hostname 1>
+      sp_fw_file: SP_FW_308-03990_11.5.zip
+      sp_fw_type: bmc
+      sp_fw_ver: '11.5'
+      sp_ip: <BMC IP>
+    - hostname: <node hostname 2>
+      sp_fw_file: SP_FW_308-03991_5.8.zip
+      sp_fw_type: sp
+      sp_fw_ver: '5.8'
+      sp_ip: <SP IP>
+----
+この例では、シェルフとディスクの両方のファームウェア更新を cluster-1 とディスクに適用し、 SP/BMC ファームウェアの更新を cluster-2 に適用できます。
+
+
+
+== インベントリファイルからクラスタを削除する
+
+特定のクラスタにファームウェア更新を適用しない場合は、インベントリファイルからクラスタを削除できます。
+
+たとえば、クラスタ 2 にディスクファームウェアの更新を適用しない場合は、次のコマンドを使用してインベントリファイルからその更新を削除できます。
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+----
+cluster-2 のすべてのデータが削除されたことを確認できます。
+
+ディスクファームウェアの更新のみを、シェルフファームウェアの更新ではなく、 cluster-1 に適用する場合は、次のコマンドを使用します。
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+----
+cluster_firmware_fw_filekey と値が cluster-1 から削除されています。
+
+
+NOTE: 手動によるクラスタまたはコントローラの追加はサポートされていません。

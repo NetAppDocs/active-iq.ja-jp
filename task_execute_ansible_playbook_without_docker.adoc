@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_without_docker.html 
+keywords: Ansible Playbook, Ansible, playbook, without docker 
+summary: Docker イメージを使用して Ansible Playbook を実行する方法について説明します。 
+---
+= NetApp Docker イメージなしで Ansible Playbook を実行
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+.手順
+. をインストールします link:https://docs.python.org/3/using/windows.html["Python"] および link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"]。
+. * pip * を使用して必要な Python パッケージをインストールします。
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+ 
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0  paramiko-2.7.2
+----
+. * Ansible galaxy* コマンドを使用して、 NetApp Ansible コレクションをインストールします。
++
+[listing]
+----
+To install the collection only for the current user
+$ ansible-galaxy collection install netapp.ontap
+ 
+To do a more universal installation,
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+
+$ chmod -R +rw /usr/share/ansible/collections
+----
++
+Ansible galxy コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible Galaxy Documentation を参照してください"] NetApp Ansible コレクションの詳細については、を参照してください link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible のコレクションページ"]。
+
+. Ansible Playbook を * Ansible プレイブック * コマンドで実行：
++
+[listing]
+----
+$ cd <downloaded_playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: ログインクレデンシャルが異なるクラスタのセットがある場合は、各クラスタで Ansible Playbook を実行する必要があります。Ansible Playbook ではログインに失敗したクラスタがスキップされるため、インベントリファイルの変更は不要です。
+
+
+
+* Ansible プレイブック * コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible プレイブックのドキュメント"] また、 Ansible Playbook をチェックモード（ dry run ）で実行する方法については、を参照してください link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：チェックモード"]。
+
+プレイブックを実行したら、を参照してください link:task_validate_firmware_installation.html["ファームウェアのインストールの検証"] 実行後の手順については、を参照してください。

@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: 構成ドリフトテンプレートを追加するための情報を提供します。 
+---
+= 設定ドリフトテンプレートを追加します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出するために、テンプレートを追加する必要があります。設定のドリフトテンプレートは、 AutoSupport データを実行するシステムを使用して追加されます。
+
+.手順
+. 左側のペインで、 [Config Drift *] をクリックします。
+. [ テンプレートの追加 ] をクリックします。
+. 必要な値を指定します。
+. [ テンプレートの追加 ] をクリックします。
+

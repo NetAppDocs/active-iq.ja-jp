@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_wellness.html 
+keywords: overview, wellness, performance, configuration, renewal, risk, remediation 
+summary: 健全性に関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。 
+---
+= 健康を理解する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+健全性ウィジェットには、ストレージシステムに関する詳細情報が表示されます。パフォーマンスと効率、容量、構成設定、セキュリティ、更新など、ストレージシステムのさまざまな属性に関する情報を提供します。
+
+image:wellness_workflow.png["健全性ワークフロー"]
+
+次のビデオで、健全性の属性の重要性を確認できます。
+
+video::-lTF3oWZB1M[youtube, width=848,height=480]

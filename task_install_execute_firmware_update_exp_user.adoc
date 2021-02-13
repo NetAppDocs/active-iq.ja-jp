@@ -1,0 +1,132 @@
+---
+sidebar: sidebar 
+permalink: task_install_execute_firmware_update_exp_user.html 
+keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook, docker, experienced user 
+summary: Ansible Playbook を使用して、ファームウェアの更新プログラムをインストール、実行する方法について説明しています。 
+---
+= AFF ファームウェアと FAS ファームウェアの Ansible Automation パッケージをインストールして実行します （経験豊富なユーザ）
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+経験豊富なユーザが、 AFF および FAS ファームウェアの Ansible Automation パッケージを迅速にインストールして実行できます。
+
+
+
+== NetApp Docker Image を使用して Ansible でファームウェアを更新
+
+.手順
+. Ansible Docker イメージを Linux ホストに取得します。
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:latest
+----
+. Linux ホストで Docker イメージをコンテナとして実行します。
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+
+NOTE: Ansible Playbook とインベントリファイルは同じパスにある必要があります。
+
+. Linux ホストで Ansible プレイブックを実行します。ファームウェアの更新は数時間バックグラウンドで実行されます。
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: ディスクファームウェア、シェルフファームウェア、およびサービスプロセッサファームウェアの URL が * 。 http://<web-server>/path/all_shelf_fw.zip* 、 * 。 http://<web-server>/path/all.zip* 、 * 。 http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip* の場合、ファームウェアパッケージのベース URL を入力するには * 。 http://<web-server>/path/* を入力します。ログインクレデンシャルが異なるクラスタのセットがある場合は、各クラスタで Ansible Playbook を実行する必要があります。Ansible Playbook ではログインに失敗したクラスタがスキップされるため、インベントリファイルの変更は不要です。
+
+. クラスタ管理者としてクラスタにログインし、新しいドライブファームウェアがインストールされていることを確認します。
++
+[listing]
+----
+::> storage disk show -fields firmware-revision,model
+ disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
+
+
+
+
+== Ansible がすでに使用されている場合は、ファームウェアの更新
+
+.手順
+. Python と Ansible をインストールし、 PIP を使用して Python パッケージをダウンロードします。
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0 paramiko-2.7.2
+----
+. NetApp Ansible Collection をインストールします。
++
+[listing]
+----
+To install the collection only for the current user:
+$ ansible-galaxy collection install netapp.ontap
+
+For universal installation:
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+$ chmod -R +rw /usr/share/ansible/collections
+----
+. Ansible Playbook とインベントリファイルが同じパスにあることを確認し、 Ansible Playbook を実行してください。ファームウェアの更新は数時間バックグラウンドで実行されます。
++
+[listing]
+----
+$ cd <playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware_disk.yml
+
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: ディスクファームウェア、シェルフファームウェア、およびサービスプロセッサファームウェアの URL が * 。 http://<web-server>/path/all_shelf_fw.zip* 、 * 。 http://<web-server>/path/all.zip* 、 * 。 http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip* の場合、ファームウェアパッケージのベース URL を入力するには * 。 http://<web-server>/path/* を入力します。ログインクレデンシャルが異なるクラスタのセットがある場合は、各クラスタで Ansible Playbook を実行する必要があります。Ansible Playbook ではログインに失敗したクラスタがスキップされるため、インベントリファイルの変更は不要です。
+
+. クラスタ管理者としてクラスタにログインし、新しいドライブファームウェアがインストールされていることを確認します。
++
+[listing]
+----
+::> storage disk show -fields firmware-revision,model
+ disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
+

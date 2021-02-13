@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_view_API_catalog.html 
+keywords: API Catalog, APIs, integrate data, view catalog 
+summary: API カタログで使用できる API に関する情報を提供します。 
+---
+= API カタログを表示します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+API カタログを使用すると、各カテゴリ内のカテゴリや使用可能な API を参照できます。
+
+有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。
+
+.手順
+. [* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。
+. [* API カタログ * ] アイコンの下にある [* 参照 ] をクリックします。
++
+API カタログが表示されます。
+
+. ページの上部で、トグルを「実験」にスライドします。
+. 左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。
+. API を展開します。
+. 右側の [* Try it Out * （試してみてください * ） ] ボタンをクリックします。
+. 必要なパラメータを指定し、 * Execute * をクリックして結果を表示します。
++
+また、 API の * Responses * セクションを調べて、返されるデータをよりよく理解することもできます。* 値の例 * をクリックしてデータの形式を表示するか、 * モデル * をクリックし、キャレットをクリックしてセクションを展開し、各エレメントの定義を表示できます。
+
+
+
+トグルを * コード * 表示にスライドさせると、さまざまな言語でコードサンプルを表示できます。

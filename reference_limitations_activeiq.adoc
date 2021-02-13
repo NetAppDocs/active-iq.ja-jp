@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: に、このリリースの制限事項を示します。 
+---
+= 既知の制限
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください
+
+
+
+=== Active IQ クラシックと Active IQ の機能の違い Digital Advisor
+
+Active IQ クラシックにある次の機能は、使用率が低いため Active IQ デジタルアドバイザに追加する予定はありません ( 特に明記されていない限り ) 。
+
+* Data ONTAP 7-Mode ストレージシステムの場合のみ （ 7-Mode を実行している Data ONTAP ストレージシステムがまもなく終了します サポート寿命）
++
+** Upgrade Advisor - clustered ONTAP 9.0 からも廃止されました
++
+mailto ： ng-aiq-ticket@netapp.com [Email] を送信して、 Data ONTAP 7-Mode ストレージシステムのアップグレードに関するサポートチケットを入手してください。
+
+** パフォーマンスチャート
+** ストレージ効率
+
+
+* パフォーマンスチャート （ Data ONTAP 7-Mode ストレージシステムの場合は上記を参照） （ほとんどの機能は Active IQ に移行されています Digital Advisor ）
++
+** ノードヘッドルーム信頼係数
+** ノードディスクのスループット
+** クラスタ CPU 利用率
+** クラスタレイテンシ
+** クラスタディスクのスループット
+
+
+* イベント履歴（ ONTAP ノードダッシュボード）
+* Flash Advisor
+* Cloud Control の推奨事項
+* AutoSupport 通知
+* AutoSupport アラート–一部の機能がマージされます 健全性に関するアクションとリスクを伴う
+* Protection Advisor –この一部は、で提供されます データセンタービューア
+* 保証プログラムをサポートするパフォーマンスチャート - 現在サポートされています AIQ Unified Manager
+
+
+Active IQ クラシックには、 Active IQ デジタルアドバイザでまもなく利用できる次の機能があります。
+
+* 健全性操作の履歴と傾向
+* 通知
+* Cluster Viewer レポート作成 PDF および Word レポート
+* 容量と効率性に関するレポートをスケジュールします
+* ワークロードタギング
+* アグリゲートの利用率の最大パフォーマンスグラフ
+* パフォーマンスレポートを PNG/JPG 形式でダウンロードします
+* ニュースレター購読
+* 容量の予測
+

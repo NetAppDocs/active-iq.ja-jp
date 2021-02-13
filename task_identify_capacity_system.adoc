@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_identify_capacity_system.html 
+keywords: capacity, space, increase, 
+summary: システムの容量を拡張するための情報を提供します。 
+---
+= 容量が上限に達しているシステムを特定します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+使用容量が 90% を超えているシステムや、 1 、 3 、 6 カ月以内に容量の 90% に近づいているシステムをプロアクティブに特定し、ストレージシステムの容量を拡張するように要求します。
+
+.手順
+. キャパシティの追加率が 90% を超えているシステムや容量の 90% に近づいているシステムを表示するには、 * Planning * ウィジェットで * Capacity Additions をクリックします。
++
+使用容量が 90% を超えたシステムや、今後 1 、 3 、および 6 カ月間に容量の 90% に近づいているシステムの数を確認できます。
+
+. システムを表示するカードを選択します。
+. 容量を増やすシステムを選択し、 * リクエストの送信 * をクリックします。
+. 必要に応じて、追加のコメントを入力します。
+. [ 送信（ Send ） ] をクリックします。
+

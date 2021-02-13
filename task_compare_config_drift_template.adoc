@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_compare_config_drift_template.html 
+keywords: config deviation, drift, configuration, compare template 
+summary: 構成ドリフトテンプレートを比較するための情報を提供します。 
+---
+= 構成ドリフトテンプレートを比較します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+システム構成とクラスタ構成を比較して、設定の違いをほぼリアルタイムで検出できます。
+
+.手順
+. 左側のペインで、 [Config Drift *] をクリックします。
+. 既存のテンプレートのいずれかを選択するか、 * テンプレートの追加 * をクリックして新しいテンプレートを追加します。
+. オプション：「 * 編集」をクリックしてテンプレートを編集するか、「 * 削除 * 」をクリックしてテンプレートを削除します。
+. [ テンプレートの比較 *] セクションで、比較するテンプレートの値を指定します。
+. [ レポートの生成（ Generate Report ） ] をクリックする。
++
+選択したシステム間の設定の偏差の詳細が記載された E メールが送信されます。
+
+

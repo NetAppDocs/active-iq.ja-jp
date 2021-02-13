@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_health_check_assessment_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check assessment dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations, active iq digital advisor, features, recommended software 
+summary: ダッシュボード、ヘルススコア、機能、ウィジェットに関する情報を提供します。 
+---
+= 健全性チェック評価ダッシュボードの使用を開始します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+このダッシュボードでは、次のウィジェットを使用してインストールベースの概要を一目で把握できます。
+
+* * AutoSupport Adoption * ： AutoSupport が有効になっているシステムの数と割合を表示します。また、「 Declined 」、「 HTTPS transport 」、「 AutoSupport on Demand 」とマークされたシステムも表示できます。稼働状態チェックのスコアとインストールベース内のシステムに関する情報を表示するには、「 * AutoSupport Adoption * 」ウィジェットをクリックします。
+* * 推奨構成 * ： * 推奨構成 * ウィジェットに従って、準拠および非準拠のシステムを表示します。HA ペアやその他の構成設定でシステムを構成し、インストールベース全体をリモートで管理できるようにします。ダッシュボードに表示されたスコアを確認し、優先度順に提示された主要な推奨事項に基づいて操作を実行できます。
+* * 推奨ソフトウェア *: すべてのソフトウェアおよびファームウェアのアップグレードおよび通貨に関する推奨事項の統合リストを表示します。AutoSupport が有効になっており、ソフトウェアまたはファームウェアのバージョンが最小か最新であるシステムを表示できます。
+* * サポートおよびエンタイトルメント * ：有効期限が切れているサポート契約と、 6 ～ 12 か月以内に有効期限が切れているサポート契約が表示されます。サポートプラットフォーム、ディスク、シェルフ、使用権の準拠、および有効期限が切れるまでの期間が表示されます。ダッシュボードに表示された健全性チェックのスコアを確認し、重要な推奨事項に基づいて処理を実行できます。これらの処理は優先度の高い順に行われます。
++
+サポート契約に関する詳細情報を表示するには、 * サポートおよびエンタイトルメント * ウィジェットをクリックします。このウィジェットを使用してサポート契約を更新することもできます。
+
+* * ベストプラクティス * ：ストレージシステムのパフォーマンスと効率性、可用性と保護、容量、構成、セキュリティなど、ベストプラクティスの属性を評価することにより、健全性チェックのスコアを表示します。ネットアップのベストプラクティスはシステムヘルスの維持に役立ちます。これにより、インストールベースのパフォーマンスが最適化されます。
+

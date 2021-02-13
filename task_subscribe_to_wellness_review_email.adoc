@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, 1 month, unsubscribe, edit, delete, share, subscriptions, supportedg expert, supportedge advisor, monthly, email, activeiq, active iq digital advisor, 
+summary:  
+---
+= ウェルネスレビューメールに登録する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+健全性レビュー E メールに登録すると、健全性ステータスの概要、更新期限が近づいているシステム、インストールベースのネットアップ製品のアップグレードが必要なシステムに関する E メールを毎月受け取ることができます。健全性確認の E メールが送信され、月ごとの概要を確認してシステムに対処することができます。サブスクリプションを表示、編集、共有、削除するオプションもあります。電子メールを受信しない場合は、いつでも電子メールの受信を停止できます。
+
+サブスクリプションを有効にしたら、サブスクリプションを追加するときに開始日を選択する必要があります。月ごとの E メールサマリーには、健全性、更新、アップグレード、健全性チェックの未処理のアクションが表示されます。確認用 E メールアドレスを入力すると、指定した E メールアドレスに E メールが送信されます。サブスクリプションを削除することもできます。
+
+
+NOTE: この機能を使用できるのは、ネットアップの SupportEdge Advisor と SupportEdge Expert のサービスが提供している場合のみです。
+
+.手順
+. ヘルスチェック評価ダッシュボードで、 * ウェルネスレビューサブスクリプション * をクリックします。
+. [ サブスクリプションの追加 ] をクリックします。
+. [ 新規サブスクリプションの追加 ] ダイアログボックスの [ 名前 ] 、 [ カテゴリ * の選択 ] 、 [ 顧客の検索 ] 、および [ 電子メール * ] フィールドに必要な情報を入力します。
+. [*Subscribe*] をクリックします
++
+サブスクリプションが成功すると、「サブスクリプションが追加されました」というメッセージが表示されます。
+
+

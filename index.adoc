@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+summary: Active IQ デジタルアドバイザのドキュメント 
+---
+= Active IQ デジタルアドバイザのドキュメント
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Active IQ デジタルアドバイザは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。
+
+Active IQ のクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用します。これらの分析情報と AutoSupport テレメトリ機能や My AutoSupport 機能を組み合わせることで、卓越した分析サービスの高度なセットを提供します。
+
+Active IQ デジタルアドバイザと呼ばれる新しいバージョンの Active IQ はシンプルで、ネットアップ環境の健全性を改善するための次のベストプラクティスをすばやく特定して実施できます。Active IQ デジタルアドバイザは、タスクをより効果的に実行できるように強化され、再設計されました。このバージョンは段階的に強化されており、この新しい体験をお試しいただくようお勧めします。フィードバックや問題の報告は、から行ってください をクリックします image:support.png["サポート"] （サポート）アイコン。
+
+
+
+=== Active IQ Web ポータルにアクセスし、モバイルアプリをダウンロードします
+
+* link:https://mysupport.netapp.com/myautosupport/home.html["Active IQ Web ポータル"]
+* link:https://itunes.apple.com/us/app/my-autosupport/id1230542480?ls=1&mt=8["Active IQ モバイルアプリダウンロード（ iOS ）"]
+* link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Active IQ モバイルアプリのダウンロード（ Android ）"]
+
+
+
+NOTE: ログインするには、有効なネットアップサポートサイトのクレデンシャルが必要です。アカウントをお持ちでなく、ネットアップサポートの利用を開始するには、 https://mysupport.netapp.com/info/web/ECMP1150550.html[""]
+
+Active IQ では、有効なサポート契約があるシステムが表示されます。契約期間が終了した場合、 90 日間の猶予期間があり、その間もシステムは引き続き表示されます。以降、システムは Active IQ 内で検索したり表示したりすることはできません。
+
+
+
+=== ドキュメントとサポート
+
+* link:https://www.netapp.com/us/documentation/active-iq.aspx["ドキュメントリソース"]
+* link:https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport#["ユーザコミュニティ"]
+* link:https://twitter.com/NetAppActiveIQ["Twitter でフォローしてください"]
+

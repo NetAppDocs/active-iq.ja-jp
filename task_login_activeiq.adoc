@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_login_activeiq.html 
+keywords: login, log in 
+summary: Active IQ デジタルアドバイザにログインするための情報を提供します。 
+---
+= Active IQ Digital Advisor にログインします
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザにログインするには、ネットアップサポートサイトの有効なクレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["こちらをご覧ください"]。
+
+.手順
+. をクリックします link:https://activeiq.netapp.com/?source=onlinedocs["こちらをご覧ください"] Active IQ デジタルアドバイザにアクセスするには、
++
+Active IQ デジタルアドバイザは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後は、 Active IQ デジタルアドバイザでシステムを検索したり表示したりすることはできません。
+
+. ユーザー名とパスワードを入力し、 * サインイン * をクリックします。
+
+
+[cols="50,50"]
+|===
+| 初めてログインした場合は、を実行します | ホームページをすでに選択している場合は、をクリックします 
+
+
+ a| 
+. デフォルトのホームページを選択します。次回ログインしたときから、選択したホームページに移動します。
+. [ 保存（ Save ） ] をクリックします。
+. Active IQ デジタルアドバイザ * をクリックして、 Active IQ デジタルアドバイザダッシュボードを表示します。
+
+| 選択したホームページのダッシュボードが表示されます。 
+|===

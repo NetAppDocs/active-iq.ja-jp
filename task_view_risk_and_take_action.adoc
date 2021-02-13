@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, mitigate, rectify 
+summary: ストレージシステムの健全性を確認および分析し、リスクを軽減するための情報を提供します。 
+---
+= リスクを確認し、修正措置を手動で実施します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ストレージシステムの健全性属性を分析するには、関連する操作とリスクを表示します。関連する対処方法を確認して、リスクを手動で軽減する必要があります。
+
+.手順
+. ダッシュボードの * ウェルネス * ウィジェットをクリックするか、 * すべてのアクションを表示 * をクリックして、すべてのアクションとリスクのリストを表示します。
+. 健全性属性に関連付けられている * アクション * と * リスク * を表示します。
+. アクション * をクリックしてアクションに関連するリスクを表示するか、 * リスク * をクリックしてすべてのリスクを表示するか、 * 影響を受けるシステム * をクリックして注意が必要なシステムを表示します。
+. リスク名をクリックすると、リスクに関する情報が表示されます。
+. 関連する対処方法をクリックし、情報に従ってリスクを解決します。
+
+
+リスクを軽減する手順は、すべての健全性属性で同じです。次のビデオで、セキュリティ関連の問題を監視して修正できます。
+
+video::ssXI-FAKMis[youtube, width=848,height=480]
