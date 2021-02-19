@@ -149,7 +149,6 @@
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">[ テンプレートの追加 ] をクリックします。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">必要な値を指定します。</block>
   <block id="a64d517222f4032f6011bf2a7ba82600" category="summary">Storage Efficiency に関する FAQ を掲載しています。</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="doc">よくある質問です</block>
   <block id="9b39bbd876d3d5afcafe2847c17dd5cd" category="section-title">Active IQ Digital Advisor から Storage Efficiency にアクセスする方法を教えてください。</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="inline-link">Active IQ デジタルアドバイザ</block>
   <block id="51b7461ab2221ad6ebc347199d080996" category="list-text">のホームページを開きます <block ref="73cab01bc3ab60831e45f34cd3a02915" category="inline-link-rx"></block>。</block>
@@ -329,7 +328,6 @@
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率より低い場合は、「 * お問い合わせ * 」をクリックして、ストレージシステムの構成をお知らせください。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">リリースの新機能に関する情報を提供します。</block>
   <block id="800e31baacf1dc07c572c5aed9b7c407" category="doc">Active IQ デジタルアドバイザの新機能</block>
-  <block id="aafa1a2f9babf778e8b5cd1a910c7b43" category="paragraph">Active IQ では通常、新機能と拡張機能を毎月リリースしています。</block>
   <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021 年 2 月 10 日</block>
   <block id="03041e77791b46597451cb59f807f539" category="paragraph">この更新プログラムには、次の新機能、拡張機能、および変更が含まれています。</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
@@ -343,11 +341,9 @@
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">* 契約更新： * ライセンス契約が期限切れになっている、または今後 6 カ月以内に期限が近づいている StorageGRID システムについては、通知が届きます。1 つ以上のシステムを選択して、ネットアップサポートチームに契約更新を申請することができます。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">* グリッドダッシュボード： * グリッドダッシュボードには、選択したグリッドに対する健全性、計画、設定の詳細が表示されます。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">* 構成ウィジェット： * ウィジェットで選択した StorageGRID の基本的な詳細情報を表示します。これには、グリッド名、ホスト名、シリアル番号、モデル、 OS バージョン、お客様名、配送先、連絡先情報などが含まれます。</block>
-  <block id="def901b6a84a8da67e60bcf496a3a825" category="list-text">* グリッドビューア： * 環境設定 * ウィジェットから * グリッドビューア * リンクをクリックすると、グリッド設定を詳細に表示できます。</block>
   <block id="8952273932d18fb81102eabf38cabbd1" category="list-text">* サイトの詳細： * このタブには、各サイトで使用可能なグリッドの概要とストレージノードが表示されます。</block>
   <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* グリッドサマリ： * 基本情報が含まれます。たとえば、ライセンスタイプ、ライセンス容量、インストールされているノードの数、サポート期間（ライセンス契約終了日）、プライマリ管理ノード、プライマリ管理ノードのプライマリサイトなどです。このタブには、サイト名、および対応するサイトでタグ付けされているストレージノードの数も表示されます。このリリースでは、対応するサイトのストレージノードを表示するためのハイパーリンクをクリックすると、ノード名のリストが表示されます。</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">* Capacity Details タブ：グリッドに対して設定された Grid レベルとサイトの容量の詳細が表示されます。インストールされているストレージ容量、使用可能なストレージ容量、合計使用済みストレージ容量、データとメタデータに使用されている容量など、容量の詳細。これらの詳細は、グリッドレベルとサイトレベルの両方で確認できます。</block>
-  <block id="e65494dac0fb5682379482fb078f4ed8" category="list-text">* グリッドビューア（設定の詳細）のダウンロード： * グリッドビューア * 画面で * ダウンロード * ボタンをクリックすると、選択した StorageGRID のサイトの詳細と容量の詳細をダウンロードできます。</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">FabricPool アドバイザー</block>
   <block id="caa65c337fc466e00adcb16a53fa8b87" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、 NetApp ® Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">クラウド対応ワークロード</block>
@@ -742,7 +738,6 @@
   <block id="babc6382b2fc83a689d76a9aff74a96b" category="summary">FabricPool Advisor を使用してアクセス頻度の低いデータを階層化する方法について説明します。</block>
   <block id="67b399315af1fd51d7b669851330bf0a" category="doc">FabricPool Advisor を使用して、アクセス頻度の低いデータを監視し、階層化する</block>
   <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
-  <block id="3260a88f9ee1ae368b4546c326a8828d" category="paragraph">FabricPool ダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 Inactive Data Reporting （ IDR ）が有効になっていないデータの詳細が表示されます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
   <block id="36afa058c74d288178950c27927bdb38" category="inline-link">Cloud Tiering の詳細をご確認ください</block>
   <block id="7d7cb4566140787987242b5a4c062540" category="paragraph">ボリュームにアクセス頻度の低いデータが 60% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-rx"></block>。</block>
   <block id="24bf571d5709340dad85419bfcd0d5f0" category="list-text">左側のナビゲーションペインから * FabricPool * を選択します。</block>
@@ -872,4 +867,11 @@
   <block id="a1b05e5e4731c54cc4502e1e9ef461db" category="sidebar">API カタログを表示する</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">よくある質問</block>
   <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
+  <block id="814f8bccd8aac6da990e8e928df84070" category="doc">Storage Efficiency に関する FAQ</block>
+  <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">新機能と拡張機能は次のとおりです。</block>
+  <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* グリッドビューア： * 環境設定 * ウィジェットから * グリッドビューア * リンクをクリックすると、グリッド設定を詳細に表示できます。構成 * ウィジェットから、選択した StorageGRID のサイトの詳細と容量の詳細をダウンロードするには、 * グリッドビューア * 画面で * ダウンロード * ボタンをクリックします。</block>
+  <block id="2db9dc2d9d8da93e4d7475eaa1790dce" category="paragraph">Active IQ デジタルアドバイザの FabricPool ダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 Inactive Data Reporting （ IDR ）が有効になっていないデータの詳細が表示されます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
+  <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool のベストプラクティス</block>
+  <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">FabricPool の詳細については、を参照してください <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
+  <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量に関する FAQ</block>
 </blocks>

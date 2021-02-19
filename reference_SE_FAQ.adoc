@@ -4,7 +4,7 @@ permalink: reference_SE_FAQ.html
 keywords: Active IQ, storage efficiency, FAQs, storage efficiency 
 summary: Storage Efficiency に関する FAQ を掲載しています。 
 ---
-= よくある質問です
+= Storage Efficiency に関する FAQ
 :hardbreaks:
 :nofooter: 
 :icons: font
