@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">ダッシュボード、監視リスト、およびウィジェットに関する情報が表示されます。</block>
-  <block id="73680bd5e7daf074039263bc67049d48" category="doc">Active IQ ダッシュボードについて理解する</block>
-  <block id="78167aa6827ebe540f88268ec7e0fb56" category="paragraph">Active IQ デジタルアドバイザダッシュボードには、ストレージシステムの全体的なステータスに関する情報が表示されます。システムの健全性に関する概要情報、インベントリ、計画、アップグレード、監視リストレベルの価値ある分析情報が表示されます。</block>
-  <block id="e33174c50b667aa57a3254c286ea2abc" category="paragraph">Active IQ デジタルアドバイザに初めてアクセスしたとき、デフォルトでは、ダッシュボードに入力された情報はお客様の ID に基づいています。これで、最大 50 個のダッシュボードを作成し、これらのダッシュボードに監視リストを追加できます。</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">また、カードに適用される色についても注意する必要があります。色は、リスクの重大度とタイプを示します。</block>
   <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">Active IQ デジタルアドバイザで使用される主な用語について説明します。</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">主な概念</block>
-  <block id="4545f224294e05130286f7b9a61dc8e7" category="paragraph">Active IQ デジタルアドバイザの使用を開始するにあたっては、 Active IQ ダッシュボード全体に表示される基本的な用語を理解しておくことが重要です。</block>
-  <block id="19c13220f2b0b746b0e26c77b7d98e4b" category="list-text">* ダッシュボード： * ストレージ・システムの全体的なステータスが表示されます。</block>
   <block id="d92bf3a3e254ba5152f5693f2c3551e3" category="list-text">* 監視リスト： * すでに選択されている Active IQ デジタルアドバイザ内のシステムに柔軟にアクセスできます。監視リストを使用すると、 1 つ以上のお客様のシステムを追加できます。</block>
   <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">* ウィジェット： * システムの状態を簡単にまとめたダッシュボードに、小規模なアプリケーションを表示します。</block>
   <block id="609ab9f49962ff004a5b2c4dd4ad0a3d" category="list-text">* リスク： * 対応する問題があるシステムのリストが表示されます。重大度レベルは次のとおりです。</block>
@@ -453,17 +448,8 @@
   <block id="dc805bf9b905c9a6974558611f5c99b3" category="list-text">をクリックします <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-rx"></block> Active IQ デジタルアドバイザにアクセスするには、</block>
   <block id="1bb03b210e480674a2a9700b06bb8d83" category="paragraph">Active IQ デジタルアドバイザは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後は、 Active IQ デジタルアドバイザでシステムを検索したり表示したりすることはできません。</block>
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">ユーザー名とパスワードを入力し、 * サインイン * をクリックします。</block>
-  <block id="a2fdad3072a6fd972e924ba7fe77c8f9" category="cell">初めてログインした場合は、を実行します</block>
-  <block id="ec57e9a5f3e0904dd6a3673e48f2493d" category="cell">ホームページをすでに選択している場合は、をクリックします</block>
-  <block id="90268b6b78c729789ae2fafdf54532bb" category="list-text">デフォルトのホームページを選択します。次回ログインしたときから、選択したホームページに移動します。</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">[ 保存（ Save ） ] をクリックします。</block>
-  <block id="68ca08d03574366a293e014c2c32a3ba" category="list-text">Active IQ デジタルアドバイザ * をクリックして、 Active IQ デジタルアドバイザダッシュボードを表示します。</block>
-  <block id="5c023312feb8619e6547b2a45d4b88f0" category="cell">選択したホームページのダッシュボードが表示されます。</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。</block>
   <block id="0661b006f375f8cf574047a84d3831c9" category="doc">Active IQ の機能を理解する</block>
-  <block id="0b9c5053f5f7af896e28aea7cdf086c8" category="paragraph">Active IQ デジタルアドバイザダッシュボードには、ストレージシステムの全体的なステータスに関する情報が表示されます。システムの健全性に関する概要情報、インベントリ、計画、アップグレード、監視リストレベルの価値ある分析情報が表示されます。ダッシュボードの健全性スコアも確認できます。健全性スコアを取得すると、高いリスクの数と期限切れの契約数に基づいて、インストールベースの総合スコアをお客様に提供できます。</block>
-  <block id="6c1330edaa8bf90ba2b701ca8854a970" category="paragraph">Active IQ デジタルアドバイザダッシュボードでは、次の操作を実行できます。</block>
-  <block id="91b78d60b9b044697fb98ed6f109adca" category="list-text">複数のダッシュボードを表示し、実用的でわかりやすい情報を一目で確認できます</block>
   <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">ストレージシステムにもたらされるすべてのリスクに関する分析情報を入手できます リスクを軽減するためのアクションも含まれます</block>
   <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">ストレージシステムをアップグレードします</block>
   <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データを表示します</block>
@@ -508,18 +494,8 @@
   <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">リスクアドバイザ * タブで、リスクのリストとその重大度レベルを表示します。これは、アップグレードにより緩和されます。</block>
   <block id="281921503952801e23be5489728f4728" category="list-text">[Generate Upgrade Plan] をクリックして、 * Upgrade Advisor * に移動します。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">ダッシュボードに監視リストを追加するための情報を提供します。</block>
-  <block id="69bd20df15a5c186a5016a0eb05b6309" category="doc">監視リストをダッシュボードに追加します</block>
-  <block id="9fe22c18ef6c9e7a88ba1cd5c0bac5d6" category="paragraph">Active IQ デジタルアドバイザ内で事前に選択されたシステムにすばやく簡単にアクセスできるウォッチリストを作成できます。監視リストを追加するには、新しいダッシュボードを作成する必要があります。</block>
-  <block id="13d8ca9908cf5e3b917011db8ebfcca9" category="list-text">[ * + 新しいダッシュボードの追加 * ] をクリックします。</block>
-  <block id="ef599ae2d5d8bfed2fa29d8fdeebaa57" category="paragraph">既存の監視リストをインポートするか、監視リストを作成できます。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">監視リストの名前を指定します。</block>
-  <block id="5e85adda9ce055098135e71c3488e28b" category="list-text">* カテゴリ * または * シリアル番号 * を選択し、ダッシュボードの手順に従って監視リストにシステムを追加します。</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">1 つのカテゴリに最大 15,000 台のシステムを追加でき、 1 つのシリアル番号には 500 台のシステムを追加できます。</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">「 * 次へ * 」をクリックします。</block>
-  <block id="e02e224c7f19dd2265d5c8775f0a7005" category="list-text">ダッシュボードの名前を指定します。</block>
-  <block id="d5a8446592177a844b1c91e11bc5a199" category="list-text">ダッシュボードに追加するウィジェットを選択します。</block>
-  <block id="049f432ee055a1220638eca68931318a" category="list-text">必要に応じて、このダッシュボードをデフォルトのダッシュボードとして設定できます。</block>
-  <block id="f9face64daa9a31c656e543c8b8f3607" category="list-text">「 * 作成 * 」をクリックして、監視リストをダッシュボードに追加します。</block>
   <block id="df2d4059ef2614c57676ddbb81080026" category="summary">Active IQ の詳細については、を参照してください。</block>
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">詳細はこちらをご覧ください</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">さまざまなリソースからヘルプを参照したり、詳細情報を確認したりできます。</block>
@@ -590,7 +566,6 @@
   <block id="47f493a6c23d2ddd793ed86e819b1806" category="inline-link">Active IQ モバイルアプリのダウンロード（ Android ）</block>
   <block id="56632b7c3ba14678d71d38b8ddb74a55" category="list-text"><block ref="56632b7c3ba14678d71d38b8ddb74a55" category="inline-link-rx"></block></block>
   <block id="c0b845337206fddc21c43b9e55f6422b" category="admonition">ログインするには、有効なネットアップサポートサイトのクレデンシャルが必要です。アカウントをお持ちでなく、ネットアップサポートの利用を開始するには、<block ref="31f51fec93e3106aee6fa68eccedad2c" category="inline-link-rx"></block></block>
-  <block id="e4a855439b46510605436d7341b6829c" category="paragraph">Active IQ では、有効なサポート契約があるシステムが表示されます。契約期間が終了した場合、 90 日間の猶予期間があり、その間もシステムは引き続き表示されます。以降、システムは Active IQ 内で検索したり表示したりすることはできません。</block>
   <block id="10553ef0acd01c6c0f2ca035327a4bd7" category="section-title">ドキュメントとサポート</block>
   <block id="58c15ba96d80da0192badb983c10279d" category="inline-link">ドキュメントリソース</block>
   <block id="35452e2dd037c7071e2a283924a8c985" category="list-text"><block ref="35452e2dd037c7071e2a283924a8c985" category="inline-link-rx"></block></block>
@@ -713,10 +688,8 @@
   <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">計画の理解</block>
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">* 計画 * ウィジェットは、容量の使用率が 90% を超えているか、容量の 90% に近づいている容量要件を特定し、期限切れになったソフトウェアやハードウェア、または今後 6 カ月以内に期限切れに近づいているハードウェアを特定するのに役立ちます。ストレージシステムの容量の拡張やハードウェアおよびソフトウェアの更新を要求することができます。</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">API カタログで使用できる API に関する情報を提供します。</block>
-  <block id="65c00110aaa4d16ae11f4dc6336733d3" category="doc">API カタログを表示します</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API カタログを使用すると、各カテゴリ内のカテゴリや使用可能な API を参照できます。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。</block>
-  <block id="870ac82ba2e118f135d9ae1fdd1610a8" category="list-text">[* API カタログ * ] アイコンの下にある [* 参照 ] をクリックします。</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">API カタログが表示されます。</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">ページの上部で、トグルを「実験」にスライドします。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。</block>
@@ -837,9 +810,7 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">クイックスタート</block>
   <block id="0a68dc74d82b0caf2bae22d33594834f" category="sidebar">Active IQ の主要な概念</block>
   <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">AutoSupport を理解する</block>
-  <block id="05f56632a59fecaa63e81a9928178fab" category="sidebar">ダッシュボードをプロビジョニングする</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
-  <block id="9f28b9edf29fff0e9e9d2b36ebe05bee" category="sidebar">ダッシュボードに監視リストを追加します</block>
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック</block>
   <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">ソフトウェアとハードウェアを更新します</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">システムの詳細を表示します</block>
@@ -861,7 +832,6 @@
   <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">トラブルシューティング、フィードバック、サポート</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">API を使用してデータを統合</block>
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">API にアクセスするためのトークンを生成します</block>
-  <block id="a1b05e5e4731c54cc4502e1e9ef461db" category="sidebar">API カタログを表示する</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">よくある質問</block>
   <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
   <block id="814f8bccd8aac6da990e8e928df84070" category="doc">Storage Efficiency に関する FAQ</block>
@@ -879,4 +849,39 @@
   <block id="bd98aae9d6874e5b22af9007ec29d40c" category="list-text">AutoSupport セクションのグループ化。</block>
   <block id="13f08ae5228a12616541f564ea38a102" category="list-text">構成のドリフトレポートを顧客、サイト、グループ、監視リスト、クラスタ全体にわたって生成またはスケジュール設定する とホスト名です。 <block ref="5778a3b24980082649fb0239cf4a1aee" category="inline-link-macro-rx"></block>。</block>
   <block id="3a38eeff0f77465a7a5489b58303e64b" category="paragraph">容量と効率に関するレポートを生成またはスケジュール設定して、システムの容量と Storage Efficiency による削減量に関する詳細情報を表示できます。</block>
+  <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">監視リストがわかります</block>
+  <block id="11ede7bd0ace739f3b91781a9ab554d5" category="paragraph">監視リストは、 Active IQ デジタルアドバイザ内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは 50 個まで作成でき、各監視リストにはカテゴリごとに最大 15 、 000 個のシステム、シリアル番号ごとに最大 500 個のシステムを含めることができます。</block>
+  <block id="84f698fa2ff5c75d0cfb42c5093b40e1" category="paragraph">Active IQ デジタルアドバイザに初めてアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、 StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステム ID 。</block>
+  <block id="e88ec3f6fa36ea31fdc1642a2265daee" category="paragraph">Active IQ デジタルアドバイザの使用を開始するにあたっては、 Active IQ デジタルアドバイザ全体に表示される基本的な用語を理解しておくことが重要です。</block>
+  <block id="1b9960bdf058ded004770c875045fbe3" category="list-text">* ダッシュボード： * 監視リスト内のシステムの全体的なステータスが表示されます。</block>
+  <block id="7e4e0b857c6e143cfb082c8bb0ab61cd" category="section-title">監視リストの編集には 60 分かかる場合があります Active IQ デジタルアドバイザ</block>
+  <block id="ae68b6ce5c029662d6b5aaeadce82376" category="paragraph">監視リストを編集しても、 Active IQ デジタルアドバイザの情報はすぐには更新されません。変更が Active IQ デジタルアドバイザに反映されるまでに、最大 60 分かかる場合があります。</block>
+  <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">レポートのスケジュール設定中に空のレポートが表示されます</block>
+  <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">スケジュールされたレポートは、 SupportEdge Advisor または SupportEdge Expert サポート契約がある場合にのみ使用できます。システムが SupportEdge Advisor または SupportEdge Expert サポート契約を締結していない場合は、レポートのスケジュール設定中に空白のレポートが表示されることがあります。</block>
+  <block id="b7fd11efbe4b08f9789db43e656aae94" category="section-title">2021 年 4 月 7 日</block>
+  <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">監視リスト</block>
+  <block id="3cc267fba4c83695b9464316876b7f84" category="paragraph">Active IQ デジタルアドバイザに初めてアクセスするときは、ダッシュボードの代わりにウォッチリストを作成する必要があります。また、各種の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりすることもできます。</block>
+  <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">監視リストを管理するための情報を提供します。</block>
+  <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">監視リストを管理します</block>
+  <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">別の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりできます。</block>
+  <block id="ec42a36485bf0b7690ac95ac39ea08f3" category="list-text">左側のペインで、「 * Watchlists * 」をクリックします。</block>
+  <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">[ 監視リストを管理 ] 画面が表示されます。</block>
+  <block id="c533a451e2ebd63cf7629e613a0e5483" category="list-text">監視リストの名前をクリックすると、監視リストのダッシュボードの詳細が表示されます。</block>
+  <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">「 * 編集 * 」をクリックして、監視リストの詳細を更新します。</block>
+  <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">[ 削除 *] をクリックして、ウォッチリストを削除します。</block>
+  <block id="60f840b3ee58d04f9e443013fa9e3b28" category="paragraph">Active IQ デジタルアドバイザを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、および監視リストレベルの価値ある分析情報を確認できます。</block>
+  <block id="503f32635f00a2f9e7855f2515e0b2a6" category="paragraph">Active IQ デジタルアドバイザの機能の一部を以下に示します。</block>
+  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">複数の監視リストを表示し、実用的で有用な情報を一目で確認できます</block>
+  <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">監視リストを作成します</block>
+  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">一連のシステムにすばやく簡単にアクセスできる監視リストを作成できます。カテゴリまたは場所に基づいて、複数のシステムを組み合わせることができます。</block>
+  <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">左側のペインで、「 * Watchlists * 」をクリックします</block>
+  <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">監視リストを作成 * をクリックします。</block>
+  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">監視リストに追加するシステムの詳細を指定します。</block>
+  <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">監視リストダッシュボードが表示されます。</block>
+  <block id="53341d80880065f372d7d0360c8dae07" category="paragraph">Active IQ では、有効なサポート契約があるシステムが表示されます。契約期間が終了した場合、 30 日間の猶予期間があり、その間もシステムは引き続き表示されます。以降、システムは Active IQ 内で検索したり表示したりすることはできません。</block>
+  <block id="99690ba41792c97440fb7507094c827d" category="doc">API を実行するには、 API カタログを使用します</block>
+  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link">* 参照 *</block>
+  <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">をクリックします <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
+  <block id="82ee712943040cce957254912d97aba0" category="list-text">任意の API を選択します</block>
+  <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">監視リストをプロビジョニング</block>
 </blocks>

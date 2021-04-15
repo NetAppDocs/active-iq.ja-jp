@@ -20,12 +20,14 @@ entries:
     url: "/concept_autosupport.html"
   - title: Active IQ Digital Advisor にログインします
     url: "/task_login_activeiq.html"
-- title: ダッシュボードをプロビジョニングする
+- title: 監視リストをプロビジョニング
   entries:
   - title: 概要
     url: "/concept_overview_dashboard.html"
-  - title: ダッシュボードに監視リストを追加します
+  - title: 監視リストを作成します
     url: "/task_add_watchlist.html"
+  - title: 監視リストを管理します
+    url: "/task_manage_watchlists.html"
 - title: 健全性の属性を分析します
   entries:
   - title: 概要
@@ -113,7 +115,7 @@ entries:
     url: "/concept_overview_API_service.html"
   - title: API にアクセスするためのトークンを生成します
     url: "/task_generate_tokens_API_services.html"
-  - title: API カタログを表示する
+  - title: API を実行するには、 API カタログを使用します
     url: "/task_view_API_catalog.html"
 - title: レポートを生成します
   url: "/task_generate_reports.html"

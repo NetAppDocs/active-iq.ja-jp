@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: API カタログで使用できる API に関する情報を提供します。 
 ---
-= API カタログを表示します
+= API を実行するには、 API カタログを使用します
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -24,10 +24,11 @@ API カタログを使用すると、各カテゴリ内のカテゴリや使用�
 
 .手順
 . [* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。
-. [* API カタログ * ] アイコンの下にある [* 参照 ] をクリックします。
+. をクリックします link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* 参照 *"] [API カタログ * （ API Catalog * ） ] アイコンの下。
 +
 API カタログが表示されます。
 
+. 任意の API を選択します
 . ページの上部で、トグルを「実験」にスライドします。
 . 左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。
 . API を展開します。

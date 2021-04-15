@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: 監視リストを管理するための情報を提供します。 
+---
+= 監視リストを管理します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+別の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりできます。
+
+.手順
+. 左側のペインで、「 * Watchlists * 」をクリックします。
++
+[ 監視リストを管理 ] 画面が表示されます。
+
+. 監視リストの名前をクリックすると、監視リストのダッシュボードの詳細が表示されます。
+. 「 * 編集 * 」をクリックして、監視リストの詳細を更新します。
+. [ 削除 *] をクリックして、ウォッチリストを削除します。
+
