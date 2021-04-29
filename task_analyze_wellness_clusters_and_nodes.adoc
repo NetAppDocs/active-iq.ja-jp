@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_wellness_clusters_and_nodes.html 
+keywords: cluster, node, clusterviewer, configuration 
+summary: Cluster Viewer についての情報を提供します。 
+---
+= クラスタとノードの健全性を分析します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Cluster Viewer とノードの健全性を分析するには、クラスタとノードの物理構成と論理構成の情報を確認するワンストップソースを使用します。
+
+Cluster Viewer には、ノードのスタック図、ストレージの使用状況と効率、ハードウェア容量のヘッドルームなどの情報が表示され、十分な情報に基づいてクラスタやノードの健全性を改善することができます。
+
+ノードの物理構成をケーブル、スタック、 RAID ディスクの各レベルで可視化したり、グラフィカルに表示したりできます。SVG 形式で視覚エフェクトをダウンロードすることもできます。
+
+video::FVbb2bbIY9E[youtube, width=848,height=480]
+.手順
+. * インベントリ * ウィジェットで、目的のクラスタまたはノード（ホスト）を選択します。
+. クラスタレベルまたはノードレベルで、 * Configuration * ウィジェットの横にある * ClusterViewer * をクリックします。
+. [* Visualization * ] タブをクリックすると、クラスタがグラフィカルに表示されます。
+

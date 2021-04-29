@@ -34,20 +34,26 @@ entries:
     url: "/concept_overview_wellness.html"
   - title: リスクを確認し、修正措置を手動で実施します
     url: "/task_view_risk_and_take_action.html"
+  - title: ハッカーやランサムウェア攻撃に対する保護を強化
+    url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
   - title: リスクを確認して承認します
     url: "/task_view_and_acknowledge_risks.html"
+  - title: 健全性の履歴を表示します
+    url: "/task_view_wellness_history.html"
   - title: Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック
     url: "/task_view_risks_remediated_unified_manager.html"
+  - title: ダウンタイムとデータ損失の可能性を回避します
+    url: "/task_avoid_the_downtime_and_possible_data_loss.html"
   - title: ウェルネスレビューメールに登録する
     url: "/task_subscribe_to_wellness_review_email.html"
   - title: ソフトウェアとハードウェアを更新します
     url: "/task_renew_software_and_hardware.html"
+  - title: クラスタとノードの健全性を分析します
+    url: "/task_analyze_wellness_clusters_and_nodes.html"
 - title: システムの詳細を表示します
   entries:
   - title: インベントリの詳細を表示します
     url: "/task_view_inventory_details.html"
-  - title: クラスタとノードの構成を表示します
-    url: "/task_view_cluster_and_node_configuration.html"
   - title: 価値ある分析情報を確認できます
     url: "/task_view_valuable_insight_widget.html"
   - title: Flex サブスクリプションの容量使用率を表示します
@@ -58,6 +64,8 @@ entries:
     url: "/concept_overview_planning.html"
   - title: 容量が上限に達しているシステムを特定します
     url: "/task_identify_capacity_system.html"
+  - title: ボリュームがいっぱいにならないようにしてシステム停止を回避してください
+    url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
   - title: ソフトウェアとハードウェアを更新します
     url: "/task_renew_software_and_hardware.html"
 - title: 設定の違いを特定

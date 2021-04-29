@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html 
+keywords: protection, hackers, ransomware, ransomware attacks, attack 
+summary: ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。 
+---
+= ハッカーやランサムウェア攻撃に対する保護を強化
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザにログインし、 * セキュリティ * ウィジェットに赤いバッジが表示されたら、重大なリスクを修正するための措置を講じることができます。
+
+.手順
+. Active IQ Digital Advisor にログインします
+. セキュリティ * ウィジェットで * アクション * をクリックします。image:Security_Image 1 Ransomware attacks.png["セキュリティウィジェット"]
++
+影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。
+
+. [*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。image:Corrective Action_Image 2 Ransomware attacks.png["対処方法の列"]
++
+ONTAP 9.7P8 以降では、リスクが修正されています。image:Remediations_Image 3 Ransomware attacks.png["［ 修正 ］ タブ"]
+
+. 最も重要な手順は、 Active IQ デジタルアドバイザの * Upgrade Advisor * で OS のアップグレードを計画することです。
+

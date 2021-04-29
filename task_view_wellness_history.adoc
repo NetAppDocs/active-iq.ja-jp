@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: システムリスクと、健全性履歴の表示方法に関する情報を提供します。 
+---
+= 健全性の履歴を表示します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+過去 3 カ月間に発生したシステムリスクを表示して、超過勤務がどのように進行しているかを確認できます。
+
+これらのリスクは、「 * 未解決 * 」、「新規 * 」、「解決済み * 」、「承認済み * 」の 4 種類のリスクに分類されます。これらは異なる色で表されます。これらのリスクの概要は、リスク履歴 * グラフで表されます。
+
+.手順
+. ダッシュボードの * Wellness * ペインで、 * View All Actions * をクリックします。
+. [*Wellness History] をクリックします。
+. リスク履歴 * グラフで、リスク履歴を表示するカテゴリをクリックします。
++
+色付きのバーの上にカーソルを置くと、各カテゴリのリスクの数に関する情報が表示されます。それぞれのリスクカテゴリをクリックすると、情報がリスク情報 * テーブルに表示されます。
+
++
+Excel シートにリスクの概要をダウンロードすることもできます。
+
+

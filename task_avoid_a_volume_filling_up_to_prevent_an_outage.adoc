@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html 
+keywords: volume filling up, prevent an outage 
+summary: 停止を回避するためにボリュームがフルにならないようにする方法について説明します。 
+---
+= ボリュームがいっぱいにならないようにしてシステム停止を回避してください
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザにログインすると、 * 構成 * ウィジェットに赤いバッジが表示されます。ウィジェットをクリックするとボリュームの使用率が 98% に達し、原因が停止する可能性があることがわかります。この問題を修正するとボリュームがいっぱいになるのを回避できます。ボリュームが読み取り専用になり、アプリケーションがクラッシュして失敗する原因となります。
+
+.手順
+. Active IQ Digital Advisor にログインします
+. 構成 * （ Configuration * ）ウィジェットで * アクション * （ Actions * ）をクリックします。image:Configuration_image 1 prevent an outage.png["設定ウィジェット"]
+. [* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。image:Risk summary_image 2 prevent an outage.png["リスクの概要"]
+

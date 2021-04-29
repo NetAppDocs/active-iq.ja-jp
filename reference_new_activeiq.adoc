@@ -22,6 +22,17 @@ summary: リリースの新機能に関する情報を提供します。
 
 
 
+== 2021 年 4 月 29 日
+
+この更新プログラムには、次の新機能、拡張機能、および変更が含まれています。
+
+* ハッカーやランサムウェア攻撃からシステムを保護する方法をご紹介します。 link:task_increase_protection_against_hackers_and_Ransomware_attacks.html["詳細をご確認ください"]。
+* ダウンタイムを回避し、データ損失を回避できます。 link:task_avoid_the_downtime_and_possible_data_loss.html["詳細をご確認ください"]。
+* ボリュームがいっぱいにならないようにしてシステム停止を回避する方法をご確認ください。 link:task_avoid_a_volume_filling_up_to_prevent_an_outage.html["詳細をご確認ください"]。
+
+
+
+
 == 2021 年 4 月 7 日
 
 この更新プログラムには、次の新機能、拡張機能、および変更が含まれています。

@@ -269,36 +269,9 @@
   <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">に、このリリースの制限事項を示します。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">既知の制限</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください</block>
-  <block id="6315df34135f83f8bd38f252e5012288" category="section-title">Active IQ クラシックと Active IQ の機能の違い Digital Advisor</block>
-  <block id="059908ae0b615ccc12f93adca2a6dd57" category="paragraph">Active IQ クラシックにある次の機能は、使用率が低いため Active IQ デジタルアドバイザに追加する予定はありません ( 特に明記されていない限り ) 。</block>
   <block id="6f4abdbff187f79e2ea1ac06a9e104b5" category="list-text">Data ONTAP 7-Mode ストレージシステムの場合のみ （ 7-Mode を実行している Data ONTAP ストレージシステムがまもなく終了します サポート寿命）</block>
-  <block id="2f3600b8642da44226cce3357c6ba15a" category="list-text">Upgrade Advisor - clustered ONTAP 9.0 からも廃止されました</block>
-  <block id="f5fbf1348dacb5e520c9f17c39c87a99" category="paragraph">mailto ： ng-aiq-ticket@netapp.com [Email] を送信して、 Data ONTAP 7-Mode ストレージシステムのアップグレードに関するサポートチケットを入手してください。</block>
   <block id="e10f6958064ae5f36e8b132d4142e626" category="list-text">パフォーマンスチャート</block>
   <block id="fd18465573ec21a6218982055981f6b1" category="list-text">ストレージ効率</block>
-  <block id="169214c4bc318d8cb7bfa9c60c740fdc" category="list-text">パフォーマンスチャート （ Data ONTAP 7-Mode ストレージシステムの場合は上記を参照） （ほとんどの機能は Active IQ に移行されています Digital Advisor ）</block>
-  <block id="65e49d1352d774be7c0f9f8db02d90f0" category="list-text">ノードヘッドルーム信頼係数</block>
-  <block id="2d26dad694259619a234794fcd859521" category="list-text">ノードディスクのスループット</block>
-  <block id="b4d57e755c028f878ec190be67d62005" category="list-text">クラスタ CPU 利用率</block>
-  <block id="f15b2a145968d9e130858102928e1068" category="list-text">クラスタレイテンシ</block>
-  <block id="7780dd3d8fecff89f9a924c2c90dce22" category="list-text">クラスタディスクのスループット</block>
-  <block id="479d0b95ae43ca5a43f361b7f9150933" category="list-text">イベント履歴（ ONTAP ノードダッシュボード）</block>
-  <block id="7c0088adbd5cd0c1f2321663cf46b296" category="list-text">Flash Advisor</block>
-  <block id="9a683e149c1deb950afaff3e4efa12fb" category="list-text">Cloud Control の推奨事項</block>
-  <block id="5f88c256601fa45b15dc0ab361ce4109" category="list-text">AutoSupport 通知</block>
-  <block id="63501c84fe340703004931de2bbe952b" category="list-text">AutoSupport アラート–一部の機能がマージされます 健全性に関するアクションとリスクを伴う</block>
-  <block id="111faa798eb5471b6260d66ce28c9df6" category="list-text">Protection Advisor –この一部は、で提供されます データセンタービューア</block>
-  <block id="012bcdee67dd86dfb084ce7966afc303" category="list-text">保証プログラムをサポートするパフォーマンスチャート - 現在サポートされています AIQ Unified Manager</block>
-  <block id="a40ff6e00410a9c5594b180a085ec471" category="paragraph">Active IQ クラシックには、 Active IQ デジタルアドバイザでまもなく利用できる次の機能があります。</block>
-  <block id="d5d89080b19a333a6d3e4fd90019311f" category="list-text">健全性操作の履歴と傾向</block>
-  <block id="a274f4d4670213a9045ce258c6c56b80" category="list-text">通知</block>
-  <block id="519f5d961d9a43a3aa84ef51bdb50b31" category="list-text">Cluster Viewer レポート作成 PDF および Word レポート</block>
-  <block id="398aa57ec260bdebadf8d26b2e588869" category="list-text">容量と効率性に関するレポートをスケジュールします</block>
-  <block id="cd4ef961255320407f22a2c9683cfd1d" category="list-text">ワークロードタギング</block>
-  <block id="290a42aaa3bc1b163e9535327f777064" category="list-text">アグリゲートの利用率の最大パフォーマンスグラフ</block>
-  <block id="22573c5ed7dff2920168b92bdebaae0c" category="list-text">パフォーマンスレポートを PNG/JPG 形式でダウンロードします</block>
-  <block id="03c43da15f95ef34c8e5c2f86736b7d9" category="list-text">ニュースレター購読</block>
-  <block id="acc29a7b7f23045f357b49f3a37a34bf" category="list-text">容量の予測</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">貴重なインサイトウィジェットに関する情報を提供します。</block>
   <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">価値ある分析情報を確認できます</block>
   <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">「有益な分析情報 * 」ウィジェットには、サポートケースの数、保留中のソフトウェアアップグレード、ストレージ効率化による削減効果、軽減されたリスクなどに関する情報が表示されます。また、 [*Wellness *] 属性からのリスク通知も積極的に一覧表示します。</block>
@@ -547,10 +520,6 @@
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">SP / BMC ファームウェアのインストールを検証しています</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">サービスプロセッサ / BMC ファームウェアの更新の Ansible Playbook は有効になっており、コントローラへの最新の SP/BMC ファームウェアのインストールを確認するオプションがあります。検証が完了すると（更新に最長で 2 時間かかる場合があります）、 Ansible Playbook は、 SP / BMC コンソールに接続することで、内部スイッチファームウェアの更新版を適用します。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">SP / BMC ファームウェアおよび内部スイッチファームウェアのインストールに関する障害と成功の情報は、 Ansible Playbook の実行後に通知されます。SP / BMC ファームウェア / 内部スイッチファームウェアのインストールが失敗した場合は、 Ansible Playbook に記載されている手順に従ってください。</block>
-  <block id="7c9a9a571569c3e7ab7141616d4e3e85" category="summary">クラスタとノードの構成に関する情報が表示されます。</block>
-  <block id="507af3deb49f14e290b5de78c11e5f7e" category="doc">クラスタとノードの構成を表示します</block>
-  <block id="337387c5dde36a4950705bd8bf777d8d" category="paragraph">Cluster Viewer には、物理構成と論理構成の詳細情報が表示されます。これらの詳細情報は、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する情報を示すスタック図、およびケーブルの可視化など、複数のタブにまたがるいくつかのわかりやすい表に記載されています。ケーブル視覚化グラフィックは SVG 形式でダウンロードすることもできます。</block>
-  <block id="8d78149f6b5c9d80921f21884ff5beb2" category="list-text">クラスタレベルで、 * クラスタ構成 * ウィジェットの横にある * 詳細の表示 * をクリックします。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">[* Visualization * ] タブをクリックすると、クラスタがグラフィカルに表示されます。</block>
   <block id="6963e434c6c702352323115759d00c82" category="summary">Active IQ デジタルアドバイザのドキュメント</block>
   <block id="25ee4245ff35e15ec0a6dda5f6cd1765" category="doc">Active IQ デジタルアドバイザのドキュメント</block>
@@ -710,7 +679,6 @@
   <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
   <block id="36afa058c74d288178950c27927bdb38" category="inline-link">Cloud Tiering の詳細をご確認ください</block>
   <block id="7d7cb4566140787987242b5a4c062540" category="paragraph">ボリュームにアクセス頻度の低いデータが 60% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-rx"></block>。</block>
-  <block id="24bf571d5709340dad85419bfcd0d5f0" category="list-text">左側のナビゲーションペインから * FabricPool * を選択します。</block>
   <block id="ba825ed19de4ba2cc70be46eb78689f1" category="list-text">[*Tier Data*] をクリックして、 Cloud Manager を使用してデータを階層化します。</block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">インベントリファイルの操作に関する情報を提供します。</block>
   <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">インベントリファイルを操作します</block>
@@ -837,7 +805,6 @@
   <block id="814f8bccd8aac6da990e8e928df84070" category="doc">Storage Efficiency に関する FAQ</block>
   <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">新機能と拡張機能は次のとおりです。</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* グリッドビューア： * 環境設定 * ウィジェットから * グリッドビューア * リンクをクリックすると、グリッド設定を詳細に表示できます。構成 * ウィジェットから、選択した StorageGRID のサイトの詳細と容量の詳細をダウンロードするには、 * グリッドビューア * 画面で * ダウンロード * ボタンをクリックします。</block>
-  <block id="2db9dc2d9d8da93e4d7475eaa1790dce" category="paragraph">Active IQ デジタルアドバイザの FabricPool ダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 Inactive Data Reporting （ IDR ）が有効になっていないデータの詳細が表示されます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool のベストプラクティス</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">FabricPool の詳細については、を参照してください <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
   <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量に関する FAQ</block>
@@ -884,4 +851,59 @@
   <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">をクリックします <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
   <block id="82ee712943040cce957254912d97aba0" category="list-text">任意の API を選択します</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">監視リストをプロビジョニング</block>
+  <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。</block>
+  <block id="994d62a653fe8361ea4d612235399fb3" category="doc">ハッカーやランサムウェア攻撃に対する保護を強化</block>
+  <block id="bef8b69e84a51a70faac213b302a7f71" category="paragraph">Active IQ デジタルアドバイザにログインし、 * セキュリティ * ウィジェットに赤いバッジが表示されたら、重大なリスクを修正するための措置を講じることができます。</block>
+  <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">Active IQ Digital Advisor にログインします</block>
+  <block id="7e162ffb353d70736734c44d1b072c5d" category="inline-image-macro">セキュリティウィジェット</block>
+  <block id="396d80b68a9be86eb7692692eebfcadf" category="list-text">セキュリティ * ウィジェットで * アクション * をクリックします。<block ref="7c16f1a74ee42ef6ef9b200c0afea62b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。</block>
+  <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">対処方法の列</block>
+  <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">[*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">［ 修正 ］ タブ</block>
+  <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">ONTAP 9.7P8 以降では、リスクが修正されています。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="15464f88e743b55370c522e3e45b18a4" category="list-text">最も重要な手順は、 Active IQ デジタルアドバイザの * Upgrade Advisor * で OS のアップグレードを計画することです。</block>
+  <block id="30c68d7c9821acafb85ce89d3dd5cf9e" category="paragraph">次の制限事項があります。</block>
+  <block id="2a6091be36acbf3db3bd34443d143abf" category="list-text">Upgrade Advisor では、 9.0 より前の clustered ONTAP のアップグレードプランはサポートされません。</block>
+  <block id="f0cf1727349620562c13360528ab8936" category="section-title">2021 年 4 月 29 日</block>
+  <block id="cd7b4050bdc517374876fa8cc2fc9631" category="list-text">ハッカーやランサムウェア攻撃からシステムを保護する方法をご紹介します。 <block ref="5d0d02d916acc8170e9496212f9f098d" category="inline-link-macro-rx"></block>。</block>
+  <block id="b2742e9fcf5e18c84979ae25e147d480" category="list-text">ダウンタイムを回避し、データ損失を回避できます。 <block ref="d89d6ee1bb6c538f985e1c356031942c" category="inline-link-macro-rx"></block>。</block>
+  <block id="ceb8404d75df4cd36057918b2a3c3975" category="list-text">ボリュームがいっぱいにならないようにしてシステム停止を回避する方法をご確認ください。 <block ref="fabdf753888b88e4e56a3a1d46f402d9" category="inline-link-macro-rx"></block>。</block>
+  <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">システムリスクと、健全性履歴の表示方法に関する情報を提供します。</block>
+  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="doc">健全性の履歴を表示します</block>
+  <block id="74d76c2b05d8452b29d401847b93bccc" category="paragraph">過去 3 カ月間に発生したシステムリスクを表示して、超過勤務がどのように進行しているかを確認できます。</block>
+  <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">これらのリスクは、「 * 未解決 * 」、「新規 * 」、「解決済み * 」、「承認済み * 」の 4 種類のリスクに分類されます。これらは異なる色で表されます。これらのリスクの概要は、リスク履歴 * グラフで表されます。</block>
+  <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">ダッシュボードの * Wellness * ペインで、 * View All Actions * をクリックします。</block>
+  <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">[*Wellness History] をクリックします。</block>
+  <block id="a0131598041c59b5aec9b6bdcb8a9431" category="list-text">リスク履歴 * グラフで、リスク履歴を表示するカテゴリをクリックします。</block>
+  <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">色付きのバーの上にカーソルを置くと、各カテゴリのリスクの数に関する情報が表示されます。それぞれのリスクカテゴリをクリックすると、情報がリスク情報 * テーブルに表示されます。</block>
+  <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">Excel シートにリスクの概要をダウンロードすることもできます。</block>
+  <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">ダウンタイムとデータ損失の可能性を回避する方法について説明します。</block>
+  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">ダウンタイムとデータ損失の可能性を回避します</block>
+  <block id="8da37e3c470ea9e09b868f74f857a58a" category="paragraph">Active IQ デジタルアドバイザにログインし、「可用性と保護 * 」ウィジェットに赤いバッジが表示された場合は、重大なリスクを修正するための措置を講じることができます。ファームウェアの修正プログラムをインストールしていないと、一定の時間電源を入れたあとでドライブが動作しなくなる可能性があります。これを修正することで、ダウンタイムとデータ損失の両方を回避できます。</block>
+  <block id="b6f0789e4854da3dde8f55d00cee757f" category="list-text">Active IQ デジタルアドバイザにログインします。</block>
+  <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用性と保護ウィジェット</block>
+  <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">[* 可用性と保護 * （ Availability &amp; Protection ） ] ウィジェットで、 [ * アクション * （ Actions * ） ] をクリックし<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e91f704233072d4cd24a403d5175cfc" category="paragraph">影響の大きいセキュリティリスクについては、ディスクファームウェアの更新が推奨される対処方法に従ってください。</block>
+  <block id="36ae45e0f51d582bd7ecffce242361dd" category="list-text">リスクサマリを表示するには、リスク名 * リンクをクリックします。<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="57b854162d6caadf0053934ab77436cd" category="inline-image-macro">対処方法</block>
+  <block id="194764f556fc1cef4cadf0744c5dc483" category="list-text">[*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="baceeff257420910d075f17bbf8cb985" category="paragraph">Active IQ Digital Advisor は、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムの Ansible スクリプトまたはプレイブックを生成します。</block>
+  <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">AFF および FAS ファームウェア</block>
+  <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">* Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6d70d8473310213564444d3b9fe477dd" category="summary">停止を回避するためにボリュームがフルにならないようにする方法について説明します。</block>
+  <block id="a80aea1c7f0129b13ea55e329311ec63" category="doc">ボリュームがいっぱいにならないようにしてシステム停止を回避してください</block>
+  <block id="d1bd15862f9b11e10337ce20fe325868" category="paragraph">Active IQ デジタルアドバイザにログインすると、 * 構成 * ウィジェットに赤いバッジが表示されます。ウィジェットをクリックするとボリュームの使用率が 98% に達し、原因が停止する可能性があることがわかります。この問題を修正するとボリュームがいっぱいになるのを回避できます。ボリュームが読み取り専用になり、アプリケーションがクラッシュして失敗する原因となります。</block>
+  <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">設定ウィジェット</block>
+  <block id="60436722270a4533c09cb8939f672895" category="list-text">構成 * （ Configuration * ）ウィジェットで * アクション * （ Actions * ）をクリックします。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">[* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="59e957aaf5b367ba9d97d9e73c32e02a" category="paragraph">Active IQ デジタルアドバイザの FabricPool アドバイザダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 Inactive Data Reporting （ IDR ）が有効になっていないデータの詳細が表示されます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
+  <block id="cd01c74549cdfc52159ec7a8329c2c3f" category="list-text">左側のナビゲーションペインから * FabricPool アドバイザ * を選択します。</block>
+  <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Cluster Viewer についての情報を提供します。</block>
+  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">クラスタとノードの健全性を分析します</block>
+  <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">Cluster Viewer とノードの健全性を分析するには、クラスタとノードの物理構成と論理構成の情報を確認するワンストップソースを使用します。</block>
+  <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">Cluster Viewer には、ノードのスタック図、ストレージの使用状況と効率、ハードウェア容量のヘッドルームなどの情報が表示され、十分な情報に基づいてクラスタやノードの健全性を改善することができます。</block>
+  <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">ノードの物理構成をケーブル、スタック、 RAID ディスクの各レベルで可視化したり、グラフィカルに表示したりできます。SVG 形式で視覚エフェクトをダウンロードすることもできます。</block>
+  <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">* インベントリ * ウィジェットで、目的のクラスタまたはノード（ホスト）を選択します。</block>
+  <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">クラスタレベルまたはノードレベルで、 * Configuration * ウィジェットの横にある * ClusterViewer * をクリックします。</block>
 </blocks>

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_the_downtime_and_possible_data_loss.html 
+keywords: downtime, data loss, avoid downtime, avoid data loss 
+summary: ダウンタイムとデータ損失の可能性を回避する方法について説明します。 
+---
+= ダウンタイムとデータ損失の可能性を回避します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザにログインし、「可用性と保護 * 」ウィジェットに赤いバッジが表示された場合は、重大なリスクを修正するための措置を講じることができます。ファームウェアの修正プログラムをインストールしていないと、一定の時間電源を入れたあとでドライブが動作しなくなる可能性があります。これを修正することで、ダウンタイムとデータ損失の両方を回避できます。
+
+.手順
+. Active IQ デジタルアドバイザにログインします。
+. [* 可用性と保護 * （ Availability & Protection ） ] ウィジェットで、 [ * アクション * （ Actions * ） ] をクリックしimage:Availability and protection_image 1 downtime and data loss.png["可用性と保護ウィジェット"]
++
+影響の大きいセキュリティリスクについては、ディスクファームウェアの更新が推奨される対処方法に従ってください。
+
+. リスクサマリを表示するには、リスク名 * リンクをクリックします。image:Risk summary_image 2 downtime and data loss.png["リスクの概要"]
+. [*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。image:Corrective action_image 3 downtime and data loss.png["対処方法"]
++
+Active IQ Digital Advisor は、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムの Ansible スクリプトまたはプレイブックを生成します。
+
+. * Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF および FAS ファームウェア"]
+
