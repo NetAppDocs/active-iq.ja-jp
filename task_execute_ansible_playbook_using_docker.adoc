@@ -28,7 +28,7 @@ NetApp Docker を使用して Ansible Playbook を実行する前に、以下の
 
 * link:task_update_AFF_FAS_firmware.html["AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします"]
 * link:task_hosting_firmware_files_using_web_server.html["Web サーバを使用してファームウェアファイルをホストします"]
-* link:concept_work_with_inventory_file.html["インベントリファイルを操作します"]
+* link:concept_working_with_inventory_file.html["インベントリファイルを操作します"]
 * NetApp Docker がインストールされていることを確認します。
 
 
