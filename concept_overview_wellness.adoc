@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concept_overview_wellness.html 
-keywords: overview, wellness, performance, configuration, renewal, risk, remediation 
-summary: 健全性に関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+summary: 健全性とリスクのタイプに関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。 
 ---
 = 健康を理解する
 :toc: macro
@@ -22,6 +22,27 @@ summary: 健全性に関する情報が表示されます。これは、スト�
 
 image:wellness_workflow.png["健全性ワークフロー"]
 
+健全性ウィジェットには、リスクと、各健全性属性のリスクを軽減するために実施する必要があるアクションに関する情報も表示されます。各リスクのタイプと関連する結果は次のとおりです。
+
+[cols="25,75"]
+|===
+| リスクタイプ | 結果 
+
+
+| 重要 | データ損失、データ破損、クラスタデータの停止、個人の安全性に関する問題、または法的コンプライアンスに関する潜在的な問題。 
+
+
+| 高 | データアクセスが短時間失われるか、ノードの冗長性が長時間失われる。 
+
+
+| 中 | ノードの冗長性が低下したり短期的に失われたりする。 
+
+
+| 低 | 影響の少ないシナリオ 
+
+
+| ベストプラクティス | ドキュメント化されたベストプラクティスとの違い 
+|===
 次のビデオで、健全性の属性の重要性を確認できます。
 
 video::-lTF3oWZB1M[youtube, width=848,height=480]

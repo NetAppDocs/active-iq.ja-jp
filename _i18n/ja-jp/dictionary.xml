@@ -695,7 +695,6 @@
   <block id="d159511cf27ee3a3fa24f2d31ff80434" category="list-text">をクリックします <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">Download * をクリックして、 AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。</block>
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">「 Fix it 」オプションと Ansible Playbook 機能を使用するには、 SupportEdge Advisor または SupportEdge Expert の契約が必要です。</block>
-  <block id="dcd5a48ea7ba4b7ba7cf043b2aeb6638" category="summary">健全性に関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。</block>
   <block id="bda4a48b47a4d90e94b87697e6455bb9" category="doc">健康を理解する</block>
   <block id="e32d42b71acd84e4e8529d6a90c04f3f" category="paragraph">健全性ウィジェットには、ストレージシステムに関する詳細情報が表示されます。パフォーマンスと効率、容量、構成設定、セキュリティ、更新など、ストレージシステムのさまざまな属性に関する情報を提供します。</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健全性ワークフロー</block>
@@ -906,4 +905,16 @@
   <block id="a234330eca66f8c170189efebab23db1" category="list-text">連絡先の詳細を確認します。</block>
   <block id="19f756ea7d458dddec483de6c8fb3ddc" category="list-text">最大 5 つのホスト名をコピーしてチャットに貼り付け、容量追加リクエストを発行します。</block>
   <block id="a40699645a064ce56bb66217612d0bbf" category="paragraph">Keystone - 容量利用率 * ダッシュボードを表示できます。このダッシュボードでは、ウィジェット内のデータを分析し、サブスクライブされているすべてのストレージの容量と使用状況のトレンドをグラフィカルに表示します <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-rx"></block>NetApp Keystone Flex サブスクリプションアカウントに関連付けられている、プレミアム、エクストリーム、標準など。</block>
+  <block id="834e689bebc0737b35009981790fcddc" category="summary">健全性とリスクのタイプに関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。</block>
+  <block id="15d214cfadac5e15f2d227c604756873" category="paragraph">健全性ウィジェットには、リスクと、各健全性属性のリスクを軽減するために実施する必要があるアクションに関する情報も表示されます。各リスクのタイプと関連する結果は次のとおりです。</block>
+  <block id="8a26f5b6df6fd966e5e5f4be5ec0b4ba" category="cell">リスクタイプ</block>
+  <block id="5aad20220e2659425b35295326ac2658" category="cell">結果</block>
+  <block id="278d01e5af56273bae1bb99a98b370cd" category="cell">重要</block>
+  <block id="68fa7bfff8ce78be9cbd246eb41afab3" category="cell">データ損失、データ破損、クラスタデータの停止、個人の安全性に関する問題、または法的コンプライアンスに関する潜在的な問題。</block>
+  <block id="28037ae0dd486449990f163b8d634614" category="cell">データアクセスが短時間失われるか、ノードの冗長性が長時間失われる。</block>
+  <block id="86bccbec674d694a44a874890a3a8185" category="cell">ノードの冗長性が低下したり短期的に失われたりする。</block>
+  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="cell">低</block>
+  <block id="b5e8505881a879de37f6dcea9188eabf" category="cell">影響の少ないシナリオ</block>
+  <block id="39d9903201320a83d45d3b36d512f051" category="cell">ベストプラクティス</block>
+  <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">ドキュメント化されたベストプラクティスとの違い</block>
 </blocks>
