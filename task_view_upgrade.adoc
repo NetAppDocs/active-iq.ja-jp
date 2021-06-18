@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
-keywords: upgrade, current version, benefits 
-summary: ストレージシステムを表示およびアップグレードする方法について説明します。 
+keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
+summary: ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。 
 ---
-= ストレージシステムの ONTAP バージョンをアップグレードします
+= アップグレードプランを生成して ONTAP のバージョンをアップグレードします
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -18,7 +18,7 @@ summary: ストレージシステムを表示およびアップグレードす�
 
 
 [role="lead"]
-ストレージシステムの保留中のアップグレードを表示して、新しいバージョンの ONTAP にアップグレードできます。
+アップグレードプランを生成すると、ストレージシステムの保留中のアップグレードを表示したり、 ONTAP を新しいバージョンにアップグレードしたりできます。また、リスクのリストは、アップグレードによって軽減されるリスクアドバイザ * タブで確認する必要があります。
 
 .手順
 . ダッシュボードで、アップグレード待ちの状態を * アップグレード * ウィジェットで確認します。

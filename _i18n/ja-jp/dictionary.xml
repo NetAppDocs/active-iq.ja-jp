@@ -41,13 +41,10 @@
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 価値ある分析ウィジェット：サポートケースの数、保留中のソフトウェアアップグレード、 Storage Efficiency による削減量、軽減されたリスクなどに関する情報を表示します。また、ウェルネス属性からのリスク通知も積極的にリストされます。</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">* AutoSupport ： * AutoSupport インスタンスの概要または詳細を表示できます。詳細には、システムの詳細、問題の考えられる原因、推奨される対処方法などが含まれます。</block>
   <block id="315474a8ef79b74899073fc979f12da4" category="inline-link">クラウドマネージャ</block>
-  <block id="c0ef71dd93aa7914acc09312aa7cc5a6" category="list-text">* クラウド対応ワークロード： * ストレージシステム内で利用できるさまざまなタイプのワークロードに関する情報を提供し、クラウド対応のワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。Oracle 、 SAP 、 SAP HANA 、ファイル共有、 SQL 、 SharePoint で実行されているワークロードやボリュームを移動できます。NetApp ® Cloud Volume は、卓越したパフォーマンスと高度なデータ管理機能を提供し、クラウドで最も要件の厳しいアプリケーションを満たします。そのため、ワークロードやボリュームをクラウドに移行する際に役立ちます。NetApp ® Cloud Volume の使用方法の詳細については、を参照してください <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-rx"></block> ドキュメント</block>
   <block id="60765e03124dbe237199057ad89d6f43" category="list-text">* クイックリンク： * Active IQ デジタルアドバイザを使用して起動できるアプリケーションのリストを提供します。</block>
-  <block id="f654044e5e00be527fe6c0a171c4744e" category="list-text">* Cluster Viewer ： * を使用すると、物理構成と論理構成の詳細情報を確認できます。これらの詳細情報は、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する情報を示すスタック図、およびケーブルの可視化など、複数のタブにまたがるいくつかのわかりやすい表に記載されています。SVG 形式のケーブル視覚化グラフィックをダウンロードすることもできます。</block>
   <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">* API サービス： * 関心のあるデータを抽出し、会社のワークフローに直接統合できます。</block>
   <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">* AutoSupport アップロード： ONTAP および E シリーズシステムの不具合や問題を分析できます。問題のレビューと修正は、サポートサイトの担当者が手動で行います。</block>
   <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">* 検索： * 顧客名、シリアル番号、クラスタ、サイト名、グループ名、ホスト名など、さまざまなカテゴリに基づいてシステムを検索できます。</block>
-  <block id="6511d933f6c09201b521578ffed27fa0" category="list-text">* お客様： * お客様のインストールベースを表示および管理できます。お客様ダッシュボードは、 Active IQ の中央ポータルです。</block>
   <block id="18679057e5312924c976a6bd4b05d9ed" category="list-text">* クラスタ： * ONTAP クラスタに関する情報を提供します。ダッシュボードには、健常性、容量、 Storage Efficiency 、パフォーマンスに関する分析情報も統合されています。</block>
   <block id="ad2084b929b7ea214a5005875f3f854d" category="list-text">* シリアル番号： * お客様に割り当てられているシリアル番号に関する情報を提供します。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
@@ -289,7 +286,6 @@
   <block id="03041e77791b46597451cb59f807f539" category="paragraph">この更新プログラムには、次の新機能、拡張機能、および変更が含まれています。</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
   <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">StorageGRID ダッシュボードは、 NextGen API フレームワークを使用して有効にします。</block>
-  <block id="dbdde4b93fcdc75be3a204d5356e5ac2" category="paragraph">監視リスト、お客様、グループ、サイトレベルの情報を表示するには、 StorageGRID ダッシュボードを使用します。</block>
   <block id="28218bb56d995c803dfa66937720289f" category="paragraph">このリリースには、次の機能があります。</block>
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">* インベントリウィジェット： * 選択したレベルで利用可能な StorageGRID システムのインベントリを表示します。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">* ウェルネスウィジェット： * 使用可能なシステムの既存の ARS ルールに基づいて適用される場合は、 StorageGRID に関連するリスクとアクションを含め、すべてのリスクとアクションを表示します。</block>
@@ -446,9 +442,7 @@
   <block id="61daef84b21528e38c95c105f2e1c1ad" category="list-text">ヘルスチェック評価ダッシュボードで、 * サポートおよびエンタイトルメント * ウィジェットをクリックします。</block>
   <block id="195a1e51a63db10df6d13350df648daf" category="list-text">ご使用のシステムサポート契約のいずれかが期限切れになっているか、または有効期限が近づいている場合は、 * Active Support Contracts * ウィジェットをクリックします。</block>
   <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">選択したシステムの更新プロセスを開始するには、チェックボックスをオンにし、 * 更新 * をクリックします。</block>
-  <block id="27f07c2b949826ab7f0303577b6655b5" category="summary">ストレージシステムを表示およびアップグレードする方法について説明します。</block>
   <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="doc">ストレージシステムの ONTAP バージョンをアップグレードします</block>
-  <block id="5c3e093c12585377957b31f6db043996" category="paragraph">ストレージシステムの保留中のアップグレードを表示して、新しいバージョンの ONTAP にアップグレードできます。</block>
   <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">ダッシュボードで、アップグレード待ちの状態を * アップグレード * ウィジェットで確認します。</block>
   <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">[Number of * Actions] * をクリックすると、保留中のアップグレードが表示されます。</block>
   <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">必要なアップグレードオプションを選択します。</block>
@@ -805,7 +799,6 @@
   <block id="11ede7bd0ace739f3b91781a9ab554d5" category="paragraph">監視リストは、 Active IQ デジタルアドバイザ内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは 50 個まで作成でき、各監視リストにはカテゴリごとに最大 15 、 000 個のシステム、シリアル番号ごとに最大 500 個のシステムを含めることができます。</block>
   <block id="84f698fa2ff5c75d0cfb42c5093b40e1" category="paragraph">Active IQ デジタルアドバイザに初めてアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、 StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステム ID 。</block>
   <block id="e88ec3f6fa36ea31fdc1642a2265daee" category="paragraph">Active IQ デジタルアドバイザの使用を開始するにあたっては、 Active IQ デジタルアドバイザ全体に表示される基本的な用語を理解しておくことが重要です。</block>
-  <block id="1b9960bdf058ded004770c875045fbe3" category="list-text">* ダッシュボード： * 監視リスト内のシステムの全体的なステータスが表示されます。</block>
   <block id="7e4e0b857c6e143cfb082c8bb0ab61cd" category="section-title">監視リストの編集には 60 分かかる場合があります Active IQ デジタルアドバイザ</block>
   <block id="ae68b6ce5c029662d6b5aaeadce82376" category="paragraph">監視リストを編集しても、 Active IQ デジタルアドバイザの情報はすぐには更新されません。変更が Active IQ デジタルアドバイザに反映されるまでに、最大 60 分かかる場合があります。</block>
   <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">レポートのスケジュール設定中に空のレポートが表示されます</block>
@@ -917,4 +910,24 @@
   <block id="b5e8505881a879de37f6dcea9188eabf" category="cell">影響の少ないシナリオ</block>
   <block id="39d9903201320a83d45d3b36d512f051" category="cell">ベストプラクティス</block>
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">ドキュメント化されたベストプラクティスとの違い</block>
+  <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* ウェルネスダッシュボード： * ウォッチリスト内のシステムの全体的なステータスが表示されます。</block>
+  <block id="7f866e98d50d2b5a636e0419f858c5db" category="list-text">* クラウド対応ワークロード： * ストレージシステム内で利用できるさまざまなタイプのワークロードに関する情報を提供し、クラウド対応のワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。Oracle 、 SAP 、 SAP HANA 、ファイル共有、 SQL 、 SharePoint で実行されているワークロードやボリュームを移動できます。NetApp ® Cloud Volume は、卓越したパフォーマンスと高度なデータ管理機能を提供し、クラウドで最も要件の厳しいアプリケーションを満たします。そのため、ワークロードやボリュームをクラウドに移行する際に役立ちます。NetApp ® Cloud Volume の使用方法の詳細については、を参照してください <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-rx"></block> ドキュメント</block>
+  <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">* Cluster Viewer ： * を使用すると、物理構成と論理構成の詳細情報を確認できます。これらの詳細情報は、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する情報を示すスタック図、およびケーブルの可視化など、複数のタブにまたがるいくつかのわかりやすい表に記載されています。SVG 形式のケーブル視覚エフェクトグラフィックをダウンロードすることもできます。</block>
+  <block id="0a51f957e738efd6c9df7534834bede6" category="list-text">* お客様： * お客様のインストールベースを表示および管理できます。お客様ダッシュボードは、 Active IQ の中央ポータルです。</block>
+  <block id="499ac45a8abad3e414323681b6865993" category="section-title">2021 年 6 月 17 日</block>
+  <block id="726b79341207e0305865ddd07bd220e5" category="paragraph">Storage VM 内のすべてのボリュームについて、曜日、週、または月に応じてアグリゲートボリュームのパフォーマンスレポートを生成できるようになりました。</block>
+  <block id="57f3de4c026e78c595235fda67e74088" category="section-title">健全性確認の E メールです</block>
+  <block id="804abf6ff56cc508e60ea3b78aeebd9a" category="paragraph">健全性レビューの E メールに、健全性チェックとアップグレード操作のサポートと権限に関する情報が記載されるようになりました。</block>
+  <block id="11be918415b47960a3e622906e9b1142" category="list-text">ユーザインターフェイスが強化され、情報の表形式が表示されるようになりました。</block>
+  <block id="ac2b13c9e8ac3e212fb8de487c09ccf0" category="list-text">ONTAP バージョンのサポート終了に関する情報を ［ アップグレードの詳細 ］ 画面で確認できるようになりました。</block>
+  <block id="b6679b1c6146963df7846e6abe20fb56" category="list-text">Config Drift が 200 以上の AutoSupport セクションをサポートするようになりました。これにより、ゴールデンテンプレートの作成と、顧客、サイト、グループ、監視リスト、クラスタ、 および host です。</block>
+  <block id="23c2940abe14c5f014c90d156a3d6aa7" category="list-text">設定のずれを使用すると、設定のドリフトレポートのペイロードに含まれる Ansible の Playbook を使用して、違いを軽減できます。</block>
+  <block id="f0c585be3e148a88aca493209f19efe0" category="section-title">健全性チェックの評価</block>
+  <block id="709097c77412d5597cf70b901f0b3daa" category="paragraph">この機能が強化され、 Storage VM （ SVM ）と事前定義されたリスクカタログを比較してギャップを評価し、関連する対処方法を推奨できるようになりました。</block>
+  <block id="987fe606ef6419240a7e3345ba0c565f" category="section-title">2021 年 6 月 9 日</block>
+  <block id="127323a89ba6c119956db62c18e991a8" category="paragraph">ヘルススコアが計算されたシステムの数を表示できるようになりました。この拡張機能は、ヘルスチェック評価ダッシュボードのすべての属性に適用されます</block>
+  <block id="d7bc8a5613552d326ad02be20ff346df" category="paragraph">監視リスト、お客様、グループ、サイトの各レベルで情報を表示するには、 StorageGRID ダッシュボードを使用します。</block>
+  <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。</block>
+  <block id="d6917a390639e0a267939dc55858c685" category="doc">アップグレードプランを生成して ONTAP のバージョンをアップグレードします</block>
+  <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">アップグレードプランを生成すると、ストレージシステムの保留中のアップグレードを表示したり、 ONTAP を新しいバージョンにアップグレードしたりできます。また、リスクのリストは、アップグレードによって軽減されるリスクアドバイザ * タブで確認する必要があります。</block>
 </blocks>
