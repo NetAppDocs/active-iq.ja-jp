@@ -217,8 +217,6 @@
   <block id="2a62fcf3dfdf1f3122aec1cad5dca21f" category="paragraph">フィードバックや質問をするには、 mailto ： ng-activeiq-feedback@netapp.com [[[.underline] #ng-activeiq-feedback@netapp.com まで E メールを送信してください。</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">に、設定ドリフト機能の概要を示します</block>
   <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">構成の偏差を把握する</block>
-  <block id="3f6b50bf0ef406f398fb3b38d1f412a4" category="paragraph">Config Drift 機能は、システムの構成偏差をプロアクティブに特定するのに役立ちます。システム構成またはクラスタ構成を、 AutoSupport データを生成するシステムを使用して作成したテンプレートとオンデマンドで比較できます。</block>
-  <block id="a294c9edca88b119fce35b47db54d58f" category="paragraph">集合知に基づくテンプレートやその他のオプションが今後のリリースで追加される予定です。</block>
   <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">次の図を参考に、設定の違いを特定してレポートを生成するワークフローを把握してください。</block>
   <block id="ae388a363ae9fad14e8ddbb635cf11a9" category="inline-image-macro">ドリフトの設定ワークフロー</block>
   <block id="bd7c8ab041a2ad665bf462b1a7a3644f" category="paragraph"><block ref="bd7c8ab041a2ad665bf462b1a7a3644f" category="inline-image-macro-rx" type="image"></block></block>
@@ -290,7 +288,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">* インベントリウィジェット： * 選択したレベルで利用可能な StorageGRID システムのインベントリを表示します。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">* ウェルネスウィジェット： * 使用可能なシステムの既存の ARS ルールに基づいて適用される場合は、 StorageGRID に関連するリスクとアクションを含め、すべてのリスクとアクションを表示します。</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">* 計画ウィジェット： *</block>
-  <block id="970813caff1ceef36f2718067edf47b0" category="list-text">* 容量の追加：既存の容量のしきい値の 70% を超えているグリッドサイトには通知が送信されます。容量のしきい値が 70% を超える可能性がある場合は、サイトのストレージグリッドの容量を 1 、 3 、 6 カ月間追加できます。</block>
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">* 契約更新： * ライセンス契約が期限切れになっている、または今後 6 カ月以内に期限が近づいている StorageGRID システムについては、通知が届きます。1 つ以上のシステムを選択して、ネットアップサポートチームに契約更新を申請することができます。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">* グリッドダッシュボード： * グリッドダッシュボードには、選択したグリッドに対する健全性、計画、設定の詳細が表示されます。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">* 構成ウィジェット： * ウィジェットで選択した StorageGRID の基本的な詳細情報を表示します。これには、グリッド名、ホスト名、シリアル番号、モデル、 OS バージョン、お客様名、配送先、連絡先情報などが含まれます。</block>
@@ -298,7 +295,6 @@
   <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* グリッドサマリ： * 基本情報が含まれます。たとえば、ライセンスタイプ、ライセンス容量、インストールされているノードの数、サポート期間（ライセンス契約終了日）、プライマリ管理ノード、プライマリ管理ノードのプライマリサイトなどです。このタブには、サイト名、および対応するサイトでタグ付けされているストレージノードの数も表示されます。このリリースでは、対応するサイトのストレージノードを表示するためのハイパーリンクをクリックすると、ノード名のリストが表示されます。</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">* Capacity Details タブ：グリッドに対して設定された Grid レベルとサイトの容量の詳細が表示されます。インストールされているストレージ容量、使用可能なストレージ容量、合計使用済みストレージ容量、データとメタデータに使用されている容量など、容量の詳細。これらの詳細は、グリッドレベルとサイトレベルの両方で確認できます。</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">FabricPool アドバイザー</block>
-  <block id="caa65c337fc466e00adcb16a53fa8b87" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、 NetApp ® Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">クラウド対応ワークロード</block>
   <block id="b07b6b80fae4b5c609f71c937ae1f913" category="paragraph">ストレージシステム内で使用可能なさまざまなタイプのワークロードを表示して、クラウド対応のワークロードを特定できます。</block>
   <block id="e68cf4e683901ace045287e72cebd33c" category="section-title">2020 年 12 月 21 日</block>
@@ -750,7 +746,6 @@
   <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">Python と Ansible をインストールし、 PIP を使用して Python パッケージをダウンロードします。</block>
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">NetApp Ansible Collection をインストールします。</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">Ansible Playbook とインベントリファイルが同じパスにあることを確認し、 Ansible Playbook を実行してください。ファームウェアの更新は数時間バックグラウンドで実行されます。</block>
-  <block id="4ec6a95192d18718a540794417c8fa63" category="sidebar">NetApp Active IQ デジタルアドバイザ</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
@@ -922,12 +917,19 @@
   <block id="ac2b13c9e8ac3e212fb8de487c09ccf0" category="list-text">ONTAP バージョンのサポート終了に関する情報を ［ アップグレードの詳細 ］ 画面で確認できるようになりました。</block>
   <block id="b6679b1c6146963df7846e6abe20fb56" category="list-text">Config Drift が 200 以上の AutoSupport セクションをサポートするようになりました。これにより、ゴールデンテンプレートの作成と、顧客、サイト、グループ、監視リスト、クラスタ、 および host です。</block>
   <block id="23c2940abe14c5f014c90d156a3d6aa7" category="list-text">設定のずれを使用すると、設定のドリフトレポートのペイロードに含まれる Ansible の Playbook を使用して、違いを軽減できます。</block>
-  <block id="f0c585be3e148a88aca493209f19efe0" category="section-title">健全性チェックの評価</block>
   <block id="709097c77412d5597cf70b901f0b3daa" category="paragraph">この機能が強化され、 Storage VM （ SVM ）と事前定義されたリスクカタログを比較してギャップを評価し、関連する対処方法を推奨できるようになりました。</block>
   <block id="987fe606ef6419240a7e3345ba0c565f" category="section-title">2021 年 6 月 9 日</block>
-  <block id="127323a89ba6c119956db62c18e991a8" category="paragraph">ヘルススコアが計算されたシステムの数を表示できるようになりました。この拡張機能は、ヘルスチェック評価ダッシュボードのすべての属性に適用されます</block>
   <block id="d7bc8a5613552d326ad02be20ff346df" category="paragraph">監視リスト、お客様、グループ、サイトの各レベルで情報を表示するには、 StorageGRID ダッシュボードを使用します。</block>
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。</block>
   <block id="d6917a390639e0a267939dc55858c685" category="doc">アップグレードプランを生成して ONTAP のバージョンをアップグレードします</block>
   <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">アップグレードプランを生成すると、ストレージシステムの保留中のアップグレードを表示したり、 ONTAP を新しいバージョンにアップグレードしたりできます。また、リスクのリストは、アップグレードによって軽減されるリスクアドバイザ * タブで確認する必要があります。</block>
+  <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">Config Drift 機能は、システムテンプレートを「ゴールデン」またはベースシステムテンプレートと比較することで、設定の差異を特定します。毎週または毎月のドリフトレポートをスケジュールしたり、オンデマンドで生成したりできます。設定のドリフトレポートに含まれる Ansible プレイブックを使用して、一部の差異を軽減できます。</block>
+  <block id="00c936ae5068ea9685cb242934d6e619" category="paragraph">この機能は、 Advisor と Expert Support 契約を結んでいるシステムでのみ使用できます。</block>
+  <block id="e5a357b5d9e14c026e56b048d8d30481" category="inline-link-macro">設定ドリフトレポートをダウンロードして表示します</block>
+  <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>。</block>
+  <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">設定のドリフトレポートの一部として含まれる Ansible Playbook を実行し、ドリフトを軽減してください。</block>
+  <block id="15da020a2033d049fff6b4623c2fb97b" category="paragraph">ヘルススコアが計算されたシステムの数を表示できるようになりました。この拡張機能は、ヘルスチェック評価ダッシュボードのすべての属性に適用されます</block>
+  <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量の追加：既存の容量のしきい値の 70% を超えているグリッドサイトには通知が送信されます。容量のしきい値が 70% を超える可能性がある場合は、サイト内の StorageGRID ID に対して今後 1 カ月、 3 カ月、 6 カ月間の容量を追加することもできます。</block>
+  <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、 NetApp Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
+  <block id="9192201bd176d96426465ee8aaf19773" category="sidebar">Active IQ デジタルアドバイザドキュメント</block>
 </blocks>
