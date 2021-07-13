@@ -133,45 +133,32 @@
   <block id="610f90ca909a7ffba0cca7c8587ce0c7" category="list-text">左側のペインで、 [Config Drift *] をクリックします。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">[ テンプレートの追加 ] をクリックします。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">必要な値を指定します。</block>
-  <block id="a64d517222f4032f6011bf2a7ba82600" category="summary">Storage Efficiency に関する FAQ を掲載しています。</block>
-  <block id="9b39bbd876d3d5afcafe2847c17dd5cd" category="section-title">Active IQ Digital Advisor から Storage Efficiency にアクセスする方法を教えてください。</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="inline-link">Active IQ デジタルアドバイザ</block>
   <block id="51b7461ab2221ad6ebc347199d080996" category="list-text">のホームページを開きます <block ref="73cab01bc3ab60831e45f34cd3a02915" category="inline-link-rx"></block>。</block>
   <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">右上の検索ボックスで、お客様、サイト、グループ、クラスタ、またはノードを検索して対応するダッシュボードにアクセスします。</block>
   <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">左側のナビゲーションから * Storage Efficiency * をクリックします。</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">監視リストを使用して作成されたダッシュボードは Storage Efficiency ウィジェットに表示されません。</block>
-  <block id="71b712dd724dc566350e6d57e781acbb" category="section-title">Active IQ デジタルアドバイザは、すべての ONTAP システムの比率を表示しますか？</block>
   <block id="544815dd73a9c77dedc2a33074a1135a" category="paragraph">Active IQ には、 ONTAP 9.1 以降を実行しているシステムの削減比率が表示されます。</block>
-  <block id="803ba9b61eeb75bba33bf1e77b53ac8b" category="section-title">効率化ダッシュボードの「スナップショットなし」チェックボックスとは何ですか？</block>
-  <block id="2ceb0f497b938e645724afb6bd413d7d" category="paragraph">デフォルトでは、 * Active IQ 効率ダッシュボード * は、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルの各ノードレベルで総削減率を計算します。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。</block>
   <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">重複排除</block>
   <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">圧縮</block>
   <block id="14c3c56ff2a98d1a9c47b63a917f67a3" category="list-text">データコンパクション</block>
   <block id="999cc42b236c7aee1157ff02d6f1bcd5" category="list-text">クローン</block>
   <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="list-text">Snapshot</block>
   <block id="659294da8b9c465e6bd99f135b247780" category="paragraph">「 Snapshot なし * 」チェックボックスをオンにすると、 Active IQ デジタルアドバイザは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルで効率性比率（重複排除、圧縮、データコンパクション、クローンの Storage Efficiency テクノロジによる比率）を計算します。</block>
-  <block id="20cd0f14fe8b87baef53f2f557083847" category="section-title">使用されている物理データと使用されている論理データ</block>
-  <block id="2e2152790d83fc567437846ea34659e0" category="list-text">* 使用済み物理ブロック / 使用済み物理データ *</block>
   <block id="eccc5f12f48e88329c29d59f7fb7399f" category="list-text">現在データに使用されているスペースの量 （将来使用するために予約されているのではなく）</block>
   <block id="c299ceefe4739c6609844682b86349c4" category="list-text">アグリゲート Snapshot コピーで使用されているスペースが含まれます</block>
   <block id="fa72b749302bf3b8957c8abf2acf2d82" category="list-text">クライアントによって実際に消費または書き込みされるスペースです</block>
-  <block id="ef29f43524aced6e1720103efc116105" category="list-text">* 使用済み論理データの合計 *</block>
   <block id="522573efa17813e55f87c7cbae5c665d" category="list-text">アグリゲートで使用されている論理サイズが表示されます。</block>
   <block id="76961ec33cf185290a8b0dced033a18b" category="list-text">これには、アグリゲート内のボリューム、クローン、 Snapshot が含まれます。</block>
   <block id="43f302f7ba1d2f90ab1fb1a174f89e61" category="list-text">論理サイズは、物理的な使用量（実際の書き込み）とアグリゲートでの削減量に基づいて計算されます。</block>
   <block id="770b033112d1f3ec483eae3f0376cba5" category="list-text">将来使用するためにリザーブされたスペースは含まれません</block>
-  <block id="f6c1cd15289b8cfc712f9646c1bfd27a" category="section-title">削減比率の計算に使用される AutoSupport インスタンスはどれですか？</block>
   <block id="fbba86bedbedb826e4d49d6634e11a58" category="paragraph">計算は、最新の週次またはユーザトリガー型 AutoSupport インスタンスのいずれかを使用して実行されます。これらのインスタンスには、比率の計算に必要なセクションのほとんどが含まれている傾向があります。</block>
-  <block id="3aa27cb99492ac56eda17e889e08082a" category="section-title">効率性の計算から除外されるボリュームまたはアグリゲートはどれですか？</block>
   <block id="5ddf073dc88b1b1cb693f83408b50169" category="paragraph">次のオブジェクトは、削減比率の計算では考慮されません。</block>
   <block id="fee1bf4ad7d1f9d9f0b5840dbdfc417a" category="list-text">ルートアグリゲート</block>
   <block id="174527e8830337d88ba77cf782633189" category="list-text">ボリュームをオフラインにします</block>
   <block id="872d1e8c2f7648403bbfc1b139c3b484" category="list-text">SVM ルート / 管理ルートボリューム</block>
   <block id="2e3f400b5c42bd491bb0b106dbc41434" category="list-text">MCC 構成ボリューム</block>
-  <block id="fb74638a0ff203a567ae863e098b0afb" category="section-title">削減比率のトレンドはどのようにして確認できますか？</block>
   <block id="5a897b6a1d7a975aff02b4546b892b29" category="paragraph">現在、削減比率は最新の週次またはユーザトリガー型 AutoSupport インスタンスに基づいて計算されます。削減比率のトレンドは今後のリリースで検討される予定です。</block>
-  <block id="7b7be7c7dbcd1c1d40598a7d9a1c625d" category="section-title">お客様レベルの削減比率と削減比率はどのように計算されますか？</block>
-  <block id="06b41bb6c4c659897acf70dc466c6ccd" category="paragraph">お客様レベルの Storage Efficiency ダッシュボードでは、 AFF システムと AFF 以外のシステムの Snapshot コピーの有無にかかわらず、 ONTAP 9.1 以降を実行している * システムのインストールベース全体で効率化を実現できます。次の計算に必要なパラメータは、 ONTAP AutoSupport から取得されます。</block>
   <block id="5104ffb6ada9a72f38b9cfe6696d45ef" category="section-title">Snapshot コピーがない場合（アグリゲートごとに計算）：</block>
   <block id="aee8bfb2d0d5d3e3c92513c62e58c58e" category="cell">* 動作 *</block>
   <block id="fa556b827144248698e8b0105e5108b3" category="cell">* 式 *</block>
@@ -183,38 +170,22 @@
   <block id="f567b2b8924d3eb6ec09c5dc410cbffc" category="cell">すべてのアグリゲートおよびお客様のすべてのノードに対して Snapshot コピーなしで使用されているアグリゲートの合計 / 合計 [ すべてのアグリゲートおよびお客様のすべてのノードに対して Snapshot コピーがないアグリゲートの物理使用済み容量 ] ： 1</block>
   <block id="202ef30b2f3a15d4c82c8b78c06fa753" category="section-title">Snapshot コピーの使用：</block>
   <block id="888f76b18cd7638b969e9ac5eebc981e" category="cell">Snapshot コピーを使用したお客様の論理サイズ</block>
-  <block id="fa04a8c580e3ab5e97adea178677e5a4" category="cell">合計 * [ ボリューム、クローン、 Snapshot コピーのうち、すべてのアグリゲートとお客様のすべてのノードで使用されている論理サイズ ] *</block>
   <block id="ad553b325f74022f6cdb9816eef8e372" category="cell">Snapshot コピーで使用されているお客様の物理サイズ</block>
-  <block id="31a573605a902e8d1f881ed601d6c84b" category="cell">SUM * [ すべてのアグリゲートおよびに使用されている合計物理サイズ お客様のすべてのノード ]*</block>
   <block id="ef57ca9e5d4bfb77cfc6e251d21a1763" category="cell">Snapshot コピーによるお客様の削減比率</block>
   <block id="94ac4db23e5bf0c5c79c132d9e499226" category="cell">Snapshot コピーとクローン / お客様の物理サイズを使用したお客様の論理サイズ： 1</block>
   <block id="504e36e2268a4abc438382c6e58210df" category="section-title">効率化機能テーブルの計算：</block>
   <block id="b12bcb5d643bed309360544737bf24d4" category="cell">お客様の使用済み物理スペース</block>
-  <block id="990051afeb85ffd4be4ad05601c528ea" category="cell">* アグリゲートで使用されている物理スペースの合計 * お客様のすべてのノードのアグリゲートと</block>
   <block id="625abfc517917229cf36b11cf3bdec00" category="cell">Snapshot コピーがない場合のお客様の論理サイズ</block>
-  <block id="782fe1d3d292a98ad5c3bfc1eeddcb53" category="cell">* ボリューム、クローン、 Snapshot コピーに使用されている論理サイズの合計 - Snapshot コピーに使用されている論理サイズ * お客様のすべてのノードのすべてのアグリゲート</block>
   <block id="35861b17dd609cc6e380a872314d8539" category="cell">Snapshot コピーで使用されているお客様の論理サイズ</block>
-  <block id="8cb66e4bbfd9a53dbf9ba38627452e98" category="cell">* お客様の全ノードのアグリゲートを含む、アグリゲート内のボリューム、クローン、 Snapshot コピーに使用されている論理サイズの合計</block>
   <block id="32fe127357a619e7e7f62af1d2f3819c" category="cell">合計削減スペース</block>
   <block id="39769b329c3be86894154b7e697acdb4" category="cell">使用済み論理スペースの合計–使用済み物理スペースの合計</block>
   <block id="755336e4aa89a7752f104b5a608365fc" category="cell">重複排除による削減量</block>
-  <block id="88297e229ea9ffee5c030249b247e7ee" category="cell">重複排除による削減スペースと削減スペースの合計 すべてのアグリゲートのインラインゼロパターン検出 * お客様のノード</block>
   <block id="8a78a23b30fd79b77d26a6d6c4c6c250" category="cell">圧縮による削減量</block>
-  <block id="758a9fca7156b30d8a5912c4ab84c30c" category="cell">各アグリゲートのボリューム圧縮で削減されたスペースの合計 お客様のすべてのノードの</block>
   <block id="08d4c45c5e7b197f80414c4bc9c995db" category="cell">コンパクションによる削減（ ONTAP 9.1 の場合）</block>
-  <block id="df823292cb6066efda919e14492e68ce" category="cell">各アグリゲートのアグリゲートコンパクション * によって削減されたスペースの合計 お客様のすべてのノードの</block>
   <block id="8041e90b5e40701b98194ae34ade011e" category="cell">コンパクションによる削減量（ ONTAP 9.2 以降）</block>
-  <block id="0accf9128bb0d0ee627f09914484664e" category="cell">各のアグリゲートデータ削減率 * で削減されたスペースの合計 お客様のすべてのノードの集合</block>
   <block id="57b49fee86d691b1f71efb03f0ec9eb6" category="cell">FlexClone による削減量</block>
-  <block id="10e8054f38365781356f8aebb7d0e8be" category="cell">合計（ FlexClone ボリューム - 物理容量で使用されている論理サイズ 各アグリゲートのサイズを FlexClone ボリュームで使用） * お客様のノード</block>
   <block id="9eb91200dfeecc085364dc670f2b9143" category="cell">Snapshot コピーによるバックアップ削減量</block>
-  <block id="12aa132bf8f4b8b66f119828c577130e" category="cell">Snapshot コピーによって使用されている論理サイズの合計 - 物理容量 すべてのアグリゲートのサイズ） * お客様のノード</block>
-  <block id="f7bff3ed78aff9965adf712c997b2bef" category="section-title">Storage Efficiency による削減効果がすべて合計されず、 Storage Efficiency による削減効果が合計されるのはなぜですか。</block>
-  <block id="490cde9d22d973d579bea3d37b92db6d" category="paragraph">Storage Efficiency による削減効果は、ボリュームとローカル階層（アグリゲート）の Storage Efficiency ダッシュボード * に表示されます。ボリューム削減とアグリゲート削減の両方が異なるストレージオブジェクトで発生するため、これらの両方を追加することはできません。</block>
-  <block id="d1343503e46bd8b720a1a49e987d0099" category="section-title">ONTAP にアップグレードする前に Storage Efficiency が正しく報告されなかったのはなぜですか。</block>
   <block id="cc1aa2ce993d9bbdac08a80d2c73290b" category="paragraph">ONTAP のバグが原因でノードにデータ保護ボリュームが存在する場合、ストレージ効率はこれよりも高くなります。この問題は ONTAP 9.3P11 で修正されています。ONTAP 9.3P11 より前のバージョンからアップグレードした場合とデータ保護ボリュームがノードに存在する場合は、 Storage Efficiency レポートで正しい値または小さい値が報告されます。</block>
-  <block id="0a1bcade4e3742a8609b0efc539e7501" category="section-title">Storage Efficiency に関するフィードバックの送信やその他の質問を行うにはどうすればよいですか？</block>
-  <block id="2a62fcf3dfdf1f3122aec1cad5dca21f" category="paragraph">フィードバックや質問をするには、 mailto ： ng-activeiq-feedback@netapp.com [[[.underline] #ng-activeiq-feedback@netapp.com まで E メールを送信してください。</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">に、設定ドリフト機能の概要を示します</block>
   <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">構成の偏差を把握する</block>
   <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">次の図を参考に、設定の違いを特定してレポートを生成するワークフローを把握してください。</block>
@@ -690,9 +661,6 @@
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健全性ワークフロー</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">次のビデオで、健全性の属性の重要性を確認できます。</block>
-  <block id="dc7e15274ef89f58aacc5a9586b633fe" category="summary">容量に関する FAQ に回答します。</block>
-  <block id="d935e86346aa5ca30c714f3c7faa482c" category="section-title">Active IQ Digital Advisor では容量はどのように計算されますか？</block>
-  <block id="ec376b8f46f910b9819054183e14372f" category="paragraph">Active IQ デジタルアドバイザの容量は、ルートおよび Snapshot コピーを除くクラスタとノードについて計算されます</block>
   <block id="97b94c75518b90d30aeab5f6ccdd903e" category="cell">* 容量 *</block>
   <block id="2c132960410953edab40f07fdeedf275" category="cell">* 各アグリゲートを追加して計算 *</block>
   <block id="e09dc7945acb6ec6caf41c962f679916" category="cell">物理容量</block>
@@ -717,20 +685,12 @@
   <block id="b33d54bb708c74cc416bf123ae545639" category="cell">使用可能な「 volume-xml 」サイズ</block>
   <block id="e8033cbde923aa19e823cc81296cb836" category="cell">「 vol status -S 」の物理的使用量の合計</block>
   <block id="fdb37ac8fa68749263ace18445e10547" category="cell">使用済みの論理サイズ「 volume.xml 」</block>
-  <block id="9670a7001fe0759eb513b60075a7ec6e" category="section-title">物理容量（実際）、論理容量（実効）、使用容量（リザーブあり）とは何ですか？</block>
-  <block id="e7a53bcc83a0c788afbe6e8b3c8d3cb0" category="list-text">* 使用済み物理ブロック / 使用済み物理容量（実際） *</block>
   <block id="9f949105f5563a86c9335097398679a2" category="list-text">クライアントによって実際に消費または書き込みされたスペース</block>
-  <block id="bef1cdfff57bb62d75f134cedd004814" category="list-text">* 論理容量（実効）使用済み論理データ *</block>
   <block id="2f5b8aad51a721e7769a29a26b16a760" category="list-text">アグリゲートで使用されている論理サイズが表示されます</block>
   <block id="e02b370212cb3372e44be273e3f9dd04" category="list-text">アグリゲートには、ボリューム、クローン、および Snapshot コピーが表示されます。</block>
   <block id="c1430459f384e529728a1369a5ad1347" category="admonition">あとで使用できるようにリザーブされているスペースは含まれません。</block>
-  <block id="466473fcbf70d4d5770c74dcba710d48" category="list-text">* 使用済みデータの合計 / 使用済み容量（リザーブあり） *</block>
   <block id="f220560d0803053aa622dc91a4c63fc2" category="list-text">ボリューム、メタデータ、または Snapshot コピー用に使用またはリザーブされているアグリゲート内のスペースの合計</block>
   <block id="004016a613c0ec93cc34b1dd36fd4bfc" category="admonition">file または volume ギャランティタイプのボリューム用にリザーブされているスペースも含まれます。これには、予約に加えて、遅延解放、 aggr ブログ、メタデータも含まれます。遅延解放ブロックがパージされるまで使用済みスペースとして表示されます。パージすると、使用済みスペースが減少します。</block>
-  <block id="3075953c8ef43302a8ac8313dc19844d" category="section-title">各ボリュームの追加された使用済み容量がノードレベルのアグリゲートの使用容量と一致しないのはなぜですか？</block>
-  <block id="51928213bce5e5e20652d64283463569" category="paragraph">ノードレベルの使用容量には、ボリューム、メタデータ、および Snapshot コピーによってリザーブされているスペースが含まれます。また、ボリューム用にリザーブされているスペース（ file タイプまたは volume ギャランティタイプ）も含まれます。そのため、両方が一致しない可能性があります。</block>
-  <block id="27eeb4f5c20cd665700867a732167260" category="section-title">容量は Active IQ デジタルアドバイザベース 2 または 10 進数に表示されていますか？</block>
-  <block id="16139f30f709089fb2a2a07c0e3a22a1" category="paragraph">Active IQ に表示されるすべての容量は、 2 進数（ 1024 で除算した値）で、 GiB / TiB 単位で表されます。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">StorageGRID の場合、容量は 10 進数で表示され、容量の単位は TB で表されます。</block>
   <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">Ansible Playbook を使用して、ファームウェアの更新プログラムをインストール、実行する方法について説明しています。</block>
   <block id="c8cc6f58456eb3a7923573bb5d9a8b03" category="doc">AFF ファームウェアと FAS ファームウェアの Ansible Automation パッケージをインストールして実行します （経験豊富なユーザ）</block>
@@ -776,12 +736,10 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">API にアクセスするためのトークンを生成します</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">よくある質問</block>
   <block id="d254861f20bb59d58db872722e57ba9c" category="sidebar">通知</block>
-  <block id="814f8bccd8aac6da990e8e928df84070" category="doc">Storage Efficiency に関する FAQ</block>
   <block id="74f76d1c2d2305520a0c63bdfa4d1828" category="paragraph">新機能と拡張機能は次のとおりです。</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* グリッドビューア： * 環境設定 * ウィジェットから * グリッドビューア * リンクをクリックすると、グリッド設定を詳細に表示できます。構成 * ウィジェットから、選択した StorageGRID のサイトの詳細と容量の詳細をダウンロードするには、 * グリッドビューア * 画面で * ダウンロード * ボタンをクリックします。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link">FabricPool のベストプラクティス</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">FabricPool の詳細については、を参照してください <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-rx"></block>。</block>
-  <block id="ebe7bb5a5b6b2a5b97e6a3a52f2d3ed6" category="doc">容量に関する FAQ</block>
   <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">オプション：「 * Edit * 」をクリックしてテンプレートを編集します。</block>
   <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">構成ドリフトレポートを生成します</block>
   <block id="d998ded6956eac23bfe161c9afe0ea0e" category="list-text">カテゴリを選択し、レポートに必要な値を指定します。</block>
@@ -932,4 +890,69 @@
   <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量の追加：既存の容量のしきい値の 70% を超えているグリッドサイトには通知が送信されます。容量のしきい値が 70% を超える可能性がある場合は、サイト内の StorageGRID ID に対して今後 1 カ月、 3 カ月、 6 カ月間の容量を追加することもできます。</block>
   <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、 NetApp Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
   <block id="9192201bd176d96426465ee8aaf19773" category="sidebar">Active IQ デジタルアドバイザドキュメント</block>
+  <block id="37adb256aff16968048142b85e04d7cc" category="list-text">* システム・ファームウェア： ONTAP の各メジャー・バージョンおよびパッチ・バージョンとともに出荷されたシステム・ファームウェアに関する情報を表示できます。</block>
+  <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">2021 年 7 月 12 日</block>
+  <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">システムファームウェア</block>
+  <block id="18f3c6e410315e65fda0ade6fb1eb520" category="paragraph">ONTAP のメジャーバージョンおよびパッチバージョンと一緒に出荷されたシステムファームウェアに関する情報を確認できるようになりました。この機能には、 [ クイックリンク ] メニューからアクセスできます。</block>
+  <block id="2e6276e69ded861b20ecfa19303091d4" category="section-title">健全性チェックのダッシュボード</block>
+  <block id="26db7511cb508f017d3895c34683014b" category="list-text">健全性チェックのダッシュボードが強化され、 SupportEdge Advisor でサポートされないシステムについては青のバナーがユーザに表示されるようになりました。また、 SupportEdge Expert は健全性スコアの計算時に考慮されません。</block>
+  <block id="a097fce76ab040d673bff883e300bb1b" category="list-text">推奨される構成ウィジェットが拡張され、 Storage VM （ SVM ）で失敗したチェックの詳細な分析ができるようになりました。また、リスクごとに推奨される対処方法を確認できます。</block>
+  <block id="03f3109a0c0bb83b15258634e3f61278" category="list-text">クラスタ内のすべてのノードで、異なるハードウェアモデルを使用して構成された推奨ターゲットの ONTAP バージョンが同じになりました。ターゲットのバージョンはすべてのノードでサポートされます。</block>
+  <block id="d3c1f787ff63a25609fa946fe06088e0" category="list-text">コントローラ、ディスク、シェルフの EOS タイムラインを PVR で購入できるようになりました。購入した PVR の日付と延長期間の詳細は、サポート終了ウィジェットで確認できます。PVR の詳細も EOSL レポートの一部として提供されます。</block>
+  <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">詳細なインベントリページでは、ハードウェア、ソフトウェア、および返却できないディスクに関するサポート契約の終了日を確認できます。</block>
+  <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">サポートサービスのアップグレード</block>
+  <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">ユーザインターフェイスが強化され、 Active IQ で登録している特定のサポートサービスが表示されるようになりました。</block>
+  <block id="d3a9727234af152105cdd13aca8cdb44" category="list-text">システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
+  <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ に関するよくある質問です</block>
+  <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下の質問をお寄せください。 Active IQ に関するよくあるお問い合わせをご確認ください。</block>
+  <block id="7691783e728154cfd247db3c648a5bec" category="paragraph">* 非技術的な切符は何であるか。 *</block>
+  <block id="fd75489624aa71b06ede6f9e50df5b79" category="paragraph">在庫にシステムを表示できない、契約期間の日付が正しくないなど、技術的でない問題は技術的なチケットに分類されます。</block>
+  <block id="6f6fae25c4cfb0620b7126c4acb04bf0" category="paragraph">* 非技術的な切符を作成する必要があるのはいつですか。 *</block>
+  <block id="a129491cd9d78f1af21efbf72dbcb166" category="paragraph">次の場合は、テクニカルチケット以外を作成する必要があります。</block>
+  <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">特定の機能にアクセスできません</block>
+  <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">インベントリにシステムがありません</block>
+  <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">インストールベースからのシステムの運用停止</block>
+  <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">契約期間の日付が正しくないか、不足しています</block>
+  <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">サポート内容が正しくありません</block>
+  <block id="3af6a00e0adb666105fa519430ffd788" category="paragraph">* テクニカルサポート以外のチケットを作成するにはどうすればよいですか。 *</block>
+  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">をクリックします <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> ネットアップサポートサイトで「 Non-Technical Feedback Tool 」を開きます。</block>
+  <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">[ フィードバックカテゴリ *] ドロップダウンリストから適切なカテゴリを選択します。</block>
+  <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">必要な詳細情報を入力し、 [Comments] ボックスに追加情報を入力します。</block>
+  <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">ケースが作成され、リファレンスのケース番号が提供されます。</block>
+  <block id="1ded387253a93d29755ab2ca1074fbd1" category="paragraph">* Active IQ に関するフィードバックやその他の質問をするにはどうすればよいですか。 *</block>
+  <block id="ac028435b37412dea24f9b1040cc0dc4" category="paragraph">フィードバックや質問をするには、 mailto ： ng-activeiq-feedback@netapp.com [[[.underline] #ng-activeiq-feedback@netapp.com まで E メールを送信してください。</block>
+  <block id="01068fe2a9465b605eb4727d6748f0b0" category="paragraph">* Active IQ Digital Advisor から Storage Efficiency にアクセスする方法を教えてください。 *</block>
+  <block id="1a056f8c1beedb684724e6b0601b069c" category="paragraph">* Active IQ デジタルアドバイザは、すべての ONTAP システムの比率を表示しますか。 *</block>
+  <block id="43208ae3669e6064ac8131ae950695db" category="paragraph">* 効率化ダッシュボードの「スナップショットなし」チェックボックスとは何ですか。 *</block>
+  <block id="677a526a7915d620261f7e6e60e75fac" category="paragraph">デフォルトでは、 Active IQ 効率化ダッシュボードによって、お客様レベル、サイトレベル、グループレベル、クラスタレベル、およびノードレベルの総削減率が計算されます。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。</block>
+  <block id="4607346b33eee4e6a2891bed9f7bd75f" category="paragraph">* 使用されている物理データと論理データは何ですか。 *</block>
+  <block id="fa23175e7bcd622e3124ac47ad2ac225" category="list-text">使用済み物理ブロック / 使用済み物理データ</block>
+  <block id="de71714b6d790e6f2a901c6c63045604" category="list-text">使用済み論理データの合計</block>
+  <block id="49c331c7fa45c3fcea9db4e6d895aaf5" category="paragraph">* 削減比率の計算に使用される AutoSupport インスタンスはどれですか。 *</block>
+  <block id="77b1b6d5c5c968f271dcbd4564de5557" category="paragraph">* 効率性の計算から除外するボリュームまたはアグリゲートはどれですか？ *</block>
+  <block id="bf1367a73102c14a530a9d3b4b8d7e32" category="paragraph">* 削減比率の傾向はどのようにして確認できますか。 *</block>
+  <block id="31ad53a8969261984454352088ceee13" category="paragraph">* お客様レベルの削減比率と削減効果はどのように計算されていますか。 *</block>
+  <block id="8b07e9c9dfe78ebf6417b7e46aa9a8cb" category="paragraph">お客様レベルの Storage Efficiency ダッシュボードでは、 AFF システムと AFF 以外のシステムの Snapshot コピーの有無にかかわらず、 ONTAP 9.1 以降を実行するシステムのインストールベース全体で効率化の効果が得られます。次の計算に必要なパラメータは、 ONTAP AutoSupport から取得されます。</block>
+  <block id="5e172371942a821fe719bb9927e028ac" category="cell">合計 [ ボリューム、クローン、 Snapshot コピーによるすべてのアグリゲートの使用済み論理サイズとお客様のすべてのノードの使用済み論理サイズ ]</block>
+  <block id="caac557a2f6913ad1dc30764cebdcb51" category="cell">合計 [ お客様のすべてのアグリゲートおよびノードの合計使用済み物理サイズ ]</block>
+  <block id="d27940afaa3670698836aa97aaaf5284" category="cell">お客様のすべてのアグリゲートおよびすべてのノードについてアグリゲートで使用されている物理スペースの合計</block>
+  <block id="cac9b390967d1a57de89a94a58768553" category="cell">ボリューム、クローン、 Snapshot コピーによる使用済み論理サイズの合計 - お客様のすべてのノードのすべてのアグリゲートの Snapshot コピーに使用されている論理サイズ</block>
+  <block id="f4c53520bd67a034cfda9f5ab6850807" category="cell">お客様のすべてのノードのすべてのアグリゲートに対する、アグリゲート内のボリューム、クローン、 Snapshot コピーによる使用済み論理サイズの合計</block>
+  <block id="6d5145b44af8f83cad3a06be23c01bf0" category="cell">お客様のすべてのノードの各アグリゲートをインラインゼロパターン検出で削減した、ボリューム重複排除による削減スペースの合計</block>
+  <block id="a2669e6da9e376c46aca3cf4e89b013a" category="cell">お客様のすべてのノードの各アグリゲートのボリューム圧縮で削減されたスペースの合計</block>
+  <block id="af9b35e9306bf26cb8e0020d360bd317" category="cell">お客様のすべてのノードのアグリゲートコンパクションで削減されたスペースの合計</block>
+  <block id="f993bf4d6ca0d3b79d12f8965352feb2" category="cell">お客様のすべてのノードのアグリゲートデータ削減量で削減されたスペースの合計</block>
+  <block id="0399cea9f76ca035b776ca55a99908ef" category="cell">お客様のすべてのノードの各アグリゲートの合計（ FlexClone ボリュームの使用済み論理サイズ - FlexClone ボリュームの使用済み物理サイズ）</block>
+  <block id="1f5c59c0f85bb3e3a1746576ff27a1f2" category="cell">お客様のすべてのノードのすべてのアグリゲートの合計（ Snapshot コピーで使用されている論理サイズ - Snapshot コピーで使用されている物理サイズ）</block>
+  <block id="f6d08cceacd60dbc06c4e68a2ce51a1d" category="paragraph">* 効率化による削減効果がすべて合計されないのはなぜですか？ *</block>
+  <block id="8a028433114d8c1b4462b443e6a61ff2" category="paragraph">Storage Efficiency による削減効果は、ボリュームおよびローカル階層（アグリゲート）の Storage Efficiency ダッシュボードに表示されます。ボリューム削減とアグリゲート削減の両方が異なるストレージオブジェクトで発生するため、これらの両方を追加することはできません。</block>
+  <block id="5fc0bed0c4e94cabaa1690a7b1cc57bc" category="paragraph">* ONTAP にアップグレードする前に Storage Efficiency がレポートされたのはなぜですか。 *</block>
+  <block id="3b30da6e59750752fba75398273933ea" category="paragraph">* Active IQ デジタルアドバイザの容量はどのように計算されていますか？ * Active IQ デジタルアドバイザの容量は、ルートを除くクラスタとノードを対象に計算されています</block>
+  <block id="64e47ccdb67c7b45896bb9a787a2786d" category="paragraph">* 物理容量（実際）、論理容量（実効）、使用容量（リザーブあり）とは何ですか？ *</block>
+  <block id="1448ed2e9691c778e30c89c96cf71c8f" category="list-text">使用済み物理ブロック / 使用済み物理容量（実際）</block>
+  <block id="9132eec7c7956d6b79d64f13ce5ce15e" category="list-text">使用済み論理容量（実効）</block>
+  <block id="acf8af6ea046a9190f032ee604a25ac1" category="list-text">合計使用済みデータ / 使用済み容量（リザーブあり）</block>
+  <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">* 追加した各ボリュームの使用容量がノードレベルのアグリゲートの使用容量と一致しないのはなぜですか？ * ノードレベルの使用容量には、ボリューム、メタデータ、および Snapshot コピー用にリザーブされたスペースが含まれます。また、ボリューム用にリザーブされているスペース（ file タイプまたは volume ギャランティタイプ）も含まれます。そのため、両方が一致しない可能性があります。</block>
+  <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">* Active IQ デジタルアドバイザの 2 進数または 10 進数で示されている容量 * Active IQ に表示されるすべての容量は 2 進数（ 1024 で除算）であり、 GiB / TiB で表した容量です。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
 </blocks>

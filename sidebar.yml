@@ -128,11 +128,7 @@ entries:
 - title: レポートを生成します
   url: "/task_generate_reports.html"
 - title: よくある質問
-  entries:
-  - title: ストレージ効率
-    url: "/reference_SE_FAQ.html"
-  - title: 容量
-    url: "/reference_capacity_FAQs.html"
+  url: reference_aiq_faq.html
 - title: 詳細はこちらをご覧ください
   url: "/concept_get_more_information.html"
 - title: 通知
