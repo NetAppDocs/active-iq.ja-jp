@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head class="at-element-marker">
+  <title>インベントリの詳細を表示します</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="インベントリの詳細を表示します" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ja-jp/active-iq/task_view_inventory_details.html" />
+	<meta property="og:description" content="所有しているインベントリ全体に関する情報が表示されます。" />
+  <meta property="og:image" content="https://docs.netapp.com/ja-jp/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="所有しているインベントリ全体に関する情報が表示されます。">
+  <meta name="keywords" content=" inventory, platforms, systems, clusters, sites">
+  
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/ja-jp/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/active-iq/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/ja-jp/active-iq/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/active-iq/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/active-iq/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/ja-jp/active-iq/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/ja-jp/active-iq/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/ja-jp/active-iq/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/ja-jp/active-iq/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/ja-jp/active-iq/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/ja-jp/active-iq/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/active-iq/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/active-iq/css/na-pagenav.css' type='text/css'>
+
+  
+
+  
+  <link rel='stylesheet' href='/ja-jp/active-iq/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+    <script src='/ja-jp/active-iq/js/na-search.js'></script>
+  
+
+  
+  <script src='/ja-jp/active-iq/js/na-pagenav.js'></script>
+  
+
+  <link rel='stylesheet' href='/ja-jp/active-iq/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/ja-jp/active-iq/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/ja-jp/active-iq/js/na-utility.js'></script>
+  <script src='/ja-jp/active-iq/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/ja-jp/active-iq/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/ja-jp/active-iq/js/toc.js'></script>
+  <script src='/ja-jp/active-iq/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">製品とソリューション</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">サポートとトレーニング</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">コミュニティ</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">ブログ</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">ユーザ事例</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" data-type="widget" data-placeholder="ドキュメントを検索" data-no-results-found="{query}に該当する結果はありません" data-did-you-mean="{suggestion} を検索" data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?" data-results-found="{hitCount} 件見つかりました"  ></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar"><div id="ie-i18n-tooltip" class="luci-tooltip luci-tooltip--left-bottom">
+      <div class="luci-tooltip__trigger" aria-describedby="luci-tooltip-1">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#circle-info">
+          </use>
+        </svg>
+      </div>
+      <div class="luci-tooltip__content" role="tooltip" id="luci-tooltip-1">
+        <div class="luci-tooltip__content-inner">
+          <div id="nmt-disclaimer" class="luci-tooltip__text"> NetAppは、業界をリードするニューラル機械翻訳ツールを利用して、このコンテンツを提供しています。 </div>
+        </div>
+      </div>
+    </div><!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">日本語</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <div class="n-language-selector-menu__header">
+            <span class="n-language-selector-menu__title">言語を選択</span>
+          </div>
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/active-iq" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/active-iq" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/active-iq" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                </li></ul>
+            </li>
+          </ul>
+          <div class="menu__footer">
+            <p>選択中の言語: 日本語
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+        <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">ホーム</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">ドキュメント</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/ja-jp/active-iq/">Active&nbsp;IQ&nbsp;Digital&nbsp;Advisor</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          インベントリの詳細を表示します
+        </li>
+      </ul>
+    </div>
+
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">PDF<span>
+    </span>
+  </a>
+</div>
+<ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><div class="n-pdf-section">
+      <span class="n-pdf-section-title">サイト</span>
+    </div>
+    <li>
+      <a target="_blank" href="/ja-jp/active-iq/pdfs/fullsite-sidebar/Active_IQ_デジタルアドバイザのドキュメント.pdf" >
+        <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+        Active IQ デジタルアドバイザのドキュメント
+      </a>
+    </li>
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/リリースノート.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            リリースノート
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/はじめに.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            はじめに
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/監視リストをプロビジョニング.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            監視リストをプロビジョニング
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/健全性の属性を分析します.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            健全性の属性を分析します
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/システムの詳細を表示します.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            システムの詳細を表示します
+          </a>
+        </li>
+        <span>
+          
+    <div class="n-pdf-section">
+  <span class="n-pdf-section-title">このページ</span>
+</div>
+
+<li class="active">
+  <a target="_blank" href="/ja-jp/active-iq/pdfs/pages/task_view_inventory_details.pdf" >
+    <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+    インベントリの詳細を表示します
+  </a>
+</li>
+
+
+  
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/システム要件をプロアクティブに特定します.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            システム要件をプロアクティブに特定します
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/設定の違いを特定.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            設定の違いを特定
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/ストレージシステムの効率性とパフォーマンスを向上させます.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            ストレージシステムの効率性とパフォーマンスを向上させます
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/ストレージシステムの健常性を分析します.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            ストレージシステムの健常性を分析します
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/ストレージシステムが最新の状態であることを確認します.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            ストレージシステムが最新の状態であることを確認します
+          </a>
+        </li>
+        <span>
+          
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/Ansible_Playbook_を使用して__AFF_と_FAS_のファームウェアを更新してください.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/AFF_ファームウェアと_FAS_ファームウェアの_Ansible_Automation_をインストールして実行します_パッケージ___初心者__.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              セクション
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/ja-jp/active-iq/pdfs/sidebar/API_を使用してデータを統合.pdf" >
+            <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>
+            API を使用してデータを統合
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+<script>
+  $("#toggleContainerPdf li.active").parents('li').toggle('display');
+  $("#toggleContainerPdf li.active").parents('span.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+  });
+</script><ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="index.html">
+        Active IQ デジタルアドバイザドキュメント
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> リリースノート</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="reference_new_activeiq.html">
+        新機能
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_limitations_activeiq.html">
+        既知の制限
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> はじめに</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_getting_started_2.html">
+        クイックスタート
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_understand_activeiq_features.html">
+        Active IQ の機能を理解する
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_key_terms.html">
+        Active IQ の主要な概念
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_autosupport.html">
+        AutoSupport を理解する
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_login_activeiq.html">
+        Active IQ Digital Advisor にログインします
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 監視リストをプロビジョニング</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_dashboard.html">
+        概要
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_add_watchlist.html">
+        監視リストを作成します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_manage_watchlists.html">
+        監視リストを管理します
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 健全性の属性を分析します</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_wellness.html">
+        概要
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_risk_and_take_action.html">
+        リスクを確認し、修正措置を手動で実施します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        ハッカーやランサムウェア攻撃に対する保護を強化
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_and_acknowledge_risks.html">
+        リスクを確認して承認します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_wellness_history.html">
+        健全性の履歴を表示します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_risks_remediated_unified_manager.html">
+        Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_avoid_the_downtime_and_possible_data_loss.html">
+        ダウンタイムとデータ損失の可能性を回避します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_subscribe_to_wellness_review_email.html">
+        ウェルネスレビューメールに登録する
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_renew_software_and_hardware.html">
+        ソフトウェアとハードウェアを更新します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_analyze_wellness_clusters_and_nodes.html">
+        クラスタとノードの健全性を分析します
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> システムの詳細を表示します</div>
+      </a>
+      <ul><li class="  active "><a class="na-navbar-padding" href="task_view_inventory_details.html">
+        インベントリの詳細を表示します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_valuable_insight_widget.html">
+        価値ある分析情報を確認できます
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_keystone_capacity_utilization.html">
+        Flex サブスクリプションの容量使用率を表示します
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> システム要件をプロアクティブに特定します</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_planning.html">
+        概要
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_identify_capacity_system.html">
+        容量が上限に達しているシステムを特定します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        ボリュームがいっぱいにならないようにしてシステム停止を回避してください
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_renew_software_and_hardware.html">
+        ソフトウェアとハードウェアを更新します
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 設定の違いを特定</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_config_drift.html">
+        概要
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_add_config_drift_template.html">
+        設定ドリフトテンプレートを追加します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_compare_config_drift_template.html">
+        構成ドリフトテンプレートを比較します
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> ストレージシステムの効率性とパフォーマンスを向上させます</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_analyze_storage_efficiency.html">
+        容量と効率化による削減効果を分析できます
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_performance_graphs.html">
+        ストレージパフォーマンスを分析
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html">
+        FabricPool Advisor を使用して、アクセス頻度の低いデータを監視し、階層化する
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> ストレージシステムの健常性を分析します</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_understand_health_check_assessment_dashboard.html">
+        概要
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_get_started_with_health_check_assessment_dashboard.html">
+        健全性チェック評価ダッシュボードの使用を開始します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_renew_support_contracts_for_your_systems.html">
+        サポート契約の更新
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> ストレージシステムが最新の状態であることを確認します</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_view_upgrade.html">
+        ストレージシステムの ONTAP バージョンをアップグレードします
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_update_AFF_FAS_firmware.html">
+        AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_install_execute_firmware_update_exp_user.html">
+        AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ（熟練ユーザー）
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_hosting_firmware_files_using_web_server.html">
+        Web サーバを使用したホストファームウェアファイル
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_working_with_inventory_file.html">
+        インベントリファイルを操作します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_execute_ansible_playbook_using_docker.html">
+        NetApp Docker イメージを使用して Ansible プレイブックを実行する
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_execute_ansible_playbook_without_docker.html">
+        Docker を使用せずに Ansible プレイブックを実行する
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_validate_firmware_installation.html">
+        ファームウェアのインストールを確認
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_ansible_troubleshoot_feedback_support.html">
+        トラブルシューティング、フィードバック、サポート
+      </a></li></ul></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> API を使用してデータを統合</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview_API_service.html">
+        概要
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_generate_tokens_API_services.html">
+        API にアクセスするためのトークンを生成します
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_view_API_catalog.html">
+        API を実行するには、 API カタログを使用します
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="task_generate_reports.html">
+        レポートを生成します
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_aiq_faq.html">
+        よくある質問
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_get_more_information.html">
+        詳細はこちらをご覧ください
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_legalnotices.html">
+        法的通知
+      </a></li></ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      
+
+
+
+<div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">インベントリの詳細を表示します</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2021-02-13 03:12:39 +0000">02/13/2021</time>
+    
+  
+
+<span>寄稿者
+  <a target="_blank" href="https://github.com/netapp-manishc">
+    <img  class="avatar avatar-small"
+          alt="netapp-manishc"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/43026465?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/FarheenViquas">
+    <img  class="avatar avatar-small"
+          alt="FarheenViquas"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/59719378?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+</span>
+
+
+  <span>
+    <a target="_blank" href="/ja-jp/active-iq/pdfs/pages/task_view_inventory_details.pdf" role="button">
+      <img src="/ja-jp/active-iq/images/pdf.png" width="20" height="20"/>このページの PDF をダウンロード</a>
+  </span>
+
+
+</p>
+
+
+<div class="ulist lead">
+<ul>
+<li>
+<p>Inventory * ウィジェットには、所有する合計システムのロールアップが表示されます。これには、 Active IQ 対応製品と非対応製品の両方が含まれます。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>選択した監視リストのレポートを生成し、レポートを最大 5 名の受信者に E メールで送信することもできます。</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe width="848" height="480" src="https://www.youtube.com/embed/ttbpbT5uTBI?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>[* インベントリ（ * Inventory ） ] ウィジェットで、 [* システム * （ * Systems * ） ] をクリックしてすべてのプラットフォームのシステム情報を表示するか、プラットフォームタイプをクリックし、 [ * システム * （ * Systems * ） ] をクリックして、そのプラットフォームに固有のシステムを表示します。</p>
+</li>
+<li>
+<p>ノードまたはクラスタをクリックすると、システムに関する詳細情報が表示されます。</p>
+</li>
+</ol>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div class="page-nav-contribute"  >
+      <div class="page-nav-contribute-title">寄稿する</div>
+      <a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/task_view_inventory_details.adoc" class="btn btn-default githubEditButton" role="button"><img src="/ja-jp/active-iq/images/github.png" class="github-icon" />GitHub で編集</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/active-iq/issues/new?body=Page%3A%20[インベントリの詳細を表示します](https://docs.netapp.com/ja-jp/active-iq/task_view_inventory_details.html)" class="btn btn-default githubEditButton" role="button"><img src="/ja-jp/active-iq/images/github.png" class="github-icon" />ドキュメントの変更をリクエスト</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >寄稿者向けガイド</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">このページ</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ja-jp/active-iq/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">Web サイトについてのフィードバックを<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">お寄せください</a>
+  <a href="https://docs.netapp.com/ja-jp/announcements/" class="n-footer__copyright">お知らせ</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ja-jp/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ja-jp/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/ja-jp/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ja-jp/active-iq/js/www-ntap.js'></script>
+    <script src='/ja-jp/active-iq/js/tabbed-blocks.js'></script>
+  </body>
+
+  
+</html>
