@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_understand_activeiq_features.html 
-keywords: activeiq, active iq digital advisor, features, 
+keywords: activeiq, active iq digital advisor, features, upgrade, support offering 
 summary: ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。 
 ---
 = Active IQ の機能を理解する
@@ -40,3 +40,6 @@ Active IQ デジタルアドバイザの機能の一部を以下に示します�
 * ホストの互換性を確認し、ホストのオペレーティングシステム、ドライバ、およびファームウェアのアップグレードに関する推奨事項を提供します
 * で見つけたいと思うものに丁度到着しなさい よりスマートで高速な方法
 
+
+
+NOTE: サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。

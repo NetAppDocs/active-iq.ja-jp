@@ -906,17 +906,11 @@
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
   <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ に関するよくある質問です</block>
   <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下の質問をお寄せください。 Active IQ に関するよくあるお問い合わせをご確認ください。</block>
-  <block id="7691783e728154cfd247db3c648a5bec" category="paragraph">* 非技術的な切符は何であるか。 *</block>
-  <block id="fd75489624aa71b06ede6f9e50df5b79" category="paragraph">在庫にシステムを表示できない、契約期間の日付が正しくないなど、技術的でない問題は技術的なチケットに分類されます。</block>
-  <block id="6f6fae25c4cfb0620b7126c4acb04bf0" category="paragraph">* 非技術的な切符を作成する必要があるのはいつですか。 *</block>
-  <block id="a129491cd9d78f1af21efbf72dbcb166" category="paragraph">次の場合は、テクニカルチケット以外を作成する必要があります。</block>
   <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">特定の機能にアクセスできません</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">インベントリにシステムがありません</block>
   <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">インストールベースからのシステムの運用停止</block>
   <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">契約期間の日付が正しくないか、不足しています</block>
   <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">サポート内容が正しくありません</block>
-  <block id="3af6a00e0adb666105fa519430ffd788" category="paragraph">* テクニカルサポート以外のチケットを作成するにはどうすればよいですか。 *</block>
-  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">をクリックします <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> ネットアップサポートサイトで「 Non-Technical Feedback Tool 」を開きます。</block>
   <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">[ フィードバックカテゴリ *] ドロップダウンリストから適切なカテゴリを選択します。</block>
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">必要な詳細情報を入力し、 [Comments] ボックスに追加情報を入力します。</block>
   <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">ケースが作成され、リファレンスのケース番号が提供されます。</block>
@@ -955,4 +949,11 @@
   <block id="acf8af6ea046a9190f032ee604a25ac1" category="list-text">合計使用済みデータ / 使用済み容量（リザーブあり）</block>
   <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">* 追加した各ボリュームの使用容量がノードレベルのアグリゲートの使用容量と一致しないのはなぜですか？ * ノードレベルの使用容量には、ボリューム、メタデータ、および Snapshot コピー用にリザーブされたスペースが含まれます。また、ボリューム用にリザーブされているスペース（ file タイプまたは volume ギャランティタイプ）も含まれます。そのため、両方が一致しない可能性があります。</block>
   <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">* Active IQ デジタルアドバイザの 2 進数または 10 進数で示されている容量 * Active IQ に表示されるすべての容量は 2 進数（ 1024 で除算）であり、 GiB / TiB で表した容量です。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
+  <block id="d8d27ee684d88256c60816459952e514" category="admonition">サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。</block>
+  <block id="9dbb9bc7db7f476d8d07033da29e3963" category="paragraph">* ノンテクニカルケースとは？ *</block>
+  <block id="3ecf934ba92a202021971366143ca10d" category="paragraph">インベントリ内のシステムを表示できない、契約期間が正しくないなど、技術的な問題はテクニカル以外のケースに分類されます。</block>
+  <block id="00d92d98ebf38a6aa159770cf065b452" category="paragraph">* テクニカル以外のケースを作成する必要があるのはいつですか。 *</block>
+  <block id="369c5e0a2b4ca18226dd42668ec16d4a" category="paragraph">テクニカル以外のケースは、次の場合に作成してください。</block>
+  <block id="57d68619b2765e5344ee6691f1cbbd88" category="paragraph">* どのようにしてテクニカル以外のケースを作成しますか。 *</block>
+  <block id="ba625a9b488c5e1df819a67984494371" category="list-text">をクリックします <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> ネットアップサポートサイトで「 Non-Technical Feedback Tool 」を開きます。</block>
 </blocks>
