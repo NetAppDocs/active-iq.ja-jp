@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_keystone_capacity_utilization.html 
-keywords: keystone, capacity utilization, service tiers 
+keywords: keystone, capacity utilization, service tiers, flex subscription, keystone flex subscription, shares, disks 
 summary: NetApp Keystone Flex サブスクリプションでの容量使用率に関する情報を提供します。 
 ---
 = NetApp Keystone フレックスサブスクリプションを使用して容量利用率を表示します
@@ -18,15 +18,22 @@ summary: NetApp Keystone Flex サブスクリプションでの容量使用率�
 
 
 [role="lead"]
-NetApp Keystone Flex サブスクリプションサービスに登録している場合は、 Active IQ デジタルアドバイザダッシュボードに Keystone ウィジェットを表示できます。
+Keystone Flex サブスクリプションサービスに登録している場合は、 Active IQ デジタルアドバイザダッシュボードに Flex サブスクリプションウィジェットを表示できます。
 
-ウィジェットには、アカウントの使用済み容量の概要が表示されます。コミット済み容量、過去 5 分に切り上げられている Snapshot について、容量の利用率のグラフを表示できます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。
+Flex サブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。このグラフは、論理容量を基準に容量利用率のグラフで構成され、最後の 5 分に切り上げられます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。
 
 Keystone - 容量利用率 * ダッシュボードを表示できます。このダッシュボードでは、ウィジェット内のデータを分析し、サブスクライブされているすべてのストレージの容量と使用状況のトレンドをグラフィカルに表示します link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["サービス階層"]NetApp Keystone Flex サブスクリプションアカウントに関連付けられている、プレミアム、エクストリーム、標準など。
 
-を表示できます link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Flex サブスクリプションサービスの容量"] また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。容量使用率は、 3 つの中心リングを持つ同心円で表されます。内部リングにはコミット済み容量が表示され、中央のリングにはバースト容量が表示され、外部リングには消費済み容量が表示されます。選択した期間内の特定の日時の使用済み容量が青の線グラフで示されます。
+を表示できます link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Flex サブスクリプションサービスの容量"] また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。
+
+
+NOTE: Active IQ ユーザは、 ONTAP コレクタと AutoSupport のどちらかを選択して、使用容量に関するデータを取得できます。
 
 .手順
 . 詳細な * Keystone - 容量利用率 * ダッシュボードで、「 * 詳細を表示」をクリックして利用率のトレンドを確認します。
 . 30 日、 7 日、または 1 日を選択して、最近の平均使用傾向を表示します。
+. 必要に応じて、 ONTAP コレクタで容量の使用状況に関するデータを取得するように選択した場合は、ダッシュボードのタブをクリックしてファイル共有とディスクに関する詳細を確認できます。
++
+[ 共有 ] または [ * ディスク ] をクリックして、コミット済み容量の上限に近づいているファイル共有またはディスクを特定し、十分な情報に基づいてストレージ容量を節約するための決定を行います。
+
 
