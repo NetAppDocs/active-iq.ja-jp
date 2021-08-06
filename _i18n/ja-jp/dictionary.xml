@@ -244,7 +244,6 @@
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">デフォルトでは、 * 容量 * タブが選択されています。</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">クラスタレベルおよびノードレベルで容量の詳細を表示します。</block>
   <block id="be131fcebf48482dd72ea96add51f0e0" category="list-text">ノードレベルの容量予測を表示します。</block>
-  <block id="bf0d5c3a7b4e9f94bccfab0eb480683e" category="paragraph">容量予測に基づいて、システムに容量を追加できます。</block>
   <block id="03c660c2768c96f05e2acdb21cf61ebb" category="list-text">容量の追加 * をクリックして、ネットアップまたはパートナーに容量を追加する通知を送信します。</block>
   <block id="6d01d6a00b896623fe1252dcd728f7d4" category="list-text">ストレージシステムの Storage Efficiency およびデータ削減量を表示します。</block>
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率を上回る場合は、「 * ユーザ事例を共有」をクリックして、実施したベストプラクティスをお知らせください。</block>
@@ -469,27 +468,7 @@
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">サービスプロセッサ / BMC ファームウェアの更新の Ansible Playbook は有効になっており、コントローラへの最新の SP/BMC ファームウェアのインストールを確認するオプションがあります。検証が完了すると（更新に最長で 2 時間かかる場合があります）、 Ansible Playbook は、 SP / BMC コンソールに接続することで、内部スイッチファームウェアの更新版を適用します。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">SP / BMC ファームウェアおよび内部スイッチファームウェアのインストールに関する障害と成功の情報は、 Ansible Playbook の実行後に通知されます。SP / BMC ファームウェア / 内部スイッチファームウェアのインストールが失敗した場合は、 Ansible Playbook に記載されている手順に従ってください。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">[* Visualization * ] タブをクリックすると、クラスタがグラフィカルに表示されます。</block>
-  <block id="6963e434c6c702352323115759d00c82" category="summary">Active IQ デジタルアドバイザのドキュメント</block>
-  <block id="25ee4245ff35e15ec0a6dda5f6cd1765" category="doc">Active IQ デジタルアドバイザのドキュメント</block>
-  <block id="c38a373c370e2da208f4dde8df6ccea0" category="paragraph">Active IQ デジタルアドバイザは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。</block>
-  <block id="9f15e7b7f8cb5e76369b610536ace96d" category="paragraph">Active IQ のクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用します。これらの分析情報と AutoSupport テレメトリ機能や My AutoSupport 機能を組み合わせることで、卓越した分析サービスの高度なセットを提供します。</block>
-  <block id="db5eb84117d06047c97c9a0191b5fffe" category="inline-image-macro">サポート</block>
-  <block id="34e741684a8c236c7a0870ef57e81674" category="paragraph">Active IQ デジタルアドバイザと呼ばれる新しいバージョンの Active IQ はシンプルで、ネットアップ環境の健全性を改善するための次のベストプラクティスをすばやく特定して実施できます。Active IQ デジタルアドバイザは、タスクをより効果的に実行できるように強化され、再設計されました。このバージョンは段階的に強化されており、この新しい体験をお試しいただくようお勧めします。フィードバックや問題の報告は、から行ってください をクリックします <block ref="855bad4a062f8e18bb971150400bc21a" category="inline-image-macro-rx" type="image"></block> （サポート）アイコン。</block>
-  <block id="0f7f43aceae358771a9e706f2cd90ec0" category="section-title">Active IQ Web ポータルにアクセスし、モバイルアプリをダウンロードします</block>
   <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="inline-link">Active IQ Web ポータル</block>
-  <block id="206582d9f2cc38932162dcfe93187c2f" category="list-text"><block ref="206582d9f2cc38932162dcfe93187c2f" category="inline-link-rx"></block></block>
-  <block id="dfe678b9f84d748c17801e145643c5d0" category="inline-link">Active IQ モバイルアプリダウンロード（ iOS ）</block>
-  <block id="f10ca7054bb054888ae831372e0e720f" category="list-text"><block ref="acf89b5841d337a935a6f11ad5354c4d" category="inline-link-rx"></block></block>
-  <block id="47f493a6c23d2ddd793ed86e819b1806" category="inline-link">Active IQ モバイルアプリのダウンロード（ Android ）</block>
-  <block id="56632b7c3ba14678d71d38b8ddb74a55" category="list-text"><block ref="56632b7c3ba14678d71d38b8ddb74a55" category="inline-link-rx"></block></block>
-  <block id="c0b845337206fddc21c43b9e55f6422b" category="admonition">ログインするには、有効なネットアップサポートサイトのクレデンシャルが必要です。アカウントをお持ちでなく、ネットアップサポートの利用を開始するには、<block ref="31f51fec93e3106aee6fa68eccedad2c" category="inline-link-rx"></block></block>
-  <block id="10553ef0acd01c6c0f2ca035327a4bd7" category="section-title">ドキュメントとサポート</block>
-  <block id="58c15ba96d80da0192badb983c10279d" category="inline-link">ドキュメントリソース</block>
-  <block id="35452e2dd037c7071e2a283924a8c985" category="list-text"><block ref="35452e2dd037c7071e2a283924a8c985" category="inline-link-rx"></block></block>
-  <block id="c571c7f962b14a4ad2f902508253ad6e" category="inline-link">ユーザコミュニティ</block>
-  <block id="2dcbf0da8c096ec7966a574fa8788b28" category="list-text"><block ref="2dcbf0da8c096ec7966a574fa8788b28" category="inline-link-rx"></block></block>
-  <block id="bc118735561878418d14c3320dd957d8" category="inline-link">Twitter でフォローしてください</block>
-  <block id="aa8f78e51cff3a2a093bcded21600284" category="list-text"><block ref="aa8f78e51cff3a2a093bcded21600284" category="inline-link-rx"></block></block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">パフォーマンスに関する情報を提供します。</block>
   <block id="14b9230853f4485a198aadfb867fa9d2" category="doc">パフォーマンスグラフを分析</block>
   <block id="1e722e5e313aad328fc378b28e2949f7" category="paragraph">パフォーマンスグラフを使用して、ストレージデバイスのパフォーマンスを分析できます。ONTAP クラスタまたは ONTAP クラスタの複数のノードについて、詳細なパフォーマンスグラフを表示できます。ONTAP 8.3.1 以降を実行しているシステムのクラスタノードが表示されます。これらのグラフには、パフォーマンスの傾向やパターンの分析を理解するために使用できる履歴パフォーマンスデータが表示されます。カレンダーから日付を選択すると、日、週、月、および 2 カ月のパフォーマンスグラフを表示できます。複数のノードを選択すると、特定のグラフを同時に表示できます。</block>
@@ -717,7 +696,6 @@
   <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">容量と効率化による削減効果を分析できます</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">ストレージパフォーマンスを分析</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">ストレージシステムの健常性を分析します</block>
-  <block id="ab5229bc90a20a9d9ec89253ae1ec09d" category="sidebar">ストレージシステムが最新の状態であることを確認します</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ（熟練ユーザー）</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )</block>
@@ -768,7 +746,6 @@
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">監視リストを作成 * をクリックします。</block>
   <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">監視リストに追加するシステムの詳細を指定します。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">監視リストダッシュボードが表示されます。</block>
-  <block id="53341d80880065f372d7d0360c8dae07" category="paragraph">Active IQ では、有効なサポート契約があるシステムが表示されます。契約期間が終了した場合、 30 日間の猶予期間があり、その間もシステムは引き続き表示されます。以降、システムは Active IQ 内で検索したり表示したりすることはできません。</block>
   <block id="99690ba41792c97440fb7507094c827d" category="doc">API を実行するには、 API カタログを使用します</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link">* 参照 *</block>
   <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">をクリックします <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
@@ -881,7 +858,6 @@
   <block id="15da020a2033d049fff6b4623c2fb97b" category="paragraph">ヘルススコアが計算されたシステムの数を表示できるようになりました。この拡張機能は、ヘルスチェック評価ダッシュボードのすべての属性に適用されます</block>
   <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量の追加：既存の容量のしきい値の 70% を超えているグリッドサイトには通知が送信されます。容量のしきい値が 70% を超える可能性がある場合は、サイト内の StorageGRID ID に対して今後 1 カ月、 3 カ月、 6 カ月間の容量を追加することもできます。</block>
   <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、 NetApp Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
-  <block id="9192201bd176d96426465ee8aaf19773" category="sidebar">Active IQ デジタルアドバイザドキュメント</block>
   <block id="37adb256aff16968048142b85e04d7cc" category="list-text">* システム・ファームウェア： ONTAP の各メジャー・バージョンおよびパッチ・バージョンとともに出荷されたシステム・ファームウェアに関する情報を表示できます。</block>
   <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">2021 年 7 月 12 日</block>
   <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">システムファームウェア</block>
@@ -959,4 +935,42 @@
   <block id="c56661a66437cf16fa6985915185aa55" category="admonition">Active IQ ユーザは、 ONTAP コレクタと AutoSupport のどちらかを選択して、使用容量に関するデータを取得できます。</block>
   <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">必要に応じて、 ONTAP コレクタで容量の使用状況に関するデータを取得するように選択した場合は、ダッシュボードのタブをクリックしてファイル共有とディスクに関する詳細を確認できます。</block>
   <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="paragraph">[ 共有 ] または [ * ディスク ] をクリックして、コミット済み容量の上限に近づいているファイル共有またはディスクを特定し、十分な情報に基づいてストレージ容量を節約するための決定を行います。</block>
+  <block id="cff767810c25eb9e7e045026afa7e145" category="list-text">* 一意のリスク： * 特定のリスクカテゴリのリスク名とシステム数が表示されます。</block>
+  <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">* ウェルネス履歴 :: 過去 3 ヶ月間に発生したシステムリスクに関する情報を表示します。これにより、それらのリスクがどのように残業しているかを知ることができます。</block>
+  <block id="f58148b36d284264c85f69fb927477ef" category="paragraph">AutoSupport 機能にアクセスするには、 Active IQ デジタルアドバイザにログインし、クラスタまたはホスト名を検索します。AutoSupport オプションは左側のペインで使用できます。</block>
+  <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">Cluster Viewer 機能は、 E シリーズシステムではサポートされません。</block>
+  <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">この機能は E シリーズシステムではサポートされません。</block>
+  <block id="c08f4fce6d9fc3b55b586bec7ed0c778" category="paragraph">ONTAP システムについては、 Cluster Viewer で物理容量に関する情報を確認できます。</block>
+  <block id="c6483c09e97ee0fc310ecd3048002f04" category="summary">Active IQ デジタルアドバイザは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。Active IQ のクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用します。これらの分析情報と AutoSupport テレメトリ機能や My AutoSupport 機能を組み合わせることで、卓越した分析サービスの高度なセットを提供します。</block>
+  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="doc">Active IQ デジタルアドバイザのドキュメント</block>
+  <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">サポートサービスのアップグレードに関する情報を提供します。</block>
+  <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">サポートサービスをアップグレードします</block>
+  <block id="d6a2c3315eaa87effd365a47d6dfb92b" category="paragraph">Active IQ デジタルアドバイザのその他の機能にアクセスするには、サポートサービスへのアップグレードを購入することができます。</block>
+  <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">現在のサポートサービスをアップグレードして、推奨されるプラクティスと修正、 Ansible プレイブックによるアップグレードの自動化、実用的なレポートとレビュー、カスタマイズされたサポートなどによって、インストールベースを最適化できます。アップグレードは、サポート契約を更新したとき、またはシステム（ノード）ダッシュボードから他のタイミングで購入できます。</block>
+  <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">AIQ のアップグレードは、現在 SupportEdge Premium または SupportEdge セキュアのサポートサービスを使用している場合にのみ選択できます。</block>
+  <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">[* Inventory * （インベントリ * ） ] ウィジェットの横にある [* View All Systems （すべてのシステムを表示） ] をクリック</block>
+  <block id="aecdac801bd39071d7037983f383ef2b" category="list-text">インベントリダッシュボードで、アップグレードするノード（ホスト）を選択します。</block>
+  <block id="c4512b72c505ac1a3ffa1676b26a6ba4" category="paragraph">システムダッシュボードまたはノードダッシュボードにリダイレクトされます。</block>
+  <block id="6d622bcce07deb96f1d4cea2024b0766" category="list-text">構成 * （ Configuration * ）ウィジェットで * アップグレード * （ Upgrade * ）をクリックします。</block>
+  <block id="bf08cd4c1bc33720a5485c666caed145" category="paragraph"><block ref="bf08cd4c1bc33720a5485c666caed145" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d65b2c300d811ca1a99a917d7e65f12f" category="list-text">必要に応じて、 * サポートサービスの比較 * をクリックして比較チャートを表示し、要件に合ったサポートサービスを選択します。</block>
+  <block id="efbad35274bdfb6a263f7d5c4a9a3b07" category="paragraph">または、左側のナビゲーションメニューの * サポートサービス * をクリックして、比較チャートを表示することもできます。</block>
+  <block id="d0c2285fdd0f4e2a5d68894dfb1b33a7" category="list-text">自分が持っているコメントを追加し、 * 送信 * をクリックします。</block>
+  <block id="51f0c069cb67c8e1d001716813ffb4d6" category="paragraph">サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。</block>
+  <block id="0056e708efc93210499292c833fd6580" category="sidebar">Active IQ デジタルアドバイザドキュメント</block>
+  <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">アップグレードしてインストールベースを最適化します</block>
+  <block id="92073a6013a22635da417c415cea3970" category="sidebar">Active IQ の詳細をご覧ください</block>
+  <block id="80f522a133d5c0697a1422b8cba4f439" category="sidebar">Active IQ のクイックスタート</block>
+  <block id="3903992d449534623e64de4fb24bc7bf" category="sidebar">Active IQ を使用します</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">リスクを確認して対処</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">設定の違いを検出</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">重要なセキュリティリスクを修正</block>
+  <block id="d30be8ed596e28125eabf3aaa9088577" category="sidebar">Active IQ を使用して分析します</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">ONTAP のアップグレードに関する推奨事項を確認する</block>
+  <block id="cf7ecbbc7d2dad5af625439bf096d746" category="sidebar">Cloud Manager でストレージ容量を削減</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
+  <block id="dd4f53241a447bade15efabb4cd19ce4" category="sidebar">Active IQ ビデオ</block>
+  <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">ネットアップコミュニティ– Active IQ</block>
+  <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ モバイルアプリケーション（ Android ）</block>
+  <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ モバイルアプリケーション（ iOS ）</block>
 </blocks>

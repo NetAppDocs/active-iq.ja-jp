@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_upgrade_support_offering.html 
+keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
+summary: サポートサービスのアップグレードに関する情報を提供します。 
+---
+= サポートサービスをアップグレードします
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ デジタルアドバイザのその他の機能にアクセスするには、サポートサービスへのアップグレードを購入することができます。
+
+現在のサポートサービスをアップグレードして、推奨されるプラクティスと修正、 Ansible プレイブックによるアップグレードの自動化、実用的なレポートとレビュー、カスタマイズされたサポートなどによって、インストールベースを最適化できます。アップグレードは、サポート契約を更新したとき、またはシステム（ノード）ダッシュボードから他のタイミングで購入できます。
+
+
+NOTE: AIQ のアップグレードは、現在 SupportEdge Premium または SupportEdge セキュアのサポートサービスを使用している場合にのみ選択できます。
+
+.手順
+. [* Inventory * （インベントリ * ） ] ウィジェットの横にある [* View All Systems （すべてのシステムを表示） ] をクリック
+. インベントリダッシュボードで、アップグレードするノード（ホスト）を選択します。
++
+システムダッシュボードまたはノードダッシュボードにリダイレクトされます。
+
+. 構成 * （ Configuration * ）ウィジェットで * アップグレード * （ Upgrade * ）をクリックします。
++
+image:Configuration widget_Support offering upgrade.PNG["設定ウィジェット"]
+
+. 必要に応じて、 * サポートサービスの比較 * をクリックして比較チャートを表示し、要件に合ったサポートサービスを選択します。
++
+または、左側のナビゲーションメニューの * サポートサービス * をクリックして、比較チャートを表示することもできます。
+
+. 自分が持っているコメントを追加し、 * 送信 * をクリックします。
++
+サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。
+
+
