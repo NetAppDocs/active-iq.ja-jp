@@ -973,4 +973,12 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">ネットアップコミュニティ– Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ モバイルアプリケーション（ Android ）</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ モバイルアプリケーション（ iOS ）</block>
+  <block id="5c3849b33a3b6bf738dbe72c0348f10c" category="section-title">2021 年 8 月 16 日</block>
+  <block id="ba0619dd0f47665766133e60320fb439" category="section-title">健全性のレビュー</block>
+  <block id="c9de0ec49084be05fec9ba7b0f4a6b26" category="paragraph">これで、オンデマンドレポートを生成できるようになりました。さらに、最後にスケジュールされたレポートは、 [Wellness Review Subscription] 画面からダウンロードできます。</block>
+  <block id="2beb2ab0c9df0a1b1c7b89d28d94b394" category="paragraph">Grid Inventory タブでは、ノードの詳細をサイトレベルに基づいて展開および縮小可能な形式で表示できるようになりました。</block>
+  <block id="9d8ce84c0bf081ce006dd3eb8e15fffe" category="section-title">混在モデルクラスタフラグ</block>
+  <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">クラスタに複数のハードウェアモデルが混在している場合は、クラスタ全体に適用されている OS バージョンが、すべてのノードで使用できるバージョンになります。そのため、最新のハードウェアモデルの一部のノードの OS バージョンが、適切な場所から旧バージョンになる可能性があります。これらの混在モデルクラスタをより見やすくするために、「混在モデル」アイコンを適用しました。</block>
+  <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">推奨される構成 / Storage Virtual Machine （ SVM ）の健常性：ボリュームレベルの概要</block>
+  <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">SVM テーブルの青い [ ボリュームの概要 ] ボックスをクリックすると、ポップアップに、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。</block>
 </blocks>
