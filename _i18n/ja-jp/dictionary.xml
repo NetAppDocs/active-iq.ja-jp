@@ -28,14 +28,12 @@
   <block id="f0ee5c8e0425d79cc4821f46b896129b" category="list-text">* 容量： * は、影響範囲値の容量属性を持つリスクで構成されます。</block>
   <block id="b9a9426de6f2aeaaa8a2431da4900e30" category="list-text">* 構成： * 影響領域の値の構成属性を持つリスクが、最上位に影響する順にソートされています。</block>
   <block id="6f2c1f776a5c6c896a39063bd5149764" category="list-text">* セキュリティ： * は、影響範囲値のセキュリティ属性を持つリスクで構成されます。</block>
-  <block id="390c0300a007628e0b128fbd04c22d26" category="list-text">* Renewals ： * サービス契約の終了日に関する情報を、期限切れまたは期限切れ間近の契約のホスト名でソートして提供します。このオプションは、 * Wellness * および * Planning * ウィジェットにあります。</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">* リスクを承認（ Ack ）： * 影響を受けたリスクとシステムを承認できます。これらのリスクを承認し、リスクを軽減するために実行できる操作を把握しておくことができます。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">* リスクの確認応答を取り消し（確認応答を取り消し）： * 承認されたリスクとシステムの確認応答を取り消すことができます。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">* 修正： * Active IQ United Manager （ UM ） 9.7 以降を使用してシステムに対するリスクを修正。このボタンをクリックして UM を起動し、リスクを軽減する手順を実行します。</block>
   <block id="92a113ae9f19ea88db4e78b8c397339e" category="list-text">* インベントリウィジェット： * 所有している合計システムのロールアップが表示されます。これには、 Active IQ 対応製品と非対応製品の両方が含まれます。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">* レポートを生成： * 選択したウォッチリストのレポートを生成し、最大 5 名の受信者にレポートを電子メールで送信します。</block>
   <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">* 計画ウィジェット： * 更新が必要な容量追加、ソフトウェア、ハードウェアに関する情報が表示されます。</block>
-  <block id="e18b8ec7fb12e95cc04b3da1a4cc2884" category="list-text">* Renewals ： * は、 6 カ月以内に期限切れになったソフトウェアやハードウェアに関する情報を提供します。このオプションは、 * Wellness * および * Planning * ウィジェットにあります。</block>
   <block id="fcc5fdc856cbb2876c3c6a828548290b" category="list-text">* Storage Efficiency ： AFF システム、 AFF 以外のシステム、またはその両方について、 Snapshot バックアップの有無にかかわらず、ストレージ効率とストレージシステムの削減率を表示します。</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">* パフォーマンスグラフ： * パフォーマンスデータのグラフ形式を表示して、ストレージデバイスのパフォーマンスを分析できます。選択したノードの ONTAP クラスタの詳細なパフォーマンスグラフを表示できます。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 価値ある分析ウィジェット：サポートケースの数、保留中のソフトウェアアップグレード、 Storage Efficiency による削減量、軽減されたリスクなどに関する情報を表示します。また、ウェルネス属性からのリスク通知も積極的にリストされます。</block>
@@ -870,7 +868,6 @@
   <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">詳細なインベントリページでは、ハードウェア、ソフトウェア、および返却できないディスクに関するサポート契約の終了日を確認できます。</block>
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">サポートサービスのアップグレード</block>
   <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">ユーザインターフェイスが強化され、 Active IQ で登録している特定のサポートサービスが表示されるようになりました。</block>
-  <block id="d3a9727234af152105cdd13aca8cdb44" category="list-text">システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
   <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ に関するよくある質問です</block>
   <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下の質問をお寄せください。 Active IQ に関するよくあるお問い合わせをご確認ください。</block>
@@ -981,4 +978,15 @@
   <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">クラスタに複数のハードウェアモデルが混在している場合は、クラスタ全体に適用されている OS バージョンが、すべてのノードで使用できるバージョンになります。そのため、最新のハードウェアモデルの一部のノードの OS バージョンが、適切な場所から旧バージョンになる可能性があります。これらの混在モデルクラスタをより見やすくするために、「混在モデル」アイコンを適用しました。</block>
   <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">推奨される構成 / Storage Virtual Machine （ SVM ）の健常性：ボリュームレベルの概要</block>
   <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">SVM テーブルの青い [ ボリュームの概要 ] ボックスをクリックすると、ポップアップに、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。</block>
+  <block id="8d4304747bf1c53a7a27da5249a5a0c3" category="list-text">* ランサムウェア防御： * ランサムウェアの検出、防止、リカバリに関連するリスクと対処方法に関する情報を提供します。</block>
+  <block id="a14095eb1402d18db0b8da516449039e" category="list-text">* Renewals ： * は、 6 カ月以内に期限切れになったソフトウェアやハードウェアに関する情報を提供します。</block>
+  <block id="aefb7a7993c510ef70b2a8e8af0c8a8d" category="section-title">2021 年 8 月 26 日</block>
+  <block id="cdf13500e15ccdea960e2cbd513e706e" category="section-title">Active IQ デジタルアドバイザモバイルアプリケーション</block>
+  <block id="c2177c5092a1d047c74aacc2ac6a0266" category="paragraph">Active IQ デジタルアドバイザモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。</block>
+  <block id="36cbd0d8037ebab11ab6cbc27994392d" category="inline-link-macro">Active IQ デジタルアドバイザモバイルアプリケーション（ Android ）</block>
+  <block id="e6692358ec400759110ca506b80cdccf" category="inline-link-macro">Active IQ デジタルアドバイザモバイルアプリケーション（ iOS ）</block>
+  <block id="67336000033c69d2422b8a1d56abc928" category="paragraph">アプリケーションをダウンロードして、詳細を確認してください。<block ref="f4a3d04670909fa28f3881892d9f974d" category="inline-link-macro-rx"></block>
+<block ref="df3e240c84a77f3ec5b190ed94cab8b3" category="inline-link-macro-rx"></block></block>
+  <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">ウェルネスウィジェットには、 Ransomware Defense 属性が追加されています。ランサムウェアの検出、防止、リカバリに関連するリスクや対処方法を確認できるようになりました。</block>
+  <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
 </blocks>
