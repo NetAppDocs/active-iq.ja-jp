@@ -946,14 +946,8 @@
   <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">現在のサポートサービスをアップグレードして、推奨されるプラクティスと修正、 Ansible プレイブックによるアップグレードの自動化、実用的なレポートとレビュー、カスタマイズされたサポートなどによって、インストールベースを最適化できます。アップグレードは、サポート契約を更新したとき、またはシステム（ノード）ダッシュボードから他のタイミングで購入できます。</block>
   <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">AIQ のアップグレードは、現在 SupportEdge Premium または SupportEdge セキュアのサポートサービスを使用している場合にのみ選択できます。</block>
   <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">[* Inventory * （インベントリ * ） ] ウィジェットの横にある [* View All Systems （すべてのシステムを表示） ] をクリック</block>
-  <block id="aecdac801bd39071d7037983f383ef2b" category="list-text">インベントリダッシュボードで、アップグレードするノード（ホスト）を選択します。</block>
-  <block id="c4512b72c505ac1a3ffa1676b26a6ba4" category="paragraph">システムダッシュボードまたはノードダッシュボードにリダイレクトされます。</block>
   <block id="6d622bcce07deb96f1d4cea2024b0766" category="list-text">構成 * （ Configuration * ）ウィジェットで * アップグレード * （ Upgrade * ）をクリックします。</block>
   <block id="bf08cd4c1bc33720a5485c666caed145" category="paragraph"><block ref="bf08cd4c1bc33720a5485c666caed145" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d65b2c300d811ca1a99a917d7e65f12f" category="list-text">必要に応じて、 * サポートサービスの比較 * をクリックして比較チャートを表示し、要件に合ったサポートサービスを選択します。</block>
-  <block id="efbad35274bdfb6a263f7d5c4a9a3b07" category="paragraph">または、左側のナビゲーションメニューの * サポートサービス * をクリックして、比較チャートを表示することもできます。</block>
-  <block id="d0c2285fdd0f4e2a5d68894dfb1b33a7" category="list-text">自分が持っているコメントを追加し、 * 送信 * をクリックします。</block>
-  <block id="51f0c069cb67c8e1d001716813ffb4d6" category="paragraph">サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。</block>
   <block id="0056e708efc93210499292c833fd6580" category="sidebar">Active IQ デジタルアドバイザドキュメント</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">アップグレードしてインストールベースを最適化します</block>
   <block id="92073a6013a22635da417c415cea3970" category="sidebar">Active IQ の詳細をご覧ください</block>
@@ -989,4 +983,14 @@
 <block ref="df3e240c84a77f3ec5b190ed94cab8b3" category="inline-link-macro-rx"></block></block>
   <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">ウェルネスウィジェットには、 Ransomware Defense 属性が追加されています。ランサムウェアの検出、防止、リカバリに関連するリスクや対処方法を確認できるようになりました。</block>
   <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
+  <block id="6be3e4cc137acae41c32679736c4a678" category="section-title">2021 年 9 月 6 日</block>
+  <block id="acc29a7b7f23045f357b49f3a37a34bf" category="section-title">容量の予測</block>
+  <block id="e7beaf5388707f5b78d0f93b770b13e6" category="paragraph">容量予測ウィジェットが更新され、システムの再構成を改善するアルゴリズムが追加されました。 <block ref="358e7502d3a3beb3c7524dcf4ddbf11b" category="inline-link-macro-rx"></block>。</block>
+  <block id="3d30fb3e89786aced41e8a9ad5e64a9b" category="list-text">インベントリダッシュボードで、アップグレードするノード（ホスト）を選択します。システムダッシュボードまたはノードダッシュボードにリダイレクトされます。</block>
+  <block id="632064723404f7a0755249b947a55c6a" category="list-text">必要に応じて、 * サポートサービスの比較 * をクリックして比較チャートを表示し、要件に合ったサポートサービスを選択します。または、左側のナビゲーションメニューの * サポートサービス * をクリックして、比較チャートを表示することもできます。</block>
+  <block id="88650e3130d602eb873c6cec8aa1b43d" category="list-text">必要なアップグレードのタイプを選択します。</block>
+  <block id="6b1e028800580e41be7e09af7233c6ea" category="list-text">SupportEdge Premium または SupportEdge セキュアサポートサービスに AIQ アップグレードを追加</block>
+  <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">その他のアップグレード要求</block>
+  <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">自分が持っているコメントを追加し、 * 送信 * をクリックします。サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。</block>
+  <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">* 容量予測はどのように計算されますか？ * 容量予測は、システムの 1 週間あたりの平均増加率を計算するために、過去 1 年間の使用容量データを使用しています。このシステム使用率の変化率は、現在使用されている容量から推定されて、今後 6 カ月間にシステム利用率がどのように変化すると予想されるかを実証するために使用済み容量の合計が同じであることが前提となります。</block>
 </blocks>
