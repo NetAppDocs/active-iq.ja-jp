@@ -95,19 +95,8 @@
   <block id="4d604dd8f008145471dc845683399189" category="cell">在庫</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">clustered Data ONTAP でのみサポートされます</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">アップグレード</block>
-  <block id="b86035b7392c3148f643faee13caa61b" category="summary">法的情報</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
-  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
-  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
-  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
-  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
-  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
-  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Web サーバを使用してファームウェアファイルをホストする方法について説明します。</block>
   <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">Web サーバを使用してホストファームウェアファイルを作成します</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">自動化パッケージをダウンロードしたら、ファームウェアファイルを Web サーバでホストする必要があります。</block>
@@ -489,7 +478,6 @@
   <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="cell">レイテンシ</block>
   <block id="363feef65df9d9b2c15feec5eeae6961" category="cell">平均利用率</block>
   <block id="52d04ac041f40e180ee13d2d46edbfc6" category="cell">プロトコル IOPS</block>
-  <block id="8c03c9ae3355689c1b3ff915e6fd269e" category="admonition">ノードレイテンシパフォーマンスグラフは、 ONTAP 9.2 以降を実行しているシステムでのみサポートされます。</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">システムの容量を拡張するための情報を提供します。</block>
   <block id="9438f616517805af3f4c395324944dff" category="doc">容量が上限に達しているシステムを特定します</block>
   <block id="7f5131aab7fa520fc9551135afbbe9e3" category="list-text">キャパシティの追加率が 90% を超えているシステムや容量の 90% に近づいているシステムを表示するには、 * Planning * ウィジェットで * Capacity Additions をクリックします。</block>
@@ -993,4 +981,13 @@
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">その他のアップグレード要求</block>
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">自分が持っているコメントを追加し、 * 送信 * をクリックします。サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。</block>
   <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">* 容量予測はどのように計算されますか？ * 容量予測は、システムの 1 週間あたりの平均増加率を計算するために、過去 1 年間の使用容量データを使用しています。このシステム使用率の変化率は、現在使用されている容量から推定されて、今後 6 カ月間にシステム利用率がどのように変化すると予想されるかを実証するために使用済み容量の合計が同じであることが前提となります。</block>
+  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
+  <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">2021 年 9 月 16 日</block>
+  <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">ランサムウェア防御ウィジェットは、スタンドアロンウィジェットではなくウェルネスワークフローの一部になりました。</block>
+  <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">Wellness Review の E メールでは、更新ではなくランサムウェア防御に関する情報を確認できます。</block>
+  <block id="b3133741a2e146480d59529cf245b52d" category="list-text">View AutoSupport ： StorageGRID と基盤のノードの AutoSupport ログを表示します。</block>
+  <block id="be2ca2c828948202cf80b4f5a05562a9" category="list-text">StorageGRID アプライアンスの詳細：ノードタイプ、アプライアンスモデル、ドライブサイズ、ドライブタイプ、 RAID モードなど、 StorageGRID アプライアンスの詳細を表示します。 グリッドビューアのグリッドインベントリセクションなどで行います。</block>
+  <block id="89bcdbae8ce3c1ee510be773259789e7" category="list-text">更新：グリッドと、更新が予定されている基盤のノードのリストを表示します。</block>
+  <block id="d5ce3696c490cfd2eb9bd24f1aec7d29" category="list-text">E シリーズ SANtricity のリスク：グリッドの「ダッシュボード - ウェルネス」セクションで、基盤となるノードの E シリーズ SANtricity のリスクを確認できます。</block>
+  <block id="23f1323406f594572732c2bad13eebde" category="admonition">ノードレイテンシパフォーマンスグラフとボリュームパフォーマンスグラフは、 ONTAP 9.2 以降を実行しているシステムでのみサポートされます。</block>
 </blocks>
