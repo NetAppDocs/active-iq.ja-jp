@@ -37,6 +37,8 @@ sidebar:
       url: "/task_view_risk_and_take_action.html"
     - title: ハッカーやランサムウェア攻撃に対する保護を強化
       url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
+    - title: ランサムウェアのリスクからシステムを保護
+      url: "/task_protect_systems_against_ransomware_risks.html"
     - title: リスクを確認して承認します
       url: "/task_view_and_acknowledge_risks.html"
     - title: 健全性の履歴を表示します

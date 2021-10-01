@@ -497,7 +497,6 @@
   <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">リスクを軽減する手順は、すべての健全性属性で同じです。次のビデオで、セキュリティ関連の問題を監視して修正できます。</block>
   <block id="20827f5f11724ac7658af2f39f50f964" category="doc">ストレージシステムのソフトウェアとハードウェアを更新する</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">有効期限が切れているソフトウェアやハードウェアを 6 カ月以内にプロアクティブに特定し、ハードウェアやソフトウェアの更新を申請することができます。</block>
-  <block id="15873e062e03b1d046db8c95a8123bc1" category="list-text">ダッシュボードの * Renewals * ウィジェットをクリックするか、 * Planning * ウィジェットの * Renewals * をクリックします。</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">更新するシステムを選択し、 * 更新 * をクリックします。</block>
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">NetApp Docker イメージなしで Ansible Playbook を実行</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link">Python</block>
@@ -990,4 +989,29 @@
   <block id="89bcdbae8ce3c1ee510be773259789e7" category="list-text">更新：グリッドと、更新が予定されている基盤のノードのリストを表示します。</block>
   <block id="d5ce3696c490cfd2eb9bd24f1aec7d29" category="list-text">E シリーズ SANtricity のリスク：グリッドの「ダッシュボード - ウェルネス」セクションで、基盤となるノードの E シリーズ SANtricity のリスクを確認できます。</block>
   <block id="23f1323406f594572732c2bad13eebde" category="admonition">ノードレイテンシパフォーマンスグラフとボリュームパフォーマンスグラフは、 ONTAP 9.2 以降を実行しているシステムでのみサポートされます。</block>
+  <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">ランサムウェアのリスクからシステムを保護</block>
+  <block id="3deb21101d87fafbbc562a691cfe0a34" category="paragraph">Active IQ デジタルアドバイザにログインすると、「ランサムウェア防御 * 」ウィジェットで強調表示されている「アクション * 」を確認できます。このウィジェットには、リスクカウントが表示されます。</block>
+  <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Snapshot の作成、保持、および ONTAP の FPolicy リスクを確認し、修正するためのアクションを実行できます。</block>
+  <block id="6f75bc30c5b47eb48f72d647d67781a9" category="list-text">「ランサムウェア防御 * 」ウィジェットで「 * アクション」をクリックします。</block>
+  <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">表示されたリスクについては、影響レベルを確認し、推奨される対処方法に従います。</block>
+  <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">[Unique Rises] タブをクリックし、 [*Corrective Action] 列にリンクします。</block>
+  <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">[ 影響を受けるシステム ] タブをクリックして、リスクのあるシステムを表示します。</block>
+  <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">システムを保護するために推奨される修正措置を実行します。</block>
+  <block id="01577a026e7abe02a9ba236a3d4f679b" category="section-title">2021 年 9 月 30 日</block>
+  <block id="5548552a90db4c3921de9d1e9c9fb3e3" category="section-title">お客様の条件を満たすバージョン</block>
+  <block id="1a55a42fef82760b4bf1c9a610731b20" category="paragraph">お客様限定バージョンは、サポートアカウントマネージャ（ SAM ）がお客様のインストールベースの一部を管理するのに役立ちます。このベースには、次の要件を満たすアプリケーションが含まれます。</block>
+  <block id="a6cfeafd34fe6f642483207974dd04a7" category="list-text">ONTAP の以前のバージョンと、サポートされない場合もあります</block>
+  <block id="1b7190e71bf87b797608810a3fa80d64" category="list-text">または、特定の OS バージョンを使用することがテストおよび認定されたお客様のインストールベース。</block>
+  <block id="f40998631af1af360155366585f115c8" category="section-title">テクニカルケースのワークフロー</block>
+  <block id="41705b7e1f487807deb1b3b4480313a9" category="paragraph">ダッシュボードとドリルダウン画面の両方で、データチャートと折れ線グラフにグラフィカルな機能強化が施されています。また、棒グラフでそのデータを表示することもできます。折れ線グラフウィンドウでは、これらのユーザーインターフェイスの [ オープン ] 、 [ クローズ済み ] 、 [ 合計 ] の各ケースのグラフを表示、選択、選択解除できます。</block>
+  <block id="67a5b2d9a5273b701cac4b32fff5b10a" category="section-title">健全性評価エグゼクティブサマリープレゼンテーション資料</block>
+  <block id="cd53d46c7fc3370b6d84cb5f78b0ad18" category="paragraph">Health Assessment Report の一部として提供され、「 Consolidated Health Assessment 」 Excel レポートにバンドルされています。このレポートは、 zip ファイル形式で提供されています。</block>
+  <block id="78c23e199d9efe5acc7d061bf66e50fa" category="section-title">健全性評価レポート</block>
+  <block id="fcb306303a3702a60e771cdf9289c264" category="paragraph">NetApp FabricPool のレポート作成セクションが含まれています。</block>
+  <block id="ee163ea8d25376f3053bffdb651cb6d4" category="section-title">顧客ビュー</block>
+  <block id="c8c697a371f8637bfc0e1b44a6cea0a4" category="paragraph">Active IQ デジタルアドバイザをお客様またはその他の社外向けペルソナに提示する際に、営業担当者が社内で使用する Active IQ ツールや選択項目（検出ダッシュボード、アセットインサイトなど）をオフにすることができます。</block>
+  <block id="6543a004d3e45f62cad7937f04baa622" category="paragraph">これを有効にするには、ユーザーインターフェイスで「顧客ビュー」トグルを表示する「設定の表示」に移動します。</block>
+  <block id="93c8a6e17d9d5f6fe358eb0ccb598e13" category="section-title">サポート終了（ EOS ）コントローラが 12 カ月以上ある</block>
+  <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">ヘルスチェックダッシュボードが強化され、 12 カ月を超える EOS があるコントローラを表示するタブが追加されました。</block>
+  <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">プランニング（ Planning ） * ウィジェットの更新（ Renewals ） * をクリックします。</block>
 </blocks>
