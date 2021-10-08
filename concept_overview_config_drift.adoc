@@ -25,3 +25,7 @@ Config Drift 機能は、システムテンプレートを「ゴールデン」�
 次の図を参考に、設定の違いを特定してレポートを生成するワークフローを把握してください。
 
 image:config_drift.png["ドリフトの設定ワークフロー"]
+
+次のビデオでは、 Ansible Playbook を生成して実行することで、構成の違いを修正できます。
+
+video::MbkwcZ7xk3Y[youtube, width=848,height=480]
