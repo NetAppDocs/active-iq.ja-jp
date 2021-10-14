@@ -22,6 +22,48 @@ NetApp Active IQ デジタルアドバイザでは、次の機能と拡張機能
 
 
 
+== 2021 年 10 月 14 日
+
+
+
+=== Ansible のインベントリ
+
+地域およびサイトレベルで、 .yml および .ini ファイル形式で Ansible インベントリファイルを生成できるようになりました。 link:task_view_inventory_details.html["詳細をご確認ください"]。
+
+
+
+=== Inactive Data Reporting （ IDR ）
+
+FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアクティブ化してアグリゲートを監視し、 Ansible プレイブックを生成できます。 link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["詳細はこちら。"]
+
+
+
+=== ドリフトタイムラインレポート
+
+過去 90 日間の AutoSupport データを比較して、ドリフトタイムラインレポートを生成できます。 link:task_generate_drift_timeline_report.html["詳細をご確認ください"]。
+
+
+
+=== 準拠システムの切り替え
+
+健全性チェックダッシュボードが強化され、 OS の最小数と最新バージョンの切り替えが可能になりました。これにより、システムが準拠しており、推奨バージョンと最新バージョンの最小要件に準拠していないことを確認できます。
+
+
+
+=== 主な推奨事項の概要
+
+ヘルスチェックダッシュボードでは、主要な推奨事項の上位 5 つの概要を確認できます。
+
+
+
+=== ネットアップの Cloud Volumes ONTAP および E シリーズプラットフォーム用のタブ
+
+健全性チェックダッシュボードが強化され、 Cloud Volumes ONTAP ** および E シリーズのタブではヘルスチェック KPI やそれらのプラットフォームの詳細を表示できるようになりました。
+
+「 ONTAP 」のタブも、現在有効になっている他のプラットフォームとともに追加されています。
+
+
+
 == 2021 年 9 月 30 日
 
 

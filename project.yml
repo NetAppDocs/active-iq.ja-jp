@@ -79,6 +79,8 @@ sidebar:
       url: "/task_add_config_drift_template.html"
     - title: 構成ドリフトテンプレートを比較します
       url: "/task_compare_config_drift_template.html"
+    - title: ドリフトタイムラインレポートを生成します
+      url: "/task_generate_drift_timeline_report.html"
   - title: ストレージシステムの効率性とパフォーマンスを向上させます
     entries:
     - title: 容量と効率化による削減効果を分析できます

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: task_compare_config_drift_template.html 
-keywords: config deviation, drift, configuration, compare template 
-summary: 構成ドリフトテンプレートを比較するための情報を提供します。 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: ドリフトタイムラインレポートを生成するための情報を提供します。 
 ---
-= 構成ドリフトテンプレートを比較します
+= ドリフトタイムラインレポートを生成します
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -18,12 +18,12 @@ summary: 構成ドリフトテンプレートを比較するための情報を�
 
 
 [role="lead"]
-システム構成とクラスタ構成を比較して、設定の違いをほぼリアルタイムで検出できます。
+過去 90 日間の AutoSupport データを比較して、イベントおよび発生した設定の違いに関する情報を記載したレポートを生成できます。
 
 .手順
 . 左側のペインで、 [Config Drift *] をクリックします。
-. 既存のテンプレートのいずれかを選択するか、 * テンプレートの追加 * をクリックして新しいテンプレートを追加します。
-. 構成ドリフトレポートを生成します
+. 「 * ドリフトタイムライン * 」レポートタイプを選択します。
+. ドリフトタイムラインレポートを生成します
 +
 レポートはすぐに生成することも、週単位または月単位で生成するようにスケジュール設定することもできます。
 
@@ -38,8 +38,7 @@ summary: 構成ドリフトテンプレートを比較するための情報を�
 . カテゴリを選択し、レポートに必要な値を指定します。
 . [ ドリフトのみを含める ] オプションを選択して、構成偏差の変更のみをダウンロードします。
 . [Submit （送信） ] をクリックします。
-. link:task_generate_reports.html["設定ドリフトレポートをダウンロードして表示します"]。
-. 設定のドリフトレポートの一部として含まれる Ansible Playbook を実行し、ドリフトを軽減してください。
+. link:task_generate_reports.html["ドリフトタイムラインレポートをダウンロードして表示します"]。
 
  a| 
 . [ レポートのスケジュール * ] タブをクリックします。
@@ -48,9 +47,7 @@ summary: 構成ドリフトテンプレートを比較するための情報を�
 . レポートの頻度を選択します。
 . レポートの開始日と終了日を選択します。
 . [Submit （送信） ] をクリックします。
-. link:task_generate_reports.html["設定ドリフトレポートをダウンロードして表示します"]。
-. 設定のドリフトレポートの一部として含まれる Ansible Playbook を実行し、ドリフトを軽減してください。
+. link:task_generate_reports.html["ドリフトタイムラインレポートをダウンロードして表示します"]。
 
 
 |===
-選択したシステム間の設定の偏差の詳細が記載された E メールが送信されます。

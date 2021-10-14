@@ -20,9 +20,12 @@ summary: FabricPool Advisor を使用してアクセス頻度の低いデータ�
 [role="lead"]
 コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。
 
-Active IQ デジタルアドバイザの FabricPool アドバイザダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 Inactive Data Reporting （ IDR ）が有効になっていないデータの詳細が表示されます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。
+Active IQ デジタルアドバイザの FabricPool アドバイザダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化されたデータ、監視対象外のデータの詳細が表示されます。
 
-ボリュームにアクセス頻度の低いデータが 60% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください link:https://docs.netapp.com/us-en/occm/concept_cloud_tiering.html["Cloud Tiering の詳細をご確認ください"]。
+
+NOTE: Inactive Data Reporting （ IDR ）を有効にして、 Ansible Playbook ファイルを含む zip ファイルを生成することができます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。
+
+ボリュームにアクセス頻度の低いデータが 50% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください link:https://docs.netapp.com/us-en/occm/concept_cloud_tiering.html["Cloud Tiering の詳細をご確認ください"]。
 
 .手順
 . 左側のナビゲーションペインから * FabricPool アドバイザ * を選択します。

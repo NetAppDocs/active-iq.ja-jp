@@ -583,7 +583,6 @@
   <block id="67b399315af1fd51d7b669851330bf0a" category="doc">FabricPool Advisor を使用して、アクセス頻度の低いデータを監視し、階層化する</block>
   <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
   <block id="36afa058c74d288178950c27927bdb38" category="inline-link">Cloud Tiering の詳細をご確認ください</block>
-  <block id="7d7cb4566140787987242b5a4c062540" category="paragraph">ボリュームにアクセス頻度の低いデータが 60% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-rx"></block>。</block>
   <block id="ba825ed19de4ba2cc70be46eb78689f1" category="list-text">[*Tier Data*] をクリックして、 Cloud Manager を使用してデータを階層化します。</block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">インベントリファイルの操作に関する情報を提供します。</block>
   <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">インベントリファイルを操作します</block>
@@ -782,7 +781,6 @@
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">設定ウィジェット</block>
   <block id="60436722270a4533c09cb8939f672895" category="list-text">構成 * （ Configuration * ）ウィジェットで * アクション * （ Actions * ）をクリックします。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">[* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="59e957aaf5b367ba9d97d9e73c32e02a" category="paragraph">Active IQ デジタルアドバイザの FabricPool アドバイザダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 Inactive Data Reporting （ IDR ）が有効になっていないデータの詳細が表示されます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
   <block id="cd01c74549cdfc52159ec7a8329c2c3f" category="list-text">左側のナビゲーションペインから * FabricPool アドバイザ * を選択します。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Cluster Viewer についての情報を提供します。</block>
   <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">クラスタとノードの健全性を分析します</block>
@@ -1015,4 +1013,32 @@
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">ヘルスチェックダッシュボードが強化され、 12 カ月を超える EOS があるコントローラを表示するタブが追加されました。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">プランニング（ Planning ） * ウィジェットの更新（ Renewals ） * をクリックします。</block>
   <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">次のビデオでは、 Ansible Playbook を生成して実行することで、構成の違いを修正できます。</block>
+  <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">システムの詳細を .xls 形式で表示するには、 * Inventory * レポートをダウンロードします。</block>
+  <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">Ansible Inventory * レポートをダウンロードして、地域またはサイトレベルの .yml および .ini 形式でシステムの詳細を確認できます。</block>
+  <block id="cf9a05044c598886b8421db3045b9edd" category="paragraph">Ansible のインベントリファイルは、カスタマイズされた Ansible Playbook ファイルと併用し、インフラ構成を変更することができます。</block>
+  <block id="812ad8b6bb127213d73d9d6bcd0ec8d0" category="list-text">[ ドリフトのみを含める ] オプションを選択して、構成偏差の変更のみをダウンロードします。</block>
+  <block id="4f4438730e3b3e658fec82d94c8dd2c9" category="section-title">2021 年 10 月 14 日</block>
+  <block id="206b11a774f63418bae21625e6f6d2fb" category="section-title">Ansible のインベントリ</block>
+  <block id="d218acf3139b2df9f86974252e34f973" category="paragraph">地域およびサイトレベルで、 .yml および .ini ファイル形式で Ansible インベントリファイルを生成できるようになりました。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
+  <block id="f6ba2adb39c05d434ab52c6ad161a40d" category="section-title">Inactive Data Reporting （ IDR ）</block>
+  <block id="1363d8028841d1a619635b4cbd33e1e6" category="paragraph">FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアクティブ化してアグリゲートを監視し、 Ansible プレイブックを生成できます。 <block ref="779f7b5b9d0c1245e542540e4775cdfe" category="inline-link-macro-rx"></block></block>
+  <block id="6f815aa2f2eb28995c59dd2d2b0af600" category="section-title">ドリフトタイムラインレポート</block>
+  <block id="5e4b167efbd384d21eda43769f89f2b4" category="paragraph">過去 90 日間の AutoSupport データを比較して、ドリフトタイムラインレポートを生成できます。 <block ref="6e959f6930398ffd4237fa003affc1a1" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb3f8f484c3b350e78e56ea72f491137" category="section-title">準拠システムの切り替え</block>
+  <block id="25158a1dfe0d3c798ddbe50ec410b4c1" category="paragraph">健全性チェックダッシュボードが強化され、 OS の最小数と最新バージョンの切り替えが可能になりました。これにより、システムが準拠しており、推奨バージョンと最新バージョンの最小要件に準拠していないことを確認できます。</block>
+  <block id="726d553e79fbb6d2f511fe1bd60fb931" category="section-title">主な推奨事項の概要</block>
+  <block id="1d1be840f4bc6297746dee2a3bb5547a" category="paragraph">ヘルスチェックダッシュボードでは、主要な推奨事項の上位 5 つの概要を確認できます。</block>
+  <block id="b00f197330b8c03d51bcc9ff737bf029" category="section-title">ネットアップの Cloud Volumes ONTAP および E シリーズプラットフォーム用のタブ</block>
+  <block id="823e0682a919056e63060941206cbbd0" category="paragraph">健全性チェックダッシュボードが強化され、 Cloud Volumes ONTAP ** および E シリーズのタブではヘルスチェック KPI やそれらのプラットフォームの詳細を表示できるようになりました。</block>
+  <block id="b47109f6e8c3654beb551c1dc5b17f5e" category="paragraph">「 ONTAP 」のタブも、現在有効になっている他のプラットフォームとともに追加されています。</block>
+  <block id="33ff2e9459330445a2f8efc828105eb4" category="summary">ドリフトタイムラインレポートを生成するための情報を提供します。</block>
+  <block id="377be568d398496d62e94ceb54a8e1af" category="doc">ドリフトタイムラインレポートを生成します</block>
+  <block id="ff0ee6a38185520feff29fb49312cadc" category="paragraph">過去 90 日間の AutoSupport データを比較して、イベントおよび発生した設定の違いに関する情報を記載したレポートを生成できます。</block>
+  <block id="1a13d9a0c86de95ae6f63dd3820e10c6" category="list-text">「 * ドリフトタイムライン * 」レポートタイプを選択します。</block>
+  <block id="4d3bf8b6bdc26afdb2aa1d58bbe4ee2d" category="inline-link-macro">ドリフトタイムラインレポートをダウンロードして表示します</block>
+  <block id="0ee9ccb81e2b9003939ac6aa09488241" category="list-text"><block ref="ab5a1cc12fe7d947d0930f0a2ef72091" category="inline-link-macro-rx"></block>。</block>
+  <block id="c085b6657036bb1d81722aa83019dea6" category="paragraph">Active IQ デジタルアドバイザの FabricPool アドバイザダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化されたデータ、監視対象外のデータの詳細が表示されます。</block>
+  <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">Inactive Data Reporting （ IDR ）を有効にして、 Ansible Playbook ファイルを含む zip ファイルを生成することができます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
+  <block id="68402dbd648038cbbdf19fccff1898f8" category="paragraph">ボリュームにアクセス頻度の低いデータが 50% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-macro-rx"></block>。</block>
+  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">ドリフトタイムラインレポートを生成します</block>
 </blocks>
