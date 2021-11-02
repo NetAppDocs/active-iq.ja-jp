@@ -100,9 +100,9 @@ sidebar:
   - title: ストレージシステムの健常性を分析します
     entries:
     - title: 概要
-      url: "/concept_understand_health_check_assessment_dashboard.html"
-    - title: 健全性チェック評価ダッシュボードの使用を開始します
-      url: "/concept_get_started_with_health_check_assessment_dashboard.html"
+      url: "/concept_understand_health_check_dashboard.html"
+    - title: 健全性チェックダッシュボードの利用を開始しましょう
+      url: "/concept_get_started_with_health_check_dashboard.html"
     - title: サポート契約の更新
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: アップグレードしてインストールベースを最適化します

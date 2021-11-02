@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_risk_and_take_action.html 
-keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, mitigate, rectify 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
 summary: ストレージシステムの健全性を確認および分析し、リスクを軽減するための情報を提供します。 
 ---
 = リスクを確認し、修正措置を手動で実施します

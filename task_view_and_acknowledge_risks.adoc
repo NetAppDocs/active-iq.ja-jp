@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_and_acknowledge_risks.html 
-keywords: wellness, performance, efficiency, availability, capacity, security, protection, protect, acknowledge, unacknowledge, disregard 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
 summary: ストレージシステムの健全性を確認および分析し、リスクを承認するための情報を提供します。 
 ---
 = リスクを確認して承認します
