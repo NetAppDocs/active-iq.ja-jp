@@ -29,6 +29,8 @@ sidebar:
       url: "/concept_autosupport.html"
     - title: Active IQ Digital Advisor にログインします
       url: "/task_login_activeiq.html"
+    - title: Cloud Manager でクラスタを管理します
+      url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: 監視リストをプロビジョニング
     entries:
     - title: 概要
@@ -140,8 +142,12 @@ sidebar:
       url: "/task_generate_tokens_API_services.html"
     - title: API を実行するには、 API カタログを使用します
       url: "/task_view_API_catalog.html"
-  - title: レポートを生成します
-    url: "/task_generate_reports.html"
+  - title: カスタムレポートを生成
+    entries:
+    - title: レポートのタイプ
+      url: "/concept_report_types.html"
+    - title: レポートを生成します
+      url: "/task_generate_reports.html"
   - title: よくある質問
     url: reference_aiq_faq.html
   - title: 詳細はこちらをご覧ください

@@ -985,13 +985,6 @@
   <block id="1b7190e71bf87b797608810a3fa80d64" category="list-text">または、特定の OS バージョンを使用することがテストおよび認定されたお客様のインストールベース。</block>
   <block id="f40998631af1af360155366585f115c8" category="section-title">テクニカルケースのワークフロー</block>
   <block id="41705b7e1f487807deb1b3b4480313a9" category="paragraph">ダッシュボードとドリルダウン画面の両方で、データチャートと折れ線グラフにグラフィカルな機能強化が施されています。また、棒グラフでそのデータを表示することもできます。折れ線グラフウィンドウでは、これらのユーザーインターフェイスの [ オープン ] 、 [ クローズ済み ] 、 [ 合計 ] の各ケースのグラフを表示、選択、選択解除できます。</block>
-  <block id="67a5b2d9a5273b701cac4b32fff5b10a" category="section-title">健全性評価エグゼクティブサマリープレゼンテーション資料</block>
-  <block id="cd53d46c7fc3370b6d84cb5f78b0ad18" category="paragraph">Health Assessment Report の一部として提供され、「 Consolidated Health Assessment 」 Excel レポートにバンドルされています。このレポートは、 zip ファイル形式で提供されています。</block>
-  <block id="78c23e199d9efe5acc7d061bf66e50fa" category="section-title">健全性評価レポート</block>
-  <block id="fcb306303a3702a60e771cdf9289c264" category="paragraph">NetApp FabricPool のレポート作成セクションが含まれています。</block>
-  <block id="ee163ea8d25376f3053bffdb651cb6d4" category="section-title">顧客ビュー</block>
-  <block id="c8c697a371f8637bfc0e1b44a6cea0a4" category="paragraph">Active IQ デジタルアドバイザをお客様またはその他の社外向けペルソナに提示する際に、営業担当者が社内で使用する Active IQ ツールや選択項目（検出ダッシュボード、アセットインサイトなど）をオフにすることができます。</block>
-  <block id="6543a004d3e45f62cad7937f04baa622" category="paragraph">これを有効にするには、ユーザーインターフェイスで「顧客ビュー」トグルを表示する「設定の表示」に移動します。</block>
   <block id="93c8a6e17d9d5f6fe358eb0ccb598e13" category="section-title">サポート終了（ EOS ）コントローラが 12 カ月以上ある</block>
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">ヘルスチェックダッシュボードが強化され、 12 カ月を超える EOS があるコントローラを表示するタブが追加されました。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">プランニング（ Planning ） * ウィジェットの更新（ Renewals ） * をクリックします。</block>
@@ -1047,4 +1040,58 @@
   <block id="0411f5495f5795b2270ee7603259fb59" category="list-text">Active IQ デジタルアドバイザの [ レポート ] 画面に、社内ユーザと社外（お客様とパートナー）ユーザのための機密データバナーを追加しました。</block>
   <block id="ec4db24b3963d4a0b276c998be9a81bc" category="section-title">健全性とアップグレードウィジェット</block>
   <block id="54454ba57239406365ebc84a4d7bd111" category="paragraph">E シリーズのアップグレードに関する推奨事項と、ウェルネスアクション履歴の列にリスクトリガー日が追加されたダッシュボードが強化されました。</block>
+  <block id="1e6a2df5d81ec0be4913d5a6cc31e753" category="section-title">2021 年 12 月 15 日</block>
+  <block id="f551e29085dd1ae672a5c22b16dd5231" category="list-text">* Cluster Viewer Report * ：このレポートには、 1 つまたは複数のクラスタに関する情報が顧客レベルと監視リストレベルで表示されます。Cluster Viewer レポートを使用して、 1 つのファイル内のすべての情報をダウンロードできます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
+  <block id="32323c520058568cf459c9c091b6302a" category="list-text">* パフォーマンスレポート * ：このレポートは、監視リストレベルで、クラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報を 1 つの zip ファイルにまとめたものです。各 zip ファイルには、単一のクラスタのパフォーマンスデータが含まれており、各クラスタのデータの分析に役立ちます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
+  <block id="e7495c352afe82777cef53d3f7d2534f" category="section-title">E シリーズシステムとの統合</block>
+  <block id="00c03a5533f59ea010c2980d7e4d8d04" category="paragraph">Active IQ では、選択した E シリーズシステムの容量の詳細とパフォーマンスグラフを表示できます。</block>
+  <block id="bff8e0727b4c9b257312f2cbb6fcce4d" category="section-title">2021 年 11 月 18 日</block>
+  <block id="91b681e174a782226d26fb4056e14081" category="section-title">ストレージ効率</block>
+  <block id="2837fa943ed77aa7de5f931fc0d9ddb0" category="paragraph">NetApp Cloud Insights で管理および監視されているノードのストレージ効率の詳細を表示できます。</block>
+  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">Cluster Viewer （クラスタビューア）</block>
+  <block id="9dc83864364276e0f933b83aba5a7e53" category="paragraph">Cluster Viewer Stack Visualization モジュールが強化され、 Zoom In/Zoom Out and Save Image 機能が追加されました。</block>
+  <block id="3085ac0389f450e4cca3a2b286aaf59f" category="paragraph">NetApp Cloud Insights で管理および監視されるシステムのストレージ効率の詳細を表示できます。</block>
+  <block id="5113f77f1fff34aa6b365de6e30cf5ec" category="paragraph">NetApp Cloud Volumes ONTAP システムの容量の詳細は Active IQ で確認できます。</block>
+  <block id="bab881e7a77679bf1ae1e0e5dcb3ec3e" category="paragraph">レポートスケジュールは 12 カ月に延長されました。また、スケジュールレポートの有効期限が近づいたときに通知が送信されます。</block>
+  <block id="875d9c5afda791a40017daaed49334d2" category="section-title">パフォーマンスグラフ</block>
+  <block id="3bea15cd61ddb06da5da3c9da21af174" category="paragraph">パフォーマンスグラフは、 CSV 形式に加えて、 PNG 形式および JPG 形式でダウンロードできるようになりました。</block>
+  <block id="6268dbec956651e7bd88197154e41f93" category="paragraph">Active IQ では、 NetApp ONTAP ® Select システムの容量に関する詳細を確認できます。</block>
+  <block id="9ee1a0b7aa28c278380f54797be2bc29" category="paragraph">Cluster Viewer の表示タブで、ケーブル接続の問題やその他のエラーを確認できます。</block>
+  <block id="e2c6808982593708e3cfabf058fefb40" category="summary">Cloud Manager でのクラスタの統合と管理方法に関する情報を提供します。</block>
+  <block id="69afd9ad39724c949338645bc3c18d3c" category="doc">Cloud Manager でクラスタを管理します</block>
+  <block id="8a0d2c897946577052b091701b0ae580" category="paragraph">Active IQ デジタルアドバイザは、 Cloud Manager に統合されています。クラスタを管理したり、 Active IQ のすべての機能に Cloud Manager のユーザインターフェイス（ UI ）からアクセスしたりできるようになりました。IT エキスパートとクラウドアーキテクトは、 Cloud Manager を使用して、ハイブリッドマルチクラウドインフラを一元管理できます。</block>
+  <block id="292e5c26d5c03cc4f8e1e8768bbbabaa" category="inline-link-macro">Active IQ Digital Advisor と Cloud Manager の連携</block>
+  <block id="1a14660c227c82394e14ca6a74c99853" category="paragraph">Cloud Manager に Active IQ を統合してアクセスするために必要なのは、 Cloud Manager の NSS アカウントだけです。Cloud Manager での Active IQ の統合とアクセスについては、を参照してください <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">ユーザが使用できるさまざまなタイプのレポートに関する情報が表示されます。</block>
+  <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">レポートのタイプ</block>
+  <block id="94e352af51d87c5a98b75dabcdaad93a" category="paragraph">Active IQ には、システムの健常性や処理の状況を監視および管理するためのさまざまなレポートオプションが用意されています。</block>
+  <block id="4580a4b84f306c8ee589e863f752ac16" category="paragraph">Active IQ で使用できるレポートのタイプを次に示します。</block>
+  <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">レポート名（ Report Name ）</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
+  <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">未解決および確認済みのリスク、リスクの詳細、対処方法、影響を受けるシステムに関する情報が表示されます。</block>
+  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康–集約されました</block>
+  <block id="87dafd57e21434bb814dbc172e84014c" category="cell">未解決のリスクと影響を受けるシステムの数を Excel 形式でまとめたものです。</block>
+  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7-Mode Upgrade Advisor の計画</block>
+  <block id="172ba4bf1d36ec96b59a55102d5b020c" category="cell">7-Mode システム向けの Upgrade Advisor プランに関するレポートを提供します。このレポートには、 HA パートナーに関する情報が PDF 形式で記載されます。</block>
+  <block id="35767d0c6b2bfe724794207ba0268903" category="cell">地域またはサイトごとにシステムインベントリの詳細をすべて表示する Ansible インベントリファイルを提供します。このファイルは自動化に使用できます。</block>
+  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
+  <block id="7eaee357275d531796b5348076c7abaa" category="cell">非アクティブ、コールド、アクティブ、ホット、階層化、 監視対象外のデータです。このレポートには、無効なアグリゲートで Inactive Data Reporting を有効にするための Ansible プレイブックも含まれています。</block>
+  <block id="ee50541ca9446ee369b76dc85f187051" category="cell">選択したウォッチリスト、顧客、サイト、グループレベルのインストールベースに関する情報が表示されます。このレポートは、インベントリ詳細ページから直接ダウンロードするか、レポートページから生成できます。</block>
+  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">サポート終了</block>
+  <block id="eb3e2bb77a70accd5403c18060eae0d0" category="cell">サポート終了（ EOS ）に達したコントローラ、シェルフ、ディスクに関する情報が表示されます。</block>
+  <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">推奨される構成</block>
+  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">リモート管理構成、スペアとドライブ、 HA ペア、および SVM 健全性に関するさまざまな推奨構成ギャップに関する情報を提供します。</block>
+  <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">テクニカルケースの詳細</block>
+  <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">すべてのテクニカルケースとそのステータスに関する年次レポートを提供します。</block>
+  <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">アップグレードの推奨事項（ SW と FW ）</block>
+  <block id="9932f2379db681a01520e32c482a3ddb" category="cell">検索条件に含まれる各コントローラまたはシリアルのソフトウェアとファームウェアの通貨および推奨バージョンに関するマルチタブレポート。</block>
+  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">Cluster Viewer レポート</block>
+  <block id="deadf2a9fa3f158efcd64e6a72518e2d" category="cell">顧客および監視リストレベルの単一または複数のクラスタに関する情報が表示されます。Cluster Viewer レポートを使用して、 1 つのファイル内のすべての情報をダウンロードできます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
+  <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量と効率性</block>
+  <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">クラスタ、顧客、サイト、グループ、監視リスト、ノードレベルでの容量と効率の詳細に関する情報が表示されます。</block>
+  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">ボリュームパフォーマンスレポート</block>
+  <block id="2bc63cd07b97ee266354dc14df194285" category="cell">クラスタレベルのボリュームのパフォーマンスの詳細に関する情報が表示されます。</block>
+  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">パフォーマンスレポート</block>
+  <block id="c05d44d160f419e8ea9a210443df1f11" category="cell">1 つの zip ファイル内のクラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報がウォッチリストレベルで表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
+  <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
 </blocks>
