@@ -5,8 +5,9 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-    harmony_enabled: true
+    harmony_enabled: false
     langs: ja-jp,us-en,zh-cn
+  langs: ja-jp,us-en,zh-cn
 sidebar:
   entries:
   - title: Active IQ デジタルアドバイザドキュメント
@@ -91,6 +92,8 @@ sidebar:
       url: "/task_compare_config_drift_template.html"
     - title: ドリフトタイムラインレポートを生成します
       url: "/task_generate_drift_timeline_report.html"
+    - title: テンプレートを管理します
+      url: "/task_manage_template.html"
   - title: ストレージシステムの効率性とパフォーマンスを向上させます
     entries:
     - title: 容量と効率化による削減効果を分析できます

@@ -1094,4 +1094,19 @@
   <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">パフォーマンスレポート</block>
   <block id="c05d44d160f419e8ea9a210443df1f11" category="cell">1 つの zip ファイル内のクラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報がウォッチリストレベルで表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
+  <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">テンプレートを管理するための情報を提供します。</block>
+  <block id="50265178fa957fba00e89ee31583eda9" category="doc">テンプレートを管理します</block>
+  <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">テンプレートのクローン作成、テンプレートの共有、既存のテンプレートの詳細の編集、テンプレートの削除を行うことができます。</block>
+  <block id="d329fd777726c300d7a044e482b967e7" category="inline-image-macro">クローン</block>
+  <block id="6f2f86dbd151feaab096b96a9b0c37eb" category="list-text">をクリックします <block ref="3b55c23dfb4079e2af5dd3be6ef65a9e" category="inline-image-macro-rx" type="image"></block> テンプレートのコピーを作成します。</block>
+  <block id="85e47ac07ac9d6416168a97e33fa969a" category="inline-image-macro">共有</block>
+  <block id="30486c4de149468d64f86f131cbfba0a" category="list-text">をクリックします <block ref="e99ba43207c50943c58f4200e8020746" category="inline-image-macro-rx" type="image"></block> テンプレートを共有するユーザ名を入力します。</block>
+  <block id="595120ebe2be774fab22543291877b24" category="admonition">ユーザ名ではなくユーザの E メールアドレスを入力した場合、テンプレートは共有されません。</block>
+  <block id="de95b43bceeb4b998aed4aed5cef1ae7" category="inline-image-macro">編集</block>
+  <block id="0865a774e1174481df7273cee252f86b" category="list-text">をクリックします <block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block> テンプレートの詳細を更新します。</block>
+  <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">削除</block>
+  <block id="a9345dca2427f7f88c526df2640684ed" category="list-text">をクリックします <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> テンプレートを削除します。</block>
+  <block id="d1c945f8f77793851d1f6cbc46465c53" category="section-title">2021 年 1 月 12 日</block>
+  <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">テンプレートを複製して、元のテンプレートのコピーを作成できます。</block>
+  <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">ゴールデンテンプレートは、これらのテンプレートに読み取り専用またはフルアクセスして、他の使用権のあるユーザと共有できます。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
 </blocks>

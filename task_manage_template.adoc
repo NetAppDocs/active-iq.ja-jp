@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_manage_template.html 
+keywords: templates, share template, clone template, edit template, delete template 
+summary: テンプレートを管理するための情報を提供します。 
+---
+= テンプレートを管理します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+テンプレートのクローン作成、テンプレートの共有、既存のテンプレートの詳細の編集、テンプレートの削除を行うことができます。
+
+.手順
+. 左側のペインで、 [Config Drift *] をクリックします。
+. をクリックします image:clone_icon.png["クローン"] テンプレートのコピーを作成します。
+. をクリックします image:share_icon.png["共有"] テンプレートを共有するユーザ名を入力します。
++
+
+NOTE: ユーザ名ではなくユーザの E メールアドレスを入力した場合、テンプレートは共有されません。
+
+. をクリックします image:edit_icon.png["編集"] テンプレートの詳細を更新します。
+. をクリックします image:delete_icon.png["削除"] テンプレートを削除します。
+
