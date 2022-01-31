@@ -228,7 +228,6 @@
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率を上回る場合は、「 * ユーザ事例を共有」をクリックして、実施したベストプラクティスをお知らせください。</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率より低い場合は、「 * お問い合わせ * 」をクリックして、ストレージシステムの構成をお知らせください。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">リリースの新機能に関する情報を提供します。</block>
-  <block id="800e31baacf1dc07c572c5aed9b7c407" category="doc">Active IQ デジタルアドバイザの新機能</block>
   <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021 年 2 月 10 日</block>
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
   <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">StorageGRID ダッシュボードは、 NextGen API フレームワークを使用して有効にします。</block>
@@ -1109,4 +1108,5 @@
   <block id="d1c945f8f77793851d1f6cbc46465c53" category="section-title">2021 年 1 月 12 日</block>
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">テンプレートを複製して、元のテンプレートのコピーを作成できます。</block>
   <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">ゴールデンテンプレートは、これらのテンプレートに読み取り専用またはフルアクセスして、他の使用権のあるユーザと共有できます。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
+  <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ デジタルアドバイザの新機能</block>
 </blocks>
