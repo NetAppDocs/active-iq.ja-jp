@@ -1109,4 +1109,11 @@
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">テンプレートを複製して、元のテンプレートのコピーを作成できます。</block>
   <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">ゴールデンテンプレートは、これらのテンプレートに読み取り専用またはフルアクセスして、他の使用権のあるユーザと共有できます。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
   <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ デジタルアドバイザの新機能</block>
+  <block id="fb9ec4a767166de614d7b27285754a9b" category="paragraph">テンプレートを共有することで、ユーザーがすでに作成したテンプレートを作成してカスタマイズするために必要な時間と労力を節約できます。共有テンプレートは共有ユーザが相互に変更できるため、複数のユーザが 1 つのゴールデンテンプレートに変更を加えることができます。</block>
+  <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">* このタスクについて *</block>
+  <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">共有テンプレートへのアクセスは、いつでも無効にできます。</block>
+  <block id="604e4b03afa73e998c83987a965bf62f" category="list-text">共有ユーザーは、いつでもアカウントからこのテンプレートを削除できます。</block>
+  <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">Active IQ ではレポートを編集できません。既存のレポートを削除して、新しいレポートを作成する必要があります。</block>
+  <block id="1c29599ba00f8ba135a21a794908ea18" category="admonition">レポートは、 Active IQ に 3 日間保存されます。</block>
+  <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">新しいレポートが生成されると、既存のスケジュール済みレポートが置き換えられます。</block>
 </blocks>

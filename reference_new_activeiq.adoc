@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_new_activeiq.html 
-keywords: what's new, features, new 
+keywords: 'what"s new, features, new' 
 summary: リリースの新機能に関する情報を提供します。 
 ---
 = Active IQ デジタルアドバイザの新機能
