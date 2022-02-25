@@ -371,7 +371,6 @@
   <block id="b30b3bbfc415b638b24e6565c44b8b35" category="paragraph">アクティブ化は自動的に行われ、瞬時に行われます。Active IQ API の使用が許可されたら、プログラムによる API 呼び出しに使用するトークンを生成できます。これらのトークンを使用して、 API カタログ内から「試してみよう」を実行することもできます。プログラムによって取得されたトークンは、常にアクセストークンとリフレッシュトークンの 2 つのセットで構成されます。アクセストークンは、すべての API を正常に使用するために渡される必要があります（ただし、リフレッシュトークンを使用すると、プログラムによって新しいトークンセットを取得できます）。</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">[Main API Services] ページで、 [Generate Token] をクリックしてアクセストークンを表示およびダウンロードし、トークンを更新して API を呼び出します。</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">ポータルでは、 1 つまたは両方のトークンを複数の方法でセットに保存できます。クリップボードにコピーしたり、テキストファイルとしてダウンロードしたり、プレーンテキストで表示したりすることができます。</block>
-  <block id="607683664f7a92a19f972cb30b0f79a1" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは、生成後 1 時間、リフレッシュトークンは 7 日後に期限切れになります。この API 呼び出しで使用される更新トークンは、新しい更新トークンが生成されると無効になります。</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">システムのサポート契約を更新する方法について説明します。</block>
   <block id="fba041f597391cccf20df624e451614c" category="doc">サポート契約の更新</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">ダッシュボードでは、アクティブなすべてのサポート契約のスコアと概要を確認できます。優先度順に提示された主要な推奨事項に基づいて処理を実行できます。</block>
@@ -836,7 +835,6 @@
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">サポートサービスのアップグレード</block>
   <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">ユーザインターフェイスが強化され、 Active IQ で登録している特定のサポートサービスが表示されるようになりました。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
-  <block id="96dcda009a89f5728838eaae68633cbf" category="doc">Active IQ に関するよくある質問です</block>
   <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下の質問をお寄せください。 Active IQ に関するよくあるお問い合わせをご確認ください。</block>
   <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">特定の機能にアクセスできません</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">インベントリにシステムがありません</block>
@@ -1116,4 +1114,7 @@
   <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">Active IQ ではレポートを編集できません。既存のレポートを削除して、新しいレポートを作成する必要があります。</block>
   <block id="1c29599ba00f8ba135a21a794908ea18" category="admonition">レポートは、 Active IQ に 3 日間保存されます。</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">新しいレポートが生成されると、既存のスケジュール済みレポートが置き換えられます。</block>
+  <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">Active IQ に関するよくある質問です</block>
+  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは生成後 1 時間有効期限が切れ、更新トークンは 7 日ごとに再生成され、アプリケーションにインストールされる必要があります。90 日が経過したら、手動でログインし、新しいアクセストークンと更新トークンを取得する必要があります。</block>
+  <block id="469ece09146953ebd6a7e5bf041f15f1" category="paragraph">容量およびストレージ効率の詳細については、を参照してください <block ref="1f14e24988ac8fc33e2e14ae229f096d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
