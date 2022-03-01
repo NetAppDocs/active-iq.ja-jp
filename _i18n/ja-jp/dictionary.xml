@@ -720,7 +720,6 @@
   <block id="82ee712943040cce957254912d97aba0" category="list-text">任意の API を選択します</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">監視リストをプロビジョニング</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。</block>
-  <block id="994d62a653fe8361ea4d612235399fb3" category="doc">ハッカーやランサムウェア攻撃に対する保護を強化</block>
   <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">Active IQ Digital Advisor にログインします</block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">対処方法の列</block>
@@ -1015,7 +1014,6 @@
   <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">ドリフトタイムラインレポートを生成します</block>
   <block id="a0cead27e095329905ff0ea7d83de0d2" category="list-text">* ウェルネスウィジェット： * パフォーマンス、効率、容量、構成設定、セキュリティの脆弱性に関する情報を表示します。 その他。容量を超えているか、容量の 90% に近いシステムをプロアクティブに特定します。さらに、ソフトウェアとハードウェアについて、有効期限が切れているか、 6 カ月以内に期限切れになるように設定されている情報も提供されます。</block>
   <block id="8dae33fe79be13ef64d47e7f786ed059" category="list-text">* セキュリティ上の脆弱性 :* は、影響範囲の値のセキュリティ属性を持つリスクで構成されています。</block>
-  <block id="516965ece26518bb9e7692ea79ff1d0c" category="paragraph">Active IQ デジタルアドバイザにログインし、「セキュリティの脆弱性」ウィジェットに赤いバッジが表示されたら、重大なリスクを修正するための処置を講じることができます。</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">セキュリティの脆弱性ウィジェット</block>
   <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">セキュリティーの脆弱性 * ウィジェットで * アクション * をクリックします。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">ヘルスチェックダッシュボードについて理解するための情報を提供します。</block>
@@ -1117,4 +1115,9 @@
   <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">Active IQ に関するよくある質問です</block>
   <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは生成後 1 時間有効期限が切れ、更新トークンは 7 日ごとに再生成され、アプリケーションにインストールされる必要があります。90 日が経過したら、手動でログインし、新しいアクセストークンと更新トークンを取得する必要があります。</block>
   <block id="469ece09146953ebd6a7e5bf041f15f1" category="paragraph">容量およびストレージ効率の詳細については、を参照してください <block ref="1f14e24988ac8fc33e2e14ae229f096d" category="inline-link-macro-rx"></block>。</block>
+  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">セキュリティの脆弱性を検出します</block>
+  <block id="d5d17f408c363c187667642f4d2ee597" category="paragraph">ネットアップのセキュリティサイトは、ネットアップの製品セキュリティに関する情報源です。 <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="d07de6c78533ed3ecc00b46776283804" category="paragraph">Active IQ では、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の * およびサポート資格のある製品のセキュリティ問題を検出します。Active IQ がリスクを検出できるように、製品のテレメトリデータを AutoSupport 経由でネットアップに送信する必要があります。</block>
+  <block id="ac9e6dffc41619c8aed4c566d44168e4" category="paragraph">Active IQ の対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）</block>
 </blocks>

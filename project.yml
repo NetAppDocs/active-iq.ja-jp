@@ -45,7 +45,7 @@ sidebar:
       url: "/concept_overview_wellness.html"
     - title: リスクを確認し、修正措置を手動で実施します
       url: "/task_view_risk_and_take_action.html"
-    - title: ハッカーやランサムウェア攻撃に対する保護を強化
+    - title: セキュリティの脆弱性を検出します
       url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
     - title: ランサムウェアのリスクからシステムを保護
       url: "/task_protect_systems_against_ransomware_risks.html"

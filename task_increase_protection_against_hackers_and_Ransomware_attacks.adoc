@@ -4,7 +4,7 @@ permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html
 keywords: protection, hackers, ransomware, ransomware attacks, attack 
 summary: ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。 
 ---
-= ハッカーやランサムウェア攻撃に対する保護を強化
+= セキュリティの脆弱性を検出します
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -18,7 +18,13 @@ summary: ハッカーやランサムウェア攻撃に対する保護を強化�
 
 
 [role="lead"]
-Active IQ デジタルアドバイザにログインし、「セキュリティの脆弱性」ウィジェットに赤いバッジが表示されたら、重大なリスクを修正するための処置を講じることができます。
+ネットアップのセキュリティサイトは、ネットアップの製品セキュリティに関する情報源です。 link:https://security.netapp.com[""]
+
+Active IQ では、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の * およびサポート資格のある製品のセキュリティ問題を検出します。Active IQ がリスクを検出できるように、製品のテレメトリデータを AutoSupport 経由でネットアップに送信する必要があります。
+
+Active IQ の対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください link:https://security.netapp.com[""]
+
+* 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）
 
 .手順
 . Active IQ Digital Advisor にログインします
