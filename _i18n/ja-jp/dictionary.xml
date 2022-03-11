@@ -443,15 +443,11 @@
   <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="inline-link">Active IQ Web ポータル</block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">パフォーマンスに関する情報を提供します。</block>
   <block id="14b9230853f4485a198aadfb867fa9d2" category="doc">パフォーマンスグラフを分析</block>
-  <block id="1e722e5e313aad328fc378b28e2949f7" category="paragraph">パフォーマンスグラフを使用して、ストレージデバイスのパフォーマンスを分析できます。ONTAP クラスタまたは ONTAP クラスタの複数のノードについて、詳細なパフォーマンスグラフを表示できます。ONTAP 8.3.1 以降を実行しているシステムのクラスタノードが表示されます。これらのグラフには、パフォーマンスの傾向やパターンの分析を理解するために使用できる履歴パフォーマンスデータが表示されます。カレンダーから日付を選択すると、日、週、月、および 2 カ月のパフォーマンスグラフを表示できます。複数のノードを選択すると、特定のグラフを同時に表示できます。</block>
   <block id="be879ac697bce0956116e49ae0638f3d" category="paragraph">プリファレンスを設定できます。たとえば、 3 つのノードの場合は 1 つのグラフ、 3 つのノードの場合は 2 つのグラフのいずれかを表示できます。</block>
   <block id="076450bd5493fb3f2b96a170a0dd6c27" category="paragraph">グラフが最初に表示されるときは、 1 週間分のタブが事前に選択され、グラフ形式で 1 週間分のデータが表示されます。これにより、大量のデータと、さまざまな系列のデータ間の関係を簡単に把握できます。たとえば、日付範囲をリセットする場合は、 [ 1 か月 ] タブをクリックし、カレンダーで日付を選択します。</block>
   <block id="ad3bed6f42a6ad4a8833910809d6869a" category="paragraph">また、パフォーマンスグラフを拡大表示するオプションもあり、個々のデータポイントが表示されます。</block>
   <block id="6c21725c2fee517428d56fd28be8dce6" category="list-text">ダッシュボードで、 * パフォーマンス * をクリックします。</block>
-  <block id="f5004574768765397296eea322fc1339" category="paragraph">デフォルトでは、クラスタのパフォーマンスが表示されます。ノード * タブをクリックして ONTAP クラスタの 1 つのノードのパフォーマンスを表示したり、ローカル階層 * タブをクリックしてローカル階層のパフォーマンスを表示したり、ボリューム * タブをクリックしてボリュームのパフォーマンスを表示したりできます。</block>
-  <block id="237b2eb40f4162e7b96d2b208420b218" category="list-text">パフォーマンスデータをグラフ形式で表示するには、カレンダーで 1 日、 1 週間、 1 カ月、または 2 カ月のいずれかを選択します。処理を確定します。</block>
   <block id="7f563b85c5584569a5e770f9c808574e" category="paragraph">たとえば、 2 カ月間のデータを表示するには、 2 カ月間のタブを選択します。これにより、パフォーマンス要件に基づいて期間内の特定のデータを表示できます。</block>
-  <block id="c773aeb148af53ace473a5b3ada02aa0" category="list-text">次のような、必要な指標を含むパフォーマンスグラフを表示する</block>
   <block id="15eb8b3d9df67254274f62a83e630ab1" category="cell">for Cluster の略</block>
   <block id="cc602193a0f756e266aa2bf1dae2ca4a" category="cell">をクリックします</block>
   <block id="78c9b6860d330d2e926b901d5a1c5309" category="cell">ローカル階層の場合</block>
@@ -1120,4 +1116,12 @@
   <block id="d07de6c78533ed3ecc00b46776283804" category="paragraph">Active IQ では、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の * およびサポート資格のある製品のセキュリティ問題を検出します。Active IQ がリスクを検出できるように、製品のテレメトリデータを AutoSupport 経由でネットアップに送信する必要があります。</block>
   <block id="ac9e6dffc41619c8aed4c566d44168e4" category="paragraph">Active IQ の対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）</block>
+  <block id="665087aa09840ccfb70bca045f36d8db" category="paragraph">パフォーマンスグラフを使用して、ストレージデバイスのパフォーマンスを分析できます。ONTAP クラスタまたは ONTAP クラスタ / E シリーズコントローラの複数のノードについて、詳細なパフォーマンスグラフを表示できます。これらのグラフには、パフォーマンスの傾向やパターンの分析を理解するために使用できる履歴パフォーマンスデータが表示されます。カレンダーから日付を選択すると、 1 日、 1 週間、 1 カ月、 2 カ月、 12 カ月のパフォーマンスグラフを表示できます。複数のノードを選択すると、特定のグラフを同時に表示できます。</block>
+  <block id="5d92b2431ee288652fa8215751a358ff" category="paragraph">ONTAP システムでは、ノード * タブをクリックして ONTAP クラスタの 1 つのノードのパフォーマンスを表示したり、ローカル階層 * タブをクリックしてローカル階層のパフォーマンスを表示したり、ボリューム * タブをクリックしてボリュームのパフォーマンスを表示したりできます。デフォルトでは、クラスタのパフォーマンスが表示されます。</block>
+  <block id="6fe197718e793119bb42e7711e87af78" category="paragraph">E シリーズシステムの場合、コントローラレベルのグラフしか表示できません。</block>
+  <block id="0903dad68c16a638b10bd1ddb1e0174c" category="list-text">1 日、 1 週間、 1 カ月、 2 カ月、または 12 カ月のいずれかを選択します。 カレンダーで、パフォーマンスデータをグラフ形式で表示します。</block>
+  <block id="eb2e6c5fc48772d6045c9e2d71e988be" category="list-text">ONTAP のクラスタとノードについて、必要な指標を含む次のパフォーマンスグラフを使用できます。</block>
+  <block id="194a23f51af9ff2576303b43382ec1b9" category="list-text">E シリーズコントローラでは、次のパフォーマンスグラフと必須の指標を使用できます。</block>
+  <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">CPU 利用率</block>
+  <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">スループット</block>
 </blocks>
