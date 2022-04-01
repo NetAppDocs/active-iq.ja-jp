@@ -1127,4 +1127,8 @@
   <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">2022 年 1 月 12 日</block>
   <block id="aca33dafdae7a3f67c7dfa9a5df0dc66" category="paragraph">ヘルススコアが計算されたシステムの数を表示できるようになりました。この拡張機能は、健全性チェックダッシュボードのすべての属性に適用されます。</block>
   <block id="6d588ba57b36a25f837d3883ad145dcc" category="paragraph">Active IQ 健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューを実施できます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
+  <block id="246416981c0bc5059f44e80fed33fe3f" category="section-title">2022 年 3 月 31 日</block>
+  <block id="c058a29a15264f27580683a21135dedb" category="paragraph">グリッドビューアでテナントとバケットの情報を表示できます。</block>
+  <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">グリッド設定の詳細は、グリッドビューアで確認できます。</block>
+  <block id="dad2544fd1c448ea22b7a63cbf03e1df" category="paragraph">Cloud Manager ユーザは、 Active IQ の既存の機能と同様に、必要に応じて新しいタブで Active IQ リンクを開くことができます。</block>
 </blocks>
