@@ -76,6 +76,6 @@ NOTE: ログインクレデンシャルが異なるクラスタのセットが�
 
 
 
-* Ansible プレイブック * コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible プレイブックのドキュメント"] チェックモード（ dry run ）で Ansible プレイブックを実行する方法については、を参照してください 。
+* Ansible プレイブック * コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible プレイブックのドキュメント"] チェックモード（ dry run ）で Ansible プレイブックを実行する方法については、を参照してください link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：チェックモード"]。
 
 Ansible Playbook を実行したら、を参照してください link:task_validate_firmware_installation.html["ファームウェアのインストールの検証"] 実行後の手順については、を参照してください。

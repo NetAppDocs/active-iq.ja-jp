@@ -266,7 +266,7 @@ Cluster Viewer の表示タブで、ケーブル接続の問題やその他の�
 Active IQ デジタルアドバイザモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。
 
 アプリケーションをダウンロードして、詳細を確認してください。link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ デジタルアドバイザモバイルアプリケーション（ Android ）"]
-
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ デジタルアドバイザモバイルアプリケーション（ iOS ）"]
 
 
 
