@@ -1131,4 +1131,7 @@
   <block id="c058a29a15264f27580683a21135dedb" category="paragraph">グリッドビューアでテナントとバケットの情報を表示できます。</block>
   <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">グリッド設定の詳細は、グリッドビューアで確認できます。</block>
   <block id="dad2544fd1c448ea22b7a63cbf03e1df" category="paragraph">Cloud Manager ユーザは、 Active IQ の既存の機能と同様に、必要に応じて新しいタブで Active IQ リンクを開くことができます。</block>
+  <block id="23bfe468015bf5d3034031a6c8dc0d0e" category="section-title">2022 年 4 月 7 日</block>
+  <block id="1de44a557b304229f4217b29677a5336" category="list-text">最新のオペレーティングシステムバージョンとサポート契約およびサポート終了に関する 6 カ月の KPI の重要な推奨事項の採点は、解決の緊急性の低下に合わせて削減されました。</block>
+  <block id="63ed1cad11240bab739f30f048ea3624" category="list-text">リモート管理と HA ペア（推奨構成）に関する主な推奨事項が更新され、カスタマーセルフサービス用のネットアップサポートサイトへの URL が追加されました。</block>
 </blocks>
