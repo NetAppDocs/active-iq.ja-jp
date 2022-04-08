@@ -8,6 +8,7 @@ summary: API にアクセスするためのトークンを生成する方法に�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

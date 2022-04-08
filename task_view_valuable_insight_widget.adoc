@@ -8,6 +8,7 @@ summary: 貴重なインサイトウィジェットに関する情報を提供�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

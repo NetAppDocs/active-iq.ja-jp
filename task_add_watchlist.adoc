@@ -8,6 +8,7 @@ summary: ダッシュボードに監視リストを追加するための情報�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

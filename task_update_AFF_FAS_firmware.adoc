@@ -8,6 +8,7 @@ summary: AFF および FAS ファームウェアを更新する方法につい�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

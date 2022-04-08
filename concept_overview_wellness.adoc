@@ -8,6 +8,7 @@ summary: 健全性とリスクのタイプに関する情報が表示されま�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

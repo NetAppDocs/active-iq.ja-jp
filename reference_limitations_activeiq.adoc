@@ -8,6 +8,7 @@ summary: に、このリリースの制限事項を示します。
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

@@ -8,6 +8,7 @@ summary: ダウンタイムとデータ損失の可能性を回避する方法�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

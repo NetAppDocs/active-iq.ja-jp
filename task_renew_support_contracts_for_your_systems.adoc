@@ -8,6 +8,7 @@ summary: システムのサポート契約を更新する方法について説�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

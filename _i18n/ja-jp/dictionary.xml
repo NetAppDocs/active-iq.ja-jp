@@ -948,7 +948,6 @@
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">その他のアップグレード要求</block>
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">自分が持っているコメントを追加し、 * 送信 * をクリックします。サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。</block>
   <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">* 容量予測はどのように計算されますか？ * 容量予測は、システムの 1 週間あたりの平均増加率を計算するために、過去 1 年間の使用容量データを使用しています。このシステム使用率の変化率は、現在使用されている容量から推定されて、今後 6 カ月間にシステム利用率がどのように変化すると予想されるかを実証するために使用済み容量の合計が同じであることが前提となります。</block>
-  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
   <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">2021 年 9 月 16 日</block>
   <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">ランサムウェア防御ウィジェットは、スタンドアロンウィジェットではなくウェルネスワークフローの一部になりました。</block>
   <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">Wellness Review の E メールでは、更新ではなくランサムウェア防御に関する情報を確認できます。</block>
@@ -1134,4 +1133,14 @@
   <block id="23bfe468015bf5d3034031a6c8dc0d0e" category="section-title">2022 年 4 月 7 日</block>
   <block id="1de44a557b304229f4217b29677a5336" category="list-text">最新のオペレーティングシステムバージョンとサポート契約およびサポート終了に関する 6 カ月の KPI の重要な推奨事項の採点は、解決の緊急性の低下に合わせて削減されました。</block>
   <block id="63ed1cad11240bab739f30f048ea3624" category="list-text">リモート管理と HA ペア（推奨構成）に関する主な推奨事項が更新され、カスタマーセルフサービス用のネットアップサポートサイトへの URL が追加されました。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
 </blocks>

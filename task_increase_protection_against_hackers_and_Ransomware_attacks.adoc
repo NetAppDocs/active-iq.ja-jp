@@ -8,6 +8,7 @@ summary: ハッカーやランサムウェア攻撃に対する保護を強化�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

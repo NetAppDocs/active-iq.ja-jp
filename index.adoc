@@ -7,6 +7,7 @@ summary: Active IQ デジタルアドバイザは、クラウドベースのポ�
 ---
 = Active IQ デジタルアドバイザのドキュメント
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -8,6 +8,7 @@ summary: ドリフトタイムラインレポートを生成するための情�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

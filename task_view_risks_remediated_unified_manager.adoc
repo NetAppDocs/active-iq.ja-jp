@@ -8,6 +8,7 @@ summary: Unified Manager を使用して自動的に修正できるリスクを�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

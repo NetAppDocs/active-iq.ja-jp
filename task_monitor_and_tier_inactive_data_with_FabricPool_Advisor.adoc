@@ -8,6 +8,7 @@ summary: FabricPool Advisor を使用してアクセス頻度の低いデータ�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

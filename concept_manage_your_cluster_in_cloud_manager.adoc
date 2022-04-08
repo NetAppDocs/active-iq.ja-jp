@@ -8,6 +8,7 @@ summary: Cloud Manager でのクラスタの統合と管理方法に関する情
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

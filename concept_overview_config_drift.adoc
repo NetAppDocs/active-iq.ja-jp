@@ -8,6 +8,7 @@ summary: に、設定ドリフト機能の概要を示します
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

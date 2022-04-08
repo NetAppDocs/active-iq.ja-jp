@@ -8,6 +8,7 @@ summary: システムリスクと、健全性履歴の表示方法に関する�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

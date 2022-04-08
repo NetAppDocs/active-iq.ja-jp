@@ -8,6 +8,7 @@ summary: Active IQ デジタルアドバイザで使用される主な用語に�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

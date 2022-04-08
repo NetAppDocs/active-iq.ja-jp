@@ -8,6 +8,7 @@ summary: Ansible Playbook を使用して、ファームウェアの更新プロ
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

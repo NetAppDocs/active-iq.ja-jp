@@ -8,6 +8,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

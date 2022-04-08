@@ -8,6 +8,7 @@ summary: ストレージシステムの ONTAP バージョンを表示および�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 
