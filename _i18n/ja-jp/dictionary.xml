@@ -870,12 +870,6 @@
   <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">* 追加した各ボリュームの使用容量がノードレベルのアグリゲートの使用容量と一致しないのはなぜですか？ * ノードレベルの使用容量には、ボリューム、メタデータ、および Snapshot コピー用にリザーブされたスペースが含まれます。また、ボリューム用にリザーブされているスペース（ file タイプまたは volume ギャランティタイプ）も含まれます。そのため、両方が一致しない可能性があります。</block>
   <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">* Active IQ デジタルアドバイザの 2 進数または 10 進数で示されている容量 * Active IQ に表示されるすべての容量は 2 進数（ 1024 で除算）であり、 GiB / TiB で表した容量です。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。</block>
-  <block id="9dbb9bc7db7f476d8d07033da29e3963" category="paragraph">* ノンテクニカルケースとは？ *</block>
-  <block id="3ecf934ba92a202021971366143ca10d" category="paragraph">インベントリ内のシステムを表示できない、契約期間が正しくないなど、技術的な問題はテクニカル以外のケースに分類されます。</block>
-  <block id="00d92d98ebf38a6aa159770cf065b452" category="paragraph">* テクニカル以外のケースを作成する必要があるのはいつですか。 *</block>
-  <block id="369c5e0a2b4ca18226dd42668ec16d4a" category="paragraph">テクニカル以外のケースは、次の場合に作成してください。</block>
-  <block id="57d68619b2765e5344ee6691f1cbbd88" category="paragraph">* どのようにしてテクニカル以外のケースを作成しますか。 *</block>
-  <block id="ba625a9b488c5e1df819a67984494371" category="list-text">をクリックします <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> ネットアップサポートサイトで「 Non-Technical Feedback Tool 」を開きます。</block>
   <block id="b796f5a9938eed79a1b234c13b86fcaf" category="paragraph">NetApp Active IQ デジタルアドバイザでは、次の機能と拡張機能が導入されました。</block>
   <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021 年 6 月 25 日</block>
   <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">Flex サブスクリプションウィジェット</block>
@@ -1143,4 +1137,26 @@
   <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="390e66de0b25a9d9b226d4ede6fa20b5" category="section-title">2022年5月12日</block>
+  <block id="9ce6137128fa3150f0b3f3b8f9f5d110" category="paragraph">StorageGRID の容量レポートと容量レポートには、容量の指標も表示されます。</block>
+  <block id="412b4661c99e365493b34061a41311d4" category="paragraph">Cluster Viewerに、クラスタのSnapMirror（データ保護）の概要が追加されました。</block>
+  <block id="30477aac7de696f872a4af4a6aff4a5e" category="paragraph">アップグレードワークフローを使用して、ターゲットのEシリーズリリースで利用できるアップグレードの推奨事項と新機能の概要を確認できるようになりました。</block>
+  <block id="3974e26b26a740068e57eaa72b547d14" category="list-text">Ansible Playbookは、ソフトウェア構成のリスクを軽減するために強化されています。</block>
+  <block id="a47a4bf50c391a1c178847e49446d5d9" category="list-text">フィルタが健全性のアクションとリスクに統合されました。</block>
+  <block id="beb3c900abcdebfe6fb8889f05e352f2" category="admonition">Active IQ は、AutoSupport データが60日以内に古くなったシステムのAutoSupport 関連データのみを表示します。</block>
+  <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">テクニカル以外のケース</block>
+  <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*非技術的なケースとは？*</block>
+  <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">在庫にシステムが表示されない、契約期間が正しくないなど、技術的でない問題は技術的なケース以外のケースに分類されます。</block>
+  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*非技術的なケースを作成する必要があるのはいつですか。*</block>
+  <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">次の場合は、テクニカルケース以外のケースを作成する必要があります。</block>
+  <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*非技術的なケースを作成する方法を教えてください。*</block>
+  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">をクリックします <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> ネットアップサポートサイトで「 Non-Technical Feedback Tool 」を開きます。</block>
+  <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*インベントリページで特定のシステムが見つからないのはなぜですか？*次のいずれかの理由により、インベントリページで特定のシステムを表示できない場合があります。</block>
+  <block id="bc589a42c9712f3202e1697e0c7d5db9" category="list-text">SAPで新しいシステムが追加または更新されたあと、新しいシステムがActive IQ に反映されるまでに1日かかります。</block>
+  <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">システムはセキュアであり、セキュアなシステムを表示する権限がありません。</block>
+  <block id="fff04069266603da7d63522615d51f31" category="list-text">システムを表示する権限がありません。</block>
+  <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">システムは非アクティブです</block>
+  <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">テクニカル以外のケースを作成します</block>
+  <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">こちらをご覧ください。</block>
+  <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">その他の理由でシステムを表示できない場合は、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。テクニカル以外のケースの詳細については、をクリックしてください <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
 </blocks>
