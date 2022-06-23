@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-informed-decisions-based-on-cloud-recommendations.html 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery 
+summary: 十分な情報に基づいて決定を下すことができる推奨事項を提供します。 
+---
+= クラウドの推奨事項に基づいて、十分な情報に基づいた意思
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Active IQ では、システムを定期的に分析し、システムのパフォーマンス、効率、健常性を改善するための推奨事項を提供します。
+
+Active IQ では、次のことを推奨しています。
+
+* 移行：ストレージシステム内で利用可能なさまざまなタイプのワークロードに関する情報を提供し、クラウド対応のワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。
+* Backup & Archive：クラウドにバックアップするシステムに関する情報を提供します。NetApp Cloud Backupを使用して、システムを保護し、必要に応じてリストアすることができます。
+* ディザスタリカバリ：災害発生時にクラウドにレプリケートする必要があるデータに関する情報を提供します。
+
+
+
+NOTE: Active IQ で推奨事項を実装するための画面が表示されます。
+
+.手順
+. 左側のペインで、*クラウドの推奨事項*をクリックします。
+. データを移行するには：
++
+.. [* Migration *（移行*）]ペインで任意のリンクをクリックします。
+.. *クラウドに移行*をクリックして、* Cloud Manager *を起動します。
+
+
+. データのバックアップとアーカイブを行うには、次の手順
++
+.. [* Backup & Archive]ペインで任意のリンクをクリックします。
+.. [* Backup to Cloud]をクリックして、* Cloud Manager *を起動します。
+
+
+. データを複製するには：
++
+.. [* Disaster Recovery]ペインで任意のリンクをクリックします。
+.. [* Replicate to Cloud]をクリックして、* Cloud Manager *を起動します。
+
+
+

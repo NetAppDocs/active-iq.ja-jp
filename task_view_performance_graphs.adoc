@@ -27,7 +27,7 @@ summary: パフォーマンスに関する情報を提供します。
 
 また、パフォーマンスグラフを拡大表示するオプションもあり、個々のデータポイントが表示されます。
 
-video::fWrHYX17xT8[youtube, width=848,height=480]
+video::fWrHYX17xT8[youtube,width=848,height=480]
 .手順
 . ダッシュボードで、 * パフォーマンス * をクリックします。
 +

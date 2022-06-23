@@ -47,7 +47,6 @@
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">システムの容量の詳細および Storage Efficiency による削減効果を表示して、適切な処理を実行できます。容量とストレージ効率の情報は、クラスタレベルまたはノードレベルで表示できます。</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">この機能は E シリーズシステムではサポートされません。</block>
   <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">容量のダッシュボードには、システムの容量の詳細と容量予測が表示されます。容量予測では、過去の容量情報を使用して各システムの利用率を特定します。使用容量と割り当て容量の履歴データ（使用可能な場合は 1 年分のデータ）に基づいて、アルゴリズムは各システムの現在の使用率を考慮し、今後 1 ～ 6 か月にわたってシステムの使用率の予測を生成します。</block>
-  <block id="93cf95f800aa42ebeb5cf101c5a712a8" category="paragraph">Storage Efficiency ダッシュボードには、 ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データが表示されます。AFF システム、 AFF 以外のシステム、またはその両方で、 Snapshot バックアップの有無に応じて削減率と削減率を確認できます。お客様のストレージ全体での削減量は、ボリュームの重複排除、ボリュームの圧縮、コンパクション、 FlexClone ボリューム、 Snapshot バックアップなどの効率化機能ごとに確認できます。また、削減比率が最も高い上位 5 つのストレージシステムを表示することもできます。</block>
   <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">左側のペインで、 * 容量と効率 * をクリックします。</block>
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">デフォルトでは、 * 容量 * タブが選択されています。</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">クラスタレベルおよびノードレベルで容量の詳細を表示します。</block>
@@ -609,7 +608,6 @@
   <block id="5a0f42f64fb533926accae7152c26173" category="section-title">2020 年 5 月 19 日</block>
   <block id="c43f08e4b3393556316dfdcf0ac2adec" category="section-title">デフォルトのホームページを設定します</block>
   <block id="55525d93b267e6c2f7d0012ff227fd2f" category="paragraph">Active IQ のデフォルトのホームページ画面を設定できるようになりました。Active IQ デジタルアドバイザまたは Active IQ クラシックに設定できます。</block>
-  <block id="8365d6514f06519fba15dafa8c04003a" category="paragraph">AFF システム、 AFF 以外のシステム、またはその両方について、 Snapshot バックアップの有無に関係なく、ストレージシステムの Storage Efficiency 比率と削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
   <block id="5c38b1bfe8fc19ace289c4b181898cc3" category="paragraph">パフォーマンスグラフを使用して、さまざまな重要領域でストレージデバイスのパフォーマンスを評価できます。</block>
   <block id="79a857f77fa2d44ca5fa8f7eb514d82b" category="section-title">Ansible Playbook を使用した AFF および FAS ファームウェアのアップグレード</block>
   <block id="71bfa4dc9b5da9a689d2f3e561ce94a2" category="paragraph">特定されたリスクを軽減し、ストレージシステムを最新の状態に維持するために、ストレージシステムで Ansible を使用して AFF と FAS のファームウェアを更新します。</block>
@@ -708,13 +706,10 @@
   <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">* 計画ウィジェット： * 更新が必要な容量追加、ソフトウェア、ハードウェアに関する情報が表示されます。</block>
   <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">* 容量の追加：容量の上限を超えている、または 90% に近づいているシステムや、容量を超えている、または 70% に近づいているグリッドサイトを特定します。ストレージシステムの容量を拡張する要求を発行できます。</block>
   <block id="a14095eb1402d18db0b8da516449039e" category="list-text">* Renewals ： * は、 6 カ月以内に期限切れになったソフトウェアやハードウェアに関する情報を提供します。</block>
-  <block id="0ba25c7c72e05d6333389fdd4abc53fb" category="list-text">* アップグレードウィジェット： * 利用可能なアップグレードの数が表示されます。</block>
-  <block id="fcc5fdc856cbb2876c3c6a828548290b" category="list-text">* Storage Efficiency ： AFF システム、 AFF 以外のシステム、またはその両方について、 Snapshot バックアップの有無にかかわらず、ストレージ効率とストレージシステムの削減率を表示します。</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">* パフォーマンスグラフ： * パフォーマンスデータのグラフ形式を表示して、ストレージデバイスのパフォーマンスを分析できます。選択したノードの ONTAP クラスタの詳細なパフォーマンスグラフを表示できます。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 価値ある分析ウィジェット：サポートケースの数、保留中のソフトウェアアップグレード、 Storage Efficiency による削減量、軽減されたリスクなどに関する情報を表示します。また、ウェルネス属性からのリスク通知も積極的にリストされます。</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">* AutoSupport ： * AutoSupport インスタンスの概要または詳細を表示できます。詳細には、システムの詳細、問題の考えられる原因、推奨される対処方法などが含まれます。</block>
   <block id="f58148b36d284264c85f69fb927477ef" category="paragraph">AutoSupport 機能にアクセスするには、 Active IQ デジタルアドバイザにログインし、クラスタまたはホスト名を検索します。AutoSupport オプションは左側のペインで使用できます。</block>
-  <block id="7f866e98d50d2b5a636e0419f858c5db" category="list-text">* クラウド対応ワークロード： * ストレージシステム内で利用できるさまざまなタイプのワークロードに関する情報を提供し、クラウド対応のワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。Oracle 、 SAP 、 SAP HANA 、ファイル共有、 SQL 、 SharePoint で実行されているワークロードやボリュームを移動できます。NetApp ® Cloud Volume は、卓越したパフォーマンスと高度なデータ管理機能を提供し、クラウドで最も要件の厳しいアプリケーションを満たします。そのため、ワークロードやボリュームをクラウドに移行する際に役立ちます。NetApp ® Cloud Volume の使用方法の詳細については、を参照してください <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-macro-rx"></block> ドキュメント</block>
   <block id="60765e03124dbe237199057ad89d6f43" category="list-text">* クイックリンク： * Active IQ デジタルアドバイザを使用して起動できるアプリケーションのリストを提供します。</block>
   <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">* Cluster Viewer ： * を使用すると、物理構成と論理構成の詳細情報を確認できます。これらの詳細情報は、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する情報を示すスタック図、およびケーブルの可視化など、複数のタブにまたがるいくつかのわかりやすい表に記載されています。SVG 形式のケーブル視覚エフェクトグラフィックをダウンロードすることもできます。</block>
   <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">Cluster Viewer 機能は、 E シリーズシステムではサポートされません。</block>
@@ -913,8 +908,6 @@
   <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">スケジュールされたレポートは、 SupportEdge Advisor または SupportEdge Expert サポート契約がある場合にのみ使用できます。システムが SupportEdge Advisor または SupportEdge Expert サポート契約を締結していない場合は、レポートのスケジュール設定中に空白のレポートが表示されることがあります。</block>
   <block id="b073ca01338f5dd8d8a707598c797762" category="summary">ストレージシステムの効率性を追跡するための情報を提供します。</block>
   <block id="c116684e616e0ce2787b26417c569f60" category="doc">ストレージ効率を把握</block>
-  <block id="7179ac6c721c0d8a6a624e4e93ff600e" category="paragraph">Storage Efficiency ダッシュボードには、 ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データが表示されます。AFF システム、 AFF 以外のシステム、またはその両方で、 Snapshot バックアップの有無に応じて削減率と削減率を確認できます。ストレージ効率の情報は、クラスタレベルまたはノードレベルで表示できます。</block>
-  <block id="c01056395b72293f5dff072d861e8dcc" category="paragraph">お客様のストレージ全体での削減量は、ボリュームの重複排除、ボリュームの圧縮、コンパクション、 FlexClone ボリューム、 Snapshot バックアップなどの効率化機能ごとに確認できます。また、削減比率が最も高い上位 5 つのストレージシステムを表示することもできます。</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">監視リストを管理するための情報を提供します。</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">監視リストを管理します</block>
   <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">別の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりできます。</block>
@@ -1162,4 +1155,37 @@
   <block id="a620ec8d73813dc8557698991cfb2b95" category="list-text">Inventoryでシステムの営業担当者情報を確認できるようになりました。</block>
   <block id="141c7ce1e6e924787a29d62d1abc74fd" category="list-text">Astra Control Centerシステムがインベントリで利用できるようになりました。</block>
   <block id="95f841026c30d747102e348f792a2a3e" category="section-title">2022年6月1日</block>
+  <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">十分な情報に基づいて決定を下すことができる推奨事項を提供します。</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="doc">クラウドの推奨事項に基づいて、十分な情報に基づいた意思</block>
+  <block id="786f97e3b85dcf5cda7df9f506b9e37f" category="paragraph">Active IQ では、システムを定期的に分析し、システムのパフォーマンス、効率、健常性を改善するための推奨事項を提供します。</block>
+  <block id="13f2e084bb6eb90118a6180587525fdc" category="paragraph">Active IQ では、次のことを推奨しています。</block>
+  <block id="c4365912c5ac550ab4563cdf655a1389" category="list-text">移行：ストレージシステム内で利用可能なさまざまなタイプのワークロードに関する情報を提供し、クラウド対応のワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。</block>
+  <block id="1b1c7445cf11ba61f71545ee9a26fa10" category="list-text">Backup &amp; Archive：クラウドにバックアップするシステムに関する情報を提供します。NetApp Cloud Backupを使用して、システムを保護し、必要に応じてリストアすることができます。</block>
+  <block id="85e7b287d322cd383487f21370cbd1d0" category="list-text">ディザスタリカバリ：災害発生時にクラウドにレプリケートする必要があるデータに関する情報を提供します。</block>
+  <block id="afec60d9807859052bf26fac6dd60746" category="admonition">Active IQ で推奨事項を実装するための画面が表示されます。</block>
+  <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">左側のペインで、*クラウドの推奨事項*をクリックします。</block>
+  <block id="d54ae2a9cf19772827827ac1b0cd7425" category="list-text">データを移行するには：</block>
+  <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">[* Migration *（移行*）]ペインで任意のリンクをクリックします。</block>
+  <block id="ddf979002bc59fc32f03076418804262" category="list-text">*クラウドに移行*をクリックして、* Cloud Manager *を起動します。</block>
+  <block id="c6f97553f2c8b8171f56bc5fd81ae33e" category="list-text">データのバックアップとアーカイブを行うには、次の手順</block>
+  <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">[* Backup &amp; Archive]ペインで任意のリンクをクリックします。</block>
+  <block id="d1077a4290f7d361380bac5612edd515" category="list-text">[* Backup to Cloud]をクリックして、* Cloud Manager *を起動します。</block>
+  <block id="7942b76ee4f0230e37266032b153a3dd" category="list-text">データを複製するには：</block>
+  <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">[* Disaster Recovery]ペインで任意のリンクをクリックします。</block>
+  <block id="a70fb77774e64282c4a92fa8563e4b75" category="list-text">[* Replicate to Cloud]をクリックして、* Cloud Manager *を起動します。</block>
+  <block id="054285913eee18981aea3554542786c2" category="paragraph">Storage Efficiency ダッシュボードには、 ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データが表示されます。AFF システム、AFF以外のシステム、またはその両方について、Snapshotコピーの有無による削減率と削減量を確認できます。ストレージ効率の情報は、クラスタレベルまたはノードレベルで表示できます。</block>
+  <block id="cd4f2e2f122a3ca13ed6a55ea65137d8" category="paragraph">お客様のストレージ全体での削減量は、ボリュームの重複排除、ボリュームの圧縮、コンパクション、FlexCloneボリューム、Snapshotコピーなどの効率化機能ごとに確認できます。また、削減比率が最も高い上位 5 つのストレージシステムを表示することもできます。</block>
+  <block id="877cc09ee5c3206ad144f4aa8f211c78" category="paragraph">Storage Efficiency ダッシュボードには、 ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データが表示されます。AFF システム、AFF以外のシステム、またはその両方について、Snapshotコピーの有無による削減率と削減量を確認できます。お客様のストレージ全体での削減量は、ボリュームの重複排除、ボリュームの圧縮、コンパクション、FlexCloneボリューム、Snapshotコピーなどの効率化機能ごとに確認できます。また、削減比率が最も高い上位 5 つのストレージシステムを表示することもできます。</block>
+  <block id="caf1252a3f30072a722120f9f4845208" category="section-title">2022年6月22日</block>
+  <block id="a23d1d4ae4ec88d0e3d45bcb6cfa40ac" category="paragraph">StorageGRID 用の情報ライフサイクル管理（ILM）は、グリッドビューアに含まれています。</block>
+  <block id="76ad5352af956a4d0d16558d3d763073" category="section-title">クラウドに関する推奨事項</block>
+  <block id="5351ffbf47ff169f3734bf800f57ddfc" category="paragraph">SnapMirrorデータレプリケーションを使用してNetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 、およびNetApp Cloud Backup（旧称AltaVault ）に移動できるワークロードとそのボリュームに関する推奨事項を提供します。 <block ref="e540305a20102603a156b0c2b7f74a4c" category="inline-link-macro-rx"></block>。</block>
+  <block id="f2ca08481f9cb688103b90a756b0c613" category="list-text">生成済みのレポートに定義された条件を使用してレポートを生成できるようになりました。</block>
+  <block id="db9b022851e15c130528bb7ffa01c31a" category="list-text">失敗したレポートの生成を3回試行できるようになりました。</block>
+  <block id="318d37e2adcbd404d2708622a356f2c5" category="list-text">生成されたレポートの保持期間が3日から90日に延長されました。</block>
+  <block id="196bf417f670cda21f19ec3d4d3beee2" category="paragraph">AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
+  <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*アップグレードウィジェット：ONTAP およびEシリーズシステムで利用可能なアップグレード数を表示します。</block>
+  <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">ONTAP システムについては、アップグレードが必要なシステム数に関する情報を表示して、アップグレードプランを申請できます。</block>
+  <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">Eシリーズシステムについては、アップグレードが必要なシステムの数に関する情報のみを表示できます。</block>
+  <block id="c7d11c557339c95279902ee082ba9f5b" category="list-text">* Storage Efficiency：AFF システム、AFF以外のシステム、またはその両方について、Snapshotコピーの有無にかかわらず、ストレージ効率とストレージシステムの削減率を表示します。</block>
 </blocks>

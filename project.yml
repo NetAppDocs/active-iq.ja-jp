@@ -75,6 +75,8 @@ sidebar:
     entries:
     - title: 概要
       url: "/concept_overview_planning.html"
+    - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 容量が上限に達しているシステムを特定します
       url: "/task_identify_capacity_system.html"
     - title: ボリュームがいっぱいにならないようにしてシステム停止を回避してください

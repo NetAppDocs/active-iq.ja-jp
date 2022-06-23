@@ -21,7 +21,7 @@ summary: Unified Manager を使用して自動的に修正できるリスクを�
 [role="lead"]
 アクションやリスクを確認することでストレージシステムを分析し、 Active IQ Unified Manager や Ansible Playbook を使用して軽減できます。
 
-video::XusFvXM7h-E[youtube, width=848,height=480]
+video::XusFvXM7h-E[youtube,width=848,height=480]
 .手順
 . ダッシュボードで * すべてのアクションを表示 * をクリックします。
 . アクション * をクリックしてアクションに関連するリスクを表示するか、 * リスク * をクリックしてすべてのリスクを表示するか、 * 影響を受けるシステム * をクリックして注意が必要なシステムを表示します。

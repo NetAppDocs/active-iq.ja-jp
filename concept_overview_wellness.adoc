@@ -46,4 +46,4 @@ image:wellness_workflow.png["健全性ワークフロー"]
 |===
 次のビデオで、健全性の属性の重要性を確認できます。
 
-video::-lTF3oWZB1M[youtube, width=848,height=480]
+video::-lTF3oWZB1M[youtube,width=848,height=480]

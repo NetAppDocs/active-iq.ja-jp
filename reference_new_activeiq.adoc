@@ -23,6 +23,31 @@ NetApp Active IQ デジタルアドバイザでは、次の機能と拡張機能
 
 
 
+== 2022年6月22日
+
+
+
+=== StorageGRID
+
+StorageGRID 用の情報ライフサイクル管理（ILM）は、グリッドビューアに含まれています。
+
+
+
+=== クラウドに関する推奨事項
+
+SnapMirrorデータレプリケーションを使用してNetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 、およびNetApp Cloud Backup（旧称AltaVault ）に移動できるワークロードとそのボリュームに関する推奨事項を提供します。 link:task-informed-decisions-based-on-cloud-recommendations.html["詳細をご確認ください"]。
+
+
+
+=== レポート
+
+* 生成済みのレポートに定義された条件を使用してレポートを生成できるようになりました。
+* 失敗したレポートの生成を3回試行できるようになりました。
+* 生成されたレポートの保持期間が3日から90日に延長されました。
+
+
+
+
 == 2022年6月1日
 
 
@@ -735,7 +760,7 @@ Active IQ のデフォルトのホームページ画面を設定できるよう�
 
 === ストレージ効率
 
-AFF システム、 AFF 以外のシステム、またはその両方について、 Snapshot バックアップの有無に関係なく、ストレージシステムの Storage Efficiency 比率と削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 link:task_analyze_storage_efficiency.html["詳細をご確認ください"]。
+AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 link:task_analyze_storage_efficiency.html["詳細をご確認ください"]。
 
 
 

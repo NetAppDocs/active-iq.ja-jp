@@ -27,7 +27,7 @@ image:activeiq2_workflow.png["Active IQ デジタルアドバイザのワーク�
 
 Active IQ デジタルアドバイザを使い始めるには、次のビデオをご覧ください。
 
-video::rEPtldosjWM[youtube, width=848,height=480]
+video::rEPtldosjWM[youtube,width=848,height=480]
 すべての Active IQ デジタルアドバイザウィジェットは、すべてのプラットフォームでサポートされているわけではありませんActive IQ デジタルアドバイザはお使いのストレージシステムのプラットフォームを特定し、ストレージシステムで実行できる一連のタスクのみを表示します。
 
 ストレージシステムでサポートされるウィジェットについては、次の点に注意してください。

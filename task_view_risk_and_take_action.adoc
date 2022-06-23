@@ -31,4 +31,4 @@ summary: ストレージシステムの健全性を確認および分析し、�
 
 リスクを軽減する手順は、すべての健全性属性で同じです。次のビデオで、セキュリティ関連の問題を監視して修正できます。
 
-video::ssXI-FAKMis[youtube, width=848,height=480]
+video::ssXI-FAKMis[youtube,width=848,height=480]

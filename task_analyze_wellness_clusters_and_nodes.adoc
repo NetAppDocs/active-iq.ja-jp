@@ -25,7 +25,7 @@ Cluster Viewer には、ノードのスタック図、ストレージの使用�
 
 ノードの物理構成をケーブル、スタック、 RAID ディスクの各レベルで可視化したり、グラフィカルに表示したりできます。SVG 形式で視覚エフェクトをダウンロードすることもできます。
 
-video::FVbb2bbIY9E[youtube, width=848,height=480]
+video::FVbb2bbIY9E[youtube,width=848,height=480]
 .手順
 . * インベントリ * ウィジェットで、目的のクラスタまたはノード（ホスト）を選択します。
 . クラスタレベルまたはノードレベルで、 * Configuration * ウィジェットの横にある * ClusterViewer * をクリックします。
