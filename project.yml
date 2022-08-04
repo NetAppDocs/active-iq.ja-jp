@@ -75,14 +75,14 @@ sidebar:
     entries:
     - title: 概要
       url: "/concept_overview_planning.html"
-    - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 容量が上限に達しているシステムを特定します
       url: "/task_identify_capacity_system.html"
     - title: ボリュームがいっぱいにならないようにしてシステム停止を回避してください
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
     - title: ソフトウェアとハードウェアを更新します
       url: "/task_renew_software_and_hardware.html"
+  - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
+    url: "/task-informed-decisions-based-on-cloud-recommendations.html"
   - title: 設定の違いを特定
     entries:
     - title: 概要
@@ -101,8 +101,6 @@ sidebar:
       url: "/task_analyze_storage_efficiency.html"
     - title: ストレージパフォーマンスを分析
       url: "/task_view_performance_graphs.html"
-  - title: FabricPool Advisor を使用して、アクセス頻度の低いデータを監視し、階層化する
-    url: "/task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html"
   - title: ストレージシステムの健常性を分析します
     entries:
     - title: 概要
@@ -186,8 +184,8 @@ homepage:
     links:
     - title: ONTAP のアップグレードに関する推奨事項を確認する
       url: task_view_upgrade.html
-    - title: Cloud Manager でストレージ容量を削減
-      url: task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html
+    - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: NetApp Keystone フレックスサブスクリプションを使用して容量利用率を表示します
       url: task_view_keystone_capacity_utilization.html
   - title: リソースの追加

@@ -21,4 +21,4 @@ summary: Cloud Manager でのクラスタの統合と管理方法に関する情
 [role="lead"]
 Active IQ デジタルアドバイザは、 Cloud Manager に統合されています。クラスタを管理したり、 Active IQ のすべての機能に Cloud Manager のユーザインターフェイス（ UI ）からアクセスしたりできるようになりました。IT エキスパートとクラウドアーキテクトは、 Cloud Manager を使用して、ハイブリッドマルチクラウドインフラを一元管理できます。
 
-Cloud Manager に Active IQ を統合してアクセスするために必要なのは、 Cloud Manager の NSS アカウントだけです。Cloud Manager での Active IQ の統合とアクセスについては、を参照してください link:https://docs.netapp.com/us-en/occm/concept-aiq-digital-advisor.html#how-active-iq-digital-advisor-works-with-cloud-manager["Active IQ Digital Advisor と Cloud Manager の連携"]。
+Active IQ をCloud Managerに統合してアクセスするために必要なのは、Cloud Managerのネットアップサポートサイト（NSS）アカウントだけです。Cloud Manager での Active IQ の統合とアクセスについては、を参照してください link:https://docs.netapp.com/us-en/occm/concept-aiq-digital-advisor.html#how-active-iq-digital-advisor-works-with-cloud-manager["Active IQ Digital Advisor と Cloud Manager の連携"]。

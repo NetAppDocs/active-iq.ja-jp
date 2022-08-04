@@ -127,7 +127,6 @@
   <block id="69afd9ad39724c949338645bc3c18d3c" category="doc">Cloud Manager でクラスタを管理します</block>
   <block id="8a0d2c897946577052b091701b0ae580" category="paragraph">Active IQ デジタルアドバイザは、 Cloud Manager に統合されています。クラスタを管理したり、 Active IQ のすべての機能に Cloud Manager のユーザインターフェイス（ UI ）からアクセスしたりできるようになりました。IT エキスパートとクラウドアーキテクトは、 Cloud Manager を使用して、ハイブリッドマルチクラウドインフラを一元管理できます。</block>
   <block id="292e5c26d5c03cc4f8e1e8768bbbabaa" category="inline-link-macro">Active IQ Digital Advisor と Cloud Manager の連携</block>
-  <block id="1a14660c227c82394e14ca6a74c99853" category="paragraph">Cloud Manager に Active IQ を統合してアクセスするために必要なのは、 Cloud Manager の NSS アカウントだけです。Cloud Manager での Active IQ の統合とアクセスについては、を参照してください <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Cluster Viewer についての情報を提供します。</block>
   <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">クラスタとノードの健全性を分析します</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">Cluster Viewer とノードの健全性を分析するには、クラスタとノードの物理構成と論理構成の情報を確認するワンストップソースを使用します。</block>
@@ -185,7 +184,6 @@
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">[* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e0f076d59e2092bdbab66e81920ec8bf" category="summary">レポートを生成するための情報を提供します。</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">レポートを生成します</block>
-  <block id="eef7fb172cf051c21b223bbb686fb46e" category="paragraph">すぐにレポートを生成することも、週単位または月単位でレポートを生成するようにスケジュール設定することもできます。インベントリ、健全性、構成（ Cluster Viewer ）などの領域に対してレポートを生成できます。</block>
   <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">* このタスクについて *</block>
   <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">Active IQ ではレポートを編集できません。既存のレポートを削除して、新しいレポートを作成する必要があります。</block>
   <block id="b9078cbffeaf57a288d7d58d7ed02317" category="list-text">左側のペインで、 *Reports* をクリックします。</block>
@@ -733,15 +731,7 @@
   <block id="baceeff257420910d075f17bbf8cb985" category="paragraph">Active IQ Digital Advisor は、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムの Ansible スクリプトまたはプレイブックを生成します。</block>
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">AFF および FAS ファームウェア</block>
   <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">* Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="babc6382b2fc83a689d76a9aff74a96b" category="summary">FabricPool Advisor を使用してアクセス頻度の低いデータを階層化する方法について説明します。</block>
-  <block id="67b399315af1fd51d7b669851330bf0a" category="doc">FabricPool Advisor を使用して、アクセス頻度の低いデータを監視し、階層化する</block>
-  <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
-  <block id="c085b6657036bb1d81722aa83019dea6" category="paragraph">Active IQ デジタルアドバイザの FabricPool アドバイザダッシュボードには、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化されたデータ、監視対象外のデータの詳細が表示されます。</block>
   <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">Inactive Data Reporting （ IDR ）を有効にして、 Ansible Playbook ファイルを含む zip ファイルを生成することができます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
-  <block id="36afa058c74d288178950c27927bdb38" category="inline-link-macro">Cloud Tiering の詳細をご確認ください</block>
-  <block id="68402dbd648038cbbdf19fccff1898f8" category="paragraph">ボリュームにアクセス頻度の低いデータが 50% を超えている場合、 NetApp ® Cloud Manager を使用してデータを階層化できます。クラウド階層化の詳細については、を参照してください <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd01c74549cdfc52159ec7a8329c2c3f" category="list-text">左側のナビゲーションペインから * FabricPool アドバイザ * を選択します。</block>
-  <block id="ba825ed19de4ba2cc70be46eb78689f1" category="list-text">[*Tier Data*] をクリックして、 Cloud Manager を使用してデータを階層化します。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">FabricPool のベストプラクティス</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">FabricPool の詳細については、を参照してください <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
@@ -924,15 +914,10 @@
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">未解決および確認済みのリスク、リスクの詳細、対処方法、影響を受けるシステムに関する情報が表示されます。</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康–集約されました</block>
-  <block id="87dafd57e21434bb814dbc172e84014c" category="cell">未解決のリスクと影響を受けるシステムの数を Excel 形式でまとめたものです。</block>
   <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7-Mode Upgrade Advisor の計画</block>
-  <block id="172ba4bf1d36ec96b59a55102d5b020c" category="cell">7-Mode システム向けの Upgrade Advisor プランに関するレポートを提供します。このレポートには、 HA パートナーに関する情報が PDF 形式で記載されます。</block>
-  <block id="35767d0c6b2bfe724794207ba0268903" category="cell">地域またはサイトごとにシステムインベントリの詳細をすべて表示する Ansible インベントリファイルを提供します。このファイルは自動化に使用できます。</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">非アクティブ、コールド、アクティブ、ホット、階層化、 監視対象外のデータです。このレポートには、無効なアグリゲートで Inactive Data Reporting を有効にするための Ansible プレイブックも含まれています。</block>
-  <block id="ee50541ca9446ee369b76dc85f187051" category="cell">選択したウォッチリスト、顧客、サイト、グループレベルのインストールベースに関する情報が表示されます。このレポートは、インベントリ詳細ページから直接ダウンロードするか、レポートページから生成できます。</block>
   <block id="7a1964d60060b532bf912499ef0e5419" category="cell">サポート終了</block>
-  <block id="eb3e2bb77a70accd5403c18060eae0d0" category="cell">サポート終了（ EOS ）に達したコントローラ、シェルフ、ディスクに関する情報が表示されます。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">推奨される構成</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">リモート管理構成、スペアとドライブ、 HA ペア、および SVM 健全性に関するさまざまな推奨構成ギャップに関する情報を提供します。</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">テクニカルケースの詳細</block>
@@ -940,13 +925,11 @@
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">アップグレードの推奨事項（ SW と FW ）</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">検索条件に含まれる各コントローラまたはシリアルのソフトウェアとファームウェアの通貨および推奨バージョンに関するマルチタブレポート。</block>
   <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">Cluster Viewer レポート</block>
-  <block id="deadf2a9fa3f158efcd64e6a72518e2d" category="cell">顧客および監視リストレベルの単一または複数のクラスタに関する情報が表示されます。Cluster Viewer レポートを使用して、 1 つのファイル内のすべての情報をダウンロードできます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量と効率性</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">クラスタ、顧客、サイト、グループ、監視リスト、ノードレベルでの容量と効率の詳細に関する情報が表示されます。</block>
   <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">ボリュームパフォーマンスレポート</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">クラスタレベルのボリュームのパフォーマンスの詳細に関する情報が表示されます。</block>
   <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">パフォーマンスレポート</block>
-  <block id="c05d44d160f419e8ea9a210443df1f11" category="cell">1 つの zip ファイル内のクラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報がウォッチリストレベルで表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">API サービス機能の概要を示します。</block>
   <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">API サービスを理解する</block>
   <block id="b07b959de8b68ea30367c1272aa98387" category="paragraph">Active IQ API サービスでは、自動化を使用してワークフローを効率化します。API サービスは、 20 以上の異なるサービス領域にグループ化された 100 を超える API エンドポイントを記述した * API カタログ * を提供します。これらの API はネットアップのお客様が利用でき、システム情報、ストレージ効率、パフォーマンス、健常性、アップグレードなど、さまざまな目的に利用できます。</block>
@@ -1145,7 +1128,6 @@
   <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">重要なセキュリティリスクを修正</block>
   <block id="d30be8ed596e28125eabf3aaa9088577" category="sidebar">Active IQ を使用して分析します</block>
   <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">ONTAP のアップグレードに関する推奨事項を確認する</block>
-  <block id="cf7ecbbc7d2dad5af625439bf096d746" category="sidebar">Cloud Manager でストレージ容量を削減</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
   <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="sidebar">Active IQ Web ポータル</block>
   <block id="dd4f53241a447bade15efabb4cd19ce4" category="sidebar">Active IQ ビデオ</block>
@@ -1158,19 +1140,12 @@
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">十分な情報に基づいて決定を下すことができる推奨事項を提供します。</block>
   <block id="5649476905365d651ff75a651e4e79a8" category="doc">クラウドの推奨事項に基づいて、十分な情報に基づいた意思</block>
   <block id="786f97e3b85dcf5cda7df9f506b9e37f" category="paragraph">Active IQ では、システムを定期的に分析し、システムのパフォーマンス、効率、健常性を改善するための推奨事項を提供します。</block>
-  <block id="13f2e084bb6eb90118a6180587525fdc" category="paragraph">Active IQ では、次のことを推奨しています。</block>
-  <block id="c4365912c5ac550ab4563cdf655a1389" category="list-text">移行：ストレージシステム内で利用可能なさまざまなタイプのワークロードに関する情報を提供し、クラウド対応のワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。</block>
-  <block id="1b1c7445cf11ba61f71545ee9a26fa10" category="list-text">Backup &amp; Archive：クラウドにバックアップするシステムに関する情報を提供します。NetApp Cloud Backupを使用して、システムを保護し、必要に応じてリストアすることができます。</block>
-  <block id="85e7b287d322cd383487f21370cbd1d0" category="list-text">ディザスタリカバリ：災害発生時にクラウドにレプリケートする必要があるデータに関する情報を提供します。</block>
   <block id="afec60d9807859052bf26fac6dd60746" category="admonition">Active IQ で推奨事項を実装するための画面が表示されます。</block>
   <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">左側のペインで、*クラウドの推奨事項*をクリックします。</block>
-  <block id="d54ae2a9cf19772827827ac1b0cd7425" category="list-text">データを移行するには：</block>
   <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">[* Migration *（移行*）]ペインで任意のリンクをクリックします。</block>
   <block id="ddf979002bc59fc32f03076418804262" category="list-text">*クラウドに移行*をクリックして、* Cloud Manager *を起動します。</block>
-  <block id="c6f97553f2c8b8171f56bc5fd81ae33e" category="list-text">データのバックアップとアーカイブを行うには、次の手順</block>
   <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">[* Backup &amp; Archive]ペインで任意のリンクをクリックします。</block>
   <block id="d1077a4290f7d361380bac5612edd515" category="list-text">[* Backup to Cloud]をクリックして、* Cloud Manager *を起動します。</block>
-  <block id="7942b76ee4f0230e37266032b153a3dd" category="list-text">データを複製するには：</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">[* Disaster Recovery]ペインで任意のリンクをクリックします。</block>
   <block id="a70fb77774e64282c4a92fa8563e4b75" category="list-text">[* Replicate to Cloud]をクリックして、* Cloud Manager *を起動します。</block>
   <block id="054285913eee18981aea3554542786c2" category="paragraph">Storage Efficiency ダッシュボードには、 ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データが表示されます。AFF システム、AFF以外のシステム、またはその両方について、Snapshotコピーの有無による削減率と削減量を確認できます。ストレージ効率の情報は、クラスタレベルまたはノードレベルで表示できます。</block>
@@ -1198,4 +1173,39 @@
   <block id="f04030f456776755903c2312553427bf" category="paragraph">Eシリーズシステムのアップグレードに関する推奨事項を確認できるようになりました。</block>
   <block id="ebb3292114a6a69609c0f8875098f714" category="section-title">承認済みのリスクと未確認のリスクがActive IQ デジタルアドバイザに反映されるまでに60分かかる場合があります</block>
   <block id="7264c3b35813062888fb1306b7ec8b7b" category="paragraph">承認済みおよび承認済みのリスクのステータスは、Active IQ デジタルアドバイザにすぐには反映されません。変更内容がActive IQ デジタルアドバイザーおよび健全性レポートに反映されるまでに最大60分かかる場合があります。</block>
+  <block id="61adb43205caa7a035172727c2635283" category="paragraph">Active IQ をCloud Managerに統合してアクセスするために必要なのは、Cloud Managerのネットアップサポートサイト（NSS）アカウントだけです。Cloud Manager での Active IQ の統合とアクセスについては、を参照してください <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="c18954481ec7b1ca7731f10fe88f17e0" category="paragraph">すぐにレポートを生成することも、週単位または月単位でレポートを生成するようにスケジュール設定することもできます。レポートは、さまざまな形式で生成できます。選択したレポートに基づいて、使用可能な形式が表示されます。</block>
+  <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">レポートの形式を選択します。</block>
+  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">未解決のリスクと影響を受けるシステムの数を表示します。</block>
+  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">7-Mode システム向けの Upgrade Advisor プランに関するレポートを提供します。このレポートには、HAパートナーに関する情報が含まれます。</block>
+  <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">地域またはサイトごとにシステムインベントリの詳細をすべて表示する Ansible インベントリファイルを提供します。このファイルは自動化に使用できます。</block>
+  <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">選択したウォッチリスト、顧客、サイト、グループレベルのインストールベースに関する情報が表示されます。このレポートは、インベントリ詳細ページから直接ダウンロードするか、レポートページから生成できます。</block>
+  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">サポート終了（EOS）に達したコントローラ、シェルフ、ディスクの一覧について説明します。</block>
+  <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">顧客および監視リストレベルの単一または複数のクラスタに関する情報が表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
+  <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">クラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報が監視リストレベルで表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
+  <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">データ移行</block>
+  <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">ストレージシステム内で使用可能なさまざまなタイプのワークロードに関する情報を提供し、クラウドに対応しているワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。</block>
+  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">Cloud Volumes ONTAP （CVO）とCloud Volumes Service （CVS）への移行については、次の基準を満たすボリュームが推奨されます。</block>
+  <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">ボリュームは、NFS、SMB、CIFS、FCP、またはiSCSIのいずれかのプロトコルを使用している必要があります</block>
+  <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">ルートボリュームは除外されます</block>
+  <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">ボリューム内のワークロードは、Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、FileShare、仮想化、Trident</block>
+  <block id="c1328ee3765b6fd9ea6ec610e680fd21" category="list-text">システムの使用年数が1年を超えています</block>
+  <block id="a6d684c1e9500a6c9c813745e8e2c394" category="list-text">サポート契約は6カ月以内に終了します</block>
+  <block id="337c62c6b6eb7319bae58701105e889c" category="section-title">階層化</block>
+  <block id="02c463794e84ded5d1c10c4e83bcc812" category="paragraph">アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化されたデータ、監視対象外のデータに関する情報が表示されます。コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
+  <block id="0c245730dd874b37d12f8e5789ae7608" category="paragraph">階層化では、次の条件を満たすボリュームが推奨されます。</block>
+  <block id="c9386bad11bf78c9c46c82639aed3b42" category="list-text">ボリュームでNFS、SMB、またはCIFSプロトコルが使用されている必要があります</block>
+  <block id="e59435b98864e38b0a5fd790ad3f9213" category="list-text">アクセス頻度の低いデータが50%を超えています</block>
+  <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">アグリゲート容量が50%を超えています</block>
+  <block id="c052aa26952758956923ba904ca5f96a" category="list-text">「*階層化*」パネルのいずれかのリンクをクリックします。</block>
+  <block id="27c212bb42a38db76960ac460b46ac3d" category="list-text">[Tier Data](ティアデータ)をクリックして、*Cloud Manager*を起動します。</block>
+  <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">バックアップとアーカイブ</block>
+  <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">クラウドにバックアップするシステムに関する情報が表示されます。NetApp Cloud Backupを使用して、システムを保護し、必要に応じてリストアすることができます。</block>
+  <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">クラウドへのバックアップには、次の基準を満たすボリュームが推奨されます。</block>
+  <block id="58fd2779462a85717972aef01a3e851e" category="list-text">ソースボリュームとデスティネーションシステム、およびSnapVault バックアップを含むボリュームは除外されます。</block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="section-title">レプリケーション</block>
+  <block id="a1ca393b9475ac14fc86fe05bb65fa30" category="paragraph">災害発生時にクラウドにレプリケートする必要があるデータに関する情報を提供します。</block>
+  <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">クラウドへのレプリケーションには、次の基準を満たすボリュームが推奨されます。</block>
+  <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirrorソースボリュームは除外されます</block>
+  <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirrorデスティネーションボリューム（ボリュームタイプLSおよびDP）は除外されます</block>
 </blocks>
