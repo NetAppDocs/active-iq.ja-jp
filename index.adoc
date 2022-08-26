@@ -3,7 +3,7 @@ layout: astra
 sidebar: sidebar 
 permalink: index.html 
 lead: 'Active IQ Digital Advisor enables you to optimize your data infrastructure across your global hybrid cloud by delivering actionable predictive analytics and proactive support through a cloud-based portal and mobile app. Active IQ"s cloud-based services leverage community wisdom and peer comparisons that are drawn from NetApp"s massive installed base, combining these insights with AutoSupport telemetry and My AutoSupport features to deliver an advanced set of unparalleled analytics services.' 
-summary: Active IQ デジタルアドバイザは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。Active IQ のクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用します。これらの分析情報と AutoSupport テレメトリ機能や My AutoSupport 機能を組み合わせることで、卓越した分析サービスの高度なセットを提供します。 
+summary: Active IQ Digital Advisorは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。Active IQ のクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用します。これらの分析情報と AutoSupport テレメトリ機能や My AutoSupport 機能を組み合わせることで、卓越した分析サービスの高度なセットを提供します。 
 ---
 = Active IQ デジタルアドバイザのドキュメント
 :hardbreaks:
