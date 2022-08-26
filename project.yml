@@ -67,9 +67,11 @@ sidebar:
     entries:
     - title: インベントリの詳細を表示します
       url: "/task_view_inventory_details.html"
+    - title: Cloud Insights と統合して仮想マシンの詳細を表示
+      url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
     - title: 価値ある分析情報を確認できます
       url: "/task_view_valuable_insight_widget.html"
-    - title: Flex サブスクリプションの容量使用率を表示します
+    - title: Keystoneサブスクリプションの容量利用率を確認
       url: "/task_view_keystone_capacity_utilization.html"
   - title: システム要件をプロアクティブに特定します
     entries:

@@ -23,6 +23,16 @@ NetApp Active IQ デジタルアドバイザでは、次の機能と拡張機能
 
 
 
+== 2022年8月25日
+
+
+
+=== 在庫
+
+vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 link:task-integrating-with-cloud-insights-to-view-vm-details.html["詳細をご確認ください"]。
+
+
+
 == 2022年7月14日
 
 

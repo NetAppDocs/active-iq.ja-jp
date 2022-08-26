@@ -352,15 +352,9 @@
   <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">NetApp Keystone Flex サブスクリプションでの容量使用率に関する情報を提供します。</block>
   <block id="29cb371773858a73b7aca64ff6f208f4" category="doc">NetApp Keystone フレックスサブスクリプションを使用して容量利用率を表示します</block>
-  <block id="a0569192c93daf768db9180658231e9e" category="paragraph">Keystone Flex サブスクリプションサービスに登録している場合は、 Active IQ デジタルアドバイザダッシュボードに Flex サブスクリプションウィジェットを表示できます。</block>
-  <block id="2a386132dc9368657bf55334cdc2e9c0" category="paragraph">Flex サブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。このグラフは、論理容量を基準に容量利用率のグラフで構成され、最後の 5 分に切り上げられます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">サービス階層</block>
-  <block id="a40699645a064ce56bb66217612d0bbf" category="paragraph">Keystone - 容量利用率 * ダッシュボードを表示できます。このダッシュボードでは、ウィジェット内のデータを分析し、サブスクライブされているすべてのストレージの容量と使用状況のトレンドをグラフィカルに表示します <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>NetApp Keystone Flex サブスクリプションアカウントに関連付けられている、プレミアム、エクストリーム、標準など。</block>
-  <block id="e252513a2a6c279f863372807d4d590a" category="inline-link-macro">Flex サブスクリプションサービスの容量</block>
-  <block id="c247604a9a54e024469e50635a2178fb" category="paragraph">を表示できます <block ref="89a369e27820d8f4b4edc540b820bd22" category="inline-link-macro-rx"></block> また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。</block>
   <block id="c56661a66437cf16fa6985915185aa55" category="admonition">Active IQ ユーザは、 ONTAP コレクタと AutoSupport のどちらかを選択して、使用容量に関するデータを取得できます。</block>
   <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">詳細な * Keystone - 容量利用率 * ダッシュボードで、「 * 詳細を表示」をクリックして利用率のトレンドを確認します。</block>
-  <block id="d59bded01684ae09c11dfc24d78fbe41" category="list-text">30 日、 7 日、または 1 日を選択して、最近の平均使用傾向を表示します。</block>
   <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">必要に応じて、 ONTAP コレクタで容量の使用状況に関するデータを取得するように選択した場合は、ダッシュボードのタブをクリックしてファイル共有とディスクに関する詳細を確認できます。</block>
   <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="paragraph">[ 共有 ] または [ * ディスク ] をクリックして、コミット済み容量の上限に近づいているファイル共有またはディスクを特定し、十分な情報に基づいてストレージ容量を節約するための決定を行います。</block>
   <block id="5aa601140b131288c890a0936edb134f" category="summary">Active IQ デジタルアドバイザにログインするための情報を提供します。</block>
@@ -1098,7 +1092,6 @@
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック</block>
   <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">ソフトウェアとハードウェアを更新します</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">システムの詳細を表示します</block>
-  <block id="dc63f1d6af160ca1c3f1b882bf421db7" category="sidebar">Flex サブスクリプションの容量使用率を表示します</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">システム要件をプロアクティブに特定します</block>
   <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">設定の違いを特定</block>
   <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">ドリフトタイムラインレポートを生成します</block>
@@ -1208,4 +1201,28 @@
   <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">クラウドへのレプリケーションには、次の基準を満たすボリュームが推奨されます。</block>
   <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirrorソースボリュームは除外されます</block>
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirrorデスティネーションボリューム（ボリュームタイプLSおよびDP）は除外されます</block>
+  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">NetApp Keystone サブスクリプションを使用して容量利用率を表示します</block>
+  <block id="3d49fcaa5c70ee5c62bd12985bcdc011" category="paragraph">Keystoneサブスクリプションサービスに登録している場合は、Active IQ デジタルアドバイザダッシュボードにKeystoneサブスクリプションウィジェットを表示できます。</block>
+  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量利用率グラフと、最後の5分に切り上げ後のSnapshotで構成されます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。</block>
+  <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">Keystone - 容量利用率 * ダッシュボードを表示できます。このダッシュボードでは、ウィジェット内のデータを分析し、サブスクライブされているすべてのストレージの容量と使用状況のトレンドをグラフィカルに表示します <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>NetApp Keystone サブスクリプションアカウントに関連付けられたプレミアム、エクストリーム、標準など。</block>
+  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystoneサブスクリプションサービスの容量</block>
+  <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">を表示できます <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。</block>
+  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">現在の請求期間、30日、7日、または1日を選択して、最近の平均使用傾向を表示します。</block>
+  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">現在の請求期間については、バーストの詳細に関する情報を記載したレポートをダウンロードできます。</block>
+  <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
+  <block id="0b351c39af261a93af103bf080f120a3" category="paragraph">vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 <block ref="c1d18b80dac13889361e9f73d9613fbb" category="inline-link-macro-rx"></block>。</block>
+  <block id="cc035831ceccd9eaf04a71fd720c7f1f" category="summary">Cloud Insights の仮想マシンに関する情報を提供します</block>
+  <block id="d152c939b222bcd3e796ea901ac07554" category="doc">Cloud Insights と統合して仮想マシンの詳細を表示</block>
+  <block id="bad5d4e303a8943f6791b611707e97f2" category="paragraph">Active IQ がCloud Insights Basicバージョンと統合され、お客様にフルスタックのインベントリと相互運用性チェックを提供できるようになりました。</block>
+  <block id="7988a3af08a9ab5c3313f24277fd8cdb" category="paragraph">この統合の利点は次のとおりです。</block>
+  <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">ONTAP のSaaS監視が簡易化されました</block>
+  <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">VMwareのフルスタック監視機能を可視化</block>
+  <block id="c1541ad2124531ef89e365336511a23e" category="list-text">相互運用性チェックを自動化し、ONTAP のアップグレード計画を支援することで、お客様の生産性を向上できます。これにより、ONTAP のアップグレードがスムーズになり、ホストとの互換性に問題が生じるリスクが軽減されます。</block>
+  <block id="8c0f9ce9681dd5179f5451c71f8f6793" category="admonition">この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびActive IQ アップグレード契約でのみ使用できます。</block>
+  <block id="cf14d774d8d0c6d9907931e44af83d21" category="list-text">[* Inventory *（インベントリ*）]ウィジェットで、[* Virtual Machines *（仮想マシン*）]をクリックして、Cloud Insights で使用可能なデータを表示します。</block>
+  <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">[仮想マシンの概要*]タブをクリックします。</block>
+  <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">[ESXホストの数]をクリックして、ホストに関する情報を表示します。</block>
+  <block id="79fc7fc3d1c3888f0da7bea1712b7cb0" category="list-text">ESX名*をクリックしてCloud Insights に移動すると、詳細が表示されます。</block>
+  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">Cloud Insights と統合して仮想マシンの詳細を表示</block>
+  <block id="6721d14778dfec7598747969baedc497" category="sidebar">Keystoneサブスクリプションの容量利用率を確認</block>
 </blocks>
