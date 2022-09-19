@@ -816,11 +816,8 @@
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。</block>
   <block id="d6917a390639e0a267939dc55858c685" category="doc">アップグレードプランを生成して ONTAP のバージョンをアップグレードします</block>
   <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">アップグレードプランを生成すると、ストレージシステムの保留中のアップグレードを表示したり、 ONTAP を新しいバージョンにアップグレードしたりできます。また、リスクのリストは、アップグレードによって軽減されるリスクアドバイザ * タブで確認する必要があります。</block>
-  <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">ダッシュボードで、アップグレード待ちの状態を * アップグレード * ウィジェットで確認します。</block>
   <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">[Number of * Actions] * をクリックすると、保留中のアップグレードが表示されます。</block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">必要なアップグレードオプションを選択します。</block>
   <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">ウィジェットに表示されているシステム数をクリックすると、 * Upgrade Advisor * タブが表示されます。</block>
-  <block id="a6b0fa6504db5a6f3dee9bdba49d1fe7" category="paragraph">リリースノートでは、リリースに関する詳細情報を確認することもできます。</block>
   <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">リスクアドバイザ * タブで、リスクのリストとその重大度レベルを表示します。これは、アップグレードにより緩和されます。</block>
   <block id="281921503952801e23be5489728f4728" category="list-text">[Generate Upgrade Plan] をクリックして、 * Upgrade Advisor * に移動します。</block>
   <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">Active IQ Digital Advisorで使用される主な用語について説明します。</block>
@@ -1225,4 +1222,12 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">ネットアップコミュニティ– Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ モバイルアプリケーション（ Android ）</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ モバイルアプリケーション（ iOS ）</block>
+  <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">マルチホップアップグレード</block>
+  <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">一部の自動無停止アップグレード（ANDU）から隣接していないリリースへのアップグレードでは、中間リリースおよびターゲットリリースのソフトウェアイメージをインストールできます。自動アップグレードプロセスでは、バックグラウンドの中間イメージを使用してターゲットリリースへの更新を完了します。たとえば、クラスタで 9.3 を実行している場合に 9.7 にアップグレードするには、 9.5 と 9.7 の両方の ONTAP インストールパッケージをロードし、 ANDU を 9.7 に開始します。その後、 ONTAP はクラスタを 9.5 に、その後 9.7 に自動的にアップグレードします。テイクオーバー / ギブバック処理や関連するリブートが複数回行われることを想定してください。</block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor を使用します</block>
+  <block id="e9588616576594b7265f748171c85266" category="list-text">ダッシュボードで、アップグレード待ちの状態を * アップグレード * ウィジェットで確認します。<block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">アップグレードオプション</block>
+  <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">必要なアップグレードオプションを選択します。<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">アップグレードプランを生成</block>
+  <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">リリースノートでは、リリースに関する詳細情報を確認することもできます。<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
