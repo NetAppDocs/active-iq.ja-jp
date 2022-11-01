@@ -51,4 +51,4 @@ ONTAP システムについては、 Cluster Viewer で物理容量に関する�
 
 
 
-容量およびストレージ効率の詳細については、を参照してください link:reference_aiq_faq.html["Active IQ に関するよくある質問です"]。
+容量およびストレージ効率の詳細については、を参照してください link:reference_aiq_faq.html["Digital Advisorについてのよくある質問です"]。

@@ -19,7 +19,7 @@ summary: Cloud Insights の仮想マシンに関する情報を提供します
 
 
 [role="lead"]
-Active IQ がCloud Insights Basicバージョンと統合され、お客様にフルスタックのインベントリと相互運用性チェックを提供できるようになりました。
+Digital Advisorは、Cloud Insights ベーシックバージョンと統合され、お客様に完全なスタックインベントリと相互運用性チェックを提供します。
 
 この統合の利点は次のとおりです。
 
@@ -29,7 +29,7 @@ Active IQ がCloud Insights Basicバージョンと統合され、お客様に�
 
 
 
-NOTE: この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびActive IQ アップグレード契約でのみ使用できます。
+NOTE: この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびDigital Advisorのアップグレード契約でのみ使用できます。
 
 .手順
 . [* Inventory *（インベントリ*）]ウィジェットで、[* Virtual Machines *（仮想マシン*）]をクリックして、Cloud Insights で使用可能なデータを表示します。

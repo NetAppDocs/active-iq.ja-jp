@@ -2,9 +2,7 @@
 <blocks>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">ダウンタイムとデータ損失の可能性を回避する方法について説明します。</block>
   <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">ダウンタイムとデータ損失の可能性を回避します</block>
-  <block id="8da37e3c470ea9e09b868f74f857a58a" category="paragraph">Active IQ デジタルアドバイザにログインし、「可用性と保護 * 」ウィジェットに赤いバッジが表示された場合は、重大なリスクを修正するための措置を講じることができます。ファームウェアの修正プログラムをインストールしていないと、一定の時間電源を入れたあとでドライブが動作しなくなる可能性があります。これを修正することで、ダウンタイムとデータ損失の両方を回避できます。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
-  <block id="b6f0789e4854da3dde8f55d00cee757f" category="list-text">Active IQ デジタルアドバイザにログインします。</block>
   <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用性と保護ウィジェット</block>
   <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">[* 可用性と保護 * （ Availability &amp; Protection ） ] ウィジェットで、 [ * アクション * （ Actions * ） ] をクリックし<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e91f704233072d4cd24a403d5175cfc" category="paragraph">影響の大きいセキュリティリスクについては、ディスクファームウェアの更新が推奨される対処方法に従ってください。</block>
@@ -12,7 +10,6 @@
   <block id="36ae45e0f51d582bd7ecffce242361dd" category="list-text">リスクサマリを表示するには、リスク名 * リンクをクリックします。<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57b854162d6caadf0053934ab77436cd" category="inline-image-macro">対処方法</block>
   <block id="194764f556fc1cef4cadf0744c5dc483" category="list-text">[*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="baceeff257420910d075f17bbf8cb985" category="paragraph">Active IQ Digital Advisor は、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムの Ansible スクリプトまたはプレイブックを生成します。</block>
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">AFF および FAS ファームウェア</block>
   <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">* Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">インベントリファイルの操作に関する情報を提供します。</block>
@@ -56,8 +53,6 @@
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">必要に応じて、追加のコメントを入力します。</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">[ 送信（ Send ） ] をクリックします。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
-  <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">Active IQ に関するよくある質問です</block>
-  <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">以下の質問をお寄せください。 Active IQ に関するよくあるお問い合わせをご確認ください。</block>
   <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">テクニカル以外のケース</block>
   <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*非技術的なケースとは？*</block>
   <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">在庫にシステムが表示されない、契約期間が正しくないなど、技術的でない問題は技術的なケース以外のケースに分類されます。</block>
@@ -75,25 +70,17 @@
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">必要な詳細情報を入力し、 [Comments] ボックスに追加情報を入力します。</block>
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">[Submit （送信） ] をクリックします。</block>
   <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">ケースが作成され、リファレンスのケース番号が提供されます。</block>
-  <block id="1ded387253a93d29755ab2ca1074fbd1" category="paragraph">* Active IQ に関するフィードバックやその他の質問をするにはどうすればよいですか。 *</block>
   <block id="ac028435b37412dea24f9b1040cc0dc4" category="paragraph">フィードバックや質問をするには、 mailto ： ng-activeiq-feedback@netapp.com [[[.underline] #ng-activeiq-feedback@netapp.com まで E メールを送信してください。</block>
   <block id="fd18465573ec21a6218982055981f6b1" category="section-title">ストレージ効率</block>
-  <block id="01068fe2a9465b605eb4727d6748f0b0" category="paragraph">* Active IQ Digital Advisor から Storage Efficiency にアクセスする方法を教えてください。 *</block>
-  <block id="dab2edf9eaac3950e92c281ce358af01" category="inline-link-macro">Active IQ Digital Advisor</block>
-  <block id="51b7461ab2221ad6ebc347199d080996" category="list-text">のホームページを開きます <block ref="73cab01bc3ab60831e45f34cd3a02915" category="inline-link-macro-rx"></block>。</block>
   <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">右上の検索ボックスで、お客様、サイト、グループ、クラスタ、またはノードを検索して対応するダッシュボードにアクセスします。</block>
   <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">左側のナビゲーションから * Storage Efficiency * をクリックします。</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">監視リストを使用して作成されたダッシュボードは Storage Efficiency ウィジェットに表示されません。</block>
-  <block id="1a056f8c1beedb684724e6b0601b069c" category="paragraph">* Active IQ デジタルアドバイザは、すべての ONTAP システムの比率を表示しますか。 *</block>
-  <block id="544815dd73a9c77dedc2a33074a1135a" category="paragraph">Active IQ には、 ONTAP 9.1 以降を実行しているシステムの削減比率が表示されます。</block>
   <block id="43208ae3669e6064ac8131ae950695db" category="paragraph">* 効率化ダッシュボードの「スナップショットなし」チェックボックスとは何ですか。 *</block>
-  <block id="677a526a7915d620261f7e6e60e75fac" category="paragraph">デフォルトでは、 Active IQ 効率化ダッシュボードによって、お客様レベル、サイトレベル、グループレベル、クラスタレベル、およびノードレベルの総削減率が計算されます。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。</block>
   <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">重複排除</block>
   <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">圧縮</block>
   <block id="14c3c56ff2a98d1a9c47b63a917f67a3" category="list-text">データコンパクション</block>
   <block id="999cc42b236c7aee1157ff02d6f1bcd5" category="list-text">クローン</block>
   <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="list-text">Snapshot</block>
-  <block id="659294da8b9c465e6bd99f135b247780" category="paragraph">「 Snapshot なし * 」チェックボックスをオンにすると、 Active IQ Digital Advisorは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルで効率性比率（重複排除、圧縮、データコンパクション、クローンの Storage Efficiency テクノロジによる比率）を計算します。</block>
   <block id="4607346b33eee4e6a2891bed9f7bd75f" category="paragraph">* 使用されている物理データと論理データは何ですか。 *</block>
   <block id="fa23175e7bcd622e3124ac47ad2ac225" category="list-text">使用済み物理ブロック / 使用済み物理データ</block>
   <block id="eccc5f12f48e88329c29d59f7fb7399f" category="list-text">現在データに使用されているスペースの量 （将来使用するために予約されているのではなく）</block>
@@ -158,7 +145,6 @@
   <block id="5fc0bed0c4e94cabaa1690a7b1cc57bc" category="paragraph">* ONTAP にアップグレードする前に Storage Efficiency がレポートされたのはなぜですか。 *</block>
   <block id="cc1aa2ce993d9bbdac08a80d2c73290b" category="paragraph">ONTAP のバグが原因でノードにデータ保護ボリュームが存在する場合、ストレージ効率はこれよりも高くなります。この問題は ONTAP 9.3P11 で修正されています。ONTAP 9.3P11 より前のバージョンからアップグレードした場合とデータ保護ボリュームがノードに存在する場合は、 Storage Efficiency レポートで正しい値または小さい値が報告されます。</block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="section-title">容量</block>
-  <block id="3b30da6e59750752fba75398273933ea" category="paragraph">* Active IQ デジタルアドバイザの容量はどのように計算されていますか？ * Active IQ デジタルアドバイザの容量は、ルートを除くクラスタとノードを対象に計算されています</block>
   <block id="97b94c75518b90d30aeab5f6ccdd903e" category="cell">* 容量 *</block>
   <block id="2c132960410953edab40f07fdeedf275" category="cell">* 各アグリゲートを追加して計算 *</block>
   <block id="e09dc7945acb6ec6caf41c962f679916" category="cell">物理容量</block>
@@ -195,11 +181,9 @@
   <block id="004016a613c0ec93cc34b1dd36fd4bfc" category="admonition">file または volume ギャランティタイプのボリューム用にリザーブされているスペースも含まれます。これには、予約に加えて、遅延解放、 aggr ブログ、メタデータも含まれます。遅延解放ブロックがパージされるまで使用済みスペースとして表示されます。パージすると、使用済みスペースが減少します。</block>
   <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">* 容量予測はどのように計算されますか？ * 容量予測は、システムの 1 週間あたりの平均増加率を計算するために、過去 1 年間の使用容量データを使用しています。このシステム使用率の変化率は、現在使用されている容量から推定されて、今後 6 カ月間にシステム利用率がどのように変化すると予想されるかを実証するために使用済み容量の合計が同じであることが前提となります。</block>
   <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">* 追加した各ボリュームの使用容量がノードレベルのアグリゲートの使用容量と一致しないのはなぜですか？ * ノードレベルの使用容量には、ボリューム、メタデータ、および Snapshot コピー用にリザーブされたスペースが含まれます。また、ボリューム用にリザーブされているスペース（ file タイプまたは volume ギャランティタイプ）も含まれます。そのため、両方が一致しない可能性があります。</block>
-  <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">* Active IQ デジタルアドバイザの 2 進数または 10 進数で示されている容量 * Active IQ に表示されるすべての容量は 2 進数（ 1024 で除算）であり、 GiB / TiB で表した容量です。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">StorageGRID の場合、容量は 10 進数で表示され、容量の単位は TB で表されます。</block>
   <block id="4d604dd8f008145471dc845683399189" category="section-title">在庫</block>
   <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*インベントリページで特定のシステムが見つからないのはなぜですか？*次のいずれかの理由により、インベントリページで特定のシステムを表示できない場合があります。</block>
-  <block id="bc589a42c9712f3202e1697e0c7d5db9" category="list-text">SAPで新しいシステムが追加または更新されたあと、新しいシステムがActive IQ に反映されるまでに1日かかります。</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">システムはセキュアであり、セキュアなシステムを表示する権限がありません。</block>
   <block id="fff04069266603da7d63522615d51f31" category="list-text">システムを表示する権限がありません。</block>
   <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">システムは非アクティブです</block>
@@ -220,12 +204,9 @@
   <block id="6d01d6a00b896623fe1252dcd728f7d4" category="list-text">ストレージシステムの Storage Efficiency およびデータ削減量を表示します。</block>
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率を上回る場合は、「 * ユーザ事例を共有」をクリックして、実施したベストプラクティスをお知らせください。</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率より低い場合は、「 * お問い合わせ * 」をクリックして、ストレージシステムの構成をお知らせください。</block>
-  <block id="469ece09146953ebd6a7e5bf041f15f1" category="paragraph">容量およびストレージ効率の詳細については、を参照してください <block ref="1f14e24988ac8fc33e2e14ae229f096d" category="inline-link-macro-rx"></block>。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">ランサムウェアのリスクからシステムを保護</block>
-  <block id="3deb21101d87fafbbc562a691cfe0a34" category="paragraph">Active IQ デジタルアドバイザにログインすると、「ランサムウェア防御 * 」ウィジェットで強調表示されている「アクション * 」を確認できます。このウィジェットには、リスクカウントが表示されます。</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Snapshot の作成、保持、および ONTAP の FPolicy リスクを確認し、修正するためのアクションを実行できます。</block>
-  <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">Active IQ Digital Advisor にログインします</block>
   <block id="6f75bc30c5b47eb48f72d647d67781a9" category="list-text">「ランサムウェア防御 * 」ウィジェットで「 * アクション」をクリックします。</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">表示されたリスクについては、影響レベルを確認し、推奨される対処方法に従います。</block>
   <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">[Unique Rises] タブをクリックし、 [*Corrective Action] 列にリンクします。</block>
@@ -251,7 +232,6 @@
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">選択したシステム間の設定の偏差の詳細が記載された E メールが送信されます。</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">ヘルスチェックダッシュボードについて理解するための情報を提供します。</block>
   <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">健全性チェックのダッシュボードを確認</block>
-  <block id="c4e79cb686b01699ee0c71f0e369c23c" category="paragraph">Active IQ 健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューを実施できます。</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">健全性チェックのスコアに基づいて、長期的な計画に備えて、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせて調整することができます。ソフトウェアとハードウェアで実行されているすべてのシステムを、一元化されたユーザインターフェイスで監視できます。ヘルスチェックのスコアを使用すると、システムリスクに関する情報をすばやく取得できます。主な推奨事項とベストプラクティスは、インストールベースの健常性を改善するための対処方法です。</block>
   <block id="73b22abb2810760940bcbce346e76523" category="admonition">健全性チェックダッシュボードには、ネットアップの SupportEdge Advisor と SupportEdge Expert のサービスからのみアクセスできます。</block>
   <block id="cf03e3b283bc7fa70a7713acb40de102" category="doc">ウェルネスレビューメールに登録する</block>
@@ -271,24 +251,16 @@
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">レポートを生成します</block>
   <block id="c18954481ec7b1ca7731f10fe88f17e0" category="paragraph">すぐにレポートを生成することも、週単位または月単位でレポートを生成するようにスケジュール設定することもできます。レポートは、さまざまな形式で生成できます。選択したレポートに基づいて、使用可能な形式が表示されます。</block>
   <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">* このタスクについて *</block>
-  <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">Active IQ ではレポートを編集できません。既存のレポートを削除して、新しいレポートを作成する必要があります。</block>
   <block id="b9078cbffeaf57a288d7d58d7ed02317" category="list-text">左側のペインで、 *Reports* をクリックします。</block>
   <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">[ レポートの作成（ Create Report ） ] をクリックして、新しいレポートを生成する。</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">レポートのタイプを選択し、必要な値を入力します。</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">レポートの形式を選択します。</block>
-  <block id="1c29599ba00f8ba135a21a794908ea18" category="admonition">レポートは、 Active IQ に 3 日間保存されます。</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">新しいレポートが生成されると、既存のスケジュール済みレポートが置き換えられます。</block>
   <block id="6d70d8473310213564444d3b9fe477dd" category="summary">停止を回避するためにボリュームがフルにならないようにする方法について説明します。</block>
   <block id="a80aea1c7f0129b13ea55e329311ec63" category="doc">ボリュームがいっぱいにならないようにしてシステム停止を回避してください</block>
-  <block id="d1bd15862f9b11e10337ce20fe325868" category="paragraph">Active IQ デジタルアドバイザにログインすると、 * 構成 * ウィジェットに赤いバッジが表示されます。ウィジェットをクリックするとボリュームの使用率が 98% に達し、原因が停止する可能性があることがわかります。この問題を修正するとボリュームがいっぱいになるのを回避できます。ボリュームが読み取り専用になり、アプリケーションがクラッシュして失敗する原因となります。</block>
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">設定ウィジェット</block>
   <block id="60436722270a4533c09cb8939f672895" category="list-text">構成 * （ Configuration * ）ウィジェットで * アクション * （ Actions * ）をクリックします。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">[* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e2c6808982593708e3cfabf058fefb40" category="summary">Cloud Manager でのクラスタの統合と管理方法に関する情報を提供します。</block>
-  <block id="69afd9ad39724c949338645bc3c18d3c" category="doc">Cloud Manager でクラスタを管理します</block>
-  <block id="8a0d2c897946577052b091701b0ae580" category="paragraph">Active IQ デジタルアドバイザは、 Cloud Manager に統合されています。クラスタを管理したり、 Active IQ のすべての機能に Cloud Manager のユーザインターフェイス（ UI ）からアクセスしたりできるようになりました。IT エキスパートとクラウドアーキテクトは、 Cloud Manager を使用して、ハイブリッドマルチクラウドインフラを一元管理できます。</block>
-  <block id="292e5c26d5c03cc4f8e1e8768bbbabaa" category="inline-link-macro">Active IQ Digital Advisor と Cloud Manager の連携</block>
-  <block id="61adb43205caa7a035172727c2635283" category="paragraph">Active IQ をCloud Managerに統合してアクセスするために必要なのは、Cloud ManagerのNetApp Support Site（NSS）アカウントだけです。Cloud Manager での Active IQ の統合とアクセスについては、を参照してください <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
   <block id="1adfed22e84a753b83628708ada03eee" category="summary">構成ドリフトテンプレートを追加するための情報を提供します。</block>
   <block id="474c5ad2b749cb9d123843c02a15e051" category="doc">設定ドリフトテンプレートを追加します</block>
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出するために、テンプレートを追加する必要があります。設定のドリフトテンプレートは、 AutoSupport データを実行するシステムを使用して追加されます。</block>
@@ -297,21 +269,17 @@
   <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">オプション：「 * Edit * 」をクリックしてテンプレートを編集します。</block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">NetApp Keystone Flex サブスクリプションでの容量使用率に関する情報を提供します。</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">NetApp Keystone サブスクリプションを使用して容量利用率を表示します</block>
-  <block id="3d49fcaa5c70ee5c62bd12985bcdc011" category="paragraph">Keystoneサブスクリプションサービスに登録している場合は、Active IQ デジタルアドバイザダッシュボードにKeystoneサブスクリプションウィジェットを表示できます。</block>
   <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量利用率グラフと、最後の5分に切り上げ後のSnapshotで構成されます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">サービス階層</block>
   <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">Keystone - 容量利用率 * ダッシュボードを表示できます。このダッシュボードでは、ウィジェット内のデータを分析し、サブスクライブされているすべてのストレージの容量と使用状況のトレンドをグラフィカルに表示します <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>NetApp Keystone サブスクリプションアカウントに関連付けられたプレミアム、エクストリーム、標準など。</block>
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystoneサブスクリプションサービスの容量</block>
   <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">を表示できます <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。</block>
-  <block id="c56661a66437cf16fa6985915185aa55" category="admonition">Active IQ ユーザは、 ONTAP コレクタと AutoSupport のどちらかを選択して、使用容量に関するデータを取得できます。</block>
   <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">詳細な * Keystone - 容量利用率 * ダッシュボードで、「 * 詳細を表示」をクリックして利用率のトレンドを確認します。</block>
   <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">現在の請求期間、30日、7日、または1日を選択して、最近の平均使用傾向を表示します。</block>
   <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">現在の請求期間については、バーストの詳細に関する情報を記載したレポートをダウンロードできます。</block>
   <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">必要に応じて、 ONTAP コレクタで容量の使用状況に関するデータを取得するように選択した場合は、ダッシュボードのタブをクリックしてファイル共有とディスクに関する詳細を確認できます。</block>
   <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="list-text">[ 共有 ] または [ * ディスク ] をクリックして、コミット済み容量の上限に近づいているファイル共有またはディスクを特定し、十分な情報に基づいてストレージ容量を節約するための決定を行います。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">リリースの新機能に関する情報を提供します。</block>
-  <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ デジタルアドバイザの新機能</block>
-  <block id="b796f5a9938eed79a1b234c13b86fcaf" category="paragraph">NetApp Active IQ デジタルアドバイザでは、次の機能と拡張機能が導入されました。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">詳細をご確認ください</block>
   <block id="0b351c39af261a93af103bf080f120a3" category="paragraph">vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 <block ref="c1d18b80dac13889361e9f73d9613fbb" category="inline-link-macro-rx"></block>。</block>
@@ -355,8 +323,6 @@
   <block id="a3b957b59d881117bf09ee6ca7366bb9" category="list-text">推奨される最小バージョンアップグレードプランを生成する機能。</block>
   <block id="93023f3e4204331d859903eed4894e42" category="list-text">健全性チェックタイルの機能強化により、各 KPI で注意が必要なノード数を特定。</block>
   <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">グリッド設定の詳細は、グリッドビューアで確認できます。</block>
-  <block id="315474a8ef79b74899073fc979f12da4" category="section-title">クラウドマネージャ</block>
-  <block id="dad2544fd1c448ea22b7a63cbf03e1df" category="paragraph">Cloud Manager ユーザは、 Active IQ の既存の機能と同様に、必要に応じて新しいタブで Active IQ リンクを開くことができます。</block>
   <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">2022 年 1 月 12 日</block>
   <block id="2ffefe6c8c1d57527c2c86448a467c08" category="section-title">Config Drift</block>
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">テンプレートを複製して、元のテンプレートのコピーを作成できます。</block>
@@ -365,13 +331,11 @@
   <block id="f551e29085dd1ae672a5c22b16dd5231" category="list-text">* Cluster Viewer Report * ：このレポートには、 1 つまたは複数のクラスタに関する情報が顧客レベルと監視リストレベルで表示されます。Cluster Viewer レポートを使用して、 1 つのファイル内のすべての情報をダウンロードできます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="32323c520058568cf459c9c091b6302a" category="list-text">* パフォーマンスレポート * ：このレポートは、監視リストレベルで、クラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報を 1 つの zip ファイルにまとめたものです。各 zip ファイルには、単一のクラスタのパフォーマンスデータが含まれており、各クラスタのデータの分析に役立ちます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="e7495c352afe82777cef53d3f7d2534f" category="section-title">E シリーズシステムとの統合</block>
-  <block id="00c03a5533f59ea010c2980d7e4d8d04" category="paragraph">Active IQ では、選択した E シリーズシステムの容量の詳細とパフォーマンスグラフを表示できます。</block>
   <block id="bff8e0727b4c9b257312f2cbb6fcce4d" category="section-title">2021 年 11 月 18 日</block>
   <block id="91b681e174a782226d26fb4056e14081" category="section-title">ストレージ効率</block>
   <block id="2837fa943ed77aa7de5f931fc0d9ddb0" category="paragraph">NetApp Cloud Insights で管理および監視されているノードのストレージ効率の詳細を表示できます。</block>
   <block id="45b18c343d43ec682e557426d44cda54" category="section-title">2021 年 11 月 11 日</block>
   <block id="1c4dbaa68e9004b45ad08f1cf5f157a1" category="list-text">健全性チェックタイルにアイコンが追加されました。このアイコンは、 SupportEdge Advisor および SupportEdge Expert サポートサービスを提供するシステムにのみ適用されます。この機能強化は、「ソフトウェアの通貨とファームウェアの通貨」セクション、「推奨構成」、「ベストプラクティス」の推奨ソフトウェアに適用されました。</block>
-  <block id="0411f5495f5795b2270ee7603259fb59" category="list-text">Active IQ デジタルアドバイザの [ レポート ] 画面に、社内ユーザと社外（お客様とパートナー）ユーザのための機密データバナーを追加しました。</block>
   <block id="ec4db24b3963d4a0b276c998be9a81bc" category="section-title">健全性とアップグレードウィジェット</block>
   <block id="54454ba57239406365ebc84a4d7bd111" category="paragraph">E シリーズのアップグレードに関する推奨事項と、ウェルネスアクション履歴の列にリスクトリガー日が追加されたダッシュボードが強化されました。</block>
   <block id="9dc83864364276e0f933b83aba5a7e53" category="paragraph">Cluster Viewer Stack Visualization モジュールが強化され、 Zoom In/Zoom Out and Save Image 機能が追加されました。</block>
@@ -391,7 +355,6 @@
   <block id="b00f197330b8c03d51bcc9ff737bf029" category="section-title">ネットアップの Cloud Volumes ONTAP および E シリーズプラットフォーム用のタブ</block>
   <block id="823e0682a919056e63060941206cbbd0" category="paragraph">健全性チェックダッシュボードが強化され、 Cloud Volumes ONTAP ** および E シリーズのタブではヘルスチェック KPI やそれらのプラットフォームの詳細を表示できるようになりました。</block>
   <block id="b47109f6e8c3654beb551c1dc5b17f5e" category="paragraph">「 ONTAP 」のタブも、現在有効になっている他のプラットフォームとともに追加されています。</block>
-  <block id="5113f77f1fff34aa6b365de6e30cf5ec" category="paragraph">NetApp Cloud Volumes ONTAP システムの容量の詳細は Active IQ で確認できます。</block>
   <block id="bab881e7a77679bf1ae1e0e5dcb3ec3e" category="paragraph">レポートスケジュールは 12 カ月に延長されました。また、スケジュールレポートの有効期限が近づいたときに通知が送信されます。</block>
   <block id="01577a026e7abe02a9ba236a3d4f679b" category="section-title">2021 年 9 月 30 日</block>
   <block id="5548552a90db4c3921de9d1e9c9fb3e3" category="section-title">お客様の条件を満たすバージョン</block>
@@ -407,7 +370,6 @@
   <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">2021 年 9 月 16 日</block>
   <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">ランサムウェア防御ウィジェットは、スタンドアロンウィジェットではなくウェルネスワークフローの一部になりました。</block>
   <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">Wellness Review の E メールでは、更新ではなくランサムウェア防御に関する情報を確認できます。</block>
-  <block id="6268dbec956651e7bd88197154e41f93" category="paragraph">Active IQ では、 NetApp ONTAP ® Select システムの容量に関する詳細を確認できます。</block>
   <block id="9ee1a0b7aa28c278380f54797be2bc29" category="paragraph">Cluster Viewer の表示タブで、ケーブル接続の問題やその他のエラーを確認できます。</block>
   <block id="6be3e4cc137acae41c32679736c4a678" category="section-title">2021 年 9 月 6 日</block>
   <block id="b3133741a2e146480d59529cf245b52d" category="list-text">View AutoSupport ： StorageGRID と基盤のノードの AutoSupport ログを表示します。</block>
@@ -417,12 +379,6 @@
   <block id="acc29a7b7f23045f357b49f3a37a34bf" category="section-title">容量の予測</block>
   <block id="e7beaf5388707f5b78d0f93b770b13e6" category="paragraph">容量予測ウィジェットが更新され、システムの再構成を改善するアルゴリズムが追加されました。 <block ref="358e7502d3a3beb3c7524dcf4ddbf11b" category="inline-link-macro-rx"></block>。</block>
   <block id="aefb7a7993c510ef70b2a8e8af0c8a8d" category="section-title">2021 年 8 月 26 日</block>
-  <block id="cdf13500e15ccdea960e2cbd513e706e" category="section-title">Active IQ デジタルアドバイザモバイルアプリケーション</block>
-  <block id="c2177c5092a1d047c74aacc2ac6a0266" category="paragraph">Active IQ デジタルアドバイザモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。</block>
-  <block id="36cbd0d8037ebab11ab6cbc27994392d" category="inline-link-macro">Active IQ デジタルアドバイザモバイルアプリケーション（ Android ）</block>
-  <block id="e6692358ec400759110ca506b80cdccf" category="inline-link-macro">Active IQ デジタルアドバイザモバイルアプリケーション（ iOS ）</block>
-  <block id="67336000033c69d2422b8a1d56abc928" category="paragraph">アプリケーションをダウンロードして、詳細を確認してください。<block ref="f4a3d04670909fa28f3881892d9f974d" category="inline-link-macro-rx"></block>
-<block ref="df3e240c84a77f3ec5b190ed94cab8b3" category="inline-link-macro-rx"></block></block>
   <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">ウェルネスウィジェットには、 Ransomware Defense 属性が追加されています。ランサムウェアの検出、防止、リカバリに関連するリスクや対処方法を確認できるようになりました。</block>
   <block id="5c3849b33a3b6bf738dbe72c0348f10c" category="section-title">2021 年 8 月 16 日</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="section-title">健全性のレビュー</block>
@@ -441,7 +397,6 @@
   <block id="d3c1f787ff63a25609fa946fe06088e0" category="list-text">コントローラ、ディスク、シェルフの EOS タイムラインを PVR で購入できるようになりました。購入した PVR の日付と延長期間の詳細は、サポート終了ウィジェットで確認できます。PVR の詳細も EOSL レポートの一部として提供されます。</block>
   <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">詳細なインベントリページでは、ハードウェア、ソフトウェア、および返却できないディスクに関するサポート契約の終了日を確認できます。</block>
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">サポートサービスのアップグレード</block>
-  <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">ユーザインターフェイスが強化され、 Active IQ で登録している特定のサポートサービスが表示されるようになりました。</block>
   <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
   <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021 年 6 月 25 日</block>
   <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">Flex サブスクリプションウィジェット</block>
@@ -467,7 +422,6 @@
   <block id="ceb8404d75df4cd36057918b2a3c3975" category="list-text">ボリュームがいっぱいにならないようにしてシステム停止を回避する方法をご確認ください。 <block ref="fabdf753888b88e4e56a3a1d46f402d9" category="inline-link-macro-rx"></block>。</block>
   <block id="b7fd11efbe4b08f9789db43e656aae94" category="section-title">2021 年 4 月 7 日</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">監視リスト</block>
-  <block id="3cc267fba4c83695b9464316876b7f84" category="paragraph">Active IQ デジタルアドバイザに初めてアクセスするときは、ダッシュボードの代わりにウォッチリストを作成する必要があります。また、各種の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりすることもできます。</block>
   <block id="3fc3e2eabeba0d4fc1cd1cd29feb8f53" category="section-title">2021 年 2 月 24 日</block>
   <block id="28218bb56d995c803dfa66937720289f" category="paragraph">このリリースには、次の機能があります。</block>
   <block id="774bd29c6c04ea222762ebe419b8682f" category="list-text">テンプレートの作成時に属性を編集できます。</block>
@@ -489,7 +443,6 @@
   <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* グリッドサマリ： * 基本情報が含まれます。たとえば、ライセンスタイプ、ライセンス容量、インストールされているノードの数、サポート期間（ライセンス契約終了日）、プライマリ管理ノード、プライマリ管理ノードのプライマリサイトなどです。このタブには、サイト名、および対応するサイトでタグ付けされているストレージノードの数も表示されます。このリリースでは、対応するサイトのストレージノードを表示するためのハイパーリンクをクリックすると、ノード名のリストが表示されます。</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">* Capacity Details タブ：グリッドに対して設定された Grid レベルとサイトの容量の詳細が表示されます。インストールされているストレージ容量、使用可能なストレージ容量、合計使用済みストレージ容量、データとメタデータに使用されている容量など、容量の詳細。これらの詳細は、グリッドレベルとサイトレベルの両方で確認できます。</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">FabricPool アドバイザー</block>
-  <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、 NetApp Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">クラウド対応ワークロード</block>
   <block id="b07b6b80fae4b5c609f71c937ae1f913" category="paragraph">ストレージシステム内で使用可能なさまざまなタイプのワークロードを表示して、クラウド対応のワークロードを特定できます。</block>
   <block id="e68cf4e683901ace045287e72cebd33c" category="section-title">2020 年 12 月 21 日</block>
@@ -498,16 +451,13 @@
   <block id="665aadbe4be879e060b8e8fac4ef8d2d" category="list-text">信号消失：このウィジェットは、何らかの理由で AutoSupport データの送信を停止したシステムに関するスコアと情報を提供します。7 日以内にホスト名から AutoSupport データが受信されなかった場合に情報を提供します。</block>
   <block id="241b4f2209980b6ad5d063befe23d87b" category="section-title">2020 年 11 月 12 日</block>
   <block id="8c0d8ca7bc36fd1c788f07ffdf479f1a" category="section-title">API を使用したデータの統合</block>
-  <block id="f0f6378060f0a712e4a330fc5ea352f1" category="paragraph">Active IQ API を使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 <block ref="79a495fed0082d673c1047b883d4546e" category="inline-link-macro-rx"></block>。</block>
   <block id="624736396a8b3a77e9c686953fd15366" category="section-title">健全性 - アップグレードウィジェット</block>
   <block id="8dbd4b3ccf50a85cd67f91386a8bb3d0" category="paragraph">強化された Risk Advisor タブと Upgrade Advisor タブでは、すべてのシステムリスクを表示し、すべてのリスクを軽減するためのアップグレードを計画する際に役立ちます。</block>
   <block id="202bdb919d7843a2b9915cfbbdc58b90" category="paragraph">推奨構成ウィジェットがダッシュボードに追加され、リモート管理のリスク、スペアドライブと障害ドライブのリスク、 HA ペアのリスクについて監視しているシステムの数が表示されます。</block>
   <block id="43c0aba84cc47baeb81702f63ea56f52" category="paragraph">クラスタを監視することで、ストレージの設置面積と関連コストを削減できます。これらのデータは、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 IDR が有効になっていないデータの 4 つのカテゴリに分類されています。</block>
   <block id="9d66e07285d95331a9e3c8ef9b211743" category="section-title">簡体字中国語および日本語でのローカライズ</block>
-  <block id="1c5712641a932654698398b48cdc067b" category="paragraph">Active IQ Digital Advisorは、中国語、英語、日本語の 3 言語に対応しています。</block>
   <block id="273c6172eab8f123977db3341f450022" category="paragraph">Cluster Viewer レポートを生成またはスケジュールして、システムの物理構成と論理構成の詳細情報を表示できます。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
   <block id="ff0ca88c2de09857272e1e64c6d20635" category="section-title">2020 年 10 月 15 日</block>
-  <block id="6d588ba57b36a25f837d3883ad145dcc" category="paragraph">Active IQ 健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューを実施できます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
   <block id="6d842379317d540dc2fdadff80691eac" category="inline-link-macro">設定のドリフトテンプレートを追加する方法について説明します</block>
   <block id="a3ed0d9c8cd0f99576d01a2e583bb3ce" category="paragraph">この機能を使用すると、システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出できます。 <block ref="85835a3294f4672a256d2580bd36ed95" category="inline-link-macro-rx"></block>。</block>
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="section-title">AutoSupport</block>
@@ -537,12 +487,10 @@
   <block id="07804c57460fb69b448ea03e4f7e4a5b" category="paragraph">パフォーマンスグラフが強化され、ストレージシステムのクラスタパフォーマンスを評価できるようになりました。同じ画面でノードタブとクラスタタブの間を移動および切り替えできます。</block>
   <block id="f67b3b7c63db378874cf3c9f28add752" category="paragraph">Storage Efficiency ウィジェットが強化され、クラスタレベルでストレージ効率と削減量を表示できるようになりました。同じ画面でノードタブとクラスタタブの間を移動および切り替えできます。</block>
   <block id="08f72fff0f0812bdbc9fc2474685218d" category="section-title">デフォルトのホームページを更新します</block>
-  <block id="7ae2dac2735821d57148c768b3f4759e" category="paragraph">フィードバックをお寄せいただき、 Active IQ のデフォルトのホームページ画面を更新した理由をお知らせいたします。</block>
   <block id="29fbfd86c80e15b164b8f105fd5ddd93" category="section-title">インベントリウィジェットを更新します</block>
   <block id="a392fcca4182f7d6c6748c76a6e192ac" category="paragraph">インベントリウィジェットが強化され、使いやすい日付形式、プラットフォームのサポート終了用の列、およびバージョンのサポート終了時の列が提供されるようになり、ユーザエクスペリエンスが向上しました。</block>
   <block id="5a0f42f64fb533926accae7152c26173" category="section-title">2020 年 5 月 19 日</block>
   <block id="c43f08e4b3393556316dfdcf0ac2adec" category="section-title">デフォルトのホームページを設定します</block>
-  <block id="55525d93b267e6c2f7d0012ff227fd2f" category="paragraph">Active IQ のデフォルトのホームページ画面を設定できるようになりました。Active IQ Digital Advisorまたは Active IQ クラシックに設定できます。</block>
   <block id="196bf417f670cda21f19ec3d4d3beee2" category="paragraph">AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
   <block id="5c38b1bfe8fc19ace289c4b181898cc3" category="paragraph">パフォーマンスグラフを使用して、さまざまな重要領域でストレージデバイスのパフォーマンスを評価できます。</block>
   <block id="79a857f77fa2d44ca5fa8f7eb514d82b" category="section-title">Ansible Playbook を使用した AFF および FAS ファームウェアのアップグレード</block>
@@ -551,7 +499,6 @@
   <block id="b8b301824f50a2466b05d0e265e26b92" category="paragraph">健全性スコア機能は一時的に無効になっており、スコアリングアルゴリズムを改善して全体的なエクスペリエンスを簡素化します。</block>
   <block id="1366d33389e2c07fe5eb0f36d050d4e3" category="section-title">2020 年 4 月 2 日</block>
   <block id="9a6e9ab02b089e4597f04c993e0c7c7b" category="section-title">オンボーディングの概要ビデオ</block>
-  <block id="f9b08de0f0bc72617b5e2e6555c6734c" category="paragraph">オンボーディングビデオは、 Active IQ Digital Advisorのオプションと機能をすばやく理解するのに役立ちます。</block>
   <block id="a73d4602bef933dd262bf00fe9698547" category="section-title">健康スコア</block>
   <block id="9affd4fcaf6ae8cd1f13ff85ee04639a" category="paragraph">健全性スコアを取得すると、高いリスクの数と期限切れの契約数に基づいて、インストールベースの総合スコアをお客様に提供できます。スコアは、「良い」、「普通」、「悪い」のいずれかになります。</block>
   <block id="cf64d5515732b199da1e16fc842fc5f6" category="paragraph">リスクの概要には、リスク、リスクの影響、対処方法に関する詳細情報が表示されます。</block>
@@ -561,14 +508,12 @@
   <block id="17191d00ab4a3736fa040f3b95b65558" category="paragraph">アップグレードワークフローを使用して、アップグレードの推奨事項や、ターゲットの ONTAP リリースで使用できる新機能の概要を確認できます。 <block ref="c1d3fae1f3512f66a2affe4e88cce8cf" category="inline-link-macro-rx"></block>。</block>
   <block id="c35f526b5bc5e4a0bea7fb374721a1af" category="section-title">価値ある分析情報</block>
   <block id="81ab2e271e95304e9636d948311780aa" category="inline-link-macro">今すぐご覧ください</block>
-  <block id="c9a1ec42e4cf5e34b3705012283be087" category="paragraph">Active IQ およびサポート契約を通じて得られた特典の概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 <block ref="d21ac6e6095a0c5ba338352404b3f707" category="inline-link-macro-rx"></block>。</block>
   <block id="33c22a10574cad1dbba382fa84bb9e8d" category="section-title">詳細を確認します</block>
   <block id="7fad2d7a0f06323ca7ccbbdb8a8d8128" category="paragraph">より詳細な情報を提供します。これは、データを詳細に分析し、必要に応じて集計された情報の構成を即座に把握するための強力な方法です。</block>
   <block id="2cb4ae28b8163c737793ba547c7720f7" category="section-title">容量の追加</block>
   <block id="f7296b933ffd5f3db1ad54487be159f2" category="paragraph">容量を超えているシステムや容量の 90% に近づいているシステムをプロアクティブに特定し、容量の拡張を申請できます。</block>
   <block id="01b86650af0bcf4537bb6beccd306928" category="section-title">2020 年 2 月 29 日</block>
   <block id="ab7938419e5054f4058775c5af52206b" category="section-title">強化されたユーザインターフェイス</block>
-  <block id="fef76536248e8e3697b6c54fc3c9f625" category="paragraph">最新の Active IQ Digital Advisorダッシュボードでは、パーソナライズされたエクスペリエンスを提供します。直感的な操作で、ダッシュボード、ウィジェット、画面全体をスムーズかつシームレスにナビゲーションできます。一体型のエクスペリエンスを提供します。比較、関係、傾向について説明します。さまざまなダッシュボードで提示されるデータに基づいて、重要な関係や意味のある違いを検出して検証するのに役立つ分析情報を提供します。</block>
   <block id="26816f83580825737543b7ee34f72751" category="section-title">カスタマイズ可能なダッシュボード</block>
   <block id="cd8fb73c97a7d30cae83d4fc877ecd00" category="paragraph">1 つ以上のページや画面でデータに関する重要な分析情報を提供し、システムを一目で監視できるようにします。最大 10 個のダッシュボードを作成して、ビジネス上の意思決定を効率的に行うこともできます。</block>
   <block id="aaa2e98f0455022c0297b0af6b83eef1" category="paragraph"><block ref="f8067c30e51c031bbe2e9d7c7ba78ef1" category="inline-link-macro-rx"></block>。</block>
@@ -592,7 +537,6 @@
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">余裕期間ワークスペース</block>
   <block id="fef5c7747fd3b7d85ff39f7b27d6f02f" category="list-text"><block ref="fef5c7747fd3b7d85ff39f7b27d6f02f" category="inline-link-macro-rx"></block></block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">mailto ： ng-active-iq-feedback@netapp.com [ 電子メール ]</block>
-  <block id="4a5ad5e572656060b0c08a811a08e951" category="list-text">Active IQ Digital Advisor のサポートボタンをクリックして、サポートとフィードバックを受けてください。</block>
   <block id="989ffda8482c36243642e39d9d8e50ff" category="summary">AFF および FAS ファームウェアを更新する方法について説明します。</block>
   <block id="439d63cd3905d44125be50793bdd3ab5" category="doc">AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします</block>
   <block id="6032e7db579fa00df8e3062fcbc04a91" category="paragraph">特定されたリスクを軽減し、ストレージシステムを最新の状態に保つには、 Ansible を使用して AFF および FAS のファームウェアを更新する必要があります。</block>
@@ -662,11 +606,6 @@
   <block id="a0131598041c59b5aec9b6bdcb8a9431" category="list-text">リスク履歴 * グラフで、リスク履歴を表示するカテゴリをクリックします。</block>
   <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">色付きのバーの上にカーソルを置くと、各カテゴリのリスクの数に関する情報が表示されます。それぞれのリスクカテゴリをクリックすると、情報がリスク情報 * テーブルに表示されます。</block>
   <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">Excel シートにリスクの概要をダウンロードすることもできます。</block>
-  <block id="5aa601140b131288c890a0936edb134f" category="summary">Active IQ Digital Advisorにログインするための情報を提供します。</block>
-  <block id="80daf0cf7335c791f0046301e2d3a526" category="doc">Active IQ Digital Advisor にログインします</block>
-  <block id="ed76f0e3d945943c5fae33190defb3b0" category="paragraph">Active IQ Digital Advisorにログインするには、NetApp Support Siteの有効なクレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします <block ref="967ddad47d4311162e2dc8cf03423cdc" category="inline-link-macro-rx"></block>。</block>
-  <block id="dc805bf9b905c9a6974558611f5c99b3" category="list-text">をクリックします <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-macro-rx"></block> Active IQ Digital Advisorにアクセスするには、</block>
-  <block id="1bb03b210e480674a2a9700b06bb8d83" category="paragraph">Active IQ Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後は、 Active IQ Digital Advisorでシステムを検索したり表示したりすることはできません。</block>
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">ユーザー名とパスワードを入力し、 * サインイン * をクリックします。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">ダッシュボードに監視リストを追加するための情報を提供します。</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">監視リストを作成します</block>
@@ -690,9 +629,6 @@
   <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">* テクニカルケース * ：選択可能な期間にわたって、ケースタイプおよびオープンまたはクローズステータス別に、テクニカルケースの履歴を詳細に表示します。ケースグループにドリルダウンしたり、でケースの詳細を確認したりできます <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> またはその他のケースポータル。</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">API サービス機能の概要を示します。</block>
   <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">API サービスを理解する</block>
-  <block id="b07b959de8b68ea30367c1272aa98387" category="paragraph">Active IQ API サービスでは、自動化を使用してワークフローを効率化します。API サービスは、 20 以上の異なるサービス領域にグループ化された 100 を超える API エンドポイントを記述した * API カタログ * を提供します。これらの API はネットアップのお客様が利用でき、システム情報、ストレージ効率、パフォーマンス、健常性、アップグレードなど、さまざまな目的に利用できます。</block>
-  <block id="cf11cff49bbf6af885124e9c4fcb8614" category="paragraph">API は、プログラムによって Active IQ Digital Advisor にアクセスし、コンピューティング環境にデータを戻すことができるシンプルなコードを記述できるインターフェイスです。Active IQ Digital Advisorに毎日連絡し、関心のある分野の最新データを返すような方法でコードを記述することができます。その後、このデータを使用してチケット処理システムにデータを入力したり、独自のダッシュボード、 Web ページ、レポートを作成したりできます。Active IQ API カタログには、コードサンプルとファシリティの両方が含まれており、ブラウザで API を試してください。</block>
-  <block id="93e254cb92821cbfca6ca1aabf156a0e" category="paragraph">API による自動化は、毎日または毎週のタスクに効率性と正確性を追加する優れた方法です。リソースが解放され、より複雑なアクティビティの実行や新しいワークフローの自動化が可能になります。たとえば、修正が必要なシステムヘルスリスクがある場合、少なくとも Active IQ Digital Advisorからのそれらの項目の引き出しとチケットシステムへのプッシュを自動化できます。</block>
   <block id="272eb6d717938719a6643dde54a455f1" category="section-title">API カタログ</block>
   <block id="609b94093c96779bd697e437a237dada" category="paragraph">ページ上部の切り替えボタンを使用すると、 2 つのモードを切り替えてカタログを表示できます。コードビューでは、必要な入力パラメータ、戻りデータの内容と形式、およびコードサンプルに焦点を当てて、ユーザがコードを適切に設定し始めるようにします。Experiment ビューでは、メインの API Services ページから取得した生成されたトークンを使用して、ブラウザで API を「試してみる」ことができます。</block>
   <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">どちらのビューでも、左側のナビゲーションペインを使用して、使用可能な項目を参照できます。項目はサービスごとにアルファベット順に分類されています。特定のサービス内で、見出しを展開すると個々の API エンドポイントが表示されます。サービスヘッダーまたは API エンドポイントをクリックすると、中央のペインにあるカタログの該当するセクションに移動します。</block>
@@ -704,7 +640,6 @@
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">[* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">[*Register] をクリックします。</block>
   <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">承認フォームに必要事項を入力し、 [*Submit*] をクリックします。</block>
-  <block id="b30b3bbfc415b638b24e6565c44b8b35" category="paragraph">アクティブ化は自動的に行われ、瞬時に行われます。Active IQ API の使用が許可されたら、プログラムによる API 呼び出しに使用するトークンを生成できます。これらのトークンを使用して、 API カタログ内から「試してみよう」を実行することもできます。プログラムによって取得されたトークンは、常にアクセストークンとリフレッシュトークンの 2 つのセットで構成されます。アクセストークンは、すべての API を正常に使用するために渡される必要があります（ただし、リフレッシュトークンを使用すると、プログラムによって新しいトークンセットを取得できます）。</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">[Main API Services] ページで、 [Generate Token] をクリックしてアクセストークンを表示およびダウンロードし、トークンを更新して API を呼び出します。</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">ポータルでは、 1 つまたは両方のトークンを複数の方法でセットに保存できます。クリップボードにコピーしたり、テキストファイルとしてダウンロードしたり、プレーンテキストで表示したりすることができます。</block>
   <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは生成後 1 時間有効期限が切れ、更新トークンは 7 日ごとに再生成され、アプリケーションにインストールされる必要があります。90 日が経過したら、手動でログインし、新しいアクセストークンと更新トークンを取得する必要があります。</block>
@@ -720,7 +655,6 @@
   <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
-  <block id="df2d4059ef2614c57676ddbb81080026" category="summary">Active IQ の詳細については、を参照してください。</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">ネットアップコミュニティ</block>
   <block id="1881e7a42b09973c0262936d8c6638d6" category="list-text"><block ref="1881e7a42b09973c0262936d8c6638d6" category="inline-link-macro-rx"></block></block>
   <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">ドキュメントに関するリソース</block>
@@ -729,14 +663,6 @@
   <block id="0c653ba2b8e3812b4f58b7bef8777e11" category="list-text"><block ref="0c653ba2b8e3812b4f58b7bef8777e11" category="inline-link-macro-rx"></block></block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport と AutoSupport オンデマンド</block>
   <block id="c60726371723b7c1a53a2242c4905f14" category="list-text"><block ref="c60726371723b7c1a53a2242c4905f14" category="inline-link-macro-rx"></block></block>
-  <block id="5089613f649d2296a75191884c2e8f61" category="summary">Active IQ Digital Advisorのワークフローを理解し、使用を開始するのに役立ちます。</block>
-  <block id="487b50c0db900755e8510fd1c1223213" category="doc">Active IQ Digital Advisorのクイックスタート</block>
-  <block id="bb79a2831a7315640da7e030108a25cf" category="paragraph">Active IQ Digital Advisorは、タスクをより効果的に実行できるように強化され、再設計されました。ユーザインターフェイスは、目的の目標を達成するためのガイドとして開発されました。</block>
-  <block id="1ec16ea135ce0198f1162d8dd003bedc" category="paragraph">次の図を参考に、 Active IQ Digital Advisorのワークフローを理解してください。</block>
-  <block id="1833a5853550761fe8f7b2b34ae6e094" category="inline-image-macro">Active IQ Digital Advisorのワークフロー</block>
-  <block id="12e8d479cd61a8f66e8010e4a3a9135f" category="paragraph"><block ref="12e8d479cd61a8f66e8010e4a3a9135f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f66597d000b1714447e39d38381d717f" category="paragraph">Active IQ Digital Advisorを使い始めるには、次のビデオをご覧ください。</block>
-  <block id="536f3538dd1bcb560b5131c42d2fd745" category="paragraph">すべての Active IQ Digital Advisorウィジェットは、すべてのプラットフォームでサポートされているわけではありませんActive IQ Digital Advisorはお使いのストレージシステムのプラットフォームを特定し、ストレージシステムで実行できる一連のタスクのみを表示します。</block>
   <block id="6fda8feb3296b57c0c20a9ab7542ac2a" category="paragraph">ストレージシステムでサポートされるウィジェットについては、次の点に注意してください。</block>
   <block id="fa0a9488678326eeee7398751bbe2d01" category="cell">* ウィジェット *</block>
   <block id="ca4ae4faff37f22c0ffe6a214e8a4b08" category="cell">* お客様 *</block>
@@ -761,12 +687,8 @@
   <block id="6f4abdbff187f79e2ea1ac06a9e104b5" category="list-text">Data ONTAP 7-Mode ストレージシステムの場合のみ （ 7-Mode を実行している Data ONTAP ストレージシステムがまもなく終了します サポート寿命）</block>
   <block id="e10f6958064ae5f36e8b132d4142e626" category="list-text">パフォーマンスチャート</block>
   <block id="2a6091be36acbf3db3bd34443d143abf" category="list-text">Upgrade Advisor では、 9.0 より前の clustered ONTAP のアップグレードプランはサポートされません。</block>
-  <block id="7e4e0b857c6e143cfb082c8bb0ab61cd" category="section-title">監視リストの編集には 60 分かかる場合があります Active IQ デジタルアドバイザ</block>
-  <block id="ae68b6ce5c029662d6b5aaeadce82376" category="paragraph">監視リストを編集しても、 Active IQ デジタルアドバイザの情報はすぐには更新されません。変更が Active IQ デジタルアドバイザに反映されるまでに、最大 60 分かかる場合があります。</block>
   <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">レポートのスケジュール設定中に空のレポートが表示されます</block>
   <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">スケジュールされたレポートは、 SupportEdge Advisor または SupportEdge Expert サポート契約がある場合にのみ使用できます。システムが SupportEdge Advisor または SupportEdge Expert サポート契約を締結していない場合は、レポートのスケジュール設定中に空白のレポートが表示されることがあります。</block>
-  <block id="ebb3292114a6a69609c0f8875098f714" category="section-title">承認済みのリスクと未確認のリスクがActive IQ デジタルアドバイザに反映されるまでに60分かかる場合があります</block>
-  <block id="7264c3b35813062888fb1306b7ec8b7b" category="paragraph">承認済みおよび承認済みのリスクのステータスは、Active IQ デジタルアドバイザにすぐには反映されません。変更内容がActive IQ デジタルアドバイザーおよび健全性レポートに反映されるまでに最大60分かかる場合があります。</block>
   <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">テンプレートを管理するための情報を提供します。</block>
   <block id="50265178fa957fba00e89ee31583eda9" category="doc">テンプレートを管理します</block>
   <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">テンプレートのクローン作成、テンプレートの共有、既存のテンプレートの詳細の編集、テンプレートの削除を行うことができます。</block>
@@ -820,10 +742,7 @@
   <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">ウィジェットに表示されているシステム数をクリックすると、 * Upgrade Advisor * タブが表示されます。</block>
   <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">リスクアドバイザ * タブで、リスクのリストとその重大度レベルを表示します。これは、アップグレードにより緩和されます。</block>
   <block id="281921503952801e23be5489728f4728" category="list-text">[Generate Upgrade Plan] をクリックして、 * Upgrade Advisor * に移動します。</block>
-  <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">Active IQ Digital Advisorで使用される主な用語について説明します。</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">主な概念</block>
-  <block id="e88ec3f6fa36ea31fdc1642a2265daee" category="paragraph">Active IQ デジタルアドバイザの使用を開始するにあたっては、 Active IQ デジタルアドバイザ全体に表示される基本的な用語を理解しておくことが重要です。</block>
-  <block id="d92bf3a3e254ba5152f5693f2c3551e3" category="list-text">* 監視リスト： * すでに選択されている Active IQ Digital Advisor内のシステムに柔軟にアクセスできます。監視リストを使用すると、 1 つ以上のお客様のシステムを追加できます。</block>
   <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* ウェルネスダッシュボード： * ウォッチリスト内のシステムの全体的なステータスが表示されます。</block>
   <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">* ウィジェット： * システムの状態を簡単にまとめたダッシュボードに、小規模なアプリケーションを表示します。</block>
   <block id="609ab9f49962ff004a5b2c4dd4ad0a3d" category="list-text">* リスク： * 対応する問題があるシステムのリストが表示されます。重大度レベルは次のとおりです。</block>
@@ -852,7 +771,6 @@
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">* リスクを承認（ Ack ）： * 影響を受けたリスクとシステムを承認できます。これらのリスクを承認し、リスクを軽減するために実行できる操作を把握しておくことができます。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">* リスクの確認応答を取り消し（確認応答を取り消し）： * 承認されたリスクとシステムの確認応答を取り消すことができます。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">* 修正： * Active IQ United Manager （ UM ） 9.7 以降を使用してシステムに対するリスクを修正。このボタンをクリックして UM を起動し、リスクを軽減する手順を実行します。</block>
-  <block id="92a113ae9f19ea88db4e78b8c397339e" category="list-text">* インベントリウィジェット： * 所有している合計システムのロールアップが表示されます。これには、 Active IQ 対応製品と非対応製品の両方が含まれます。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">* レポートを生成： * 選択したウォッチリストのレポートを生成し、最大 5 名の受信者にレポートを電子メールで送信します。</block>
   <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">* 計画ウィジェット： * 更新が必要な容量追加、ソフトウェア、ハードウェアに関する情報が表示されます。</block>
   <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">* 容量の追加：容量の上限を超えている、または 90% に近づいているシステムや、容量を超えている、または 70% に近づいているグリッドサイトを特定します。ストレージシステムの容量を拡張する要求を発行できます。</block>
@@ -864,15 +782,12 @@
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">* パフォーマンスグラフ： * パフォーマンスデータのグラフ形式を表示して、ストレージデバイスのパフォーマンスを分析できます。選択したノードの ONTAP クラスタの詳細なパフォーマンスグラフを表示できます。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* 価値ある分析ウィジェット：サポートケースの数、保留中のソフトウェアアップグレード、 Storage Efficiency による削減量、軽減されたリスクなどに関する情報を表示します。また、ウェルネス属性からのリスク通知も積極的にリストされます。</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">* AutoSupport ： * AutoSupport インスタンスの概要または詳細を表示できます。詳細には、システムの詳細、問題の考えられる原因、推奨される対処方法などが含まれます。</block>
-  <block id="f58148b36d284264c85f69fb927477ef" category="paragraph">AutoSupport 機能にアクセスするには、 Active IQ デジタルアドバイザにログインし、クラスタまたはホスト名を検索します。AutoSupport オプションは左側のペインで使用できます。</block>
-  <block id="60765e03124dbe237199057ad89d6f43" category="list-text">* クイックリンク： * Active IQ Digital Advisorを使用して起動できるアプリケーションのリストを提供します。</block>
   <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">* Cluster Viewer ： * を使用すると、物理構成と論理構成の詳細情報を確認できます。これらの詳細情報は、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する情報を示すスタック図、およびケーブルの可視化など、複数のタブにまたがるいくつかのわかりやすい表に記載されています。SVG 形式のケーブル視覚エフェクトグラフィックをダウンロードすることもできます。</block>
   <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">Cluster Viewer 機能は、 E シリーズシステムではサポートされません。</block>
   <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">* API サービス： * 関心のあるデータを抽出し、会社のワークフローに直接統合できます。</block>
   <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">* AutoSupport アップロード： ONTAP および E シリーズシステムの不具合や問題を分析できます。問題のレビューと修正は、サポートサイトの担当者が手動で行います。</block>
   <block id="37adb256aff16968048142b85e04d7cc" category="list-text">* システム・ファームウェア： ONTAP の各メジャー・バージョンおよびパッチ・バージョンとともに出荷されたシステム・ファームウェアに関する情報を表示できます。</block>
   <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">* 検索： * 顧客名、シリアル番号、クラスタ、サイト名、グループ名、ホスト名など、さまざまなカテゴリに基づいてシステムを検索できます。</block>
-  <block id="0a51f957e738efd6c9df7534834bede6" category="list-text">* お客様： * お客様のインストールベースを表示および管理できます。お客様ダッシュボードは、 Active IQ の中央ポータルです。</block>
   <block id="18679057e5312924c976a6bd4b05d9ed" category="list-text">* クラスタ： * ONTAP クラスタに関する情報を提供します。ダッシュボードには、健常性、容量、 Storage Efficiency 、パフォーマンスに関する分析情報も統合されています。</block>
   <block id="ad2084b929b7ea214a5005875f3f854d" category="list-text">* シリアル番号： * お客様に割り当てられているシリアル番号に関する情報を提供します。</block>
   <block id="33ff2e9459330445a2f8efc828105eb4" category="summary">ドリフトタイムラインレポートを生成するための情報を提供します。</block>
@@ -883,8 +798,6 @@
   <block id="0ee9ccb81e2b9003939ac6aa09488241" category="list-text"><block ref="ab5a1cc12fe7d947d0930f0a2ef72091" category="inline-link-macro-rx"></block>。</block>
   <block id="5e9c60352a0afc7b5a85da95eb674bae" category="summary">AutoSupport の概要を示します。</block>
   <block id="fef2278ec58d443914c7d16d5c90ecc3" category="paragraph">AutoSupport は、システムの健常性をプロアクティブに監視し、設定、ステータス、パフォーマンス、およびシステムイベントのデータをネットアップに自動的に送信する計測メカニズムです。</block>
-  <block id="24b2d71bf7ffd73507bd643c18529301" category="paragraph">このデータは、ネットアップテクニカルサポートが問題の診断と解決にかかる時間を短縮するために使用されます。また、 Active IQ が潜在的な問題をプロアクティブに検出して回避するために使用します。また、社内のサポート部門やサポートパートナーにも送信できます。</block>
-  <block id="beb3c900abcdebfe6fb8889f05e352f2" category="admonition">Active IQ は、AutoSupport データが60日以内に古くなったシステムのAutoSupport 関連データのみを表示します。</block>
   <block id="e66de45ccd9a8afefe101940b4da6485" category="inline-link-macro">AutoSupport をセットアップする</block>
   <block id="f3bfa02908c2ab879d33330f57dce830" category="paragraph">ONTAP システムでは、ストレージシステムの初回設定時に、 AutoSupport がデフォルトで有効になります。お勧めします <block ref="54fdd8b22a63e736e8b214bc3b8526e0" category="inline-link-macro-rx"></block> ONTAP システムで、テクニカルサポートおよび社内のサポート部門に AutoSupport 情報を送信する方法を制御します。</block>
   <block id="1bbdc300c5fbfb2d1eb6e80bff986bc4" category="paragraph">AutoSupport を有効にしたくない場合は、 AutoSupport のアップロード機能を使用して AutoSupport データを手動でアップロードし、ストレージエコシステムに関する推奨事項や分析情報を入手できます。</block>
@@ -906,12 +819,10 @@
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">* 計画 * ウィジェットは、容量の使用率が 90% を超えているか、容量の 90% に近づいている容量要件を特定し、期限切れになったソフトウェアやハードウェア、または今後 6 カ月以内に期限切れに近づいているハードウェアを特定するのに役立ちます。ストレージシステムの容量の拡張やハードウェアおよびソフトウェアの更新を要求することができます。</block>
   <block id="cc035831ceccd9eaf04a71fd720c7f1f" category="summary">Cloud Insights の仮想マシンに関する情報を提供します</block>
   <block id="d152c939b222bcd3e796ea901ac07554" category="doc">Cloud Insights と統合して仮想マシンの詳細を表示</block>
-  <block id="bad5d4e303a8943f6791b611707e97f2" category="paragraph">Active IQ がCloud Insights Basicバージョンと統合され、お客様にフルスタックのインベントリと相互運用性チェックを提供できるようになりました。</block>
   <block id="7988a3af08a9ab5c3313f24277fd8cdb" category="paragraph">この統合の利点は次のとおりです。</block>
   <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">ONTAP のSaaS監視が簡易化されました</block>
   <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">VMwareのフルスタック監視機能を可視化</block>
   <block id="c1541ad2124531ef89e365336511a23e" category="list-text">相互運用性チェックを自動化し、ONTAP のアップグレード計画を支援することで、お客様の生産性を向上できます。これにより、ONTAP のアップグレードがスムーズになり、ホストとの互換性に問題が生じるリスクが軽減されます。</block>
-  <block id="8c0f9ce9681dd5179f5451c71f8f6793" category="admonition">この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびActive IQ アップグレード契約でのみ使用できます。</block>
   <block id="cf14d774d8d0c6d9907931e44af83d21" category="list-text">[* Inventory *（インベントリ*）]ウィジェットで、[* Virtual Machines *（仮想マシン*）]をクリックして、Cloud Insights で使用可能なデータを表示します。</block>
   <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">[仮想マシンの概要*]タブをクリックします。</block>
   <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">[ESXホストの数]をクリックして、ホストに関する情報を表示します。</block>
@@ -926,8 +837,6 @@
   <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">次のビデオでは、 Ansible Playbook を生成して実行することで、構成の違いを修正できます。</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">ダッシュボード、監視リスト、およびウィジェットに関する情報が表示されます。</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">監視リストがわかります</block>
-  <block id="11ede7bd0ace739f3b91781a9ab554d5" category="paragraph">監視リストは、 Active IQ デジタルアドバイザ内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは 50 個まで作成でき、各監視リストにはカテゴリごとに最大 15 、 000 個のシステム、シリアル番号ごとに最大 500 個のシステムを含めることができます。</block>
-  <block id="84f698fa2ff5c75d0cfb42c5093b40e1" category="paragraph">Active IQ デジタルアドバイザに初めてアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、 StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステム ID 。</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">また、カードに適用される色についても注意する必要があります。色は、リスクの重大度とタイプを示します。</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">システムのサポート契約を更新する方法について説明します。</block>
   <block id="fba041f597391cccf20df624e451614c" category="doc">サポート契約の更新</block>
@@ -960,7 +869,6 @@
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">ファイル名は Ansible Playbook で自動的に検出されます。</block>
   <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">サポートサービスのアップグレードに関する情報を提供します。</block>
   <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">サポートサービスをアップグレードします</block>
-  <block id="d6a2c3315eaa87effd365a47d6dfb92b" category="paragraph">Active IQ デジタルアドバイザのその他の機能にアクセスするには、サポートサービスへのアップグレードを購入することができます。</block>
   <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">現在のサポートサービスをアップグレードして、推奨されるプラクティスと修正、 Ansible プレイブックによるアップグレードの自動化、実用的なレポートとレビュー、カスタマイズされたサポートなどによって、インストールベースを最適化できます。アップグレードは、サポート契約を更新したとき、またはシステム（ノード）ダッシュボードから他のタイミングで購入できます。</block>
   <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">AIQ のアップグレードは、現在 SupportEdge Premium または SupportEdge セキュアのサポートサービスを使用している場合にのみ選択できます。</block>
   <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">[* Inventory * （インベントリ * ） ] ウィジェットの横にある [* View All Systems （すべてのシステムを表示） ] をクリック</block>
@@ -975,8 +883,6 @@
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。</block>
   <block id="f7e6c88265534036ac8e0f442a755875" category="doc">セキュリティの脆弱性を検出します</block>
   <block id="d5d17f408c363c187667642f4d2ee597" category="paragraph">ネットアップのセキュリティサイトは、ネットアップの製品セキュリティに関する情報源です。 <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
-  <block id="d07de6c78533ed3ecc00b46776283804" category="paragraph">Active IQ では、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の * およびサポート資格のある製品のセキュリティ問題を検出します。Active IQ がリスクを検出できるように、製品のテレメトリデータを AutoSupport 経由でネットアップに送信する必要があります。</block>
-  <block id="ac9e6dffc41619c8aed4c566d44168e4" category="paragraph">Active IQ の対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">セキュリティの脆弱性ウィジェット</block>
   <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">セキュリティーの脆弱性 * ウィジェットで * アクション * をクリックします。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
@@ -985,7 +891,6 @@
   <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">[*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">［ 修正 ］ タブ</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">ONTAP 9.7P8 以降では、リスクが修正されています。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="15464f88e743b55370c522e3e45b18a4" category="list-text">最も重要な手順は、 Active IQ デジタルアドバイザの * Upgrade Advisor * で OS のアップグレードを計画することです。</block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">ストレージシステムの健全性を確認および分析し、リスクを軽減するための情報を提供します。</block>
   <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">リスクを確認し、修正措置を手動で実施します</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">ストレージシステムの健全性属性を分析するには、関連する操作とリスクを表示します。関連する対処方法を確認して、リスクを手動で軽減する必要があります。</block>
@@ -1045,15 +950,12 @@
   <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">トグルを * コード * 表示にスライドさせると、さまざまな言語でコードサンプルを表示できます。</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">所有しているインベントリ全体に関する情報が表示されます。</block>
   <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">インベントリの詳細を表示します</block>
-  <block id="cab23e300ec643a9fe247abd78009379" category="paragraph">* Inventory * ウィジェットには、所有する合計システムのロールアップが表示されます。これには、 Active IQ 対応製品と非対応製品の両方が含まれます。</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">選択した監視リストのレポートを生成し、レポートを最大 5 名の受信者に E メールで送信することもできます。</block>
   <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">システムの詳細を .xls 形式で表示するには、 * Inventory * レポートをダウンロードします。</block>
   <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">Ansible Inventory * レポートをダウンロードして、地域またはサイトレベルの .yml および .ini 形式でシステムの詳細を確認できます。</block>
   <block id="cf9a05044c598886b8421db3045b9edd" category="paragraph">Ansible のインベントリファイルは、カスタマイズされた Ansible Playbook ファイルと併用し、インフラ構成を変更することができます。</block>
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">十分な情報に基づいて決定を下すことができる推奨事項を提供します。</block>
   <block id="5649476905365d651ff75a651e4e79a8" category="doc">クラウドの推奨事項に基づいて、十分な情報に基づいた意思</block>
-  <block id="786f97e3b85dcf5cda7df9f506b9e37f" category="paragraph">Active IQ では、システムを定期的に分析し、システムのパフォーマンス、効率、健常性を改善するための推奨事項を提供します。</block>
-  <block id="afec60d9807859052bf26fac6dd60746" category="admonition">Active IQ で推奨事項を実装するための画面が表示されます。</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">データ移行</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">ストレージシステム内で使用可能なさまざまなタイプのワークロードに関する情報を提供し、クラウドに対応しているワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。</block>
   <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">Cloud Volumes ONTAP （CVO）とCloud Volumes Service （CVS）への移行については、次の基準を満たすボリュームが推奨されます。</block>
@@ -1064,7 +966,6 @@
   <block id="a6d684c1e9500a6c9c813745e8e2c394" category="list-text">サポート契約は6カ月以内に終了します</block>
   <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">左側のペインで、*クラウドの推奨事項*をクリックします。</block>
   <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">[* Migration *（移行*）]ペインで任意のリンクをクリックします。</block>
-  <block id="ddf979002bc59fc32f03076418804262" category="list-text">*クラウドに移行*をクリックして、* Cloud Manager *を起動します。</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="section-title">階層化</block>
   <block id="02c463794e84ded5d1c10c4e83bcc812" category="paragraph">アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化されたデータ、監視対象外のデータに関する情報が表示されます。コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
   <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">Inactive Data Reporting （ IDR ）を有効にして、 Ansible Playbook ファイルを含む zip ファイルを生成することができます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
@@ -1073,7 +974,6 @@
   <block id="e59435b98864e38b0a5fd790ad3f9213" category="list-text">アクセス頻度の低いデータが50%を超えています</block>
   <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">アグリゲート容量が50%を超えています</block>
   <block id="c052aa26952758956923ba904ca5f96a" category="list-text">「*階層化*」パネルのいずれかのリンクをクリックします。</block>
-  <block id="27c212bb42a38db76960ac460b46ac3d" category="list-text">[Tier Data](ティアデータ)をクリックして、*Cloud Manager*を起動します。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">FabricPool のベストプラクティス</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">FabricPool の詳細については、を参照してください <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>。</block>
   <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">バックアップとアーカイブ</block>
@@ -1081,20 +981,13 @@
   <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">クラウドへのバックアップには、次の基準を満たすボリュームが推奨されます。</block>
   <block id="58fd2779462a85717972aef01a3e851e" category="list-text">ソースボリュームとデスティネーションシステム、およびSnapVault バックアップを含むボリュームは除外されます。</block>
   <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">[* Backup &amp; Archive]ペインで任意のリンクをクリックします。</block>
-  <block id="d1077a4290f7d361380bac5612edd515" category="list-text">[* Backup to Cloud]をクリックして、* Cloud Manager *を起動します。</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="section-title">レプリケーション</block>
   <block id="a1ca393b9475ac14fc86fe05bb65fa30" category="paragraph">災害発生時にクラウドにレプリケートする必要があるデータに関する情報を提供します。</block>
   <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">クラウドへのレプリケーションには、次の基準を満たすボリュームが推奨されます。</block>
   <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirrorソースボリュームは除外されます</block>
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirrorデスティネーションボリューム（ボリュームタイプLSおよびDP）は除外されます</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">[* Disaster Recovery]ペインで任意のリンクをクリックします。</block>
-  <block id="a70fb77774e64282c4a92fa8563e4b75" category="list-text">[* Replicate to Cloud]をクリックして、* Cloud Manager *を起動します。</block>
-  <block id="c6483c09e97ee0fc310ecd3048002f04" category="summary">Active IQ Digital Advisorは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。Active IQ のクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用します。これらの分析情報と AutoSupport テレメトリ機能や My AutoSupport 機能を組み合わせることで、卓越した分析サービスの高度なセットを提供します。</block>
-  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="doc">Active IQ デジタルアドバイザのドキュメント</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。</block>
-  <block id="0661b006f375f8cf574047a84d3831c9" category="doc">Active IQ の機能を理解する</block>
-  <block id="60f840b3ee58d04f9e443013fa9e3b28" category="paragraph">Active IQ デジタルアドバイザを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、および監視リストレベルの価値ある分析情報を確認できます。</block>
-  <block id="503f32635f00a2f9e7855f2515e0b2a6" category="paragraph">Active IQ デジタルアドバイザの機能の一部を以下に示します。</block>
   <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">複数の監視リストを表示し、実用的で有用な情報を一目で確認できます</block>
   <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">ストレージシステムにもたらされるすべてのリスクに関する分析情報を入手できます リスクを軽減するためのアクションも含まれます</block>
   <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">ストレージシステムをアップグレードします</block>
@@ -1110,8 +1003,6 @@
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">ユーザが使用できるさまざまなタイプのレポートに関する情報が表示されます。</block>
   <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">レポートのタイプ</block>
-  <block id="94e352af51d87c5a98b75dabcdaad93a" category="paragraph">Active IQ には、システムの健常性や処理の状況を監視および管理するためのさまざまなレポートオプションが用意されています。</block>
-  <block id="4580a4b84f306c8ee589e863f752ac16" category="paragraph">Active IQ で使用できるレポートのタイプを次に示します。</block>
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">レポート名（ Report Name ）</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">未解決および確認済みのリスク、リスクの詳細、対処方法、影響を受けるシステムに関する情報が表示されます。</block>
@@ -1172,12 +1063,10 @@
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">SP / BMC ファームウェアのインストールを検証しています</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">サービスプロセッサ / BMC ファームウェアの更新の Ansible Playbook は有効になっており、コントローラへの最新の SP/BMC ファームウェアのインストールを確認するオプションがあります。検証が完了すると（更新に最長で 2 時間かかる場合があります）、 Ansible Playbook は、 SP / BMC コンソールに接続することで、内部スイッチファームウェアの更新版を適用します。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">SP / BMC ファームウェアおよび内部スイッチファームウェアのインストールに関する障害と成功の情報は、 Ansible Playbook の実行後に通知されます。SP / BMC ファームウェア / 内部スイッチファームウェアのインストールが失敗した場合は、 Ansible Playbook に記載されている手順に従ってください。</block>
-  <block id="0056e708efc93210499292c833fd6580" category="sidebar">Active IQ デジタルアドバイザドキュメント</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">クイックスタート</block>
-  <block id="0a68dc74d82b0caf2bae22d33594834f" category="sidebar">Active IQ の主要な概念</block>
   <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">AutoSupport を理解する</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">監視リストをプロビジョニング</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
@@ -1207,21 +1096,12 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">API にアクセスするためのトークンを生成します</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">よくある質問</block>
-  <block id="92073a6013a22635da417c415cea3970" category="sidebar">Active IQ の詳細をご覧ください</block>
-  <block id="80f522a133d5c0697a1422b8cba4f439" category="sidebar">Active IQ のクイックスタート</block>
-  <block id="3903992d449534623e64de4fb24bc7bf" category="sidebar">Active IQ を使用します</block>
   <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">リスクを確認して対処</block>
   <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">設定の違いを検出</block>
   <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">重要なセキュリティリスクを修正</block>
-  <block id="d30be8ed596e28125eabf3aaa9088577" category="sidebar">Active IQ を使用して分析します</block>
   <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">ONTAP のアップグレードに関する推奨事項を確認する</block>
   <block id="29cb371773858a73b7aca64ff6f208f4" category="sidebar">NetApp Keystone フレックスサブスクリプションを使用して容量利用率を表示します</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
-  <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="sidebar">Active IQ Web ポータル</block>
-  <block id="dd4f53241a447bade15efabb4cd19ce4" category="sidebar">Active IQ ビデオ</block>
-  <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">ネットアップコミュニティ– Active IQ</block>
-  <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">Active IQ モバイルアプリケーション（ Android ）</block>
-  <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">Active IQ モバイルアプリケーション（ iOS ）</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">マルチホップアップグレード</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">一部の自動無停止アップグレード（ANDU）から隣接していないリリースへのアップグレードでは、中間リリースおよびターゲットリリースのソフトウェアイメージをインストールできます。自動アップグレードプロセスでは、バックグラウンドの中間イメージを使用してターゲットリリースへの更新を完了します。たとえば、クラスタで 9.3 を実行している場合に 9.7 にアップグレードするには、 9.5 と 9.7 の両方の ONTAP インストールパッケージをロードし、 ANDU を 9.7 に開始します。その後、 ONTAP はクラスタを 9.5 に、その後 9.7 に自動的にアップグレードします。テイクオーバー / ギブバック処理や関連するリブートが複数回行われることを想定してください。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor を使用します</block>
@@ -1230,4 +1110,137 @@
   <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">必要なアップグレードオプションを選択します。<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">アップグレードプランを生成</block>
   <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">リリースノートでは、リリースに関する詳細情報を確認することもできます。<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">* Inventory * ウィジェットには、所有する合計システムのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
+  <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Digital Advisorにログインするための情報を提供します。</block>
+  <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Digital Advisorにログインします</block>
+  <block id="37590f3349dc615946e2bde66219f592" category="paragraph">Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします <block ref="967ddad47d4311162e2dc8cf03423cdc" category="inline-link-macro-rx"></block>。</block>
+  <block id="45f615e2033fe61475056e1d49532aee" category="list-text">をクリックします <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-macro-rx"></block> Digital Advisorにアクセスします。</block>
+  <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。</block>
+  <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">このデータは、ネットアップテクニカルサポートが問題の診断と解決を高速化するために使用し、Digital Advisorが潜在的な問題をプロアクティブに検出して回避するために使用します。また、社内のサポート部門やサポートパートナーにも送信できます。</block>
+  <block id="5da64b23743d20365a812a148d09b65f" category="admonition">Digital Advisorは、AutoSupport データが60日以内のシステムについてのみAutoSupport 関連データを表示します。</block>
+  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">Digital Advisorは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。Digital Advisorのクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用し、これらの分析情報とAutoSupport Telemetry機能およびMy AutoSupport 機能を組み合わせて、卓越した分析サービスの高度なセットを提供します。</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Digital Advisorのドキュメント</block>
+  <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisorはシステムを絶えず分析し、推奨事項を提供してシステムのパフォーマンス、効率、および健全性を改善します。</block>
+  <block id="ee8a7221101a63a879e7b11a9e134817" category="admonition">Digital AdvisorがBlueXPに移動して推奨事項を実装します。</block>
+  <block id="9cac49c92865c9a3284e5600374cfa39" category="list-text">[クラウドへの移行]をクリックして、「BlueXP」を起動します。</block>
+  <block id="044be2af3d7a8e5a1f40d130d2438c9f" category="list-text">[Tier Data](階層データ)をクリックして'BlueXP*を起動します</block>
+  <block id="d47e8f11a965b60f93af502da96f983a" category="list-text">[クラウドにバックアップ]をクリックして、*BlueXP*を起動します。</block>
+  <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">[クラウドに複製]をクリックして、*BlueXP*を起動します。</block>
+  <block id="37d1c7cc9a28ed0051987a7bb5b7d027" category="summary">Digital Advisor (以前のActive IQ Digital Advisor )は'BlueXPと完全に統合されましたクラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。</block>
+  <block id="460143bcf999273db551806a244f984a" category="doc">Digital AdvisorとBlueXPの統合</block>
+  <block id="8c36f4cc3d20ca0b82973d5efc0db5f7" category="paragraph">BlueXPを使用することで、ITエキスパートとクラウドアーキテクトはハイブリッドマルチクラウドインフラを一元管理できます。必要なのは、BlueXPのDigital AdvisorにアクセスするためのNetApp Support Site （NSS）アカウントだけです。</block>
+  <block id="ef968e276f61485a7817ba225a8c20b6" category="section-title">統合の概要</block>
+  <block id="8a31c46450be3e07eb3a415a38403202" category="paragraph">2022年11月より、Digital Advisorを使用することを推奨します。BlueXPからは、以前と同じDigital Advisorインターフェイスにアクセスできます。BlueXPを使用すると、クラウドストレージ（Cloud Volumes ONTAP など）の作成と管理、ネットアップのデータサービス（クラウドバックアップなど）の利用、オンプレミスとエッジのストレージデバイスの制御が可能になります。</block>
+  <block id="1e4e863e9bb066c5ea215c0e2d8f2294" category="section-title">BlueXPのDigital Advisorにアクセスします</block>
+  <block id="e6511c2050ba50e9735ddc384cd6c266" category="paragraph">クラスタを管理するには、BlueXPからDigital Advisorにアクセスします。</block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">BlueXP</block>
+  <block id="f207a2ae57c57cda458c66d1a31abdc5" category="list-text">Web ブラウザを開き、に進みます<block ref="728980458233383868b0f55c1d2cfb83" category="inline-link-rx"></block></block>
+  <block id="3d8ba78e98400d1897334797f80e1dae" category="list-text">「* NetApp Support Site 資格情報でログイン*」を選択し、資格情報を入力します。</block>
+  <block id="7bf7a114c4d9a11615b02eb4c0feafa4" category="paragraph">以前に電子メールとパスワードを使用してBlueXPログインを作成していた場合は、代わりにそのログインオプションを使用する必要があります。</block>
+  <block id="468fcd95163fdf7aa102458d21bf0cf2" category="list-text">プロンプトが表示されたら、NetApp Support Site クレデンシャルを使用してログインします。</block>
+  <block id="f5fa28b6af542125a18f0d6aeb5096f2" category="paragraph">このログインは、手順2で完了したログインとは異なります。手順2では、BlueXPプラットフォームにログインしました。次にDigital Advisorにログインします。</block>
+  <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 結果 *</block>
+  <block id="87fb1e35365d1159833f632569b95ca4" category="paragraph">既存の監視リストと設定がすべて表示されるので、通常の場合と同様にDigital Advisorを使用できます。</block>
+  <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="section-title">BlueXPの詳細をご覧ください</block>
+  <block id="a4a905679dfffb1a3a7838893b13c23e" category="inline-link">詳細については、BlueXPのマニュアルを参照してください</block>
+  <block id="48c964ad1de807447dde351c1714184d" category="paragraph"><block ref="48c964ad1de807447dde351c1714184d" category="inline-link-rx"></block></block>
+  <block id="79017d339350abc9b4fad94b4618ddbe" category="paragraph">Digital Advisorは、Cloud Insights ベーシックバージョンと統合され、お客様に完全なスタックインベントリと相互運用性チェックを提供します。</block>
+  <block id="ed4e4f8de723a17e6e6c4047c2858152" category="admonition">この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびDigital Advisorのアップグレード契約でのみ使用できます。</block>
+  <block id="0e7d981aa2a68d23eec3e0bd5998b81a" category="paragraph">Digital Advisorには、システムの正常性と運用を監視および管理するためのさまざまなレポートオプションが用意されています。</block>
+  <block id="729ee1fe065c2a9eddbc991953f9e9ea" category="paragraph">Digital Advisorで使用できるレポートの種類は次のとおりです。</block>
+  <block id="066ec3a176aff9b4f9af4ff3ece3ded7" category="doc">Digital Advisorについてのよくある質問です</block>
+  <block id="d081980d8864e66b493d75e555fbb3e9" category="paragraph">以下の質問では、Digital Advisorに関するよくあるお問い合わせにお答えします。</block>
+  <block id="78922dd3155059d302d1fdc4e6e2d629" category="paragraph">* Digital Advisorに関するフィードバックやその他の質問はどのようにして行いますか。*</block>
+  <block id="8ddbb4960ae1ce3eafd141c7e16ad702" category="paragraph">* Digital AdvisorでStorage Efficiencyにアクセスする方法を教えてください。*</block>
+  <block id="f079f17b0940258743d34e7b771c715f" category="inline-link-macro">Digital Advisor</block>
+  <block id="72ad3932c594cc8330139ca85deb062e" category="list-text">のホームページを開きます <block ref="b14a1f08a6d5b6b71c0d3622c0d1ab6d" category="inline-link-macro-rx"></block>。</block>
+  <block id="2206003195e83e7dfa4c2c9011926729" category="paragraph">* Digital Advisorには、すべてのONTAP システムの比率が表示されますか。*</block>
+  <block id="2c66ccfb9136989ebd0b2f7794383ba0" category="paragraph">ONTAP 9.1以降を実行しているシステムの比率が表示されます。</block>
+  <block id="1d12326dce386ed19f23df20370e5e13" category="paragraph">デフォルトでは、Digital Advisor Efficiency Dashboardは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルの各ノードレベルで総削減率を計算します。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。</block>
+  <block id="32e9d50c870e81367dbe4239acf80f7a" category="paragraph">「Snapshotなし*」チェックボックスをオンにすると、Digital Advisorは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルの効率性比率（重複排除、圧縮、データコンパクション、クローンのStorage Efficiencyテクノロジによる比率）を計算します。</block>
+  <block id="b158ad6d14f96b16232682ec9719f63d" category="paragraph">* Digital Advisorでは容量はどのように計算されますか？* Digital Advisorの容量は、ルートを除くクラスタとノードについて計算されます。Snapshotコピーも含まれます</block>
+  <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*容量はDigital Advisor Base 2またはBase 10に表示されていますか？* Digital Advisorに表示されるすべての容量はBase 2（1024で除算した値）で、GiB / TiB単位で表されます。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
+  <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">新しいシステムは、SAPで追加または更新された後、Digital Advisorに反映されるまでに1日以上かかります。</block>
+  <block id="7b8ca3eb07a8240bd90e77dc0b6b4b64" category="list-text">Digital Advisorでレポートを編集することはできません。既存のレポートを削除して、新しいレポートを作成する必要があります。</block>
+  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">このレポートは、Digital Advisorに3日間保存されます。</block>
+  <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Digital Advisorに関する詳細情報を提供します。</block>
+  <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisorは、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の*およびサポート資格のある製品のセキュリティ問題を検出します。製品のテレメトリデータは、デジタルアドバイザがリスクを検出できるよう、AutoSupport 経由でネットアップに送信する必要があります。</block>
+  <block id="e4a01f7a7f6646fdbc005accd650783f" category="paragraph">Digital Advisorの対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Digital Advisorにログインします。</block>
+  <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">最も重要な手順は、Digital Advisorの* Upgrade Advisor *でOSのアップグレードを計画することです。</block>
+  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">監視リストは、Digital Advisor内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは 50 個まで作成でき、各監視リストにはカテゴリごとに最大 15 、 000 個のシステム、シリアル番号ごとに最大 500 個のシステムを含めることができます。</block>
+  <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">初めてDigital Advisorにアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステムID。</block>
+  <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Digital Advisor API Servicesは、自動化機能を使用してワークフローを効率化します。API サービスは、 20 以上の異なるサービス領域にグループ化された 100 を超える API エンドポイントを記述した * API カタログ * を提供します。これらの API はネットアップのお客様が利用でき、システム情報、ストレージ効率、パフォーマンス、健常性、アップグレードなど、さまざまな目的に利用できます。</block>
+  <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">APIは、プログラムによってDigital Advisorにアクセスし、コンピューティング環境にデータを戻すことができる簡単なコードを記述できるインターフェイスです。Digital Advisorに毎日連絡し、関心のある分野の最新データを返すような方法でコードを書くことができます。その後、このデータを使用してチケット処理システムにデータを入力したり、独自のダッシュボード、 Web ページ、レポートを作成したりできます。Digital Advisor API Catalogには、コードサンプルと機能の両方が用意されており、ブラウザでAPIを試すことができます。</block>
+  <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">API による自動化は、毎日または毎週のタスクに効率性と正確性を追加する優れた方法です。リソースが解放され、より複雑なアクティビティの実行や新しいワークフローの自動化が可能になります。たとえば、修正が必要なシステムヘルスリスクがある場合は、少なくともDigital Advisorからのそれらの項目のプルアウトを自動化し、チケットシステムにプッシュすることができます。</block>
+  <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">アクティブ化は自動的に行われ、瞬時に行われます。Digital Advisor APIの使用が許可されると、プログラムによるAPI呼び出しに使用するトークンを生成できます。これらのトークンを使用して、 API カタログ内から「試してみよう」を実行することもできます。プログラムによって取得されたトークンは、常にアクセストークンとリフレッシュトークンの 2 つのセットで構成されます。アクセストークンは、すべての API を正常に使用するために渡される必要があります（ただし、リフレッシュトークンを使用すると、プログラムによって新しいトークンセットを取得できます）。</block>
+  <block id="ea91f255c0d20a5fbac87ebc9647b943" category="paragraph">Digital Advisorにログインすると、「ランサムウェア防御*」ウィジェットで強調表示されている「アクション*」を確認できます。このウィジェットにはリスクカウントが表示されます。</block>
+  <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">容量およびストレージ効率の詳細については、を参照してください <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>。</block>
+  <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Digital Advisorの新機能</block>
+  <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Digital Advisorでは、次の機能および拡張機能が導入されました。</block>
+  <block id="ae90f5ddd6bedf0784aa3f4496ea1cad" category="section-title">2022年11月1日</block>
+  <block id="8170292c601a72e4a24d3cbac63d8070" category="section-title">Digital AdvisorとBlueXPの統合</block>
+  <block id="7dc92aa05d634ffe404fd7ad42175cf1" category="paragraph">Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 <block ref="575246a0eb7002042f4cf91d71dc2f1a" category="inline-link-macro-rx"></block>。</block>
+  <block id="f668b17ee05cd74c11dbf1d1d949072e" category="paragraph">BlueXPユーザーは、Digital Advisorの既存の機能と同様に、必要に応じて新しいタブでDigital Advisorリンクを開くことができるようになりました。</block>
+  <block id="de07e5fcc39a7c8a7ee2ef456f8e167e" category="paragraph">Digital Advisorでは、選択したEシリーズシステムの容量の詳細とパフォーマンスグラフを表示できます。</block>
+  <block id="0762a98733fb0259b2c034300821b8eb" category="list-text">Digital Advisor–Reports画面に、社内ユーザと社外ユーザ（お客様とパートナー）向けのConfidential Dataバナーを追加。</block>
+  <block id="df47487af8662ffcf5c1cb4c764b23fc" category="paragraph">NetApp Cloud Volumes ONTAP システムの容量に関する詳細をDigital Advisorで確認できます。</block>
+  <block id="c397a59d56241a37734ccf60bff818c1" category="paragraph">NetApp ONTAP ®Selectシステムの容量に関する詳細をデジタルアドバイザで確認できます。</block>
+  <block id="1bc6efb38e5452ae483607b4cb3f390b" category="section-title">Digital Advisorモバイルアプリケーション</block>
+  <block id="8782b3b7fd5ab9d892fbb6380e74d09a" category="paragraph">Digital Advisorモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。</block>
+  <block id="c5529581775c24c48ba966fe62c380ea" category="inline-link-macro">Digital Advisorモバイルアプリケーション（Android）</block>
+  <block id="d2bb1a06f3434afc8ca9c8ea68155750" category="inline-link-macro">Digital Advisorモバイルアプリケーション（iOS）</block>
+  <block id="ede5133f297fb3524e463011a05dcbc2" category="paragraph">アプリケーションをダウンロードして、詳細を確認してください。<block ref="3b3c942cfc1ba603f4c8c5e6cb260955" category="inline-link-macro-rx"></block>
+<block ref="fe0e17ac3ee3049ee306c938dd1d6b0c" category="inline-link-macro-rx"></block></block>
+  <block id="d78a9201b5a1da34052eb6d1da7c7414" category="list-text">ユーザーインタフェースが拡張され、Digital Advisorで登録した特定のサポートサービスが表示されるようになりました。</block>
+  <block id="606d45bc02a4e58356236313e91bb72f" category="paragraph">Digital Advisorに初めてアクセスする場合は、ダッシュボードの代わりにウォッチリストを作成する必要があります。また、各種の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりすることもできます。</block>
+  <block id="e07c66941c84e7feebe88312021581ff" category="paragraph">FabricPool ダッシュボードに階層データボタンが追加され、NetApp BlueXPを使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</block>
+  <block id="41f9c9dd8e599cba3a64a6e53ff343a9" category="paragraph">Digital Advisor APIを使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 <block ref="79a495fed0082d673c1047b883d4546e" category="inline-link-macro-rx"></block>。</block>
+  <block id="423dd400f697bb08eca274e1e810b26e" category="paragraph">Digital Advisorは、中国語、英語、日本語の3言語で利用できるようになりました。</block>
+  <block id="4791e1aac6a449cf242a8a6a09240ac3" category="paragraph">Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
+  <block id="7a528fe08556f70d64e31f51b17654f7" category="paragraph">これでフィードバックを送信し、Digital Advisorのデフォルトのホームページ画面を更新した理由をお知らせします。</block>
+  <block id="242af7c119838a4ad767c52325947075" category="paragraph">Digital Advisorのデフォルトのホームページ画面を設定できるようになりました。Digital AdvisorまたはClassicに設定できます。</block>
+  <block id="6a561fa96a3d1a7ca7d1a2e1d651de71" category="paragraph">オンボーディングビデオは、Digital Advisorのオプションや機能を簡単に理解するために役立ちます。</block>
+  <block id="f0e62003a241d3b1041b11bf3944673b" category="paragraph">Digital Advisorとサポート契約を通じて得られたメリットの概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 <block ref="d21ac6e6095a0c5ba338352404b3f707" category="inline-link-macro-rx"></block>。</block>
+  <block id="d6a9e7c7d5d1f7c1e1914573b3f70321" category="paragraph">最新のDigital Advisorダッシュボードでは、パーソナライズされたエクスペリエンスを提供します。直感的な操作で、ダッシュボード、ウィジェット、画面全体をスムーズかつシームレスにナビゲーションできます。一体型のエクスペリエンスを提供します。比較、関係、傾向について説明します。さまざまなダッシュボードで提示されるデータに基づいて、重要な関係や意味のある違いを検出して検証するのに役立つ分析情報を提供します。</block>
+  <block id="4bf24111ed7846edf31112cd54f977f7" category="summary">ワークフローを理解し、Digital Advisorを使い始めるのに役立ちます。</block>
+  <block id="9df05130b53153d473ac75b8468832e2" category="doc">Digital Advisorのクイックスタート</block>
+  <block id="e343dbdc5c146bf7201ffb387c076db1" category="paragraph">Digital Advisorは、タスクをより効果的に実行できるように強化され、再設計されました。ユーザインターフェイスは、目的の目標を達成するためのガイドとして開発されました。</block>
+  <block id="57a12a643f6d5e73b46f069efe90b7a2" category="paragraph">次の図を見て、Digital Advisorのワークフローを理解してください。</block>
+  <block id="905902c19ab6d4d3f9448f10df9d50f0" category="inline-image-macro">Digital Advisorワークフロー</block>
+  <block id="6772c3598d37823b8896ecdd3c1dadc1" category="paragraph"><block ref="6772c3598d37823b8896ecdd3c1dadc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="52d4996b42fe03a547cbeb424690436d" category="paragraph">Digital Advisorを使い始めるには、次のビデオをご覧ください。</block>
+  <block id="baa9525000e838978ad307d2ffa6ce17" category="paragraph">すべてのDigital Advisorウィジェットは、すべてのプラットフォームでサポートされているわけではありません。Digital Advisorはストレージシステムのプラットフォームを特定し、ストレージシステムで実行可能な一連のタスクのみを表示します。</block>
+  <block id="d429c03a130ff961e12409aee8fa2b9a" category="section-title">監視リストの編集には、Digital Advisorに反映されるまでに60分かかる場合があります</block>
+  <block id="de1371cd93c5974f25486b1d0496e7ff" category="paragraph">ウォッチリストを編集しても、Digital Advisorの情報はすぐには更新されません。変更がDigital Advisorに反映されるまでに最大60分かかる場合があります。</block>
+  <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">承認済みのリスクと未確認のリスクがDigital Advisorに反映されるまでに60分かかる場合があります</block>
+  <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">承認済みおよび承認済みのリスクのステータスは、Digital Advisorにはすぐに反映されません。変更内容がDigital Advisorと健全性レポートに反映されるまでに最大60分かかる場合があります。</block>
+  <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。</block>
+  <block id="39c8987e43727590806ec031b3dd0a86" category="summary">Digital Advisorで使用される主な用語について説明します。</block>
+  <block id="9d20c3f0e792e5776281264573b1c017" category="paragraph">Digital Advisorの使用を開始する際には、Digital Advisor全体に表示される基本的な用語を理解しておくことが重要です。</block>
+  <block id="d3ad3d0846f828c5868eb4c6ab09e928" category="list-text">*監視リスト：*すでに選択されているDigital Advisor内のシステムに柔軟にアクセスできます。監視リストを使用すると、 1 つ以上のお客様のシステムを追加できます。</block>
+  <block id="acf7d20d0268fb3265f641fbc7ac8d68" category="list-text">* インベントリウィジェット： * 所有している合計システムのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
+  <block id="ec20f764d25cf1eba2cf41562f1a4dc7" category="paragraph">AutoSupport 機能にアクセスするには、Digital Advisorにログインしてクラスタまたはホスト名を検索します。AutoSupport オプションは左側のペインで使用できます。</block>
+  <block id="56f4dbda16e117456735f4152501a126" category="list-text">*クイックリンク：* Digital Advisorを使用して起動できるアプリケーションのリストが表示されます。</block>
+  <block id="8b4015616b4ebb333b0bb005e28e4b8e" category="list-text">* お客様： * お客様のインストールベースを表示および管理できます。カスタマーダッシュボードは、Digital Advisorの中央ポータルです。</block>
+  <block id="c185e2d804ea74628fccd45ec760120b" category="paragraph">Digital Advisorにログインし、* Configuration *ウィジェットに赤いバッジが表示されます。ウィジェットをクリックするとボリュームの使用率が 98% に達し、原因が停止する可能性があることがわかります。この問題を修正するとボリュームがいっぱいになるのを回避できます。ボリュームが読み取り専用になり、アプリケーションがクラッシュして失敗する原因となります。</block>
+  <block id="f9d46621c3d43242e4a3984f6d9b49d4" category="doc">Digital Advisorの機能を理解する</block>
+  <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Digital Advisorを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要、インベントリ、計画、アップグレード、重要な分析情報を監視リストレベルで確認できます。</block>
+  <block id="4d7ba674630738cac5e8b1e2fed17854" category="paragraph">Digital Advisorの機能の一部を以下に示します。</block>
+  <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">Digital Advisorのその他の機能にアクセスするには、サポートサービスへのアップグレードを購入することができます。</block>
+  <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">Keystoneサブスクリプションサービスに登録している場合は、デジタルアドバイザダッシュボードにKeystoneサブスクリプションウィジェットを表示できます。</block>
+  <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">Digital Advisorユーザは、ONTAP コレクタとAutoSupport のどちらかを選択して、容量の使用状況に関するデータを取得できます。</block>
+  <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Digital Advisorのサポートボタンをクリックして、サポートとフィードバックを行います。</block>
+  <block id="a66a2f6647458a57d2e6fc1df3f920bf" category="paragraph">Digital Advisorにログインし、*可用性と保護*ウィジェットに赤いバッジが表示された場合は、重大なリスクを修正するための措置を講じることができます。ファームウェアの修正プログラムをインストールしていないと、一定の時間電源を入れたあとでドライブが動作しなくなる可能性があります。これを修正することで、ダウンタイムとデータ損失の両方を回避できます。</block>
+  <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Digital Advisorにログインします。</block>
+  <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisorは、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムのAnsibleスクリプトまたはプレイブックを生成します。</block>
+  <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisorのドキュメント</block>
+  <block id="87ff2175a631a03e0b15d2041aab4f9f" category="sidebar">BlueXPでクラスタを管理します</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Digital Advisorの詳細をご覧ください</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Digital Advisorを使用します</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Digital Advisorを使用して分析します</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webポータル</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisorのビデオ</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
 </blocks>

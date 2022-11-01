@@ -4,7 +4,7 @@ permalink: reference_new_activeiq.html
 keywords: 'what"s new, features, new' 
 summary: リリースの新機能に関する情報を提供します。 
 ---
-= Active IQ デジタルアドバイザの新機能
+= Digital Advisorの新機能
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,17 @@ summary: リリースの新機能に関する情報を提供します。
 
 
 [role="lead"]
-NetApp Active IQ デジタルアドバイザでは、次の機能と拡張機能が導入されました。
+Digital Advisorでは、次の機能および拡張機能が導入されました。
+
+
+
+== 2022年11月1日
+
+
+
+=== Digital AdvisorとBlueXPの統合
+
+Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 link:digital-advisor-integration-with-bluexp.html["詳細はこちら。"]。
 
 
 
@@ -177,9 +187,9 @@ Cluster Viewerに、クラスタのSnapMirror（データ保護）の概要が�
 
 
 
-=== クラウドマネージャ
+=== BlueXP
 
-Cloud Manager ユーザは、 Active IQ の既存の機能と同様に、必要に応じて新しいタブで Active IQ リンクを開くことができます。
+BlueXPユーザーは、Digital Advisorの既存の機能と同様に、必要に応じて新しいタブでDigital Advisorリンクを開くことができるようになりました。
 
 
 
@@ -209,7 +219,7 @@ Cloud Manager ユーザは、 Active IQ の既存の機能と同様に、必要�
 
 === E シリーズシステムとの統合
 
-Active IQ では、選択した E シリーズシステムの容量の詳細とパフォーマンスグラフを表示できます。
+Digital Advisorでは、選択したEシリーズシステムの容量の詳細とパフォーマンスグラフを表示できます。
 
 
 
@@ -230,7 +240,7 @@ NetApp Cloud Insights で管理および監視されているノードのスト�
 === 健全性チェックのダッシュボード
 
 * 健全性チェックタイルにアイコンが追加されました。このアイコンは、 SupportEdge Advisor および SupportEdge Expert サポートサービスを提供するシステムにのみ適用されます。この機能強化は、「ソフトウェアの通貨とファームウェアの通貨」セクション、「推奨構成」、「ベストプラクティス」の推奨ソフトウェアに適用されました。
-* Active IQ デジタルアドバイザの [ レポート ] 画面に、社内ユーザと社外（お客様とパートナー）ユーザのための機密データバナーを追加しました。
+* Digital Advisor–Reports画面に、社内ユーザと社外ユーザ（お客様とパートナー）向けのConfidential Dataバナーを追加。
 
 
 
@@ -297,7 +307,7 @@ FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアク�
 
 === 容量
 
-NetApp Cloud Volumes ONTAP システムの容量の詳細は Active IQ で確認できます。
+NetApp Cloud Volumes ONTAP システムの容量に関する詳細をDigital Advisorで確認できます。
 
 
 
@@ -353,7 +363,7 @@ NetApp Cloud Volumes ONTAP システムの容量の詳細は Active IQ で確認
 
 === 容量
 
-Active IQ では、 NetApp ONTAP ® Select システムの容量に関する詳細を確認できます。
+NetApp ONTAP ®Selectシステムの容量に関する詳細をデジタルアドバイザで確認できます。
 
 
 
@@ -387,12 +397,12 @@ Cluster Viewer の表示タブで、ケーブル接続の問題やその他の�
 
 
 
-=== Active IQ デジタルアドバイザモバイルアプリケーション
+=== Digital Advisorモバイルアプリケーション
 
-Active IQ デジタルアドバイザモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。
+Digital Advisorモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。
 
-アプリケーションをダウンロードして、詳細を確認してください。link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ デジタルアドバイザモバイルアプリケーション（ Android ）"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ デジタルアドバイザモバイルアプリケーション（ iOS ）"]
+アプリケーションをダウンロードして、詳細を確認してください。link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Digital Advisorモバイルアプリケーション（Android）"]
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Digital Advisorモバイルアプリケーション（iOS）"]
 
 
 
@@ -458,7 +468,7 @@ ONTAP のメジャーバージョンおよびパッチバージョンと一緒�
 
 === サポートサービスのアップグレード
 
-* ユーザインターフェイスが強化され、 Active IQ で登録している特定のサポートサービスが表示されるようになりました。
+* ユーザーインタフェースが拡張され、Digital Advisorで登録した特定のサポートサービスが表示されるようになりました。
 * システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 link:task_upgrade_support_offering.html["詳細をご確認ください"]。
 
 
@@ -549,7 +559,7 @@ Storage VM 内のすべてのボリュームについて、曜日、週、また
 
 === 監視リスト
 
-Active IQ デジタルアドバイザに初めてアクセスするときは、ダッシュボードの代わりにウォッチリストを作成する必要があります。また、各種の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりすることもできます。
+Digital Advisorに初めてアクセスする場合は、ダッシュボードの代わりにウォッチリストを作成する必要があります。また、各種の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりすることもできます。
 
 
 
@@ -606,7 +616,7 @@ StorageGRID ダッシュボードは、 NextGen API フレームワークを使�
 
 === FabricPool アドバイザー
 
-FabricPool ダッシュボードに階層データボタンが追加され、 NetApp Cloud Manager を使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。
+FabricPool ダッシュボードに階層データボタンが追加され、NetApp BlueXPを使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。
 
 
 
@@ -636,7 +646,7 @@ FabricPool ダッシュボードに階層データボタンが追加され、 Ne
 
 === API を使用したデータの統合
 
-Active IQ API を使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 link:concept_overview_API_service.html["詳細はこちら。"]。
+Digital Advisor APIを使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 link:concept_overview_API_service.html["詳細はこちら。"]。
 
 
 
@@ -660,7 +670,7 @@ Active IQ API を使用して、関心のあるデータを抽出し、会社の
 
 === 簡体字中国語および日本語でのローカライズ
 
-Active IQ Digital Advisorは、中国語、英語、日本語の 3 言語に対応しています。
+Digital Advisorは、中国語、英語、日本語の3言語で利用できるようになりました。
 
 
 
@@ -676,7 +686,7 @@ Cluster Viewer レポートを生成またはスケジュールして、シス�
 
 === 健全性チェックのダッシュボード
 
-Active IQ 健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューを実施できます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。 link:concept_understand_health_check_assessment_dashboard.html["詳細はこちら。"]。
+Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。 link:concept_understand_health_check_assessment_dashboard.html["詳細はこちら。"]。
 
 
 
@@ -784,7 +794,7 @@ Storage Efficiency ウィジェットが強化され、クラスタレベルで�
 
 === デフォルトのホームページを更新します
 
-フィードバックをお寄せいただき、 Active IQ のデフォルトのホームページ画面を更新した理由をお知らせいたします。
+これでフィードバックを送信し、Digital Advisorのデフォルトのホームページ画面を更新した理由をお知らせします。
 
 
 
@@ -800,7 +810,7 @@ Storage Efficiency ウィジェットが強化され、クラスタレベルで�
 
 === デフォルトのホームページを設定します
 
-Active IQ のデフォルトのホームページ画面を設定できるようになりました。Active IQ Digital Advisorまたは Active IQ クラシックに設定できます。
+Digital Advisorのデフォルトのホームページ画面を設定できるようになりました。Digital AdvisorまたはClassicに設定できます。
 
 
 
@@ -834,7 +844,7 @@ AFF システム、AFF以外のシステム、またはその両方のSnapshot�
 
 === オンボーディングの概要ビデオ
 
-オンボーディングビデオは、 Active IQ Digital Advisorのオプションと機能をすばやく理解するのに役立ちます。
+オンボーディングビデオは、Digital Advisorのオプションや機能を簡単に理解するために役立ちます。
 
 
 
@@ -868,7 +878,7 @@ AFF システム、AFF以外のシステム、またはその両方のSnapshot�
 
 === 価値ある分析情報
 
-Active IQ およびサポート契約を通じて得られた特典の概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 link:task_view_valuable_insight_widget.html["今すぐご覧ください"]。
+Digital Advisorとサポート契約を通じて得られたメリットの概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 link:task_view_valuable_insight_widget.html["今すぐご覧ください"]。
 
 
 
@@ -890,7 +900,7 @@ Active IQ およびサポート契約を通じて得られた特典の概要を�
 
 === 強化されたユーザインターフェイス
 
-最新の Active IQ Digital Advisorダッシュボードでは、パーソナライズされたエクスペリエンスを提供します。直感的な操作で、ダッシュボード、ウィジェット、画面全体をスムーズかつシームレスにナビゲーションできます。一体型のエクスペリエンスを提供します。比較、関係、傾向について説明します。さまざまなダッシュボードで提示されるデータに基づいて、重要な関係や意味のある違いを検出して検証するのに役立つ分析情報を提供します。
+最新のDigital Advisorダッシュボードでは、パーソナライズされたエクスペリエンスを提供します。直感的な操作で、ダッシュボード、ウィジェット、画面全体をスムーズかつシームレスにナビゲーションできます。一体型のエクスペリエンスを提供します。比較、関係、傾向について説明します。さまざまなダッシュボードで提示されるデータに基づいて、重要な関係や意味のある違いを検出して検証するのに役立つ分析情報を提供します。
 
 
 

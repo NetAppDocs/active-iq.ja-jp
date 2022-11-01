@@ -4,7 +4,7 @@ permalink: reference_aiq_faq.html
 keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
 ---
-= Active IQ に関するよくある質問です
+= Digital Advisorについてのよくある質問です
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 [role="lead"]
-以下の質問をお寄せください。 Active IQ に関するよくあるお問い合わせをご確認ください。
+以下の質問では、Digital Advisorに関するよくあるお問い合わせにお答えします。
 
 
 
@@ -50,7 +50,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 ケースが作成され、リファレンスのケース番号が提供されます。
 
-* Active IQ に関するフィードバックやその他の質問をするにはどうすればよいですか。 *
+* Digital Advisorに関するフィードバックやその他の質問はどのようにして行いますか。*
 
 フィードバックや質問をするには、 mailto ： ng-activeiq-feedback@netapp.com [[[.underline] #ng-activeiq-feedback@netapp.com まで E メールを送信してください。
 
@@ -58,9 +58,9 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 == ストレージ効率
 
-* Active IQ Digital Advisor から Storage Efficiency にアクセスする方法を教えてください。 *
+* Digital AdvisorでStorage Efficiencyにアクセスする方法を教えてください。*
 
-. のホームページを開きます link:https://activeiq.netapp.com/?source=onlinedocs["Active IQ Digital Advisor"]。
+. のホームページを開きます link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"]。
 . 右上の検索ボックスで、お客様、サイト、グループ、クラスタ、またはノードを検索して対応するダッシュボードにアクセスします。
 . 左側のナビゲーションから * Storage Efficiency * をクリックします。
 
@@ -68,13 +68,13 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 NOTE: 監視リストを使用して作成されたダッシュボードは Storage Efficiency ウィジェットに表示されません。
 
-* Active IQ デジタルアドバイザは、すべての ONTAP システムの比率を表示しますか。 *
+* Digital Advisorには、すべてのONTAP システムの比率が表示されますか。*
 
-Active IQ には、 ONTAP 9.1 以降を実行しているシステムの削減比率が表示されます。
+ONTAP 9.1以降を実行しているシステムの比率が表示されます。
 
 * 効率化ダッシュボードの「スナップショットなし」チェックボックスとは何ですか。 *
 
-デフォルトでは、 Active IQ 効率化ダッシュボードによって、お客様レベル、サイトレベル、グループレベル、クラスタレベル、およびノードレベルの総削減率が計算されます。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。
+デフォルトでは、Digital Advisor Efficiency Dashboardは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルの各ノードレベルで総削減率を計算します。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。
 
 * 重複排除
 * 圧縮
@@ -83,7 +83,7 @@ Active IQ には、 ONTAP 9.1 以降を実行しているシステムの削減�
 * Snapshot
 
 
-「 Snapshot なし * 」チェックボックスをオンにすると、 Active IQ Digital Advisorは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルで効率性比率（重複排除、圧縮、データコンパクション、クローンの Storage Efficiency テクノロジによる比率）を計算します。
+「Snapshotなし*」チェックボックスをオンにすると、Digital Advisorは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルの効率性比率（重複排除、圧縮、データコンパクション、クローンのStorage Efficiencyテクノロジによる比率）を計算します。
 
 * 使用されている物理データと論理データは何ですか。 *
 
@@ -201,7 +201,7 @@ ONTAP のバグが原因でノードにデータ保護ボリュームが存在�
 
 == 容量
 
-* Active IQ デジタルアドバイザの容量はどのように計算されていますか？ * Active IQ デジタルアドバイザの容量は、ルートを除くクラスタとノードを対象に計算されています
+* Digital Advisorでは容量はどのように計算されますか？* Digital Advisorの容量は、ルートを除くクラスタとノードについて計算されます。Snapshotコピーも含まれます
 
 |===
 | * 容量 * | * 各アグリゲートを追加して計算 * 
@@ -301,7 +301,7 @@ NOTE: file または volume ギャランティタイプのボリューム用に�
 
 * 追加した各ボリュームの使用容量がノードレベルのアグリゲートの使用容量と一致しないのはなぜですか？ * ノードレベルの使用容量には、ボリューム、メタデータ、および Snapshot コピー用にリザーブされたスペースが含まれます。また、ボリューム用にリザーブされているスペース（ file タイプまたは volume ギャランティタイプ）も含まれます。そのため、両方が一致しない可能性があります。
 
-* Active IQ デジタルアドバイザの 2 進数または 10 進数で示されている容量 * Active IQ に表示されるすべての容量は 2 進数（ 1024 で除算）であり、 GiB / TiB で表した容量です。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。
+*容量はDigital Advisor Base 2またはBase 10に表示されていますか？* Digital Advisorに表示されるすべての容量はBase 2（1024で除算した値）で、GiB / TiB単位で表されます。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。
 
 StorageGRID の場合、容量は 10 進数で表示され、容量の単位は TB で表されます。
 
@@ -311,7 +311,7 @@ StorageGRID の場合、容量は 10 進数で表示され、容量の単位は 
 
 *インベントリページで特定のシステムが見つからないのはなぜですか？*次のいずれかの理由により、インベントリページで特定のシステムを表示できない場合があります。
 
-* SAPで新しいシステムが追加または更新されたあと、新しいシステムがActive IQ に反映されるまでに1日かかります。
+* 新しいシステムは、SAPで追加または更新された後、Digital Advisorに反映されるまでに1日以上かかります。
 * システムはセキュアであり、セキュアなシステムを表示する権限がありません。
 * システムを表示する権限がありません。
 * システムは非アクティブです

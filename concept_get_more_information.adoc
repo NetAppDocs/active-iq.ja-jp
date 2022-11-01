@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_get_more_information.html 
 keywords: overview, information, more details 
-summary: Active IQ の詳細については、を参照してください。 
+summary: Digital Advisorに関する詳細情報を提供します。 
 ---
 = 詳細はこちらをご覧ください
 :toc: macro

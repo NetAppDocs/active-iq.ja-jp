@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_login_activeiq.html 
 keywords: login, log in 
-summary: Active IQ Digital Advisorにログインするための情報を提供します。 
+summary: Digital Advisorにログインするための情報を提供します。 
 ---
-= Active IQ Digital Advisor にログインします
+= Digital Advisorにログインします
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,12 +19,12 @@ summary: Active IQ Digital Advisorにログインするための情報を提供�
 
 
 [role="lead"]
-Active IQ Digital Advisorにログインするには、NetApp Support Siteの有効なクレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["こちらをご覧ください"]。
+Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["こちらをご覧ください"]。
 
 .手順
-. をクリックします link:https://activeiq.netapp.com/?source=onlinedocs["こちらをご覧ください"] Active IQ Digital Advisorにアクセスするには、
+. をクリックします link:https://activeiq.netapp.com/?source=onlinedocs["こちらをご覧ください"] Digital Advisorにアクセスします。
 +
-Active IQ Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後は、 Active IQ Digital Advisorでシステムを検索したり表示したりすることはできません。
+Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。
 
 . ユーザー名とパスワードを入力し、 * サインイン * をクリックします。
 

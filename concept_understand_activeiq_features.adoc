@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept_understand_activeiq_features.html 
-keywords: activeiq, active iq digital advisor, features, upgrade, support offering 
+keywords: digital advisor, features, upgrade, support offering 
 summary: ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。 
 ---
-= Active IQ の機能を理解する
+= Digital Advisorの機能を理解する
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,13 +19,13 @@ summary: ダッシュボード、監視リスト、機能、ウィジェット�
 
 
 [role="lead"]
-Active IQ デジタルアドバイザを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、および監視リストレベルの価値ある分析情報を確認できます。
+Digital Advisorを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要、インベントリ、計画、アップグレード、重要な分析情報を監視リストレベルで確認できます。
 
-Active IQ デジタルアドバイザに初めてアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、 StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステム ID 。
+初めてDigital Advisorにアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステムID。
 
 また、カードに適用される色についても注意する必要があります。色は、リスクの重大度とタイプを示します。
 
-Active IQ デジタルアドバイザの機能の一部を以下に示します。
+Digital Advisorの機能の一部を以下に示します。
 
 * 複数の監視リストを表示し、実用的で有用な情報を一目で確認できます
 * ストレージシステムにもたらされるすべてのリスクに関する分析情報を入手できます リスクを軽減するためのアクションも含まれます

@@ -21,10 +21,10 @@ summary: AutoSupport の概要を示します。
 [role="lead"]
 AutoSupport は、システムの健常性をプロアクティブに監視し、設定、ステータス、パフォーマンス、およびシステムイベントのデータをネットアップに自動的に送信する計測メカニズムです。
 
-このデータは、ネットアップテクニカルサポートが問題の診断と解決にかかる時間を短縮するために使用されます。また、 Active IQ が潜在的な問題をプロアクティブに検出して回避するために使用します。また、社内のサポート部門やサポートパートナーにも送信できます。
+このデータは、ネットアップテクニカルサポートが問題の診断と解決を高速化するために使用し、Digital Advisorが潜在的な問題をプロアクティブに検出して回避するために使用します。また、社内のサポート部門やサポートパートナーにも送信できます。
 
 
-NOTE: Active IQ は、AutoSupport データが60日以内に古くなったシステムのAutoSupport 関連データのみを表示します。
+NOTE: Digital Advisorは、AutoSupport データが60日以内のシステムについてのみAutoSupport 関連データを表示します。
 
 ONTAP システムでは、ストレージシステムの初回設定時に、 AutoSupport がデフォルトで有効になります。お勧めします link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["AutoSupport をセットアップする"] ONTAP システムで、テクニカルサポートおよび社内のサポート部門に AutoSupport 情報を送信する方法を制御します。
 

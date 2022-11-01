@@ -19,7 +19,7 @@ summary: NetApp Keystone Flex サブスクリプションでの容量使用率�
 
 
 [role="lead"]
-Keystoneサブスクリプションサービスに登録している場合は、Active IQ デジタルアドバイザダッシュボードにKeystoneサブスクリプションウィジェットを表示できます。
+Keystoneサブスクリプションサービスに登録している場合は、デジタルアドバイザダッシュボードにKeystoneサブスクリプションウィジェットを表示できます。
 
 Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量利用率グラフと、最後の5分に切り上げ後のSnapshotで構成されます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。
 
@@ -28,7 +28,7 @@ Keystone - 容量利用率 * ダッシュボードを表示できます。この
 を表示できます link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Keystoneサブスクリプションサービスの容量"] また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。
 
 
-NOTE: Active IQ ユーザは、 ONTAP コレクタと AutoSupport のどちらかを選択して、使用容量に関するデータを取得できます。
+NOTE: Digital Advisorユーザは、ONTAP コレクタとAutoSupport のどちらかを選択して、容量の使用状況に関するデータを取得できます。
 
 .手順
 . 詳細な * Keystone - 容量利用率 * ダッシュボードで、「 * 詳細を表示」をクリックして利用率のトレンドを確認します。

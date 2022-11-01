@@ -21,14 +21,14 @@ summary: ハッカーやランサムウェア攻撃に対する保護を強化�
 [role="lead"]
 ネットアップのセキュリティサイトは、ネットアップの製品セキュリティに関する情報源です。 link:https://security.netapp.com[""]
 
-Active IQ では、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の * およびサポート資格のある製品のセキュリティ問題を検出します。Active IQ がリスクを検出できるように、製品のテレメトリデータを AutoSupport 経由でネットアップに送信する必要があります。
+Digital Advisorは、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の*およびサポート資格のある製品のセキュリティ問題を検出します。製品のテレメトリデータは、デジタルアドバイザがリスクを検出できるよう、AutoSupport 経由でネットアップに送信する必要があります。
 
-Active IQ の対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください link:https://security.netapp.com[""]
+Digital Advisorの対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください link:https://security.netapp.com[""]
 
 * 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）
 
 .手順
-. Active IQ Digital Advisor にログインします
+. Digital Advisorにログインします。
 . セキュリティーの脆弱性 * ウィジェットで * アクション * をクリックします。image:Security_Image 1 Ransomware attacks.png["セキュリティの脆弱性ウィジェット"]
 +
 影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。
@@ -37,5 +37,5 @@ Active IQ の対象外の製品を含む、ネットアップ製品のその他�
 +
 ONTAP 9.7P8 以降では、リスクが修正されています。image:Remediations_Image 3 Ransomware attacks.png["［ 修正 ］ タブ"]
 
-. 最も重要な手順は、 Active IQ デジタルアドバイザの * Upgrade Advisor * で OS のアップグレードを計画することです。
+. 最も重要な手順は、Digital Advisorの* Upgrade Advisor *でOSのアップグレードを計画することです。
 
