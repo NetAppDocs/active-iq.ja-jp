@@ -1235,7 +1235,6 @@
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Digital Advisorにログインします。</block>
   <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisorは、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムのAnsibleスクリプトまたはプレイブックを生成します。</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisorのドキュメント</block>
-  <block id="87ff2175a631a03e0b15d2041aab4f9f" category="sidebar">BlueXPでクラスタを管理します</block>
   <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Digital Advisorの詳細をご覧ください</block>
   <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Digital Advisorを使用します</block>
   <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Digital Advisorを使用して分析します</block>
@@ -1243,4 +1242,5 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisorのビデオ</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
+  <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思</block>
 </blocks>

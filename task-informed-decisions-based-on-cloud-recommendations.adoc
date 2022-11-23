@@ -4,7 +4,7 @@ permalink: task-informed-decisions-based-on-cloud-recommendations.html
 keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
 summary: 十分な情報に基づいて決定を下すことができる推奨事項を提供します。 
 ---
-= クラウドの推奨事項に基づいて、十分な情報に基づいた意思
+= クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思
 :toc: macro
 :hardbreaks:
 :toclevels: 1

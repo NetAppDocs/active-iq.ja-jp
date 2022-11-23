@@ -32,8 +32,6 @@ sidebar:
       url: "/concept_autosupport.html"
     - title: Digital Advisorにログインします
       url: "/task_login_activeiq.html"
-    - title: BlueXPでクラスタを管理します
-      url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: 監視リストをプロビジョニング
     entries:
     - title: 概要
@@ -86,7 +84,7 @@ sidebar:
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
     - title: ソフトウェアとハードウェアを更新します
       url: "/task_renew_software_and_hardware.html"
-  - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
+  - title: クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思
     url: "/task-informed-decisions-based-on-cloud-recommendations.html"
   - title: 設定の違いを特定
     entries:
