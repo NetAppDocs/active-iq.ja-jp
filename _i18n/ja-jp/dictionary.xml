@@ -266,7 +266,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出するために、テンプレートを追加する必要があります。設定のドリフトテンプレートは、 AutoSupport データを実行するシステムを使用して追加されます。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">[ テンプレートの追加 ] をクリックします。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">必要な値を指定します。</block>
-  <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">オプション：「 * Edit * 」をクリックしてテンプレートを編集します。</block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">NetApp Keystone Flex サブスクリプションでの容量使用率に関する情報を提供します。</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">NetApp Keystone サブスクリプションを使用して容量利用率を表示します</block>
   <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量利用率グラフと、最後の5分に切り上げ後のSnapshotで構成されます。コミット済み容量（バースト容量）を上回る利用率は、赤で示されます。</block>
@@ -642,7 +641,6 @@
   <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">承認フォームに必要事項を入力し、 [*Submit*] をクリックします。</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">[Main API Services] ページで、 [Generate Token] をクリックしてアクセストークンを表示およびダウンロードし、トークンを更新して API を呼び出します。</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">ポータルでは、 1 つまたは両方のトークンを複数の方法でセットに保存できます。クリップボードにコピーしたり、テキストファイルとしてダウンロードしたり、プレーンテキストで表示したりすることができます。</block>
-  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは生成後 1 時間有効期限が切れ、更新トークンは 7 日ごとに再生成され、アプリケーションにインストールされる必要があります。90 日が経過したら、手動でログインし、新しいアクセストークンと更新トークンを取得する必要があります。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -1243,4 +1241,31 @@
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思</block>
+  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは、生成とリフレッシュトークンの1時間後に期限切れになります。トークンは、7日ごとに再生成し、アプリケーションにインストールする必要があります。これを行うには、アプリケーションにログインする必要はありません。ただし、90日が経過したら、アプリケーションにログインして新しいアクセストークンと更新トークンを取得する必要があります。</block>
+  <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">設定ドリフトテンプレートの属性は編集可能で、テンプレートの次のグループは、一部のセクションで正規表現をサポートしています。</block>
+  <block id="03937134cedab9078be39a77ee3a48a0" category="cell">グループ</block>
+  <block id="d2c24d59e0baff4d0155fbdf62590867" category="cell">セクション</block>
+  <block id="f2bbdf9f72c085adc4d0404e370f0f4c" category="cell">属性</block>
+  <block id="47b593c5940e25582a1dca06739b46cc" category="cell">*集計*</block>
+  <block id="f2cfee1656082de62bc61d6f6d957ee8" category="cell">aggr-Info.xmlを選択します</block>
+  <block id="b068931cc450442b63f5b3d276ea4297" category="cell">名前</block>
+  <block id="3beefed1659b0c09798f370bfefeb567" category="cell">*クラスタ*</block>
+  <block id="a8b8f7083d259c319bbdcf79e8c313b0" category="cell">cluster-Info.xmlという形式で指定します</block>
+  <block id="508767cc5bdfeffacaf1319fa70b7e0c" category="cell">クラスタ名</block>
+  <block id="630cd03f677631daf198ae03114b0479" category="cell">* LUN *</block>
+  <block id="72c32ad6105c949470e7cdcebb8e7fa8" category="cell">LUN.xmlです</block>
+  <block id="e0d26a956299752ba1653e4bf057b332" category="cell">* SVM *</block>
+  <block id="affe66842f15d0d82eebb388d829d8c4" category="cell">vserver-Info.xmlのようになりました</block>
+  <block id="5999e4ab912c7c1d8aa6fd2225491ef2" category="cell">Vserver</block>
+  <block id="dd2630f76030cb00e6fa7980733e4c78" category="cell">*ネットワーク*</block>
+  <block id="3520aa027a7702ae4b2c5c34dd772347" category="cell">network-interface.xml</block>
+  <block id="91dd16eb6eb42839df38f62bfc3cda48" category="cell">VIF</block>
+  <block id="1f837483a812efd2e08b2a3e12d8b02c" category="cell">*DNS*</block>
+  <block id="28dd299428285a11cb6458603bf1c56d" category="cell">dns.xmlを指定します</block>
+  <block id="e4e46deb7f9cc58c7abfb32e5570b6f3" category="cell">ドメイン</block>
+  <block id="218a984781458a9d1b3c02030403fee9" category="cell">*音量*</block>
+  <block id="583d69a4a79378ddaf1cd955ffc0c3eb" category="cell">ボリューム.xml</block>
+  <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">ボリューム</block>
+  <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">ユーザは、正規表現を使用して、ボリューム、アグリゲート、クラスタなどの命名の不整合に起因する設定のドリフトレポートを作成できます。たとえば、グループ* aggregate *のセクション* aggr-Info.xml *の属性* Name *に対して正規表現* aggr-name**が指定されている場合、プレフィックス* aggr-name *を含まない属性の値は、設定ドリフトレポートが生成されるときにドリフトとしてマークされます。</block>
+  <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">オプション：テンプレートをカスタマイズするには、グループを編集するか、テンプレートの不要なグループを削除します。</block>
 </blocks>
