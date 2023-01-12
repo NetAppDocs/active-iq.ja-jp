@@ -1012,7 +1012,6 @@
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">非アクティブ、コールド、アクティブ、ホット、階層化、 監視対象外のデータです。このレポートには、無効なアグリゲートで Inactive Data Reporting を有効にするための Ansible プレイブックも含まれています。</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">選択したウォッチリスト、顧客、サイト、グループレベルのインストールベースに関する情報が表示されます。このレポートは、インベントリ詳細ページから直接ダウンロードするか、レポートページから生成できます。</block>
-  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">サポート終了</block>
   <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">サポート終了（EOS）に達したコントローラ、シェルフ、ディスクの一覧について説明します。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">推奨される構成</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">リモート管理構成、スペアとドライブ、 HA ペア、および SVM 健全性に関するさまざまな推奨構成ギャップに関する情報を提供します。</block>
@@ -1268,4 +1267,10 @@
   <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">ボリューム</block>
   <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">ユーザは、正規表現を使用して、ボリューム、アグリゲート、クラスタなどの命名の不整合に起因する設定のドリフトレポートを作成できます。たとえば、グループ* aggregate *のセクション* aggr-Info.xml *の属性* Name *に対して正規表現* aggr-name**が指定されている場合、プレフィックス* aggr-name *を含まない属性の値は、設定ドリフトレポートが生成されるときにドリフトとしてマークされます。</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">オプション：テンプレートをカスタマイズするには、グループを編集するか、テンプレートの不要なグループを削除します。</block>
+  <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">2023年1月12日</block>
+  <block id="af8ffc565aa8e5b74351ac5b3619d11e" category="section-title">パフォーマンスレポート</block>
+  <block id="da1d47d31f2c9af4c95e87ea269228d6" category="paragraph">パフォーマンスレポートには、読み取り、書き込み、その他の平均処理数をボリュームレベルで表示できます。</block>
+  <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">サポート契約/ハードウェアEOS</block>
+  <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO 密度</block>
+  <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">I/O密度レポートでは、データとメタデータの消費量と密度について、お客様のピーク時の入出力処理に関する分析情報を提供します。</block>
 </blocks>
