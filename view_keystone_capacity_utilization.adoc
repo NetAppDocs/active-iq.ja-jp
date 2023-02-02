@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: task_view_keystone_capacity_utilization.html 
+permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: NetApp Keystone Flex サブスクリプションでの容量使用率に関する情報を提供します。 
 ---
@@ -30,12 +30,4 @@ Keystone - 容量利用率 * ダッシュボードを表示できます。この
 
 NOTE: Digital Advisorユーザは、ONTAP コレクタとAutoSupport のどちらかを選択して、容量の使用状況に関するデータを取得できます。
 
-.手順
-. 詳細な * Keystone - 容量利用率 * ダッシュボードで、「 * 詳細を表示」をクリックして利用率のトレンドを確認します。
-. 現在の請求期間、30日、7日、または1日を選択して、最近の平均使用傾向を表示します。
-+
-現在の請求期間については、バーストの詳細に関する情報を記載したレポートをダウンロードできます。
-
-. 必要に応じて、 ONTAP コレクタで容量の使用状況に関するデータを取得するように選択した場合は、ダッシュボードのタブをクリックしてファイル共有とディスクに関する詳細を確認できます。
-. [ 共有 ] または [ * ディスク ] をクリックして、コミット済み容量の上限に近づいているファイル共有またはディスクを特定し、十分な情報に基づいてストレージ容量を節約するための決定を行います。
-
+Keystoneサブスクリプションの詳細については、を参照してください link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Keystoneサブスクリプションのダッシュボードとレポート"^]。

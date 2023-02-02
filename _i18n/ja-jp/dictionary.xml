@@ -273,11 +273,6 @@
   <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">Keystone - 容量利用率 * ダッシュボードを表示できます。このダッシュボードでは、ウィジェット内のデータを分析し、サブスクライブされているすべてのストレージの容量と使用状況のトレンドをグラフィカルに表示します <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>NetApp Keystone サブスクリプションアカウントに関連付けられたプレミアム、エクストリーム、標準など。</block>
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystoneサブスクリプションサービスの容量</block>
   <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">を表示できます <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> また、ダッシュボードでブロックストレージ、ファイルサービスストレージ、オブジェクトストレージにサブスクライブした各サービスの使用状況を確認できます。</block>
-  <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">詳細な * Keystone - 容量利用率 * ダッシュボードで、「 * 詳細を表示」をクリックして利用率のトレンドを確認します。</block>
-  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">現在の請求期間、30日、7日、または1日を選択して、最近の平均使用傾向を表示します。</block>
-  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">現在の請求期間については、バーストの詳細に関する情報を記載したレポートをダウンロードできます。</block>
-  <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">必要に応じて、 ONTAP コレクタで容量の使用状況に関するデータを取得するように選択した場合は、ダッシュボードのタブをクリックしてファイル共有とディスクに関する詳細を確認できます。</block>
-  <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="list-text">[ 共有 ] または [ * ディスク ] をクリックして、コミット済み容量の上限に近づいているファイル共有またはディスクを特定し、十分な情報に基づいてストレージ容量を節約するための決定を行います。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">リリースの新機能に関する情報を提供します。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">詳細をご確認ください</block>
@@ -1273,4 +1268,6 @@
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">サポート契約/ハードウェアEOS</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO 密度</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">I/O密度レポートでは、データとメタデータの消費量と密度について、お客様のピーク時の入出力処理に関する分析情報を提供します。</block>
+  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Keystoneサブスクリプションのダッシュボードとレポート</block>
+  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Keystoneサブスクリプションの詳細については、を参照してください <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>。</block>
 </blocks>

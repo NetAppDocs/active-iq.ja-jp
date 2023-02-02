@@ -7,7 +7,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr,fr-fr,de-de
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,fr-fr
 sidebar:
   entries:
   - title: Digital Advisorのドキュメント
@@ -73,7 +73,7 @@ sidebar:
     - title: 価値ある分析情報を確認できます
       url: "/task_view_valuable_insight_widget.html"
     - title: Keystoneサブスクリプションの容量利用率を確認
-      url: "/task_view_keystone_capacity_utilization.html"
+      url: "/view_keystone_capacity_utilization.html"
   - title: システム要件をプロアクティブに特定します
     entries:
     - title: 概要
