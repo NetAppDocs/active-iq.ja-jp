@@ -189,9 +189,9 @@ homepage:
     - title: ONTAP のアップグレードに関する推奨事項を確認する
       url: task_view_upgrade.html
     - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
-    - title: NetApp Keystone フレックスサブスクリプションを使用して容量利用率を表示します
-      url: task_view_keystone_capacity_utilization.html
+      url: task-informed-decisions-based-on-cloud-recommendations.html
+    - title: NetApp Keystone サブスクリプションを使用して容量利用率を表示します
+      url: view_keystone_capacity_utilization.html
   - title: リソースの追加
     links:
     - title: Digital Advisor Webポータル

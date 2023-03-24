@@ -19,11 +19,11 @@ summary: ハッカーやランサムウェア攻撃に対する保護を強化�
 
 
 [role="lead"]
-ネットアップのセキュリティサイトは、ネットアップの製品セキュリティに関する情報源です。 link:https://security.netapp.com[""]
+ネットアップのセキュリティサイトは、ネットアップの製品セキュリティに関する情報源です。 link:https://security.netapp.com["ネットアップ製品のセキュリティ"^]
 
 Digital Advisorは、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の*およびサポート資格のある製品のセキュリティ問題を検出します。製品のテレメトリデータは、デジタルアドバイザがリスクを検出できるよう、AutoSupport 経由でネットアップに送信する必要があります。
 
-Digital Advisorの対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください link:https://security.netapp.com[""]
+Digital Advisorの対象外の製品を含む、ネットアップ製品のその他のセキュリティ情報については、を参照してください link:https://security.netapp.com["ネットアップ製品のセキュリティ"^]
 
 * 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）
 

@@ -301,7 +301,7 @@ NetApp Cloud Insights で管理および監視されるシステムのストレ�
 
 === Inactive Data Reporting （ IDR ）
 
-FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアクティブ化してアグリゲートを監視し、 Ansible プレイブックを生成できます。 link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["詳細はこちら。"]
+FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアクティブ化してアグリゲートを監視し、 Ansible プレイブックを生成できます。
 
 
 
@@ -427,8 +427,8 @@ Cluster Viewer の表示タブで、ケーブル接続の問題やその他の�
 
 Digital Advisorモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。
 
-アプリケーションをダウンロードして、詳細を確認してください。link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Digital Advisorモバイルアプリケーション（Android）"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Digital Advisorモバイルアプリケーション（iOS）"]
+アプリケーションをダウンロードして、詳細を確認してください。link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Digital Advisorモバイルアプリケーション（Android）"^]
+link:https://apps.apple.com/us/app/active-iq/id1230542480["Digital Advisorモバイルアプリケーション（iOS）"^]
 
 
 
@@ -504,7 +504,7 @@ ONTAP のメジャーバージョンおよびパッチバージョンと一緒�
 
 
 
-=== Flex サブスクリプションウィジェット
+=== [Keystone Subscription]ウィジェット
 
 * ONTAP コレクタで容量の使用状況に関するデータを取得するように選択している場合は、 [ 共有 ] タブと [ ディスク ] タブでファイル共有とディスクの詳細を表示できます。コミット済み容量が上限に近づいていることを確認すると、ストレージスペースを節約できます。
 * Keystone - 容量利用率ダッシュボードに表示され、請求に使用される容量が論理容量に基づいて計算されるようになりました。
@@ -712,7 +712,7 @@ Cluster Viewer レポートを生成またはスケジュールして、シス�
 
 === 健全性チェックのダッシュボード
 
-Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。 link:concept_understand_health_check_assessment_dashboard.html["詳細はこちら。"]。
+Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。
 
 
 
@@ -746,9 +746,9 @@ AutoSupport データを表示し、詳細を確認できます。
 
 
 
-=== Flex サブスクリプションウィジェット
+=== [Keystone Subscription]ウィジェット
 
-NetApp Keystone Flex サブスクリプションサービスのコミット済み、消費済み、バーストのストレージ容量を監視できます。
+NetApp Keystone サブスクリプションサービスのコミット済み、消費済み、バースト時のストレージ容量を監視できる。
 
 
 
