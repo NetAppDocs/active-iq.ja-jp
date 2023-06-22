@@ -973,18 +973,6 @@
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirrorデスティネーションボリューム（ボリュームタイプLSおよびDP）は除外されます</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">[* Disaster Recovery]ペインで任意のリンクをクリックします。</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。</block>
-  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">複数の監視リストを表示し、実用的で有用な情報を一目で確認できます</block>
-  <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">ストレージシステムにもたらされるすべてのリスクに関する分析情報を入手できます リスクを軽減するためのアクションも含まれます</block>
-  <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">ストレージシステムをアップグレードします</block>
-  <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">ONTAP 9.1 以降を実行しているストレージシステムのストレージ効率化率、使用済み論理スペース、使用済み物理スペース、および削減された合計データを表示します</block>
-  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">を表示して、ストレージデバイスのパフォーマンスを分析します パフォーマンスデータのグラフ形式</block>
-  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">期限切れのハードウェアおよびソフトウェアに関する情報を取得します または、今後 6 か月以内に期限切れに近いものとします</block>
-  <block id="582adb4f0e7a3267346145b6b82ce29a" category="list-text">Ansible を使用して ONTAP ファームウェアを更新します</block>
-  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">容量の 90% を超えたシステムまたはを超えたシステムに関する詳細を確認できます 容量の使用率が 90% に近づいています</block>
-  <block id="3635d6c25949f1a58c70590c42f57462" category="list-text">クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する詳細な情報を示すスタック図、およびケーブルで確認可能な図など、物理 / 論理構成の詳細な情報を表示します</block>
-  <block id="99d2fd1ab881558fd1bfafc670c1e114" category="list-text">トラブルシューティング、アップグレード評価、ソリューションの検証、移行に役立つクロススタック情報と分析情報を提供</block>
-  <block id="2eff8449b9983f6e6e5e4c068f551cde" category="list-text">ホストの互換性を確認し、ホストのオペレーティングシステム、ドライバ、およびファームウェアのアップグレードに関する推奨事項を提供します</block>
-  <block id="3ef99ba5d79d98939649058bd12621b4" category="list-text">で見つけたいと思うものに丁度到着しなさい よりスマートで高速な方法</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">ユーザが使用できるさまざまなタイプのレポートに関する情報が表示されます。</block>
   <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">レポートのタイプ</block>
@@ -1272,5 +1260,75 @@
   <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">[Keystone Subscription]ウィジェット</block>
   <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。</block>
   <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">NetApp Keystone サブスクリプションサービスのコミット済み、消費済み、バースト時のストレージ容量を監視できる。</block>
-  <block id="51f3a0a362446375c682ade41a945286" category="list-text">SAPではシステムが非アクティブです。</block>
+  <block id="cd58a2289aa9a570f905ace9253b287f" category="list-text">SAPで非アクティブなシステム、または運用が停止されたシステム。</block>
+  <block id="e90912cb3f8595479987796300c99d6c" category="summary">ダッシュボード、持続可能性スコア、作業環境、推奨される対処方法に関する情報が表示されます。</block>
+  <block id="06cdd6dcccb0573b58a1525964134965" category="doc">Sustainability Dashboardの使用を開始します</block>
+  <block id="87711a398a7e6a734618da04d3342954" category="paragraph">ダッシュボードには、ストレージシステムの環境を評価し、ネットアップが推奨する対処方法に基づいて改善に役立つ実用的な情報が表示されます。</block>
+  <block id="de857c4705c01d60f072c89db409bb0f" category="paragraph">* Sustainability score *：ストレージシステムの環境の持続可能性を示す合計スコアが表示されます。ストレージシステムの持続可能性レベルは、次の範囲に基づいて評価できます。</block>
+  <block id="b04fdd8d3c616238ff5067578ec445ae" category="list-text">76-100:持続可能性が最優先事項であることを示します。</block>
+  <block id="d79fa3a278fafc90f05b60fc886ee7a8" category="list-text">51-75:持続可能性イニシアチブへの高いレベルの投資を示しています。</block>
+  <block id="8af93586db898b2afff53995435e56cd" category="list-text">26-50:持続可能性イニシアティブに向けた良い進展を示している。</block>
+  <block id="129c025cb275919421a73e175f4d6b51" category="list-text">25未満:持続可能性慣行の改善の必要性を示しています。</block>
+  <block id="39df01e4d3f96b515477bb91d41693e1" category="paragraph">週ごとに更新される最大5週間のスコアのグラフィック表示が表示されます。グラフにカーソルを合わせると、持続可能性スコアの増減の理由を確認することもできます。</block>
+  <block id="124737733adb9db94833bf1012498225" category="inline-image-macro">持続可能性スコアとグラフを示すスクリーンショット。</block>
+  <block id="a2bc2df13c5a3762142955fb95ab0af5" category="paragraph"><block ref="a2bc2df13c5a3762142955fb95ab0af5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a4ece81a5a89febb339536be98d1458" category="paragraph">*環境インジケータ*：電力、直接的な炭素使用量、および熱放出の予測を表示して、ストレージシステムの環境状態を評価します。これらの予測は、このセクションの右上にあるドロップダウンから希望する期間を選択して、月単位、四半期単位、年単位で表示できます。</block>
+  <block id="d934690f46f773b38d9c65526a88d2a1" category="inline-image-macro">編集可能なアイコンを示すスクリーンショット。</block>
+  <block id="88ff2e9a0a1bf07b4e3957199ef248f0" category="paragraph">*Carbon Mitigation Percentages *:各サイト/都市での炭素緩和のパーセンテージが表示されます。表示されるベースライン値は、所在地に基づいています。特定のサイトの炭素緩和率を調整するには、をクリックします <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> パーセント値の横にあるアイコンをクリックすると、それに応じて炭素数が自動的に調整されます。</block>
+  <block id="35c40b1976d1ce98a9121146c10ec009" category="paragraph">*推奨される対処方法*：ストレージシステムの持続可能性スコアを向上させるための推奨される対処方法のリストを表示します。これらのアクションは、*修正*を選択するとすぐに実行できます。ビューを展開するには*[修正]*または下矢印をクリックします。*[修正]*オプションを使用すると、クラスタ名、持続可能性スコア、およびそれに続く増加が表示されます。展開ビューでは、*修正*オプションを続行するという有益なメッセージも表示されます。</block>
+  <block id="707741d275e0975dc229329ccd426a07" category="inline-image-macro">展開ビューにアクションのリストを表示するスクリーンショット。</block>
+  <block id="d1f34a9fa829d3045f1efbad48f775eb" category="paragraph"><block ref="d1f34a9fa829d3045f1efbad48f775eb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="09620871e591b6de487066e0b42c028c" category="paragraph">これらのアクションに後で対処する場合は、* Later *を選択して* Actions for Later *タブに移動できます。これらの行動は30日間延期されます。30日後、これらのアクションは自動的に*推奨されるアクション*タブに戻ります。また、延期されたアクションをいつでも確認し、*[考慮]*をクリックして*[推奨されるアクション]*タブに戻すこともできます。</block>
+  <block id="5f0388a6e35ab1c017b19f9c0c580225" category="paragraph">*作業環境*：インストールベースのクラスタレベルのさまざまな環境パラメータが表示されます。持続可能性のスコアはクラスタレベルで確認できます。クラスタ名を選択して* ClusterViewer *にアクセスし、ここから特定の推奨アクションを実行して持続可能性を向上できます。</block>
+  <block id="f2ae849ec2f53979329ed4b00e3cd6eb" category="admonition">現時点では、AFF、FAS、CVOを搭載したONTAPシステムがサポートされています。</block>
+  <block id="fb8c863be001fc68522b09f5c7ab5899" category="summary">Sustainability Dashboardを理解するための情報を提供します。</block>
+  <block id="df3259aced42e68d1518ac692c0cd25d" category="doc">BlueXP持続可能性サービスの詳細をご確認ください</block>
+  <block id="855d25a326a6ecf64f0190057e34a8a2" category="paragraph">サービスとしての持続可能性により、エネルギー消費量を削減し、環境目標に向かって取り組むことができます。これにより、ストレージシステムを環境に配慮した手法に合わせて調整し、持続可能性の目標を達成できます。</block>
+  <block id="7a5cdb5829440fd156d521830c546a85" category="section-title">持続可能性サービスで何ができるか</block>
+  <block id="f6e5c50b1d630128adfb99732b3be16b" category="paragraph">持続可能性スコア、電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。サステナビリティスコアに基づいて、サステナビリティに対する全体的な姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。</block>
+  <block id="61f3d8e621fe05148bb6346a3da7c9cc" category="paragraph">持続可能性スコアはクラスタレベルでも確認できます。クラスタレベルで提供されるデータは、より効率的なストレージに移動できるクラスタを特定するのにも役立ち、パフォーマンスと電力効率の適切なバランスを実現できます。</block>
+  <block id="40dc10ad135a4e4dc568a7aa242e346b" category="section-title">持続可能性サービスにアクセスします</block>
+  <block id="591d6bde7048e0f055f2937e178fe8eb" category="paragraph">このサービスには、次の2つの方法でアクセスできます。</block>
+  <block id="bc321562c41e07c6c7a7c2fcc7819032" category="list-text">*デジタルアドバイザ*で持続可能性サービスにアクセスします
+Digital Advisorにログインし、Digital Advisorダッシュボードから持続可能性サービスにアクセスできます。</block>
+  <block id="e58e5e6ea250c0d33583a97403fee17c" category="inline-image-macro">Sustainabilityダッシュボードの概要を示すUIスクリーンショット。</block>
+  <block id="c15bf54bfb138c4f090b02cbeeca69f9" category="paragraph"><block ref="c15bf54bfb138c4f090b02cbeeca69f9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0ff38bbdb0277b0a0d29e6fc78aca4e1" category="paragraph">Digital Advisorへのログインの詳細については、を参照してください <block ref="ea710f62517834d879fd62e2f2933884" category="inline-link-macro-rx"></block>。</block>
+  <block id="67b2c8af58c710f6cd4521f1f80f8216" category="list-text">* BlueXP *で持続可能性サービスにアクセスします
+BlueXPの左側のナビゲーションにある* Governance *カテゴリから、BlueXPにログインして持続可能性サービスにアクセスできます。</block>
+  <block id="96d0f57ed12b3b53cfcbb2be8d2ecf30" category="inline-image-macro">BlueXPのSustainabilityダッシュボードの概要を示すUIスクリーンショット。</block>
+  <block id="547c7e82193b8c421f80fff741758831" category="paragraph"><block ref="547c7e82193b8c421f80fff741758831" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">ログインの詳細については、こちらをご覧ください</block>
+  <block id="8f311d0aee01eb4f3b71cb4a1f717703" category="paragraph">BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 <block ref="f3eba1008b655e5e66f20213b643dd24" category="inline-link-macro-rx"></block>。</block>
+  <block id="821d1756364d64a3adf1ff448e34d40b" category="section-title">持続可能性サービスを使用する利点</block>
+  <block id="953321a5ab304bd7d58cf4dd451e32e0" category="paragraph">持続可能性サービスには、次のようなメリットがあります。</block>
+  <block id="4fdc8f8c48e4ec80848e9368764d4b95" category="list-text">パフォーマンスを向上</block>
+  <block id="3539435a6de515609cc1b8543224f713" category="list-text">ストレージコストを削減</block>
+  <block id="f12856396bd806cdc7038dbbbc5efcd2" category="list-text">二酸化炭素排出量の削減</block>
+  <block id="49beaa2702ece5b3496f85b7811e7898" category="list-text">エネルギー効率の向上</block>
+  <block id="d7ffa2dface411a028c111d92c0574cc" category="list-text">持続可能性の姿勢に関する明確なインサイト</block>
+  <block id="f172c78b7f668c77b49c9342501992c0" category="list-text">AI / MLを基にした実用的な提案</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
+  <block id="520e1d23fab39afcbff2a7abad3b1d89" category="paragraph">NetAppでは、BlueXP持続可能性サービスの使用に対して課金されることはありません。有効なサポート契約で利用できます。</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
+  <block id="8a85fa75801981e1dba36489f26b604e" category="paragraph">このサービスにアクセスするために特別なライセンスは必要ありません。システムでAutoSupportを有効にしている場合は、有効なサポート契約で利用できます。</block>
+  <block id="e9cdfc3ff6e77bfb8ec195d6362f98f9" category="list-text">複数の監視リストを表示し、実用的で有用な情報を一目で確認できます。</block>
+  <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">ストレージシステムのすべてのリスクとリスクを軽減するためのアクションに関する分析情報を取得できます。</block>
+  <block id="36cec47f7689f0259d19d5b01531f4e9" category="list-text">Active IQ Unified Managerを使用してリスクを軽減します。</block>
+  <block id="2c1d81e3772d9ef164c64b411ca4e8f2" category="list-text">ストレージシステムをアップグレードします。</block>
+  <block id="a3724fe4c82d2e588a76d98b41647731" category="list-text">持続可能性スコアと、電力、直接炭素、熱の使用量の予測を表示します。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、ネットアップが推奨する対処方法に沿ってスコアを改善します。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
+  <block id="05eae71003a0c12ec28cec072f7339f8" category="list-text">ONTAP 9.1以降を実行するストレージシステムのストレージ容量削減比率、使用済み論理スペース、使用済み物理スペース、削減された総データ量を表示します。</block>
+  <block id="125859f7a75ea087ef61995849562e3b" category="list-text">パフォーマンスデータをグラフ形式で表示して、ストレージデバイスのパフォーマンスを分析します。</block>
+  <block id="dacf9744e039d2c6cd15d0001ef8a424" category="list-text">6カ月以内に有効期限が切れた、または有効期限が近づいているハードウェアおよびソフトウェアに関する情報を入手できます。</block>
+  <block id="bb684054961f57c4a18794310f91e0e7" category="list-text">Ansibleを使用してONTAPファームウェアを更新します。</block>
+  <block id="eb1fe695fcd963b57a65eba0363be8d8" category="list-text">容量が90%を超えているシステムや容量の90%に近づいているシステムに関する詳細を確認できます。</block>
+  <block id="7c6c02effa6412237c8c392380180699" category="list-text">物理/論理構成の詳細情報を表示します。これには、クラスタとノードの構成の概要、ローカル階層とボリュームの情報、ネットワークインターフェイスとポートの情報、ディスクとシェルフに関する詳細なスタック図、ケーブルの可視化などが含まれます。</block>
+  <block id="d81e9eda4f33de56cfd4c583d99ab437" category="list-text">トラブルシューティング、アップグレードの評価、解決策の検証、移行に役立つクロススタックの情報と分析情報を提供</block>
+  <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">ホストの互換性を確認し、ホストオペレーティングシステム、ドライバ、およびのアップグレードに関する推奨事項を提供します。</block>
+  <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">よりスマートで迅速な方法で見つけたいものに正確に到達します。</block>
+  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023年6月21日</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="section-title">Sustainability Dashboard</block>
+  <block id="87dcc2d179cb1551f2eb118866025f06" category="paragraph">Digital Advisor Sustainability Dashboardは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性スコアを評価することで、ストレージシステム全体の効率性を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">ストレージシステムの持続可能性を分析します</block>
+  <block id="718c5101b53c8646db75a2172094f520" category="sidebar">Sustainability Dashboardの使用を開始します</block>
 </blocks>

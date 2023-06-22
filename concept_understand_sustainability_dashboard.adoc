@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_sustainability_dashboard.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp 
+summary: Sustainability Dashboardを理解するための情報を提供します。 
+---
+= BlueXP持続可能性サービスの詳細をご確認ください
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+サービスとしての持続可能性により、エネルギー消費量を削減し、環境目標に向かって取り組むことができます。これにより、ストレージシステムを環境に配慮した手法に合わせて調整し、持続可能性の目標を達成できます。
+
+
+
+== 持続可能性サービスで何ができるか
+
+持続可能性スコア、電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。サステナビリティスコアに基づいて、サステナビリティに対する全体的な姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。
+
+持続可能性スコアはクラスタレベルでも確認できます。クラスタレベルで提供されるデータは、より効率的なストレージに移動できるクラスタを特定するのにも役立ち、パフォーマンスと電力効率の適切なバランスを実現できます。
+
+
+
+== 持続可能性サービスにアクセスします
+
+このサービスには、次の2つの方法でアクセスできます。
+
+* *デジタルアドバイザ*で持続可能性サービスにアクセスします
+Digital Advisorにログインし、Digital Advisorダッシュボードから持続可能性サービスにアクセスできます。
++
+image:sustainability_dashboard.png["Sustainabilityダッシュボードの概要を示すUIスクリーンショット。"]
+
++
+Digital Advisorへのログインの詳細については、を参照してください link:task_login_activeiq.adoc["Digital Advisorにログインします"]。
+
+* * BlueXP *で持続可能性サービスにアクセスします
+BlueXPの左側のナビゲーションにある* Governance *カテゴリから、BlueXPにログインして持続可能性サービスにアクセスできます。
++
+image:sustainability_dashboard_bluexp.png["BlueXPのSustainabilityダッシュボードの概要を示すUIスクリーンショット。"]
+
++
+BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
+
+
+
+
+
+== 持続可能性サービスを使用する利点
+
+持続可能性サービスには、次のようなメリットがあります。
+
+* パフォーマンスを向上
+* ストレージコストを削減
+* 二酸化炭素排出量の削減
+* エネルギー効率の向上
+* 持続可能性の姿勢に関する明確なインサイト
+* AI / MLを基にした実用的な提案
+
+
+
+
+== コスト
+
+NetAppでは、BlueXP持続可能性サービスの使用に対して課金されることはありません。有効なサポート契約で利用できます。
+
+
+
+== ライセンス
+
+このサービスにアクセスするために特別なライセンスは必要ありません。システムでAutoSupportを有効にしている場合は、有効なサポート契約で利用できます。

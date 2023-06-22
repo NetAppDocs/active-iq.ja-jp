@@ -113,6 +113,12 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: サポート契約の更新
       url: "/task_renew_support_contracts_for_your_systems.html"
+  - title: ストレージシステムの持続可能性を分析します
+    entries:
+    - title: BlueXP持続可能性サービスの詳細をご確認ください
+      url: "/concept_understand_sustainability_dashboard.html"
+    - title: Sustainability Dashboardの使用を開始します
+      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: アップグレードしてインストールベースを最適化します
     entries:
     - title: ストレージシステムの ONTAP バージョンをアップグレードします
