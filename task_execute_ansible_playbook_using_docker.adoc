@@ -34,7 +34,7 @@ NetApp Docker を使用して Ansible Playbook を実行する前に、以下の
 
 
 .手順
-. link:https://docs.docker.com/get-started/["Docker をセットアップする"]。
+. link:https://docs.docker.com/get-started/["Docker をセットアップする"^]。
 . 次のコマンドを実行して、 DockerHub から NetApp Docker イメージを取得します。
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-Docker Pull コマンドの詳細については、を参照してください link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull ドキュメント"]。
+Docker Pull コマンドの詳細については、を参照してください link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull ドキュメント"^]。
 
 . Docker イメージをコンテナとして実行し、コンテナにログインして Ansible Playbook を実行してください。
 . 抽出した Ansible Playbook とインベントリファイルが格納されているフォルダのパスをコピーします。例： * downloaded_playbook_path * 。Ansible Playbook ファイルとインベントリファイルは、正しく実行するために同じフォルダに格納されている必要があります。
@@ -57,7 +57,7 @@ Docker Pull コマンドの詳細については、を参照してください l
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-コンテナが起動し、コンソールがコンテナの bash シェルに移動します。Docker Run コマンドの詳細については、を参照してください link:https://docs.docker.com/engine/reference/run/["Docker Run ドキュメント"]。
+コンテナが起動し、コンソールがコンテナの bash シェルに移動します。Docker Run コマンドの詳細については、を参照してください link:https://docs.docker.com/engine/reference/run/["Docker Run ドキュメント"^]。
 
 . コンテナ内で Ansible Playbook * コマンドを使用して、 Ansible Playbook を実行します。
 +
@@ -77,6 +77,6 @@ NOTE: ログインクレデンシャルが異なるクラスタのセットが�
 
 
 
-* Ansible プレイブック * コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible プレイブックのドキュメント"] チェックモード（ dry run ）で Ansible プレイブックを実行する方法については、を参照してください link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：チェックモード"]。
+* Ansible プレイブック * コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible プレイブックのドキュメント"^] チェックモード（ dry run ）で Ansible プレイブックを実行する方法については、を参照してください link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible ：チェックモード"^]。
 
 Ansible Playbook を実行したら、を参照してください link:task_validate_firmware_installation.html["ファームウェアのインストールの検証"] 実行後の手順については、を参照してください。

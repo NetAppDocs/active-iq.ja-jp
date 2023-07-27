@@ -42,7 +42,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 *非技術的なケースを作成する方法を教えてください。*
 
-. をクリックします link:https://mysupport.netapp.com/site/help["こちらをご覧ください"] NetApp Support Siteで「 Non-Technical Feedback Tool 」を開きます。
+. をクリックします link:https://mysupport.netapp.com/site/help["こちらをご覧ください"^] NetApp Support Siteで「 Non-Technical Feedback Tool 」を開きます。
 . [ フィードバックカテゴリ *] ドロップダウンリストから適切なカテゴリを選択します。
 . 必要な詳細情報を入力し、 [Comments] ボックスに追加情報を入力します。
 . [Submit （送信） ] をクリックします。
@@ -60,7 +60,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 * Digital AdvisorでStorage Efficiencyにアクセスする方法を教えてください。*
 
-. のホームページを開きます link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"]。
+. のホームページを開きます link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^]。
 . 右上の検索ボックスで、お客様、サイト、グループ、クラスタ、またはノードを検索して対応するダッシュボードにアクセスします。
 . 左側のナビゲーションから * Storage Efficiency * をクリックします。
 
@@ -210,7 +210,7 @@ ONTAP のバグが原因でノードにデータ保護ボリュームが存在�
 * 非アクティブなシステム、アーカイブされたシステム、またはSAPで運用停止されたシステム
 
 
-その他の理由でシステムを表示できない場合、クエリを使用している場合、またはアクセスを要求したい場合は、 link:https://mysupport.netapp.com/site/help["テクニカル以外のケースを作成します"]。テクニカル以外のケースの詳細については、をクリックしてください <<テクニカル以外のケース,こちらをご覧ください。>>
+その他の理由でシステムを表示できない場合、クエリを使用している場合、またはアクセスを要求したい場合は、 link:https://mysupport.netapp.com/site/help["テクニカル以外のケースを作成します"^]。テクニカル以外のケースの詳細については、をクリックしてください <<テクニカル以外のケース,こちらをご覧ください。>>
 
 
 

@@ -40,7 +40,7 @@ disk     firmware-revision model
 1.11.4   NA01              X423_HCOBE900A10
 ----
 +
-コマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage disk show] を参照してください。
+このコマンドの詳細については、｛link-with-underscores｝[storage disk show ^]を参照してください。
 
 . 新しい NVMe Flash Cache ファームウェアがインストールされていることを確認します。
 +
@@ -49,7 +49,7 @@ disk     firmware-revision model
 ::*> system controller flash-cache show
 ----
 +
-このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [ システムコントローラ Flash Cache show ] を参照してください。
+このコマンドの詳細については、｛link-with-underscores｝[system controller flash-cache show ^]を参照してください。
 
 
 
@@ -73,7 +73,7 @@ disk     firmware-revision model
 Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ----
 +
-コマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [ system node run ] を参照してください。
+このコマンドの詳細については、｛link-with-underscores｝[system node run ^]を参照してください。
 
 . 新しい ACP ファームウェアが更新されたことを確認します。
 +
@@ -82,7 +82,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ::*> storage shelf acp module show -instance
 ----
 +
-このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp module show] を参照してください。
+このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp module show ^]を参照してください。
 
 . 目的の ACP モードが設定されていることを確認します。
 +
@@ -91,7 +91,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ::*> storage shelf acp show
 ----
 +
-このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp show] を参照してください。
+このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp show ^]を参照してください。
 
 . ACP モード（チャネル）を変更します。
 +
@@ -100,7 +100,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ::*> storage shelf acp configure -channel [in-band | out-of-band]
 ----
 +
-このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp configure] を参照してください。
+このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp configure ^]を参照してください。
 
 
 

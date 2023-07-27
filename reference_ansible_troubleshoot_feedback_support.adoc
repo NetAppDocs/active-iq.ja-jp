@@ -21,8 +21,8 @@ summary: Ansible に関する詳細情報を提供します。
 [role="lead"]
 さまざまなリソースからヘルプを参照したり、詳細情報を確認したりできます。
 
-* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["トラブルシューティング情報"]
-* link:https://netapp.io/["余裕期間ワークスペース"]
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["トラブルシューティング情報"^]
+* link:https://netapp.io/["余裕期間ワークスペース"^]
 * mailto ： ng-active-iq-feedback@netapp.com [ 電子メール ]
 * Digital Advisorのサポートボタンをクリックして、サポートとフィードバックを行います。
 

@@ -65,7 +65,6 @@
   <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">サポート内容が正しくありません</block>
   <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*非技術的なケースを作成する方法を教えてください。*</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">こちらをご覧ください</block>
-  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">をクリックします <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> NetApp Support Siteで「 Non-Technical Feedback Tool 」を開きます。</block>
   <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">[ フィードバックカテゴリ *] ドロップダウンリストから適切なカテゴリを選択します。</block>
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">必要な詳細情報を入力し、 [Comments] ボックスに追加情報を入力します。</block>
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">[Submit （送信） ] をクリックします。</block>
@@ -518,9 +517,7 @@
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">詳細はこちらをご覧ください</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">さまざまなリソースからヘルプを参照したり、詳細情報を確認したりできます。</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">トラブルシューティング情報</block>
-  <block id="36625d4a8e3483d42b841caa5eb55b29" category="list-text"><block ref="36625d4a8e3483d42b841caa5eb55b29" category="inline-link-macro-rx"></block></block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">余裕期間ワークスペース</block>
-  <block id="fef5c7747fd3b7d85ff39f7b27d6f02f" category="list-text"><block ref="fef5c7747fd3b7d85ff39f7b27d6f02f" category="inline-link-macro-rx"></block></block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">mailto ： ng-active-iq-feedback@netapp.com [ 電子メール ]</block>
   <block id="989ffda8482c36243642e39d9d8e50ff" category="summary">AFF および FAS ファームウェアを更新する方法について説明します。</block>
   <block id="439d63cd3905d44125be50793bdd3ab5" category="doc">AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします</block>
@@ -528,9 +525,7 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">作業を開始する前に</block>
   <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">Ansible を使用して AFF および FAS ファームウェアを更新する前に、次の作業を行う必要があります。</block>
   <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">ストレージシステムに Ansible をインストールしてセットアップします</block>
-  <block id="0094d1b9b17f030f70b103864dd666f5" category="list-text"><block ref="0094d1b9b17f030f70b103864dd666f5" category="inline-link-macro-rx"></block></block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">ストレージシステムに Ansible 2.9 とコレクションをインストールします</block>
-  <block id="7e1754c18b818c3a897f7aca76d74aea" category="list-text"><block ref="7e1754c18b818c3a897f7aca76d74aea" category="inline-link-macro-rx"></block></block>
   <block id="b6b47e144c6cacc9e6c8bdaafc85da05" category="list-text">ストレージシステムを ONTAP 9.1 以降にアップグレードします</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">管理者ロールを持つアカウントを設定します</block>
   <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">ダッシュボードでいずれかの健全性ウィジェットをクリックするか、 * すべての操作の表示 * をクリックして、すべての操作とリスクのリストを表示します。</block>
@@ -611,7 +606,6 @@
   <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">* サポートおよびエンタイトルメント * ：有効期限が切れているサポート契約と、 6 ～ 12 か月以内に有効期限が切れているサポート契約が表示されます。サポート終了プラットフォーム、ディスク、シェルフ、使用権のコンプライアンス、有効期限が未設定のものが表示されます。 また、プラットフォームとハードウェアのサポート終了は適用されません。ダッシュボードに表示された健全性チェックのスコアを確認し、重要な推奨事項に基づいて処理を実行できます。これらの処理は優先度の高い順に行われます。サポート契約に関する詳細情報を表示するには、 * サポートおよびエンタイトルメント * ウィジェットをクリックします。このウィジェットを使用してサポート契約を更新することもできます。</block>
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">* ベストプラクティス * ：パフォーマンスと効率性、可用性と保護、容量、構成、セキュリティの脆弱性など、ストレージシステムのベストプラクティス属性を評価することにより、健全性チェックのスコアを表示します。ネットアップのベストプラクティスはシステムヘルスの維持に役立ちます。これにより、インストールベースのパフォーマンスが最適化されます。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp Support Site</block>
-  <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">* テクニカルケース * ：選択可能な期間にわたって、ケースタイプおよびオープンまたはクローズステータス別に、テクニカルケースの履歴を詳細に表示します。ケースグループにドリルダウンしたり、でケースの詳細を確認したりできます <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> またはその他のケースポータル。</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">API サービス機能の概要を示します。</block>
   <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">API サービスを理解する</block>
   <block id="272eb6d717938719a6643dde54a455f1" category="section-title">API カタログ</block>
@@ -640,13 +634,9 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">ネットアップコミュニティ</block>
-  <block id="1881e7a42b09973c0262936d8c6638d6" category="list-text"><block ref="1881e7a42b09973c0262936d8c6638d6" category="inline-link-macro-rx"></block></block>
   <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">ドキュメントに関するリソース</block>
-  <block id="177f8a6daba75aef7ca1dc356f119571" category="list-text"><block ref="177f8a6daba75aef7ca1dc356f119571" category="inline-link-macro-rx"></block></block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">ネットアップ計測データのセキュリティとプライバシー</block>
-  <block id="0c653ba2b8e3812b4f58b7bef8777e11" category="list-text"><block ref="0c653ba2b8e3812b4f58b7bef8777e11" category="inline-link-macro-rx"></block></block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport と AutoSupport オンデマンド</block>
-  <block id="c60726371723b7c1a53a2242c4905f14" category="list-text"><block ref="c60726371723b7c1a53a2242c4905f14" category="inline-link-macro-rx"></block></block>
   <block id="6fda8feb3296b57c0c20a9ab7542ac2a" category="paragraph">ストレージシステムでサポートされるウィジェットについては、次の点に注意してください。</block>
   <block id="fa0a9488678326eeee7398751bbe2d01" category="cell">* ウィジェット *</block>
   <block id="ca4ae4faff37f22c0ffe6a214e8a4b08" category="cell">* お客様 *</block>
@@ -783,21 +773,14 @@
   <block id="5e9c60352a0afc7b5a85da95eb674bae" category="summary">AutoSupport の概要を示します。</block>
   <block id="fef2278ec58d443914c7d16d5c90ecc3" category="paragraph">AutoSupport は、システムの健常性をプロアクティブに監視し、設定、ステータス、パフォーマンス、およびシステムイベントのデータをネットアップに自動的に送信する計測メカニズムです。</block>
   <block id="e66de45ccd9a8afefe101940b4da6485" category="inline-link-macro">AutoSupport をセットアップする</block>
-  <block id="f3bfa02908c2ab879d33330f57dce830" category="paragraph">ONTAP システムでは、ストレージシステムの初回設定時に、 AutoSupport がデフォルトで有効になります。お勧めします <block ref="54fdd8b22a63e736e8b214bc3b8526e0" category="inline-link-macro-rx"></block> ONTAP システムで、テクニカルサポートおよび社内のサポート部門に AutoSupport 情報を送信する方法を制御します。</block>
   <block id="1bbdc300c5fbfb2d1eb6e80bff986bc4" category="paragraph">AutoSupport を有効にしたくない場合は、 AutoSupport のアップロード機能を使用して AutoSupport データを手動でアップロードし、ストレージエコシステムに関する推奨事項や分析情報を入手できます。</block>
   <block id="a91ebd35c5ab5f4627190f49de7d7617" category="admonition">AutoSupport データにユーザデータが含まれることはありません。</block>
   <block id="a6a6e60d8b343bd990173569c80a158f" category="paragraph">AutoSupport の詳細については、該当するドキュメントを参照してください。</block>
   <block id="82433783dcf17ee52968a7749a51c698" category="inline-link-macro">ONTAP （ FAS および AFF ）</block>
-  <block id="4eb0c54aeb98efae14f5e16b29581405" category="list-text"><block ref="4eb0c54aeb98efae14f5e16b29581405" category="inline-link-macro-rx"></block></block>
-  <block id="4ce5f3a0d296000e2119e87731ead543" category="list-text"><block ref="4ce5f3a0d296000e2119e87731ead543" category="inline-link-macro-rx"></block></block>
   <block id="78e23f0a3cc97f9e8278bd679d396bbb" category="inline-link-macro">SANtricity （ E シリーズおよび EF シリーズ）</block>
-  <block id="d2b30e7e13ee44c62d545dde14f5cbb1" category="list-text"><block ref="d2b30e7e13ee44c62d545dde14f5cbb1" category="inline-link-macro-rx"></block></block>
   <block id="cc959aa92b96d7ed4154da16e0bc5de4" category="inline-link-macro">要素（ NetApp HCI および SolidFire ）</block>
-  <block id="4348cd8210353d22e852c9bdde3d5483" category="list-text"><block ref="4348cd8210353d22e852c9bdde3d5483" category="inline-link-macro-rx"></block></block>
   <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">テクニカルレポート - ONTAP AutoSupport and AutoSupport On Demand をご覧ください</block>
-  <block id="68f5446fdc2f2edf829bb787c3f313a0" category="list-text"><block ref="68f5446fdc2f2edf829bb787c3f313a0" category="inline-link-macro-rx"></block></block>
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">テクニカルレポート - ネットアップ計測データのセキュリティとプライバシー</block>
-  <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
   <block id="fba1e9100df562973f55a49a6269cc88" category="summary">システムの容量や、有効期限が切れるソフトウェアやハードウェアを特定するための情報を提供します。</block>
   <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">計画の理解</block>
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">* 計画 * ウィジェットは、容量の使用率が 90% を超えているか、容量の 90% に近づいている容量要件を特定し、期限切れになったソフトウェアやハードウェア、または今後 6 カ月以内に期限切れに近づいているハードウェアを特定するのに役立ちます。ストレージシステムの容量の拡張やハードウェアおよびソフトウェアの更新を要求することができます。</block>
@@ -847,7 +830,6 @@
   <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">Web サーバを使用してホストファームウェアファイルを作成します</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">自動化パッケージをダウンロードしたら、ファームウェアファイルを Web サーバでホストする必要があります。</block>
   <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">Python を使用した Web サーバ</block>
-  <block id="a55312b673d55580b96948865430bf83" category="paragraph">Web サーバは、複数の方法で設定できます。Python を使用して単純な Web サーバをセットアップする手順については、を参照してください <block ref="f42a69e2fd8a191b3a873ea1d9c49de9" category="inline-link-macro-rx"></block>。</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">ステップ</block>
   <block id="f48786c9c76c96752daaf8192b199d06" category="list-text">Web サーバのベース URL を保存します。ディスクファームウェア、シェルフファームウェア、およびサービスプロセッサファームウェアの URL が * 。 http://&lt;web-server&gt;/path/all_shelf_fw.zip* 、 * 。 http://&lt;web-server&gt;/path/all.zip* 、 * 。 http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip* の場合、 * 。 http://&lt;web-server&gt;/path/* をベース URL として保存します。</block>
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">ファイル名は Ansible Playbook で自動的に検出されます。</block>
@@ -892,20 +874,16 @@
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">NetApp Docker がインストールされていることを確認します。</block>
   <block id="98b7373d39b238790c1ff24532e0131d" category="inline-link-macro">Docker をセットアップする</block>
-  <block id="f895e909f4c93c66cfc4db5135b3a996" category="list-text"><block ref="3b2e905f6f93f4d6890d3aa9d597f16a" category="inline-link-macro-rx"></block>。</block>
   <block id="8eecd8834fb5f9cdc5f843b5d2c48c24" category="list-text">次のコマンドを実行して、 DockerHub から NetApp Docker イメージを取得します。</block>
   <block id="037827372e4837bd8ff3497c4130c640" category="inline-link-macro">Docker Pull ドキュメント</block>
-  <block id="237179d55c9b9cc55a2a0fc332940b6e" category="paragraph">Docker Pull コマンドの詳細については、を参照してください <block ref="686c6850e2855d2f1580e6ead4c4d5b9" category="inline-link-macro-rx"></block>。</block>
   <block id="0bc0e3827b53abf3b0f9b0fe7b6c6d6e" category="list-text">Docker イメージをコンテナとして実行し、コンテナにログインして Ansible Playbook を実行してください。</block>
   <block id="7a08031c1198b73a67d7dbbfc0b2b499" category="list-text">抽出した Ansible Playbook とインベントリファイルが格納されているフォルダのパスをコピーします。例： * downloaded_playbook_path * 。Ansible Playbook ファイルとインベントリファイルは、正しく実行するために同じフォルダに格納されている必要があります。</block>
   <block id="cb4d462d21cc15559dc794a881088007" category="list-text">フォルダを Docker コンテナのボリュームとしてマウントします。たとえば、フォルダ * container_path * をマウントするには、次のコマンドを実行する必要があります。</block>
   <block id="b79da91e8b6cad8ff3cbbba97849f5bd" category="inline-link-macro">Docker Run ドキュメント</block>
-  <block id="597afd67fd0e72cb7a70e153b5a0c05b" category="paragraph">コンテナが起動し、コンソールがコンテナの bash シェルに移動します。Docker Run コマンドの詳細については、を参照してください <block ref="2fc7d05c935ff6be555d7f63a536aca5" category="inline-link-macro-rx"></block>。</block>
   <block id="e5552704875aa395a98f606393ed284e" category="list-text">コンテナ内で Ansible Playbook * コマンドを使用して、 Ansible Playbook を実行します。</block>
   <block id="bb478311862b399ec7fa1f80b95d035f" category="admonition">ログインクレデンシャルが異なるクラスタのセットがある場合は、各クラスタで Ansible Playbook を実行する必要があります。Ansible Playbook ではログインに失敗したクラスタがスキップされるため、インベントリファイルの変更は不要です。</block>
   <block id="1714e9fb6abdf2199b4b533dbc09e449" category="inline-link-macro">Ansible プレイブックのドキュメント</block>
   <block id="722b950e7c3cbec69bb9c0beac55297d" category="inline-link-macro">Ansible ：チェックモード</block>
-  <block id="4d4775d2493815cc4f2739862c3cbd05" category="paragraph">* Ansible プレイブック * コマンドの詳細については、を参照してください <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> チェックモード（ dry run ）で Ansible プレイブックを実行する方法については、を参照してください <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>。</block>
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">ファームウェアのインストールの検証</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">Ansible Playbook を実行したら、を参照してください <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 実行後の手順については、を参照してください。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Cluster Viewer についての情報を提供します。</block>
@@ -921,7 +899,6 @@
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API カタログを使用すると、各カテゴリ内のカテゴリや使用可能な API を参照できます。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* 参照 *</block>
-  <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">をクリックします <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-macro-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">API カタログが表示されます。</block>
   <block id="82ee712943040cce957254912d97aba0" category="list-text">任意の API を選択します</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">ページの上部で、トグルを「実験」にスライドします。</block>
@@ -958,7 +935,6 @@
   <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">アグリゲート容量が50%を超えています</block>
   <block id="c052aa26952758956923ba904ca5f96a" category="list-text">「*階層化*」パネルのいずれかのリンクをクリックします。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">FabricPool のベストプラクティス</block>
-  <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">FabricPool の詳細については、を参照してください <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>。</block>
   <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">バックアップとアーカイブ</block>
   <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">クラウドにバックアップするシステムに関する情報が表示されます。NetApp Cloud Backupを使用して、システムを保護し、必要に応じてリストアすることができます。</block>
   <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">クラウドへのバックアップには、次の基準を満たすボリュームが推奨されます。</block>
@@ -1003,33 +979,24 @@
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">NetApp Docker イメージなしで Ansible Playbook を実行</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
   <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
-  <block id="c4d54d13c97f7b21566ce91cf519f7d1" category="list-text">をインストールします <block ref="860a6dcfd65a4cc731e87e6d8725ecef" category="inline-link-macro-rx"></block> および <block ref="086704ee55f1abf90c8de86788d2188f" category="inline-link-macro-rx"></block>。</block>
   <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">* pip * を使用して必要な Python パッケージをインストールします。</block>
   <block id="bc9eaf8dbca65e51b0aa7bd8ddc04278" category="list-text">* Ansible galaxy* コマンドを使用して、 NetApp Ansible コレクションをインストールします。</block>
   <block id="5834961728fb1e8689bb80975152a998" category="inline-link-macro">Ansible Galaxy Documentation を参照してください</block>
   <block id="509364058559184a4e13280292a2e466" category="inline-link-macro">NetApp Ansible のコレクションページ</block>
-  <block id="9be55a0983d66ca9beb418a166d36252" category="paragraph">Ansible galxy コマンドの詳細については、を参照してください <block ref="e4d002c66ffff735092421718e986120" category="inline-link-macro-rx"></block> NetApp Ansible コレクションの詳細については、を参照してください <block ref="ba103299e96a7cc55110b34488ce1c0b" category="inline-link-macro-rx"></block>。</block>
   <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">Ansible Playbook を * Ansible プレイブック * コマンドで実行：</block>
-  <block id="f727e1702f3053598d515b2bdf4b8161" category="paragraph">* Ansible プレイブック * コマンドの詳細については、を参照してください <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> また、 Ansible Playbook をチェックモード（ dry run ）で実行する方法については、を参照してください <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>。</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">プレイブックを実行したら、を参照してください <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 実行後の手順については、を参照してください。</block>
   <block id="d33c547719b131d3de1a17847217be28" category="summary">ファームウェアのインストールを検証する方法について説明します。</block>
   <block id="19f3cc5c7d290cca42fee095792dee18" category="doc">ファームウェアのインストールを確認</block>
   <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">プレイブックの実行後、クラスタ管理者としてクラスタにログインします。</block>
   <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">ディスクファームウェアのインストールを検証する</block>
   <block id="3083d2c1ae7f9607307c4933fafac051" category="list-text">ドライブファームウェアがインストールされていることを確認します。</block>
-  <block id="ddaf90ba9130735e22c69470b8ca1105" category="paragraph">コマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage disk show] を参照してください。</block>
   <block id="4a291709986e76671c4e1ef51ec0498d" category="list-text">新しい NVMe Flash Cache ファームウェアがインストールされていることを確認します。</block>
-  <block id="e369aca69b6564e01b781fd587d2025c" category="paragraph">このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [ システムコントローラ Flash Cache show ] を参照してください。</block>
   <block id="66db453df531af0a73add1cbbef1ceb6" category="section-title">シェルフファームウェアのインストールを検証する</block>
   <block id="894f02f1db5e6fbe18ce3d45767d3756" category="list-text">新しいシェルフファームウェアが更新されたことを確認します。</block>
   <block id="2d77282afafc6d5db219df50ea65e332" category="paragraph">の出力で、各シェルフのファームウェアが目的のレベルに更新されたことを確認します。例：</block>
-  <block id="b30a1cfbe7a32d2e40e04190f7966a31" category="paragraph">コマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [ system node run ] を参照してください。</block>
   <block id="416af856ff2ea6b6a1bf3e9296eb34d8" category="list-text">新しい ACP ファームウェアが更新されたことを確認します。</block>
-  <block id="caa63608d42a3d23018646f69df48ac9" category="paragraph">このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp module show] を参照してください。</block>
   <block id="f1ac933796d7e8a621dc4f778e1ca2a9" category="list-text">目的の ACP モードが設定されていることを確認します。</block>
-  <block id="2c24f319b514a723a1df15f5012dac8a" category="paragraph">このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp show] を参照してください。</block>
   <block id="7803d493a86a46af8da6da871f5b8190" category="list-text">ACP モード（チャネル）を変更します。</block>
-  <block id="2852ca69aef82e487818a169ee3f9ab5" category="paragraph">このコマンドの詳細については、 ｛ link-with -アンダー スコア ｝ [storage shelf acp configure] を参照してください。</block>
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">SP / BMC ファームウェアのインストールを検証しています</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">サービスプロセッサ / BMC ファームウェアの更新の Ansible Playbook は有効になっており、コントローラへの最新の SP/BMC ファームウェアのインストールを確認するオプションがあります。検証が完了すると（更新に最長で 2 時間かかる場合があります）、 Ansible Playbook は、 SP / BMC コンソールに接続することで、内部スイッチファームウェアの更新版を適用します。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">SP / BMC ファームウェアおよび内部スイッチファームウェアのインストールに関する障害と成功の情報は、 Ansible Playbook の実行後に通知されます。SP / BMC ファームウェア / 内部スイッチファームウェアのインストールが失敗した場合は、 Ansible Playbook に記載されている手順に従ってください。</block>
@@ -1082,8 +1049,6 @@
   <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">* Inventory * ウィジェットには、所有する合計システムのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Digital Advisorにログインするための情報を提供します。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Digital Advisorにログインします</block>
-  <block id="37590f3349dc615946e2bde66219f592" category="paragraph">Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします <block ref="967ddad47d4311162e2dc8cf03423cdc" category="inline-link-macro-rx"></block>。</block>
-  <block id="45f615e2033fe61475056e1d49532aee" category="list-text">をクリックします <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-macro-rx"></block> Digital Advisorにアクセスします。</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。</block>
   <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">このデータは、ネットアップテクニカルサポートが問題の診断と解決を高速化するために使用し、Digital Advisorが潜在的な問題をプロアクティブに検出して回避するために使用します。また、社内のサポート部門やサポートパートナーにも送信できます。</block>
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">Digital Advisorは、AutoSupport データが60日以内のシステムについてのみAutoSupport 関連データを表示します。</block>
@@ -1122,7 +1087,6 @@
   <block id="78922dd3155059d302d1fdc4e6e2d629" category="paragraph">* Digital Advisorに関するフィードバックやその他の質問はどのようにして行いますか。*</block>
   <block id="8ddbb4960ae1ce3eafd141c7e16ad702" category="paragraph">* Digital AdvisorでStorage Efficiencyにアクセスする方法を教えてください。*</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="inline-link-macro">Digital Advisor</block>
-  <block id="72ad3932c594cc8330139ca85deb062e" category="list-text">のホームページを開きます <block ref="b14a1f08a6d5b6b71c0d3622c0d1ab6d" category="inline-link-macro-rx"></block>。</block>
   <block id="2206003195e83e7dfa4c2c9011926729" category="paragraph">* Digital Advisorには、すべてのONTAP システムの比率が表示されますか。*</block>
   <block id="2c66ccfb9136989ebd0b2f7794383ba0" category="paragraph">ONTAP 9.1以降を実行しているシステムの比率が表示されます。</block>
   <block id="1d12326dce386ed19f23df20370e5e13" category="paragraph">デフォルトでは、Digital Advisor Efficiency Dashboardは、お客様レベル、サイトレベル、グループレベル、クラスタレベル、ノードレベルの各ノードレベルで総削減率を計算します。全体的な削減率には、次の Storage Efficiency テクノロジによる削減率が含まれます。</block>
@@ -1331,5 +1295,43 @@ BlueXPの左側のナビゲーションにある* Governance *カテゴリから
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">* Digital Advisorで特定のシステムが見つからないのはなぜですか？*
 次のいずれかの理由で、特定のシステムを検索したりインベントリページに表示したりできない場合があります。</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">非アクティブなシステム、アーカイブされたシステム、またはSAPで運用停止されたシステム</block>
-  <block id="6d3911d1bc35c7abc342f54857e32dcf" category="paragraph">その他の理由でシステムを表示できない場合、クエリを使用している場合、またはアクセスを要求したい場合は、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。テクニカル以外のケースの詳細については、をクリックしてください <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="166fa8245082188f0cd75088bb36f5db" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage disk show ^]を参照してください。</block>
+  <block id="2c27c44b6d1d0ed255845c9ffa447dbe" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[system controller flash-cache show ^]を参照してください。</block>
+  <block id="752e94f47e519cd2bf16fec09ad9f470" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[system node run ^]を参照してください。</block>
+  <block id="90542ff9ec5b690c4ff349a953987a9f" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp module show ^]を参照してください。</block>
+  <block id="c45f42f02d2bf7bd92e0d26534723c80" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp show ^]を参照してください。</block>
+  <block id="d2a56416e501bf47a267c5eb4f202014" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp configure ^]を参照してください。</block>
+  <block id="f3ffec30d4e62fd6b4663ba215a643ed" category="list-text">をクリックします <block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block> NetApp Support Siteで「 Non-Technical Feedback Tool 」を開きます。</block>
+  <block id="3e77ec7dcefb3407f7a4b7c4b8051d1e" category="list-text">のホームページを開きます <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block>。</block>
+  <block id="8dd3258635f25ed56f238af521960f2b" category="paragraph">その他の理由でシステムを表示できない場合、クエリを使用している場合、またはアクセスを要求したい場合は、 <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>。テクニカル以外のケースの詳細については、をクリックしてください <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>。</block>
+  <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">Docker Pull コマンドの詳細については、を参照してください <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>。</block>
+  <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">コンテナが起動し、コンソールがコンテナの bash シェルに移動します。Docker Run コマンドの詳細については、を参照してください <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>。</block>
+  <block id="2a0dd6c3bcb96a2f49ec6fd9a82e2f4a" category="paragraph">* Ansible プレイブック * コマンドの詳細については、を参照してください <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> チェックモード（ dry run ）で Ansible プレイブックを実行する方法については、を参照してください <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
+  <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
+  <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
+  <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web サーバは、複数の方法で設定できます。Python を使用して単純な Web サーバをセットアップする手順については、を参照してください <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
+  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">をクリックします <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
+  <block id="6300a3453f44e919baf2a9aa05a8acaf" category="paragraph">WebベースのコンソールからDigital Advisorにログインすると、ストレージシステム全体のステータスを表示するための監視リストを作成できます。</block>
+  <block id="315ad4061cc238e6dcb01825e9ab9572" category="inline-link-macro">アカウントの作成</block>
+  <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントを持っておらず、開始しようとしている場合は、に進みます。 <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>。</block>
+  <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">にアクセスします <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> ログインページ。</block>
+  <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">ONTAP システムでは、ストレージシステムの初回設定時に、 AutoSupport がデフォルトで有効になります。お勧めします <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> ONTAP システムで、テクニカルサポートおよび社内のサポート部門に AutoSupport 情報を送信する方法を制御します。</block>
+  <block id="c69712b80ef7bcc235093f9221047c47" category="list-text"><block ref="c69712b80ef7bcc235093f9221047c47" category="inline-link-macro-rx"></block></block>
+  <block id="0ecea5b3f45d0b317fc17c67ecadeec6" category="list-text"><block ref="0ecea5b3f45d0b317fc17c67ecadeec6" category="inline-link-macro-rx"></block></block>
+  <block id="2c4b22e05e691d4ce96f7b4e3c02df4c" category="list-text"><block ref="2c4b22e05e691d4ce96f7b4e3c02df4c" category="inline-link-macro-rx"></block></block>
+  <block id="cbf41252f5082da209304e5ca48c34d8" category="list-text"><block ref="cbf41252f5082da209304e5ca48c34d8" category="inline-link-macro-rx"></block></block>
+  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
+  <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
+  <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">FabricPool の詳細については、を参照してください <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
+  <block id="c9a7e25beb9575351b078da21d059517" category="list-text">* テクニカルケース * ：選択可能な期間にわたって、ケースタイプおよびオープンまたはクローズステータス別に、テクニカルケースの履歴を詳細に表示します。  ケースグループにドリルダウンしたり、でケースの詳細を確認したりできます <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> またはその他のケースポータル。</block>
+  <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">をインストールします <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> および <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>。</block>
+  <block id="4bdc49aacf883a14a18411273872ee96" category="paragraph">Ansible galxy コマンドの詳細については、を参照してください <block ref="037b694376946e6e330c847bc4e48449" category="inline-link-macro-rx"></block> NetApp Ansible コレクションの詳細については、を参照してください <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>。</block>
+  <block id="85da219929dec7990a12ce28aff47903" category="paragraph">* Ansible プレイブック * コマンドの詳細については、を参照してください <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> また、 Ansible Playbook をチェックモード（ dry run ）で実行する方法については、を参照してください <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
+  <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
+  <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
+  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
+  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
+  <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
+  <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
 </blocks>

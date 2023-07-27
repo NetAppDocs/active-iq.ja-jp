@@ -19,10 +19,13 @@ summary: Digital Advisorにログインするための情報を提供します�
 
 
 [role="lead"]
-Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントをお持ちでなく、利用を開始する場合は、をクリックします link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["こちらをご覧ください"]。
+WebベースのコンソールからDigital Advisorにログインすると、ストレージシステム全体のステータスを表示するための監視リストを作成できます。
+
+.作業を開始する前に
+Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントを持っておらず、開始しようとしている場合は、に進みます。 link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["アカウントの作成"^]。
 
 .手順
-. をクリックします link:https://activeiq.netapp.com/?source=onlinedocs["こちらをご覧ください"] Digital Advisorにアクセスします。
+. にアクセスします link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] ログインページ。
 +
 Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。
 

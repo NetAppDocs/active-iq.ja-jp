@@ -68,7 +68,7 @@ NOTE: Inactive Data Reporting （ IDR ）を有効にして、 Ansible Playbook 
 . [Tier Data](階層データ)をクリックして'BlueXP*を起動します
 
 
-FabricPool の詳細については、を参照してください link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool のベストプラクティス"]。
+FabricPool の詳細については、を参照してください link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool のベストプラクティス"^]。
 
 
 

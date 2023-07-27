@@ -21,7 +21,7 @@ summary: Web サーバを使用してファームウェアファイルをホス�
 [role="lead"]
 自動化パッケージをダウンロードしたら、ファームウェアファイルを Web サーバでホストする必要があります。
 
-Web サーバは、複数の方法で設定できます。Python を使用して単純な Web サーバをセットアップする手順については、を参照してください link:https://docs.python.org/3/library/http.server.html["Python を使用した Web サーバ"]。
+Web サーバは、複数の方法で設定できます。Python を使用して単純な Web サーバをセットアップする手順については、を参照してください link:https://docs.python.org/3/library/http.server.html["Python を使用した Web サーバ"^]。
 
 .ステップ
 . Web サーバのベース URL を保存します。ディスクファームウェア、シェルフファームウェア、およびサービスプロセッサファームウェアの URL が * 。 http://<web-server>/path/all_shelf_fw.zip* 、 * 。 http://<web-server>/path/all.zip* 、 * 。 http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip* の場合、 * 。 http://<web-server>/path/* をベース URL として保存します。
