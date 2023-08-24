@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: BlueXPまたはDigital Advisorからアクセスして、BlueXPの持続可能性ダッシュボードを使い始めましょう。 
+---
+= Sustainabilityダッシュボードの使用を開始する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。NetApp BlueXPまたはデジタルアドバイザを使用して、Sustainabilityダッシュボードを表示できます。
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。の詳細を確認してください link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["BlueXPへのログイン"^]。
+
+.手順
+. Webブラウザを開き、 link:https://console.bluexp.netapp.com/["BlueXPコンソール"^]。
+NetApp BlueXPのログインページが表示されます。
+. BlueXPにログインします。
+. BlueXPの左側のナビゲーションで、* Governance *>* Sustainability *を選択します。
+  Sustainabilityダッシュボードが表示されます。
+  [+]
+image:sustainability_dashboard_bluexp.png["BlueXPの持続可能性ダッシュボードの概要を示すUIスクリーンショット。"]
+
+
+
+NOTE: Sustainabilityダッシュボードが設定されていない場合は、*[Add NSS account]*オプションが表示されます。NetApp Support Site（NSS）の資格情報を入力して、Sustainabilityダッシュボードとアカウントに関連付けられているシステムを表示します。
+
+--
+.Digital Advisor
+--
+Digital Advisorにログインするには、NetApp Support Siteクレデンシャルを使用できます。
+
+.手順
+. Webブラウザを開き、 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] ログインページ。
+. ユーザー名とパスワードを入力し、 * サインイン * をクリックします。
+. 左側のナビゲーションで、* storage health *>* Sustainability *を選択します。
++
+image:sustainability_dashboard.png["サステナビリティダッシュボードの概要を示すUIスクリーンショット。"]
+
+
+
+
+NOTE: 監視リストが設定されていない場合、* Sustainability *オプションは無効になります。これを有効にするには、監視リストを作成するか、お客様名、サイト名、グループ名、StorageGRID、ホスト名、 クラスタ、シリアル番号、またはシステムID。 link:concept_overview_dashboard.html["監視リストの詳細"]。
+
+--
+====

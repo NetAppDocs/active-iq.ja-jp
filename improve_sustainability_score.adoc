@@ -1,0 +1,145 @@
+---
+sidebar: sidebar 
+permalink: improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level 
+summary: 推奨されるアクションを通じて、持続可能性スコアを改善するための手順を示します。 
+---
+= 持続可能性スコアの向上
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sustainabilityダッシュボードは、Sustainabilityスコアを改善するために使用できる推奨アクションを生成します。これらの推奨アクションは、NetApp BlueXPまたはデジタルアドバイザから確認して実装できます。
+
+全体的な持続可能性スコアとクラスタレベルの持続可能性スコアを改善できます。
+
+
+NOTE: 全体的な持続可能性スコアとクラスタレベルの持続可能性スコアを計算するには、AutoSupportを有効にする必要があります。
+
+
+
+== 全体的な持続可能性スコアの向上
+
+以下の手順に従って、全体的な持続可能性スコアを改善し、企業レベルでの持続可能性への取り組みに焦点を当てます。
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. BlueXPの左側のナビゲーションにある* Governance *カテゴリの* Sustainability *に移動します。
+. [推奨される対処方法]タブに移動します。
++
+** これらのアクションをすぐに実行するには*[修正]*を選択し、後で対処するには*[後で]*を選択します。
+** アクションにすぐに対処する場合は、*[修正]*を選択します。
++
+*** 選択した推奨アクションのビューが展開されます。下矢印を使用して、推奨される対処方法の表示を展開することもできます。展開ビューでは、* Fix *オプションを使用すると、クラスタ名、持続可能性スコア、およびそれに続く増加が表示されます。
+  [+]
+image:recommended_actions.png["展開ビューにアクションのリストを表示するスクリーンショット。"]
+
+
+** 後で対処する場合は、* Later *を選択します。
++
+*** * Later *を選択すると、選択した推奨アクションが* Actions for Later *タブに移動します。選択したアクションは30日間延期されます。30日後、このアクションは*推奨アクション*タブに移動します。
+*** また、延期されたアクションをいつでも確認でき、* Consider *をクリックして* Recommended actions *タブに移動することもできます。
+ [+]
+image:actions_for_later.png["[Consider]オプションを使用した推奨アクションを示すスクリーンショット。"]
+
+
+
+
+
+
+--
+.Digital Advisor
+--
+. Digital Advisorダッシュボードの左側のナビゲーションにある* storage health *カテゴリから* Sustainability *に移動します。
+. [推奨される対処方法]タブに移動します。
++
+** これらのアクションをすぐに実行するには*[修正]*を選択し、後で対処するには*[後で]*を選択します。
+** アクションにすぐに対処する場合は、*[修正]*を選択します。
++
+*** 選択した推奨アクションのビューが展開されます。下矢印を使用して、推奨される対処方法の表示を展開することもできます。展開ビューでは、* Fix *オプションを使用すると、クラスタ名、持続可能性スコア、およびそれに続く増加が表示されます。
+  [+]
+image:recommended_actions.png["展開ビューにアクションのリストを表示するスクリーンショット。"]
+
+
+** 後で対処する場合は、* Later *を選択します。
++
+*** * Later *を選択すると、選択した推奨アクションが* Actions for Later *タブに移動します。選択したアクションは30日間延期されます。30日後、このアクションは*推奨アクション*タブに移動します。
+*** また、延期されたアクションをいつでも確認でき、* Consider *をクリックして* Recommended actions *タブに移動することもできます。
+ [+]
+image:actions_for_later.png["[Consider]オプションを使用した推奨アクションを示すスクリーンショット。"]
+
+
+
+
+
+
+--
+====
+
+
+== クラスタレベルで持続可能性のスコアを向上
+
+次の手順に従って、特定のクラスタの持続可能性の向上に重点を置いたクラスタレベルの持続可能性スコアを向上させることができます。
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. BlueXPの左側のナビゲーションにある* Governance *カテゴリの* Sustainability *に移動します。
+. Working Environments *テーブルに移動します。
+. ターゲットクラスタの*[推奨される操作]*列で操作の数をクリックします。
++
+image:recommended_actions_cluster.png["アクションの数を示すスクリーンショット。"]
+
++
+** これらのアクションをすぐに実行するには*[修正]*を選択し、後で対処するには*[後で]*を選択します。
++
+image:recommended_actions_list.png["推奨される対処方法の詳細と修正後のオプションが表示されたスクリーンショット。"]
+
+** * Later *を選択すると、選択した推奨アクションが* Actions for Later *タブに移動します。選択したアクションは30日間延期されます。30日後、このアクションは*推奨アクション*タブに移動します。
+** また、延期されたアクションをいつでも確認でき、* Consider *をクリックして* Recommended actions *タブに移動することもできます。
+
+
+
+
+
+TIP: [作業環境（Working Environments）]テーブルで環境パラメータを追加または削除するには、 image:add_icon.png["パラメータを追加または削除するためのプラスアイコン"] アイコンをクリックし、このテーブルをカンマ区切り値（.csv）形式でエクスポートするには、 image:download_icon.png["パラメーターをエクスポートするためのダウンロードシンボル"] をクリックします。
+
+--
+.Digital Advisor
+--
+. Digital Advisorダッシュボードの左側のナビゲーションにある* storage health *カテゴリから* Sustainability *に移動します。
+. [推奨される対処方法]タブに移動します。
+. Working Environments *テーブルに移動します。
+. ターゲットクラスタの*[推奨される操作]*列で操作の数をクリックします。
++
+image:recommended_actions_cluster.png["アクションの数を示すスクリーンショット。"]
+
++
+** これらのアクションをすぐに実行するには*[修正]*を選択し、後で対処するには*[後で]*を選択します。
++
+image:recommended_actions_list.png["推奨される対処方法の詳細と修正後のオプションが表示されたスクリーンショット。"]
+
+** * Later *を選択すると、選択した推奨アクションが* Actions for Later *タブに移動します。選択したアクションは30日間延期されます。30日後、このアクションは*推奨アクション*タブに移動します。
+** また、延期されたアクションをいつでも確認でき、* Consider *をクリックして* Recommended actions *タブに移動することもできます。
+
+
+
+
+
+TIP: [作業環境（Working Environments）]テーブルで環境パラメータを追加または削除するには、 image:add_icon.png["パラメータを追加または削除するためのプラスアイコン"] アイコンをクリックし、このテーブルをカンマ区切り値（.csv）形式でエクスポートするには、 image:download_icon.png["パラメーターをエクスポートするためのダウンロードシンボル"] をクリックします。
+
+--
+====

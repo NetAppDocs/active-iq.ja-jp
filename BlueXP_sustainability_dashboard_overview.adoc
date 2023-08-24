@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: BlueXP_sustainability_dashboard_overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: ダッシュボード、持続可能性スコア、作業環境、推奨される対処方法に関する情報が表示されます。 
+---
+= Sustainabilityダッシュボードの概要
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+持続可能性ダッシュボードには、ストレージシステムの環境評価と、ネットアップが推奨するアクションの形で改善に役立つ実用的なインサイトが表示されます。
+
+image:get_started_sustainability_dashboard.png["持続可能性ダッシュボードを示すUIスクリーンショット。"]
+
+
+NOTE: ダッシュボードから最良の結果を得るには、AutoSupportを有効にする必要があります。AutoSupportが有効になっていない場合、データは製品仕様に基づきます。リアルタイムの電力詳細を取得するには、Cloud Insightsを有効にする必要があります。Cloud Insightsを有効にする方法の詳細については、を参照してください。 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
+
+* Sustainability score *：ストレージシステムの環境の持続可能性を示す合計スコアが表示されます。ストレージシステムの持続可能性レベルは、次の範囲に基づいて評価できます。
+
+* 76-100:持続可能性が最優先事項であることを示します。
+* 51-75:持続可能性イニシアチブへの高いレベルの投資を示しています。
+* 26-50:持続可能性イニシアティブに向けた良い進展を示している。
+* 25未満:持続可能性慣行の改善の必要性を示しています。
+
+
+週ごとに更新される最大5週間のスコアのグラフィック表示が表示されます。グラフにカーソルを合わせると、持続可能性スコアの増減の理由を確認することもできます。
+
+image:sustainability_score.png["持続可能性スコアとグラフを示すスクリーンショット。"]
+
+*環境インジケータ*：電力、直接的な炭素使用量、および熱放出の予測を表示して、ストレージシステムの環境状態を評価します。これらの予測は、実際の電力（使用できない場合）の標準電力値に基づいています。これらの予測は、このセクションの右上にあるドロップダウンから希望するオプションを選択して、月単位、四半期単位、または年単位で表示できます。
+
+*Carbon Mitigation Percentages *:各サイト/都市での炭素緩和のパーセンテージが表示されます。表示されるベースライン値は、所在地に基づいています。特定のサイトの炭素緩和率を調整するには、をクリックします image:edit_icon_1.png["編集可能なアイコンを示すスクリーンショット。"] パーセント値の横にあるアイコンをクリックすると、それに応じて炭素数が自動的に調整されます。
+
+image:carbon_mitigation_percentage.png["サイトの炭素緩和の割合とこの割合を編集する方法を示すスクリーンショット。"]
+
+*推奨される対処方法*：ストレージシステムの持続可能性スコアを向上させるための推奨される対処方法のリストを表示します。これらのアクションはすぐに実行することも、あとで実行することもできます。
+持続可能性スコアを向上させる方法の詳細については、を参照してください。 link:improve_sustainability_score.html["持続可能性スコアの向上"]。
+
+*作業環境*：より効率的なストレージに移動するクラスタを特定するのに役立つ環境パラメータが表に表示されます。このテーブルでは、次の操作を実行できます。
+
+* クラスタレベルの持続可能性スコアを表示し、* ClusterViewer *にアクセスするクラスタ名を選択して、持続可能性を向上させるための具体的な推奨措置を実行します。詳細については、を参照してください link:improve_sustainability_score.html["クラスタレベルで持続可能性のスコアを向上"]。
++
+image:working_environments.png["さまざまな環境パラメータを示すUIのスクリーンショット"]
+
+* リアルタイムの電力の詳細をクラスタレベルで表示するには、* Real-time power *列から監視を有効にします。詳細については、を参照してください link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
+

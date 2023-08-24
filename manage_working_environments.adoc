@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: manage_working_environments.html 
+keywords: activeiq, sustainability dashboard, sustainability score, clusterviewer, cloud insights, working environments 
+summary: は、より効率的なストレージに移動できるクラスタを特定するのに役立つ、作業環境のさまざまな環境パラメータに関する情報を示しています。 
+---
+= 作業環境の管理
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Working Environments *表には、より効率的なストレージに移動できるクラスタを特定するのに役立つさまざまな環境パラメータが含まれています。環境パラメータを追加または削除して、*作業環境*テーブルをカスタマイズできます。
+
+持続可能性スコアはクラスタレベルで分析できます。インストールベースのクラスタレベルで推奨される対処方法を実装して、クラスタレベルの持続可能性スコアを向上させることもできます。詳細については、を参照してください link:improve_sustainability_score.html["クラスタレベルで持続可能性のスコアを向上"]。
+
+[Working Environments]テーブルをカスタマイズして理解を深めるには、次の手順を実行します。
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. BlueXPの左側のナビゲーションにある* Governance *カテゴリの* Sustainability *に移動します。
+. Working Environments *テーブルに移動します。
++
+** 環境パラメーターを追加または削除して、*作業環境*テーブルをカスタマイズできます。 image:add_icon.png["パラメータを追加または削除するためのプラスアイコン"] をクリックします。
+** クラスタレベルの持続可能性スコアを表示し、* ClusterViewer *にアクセスするクラスタ名を選択して、ここから具体的な推奨アクションを実行して、クラスタレベルの持続可能性スコアを向上させることができます。詳細については、を参照してください link:improve_sustainability_score.html["クラスタレベルで持続可能性のスコアを向上"]。
+** [Real-time power]列で*[Enable Monitoring]*を選択すると、リアルタイムの電力の詳細をクラスタレベルで表示できます。詳細については、を参照してください link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
+  [+]
+image:working_environments.png["さまざまな環境パラメータを示すUIのスクリーンショット"]
+** このテーブルをカンマ区切り値（.csv）形式でエクスポートするには、 image:download_icon.png["パラメーターをエクスポートするためのダウンロードシンボル"] をクリックします。
+
+
+
+
+--
+.Digital Advisor
+--
+. Digital Advisorダッシュボードの左側のナビゲーションにある* storage health *カテゴリから* Sustainability *に移動します。
+. Working Environments *テーブルに移動します。
++
+** 環境パラメーターを追加または削除して、*作業環境*テーブルをカスタマイズできます。 image:add_icon.png["パラメータを追加または削除するためのプラスアイコン"] をクリックします。
+** クラスタレベルの持続可能性スコアを表示し、* ClusterViewer *にアクセスするクラスタ名を選択して、ここから具体的な推奨アクションを実行して、クラスタレベルの持続可能性スコアを向上させることができます。詳細については、を参照してください link:improve_sustainability_score.html["クラスタレベルで持続可能性のスコアを向上"]。
+** [Real-time power]列で*[Enable Monitoring]*を選択すると、リアルタイムの電力の詳細をクラスタレベルで表示できます。詳細については、を参照してください link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
+  [+]
+image:working_environments.png["さまざまな環境パラメータを示すUIのスクリーンショット"]
+** このテーブルをカンマ区切り値（.csv）形式でエクスポートするには、 image:download_icon.png["パラメーターをエクスポートするためのダウンロードシンボル"] をクリックします。
+
+
+
+
+--
+====

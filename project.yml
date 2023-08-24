@@ -65,6 +65,16 @@ sidebar:
       url: "/task_renew_software_and_hardware.html"
     - title: クラスタとノードの健全性を分析します
       url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: ストレージシステムの持続可能性を分析します
+    entries:
+    - title: 持続可能性の詳細
+      url: "/learn_BlueXP_sustainability.html"
+    - title: Sustainabilityダッシュボードの使用を開始する
+      url: "/get_started_sustainability_dashboard.html"
+    - title: Sustainabilityダッシュボードの概要
+      url: "/BlueXP_sustainability_dashboard_overview.html"
+    - title: 持続可能性スコアの向上
+      url: "/improve_sustainability_score.html"
   - title: システムの詳細を表示します
     entries:
     - title: インベントリの詳細を表示します
@@ -113,12 +123,6 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: サポート契約の更新
       url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: ストレージシステムの持続可能性を分析します
-    entries:
-    - title: BlueXP持続可能性サービスの詳細をご確認ください
-      url: "/concept_understand_sustainability_dashboard.html"
-    - title: Sustainability Dashboardの使用を開始します
-      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: アップグレードしてインストールベースを最適化します
     entries:
     - title: ストレージシステムの ONTAP バージョンをアップグレードします
