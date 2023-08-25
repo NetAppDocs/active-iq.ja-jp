@@ -42,7 +42,7 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 === Sustainability Dashboard
 
-Sustainability Dashboardは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性スコアを評価することで、ストレージシステム全体の効率性を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 link:concept_understand_sustainability_dashboard.html["詳細はこちら。"]。
+Sustainability Dashboardは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性スコアを評価することで、ストレージシステム全体の効率性を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["詳細はこちら。"]。
 
 
 
@@ -78,7 +78,7 @@ AFF Aシリーズ、AFF C190、オールSANアレイ、ONTAP 9.10以降を実行
 
 === Digital AdvisorとBlueXPの統合
 
-Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 link:digital-advisor-integration-with-bluexp.html["詳細はこちら。"]。
+Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["詳細はこちら。"]。
 
 
 
@@ -88,7 +88,7 @@ Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイ�
 
 === 在庫
 
-vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 link:task-integrating-with-cloud-insights-to-view-vm-details.html["詳細をご確認ください"]。
+vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 link:https://docs.netapp.com/us-en/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html["詳細をご確認ください"]。
 
 
 
@@ -140,7 +140,7 @@ StorageGRID 用の情報ライフサイクル管理（ILM）は、グリッド�
 
 === クラウドに関する推奨事項
 
-SnapMirrorデータレプリケーションを使用してNetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 、およびNetApp Cloud Backup（旧称AltaVault ）に移動できるワークロードとそのボリュームに関する推奨事項を提供します。 link:task-informed-decisions-based-on-cloud-recommendations.html["詳細をご確認ください"]。
+SnapMirrorデータレプリケーションを使用してNetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 、およびNetApp Cloud Backup（旧称AltaVault ）に移動できるワークロードとそのボリュームに関する推奨事項を提供します。 link:https://docs.netapp.com/us-en/active-iq/task-informed-decisions-based-on-cloud-recommendations.html["詳細をご確認ください"]。
 
 
 
@@ -249,7 +249,8 @@ BlueXPユーザーは、Digital Advisorの既存の機能と同様に、必要�
 === Config Drift
 
 * テンプレートを複製して、元のテンプレートのコピーを作成できます。
-* ゴールデンテンプレートは、これらのテンプレートに読み取り専用またはフルアクセスして、他の使用権のあるユーザと共有できます。link:task_manage_template.html["詳細をご確認ください"]。
+* ゴールデンテンプレートは、これらのテンプレートに読み取り専用またはフルアクセスして、他の使用権のあるユーザと共有できます。
+link:https://docs.netapp.com/us-en/active-iq/task_manage_template.html["詳細をご確認ください"]。
 
 
 
@@ -318,7 +319,7 @@ NetApp Cloud Insights で管理および監視されるシステムのストレ�
 
 === Ansible のインベントリ
 
-地域およびサイトレベルで、 .yml および .ini ファイル形式で Ansible インベントリファイルを生成できるようになりました。 link:task_view_inventory_details.html["詳細をご確認ください"]。
+地域およびサイトレベルで、 .yml および .ini ファイル形式で Ansible インベントリファイルを生成できるようになりました。 link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["詳細をご確認ください"]。
 
 
 
@@ -330,7 +331,7 @@ FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアク�
 
 === ドリフトタイムラインレポート
 
-過去 90 日間の AutoSupport データを比較して、ドリフトタイムラインレポートを生成できます。 link:task_generate_drift_timeline_report.html["詳細をご確認ください"]。
+過去 90 日間の AutoSupport データを比較して、ドリフトタイムラインレポートを生成できます。 link:https://docs.netapp.com/us-en/active-iq/task_generate_drift_timeline_report.html["詳細をご確認ください"]。
 
 
 
@@ -438,7 +439,7 @@ Cluster Viewer の表示タブで、ケーブル接続の問題やその他の�
 
 === 容量の予測
 
-容量予測ウィジェットが更新され、システムの再構成を改善するアルゴリズムが追加されました。 link:reference_aiq_faq.html#capacity["詳細はこちら。"]。
+容量予測ウィジェットが更新され、システムの再構成を改善するアルゴリズムが追加されました。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#capacity["詳細はこちら。"]。
 
 
 
@@ -518,7 +519,7 @@ ONTAP のメジャーバージョンおよびパッチバージョンと一緒�
 === サポートサービスのアップグレード
 
 * ユーザーインタフェースが拡張され、Digital Advisorで登録した特定のサポートサービスが表示されるようになりました。
-* システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 link:task_upgrade_support_offering.html["詳細をご確認ください"]。
+* システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 link:https://docs.netapp.com/us-en/active-iq/task_upgrade_support_offering.html["詳細をご確認ください"]。
 
 
 
@@ -589,15 +590,15 @@ Storage VM 内のすべてのボリュームについて、曜日、週、また
 
 === 容量追加リクエストのためのドリフトチャット
 
-容量追加リクエストをリアルタイムでサポートするには、ダッシュボードから直接販売員とチャットします。 link:task_identify_capacity_system.html["詳細をご確認ください"]。
+容量追加リクエストをリアルタイムでサポートするには、ダッシュボードから直接販売員とチャットします。 link:https://docs.netapp.com/us-en/active-iq/task_identify_capacity_system.html["詳細をご確認ください"]。
 
 
 
 == 2021 年 4 月 29 日
 
-* ハッカーやランサムウェア攻撃からシステムを保護する方法をご紹介します。 link:task_increase_protection_against_hackers_and_Ransomware_attacks.html["詳細をご確認ください"]。
-* ダウンタイムを回避し、データ損失を回避できます。 link:task_avoid_the_downtime_and_possible_data_loss.html["詳細をご確認ください"]。
-* ボリュームがいっぱいにならないようにしてシステム停止を回避する方法をご確認ください。 link:task_avoid_a_volume_filling_up_to_prevent_an_outage.html["詳細をご確認ください"]。
+* ハッカーやランサムウェア攻撃からシステムを保護する方法をご紹介します。 link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["詳細をご確認ください"]。
+* ダウンタイムを回避し、データ損失を回避できます。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["詳細をご確認ください"]。
+* ボリュームがいっぱいにならないようにしてシステム停止を回避する方法をご確認ください。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html["詳細をご確認ください"]。
 
 
 
@@ -622,7 +623,7 @@ Digital Advisorに初めてアクセスする場合は、ダッシュボード�
 
 * テンプレートの作成時に属性を編集できます。
 * AutoSupport セクションのグループ化。
-* 構成のドリフトレポートを顧客、サイト、グループ、監視リスト、クラスタ全体にわたって生成またはスケジュール設定する とホスト名です。 link:task_compare_config_drift_template.html["詳細をご確認ください"]。
+* 構成のドリフトレポートを顧客、サイト、グループ、監視リスト、クラスタ全体にわたって生成またはスケジュール設定する とホスト名です。 link:https://docs.netapp.com/us-en/active-iq/task_compare_config_drift_template.html["詳細をご確認ください"]。
 
 
 
@@ -695,7 +696,7 @@ FabricPool ダッシュボードに階層データボタンが追加され、Net
 
 === API を使用したデータの統合
 
-Digital Advisor APIを使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 link:concept_overview_API_service.html["詳細はこちら。"]。
+Digital Advisor APIを使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["詳細はこちら。"]。
 
 
 
@@ -725,7 +726,7 @@ Digital Advisorは、中国語、英語、日本語の3言語で利用できる�
 
 === レポート
 
-Cluster Viewer レポートを生成またはスケジュールして、システムの物理構成と論理構成の詳細情報を表示できます。 link:task_generate_reports.html["詳細をご確認ください"]。
+Cluster Viewer レポートを生成またはスケジュールして、システムの物理構成と論理構成の詳細情報を表示できます。 link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["詳細をご確認ください"]。
 
 
 
@@ -741,7 +742,7 @@ Digital Advisorの健全性チェックダッシュボードでは、環境全�
 
 === Config Drift
 
-この機能を使用すると、システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出できます。 link:task_add_config_drift_template.html["設定のドリフトテンプレートを追加する方法について説明します"]。
+この機能を使用すると、システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出できます。 link:https://docs.netapp.com/us-en/active-iq/task_add_config_drift_template.html["設定のドリフトテンプレートを追加する方法について説明します"]。
 
 
 
@@ -753,13 +754,13 @@ AutoSupport データを表示し、詳細を確認できます。
 
 === 健全性レビューサブスクリプション
 
-システムの健全性ステータスをまとめた E メール通知を月単位で受け取るように登録できます。更新日が近づいているため、インストールベースでネットアップ製品のアップグレードが必要になります。 link:task_subscribe_to_wellness_review_email.html["今すぐサブスクライブ"]。
+システムの健全性ステータスをまとめた E メール通知を月単位で受け取るように登録できます。更新日が近づいているため、インストールベースでネットアップ製品のアップグレードが必要になります。 link:https://docs.netapp.com/us-en/active-iq/task_subscribe_to_wellness_review_email.html["今すぐサブスクライブ"]。
 
 
 
 === レポート
 
-レポート機能を使用すると、すぐにレポートを生成したり、週単位または月単位でレポートを生成するようにスケジュールしたりできます。 link:task_generate_reports.html["詳細をご確認ください"]。
+レポート機能を使用すると、すぐにレポートを生成したり、週単位または月単位でレポートを生成するようにスケジュールしたりできます。 link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["詳細をご確認ください"]。
 
 
 
@@ -783,7 +784,7 @@ NetApp Keystone サブスクリプションサービスのコミット済み、�
 
 ドキュメントが強化され、 AFF ファームウェアと FAS ファームウェアの Ansible による自動化パッケージのダウンロード、インストール、実行に関する情報が追加されました。
 
-link:task_update_AFF_FAS_firmware.html["Ansible を使用して AFF と FAS のファームウェアを更新する方法について説明します Playbook"]。
+link:https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html["Ansible を使用して AFF と FAS のファームウェアを更新する方法について説明します Playbook"]。
 
 
 
@@ -793,7 +794,7 @@ link:task_update_AFF_FAS_firmware.html["Ansible を使用して AFF と FAS の�
 
 === パフォーマンス
 
-パフォーマンスグラフが強化され、ボリュームのパフォーマンスを評価できるようになりました。ノードタブ、クラスタタブ、ローカル階層タブ、ボリュームタブの切り替えは同じ画面で実行できます。 link:task_view_performance_graphs.html["詳細をご確認ください"]。
+パフォーマンスグラフが強化され、ボリュームのパフォーマンスを評価できるようになりました。ノードタブ、クラスタタブ、ローカル階層タブ、ボリュームタブの切り替えは同じ画面で実行できます。 link:https://docs.netapp.com/us-en/active-iq/task_view_performance_graphs.html["詳細をご確認ください"]。
 
 
 
@@ -825,7 +826,7 @@ AFF および FAS ファームウェア画面が強化され、より良いユ�
 
 === インベントリのレポートを生成します
 
-選択した監視リストのレポートを生成し、レポートを最大 5 人の受信者に E メールで送信できるようになりました。 link:task_view_inventory_details.html["詳細をご確認ください"]。
+選択した監視リストのレポートを生成し、レポートを最大 5 人の受信者に E メールで送信できるようになりました。 link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["詳細をご確認ください"]。
 
 
 
@@ -865,7 +866,7 @@ Digital Advisorのデフォルトのホームページ画面を設定できる�
 
 === ストレージ効率
 
-AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 link:task_analyze_storage_efficiency.html["詳細をご確認ください"]。
+AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["詳細をご確認ください"]。
 
 
 
@@ -921,13 +922,13 @@ AFF システム、AFF以外のシステム、またはその両方のSnapshot�
 
 === アップグレードワークフロー
 
-アップグレードワークフローを使用して、アップグレードの推奨事項や、ターゲットの ONTAP リリースで使用できる新機能の概要を確認できます。 link:task_view_upgrade.html["詳細をご確認ください"]。
+アップグレードワークフローを使用して、アップグレードの推奨事項や、ターゲットの ONTAP リリースで使用できる新機能の概要を確認できます。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["詳細をご確認ください"]。
 
 
 
 === 価値ある分析情報
 
-Digital Advisorとサポート契約を通じて得られたメリットの概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 link:task_view_valuable_insight_widget.html["今すぐご覧ください"]。
+Digital Advisorとサポート契約を通じて得られたメリットの概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 link:https://docs.netapp.com/us-en/active-iq/task_view_valuable_insight_widget.html["今すぐご覧ください"]。
 
 
 
@@ -957,13 +958,13 @@ Digital Advisorとサポート契約を通じて得られたメリットの概�
 
 1 つ以上のページや画面でデータに関する重要な分析情報を提供し、システムを一目で監視できるようにします。最大 10 個のダッシュボードを作成して、ビジネス上の意思決定を効率的に行うこともできます。
 
-link:concept_overview_dashboard.html["詳細はこちら。"]。
+link:https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["詳細はこちら。"]。
 
 
 
 === Active IQ Unified Manager を使用してリスクを軽減
 
-Active IQ Unified Manager を使用して、リスクを表示して修正できます。 link:task_view_risks_remediated_unified_manager.html["詳細をご確認ください"]。
+Active IQ Unified Manager を使用して、リスクを表示して修正できます。 link:https://docs.netapp.com/us-en/active-iq/task_view_risks_remediated_unified_manager.html["詳細をご確認ください"]。
 
 
 
@@ -979,7 +980,7 @@ Active IQ Unified Manager を使用して、リスクを表示して修正でき
 * 契約更新
 
 
-を参照してください link:concept_overview_wellness.html["健全性の属性を分析します"] 詳細：
+を参照してください link:https://docs.netapp.com/us-en/active-iq/concept_overview_wellness.html["健全性の属性を分析します"] 詳細：
 
 
 
