@@ -660,12 +660,6 @@
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">NetApp Ansible Collection をインストールします。</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">Ansible Playbook とインベントリファイルが同じパスにあることを確認し、 Ansible Playbook を実行してください。ファームウェアの更新は数時間バックグラウンドで実行されます。</block>
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。</block>
-  <block id="d6917a390639e0a267939dc55858c685" category="doc">アップグレードプランを生成して ONTAP のバージョンをアップグレードします</block>
-  <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">アップグレードプランを生成すると、ストレージシステムの保留中のアップグレードを表示したり、 ONTAP を新しいバージョンにアップグレードしたりできます。また、リスクのリストは、アップグレードによって軽減されるリスクアドバイザ * タブで確認する必要があります。</block>
-  <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">[Number of * Actions] * をクリックすると、保留中のアップグレードが表示されます。</block>
-  <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">ウィジェットに表示されているシステム数をクリックすると、 * Upgrade Advisor * タブが表示されます。</block>
-  <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">リスクアドバイザ * タブで、リスクのリストとその重大度レベルを表示します。これは、アップグレードにより緩和されます。</block>
-  <block id="281921503952801e23be5489728f4728" category="list-text">[Generate Upgrade Plan] をクリックして、 * Upgrade Advisor * に移動します。</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">主な概念</block>
   <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* ウェルネスダッシュボード： * ウォッチリスト内のシステムの全体的なステータスが表示されます。</block>
   <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">* ウィジェット： * システムの状態を簡単にまとめたダッシュボードに、小規模なアプリケーションを表示します。</block>
@@ -991,11 +985,8 @@
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">マルチホップアップグレード</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">一部の自動無停止アップグレード（ANDU）から隣接していないリリースへのアップグレードでは、中間リリースおよびターゲットリリースのソフトウェアイメージをインストールできます。自動アップグレードプロセスでは、バックグラウンドの中間イメージを使用してターゲットリリースへの更新を完了します。たとえば、クラスタで 9.3 を実行している場合に 9.7 にアップグレードするには、 9.5 と 9.7 の両方の ONTAP インストールパッケージをロードし、 ANDU を 9.7 に開始します。その後、 ONTAP はクラスタを 9.5 に、その後 9.7 に自動的にアップグレードします。テイクオーバー / ギブバック処理や関連するリブートが複数回行われることを想定してください。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor を使用します</block>
-  <block id="e9588616576594b7265f748171c85266" category="list-text">ダッシュボードで、アップグレード待ちの状態を * アップグレード * ウィジェットで確認します。<block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
   <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">アップグレードオプション</block>
-  <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">必要なアップグレードオプションを選択します。<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">アップグレードプランを生成</block>
-  <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">リリースノートでは、リリースに関する詳細情報を確認することもできます。<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">* Inventory * ウィジェットには、所有する合計システムのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Digital Advisorにログインするための情報を提供します。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Digital Advisorにログインします</block>
@@ -1412,4 +1403,32 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">NetApp Keystone STaaSサービスにサブスクライブしている場合は、デジタルアドバイザダッシュボードで[Keystone Subscription]ウィジェットを確認できます。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">KeystoneとDigital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量使用率のグラフで構成されます。さまざまなレベルのサブスクリプションデータと使用状況情報の詳細については、を参照してください。 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
+  <block id="31b9d852bd062a4549ad97725d279a03" category="doc">アップグレードプランを使用したONTAPバージョンのアップグレード</block>
+  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">アップグレードプランを使用して、ストレージシステムの保留中のアップグレードを表示し、ONTAPを新しいバージョンにアップグレードできます。リスクのリストは、*[Risk Advisor]*タブでも確認できます。このタブはアップグレードによって軽減されます。</block>
+  <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">ダッシュボードの* Upgrade Advisor *ウィジェットで、処理数をクリックして保留中のアップグレードを表示します。</block>
+  <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">必要なアップグレードオプションを選択します。</block>
+  <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">選択したアップグレードオプションの準拠システム数をクリックして*アップグレードの詳細*ページに移動し、アップグレードプランを生成します。</block>
+  <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">[リスクアドバイザ]タブ</block>
+  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">リスクのリストとその重大度レベルを確認するには、*[Risk Advisor]*タブに移動します。このリストはアップグレードによって軽減されます。
+  [+]
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">選択したアップグレードオプションに*リスク合計*が含まれている場合は、リスクの合計数をクリックして*リスクアドバイザ*タブにリスクのリストを表示できます。</block>
+  <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">合計リスク数</block>
+  <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">[Upgrade Advisor]タブで、*[Generate Upgrade Plan]*をクリックします。</block>
+  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">表示されたポップアップで詳細を指定します。また、* Revert Plan *チェックボックスをオンにして、バックアウトプランをアップグレードプランレポートに含めることもできます。</block>
+  <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">詳細を入力するポップアップが表示され、アップグレードプランを生成するリクエストを送信します。</block>
+  <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">[レポート]*に移動します。アップグレードプランのステータスを監視し、利用可能になったらダウンロードできます。</block>
+  <block id="c1b382578ccbe1b4821d0b8a7f29e343" category="paragraph">アップグレードプランが生成されると、アップグレードプランが記載されたEメールも送信されます。</block>
+  <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">アップグレードプランレポートのステータスを示すスクリーンショット</block>
+  <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023年9月27日</block>
+  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">デフォルトの監視リストまたはダッシュボードの[Upgrade Advisor]ページには、 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> リンクデフォルトの監視リストやダッシュボードがない場合は、リンクをクリックすると検索ページにリダイレクトされます。</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">アップグレードプラン</block>
+  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">アップグレードプランを使用したONTAPのバージョンのアップグレード</block>
+  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">アップグレードプランは、冗長なアップグレード手順を削除し、情報と警告を変更し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、[General Information]セクションで使用できます。改善された計画を表示するには、に記載されている手順に従ってアップグレード計画を生成します。 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>。</block>
 </blocks>
