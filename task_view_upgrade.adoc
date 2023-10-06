@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。 
 ---
-= アップグレードプランを使用したONTAPバージョンのアップグレード
+= ストレージシステムの ONTAP バージョンをアップグレードします
 :toc: macro
 :hardbreaks:
 :toclevels: 1

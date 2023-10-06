@@ -1371,7 +1371,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="567b01f0b5cd67001d808012ef0e7dd2" category="paragraph">データ削減量は、ボリュームとローカル階層（アグリゲート）についてStorage Efficiencyダッシュボードに表示されます。  ボリューム削減とアグリゲート削減の両方が異なるストレージオブジェクトで発生するため、これらの両方を追加することはできません。</block>
   <block id="fb8e35ae91d9f2d1bbfa26a865e3bdde" category="paragraph">* ONTAPにアップグレードする前に、データ削減が高い、または正しくないと報告されたのはなぜですか？*</block>
   <block id="d9358f68a6e1323e55b1eaead9cd9368" category="paragraph">ONTAPのバグが原因でデータ保護ボリュームがノードに存在する場合、データ削減率が高くなります。この問題は ONTAP 9.3P11 で修正されています。ONTAP 9.3P11 より前のバージョンからアップグレードした場合とデータ保護ボリュームがノードに存在する場合は、 Storage Efficiency レポートで正しい値または小さい値が報告されます。</block>
-  <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">Sustainability Dashboardは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性スコアを評価することで、ストレージシステム全体の効率性を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
   <block id="111e2574729518f75d68b12a141895ca" category="paragraph">Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 <block ref="00345514845e0d86c9c648d29a98b060" category="inline-link-macro-rx"></block>。</block>
   <block id="685c75c1df83c508b4344c2b7bddc69a" category="paragraph">vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 <block ref="a4fd8b50f9fa1d3acd0018ed3d197139" category="inline-link-macro-rx"></block>。</block>
   <block id="689f0156b8d6f21052bcf808d6c62508" category="paragraph">SnapMirrorデータレプリケーションを使用してNetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 、およびNetApp Cloud Backup（旧称AltaVault ）に移動できるワークロードとそのボリュームに関する推奨事項を提供します。 <block ref="6170547bf38252f5bd3b005d8df0f331" category="inline-link-macro-rx"></block>。</block>
@@ -1403,7 +1402,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">NetApp Keystone STaaSサービスにサブスクライブしている場合は、デジタルアドバイザダッシュボードで[Keystone Subscription]ウィジェットを確認できます。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">KeystoneとDigital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量使用率のグラフで構成されます。さまざまなレベルのサブスクリプションデータと使用状況情報の詳細については、を参照してください。 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="31b9d852bd062a4549ad97725d279a03" category="doc">アップグレードプランを使用したONTAPバージョンのアップグレード</block>
   <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">アップグレードプランを使用して、ストレージシステムの保留中のアップグレードを表示し、ONTAPを新しいバージョンにアップグレードできます。リスクのリストは、*[Risk Advisor]*タブでも確認できます。このタブはアップグレードによって軽減されます。</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">ダッシュボードの* Upgrade Advisor *ウィジェットで、処理数をクリックして保留中のアップグレードを表示します。</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
@@ -1427,8 +1425,8 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">アップグレードプランレポートのステータスを示すスクリーンショット</block>
   <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023年9月27日</block>
-  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">デフォルトの監視リストまたはダッシュボードの[Upgrade Advisor]ページには、 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> リンクデフォルトの監視リストやダッシュボードがない場合は、リンクをクリックすると検索ページにリダイレクトされます。</block>
-  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">アップグレードプラン</block>
-  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">アップグレードプランを使用したONTAPのバージョンのアップグレード</block>
-  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">アップグレードプランは、冗長なアップグレード手順を削除し、情報と警告を変更し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、[General Information]セクションで使用できます。改善された計画を表示するには、に記載されている手順に従ってアップグレード計画を生成します。 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>。</block>
+  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">デフォルトの監視リストの[Upgrade Advisor]ページには、 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> リンク</block>
+  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">アップグレードプランを生成して確認する方法を確認する</block>
+  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
+  <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Sustainabilityダッシュボードは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
 </blocks>
