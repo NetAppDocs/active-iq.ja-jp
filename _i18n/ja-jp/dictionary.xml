@@ -964,7 +964,6 @@
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">ストレージパフォーマンスを分析</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">ストレージシステムの健常性を分析します</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">アップグレードしてインストールベースを最適化します</block>
-  <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="sidebar">ストレージシステムの ONTAP バージョンをアップグレードします</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ（熟練ユーザー）</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )</block>
@@ -1179,7 +1178,6 @@
   <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">ホストの互換性を確認し、ホストオペレーティングシステム、ドライバ、およびのアップグレードに関する推奨事項を提供します。</block>
   <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">よりスマートで迅速な方法で見つけたいものに正確に到達します。</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023年6月21日</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">ストレージシステムの持続可能性を分析します</block>
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">* Digital Advisorで特定のシステムが見つからないのはなぜですか？*
 次のいずれかの理由で、特定のシステムを検索したりインベントリページに表示したりできない場合があります。</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">非アクティブなシステム、アーカイブされたシステム、またはSAPで運用停止されたシステム</block>
@@ -1402,22 +1400,13 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">NetApp Keystone STaaSサービスにサブスクライブしている場合は、デジタルアドバイザダッシュボードで[Keystone Subscription]ウィジェットを確認できます。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">KeystoneとDigital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量使用率のグラフで構成されます。さまざまなレベルのサブスクリプションデータと使用状況情報の詳細については、を参照してください。 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">アップグレードプランを使用して、ストレージシステムの保留中のアップグレードを表示し、ONTAPを新しいバージョンにアップグレードできます。リスクのリストは、*[Risk Advisor]*タブでも確認できます。このタブはアップグレードによって軽減されます。</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">ダッシュボードの* Upgrade Advisor *ウィジェットで、処理数をクリックして保留中のアップグレードを表示します。</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">必要なアップグレードオプションを選択します。</block>
   <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">選択したアップグレードオプションの準拠システム数をクリックして*アップグレードの詳細*ページに移動し、アップグレードプランを生成します。</block>
   <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">[リスクアドバイザ]タブ</block>
-  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">リスクのリストとその重大度レベルを確認するには、*[Risk Advisor]*タブに移動します。このリストはアップグレードによって軽減されます。
-  [+]
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">選択したアップグレードオプションに*リスク合計*が含まれている場合は、リスクの合計数をクリックして*リスクアドバイザ*タブにリスクのリストを表示できます。</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">合計リスク数</block>
   <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">[Upgrade Advisor]タブで、*[Generate Upgrade Plan]*をクリックします。</block>
-  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">表示されたポップアップで詳細を指定します。また、* Revert Plan *チェックボックスをオンにして、バックアウトプランをアップグレードプランレポートに含めることもできます。</block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">詳細を入力するポップアップが表示され、アップグレードプランを生成するリクエストを送信します。</block>
   <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">[レポート]*に移動します。アップグレードプランのステータスを監視し、利用可能になったらダウンロードできます。</block>
@@ -1429,4 +1418,17 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">アップグレードプランを生成して確認する方法を確認する</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Sustainabilityダッシュボードは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">ストレージシステムのONTAPバージョンのアップグレード</block>
+  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">Upgrade Advisorを使用して、推奨されるアップグレードを確認し、ストレージシステムのアップグレードプランを作成できます。ストレージシステムをONTAPの新しいバージョンにアップグレードする場合は、ストレージシステムに関連するリスクのリストを[Risk Advisor]タブで確認し、リスクを軽減できます。</block>
+  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">アップグレードオプションを選択します。</block>
+  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">準拠システムの数をクリックして、アップグレードプランを生成します。
+[アップグレードの詳細]ページが表示されます。</block>
+  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">リスクのリストと重大度レベルを確認するには、*[Risk Advisor]*タブに移動します。
+  [+]
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">アップグレードオプションに「Total Risks」が含まれている場合は、合計リスク数をクリックして*[Risk Advisor]*タブにリスクのリストを表示できます。</block>
+  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">[Upgrade Advisor]*タブで、アップグレードするシステムを選択します。</block>
+  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">[Generate Upgrade Plan]*をクリックします。</block>
+  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">表示されたポップアップで詳細を指定します。[Revert Plan]*チェックボックスをオンにして、バックアウトプランをアップグレードプランに含めることもできます。</block>
+  <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">ストレージシステムの持続可能性を分析する</block>
 </blocks>
