@@ -1103,7 +1103,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webポータル</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisorのビデオ</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは、生成とリフレッシュトークンの1時間後に期限切れになります。トークンは、7日ごとに再生成し、アプリケーションにインストールする必要があります。これを行うには、アプリケーションにログインする必要はありません。ただし、90日が経過したら、アプリケーションにログインして新しいアクセストークンと更新トークンを取得する必要があります。</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">設定ドリフトテンプレートの属性は編集可能で、テンプレートの次のグループは、一部のセクションで正規表現をサポートしています。</block>
@@ -1431,4 +1430,7 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">[Generate Upgrade Plan]*をクリックします。</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">表示されたポップアップで詳細を指定します。[Revert Plan]*チェックボックスをオンにして、バックアウトプランをアップグレードプランに含めることもできます。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">ストレージシステムの持続可能性を分析する</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023年10月4日</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">[Planning]ウィジェット</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">機器更改（Tech Refresh）の推奨数は、お客様レベルのダッシュボードの[Planning]ウィジェットに表示されます。これらの推奨事項は、ハードウェアのサポートがなくなるかサポート終了に近づいている場合に、ハードウェアの機器更改を計画するのに役立ちます。</block>
 </blocks>
