@@ -4,7 +4,7 @@ permalink: concept_autosupport.html
 keywords: AutoSupport 
 summary: AutoSupport の概要を示します。 
 ---
-= AutoSupport
+= AutoSupport とは
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -35,10 +35,10 @@ NOTE: AutoSupport データにユーザデータが含まれることはあり�
 
 AutoSupport の詳細については、該当するドキュメントを参照してください。
 
-* link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-DF931E89-B833-4DED-83B5-A97F7EC97425.html["ONTAP （ FAS および AFF ）"^]
-* link:https://docs.netapp.com/sgws-114/topic/com.netapp.doc.sg-primer/GUID-7D38684D-1CA1-41E7-BE68-A5F671F9C33F.html["StorageGRID"^]
-* link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/E-Series_SANtricity_Software_Suite/How_to_enable_AutoSupport_on_E-Series_System_Manager["SANtricity （ E シリーズおよび EF シリーズ）"^]
-* link:https://help.monitoring.solidfire.com/#01_User%20Guide/ActiveIQ/Getting%20Started/enable_active_iq_reporting.htm["要素（ NetApp HCI および SolidFire ）"^]
+* link:https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["ONTAP （ FAS および AFF ）"^]
+* link:https://docs.netapp.com/us-en/storagegrid-117/admin/what-is-autosupport.html["StorageGRID"^]
+* link:https://docs.netapp.com/us-en/e-series-santricity/sm-support/autosupport-feature-overview.html["SANtricity （ E シリーズおよび EF シリーズ）"^]
+* link:https://docs.netapp.com/us-en/solidfire-active-iq/concept-active-iq-learn-about-active-iq.html["要素（ NetApp HCI および SolidFire ）"^]
 * link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["テクニカルレポート - ONTAP AutoSupport and AutoSupport On Demand をご覧ください"^]
 * link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["テクニカルレポート - ネットアップ計測データのセキュリティとプライバシー"^]
 
