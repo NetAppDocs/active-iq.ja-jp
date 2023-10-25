@@ -53,5 +53,5 @@ image:carbon_mitigation_percentage.png["サイトの炭素緩和の割合とこ�
 +
 image:working_environments.png["さまざまな環境パラメータを示すUIのスクリーンショット"]
 
-* リアルタイムの電力の詳細をクラスタレベルで表示するには、* Real-time power *列から監視を有効にします。詳細については、を参照してください link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
+* リアルタイムの電力の詳細をクラスタレベルで確認するには、*[Real-time power]列で監視を有効にします。詳細については、を参照してください link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
 
