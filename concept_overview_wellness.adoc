@@ -5,17 +5,14 @@ keywords: overview, wellness, risk types, risk definition, mitigate risks, perfo
 summary: 健全性とリスクのタイプに関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。 
 ---
 = 健康を理解する
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

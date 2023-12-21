@@ -5,17 +5,14 @@ keywords: inventory, platforms, systems, clusters, sites
 summary: 所有しているインベントリ全体に関する情報が表示されます。 
 ---
 = インベントリの詳細を表示します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

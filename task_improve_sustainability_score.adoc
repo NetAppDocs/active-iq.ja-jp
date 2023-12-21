@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: 推奨される対処方法にすぐまたはあとで対処する手順を示します。 
 ---
 = 持続可能性スコアの向上
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

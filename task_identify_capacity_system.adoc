@@ -5,17 +5,14 @@ keywords: capacity, space, increase,
 summary: システムの容量を拡張するための情報を提供します。 
 ---
 = 容量が上限に達しているシステムを特定します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

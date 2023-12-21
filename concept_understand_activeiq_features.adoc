@@ -5,17 +5,14 @@ keywords: digital advisor, features, upgrade, support offering
 summary: ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。 
 ---
 = Digital Advisorの機能を理解する
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

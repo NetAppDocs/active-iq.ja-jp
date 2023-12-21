@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, clusterviewe
 summary: は、より効率的なストレージに移動できるクラスタを特定するのに役立つ、作業環境のさまざまな環境パラメータに関する情報を示しています。 
 ---
 = 作業環境の管理
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

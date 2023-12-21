@@ -5,17 +5,14 @@ keywords: faq, frequently asked questions, non-technical, non-technical case, in
 summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
 ---
 = Digital Advisorについてのよくある質問です
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

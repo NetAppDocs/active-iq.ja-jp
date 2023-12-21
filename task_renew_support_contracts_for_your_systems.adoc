@@ -5,17 +5,14 @@ keywords: renew, renewals, support contracts, support & entitlements, active sup
 summary: システムのサポート契約を更新する方法について説明します。 
 ---
 = サポート契約の更新
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

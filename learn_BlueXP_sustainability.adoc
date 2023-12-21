@@ -5,27 +5,27 @@ keywords: activeiq, sustainability, sustainability score, sustainability dashboa
 summary: エネルギー消費量を削減し、環境目標に向けた取り組みを可能にする持続可能性に関する情報を提供します。 
 ---
 = 持続可能性の詳細
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 サービスとしての持続可能性により、エネルギー消費量を削減し、環境目標に向かって取り組むことができます。これにより、ストレージシステムを環境に配慮した手法に合わせて調整し、持続可能性の目標を達成できます。
 
-Sustainabilityダッシュボードを使用して、環境目標を達成できます。持続可能性のスコアと、電力、直接炭素、熱の使用量の予測を、持続可能性ダッシュボードから確認できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 link:get_started_sustainability_dashboard.html["Sustainabilityダッシュボードの使用を開始する"]。
+Sustainabilityダッシュボードを使用して、Sustainabilityスコア、およびSustainabilityダッシュボードからの電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 link:BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"]。
 
 
 NOTE: サステナビリティは、AFFシステム（AシリーズとCシリーズの両方）、FASシステム、Cloud Volumes ONTAP（CVO）でサポートされます。
 
+Sustainabilityダッシュボードについては、次のビデオをご覧ください。
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
 == 持続可能性のメリット
@@ -37,9 +37,3 @@ NOTE: サステナビリティは、AFFシステム（AシリーズとCシリー
 * データセンターで再生可能エネルギーを使用することで、二酸化炭素排出量を削減します。
 * エネルギー効率の高い政策を実施することで、エネルギー効率を向上させます。
 
-
-
-
-== コストとライセンス
-
-システムでAutoSupportを有効にしている場合は、有効なサポート契約があれば、Sustainabilityサービスにアクセスできます。

@@ -5,17 +5,14 @@ keywords: overview, information, more details
 summary: Digital Advisorに関する詳細情報を提供します。 
 ---
 = 詳細はこちらをご覧ください
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

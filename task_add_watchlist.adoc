@@ -5,17 +5,14 @@ keywords: dashboard, watchlist, add watchlist
 summary: ダッシュボードに監視リストを追加するための情報を提供します。 
 ---
 = 監視リストを作成します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

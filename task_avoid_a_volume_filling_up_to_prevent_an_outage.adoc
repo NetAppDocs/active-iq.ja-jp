@@ -5,17 +5,14 @@ keywords: volume filling up, prevent an outage
 summary: 停止を回避するためにボリュームがフルにならないようにする方法について説明します。 
 ---
 = ボリュームがいっぱいにならないようにしてシステム停止を回避してください
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

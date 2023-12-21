@@ -1232,9 +1232,6 @@
   <block id="79999a4ecf711f396250420972b3f656" category="inline-image-macro">さまざまな環境パラメータを示すUIのスクリーンショット</block>
   <block id="bdd2426c4d2109338fe18a123768ecdc" category="paragraph"><block ref="bdd2426c4d2109338fe18a123768ecdc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a2f1182a601b743128d6828388ae0858" category="summary">推奨されるアクションを通じて、持続可能性スコアを改善するための手順を示します。</block>
-  <block id="2918acdc5a483d34499fea5cbd269851" category="paragraph">Sustainabilityダッシュボードは、Sustainabilityスコアを改善するために使用できる推奨アクションを生成します。これらの推奨アクションは、NetApp BlueXPまたはデジタルアドバイザから確認して実装できます。</block>
-  <block id="3b3aba76e199225196725fa3238e318d" category="paragraph">全体的な持続可能性スコアとクラスタレベルの持続可能性スコアを改善できます。</block>
-  <block id="5fc7b06711ac7bb637c8eec226c1f5ac" category="admonition">全体的な持続可能性スコアとクラスタレベルの持続可能性スコアを計算するには、AutoSupportを有効にする必要があります。</block>
   <block id="f80ed0bec4d5369f6f27677cc8e21f1a" category="section-title">全体的な持続可能性スコアの向上</block>
   <block id="ba18ca93ca864ea5d718c8e7333965be" category="paragraph">以下の手順に従って、全体的な持続可能性スコアを改善し、企業レベルでの持続可能性への取り組みに焦点を当てます。</block>
   <block id="3774cb32c82786aa28930cf523223326" category="list-text">BlueXPの左側のナビゲーションにある* Governance *カテゴリの* Sustainability *に移動します。</block>
@@ -1267,18 +1264,13 @@
   <block id="a2bb032a03a021fbba597fa619f46950" category="admonition">[作業環境（Working Environments）]テーブルで環境パラメータを追加または削除するには、 <block ref="2152c38f4a2771e87024e1e087a05f24" category="inline-image-macro-rx" type="image"></block> アイコンをクリックし、このテーブルをカンマ区切り値（.csv）形式でエクスポートするには、 <block ref="12f258362dcb80dcb781736a1d5e0dbf" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="df99fff5ad47295f7f49e20f556653f3" category="summary">エネルギー消費量を削減し、環境目標に向けた取り組みを可能にする持続可能性に関する情報を提供します。</block>
   <block id="9a9d1fcb0fc2ed3c19b9209c78b11654" category="doc">持続可能性の詳細</block>
-  <block id="65d0a6b734949784b0887407ba3ca70d" category="inline-link-macro">Sustainabilityダッシュボードの使用を開始する</block>
-  <block id="86d85c8f18d99b8b865f7c6d94244def" category="paragraph">Sustainabilityダッシュボードを使用して、環境目標を達成できます。持続可能性のスコアと、電力、直接炭素、熱の使用量の予測を、持続可能性ダッシュボードから確認できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 <block ref="58051d8d22ef1ef0b0d8fdd8d18af919" category="inline-link-macro-rx"></block>。</block>
   <block id="7e173a40533251b9a026b06b164f28ae" category="section-title">持続可能性のメリット</block>
   <block id="ebfae6189a060b9e62c9f5fecbd6516a" category="paragraph">サステナビリティには、次のようなメリットがあります。</block>
   <block id="1fb360f9d6a57ed97d8536894f3f8efd" category="list-text">同じ量のデータを保存するストレージデバイスの数を減らして、パフォーマンスを向上させます。</block>
   <block id="b45ed6948b37af462ee5cdb424cfb29a" category="list-text">ストレージシステムの利用率を最適化して、ストレージコストを削減します。</block>
   <block id="7deccfb8ccadeec05840091d0f6dcace" category="list-text">データセンターで再生可能エネルギーを使用することで、二酸化炭素排出量を削減します。</block>
   <block id="ee7f876e33250c3bf3bd06dad6065dba" category="list-text">エネルギー効率の高い政策を実施することで、エネルギー効率を向上させます。</block>
-  <block id="17c309cd3ef85e53fa45c90d78949975" category="section-title">コストとライセンス</block>
-  <block id="e0943fe441310282662d063a6725f72b" category="paragraph">システムでAutoSupportを有効にしている場合は、有効なサポート契約があれば、Sustainabilityサービスにアクセスできます。</block>
   <block id="e3d549bf2a651737a2f9dec61a7bca5d" category="summary">BlueXPまたはDigital Advisorからアクセスして、BlueXPの持続可能性ダッシュボードを使い始めましょう。</block>
-  <block id="f4a94060e4d3713508345bb3a954caf3" category="paragraph">Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。NetApp BlueXPまたはデジタルアドバイザを使用して、Sustainabilityダッシュボードを表示できます。</block>
   <block id="69613a6744dc452d818ae93a3ca6e67e" category="inline-link-macro">BlueXPへのログイン</block>
   <block id="102ef687d04ae33c5b12822aef7fb5a9" category="paragraph">BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。の詳細を確認してください <block ref="f004bb99255f2fe182e7d54b421131c5" category="inline-link-macro-rx"></block>。</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXPコンソール</block>
@@ -1437,4 +1429,10 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">機器更改に関する推奨事項が、監視リスト、サイト、グループの各ダッシュボードで利用できるようになりました。</block>
   <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">機器更改の推奨数がゼロの場合に、潜在的な機器更改候補を表示できるようになりました。</block>
   <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">機器更改の推奨数は、お客様レベルのダッシュボードの[Planning]ウィジェットに表示されます。これらの推奨事項は、ハードウェアのサポートがなくなるかサポート終了に近づいている場合に、ハードウェア機器更改アクティビティを計画するのに役立ちます。</block>
+  <block id="4a33ef12db92e241992049db5250349e" category="paragraph">Sustainabilityダッシュボードには、全体的なSustainabilityスコアとクラスタレベルのSustainabilityスコアを改善するために実装できる推奨アクションが表示されます。</block>
+  <block id="c9a394b5403b3d38eaa06673b8c9050b" category="paragraph">Sustainabilityダッシュボードを使用して、Sustainabilityスコア、およびSustainabilityダッシュボードからの電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">Sustainabilityダッシュボードについては、次のビデオをご覧ください。</block>
+  <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">持続可能性スコアを正確に計算するには、AutoSupportを有効にする必要があります。</block>
+  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Sustainabilityダッシュボードにアクセス</block>
+  <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。Sustainabilityダッシュボードには、NetApp BlueXPまたはデジタルアドバイザからアクセスできます。</block>
 </blocks>

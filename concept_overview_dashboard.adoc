@@ -5,17 +5,14 @@ keywords: overview, provision, dashboard, widget, watchlist
 summary: ダッシュボード、監視リスト、およびウィジェットに関する情報が表示されます。 
 ---
 = 監視リストがわかります
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

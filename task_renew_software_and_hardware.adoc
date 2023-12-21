@@ -5,17 +5,14 @@ keywords: renew, hardware, software
 summary: ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。 
 ---
 = ストレージシステムのソフトウェアとハードウェアを更新する
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

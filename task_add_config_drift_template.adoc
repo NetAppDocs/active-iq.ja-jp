@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, add template
 summary: 構成ドリフトテンプレートを追加するための情報を提供します。 
 ---
 = 設定ドリフトテンプレートを追加します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

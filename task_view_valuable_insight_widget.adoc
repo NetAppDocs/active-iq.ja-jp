@@ -5,17 +5,14 @@ keywords: valuable insight, support cases, storage efficiency savings, mitigated
 summary: 貴重なインサイトウィジェットに関する情報を提供します。 
 ---
 = 価値ある分析情報を確認できます
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

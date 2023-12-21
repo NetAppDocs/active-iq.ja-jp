@@ -5,17 +5,14 @@ keywords: Ansible Playbook, Ansible, playbook, without docker
 summary: Docker イメージを使用して Ansible Playbook を実行する方法について説明します。 
 ---
 = NetApp Docker イメージなしで Ansible Playbook を実行
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 .手順

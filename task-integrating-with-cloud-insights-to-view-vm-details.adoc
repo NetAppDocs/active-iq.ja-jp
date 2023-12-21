@@ -5,17 +5,14 @@ keywords: Cloud Insights, VMs, virtual machines
 summary: Cloud Insights の仮想マシンに関する情報を提供します 
 ---
 = Cloud Insights と統合して仮想マシンの詳細を表示
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

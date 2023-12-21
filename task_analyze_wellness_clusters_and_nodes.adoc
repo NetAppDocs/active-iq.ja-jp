@@ -5,17 +5,14 @@ keywords: cluster, node, clusterviewer, configuration
 summary: Cluster Viewer についての情報を提供します。 
 ---
 = クラスタとノードの健全性を分析します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

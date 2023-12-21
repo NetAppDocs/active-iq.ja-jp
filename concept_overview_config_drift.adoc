@@ -5,17 +5,14 @@ keywords: config drift, configuration deviation, add template, compare template
 summary: に、設定ドリフト機能の概要を示します 
 ---
 = 構成の偏差を把握する
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

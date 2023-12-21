@@ -5,17 +5,14 @@ keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, p
 summary: ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。 
 ---
 = ストレージシステムのONTAPバージョンのアップグレード
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

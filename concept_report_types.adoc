@@ -5,17 +5,14 @@ keywords: reports, report types, reporting, performance reports
 summary: ユーザが使用できるさまざまなタイプのレポートに関する情報が表示されます。 
 ---
 = レポートのタイプ
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

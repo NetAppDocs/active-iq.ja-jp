@@ -5,17 +5,14 @@ keywords: overview, inventory, wellness, widgets, actions
 summary: Digital Advisorで使用される主な用語について説明します。 
 ---
 = 主な概念
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

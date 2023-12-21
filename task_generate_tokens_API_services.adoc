@@ -5,17 +5,14 @@ keywords: generate token, access token, refresh token, API services
 summary: API にアクセスするためのトークンを生成する方法について説明します。 
 ---
 = API を使用するトークンを生成します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: limitation, issues, not supported, drawbacks
 summary: に、このリリースの制限事項を示します。 
 ---
 = 既知の制限
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

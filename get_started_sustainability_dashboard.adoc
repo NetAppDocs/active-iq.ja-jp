@@ -4,22 +4,19 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: BlueXPまたはDigital Advisorからアクセスして、BlueXPの持続可能性ダッシュボードを使い始めましょう。 
 ---
-= Sustainabilityダッシュボードの使用を開始する
-:toc: macro
+= Sustainabilityダッシュボードにアクセス
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。NetApp BlueXPまたはデジタルアドバイザを使用して、Sustainabilityダッシュボードを表示できます。
+Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。Sustainabilityダッシュボードには、NetApp BlueXPまたはデジタルアドバイザからアクセスできます。
 
 [role="tabbed-block"]
 ====

@@ -5,17 +5,14 @@ keywords: protection, hackers, ransomware, ransomware attacks, attack
 summary: ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。 
 ---
 = セキュリティの脆弱性を検出します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

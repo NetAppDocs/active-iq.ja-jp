@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: Web サーバを使用してファームウェアファイルをホストする方法について説明します。 
 ---
 = Web サーバを使用してホストファームウェアファイルを作成します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

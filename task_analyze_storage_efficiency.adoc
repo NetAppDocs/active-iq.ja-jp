@@ -5,17 +5,14 @@ keywords: renew, hardware, software
 summary: ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。 
 ---
 = 容量と Storage Efficiency による削減効果を分析できます
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

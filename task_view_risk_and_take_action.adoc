@@ -5,17 +5,14 @@ keywords: wellness, performance, efficiency, availability, capacity, security vu
 summary: ストレージシステムの健全性を確認および分析し、リスクを軽減するための情報を提供します。 
 ---
 = リスクを確認し、修正措置を手動で実施します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: digital advisor, integration, bluexp
 summary: 'Digital Advisor (以前のActive IQ Digital Advisor )は"BlueXPと完全に統合されましたクラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。' 
 ---
 = Digital AdvisorとBlueXPの統合
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

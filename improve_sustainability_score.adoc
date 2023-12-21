@@ -5,26 +5,21 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: 推奨されるアクションを通じて、持続可能性スコアを改善するための手順を示します。 
 ---
 = 持続可能性スコアの向上
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-Sustainabilityダッシュボードは、Sustainabilityスコアを改善するために使用できる推奨アクションを生成します。これらの推奨アクションは、NetApp BlueXPまたはデジタルアドバイザから確認して実装できます。
-
-全体的な持続可能性スコアとクラスタレベルの持続可能性スコアを改善できます。
+Sustainabilityダッシュボードには、全体的なSustainabilityスコアとクラスタレベルのSustainabilityスコアを改善するために実装できる推奨アクションが表示されます。
 
 
-NOTE: 全体的な持続可能性スコアとクラスタレベルの持続可能性スコアを計算するには、AutoSupportを有効にする必要があります。
+NOTE: ダッシュボードから最良の結果を得るには、AutoSupportを有効にする必要があります。AutoSupportが有効になっていない場合、データは製品仕様に基づきます。リアルタイムの電力詳細を取得するには、Cloud Insightsを有効にする必要があります。Cloud Insightsを有効にする方法の詳細については、を参照してください。 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
 
 
 

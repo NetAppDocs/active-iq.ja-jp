@@ -5,17 +5,14 @@ keywords: overview, get started, wellness, performance, configuration, renewal, 
 summary: ワークフローを理解し、Digital Advisorを使い始めるのに役立ちます。 
 ---
 = Digital Advisorのクイックスタート
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

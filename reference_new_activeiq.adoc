@@ -5,17 +5,14 @@ keywords: 'what"s new, features, new'
 summary: リリースの新機能に関する情報を提供します。 
 ---
 = Digital Advisorの新機能
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: templates, share template, clone template, edit template, delete templ
 summary: テンプレートを管理するための情報を提供します。 
 ---
 = テンプレートを管理します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

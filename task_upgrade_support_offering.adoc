@@ -5,17 +5,14 @@ keywords: upgrade, support offering, supportedge, premium, standard, basic, expe
 summary: サポートサービスのアップグレードに関する情報を提供します。 
 ---
 = サポートサービスをアップグレードします
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
