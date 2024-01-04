@@ -659,7 +659,6 @@
   <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">Python と Ansible をインストールし、 PIP を使用して Python パッケージをダウンロードします。</block>
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">NetApp Ansible Collection をインストールします。</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">Ansible Playbook とインベントリファイルが同じパスにあることを確認し、 Ansible Playbook を実行してください。ファームウェアの更新は数時間バックグラウンドで実行されます。</block>
-  <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">主な概念</block>
   <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* ウェルネスダッシュボード： * ウォッチリスト内のシステムの全体的なステータスが表示されます。</block>
   <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">* ウィジェット： * システムの状態を簡単にまとめたダッシュボードに、小規模なアプリケーションを表示します。</block>
@@ -1196,9 +1195,6 @@
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web サーバは、複数の方法で設定できます。Python を使用して単純な Web サーバをセットアップする手順については、を参照してください <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
   <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">をクリックします <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
-  <block id="6300a3453f44e919baf2a9aa05a8acaf" category="paragraph">WebベースのコンソールからDigital Advisorにログインすると、ストレージシステム全体のステータスを表示するための監視リストを作成できます。</block>
-  <block id="315ad4061cc238e6dcb01825e9ab9572" category="inline-link-macro">アカウントの作成</block>
-  <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントを持っておらず、開始しようとしている場合は、に進みます。 <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">にアクセスします <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> ログインページ。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">ONTAP システムでは、ストレージシステムの初回設定時に、 AutoSupport がデフォルトで有効になります。お勧めします <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> ONTAP システムで、テクニカルサポートおよび社内のサポート部門に AutoSupport 情報を送信する方法を制御します。</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1384,34 +1380,17 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">NetApp Keystone STaaSサービスにサブスクライブしている場合は、デジタルアドバイザダッシュボードで[Keystone Subscription]ウィジェットを確認できます。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">KeystoneとDigital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystoneサブスクリプションウィジェットには、アカウントの使用容量の概要が表示されます。物理容量を基準とした容量使用率のグラフで構成されます。さまざまなレベルのサブスクリプションデータと使用状況情報の詳細については、を参照してください。 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">ダッシュボードの* Upgrade Advisor *ウィジェットで、処理数をクリックして保留中のアップグレードを表示します。</block>
-  <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">[リスクアドバイザ]タブ</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">合計リスク数</block>
-  <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">詳細を入力するポップアップが表示され、アップグレードプランを生成するリクエストを送信します。</block>
-  <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">[レポート]*に移動します。アップグレードプランのステータスを監視し、利用可能になったらダウンロードできます。</block>
-  <block id="c1b382578ccbe1b4821d0b8a7f29e343" category="paragraph">アップグレードプランが生成されると、アップグレードプランが記載されたEメールも送信されます。</block>
-  <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">アップグレードプランレポートのステータスを示すスクリーンショット</block>
-  <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023年9月27日</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">デフォルトの監視リストの[Upgrade Advisor]ページには、 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> リンク</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">アップグレードプランを生成して確認する方法を確認する</block>
-  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Sustainabilityダッシュボードは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
-  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">ストレージシステムのONTAPバージョンのアップグレード</block>
-  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">Upgrade Advisorを使用して、推奨されるアップグレードを確認し、ストレージシステムのアップグレードプランを作成できます。ストレージシステムをONTAPの新しいバージョンにアップグレードする場合は、ストレージシステムに関連するリスクのリストを[Risk Advisor]タブで確認し、リスクを軽減できます。</block>
   <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">アップグレードオプションを選択します。</block>
   <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">準拠システムの数をクリックして、アップグレードプランを生成します。
 [アップグレードの詳細]ページが表示されます。</block>
-  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">リスクのリストと重大度レベルを確認するには、*[Risk Advisor]*タブに移動します。
-  [+]
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">アップグレードオプションに「Total Risks」が含まれている場合は、合計リスク数をクリックして*[Risk Advisor]*タブにリスクのリストを表示できます。</block>
-  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">[Upgrade Advisor]*タブで、アップグレードするシステムを選択します。</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">[Generate Upgrade Plan]*をクリックします。</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">表示されたポップアップで詳細を指定します。[Revert Plan]*チェックボックスをオンにして、バックアウトプランをアップグレードプランに含めることもできます。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">ストレージシステムの持続可能性を分析する</block>
@@ -1435,4 +1414,93 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">持続可能性スコアを正確に計算するには、AutoSupportを有効にする必要があります。</block>
   <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Sustainabilityダッシュボードにアクセス</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。Sustainabilityダッシュボードには、NetApp BlueXPまたはデジタルアドバイザからアクセスできます。</block>
+  <block id="be5178143d843340e4e67eba4c9e81e5" category="summary">ノード（ストレージシステム）のONTAPバージョンを表示およびアップグレードするための情報が表示されます。</block>
+  <block id="8601f406e80391d056c58948aa581fb2" category="doc">ノードのアップグレード計画の生成</block>
+  <block id="2bd844d4631a34a970dfaf3be90c4a0b" category="paragraph">Upgrade Advisorを使用して、推奨されるアップグレードを表示し、ノード（ストレージシステム）のアップグレードプランを生成できます。ノードに関連付けられた[Risk Advisor]タブでリスクのリストを確認し、ONTAPを新しいバージョンにアップグレードする場合はリスクを軽減できます。</block>
+  <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">ダッシュボードで、* Upgrade Advisor *ウィジェットでクラスタ数をクリックします。</block>
+  <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">クラスタの数を示すスクリーンショット。</block>
+  <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">[Upgrade Advisor - ONTAP]*ページが表示されます。</block>
+  <block id="154c77c413a39ecb8c39b457c5252f40" category="list-text">Enhanced Upgrade Advisor *トグルを無効にします。</block>
+  <block id="8b60d322239e9b30aae8b8fd47a48ce3" category="inline-image-macro">[Upgrade Advisor]の切り替えが無効になっていることを示すスクリーンショット。</block>
+  <block id="0041204be6f9f2e470c98ebfb3d5b0b0" category="paragraph"><block ref="0041204be6f9f2e470c98ebfb3d5b0b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aad5368020cbd683aeba5851f49b4a38" category="paragraph"><block ref="aad5368020cbd683aeba5851f49b4a38" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7b4dbfcbcafcdcc68cd3071fff921ef" category="paragraph"><block ref="a7b4dbfcbcafcdcc68cd3071fff921ef" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9d13760352c3ef2c67f70c65eb9218c3" category="inline-image-macro">編集ボタンの画像</block>
+  <block id="42dc80a9f868807808bfb3bd6d3fa3e4" category="list-text">をクリックできます <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。</block>
+  <block id="81782223768cc597145a7fe6649737aa" category="list-text">リスクのリストと重大度レベルを確認するには、*[Risk Advisor]*タブに移動します。
+  [+]
+<block ref="64ab9e5ee435c8d4125b4c4b2f334200" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="141bbe67ced8a85bfd11063ebb59d88d" category="paragraph"><block ref="141bbe67ced8a85bfd11063ebb59d88d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="13c6c834b23acb47e87a7edcc32e7f88" category="list-text">[Upgrade Advisor]*タブで、アップグレードするシステムを選択します。</block>
+  <block id="f5a352aea6c7a54f54feff2b5821b2f0" category="paragraph"><block ref="f5a352aea6c7a54f54feff2b5821b2f0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="680ec4642757efc9cf2d150edf5ce5fc" category="list-text">[Submit （送信） ] をクリックします。
+[レポート]ページにリダイレクトされます。</block>
+  <block id="d983f30395f8346ffd80f3672dfe8b2a" category="list-text">アップグレードプランは、利用可能になったら*レポート*ページからダウンロードできます。</block>
+  <block id="e914294f6ad533c4cc5d44ff79ab35e3" category="inline-link-macro">ONTAPアップグレード後の作業</block>
+  <block id="bbc10f30b2ee9ee55d84238475ba20b0" category="paragraph">ONTAPのアップグレード後にクラスタが準備されていることを確認するには、いくつかのタスクを実行する必要があります。詳細については、を参照してください <block ref="49be8ce40deb1a0b7eb5c98a4fed6622" category="inline-link-macro-rx"></block>。</block>
+  <block id="ef2ca72de9895714706408c3a660a3ad" category="summary">ONTAPアップグレードの計画を簡易化するUpgrade Advisorの概要を示します。</block>
+  <block id="67ee936e795ffe8e8018ac6757105eae" category="paragraph">Upgrade Advisorでは、ONTAPのアップグレードまたはリバートを成功させるために必要な詳細およびステップバイステップの情報を含むアップグレード計画を生成できます。</block>
+  <block id="d9b9898ac1165db3daef0e6e50933c02" category="inline-link-macro">単一クラスタおよび複数クラスタのアップグレードプランの生成</block>
+  <block id="db336d8bf73f1c92f4ed725650c533e9" category="paragraph">単一のクラスタおよび複数のクラスタに対して、自動無停止アップグレードプランを生成できます。アップグレードの推奨事項は1つのクラスタについてのみ表示できます。このレポートには、クラスタに関連するリスクのリスト、アップグレードのブロックと警告のリストを含むアップグレード前チェックレポート、新機能と拡張機能に関する情報が含まれます。詳細については、を参照してください <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
+  <block id="86889b2158b4ac7c9d8fcef2845d3f55" category="admonition">MetroCluster構成のクラスタごとに、個別のアップグレードプランを生成して、アップグレード手順全体を確認します。</block>
+  <block id="5681200d8f1383312047ace6aad75922" category="inline-link-macro">ノードのアップグレード計画の生成</block>
+  <block id="9b7d1ab37e6749081c5ac63cb683b1c4" category="paragraph">ノード（ストレージシステム）の無停止、停止、無停止アップグレードプランを自動生成できます。推奨されるアップグレードパスを確認し、アップグレードプランを生成できます。詳細については、を参照してください <block ref="480e8086971f91861d6dfe49fd297465" category="inline-link-macro-rx"></block>。</block>
+  <block id="7b410e5aa098af7d98f180ce6460fdfe" category="inline-link-macro">ONTAPのアップグレードを準備する</block>
+  <block id="222865b37915c0c4bc9b2b9bfcf5b07b" category="paragraph">アップグレードプランを生成する前に、ONTAPアップグレードの準備をしておく必要があります。適切な準備を行うことで、アップグレードプロセスを開始する前に、アップグレードの潜在的なリスクや障害を特定して軽減することができます。詳細については、を参照してください <block ref="ea9d3240085371b5bf3a3755f96d8f6d" category="inline-link-macro-rx"></block>。</block>
+  <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024年1月3日</block>
+  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">アップグレードの推奨事項を表示し、アップグレードプランを生成する方法について説明します。</block>
+  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">Upgrade Advisorが強化され、単一のクラスタと複数のクラスタの無停止アップグレードプランが自動で提供されます。アップグレードの推奨事項は、リスクの概要、アップグレード前のチェックレポート、新機能や拡張機能に関する情報など、単一のクラスタについてのみ表示できます。 <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
+  <block id="fdee59a37f60e4c66e5c6b1c6c80b2c1" category="list-text">アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 <block ref="f0e67dfcb5ef41ef22b88debd0952b4f" category="inline-link-macro-rx"></block>。</block>
+  <block id="54c8d286439441f65d676d4c8b3f8e5d" category="paragraph">WebベースのコンソールからDigital Advisorにログインして、ストレージシステムの全体的なステータスを確認できます。</block>
+  <block id="1e483625e81b84fcdebccdf1e8a9446a" category="inline-link-macro">お客様またはゲストユーザとしてNetApp Support Siteアカウントに登録する方法</block>
+  <block id="dd535b546ee88a50134df4a8bcb9ebc7" category="paragraph">Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントをお持ちでない場合は、次の技術情報アーティクルを参照してアカウントを作成してください。
+<block ref="b73ff2fa987bdb24b44ced01bb2bd4c6" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb6d856529734d9ca63ed119e0c1bba6" category="summary">1つのクラスタと複数のクラスタのONTAPのアップグレードまたはリバートを成功させるためのアップグレード計画を生成する手順を示します。</block>
+  <block id="85af6d120b0bc5a9e283fc346b4434ba" category="paragraph">Upgrade Advisorを使用して、アップグレードの対象となるクラスタまたは対象外のクラスタのリストを表示できます。対象となるクラスタのアップグレードの推奨事項を表示し、アップグレードプランを生成できます。クラスタに対応していない問題を修正して、アップグレードの対象にすることができます。</block>
+  <block id="6e394bcec3129051274784fa1f725065" category="paragraph">単一のクラスタと複数のクラスタのアップグレードプランを生成するには、次の手順を実行します。</block>
+  <block id="94df3919fe9cfa11e61d8a1c34ab29ac" category="open-title">タンイチクラスタ</block>
+  <block id="a8a13bd076efa14c76bf4d2412097a76" category="list-text">Enhanced Upgrade Advisor *トグルが有効になっていることを確認します。</block>
+  <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">[Upgrade Advisor]がオンになっていることを示すスクリーンショット。</block>
+  <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">アップグレードの対象となるクラスタと対象外のクラスタのリストを表示できます。</block>
+  <block id="b3264e5abfc7f8aa9cbe9bbf2bf2839e" category="list-text">アップグレードするクラスタを選択します。
+[ターゲットOSバージョン]列には、推奨されるターゲットOSバージョンが表示されます。をクリックできます <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。</block>
+  <block id="c25dba4666d739afcf74fafca0e16ec1" category="inline-image-macro">ターゲットバージョンの選択方法を示す画像。</block>
+  <block id="df54a2761f4e27e29bd65d8ac649e3a9" category="paragraph"><block ref="df54a2761f4e27e29bd65d8ac649e3a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33934d5a93267aecc3bf0f2c43482311" category="list-text">[ノード]列のノード数をクリックすると、クラスタのノードの概要を確認できます。</block>
+  <block id="d4586bd723aa7ed4cd56bae25e8c11c6" category="inline-image-macro">問題のタイプと、それを修正するために必要な解像度を示す画像。</block>
+  <block id="e56c89382384db93bf68a52b43fa244d" category="list-text">[推奨される対処方法]列の*[問題の解決]*をクリックすると、クラスタがアップグレードの対象にならない問題を修正できます。
+ [+]
+<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6aa4c290298860f81a97d2d4eb92f157" category="list-text">[Generate Upgrade Plan]*をクリックします。
+アップグレードの推奨事項*ページにリダイレクトされます。</block>
+  <block id="be3de2fbd923b98d3ddce6f87604687b" category="list-text">[アップグレードの推奨事項]ページの*[リスクアドバイザー]*タブで、クラスタに関連するリスクの詳細を確認できます。アップグレードブロッカー、アップグレードの警告、必要な操作は*[アップグレード前のチェック]*タブで確認できます。また、*[拡張および更新されたONTAP機能]*タブでは、選択したターゲットOSバージョンに関連する新機能と拡張機能に関する情報を確認できます。</block>
+  <block id="3968a0cc76421e54bc6b6ab94ab3ef6d" category="inline-image-macro">アップグレードの推奨ページの全体的なビューを示すスクリーンショット。</block>
+  <block id="8cb031ec78addd4251b0d98fadb1f16d" category="paragraph"><block ref="8cb031ec78addd4251b0d98fadb1f16d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7911af84e5893fc16119ebbbd79e0ddd" category="list-text">別のターゲットOSバージョンを選択して、リスクの概要、アップグレード前のチェックレポート、ターゲットOSバージョンに関連する新機能や拡張機能に関する情報を表示できます。</block>
+  <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">[エクスポート]ボタン</block>
+  <block id="d0ff34d4ed0d434b63065177d69660b4" category="list-text">をクリックできます <block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、リスクサマリをExcelシートにエクスポートします。</block>
+  <block id="f4c01d8521810198d0aedeb1804292d2" category="list-text">[アップグレードの推奨事項]ページの*[アップグレードプランの生成]*をクリックします。</block>
+  <block id="391ae857ef756e131304172e405792b4" category="inline-image-macro">アップグレードプランを生成するためのリクエストを送信するための詳細情報を入力するポップアップが表示されます。</block>
+  <block id="224d1474fa987e54a2ac30c76ea2e21e" category="list-text">表示されたポップアップで詳細を指定します。
+  [+]
+<block ref="b84846bb39db1b32d099a86ab30da18d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed103c2a26bede51077e4be32d323609" category="list-text">[* 生成（ Generate ） ] をクリックする。
+[レポート]ページにリダイレクトされます。</block>
+  <block id="d33dd907f0f2e416c58ccfa29cd01d18" category="inline-image-macro">View Upgrade Advisorがクリックする位置を示すスクリーンショット。 </block>
+  <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">[View Upgrade Advisor Reports]*をクリックすると、*[Reports]*ページに移動できます。
+ [+]
+<block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">複数のクラスタ</block>
+  <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">アップグレードするクラスタを選択してください。
+[ターゲットOSバージョン]列には推奨されるターゲットOSバージョンが表示されます。 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。</block>
+  <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9fe2ae1dc4e08b83a8b63d06803dd564" category="list-text">[推奨される対処方法]列の*[問題の解決]*をクリックすると、クラスタがアップグレードの対象にならない問題を修正できます。
+ [+]
+<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b323017de005e05ca9af3f3a9807384d" category="list-text">表示されたポップアップで詳細を指定します。
+  [+]
+<block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">アップグレードプランの生成</block>
 </blocks>

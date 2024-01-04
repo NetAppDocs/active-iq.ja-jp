@@ -75,6 +75,14 @@ sidebar:
       url: "/BlueXP_sustainability_dashboard_overview.html"
     - title: 持続可能性スコアの向上
       url: "/improve_sustainability_score.html"
+  - title: アップグレードプランの生成
+    entries:
+    - title: 概要
+      url: "/upgrade_advisor_overview.html"
+    - title: 単一クラスタおよび複数クラスタのアップグレードプランの生成
+      url: "/generate_upgrade_plan_single_multiple_clusters.html"
+    - title: ノードのアップグレード計画の生成
+      url: "/task_view_upgrade.html"
   - title: システムの詳細を表示します
     entries:
     - title: インベントリの詳細を表示します
@@ -125,8 +133,6 @@ sidebar:
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: アップグレードしてインストールベースを最適化します
     entries:
-    - title: ストレージシステムのONTAPバージョンのアップグレード
-      url: "/task_view_upgrade.html"
     - title: サポートサービスをアップグレードします
       url: "/task_upgrade_support_offering.html"
     - title: Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください

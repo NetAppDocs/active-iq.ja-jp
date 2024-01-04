@@ -16,10 +16,11 @@ summary: Digital Advisorにログインするための情報を提供します�
 
 
 [role="lead"]
-WebベースのコンソールからDigital Advisorにログインすると、ストレージシステム全体のステータスを表示するための監視リストを作成できます。
+WebベースのコンソールからDigital Advisorにログインして、ストレージシステムの全体的なステータスを確認できます。
 
 .作業を開始する前に
-Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントを持っておらず、開始しようとしている場合は、に進みます。 link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["アカウントの作成"^]。
+Digital Advisorにログインするには、有効なNetApp Support Site クレデンシャルが必要です。アカウントをお持ちでない場合は、次の技術情報アーティクルを参照してアカウントを作成してください。
+link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_Support_Site_account_as_a_Customer_or_a_Guest_user["お客様またはゲストユーザとしてNetApp Support Siteアカウントに登録する方法"^]。
 
 .手順
 . にアクセスします link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] ログインページ。

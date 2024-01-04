@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: generate_upgrade_plan_single_multiple_clusters.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+summary: 1つのクラスタと複数のクラスタのONTAPのアップグレードまたはリバートを成功させるためのアップグレード計画を生成する手順を示します。 
+---
+= 単一クラスタおよび複数クラスタのアップグレードプランの生成
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Upgrade Advisorを使用して、アップグレードの対象となるクラスタまたは対象外のクラスタのリストを表示できます。対象となるクラスタのアップグレードの推奨事項を表示し、アップグレードプランを生成できます。クラスタに対応していない問題を修正して、アップグレードの対象にすることができます。
+
+単一のクラスタと複数のクラスタのアップグレードプランを生成するには、次の手順を実行します。
+
+[role="tabbed-block"]
+====
+.タンイチクラスタ
+--
+. ダッシュボードで、* Upgrade Advisor *ウィジェットでクラスタ数をクリックします。
++
+image:ua_widget.png["クラスタの数を示すスクリーンショット。"]
+
++
+[Upgrade Advisor - ONTAP]*ページが表示されます。
+
+. Enhanced Upgrade Advisor *トグルが有効になっていることを確認します。
++
+image:r_enhanced_ua_toggle.png["[Upgrade Advisor]がオンになっていることを示すスクリーンショット。"]
+
++
+アップグレードの対象となるクラスタと対象外のクラスタのリストを表示できます。
+
+. アップグレードするクラスタを選択します。
+[ターゲットOSバージョン]列には、推奨されるターゲットOSバージョンが表示されます。をクリックできます image:edit_icon.png["編集ボタンの画像"] アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。
++
+image:r_ua_select_target_OS_version_single_cluster.png["ターゲットバージョンの選択方法を示す画像。"]
+
++
+** [ノード]列のノード数をクリックすると、クラスタのノードの概要を確認できます。
+** [推奨される対処方法]列の*[問題の解決]*をクリックすると、クラスタがアップグレードの対象にならない問題を修正できます。
+ [+]
+image:r_ua_resolve_issue.png["問題のタイプと、それを修正するために必要な解像度を示す画像。"]
+
+
+. [Generate Upgrade Plan]*をクリックします。
+アップグレードの推奨事項*ページにリダイレクトされます。
+. [アップグレードの推奨事項]ページの*[リスクアドバイザー]*タブで、クラスタに関連するリスクの詳細を確認できます。アップグレードブロッカー、アップグレードの警告、必要な操作は*[アップグレード前のチェック]*タブで確認できます。また、*[拡張および更新されたONTAP機能]*タブでは、選択したターゲットOSバージョンに関連する新機能と拡張機能に関する情報を確認できます。
++
+image:r_ua_upgrade_recommendation_page.png["アップグレードの推奨ページの全体的なビューを示すスクリーンショット。"]
+
++
+** 別のターゲットOSバージョンを選択して、リスクの概要、アップグレード前のチェックレポート、ターゲットOSバージョンに関連する新機能や拡張機能に関する情報を表示できます。
+** をクリックできます image:ua_export_icon.png["[エクスポート]ボタン"] アイコンをクリックして、リスクサマリをExcelシートにエクスポートします。
+
+
+. [アップグレードの推奨事項]ページの*[アップグレードプランの生成]*をクリックします。
+. 表示されたポップアップで詳細を指定します。
+  [+]
+image:ua_generate_single_clusters_plan.png["アップグレードプランを生成するためのリクエストを送信するための詳細情報を入力するポップアップが表示されます。"]
+. [* 生成（ Generate ） ] をクリックする。
+[レポート]ページにリダイレクトされます。
+. アップグレードプランは、利用可能になったら*レポート*ページからダウンロードできます。
++
+
+TIP: [View Upgrade Advisor Reports]*をクリックすると、*[Reports]*ページに移動できます。
+ [+]
+image:r_ua_view_reports.png["View Upgrade Advisorがクリックする位置を示すスクリーンショット。 "]
+
+
+
+ONTAPのアップグレード後にクラスタが準備されていることを確認するには、いくつかのタスクを実行する必要があります。詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAPアップグレード後の作業"]。
+
+--
+.複数のクラスタ
+--
+. ダッシュボードで、* Upgrade Advisor *ウィジェットでクラスタ数をクリックします。
++
+image:ua_widget.png["クラスタの数を示すスクリーンショット。"]
+
++
+[Upgrade Advisor - ONTAP]*ページが表示されます。
+
+. Enhanced Upgrade Advisor *トグルが有効になっていることを確認します。
++
+image:r_enhanced_ua_toggle.png["[Upgrade Advisor]がオンになっていることを示すスクリーンショット。"]
+
++
+アップグレードの対象となるクラスタと対象外のクラスタのリストを表示できます。
+
+. アップグレードするクラスタを選択してください。
+[ターゲットOSバージョン]列には推奨されるターゲットOSバージョンが表示されます。 image:edit_icon.png["編集ボタンの画像"] アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。
++
+image:r_ua_select_target_OS_version.png["ターゲットバージョンの選択方法を示す画像。"]
+
++
+** [ノード]列のノード数をクリックすると、クラスタのノードの概要を確認できます。
+** [推奨される対処方法]列の*[問題の解決]*をクリックすると、クラスタがアップグレードの対象にならない問題を修正できます。
+ [+]
+image:r_ua_resolve_issue.png["問題のタイプと、それを修正するために必要な解像度を示す画像。"]
+
+
+. [Generate Upgrade Plan]*をクリックします。
+. 表示されたポップアップで詳細を指定します。
+  [+]
+image:ua_generate_multiple_clusters_plan.png["アップグレードプランを生成するためのリクエストを送信するための詳細情報を入力するポップアップが表示されます。"]
+. [* 生成（ Generate ） ] をクリックする。
+[レポート]ページにリダイレクトされます。
+. アップグレードプランは、利用可能になったら*レポート*ページからダウンロードできます。
++
+
+TIP: [View Upgrade Advisor Reports]*をクリックすると、*[Reports]*ページに移動できます。
+ [+]
+image:r_ua_view_reports.png["View Upgrade Advisorがクリックする位置を示すスクリーンショット。 "]
+
+
+
+ONTAPのアップグレード後にクラスタが準備されていることを確認するには、いくつかのタスクを実行する必要があります。詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAPアップグレード後の作業"]。
+
+--
+====

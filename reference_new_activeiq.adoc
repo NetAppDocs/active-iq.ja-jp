@@ -20,6 +20,16 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2024年1月3日
+
+
+
+== Upgrade Advisor を使用します
+
+Upgrade Advisorが強化され、単一のクラスタと複数のクラスタの無停止アップグレードプランが自動で提供されます。アップグレードの推奨事項は、リスクの概要、アップグレード前のチェックレポート、新機能や拡張機能に関する情報など、単一のクラスタについてのみ表示できます。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["アップグレードの推奨事項を表示し、アップグレードプランを生成する方法について説明します。"]
+
+
+
 == 2023年11月16日
 
 
@@ -55,7 +65,7 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 === Upgrade Advisor を使用します
 
 * デフォルトの監視リストの[Upgrade Advisor]ページには、 link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor を使用します"^] リンク
-* アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["アップグレードプランを生成して確認する方法を確認する"]。
+* アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["アップグレードプランを生成して確認する方法を確認する"]。
 
 
 

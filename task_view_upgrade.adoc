@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
-summary: ストレージシステムの ONTAP バージョンを表示およびアップグレードするための情報を提供します。 
+summary: ノード（ストレージシステム）のONTAPバージョンを表示およびアップグレードするための情報が表示されます。 
 ---
-= ストレージシステムのONTAPバージョンのアップグレード
+= ノードのアップグレード計画の生成
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,29 +16,37 @@ summary: ストレージシステムの ONTAP バージョンを表示および�
 
 
 [role="lead"]
-Upgrade Advisorを使用して、推奨されるアップグレードを確認し、ストレージシステムのアップグレードプランを作成できます。ストレージシステムをONTAPの新しいバージョンにアップグレードする場合は、ストレージシステムに関連するリスクのリストを[Risk Advisor]タブで確認し、リスクを軽減できます。
+Upgrade Advisorを使用して、推奨されるアップグレードを表示し、ノード（ストレージシステム）のアップグレードプランを生成できます。ノードに関連付けられた[Risk Advisor]タブでリスクのリストを確認し、ONTAPを新しいバージョンにアップグレードする場合はリスクを軽減できます。
 
 .手順
-. ダッシュボードの* Upgrade Advisor *ウィジェットで、処理数をクリックして保留中のアップグレードを表示します。
+. ダッシュボードで、* Upgrade Advisor *ウィジェットでクラスタ数をクリックします。
 +
-image:upgrade_advisor_widget.png["Upgrade Advisor を使用します"]
+image:ua_widget.png["クラスタの数を示すスクリーンショット。"]
+
++
+[Upgrade Advisor - ONTAP]*ページが表示されます。
+
+. Enhanced Upgrade Advisor *トグルを無効にします。
++
+image:ua_disable_toggle.png["[Upgrade Advisor]の切り替えが無効になっていることを示すスクリーンショット。"]
 
 . アップグレードオプションを選択します。
 +
-image:upgrade_options.png["アップグレードオプション"]
+image:ua_upgrade_options.png["アップグレードオプション"]
 
 . 準拠システムの数をクリックして、アップグレードプランを生成します。
 [アップグレードの詳細]ページが表示されます。
 +
-image:generate_upgrade_plan.png["アップグレードプランを生成"]
+image:r_ua_generate_upgrade_plan.png["アップグレードプランを生成"]
 
 +
+** をクリックできます image:edit_icon.png["編集ボタンの画像"] アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。
 ** リスクのリストと重大度レベルを確認するには、*[Risk Advisor]*タブに移動します。
   [+]
-image:view_risks.png["[リスクアドバイザ]タブ"]
+image:ua_view_risks.png["[リスクアドバイザ]タブ"]
 ** アップグレードオプションに「Total Risks」が含まれている場合は、合計リスク数をクリックして*[Risk Advisor]*タブにリスクのリストを表示できます。
 +
-image:total_risks.png["合計リスク数"]
+image:ua_total_risks.png["合計リスク数"]
 
 
 
@@ -46,14 +54,11 @@ image:total_risks.png["合計リスク数"]
 . [Generate Upgrade Plan]*をクリックします。
 . 表示されたポップアップで詳細を指定します。[Revert Plan]*チェックボックスをオンにして、バックアウトプランをアップグレードプランに含めることもできます。
 +
-image:details_upgrade_plan.png["詳細を入力するポップアップが表示され、アップグレードプランを生成するリクエストを送信します。"]
+image:ua_details_upgrade_plan.png["詳細を入力するポップアップが表示され、アップグレードプランを生成するリクエストを送信します。"]
 
 . [Submit （送信） ] をクリックします。
-. [レポート]*に移動します。アップグレードプランのステータスを監視し、利用可能になったらダウンロードできます。
-+
-アップグレードプランが生成されると、アップグレードプランが記載されたEメールも送信されます。
-
-+
-image:download_upgrade_plan.png["アップグレードプランレポートのステータスを示すスクリーンショット"]
+[レポート]ページにリダイレクトされます。
+. アップグレードプランは、利用可能になったら*レポート*ページからダウンロードできます。
 
 
+ONTAPのアップグレード後にクラスタが準備されていることを確認するには、いくつかのタスクを実行する必要があります。詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAPアップグレード後の作業"]。
