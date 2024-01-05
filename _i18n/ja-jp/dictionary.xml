@@ -1492,7 +1492,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">[View Upgrade Advisor Reports]*をクリックすると、*[Reports]*ページに移動できます。
  [+]
 <block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">複数のクラスタ</block>
   <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">アップグレードするクラスタを選択してください。
 [ターゲットOSバージョン]列には推奨されるターゲットOSバージョンが表示されます。 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
@@ -1503,4 +1502,8 @@ NetApp BlueXPのログインページが表示されます。</block>
   [+]
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">アップグレードプランの生成</block>
+  <block id="387baf0199e7c9cc944fae94e96448fa" category="section-title">その他</block>
+  <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*左側のナビゲーションペインの[ストレージの健常性]の機能が無効になっているのはなぜですか？*
+[ストレージの健全性]*で使用できる機能は、システムのタイプとレベルによって異なります。たとえば、Cluster Viewerは、ONTAPおよびCloud Volumes ONTAP（CVO）システムでクラスタレベルとノードレベルで使用できます。各機能の横にある* i *アイコンにカーソルを合わせると、該当するシステムのタイプとレベルを確認できます。</block>
+  <block id="568d1629463645988ff4868c31e4cba7" category="open-title">フクスウノクラスタ</block>
 </blocks>

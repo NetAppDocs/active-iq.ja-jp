@@ -79,7 +79,7 @@ image:r_ua_view_reports.png["View Upgrade Advisorがクリックする位置を�
 ONTAPのアップグレード後にクラスタが準備されていることを確認するには、いくつかのタスクを実行する必要があります。詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAPアップグレード後の作業"]。
 
 --
-.複数のクラスタ
+.フクスウノクラスタ
 --
 . ダッシュボードで、* Upgrade Advisor *ウィジェットでクラスタ数をクリックします。
 +
