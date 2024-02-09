@@ -20,6 +20,22 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2024年2月8日
+
+
+
+=== Sustainability Dashboard
+
+デフォルトのダッシュボードまたは監視リストのSustainability指標に、 link:https://activeiq.netapp.com/redirect/sustainability["Sustainability Dashboard"^] リンク
+
+
+
+=== Cluster Viewer （クラスタビューア）
+
+これで、[Disk Summary]セクションにディスクRPM情報が表示されます。このセクションは、[Storage]タブおよびClusterViewerレポートに表示されます。
+
+
+
 == 2024年1月3日
 
 

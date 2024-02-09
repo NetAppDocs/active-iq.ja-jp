@@ -21,7 +21,7 @@ summary: エネルギー消費量を削減し、環境目標に向けた取り�
 Sustainabilityダッシュボードを使用して、Sustainabilityスコア、およびSustainabilityダッシュボードからの電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 link:BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"]。
 
 
-NOTE: サステナビリティは、AFFシステム（AシリーズとCシリーズの両方）、FASシステム、Cloud Volumes ONTAP（CVO）でサポートされます。
+NOTE: 持続可能性は、AFFシステム（AシリーズとCシリーズの両方）、FASシステム、およびCloud Volumes ONTAPでサポートされます。
 
 Sustainabilityダッシュボードについては、次のビデオをご覧ください。
 
