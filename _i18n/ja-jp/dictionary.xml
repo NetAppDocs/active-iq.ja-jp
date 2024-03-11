@@ -543,12 +543,10 @@
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">ユーザー名とパスワードを入力し、 * サインイン * をクリックします。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">ダッシュボードに監視リストを追加するための情報を提供します。</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">監視リストを作成します</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">一連のシステムにすばやく簡単にアクセスできる監視リストを作成できます。カテゴリまたは場所に基づいて、複数のシステムを組み合わせることができます。</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">左側のペインで、「 * Watchlists * 」をクリックします</block>
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">[ 監視リストを管理 ] 画面が表示されます。</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">監視リストを作成 * をクリックします。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">監視リストの名前を指定します。</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">監視リストに追加するシステムの詳細を指定します。</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">1 つのカテゴリに最大 15,000 台のシステムを追加でき、 1 つのシリアル番号には 500 台のシステムを追加できます。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">監視リストダッシュボードが表示されます。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">ダッシュボード、ヘルススコア、機能、ウィジェットに関する情報を提供します。</block>
@@ -984,7 +982,6 @@
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。</block>
   <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">このデータは、ネットアップテクニカルサポートが問題の診断と解決を高速化するために使用し、Digital Advisorが潜在的な問題をプロアクティブに検出して回避するために使用します。また、社内のサポート部門やサポートパートナーにも送信できます。</block>
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">Digital Advisorは、AutoSupport データが60日以内のシステムについてのみAutoSupport 関連データを表示します。</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">Digital Advisorは、クラウドベースのポータルとモバイルアプリを通じて、実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体にわたってデータインフラを最適化します。Digital Advisorのクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用し、これらの分析情報とAutoSupport Telemetry機能およびMy AutoSupport 機能を組み合わせて、卓越した分析サービスの高度なセットを提供します。</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Digital Advisorのドキュメント</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisorはシステムを絶えず分析し、推奨事項を提供してシステムのパフォーマンス、効率、および健全性を改善します。</block>
   <block id="ee8a7221101a63a879e7b11a9e134817" category="admonition">Digital AdvisorがBlueXPに移動して推奨事項を実装します。</block>
@@ -1030,7 +1027,6 @@
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisorは、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の*およびサポート資格のある製品のセキュリティ問題を検出します。製品のテレメトリデータは、デジタルアドバイザがリスクを検出できるよう、AutoSupport 経由でネットアップに送信する必要があります。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Digital Advisorにログインします。</block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">最も重要な手順は、Digital Advisorの* Upgrade Advisor *でOSのアップグレードを計画することです。</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">監視リストは、Digital Advisor内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは 50 個まで作成でき、各監視リストにはカテゴリごとに最大 15 、 000 個のシステム、シリアル番号ごとに最大 500 個のシステムを含めることができます。</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">初めてDigital Advisorにアクセスするときは、ウォッチリストを作成するか、顧客名、サイト名、グループ名、StorageGRID 、ホスト名、 クラスタ、シリアル番号、またはシステムID。</block>
   <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Digital Advisor API Servicesは、自動化機能を使用してワークフローを効率化します。API サービスは、 20 以上の異なるサービス領域にグループ化された 100 を超える API エンドポイントを記述した * API カタログ * を提供します。これらの API はネットアップのお客様が利用でき、システム情報、ストレージ効率、パフォーマンス、健常性、アップグレードなど、さまざまな目的に利用できます。</block>
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">APIは、プログラムによってDigital Advisorにアクセスし、コンピューティング環境にデータを戻すことができる簡単なコードを記述できるインターフェイスです。Digital Advisorに毎日連絡し、関心のある分野の最新データを返すような方法でコードを書くことができます。その後、このデータを使用してチケット処理システムにデータを入力したり、独自のダッシュボード、 Web ページ、レポートを作成したりできます。Digital Advisor API Catalogには、コードサンプルと機能の両方が用意されており、ブラウザでAPIを試すことができます。</block>
@@ -1498,4 +1494,27 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Sustainability Dashboard</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">デフォルトのダッシュボードまたは監視リストのSustainability指標に、 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> リンク</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">これで、[Disk Summary]セクションにディスクRPM情報が表示されます。このセクションは、[Storage]タブおよびClusterViewerレポートに表示されます。</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024年2月29日</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">Keystoneサブスクリプション番号に基づいて監視リストを作成し、サブスクリプション番号または監視リスト名の最初の3文字を使用してKeystoneサブスクリプションを検索できるようになりました。</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">監視リストは、Digital Advisor内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは最大100個まで作成でき、各監視リストにカテゴリで追加する場合は最大15、000、シリアル番号で追加する場合は最大500のシステムを含めることができます。</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Digital Advisorに初めてアクセスしたときは、監視リストを作成するか、お客様名、サイト名、グループ名、StorageGRID、ホスト名、 クラスタ、シリアル番号、システムID、Keystoneサブスクリプション。</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">一連のシステムにすばやく簡単にアクセスできる監視リストを作成できます。カテゴリまたはシリアル番号に基づいてシステムを追加できます。</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">次のいずれかのオプションを選択してシステムを監視リストに追加します。</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*カテゴリ*：お客様、サイト、グループ、Keystoneサブスクリプションなど、特定のカテゴリに関連付けられたインベントリ全体を追加できます。 を監視リストに追加します。</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Keystone監視リストで検索</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">Keystoneサブスクリプション*オプションを使用すると、Keystoneサブスクリプションに関連付けられているサブスクリプション番号を含めることができます。監視リストで検索すると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションを確認できます。詳細については、を参照してください <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>。</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">*シリアル番号*：このオプションを使用すると、指定したシリアル番号に基づいて監視リストにインベントリを含めることができます。シリアル番号を直接入力するか、お客様、サイト、グループなどのカテゴリからシリアル番号を選択できます。</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">Active IQデジタルアドバイザ（別名デジタルアドバイザ）は、クラウドベースのポータルとモバイルアプリを通じて実用的な予測分析とプロアクティブなサポートを提供することで、グローバルハイブリッドクラウド全体でデータインフラを最適化します。Digital Advisorのクラウドベースサービスは、ネットアップの巨大なインストールベースから得た集合知や比較情報を活用し、これらの分析情報とAutoSupport Telemetry機能およびMy AutoSupport 機能を組み合わせて、卓越した分析サービスの高度なセットを提供します。</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Digital Advisorの詳細をご覧ください</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Digital Advisorを使用します</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">リスクを確認して対処</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">設定の違いを検出</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">重要なセキュリティリスクを修正</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Digital Advisorを使用して分析します</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">ONTAP のアップグレードに関する推奨事項を確認する</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">クラウドの推奨事項に基づいて、十分な情報に基づいた意思</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webポータル</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisorのビデオ</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
 </blocks>
