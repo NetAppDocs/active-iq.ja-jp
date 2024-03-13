@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: evaluate-tech-refresh.html 
+keywords: tech refresh, tech support contract, hardware 
+summary: テクニカルサポート契約またはハードウェアの機器更改（Tech Refresh）を評価するための情報を提供します。 
+---
+= テクノロジの更新を評価する
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+テクニカルサポート契約またはハードウェアの更新が推奨されているかどうかを確認するには、Tech Refreshオプションを使用します。
+
+
+NOTE: この機能には、BlueXPの経済効率化機能（*[ガバナンス]>[経済効率化]>[機器更改]*）またはNetAppデジタルアドバイザ（*[ダッシュボード]>[計画]ウィジェット>[機器更改]*）からアクセスできます。
+
+この機能の詳細については、を参照してください。 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["テクノロジの更新を評価する"] を参照してください。

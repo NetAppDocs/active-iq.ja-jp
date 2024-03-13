@@ -1517,4 +1517,9 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webポータル</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisorのビデオ</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
+  <block id="a05a52081b0fa90b1547ef6f59f35788" category="summary">テクニカルサポート契約またはハードウェアの機器更改（Tech Refresh）を評価するための情報を提供します。</block>
+  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="doc">テクノロジの更新を評価する</block>
+  <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">テクニカルサポート契約またはハードウェアの更新が推奨されているかどうかを確認するには、Tech Refreshオプションを使用します。</block>
+  <block id="65a5dc35cec4fdb5b8c204304a2ab99a" category="admonition">この機能には、BlueXPの経済効率化機能（*[ガバナンス]&gt;[経済効率化]&gt;[機器更改]*）またはNetAppデジタルアドバイザ（*[ダッシュボード]&gt;[計画]ウィジェット&gt;[機器更改]*）からアクセスできます。</block>
+  <block id="26528bfb42ca87e3e5f7846afd863bb0" category="paragraph">この機能の詳細については、を参照してください。 <block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block> を参照してください。</block>
 </blocks>
