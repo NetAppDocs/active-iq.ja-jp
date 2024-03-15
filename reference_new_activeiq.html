@@ -1,0 +1,3472 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head class="at-element-marker">
+  <title>Digital Advisorの新機能 | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Digital Advisorの新機能 | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" />
+	<meta property="og:description" content="リリースの新機能に関する情報を提供します。" />
+  <meta property="og:image" content="https://docs.netapp.com/ja-jp/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="リリースの新機能に関する情報を提供します。">
+  <meta name="keywords" content=" what"s new, features, new"><!-- Icons -->
+  <link rel="icon" href="/ja-jp/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/ja-jp/active-iq/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/active-iq/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/ja-jp/active-iq/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/ja-jp/active-iq/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq/reference_new_activeiq.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/active-iq/js/na-search.js'></script><script src='/ja-jp/active-iq/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/ja-jp/active-iq/js/custom-dropdown.js'></script>
+  <script src='/ja-jp/active-iq/js/FileSaver.min.js'></script>
+  <script src='/ja-jp/active-iq/js/jszip-utils.min.js'></script>
+  <script src='/ja-jp/active-iq/js/jszip.min.js'></script><script src='/ja-jp/active-iq/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/ja-jp/active-iq/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/ja/">
+                <image id="ie-header-logo" src="/ja-jp/active-iq/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/ja/support-and-training/documentation/">ドキュメント</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/ja-jp/active-iq/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">日本語</span>
+                    <img src="/ja-jp/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ja-jp/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/ja-jp/active-iq/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">すべてのNetApp</span>
+                    <img src="/ja-jp/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ja-jp/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/ja/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">サポート</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb-ja.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">ナレッジ ベース</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">トレーニング</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/ja-jp/active-iq/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/ja-jp/active-iq/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">すべてのドキュメント</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">クラウド ドキュメント</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/ja-jp/cloud-manager-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/ja-jp/active-iq/">-->
+      Digital Advisor
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/ja-jp/active-iq/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/ja-jp/active-iq/search.html" 
+        data-type="widget"
+        data-placeholder="ドキュメントを検索"
+        data-no-results-found="{query}に一致する結果は見つかりませんでした"
+        data-did-you-mean="{suggestion}で検索しています。"
+        data-no-results-found-did-you-mean="{query}に一致する結果は見つかりませんでした。{suggestion}で検索しますか？"
+        data-results-found="{hitCount}件の結果が見つかりました"
+        data-error-message="エラーが発生しました。もう一度お試しください。"
+        data-error-reset="検索をリセット"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital Advisorのドキュメント"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/active-iq/index.html">
+        Digital Advisorのドキュメント
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital AdvisorとBlueXPの統合"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/digital-advisor-integration-with-bluexp.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/active-iq/digital-advisor-integration-with-bluexp.html">
+        Digital AdvisorとBlueXPの統合
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="リリースノート"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> リリースノート</div>-->
+         リリースノート
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="新機能"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/reference_new_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/reference_new_activeiq.html">
+        新機能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="既知の制限"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/reference_limitations_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/reference_limitations_activeiq.html">
+        既知の制限
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="はじめに"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> はじめに</div>-->
+         はじめに
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="クイックスタート"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_getting_started_2.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_getting_started_2.html">
+        クイックスタート
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital Advisorの機能を理解する"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_understand_activeiq_features.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_understand_activeiq_features.html">
+        Digital Advisorの機能を理解する
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="主な概念"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_key_terms.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_key_terms.html">
+        主な概念
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AutoSupport とは"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_autosupport.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_autosupport.html">
+        AutoSupport とは
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital Advisorにログインします"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_login_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_login_activeiq.html">
+        Digital Advisorにログインします
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="監視リストをプロビジョニング"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 監視リストをプロビジョニング</div>-->
+         監視リストをプロビジョニング
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_overview_dashboard.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="監視リストを作成します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_add_watchlist.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_add_watchlist.html">
+        監視リストを作成します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="監視リストを管理します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_manage_watchlists.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_manage_watchlists.html">
+        監視リストを管理します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="健全性の属性を分析します"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 健全性の属性を分析します</div>-->
+         健全性の属性を分析します
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_wellness.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_overview_wellness.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="リスクを確認し、修正措置を手動で実施します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_risk_and_take_action.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_risk_and_take_action.html">
+        リスクを確認し、修正措置を手動で実施します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="セキュリティの脆弱性を検出します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_increase_protection_against_hackers_and_Ransomware_attacks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        セキュリティの脆弱性を検出します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ランサムウェアのリスクからシステムを保護"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_protect_systems_against_ransomware_risks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_protect_systems_against_ransomware_risks.html">
+        ランサムウェアのリスクからシステムを保護
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="リスクを確認して承認します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_and_acknowledge_risks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_and_acknowledge_risks.html">
+        リスクを確認して承認します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="健全性の履歴を表示します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_wellness_history.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_wellness_history.html">
+        健全性の履歴を表示します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_risks_remediated_unified_manager.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_risks_remediated_unified_manager.html">
+        Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ダウンタイムとデータ損失の可能性を回避します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_avoid_the_downtime_and_possible_data_loss.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">
+        ダウンタイムとデータ損失の可能性を回避します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ウェルネスレビューメールに登録する"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_subscribe_to_wellness_review_email.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_subscribe_to_wellness_review_email.html">
+        ウェルネスレビューメールに登録する
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ソフトウェアとハードウェアを更新します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_renew_software_and_hardware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_renew_software_and_hardware.html">
+        ソフトウェアとハードウェアを更新します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="クラスタとノードの健全性を分析します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_analyze_wellness_clusters_and_nodes.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_analyze_wellness_clusters_and_nodes.html">
+        クラスタとノードの健全性を分析します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ストレージシステムの持続可能性を分析する"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> ストレージシステムの持続可能性を分析する</div>-->
+         ストレージシステムの持続可能性を分析する
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="持続可能性の詳細"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/learn_BlueXP_sustainability.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/learn_BlueXP_sustainability.html">
+        持続可能性の詳細
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Sustainabilityダッシュボードにアクセス"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/get_started_sustainability_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/get_started_sustainability_dashboard.html">
+        Sustainabilityダッシュボードにアクセス
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Sustainabilityダッシュボードの概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/BlueXP_sustainability_dashboard_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/BlueXP_sustainability_dashboard_overview.html">
+        Sustainabilityダッシュボードの概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="持続可能性スコアの向上"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/improve_sustainability_score.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/improve_sustainability_score.html">
+        持続可能性スコアの向上
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="アップグレードプランの生成"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> アップグレードプランの生成</div>-->
+         アップグレードプランの生成
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/upgrade_advisor_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/upgrade_advisor_overview.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="単一クラスタおよび複数クラスタのアップグレードプランの生成"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/generate_upgrade_plan_single_multiple_clusters.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/generate_upgrade_plan_single_multiple_clusters.html">
+        単一クラスタおよび複数クラスタのアップグレードプランの生成
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ノードのアップグレード計画の生成"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_upgrade.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_upgrade.html">
+        ノードのアップグレード計画の生成
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="システムの詳細を表示します"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> システムの詳細を表示します</div>-->
+         システムの詳細を表示します
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="インベントリの詳細を表示します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_inventory_details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_inventory_details.html">
+        インベントリの詳細を表示します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Cloud Insights と統合して仮想マシンの詳細を表示"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task-integrating-with-cloud-insights-to-view-vm-details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html">
+        Cloud Insights と統合して仮想マシンの詳細を表示
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="価値ある分析情報を確認できます"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_valuable_insight_widget.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_valuable_insight_widget.html">
+        価値ある分析情報を確認できます
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystoneサブスクリプションの容量利用率を確認"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/view_keystone_capacity_utilization.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/view_keystone_capacity_utilization.html">
+        Keystoneサブスクリプションの容量利用率を確認
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="システム要件をプロアクティブに特定します"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> システム要件をプロアクティブに特定します</div>-->
+         システム要件をプロアクティブに特定します
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_planning.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_overview_planning.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="容量が上限に達しているシステムを特定します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_identify_capacity_system.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_identify_capacity_system.html">
+        容量が上限に達しているシステムを特定します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ボリュームがいっぱいにならないようにしてシステム停止を回避してください"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_avoid_a_volume_filling_up_to_prevent_an_outage.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        ボリュームがいっぱいにならないようにしてシステム停止を回避してください
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="テクノロジの更新を評価する"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/evaluate-tech-refresh.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/evaluate-tech-refresh.html">
+        テクノロジの更新を評価する
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ソフトウェアとハードウェアを更新します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_renew_software_and_hardware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_renew_software_and_hardware.html">
+        ソフトウェアとハードウェアを更新します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task-informed-decisions-based-on-cloud-recommendations.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">
+        クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="設定の違いを特定"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 設定の違いを特定</div>-->
+         設定の違いを特定
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_config_drift.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_overview_config_drift.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="設定ドリフトテンプレートを追加します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_add_config_drift_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_add_config_drift_template.html">
+        設定ドリフトテンプレートを追加します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="構成ドリフトテンプレートを比較します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_compare_config_drift_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_compare_config_drift_template.html">
+        構成ドリフトテンプレートを比較します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ドリフトタイムラインレポートを生成します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_generate_drift_timeline_report.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_generate_drift_timeline_report.html">
+        ドリフトタイムラインレポートを生成します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="テンプレートを管理します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_manage_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_manage_template.html">
+        テンプレートを管理します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ストレージシステムの効率性とパフォーマンスを向上させます"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> ストレージシステムの効率性とパフォーマンスを向上させます</div>-->
+         ストレージシステムの効率性とパフォーマンスを向上させます
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="容量と効率化による削減効果を分析できます"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_analyze_storage_efficiency.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_analyze_storage_efficiency.html">
+        容量と効率化による削減効果を分析できます
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ストレージパフォーマンスを分析"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_performance_graphs.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_performance_graphs.html">
+        ストレージパフォーマンスを分析
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ストレージシステムの健常性を分析します"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> ストレージシステムの健常性を分析します</div>-->
+         ストレージシステムの健常性を分析します
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_understand_health_check_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_understand_health_check_dashboard.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="健全性チェックダッシュボードの利用を開始しましょう"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_get_started_with_health_check_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_get_started_with_health_check_dashboard.html">
+        健全性チェックダッシュボードの利用を開始しましょう
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="サポート契約の更新"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_renew_support_contracts_for_your_systems.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_renew_support_contracts_for_your_systems.html">
+        サポート契約の更新
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="アップグレードしてインストールベースを最適化します"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> アップグレードしてインストールベースを最適化します</div>-->
+         アップグレードしてインストールベースを最適化します
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="サポートサービスをアップグレードします"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_upgrade_support_offering.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_upgrade_support_offering.html">
+        サポートサービスをアップグレードします
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください</div>-->
+         Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_update_AFF_FAS_firmware.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/active-iq/task_update_AFF_FAS_firmware.html">
+        AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ（熟練ユーザー）"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_install_execute_firmware_update_exp_user.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/active-iq/task_install_execute_firmware_update_exp_user.html">
+        AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ（熟練ユーザー）
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )</div>-->
+         AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Web サーバを使用したホストファームウェアファイル"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_hosting_firmware_files_using_web_server.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ja-jp/active-iq/task_hosting_firmware_files_using_web_server.html">
+        Web サーバを使用したホストファームウェアファイル
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="インベントリファイルを操作します"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_working_with_inventory_file.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ja-jp/active-iq/concept_working_with_inventory_file.html">
+        インベントリファイルを操作します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp Docker イメージを使用して Ansible プレイブックを実行する"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_execute_ansible_playbook_using_docker.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ja-jp/active-iq/task_execute_ansible_playbook_using_docker.html">
+        NetApp Docker イメージを使用して Ansible プレイブックを実行する
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Docker を使用せずに Ansible プレイブックを実行する"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_execute_ansible_playbook_without_docker.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ja-jp/active-iq/task_execute_ansible_playbook_without_docker.html">
+        Docker を使用せずに Ansible プレイブックを実行する
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ファームウェアのインストールを確認"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_validate_firmware_installation.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ja-jp/active-iq/task_validate_firmware_installation.html">
+        ファームウェアのインストールを確認
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="トラブルシューティング、フィードバック、サポート"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/reference_ansible_troubleshoot_feedback_support.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ja-jp/active-iq/reference_ansible_troubleshoot_feedback_support.html">
+        トラブルシューティング、フィードバック、サポート
+      </a></li></ul></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="API を使用してデータを統合"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> API を使用してデータを統合</div>-->
+         API を使用してデータを統合
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概要"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_API_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_overview_API_service.html">
+        概要
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="API にアクセスするためのトークンを生成します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_generate_tokens_API_services.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_generate_tokens_API_services.html">
+        API にアクセスするためのトークンを生成します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="API を実行するには、 API カタログを使用します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_API_catalog.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_view_API_catalog.html">
+        API を実行するには、 API カタログを使用します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="カスタムレポートを生成"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> カスタムレポートを生成</div>-->
+         カスタムレポートを生成
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="レポートのタイプ"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_report_types.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/concept_report_types.html">
+        レポートのタイプ
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="レポートを生成します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_generate_reports.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/active-iq/task_generate_reports.html">
+        レポートを生成します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="よくある質問"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="reference_aiq_faq.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/active-iq/reference_aiq_faq.html">
+        よくある質問
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="詳細はこちらをご覧ください"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_get_more_information.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/active-iq/concept_get_more_information.html">
+        詳細はこちらをご覧ください
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="法的通知"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/active-iq/legal-notices.html">
+        法的通知
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/ja-jp/active-iq"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/ja-jp/active-iq"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/ja-jp/active-iq/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 日本語は機械翻訳による参考訳です。内容に矛盾や不一致があった場合には、英語の内容が優先されます。 </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Digital Advisorの新機能</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-03-15 11:55:47 +0000">03/15/2024</time>
+        
+    
+    
+        <span>共同作成者
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/ja-jp/active-iq/images/discuss-sm.svg" alt="" class="github-icon" />変更を提案</span>
+        <img src="/ja-jp/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/ja-jp/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/active-iq.ja-jp/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html&page-title=Digital Advisorの新機能" class="page-nav-contribute-link" role="button">ドキュメントの変更をリクエスト</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/reference_new_activeiq.adoc" class="page-nav-contribute-link" role="button">このページを編集</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >フィードバックを送るには</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/ja-jp/active-iq/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/ja-jp/active-iq/pdfs/fullsite-sidebar/Digital_Advisorのドキュメント.pdf" >
+                    <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>このドキュメント ページのPDF</a>
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/リリースノート.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            リリースノート
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/はじめに.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            はじめに
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/監視リストをプロビジョニング.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            監視リストをプロビジョニング
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/健全性の属性を分析します.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            健全性の属性を分析します
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/ストレージシステムの持続可能性を分析する.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            ストレージシステムの持続可能性を分析する
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/アップグレードプランの生成.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            アップグレードプランの生成
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/システムの詳細を表示します.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            システムの詳細を表示します
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/システム要件をプロアクティブに特定します.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            システム要件をプロアクティブに特定します
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/設定の違いを特定.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            設定の違いを特定
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/ストレージシステムの効率性とパフォーマンスを向上させます.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            ストレージシステムの効率性とパフォーマンスを向上させます
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/ストレージシステムの健常性を分析します.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            ストレージシステムの健常性を分析します
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/アップグレードしてインストールベースを最適化します.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            アップグレードしてインストールベースを最適化します
+          </a>
+          
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/Ansible_Playbook_を使用して__AFF_と_FAS_のファームウェアを更新してください.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/AFF_ファームウェアと_FAS_ファームウェアの_Ansible_Automation_をインストールして実行します_パッケージ___初心者__.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ ( 初心者 )
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/API_を使用してデータを統合.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            API を使用してデータを統合
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/active-iq/pdfs/sidebar/カスタムレポートを生成.pdf" 
+            
+          >
+            <img src="/ja-jp/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            カスタムレポートを生成
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/ja-jp/active-iq/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>PDF版ドキュメントのセット<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Digital Advisorでは、次の機能および拡張機能が導入されました。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024年3月15日">2024年3月15日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>健全性ワークフローにSustainabilityウィジェットが追加されました。このウィジェットには、お客様、監視リスト、サイト、グループの各レベルで推奨されるアクションの数が表示されます。アクションの数をクリックすると、Sustainabilityダッシュボードでこれらの推奨アクションの詳細が表示されます。詳細については、を参照してください <a href="https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html">"ストレージシステムの持続可能性を分析する"</a>。</p>
+</li>
+<li>
+<p>WellnessワークフローのSecurity VulnerabilitiesウィジェットとRansomware Defenseウィジェットが1つのウィジェットに統合され、現在はSecurity &amp; Ransomware Defenseと呼ばれています。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性チェックダッシュボード">健全性チェックダッシュボード</h3>
+<div class="paragraph">
+<p>テクニカルケースのタイムラインが強化され、6カ月または12カ月間のケース履歴がすべて表示されるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024年2月29日">2024年2月29日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="監視リスト">監視リスト</h3>
+<div class="paragraph">
+<p>Keystoneサブスクリプション番号に基づいて監視リストを作成し、サブスクリプション番号または監視リスト名の最初の3文字を使用してKeystoneサブスクリプションを検索できるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024年2月8日">2024年2月8日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="sustainability-dashboard">Sustainability Dashboard</h3>
+<div class="paragraph">
+<p>デフォルトのダッシュボードまたは監視リストのSustainability指標に、 <a href="https://activeiq.netapp.com/redirect/sustainability" target="_blank" rel="noopener">"Sustainability Dashboard"</a> リンク</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cluster-viewer-クラスタビューア">Cluster Viewer （クラスタビューア）</h3>
+<div class="paragraph">
+<p>これで、[Disk Summary]セクションにディスクRPM情報が表示されます。このセクションは、[Storage]タブおよびClusterViewerレポートに表示されます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024年1月3日">2024年1月3日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="upgrade-advisor-を使用します">Upgrade Advisor を使用します</h3>
+<div class="paragraph">
+<p>Upgrade Advisorが強化され、単一のクラスタと複数のクラスタの無停止アップグレードプランが自動で提供されます。アップグレードの推奨事項は、リスクの概要、アップグレード前のチェックレポート、新機能や拡張機能に関する情報など、単一のクラスタについてのみ表示できます。 <a href="https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html">"アップグレードの推奨事項を表示し、アップグレードプランを生成する方法について説明します。"</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年11月16日">2023年11月16日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="監視リスト-2">監視リスト</h3>
+<div class="paragraph">
+<p>最大100個の監視リストを作成できるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="planningウィジェット">[Planning]ウィジェット</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>機器更改に関する推奨事項が、監視リスト、サイト、グループの各ダッシュボードで利用できるようになりました。</p>
+</li>
+<li>
+<p>機器更改の推奨数がゼロの場合に、潜在的な機器更改候補を表示できるようになりました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年10月4日">2023年10月4日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="planningウィジェット-2">[Planning]ウィジェット</h3>
+<div class="paragraph">
+<p>機器更改の推奨数は、お客様レベルのダッシュボードの[Planning]ウィジェットに表示されます。これらの推奨事項は、ハードウェアのサポートがなくなるかサポート終了に近づいている場合に、ハードウェア機器更改アクティビティを計画するのに役立ちます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年9月27日">2023年9月27日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="upgrade-advisor-を使用します-2">Upgrade Advisor を使用します</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>デフォルトの監視リストの[Upgrade Advisor]ページには、 <a href="https://activeiq.netapp.com/redirect/upgrade-advisor" target="_blank" rel="noopener">"Upgrade Advisor を使用します"</a> リンク</p>
+</li>
+<li>
+<p>アップグレードプランは、冗長なアップグレード手順を排除し、バックアウトプランを簡素化するように最適化されています。クラスタ内のすべてのノードで共通の手順が統合され、アップグレードプランの「一般情報」セクションに表示されます。 <a href="https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html">"アップグレードプランを生成して確認する方法を確認する"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年7月16日">2023年7月16日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ストレージ効率">ストレージ効率</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>削減比率を示すラベル* Storage Efficiency <strong>の名前が</strong> Data Reduction *に変更されます。</p>
+</li>
+<li>
+<p>ラベル「Data Saved by Storage Efficiency」*の名前が「Data Reduction Savings」*に変更されます。</p>
+</li>
+<li>
+<p>機能の変更に伴い、<strong class="Snapshotバックアップなしの削減">の名前が</strong>[Snapshotコピーあり]*に変更されました。 <a href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency">"詳細はこちら。"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年6月21日">2023年6月21日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="sustainability-dashboard-2">Sustainability Dashboard</h3>
+<div class="paragraph">
+<p>Sustainabilityダッシュボードは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 <a href="https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html">"詳細はこちら。"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年2月22日">2023年2月22日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="パフォーマンスチャート">パフォーマンスチャート</h3>
+<div class="paragraph">
+<p>読み取り、書き込み、およびその他の平均処理数は、ボリュームのIOPSグラフで確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ストレージ効率-2">ストレージ効率</h3>
+<div class="paragraph">
+<p>AFF Aシリーズ、AFF C190、オールSANアレイ、ONTAP 9.10以降を実行するFAS500などのONTAP システムでは、SANとNASのストレージ効率をノードレベルで実現できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年1月12日">2023年1月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="パフォーマンスレポート">パフォーマンスレポート</h3>
+<div class="paragraph">
+<p>パフォーマンスレポートには、読み取り、書き込み、その他の平均処理数をボリュームレベルで表示できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年11月1日">2022年11月1日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="digital-advisorとbluexpの統合">Digital AdvisorとBlueXPの統合</h3>
+<div class="paragraph">
+<p>Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 <a href="https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html">"詳細はこちら。"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年8月25日">2022年8月25日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="在庫">在庫</h3>
+<div class="paragraph">
+<p>vCenter、ESXiホスト、および仮想マシンに関するVMwareの資産情報がインベントリの詳細に追加され、スタックのインベントリと相互運用性のチェックが完全に実行されるようになりました。 <a href="https://docs.netapp.com/us-en/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="マルチホップアップグレード">マルチホップアップグレード</h3>
+<div class="paragraph">
+<p>一部の自動無停止アップグレード（ANDU）から隣接していないリリースへのアップグレードでは、中間リリースおよびターゲットリリースのソフトウェアイメージをインストールできます。自動アップグレードプロセスでは、バックグラウンドの中間イメージを使用してターゲットリリースへの更新を完了します。たとえば、クラスタで 9.3 を実行している場合に 9.7 にアップグレードするには、 9.5 と 9.7 の両方の ONTAP インストールパッケージをロードし、 ANDU を 9.7 に開始します。その後、 ONTAP はクラスタを 9.5 に、その後 9.7 に自動的にアップグレードします。テイクオーバー / ギブバック処理や関連するリブートが複数回行われることを想定してください。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年7月14日">2022年7月14日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード">健全性チェックのダッシュボード</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Cloud Volumes ONTAP システム用に作成されたテクニカルケースの詳細を健全性チェックダッシュボードで確認できるようになりました。</p>
+</li>
+<li>
+<p>新しいプラットフォームタブが追加され、さまざまなプラットフォームのKPI間を簡単に移動できるようになりました。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="eシリーズシステム">Eシリーズシステム</h3>
+<div class="paragraph">
+<p>SANtricity オペレーティングシステムのバージョンは、推奨バージョンとヘルスチェックKPIで確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-2">健康</h3>
+<div class="paragraph">
+<p>ソフトウェアやファームウェアのバージョンアップグレードを必要としないシステムをすばやく簡単に識別できるように、カラーコーディングが導入されました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="アップグレードワークフロー">アップグレードワークフロー</h3>
+<div class="paragraph">
+<p>Eシリーズシステムのアップグレードに関する推奨事項を確認できるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年6月22日">2022年6月22日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid">StorageGRID</h3>
+<div class="paragraph">
+<p>StorageGRID 用の情報ライフサイクル管理（ILM）は、グリッドビューアに含まれています。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="クラウドに関する推奨事項">クラウドに関する推奨事項</h3>
+<div class="paragraph">
+<p>SnapMirrorデータレプリケーションを使用してNetApp Cloud Volumes ONTAP 、NetApp Cloud Volumes Service 、およびNetApp Cloud Backup（旧称AltaVault ）に移動できるワークロードとそのボリュームに関する推奨事項を提供します。 <a href="https://docs.netapp.com/us-en/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="レポート">レポート</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>生成済みのレポートに定義された条件を使用してレポートを生成できるようになりました。</p>
+</li>
+<li>
+<p>失敗したレポートの生成を3回試行できるようになりました。</p>
+</li>
+<li>
+<p>生成されたレポートの保持期間が3日から90日に延長されました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年6月1日">2022年6月1日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="在庫-2">在庫</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Inventoryでシステムの営業担当者情報を確認できるようになりました。</p>
+</li>
+<li>
+<p>Astra Control Centerシステムがインベントリで利用できるようになりました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年5月12日">2022年5月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-2">StorageGRID</h3>
+<div class="paragraph">
+<p>StorageGRID の容量レポートと容量レポートには、容量の指標も表示されます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cluster-viewer-クラスタビューア-2">Cluster Viewer （クラスタビューア）</h3>
+<div class="paragraph">
+<p>Cluster Viewerに、クラスタのSnapMirror（データ保護）の概要が追加されました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="アップグレードワークフロー-2">アップグレードワークフロー</h3>
+<div class="paragraph">
+<p>アップグレードワークフローを使用して、ターゲットのEシリーズリリースで利用できるアップグレードの推奨事項と新機能の概要を確認できるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-3">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Ansible Playbookは、ソフトウェア構成のリスクを軽減するために強化されています。</p>
+</li>
+<li>
+<p>フィルタが健全性のアクションとリスクに統合されました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022-年-4-月-7-日">2022 年 4 月 7 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康-4">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>最新のオペレーティングシステムバージョンとサポート契約およびサポート終了に関する 6 カ月の KPI の重要な推奨事項の採点は、解決の緊急性の低下に合わせて削減されました。</p>
+</li>
+<li>
+<p>リモート管理と HA ペア（推奨構成）に関する主な推奨事項が更新され、カスタマーセルフサービス用のNetApp Support Siteへの URL が追加されました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022-年-3-月-31-日">2022 年 3 月 31 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-3">StorageGRID</h3>
+<div class="paragraph">
+<p>グリッドビューアでテナントとバケットの情報を表示できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022-年-3-月-24-日">2022 年 3 月 24 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-2">健全性チェックのダッシュボード</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Health Assessment Executive Summary PPT の機能強化とバグ修正。</p>
+</li>
+<li>
+<p>推奨される最小バージョンアップグレードプランを生成する機能。</p>
+</li>
+<li>
+<p>健全性チェックタイルの機能強化により、各 KPI で注意が必要なノード数を特定。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storagegrid-4">StorageGRID</h3>
+<div class="paragraph">
+<p>グリッド設定の詳細は、グリッドビューアで確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="bluexp">BlueXP</h3>
+<div class="paragraph">
+<p>BlueXPユーザーは、Digital Advisorの既存の機能と同様に、必要に応じて新しいタブでDigital Advisorリンクを開くことができるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022-年-1-月-12-日">2022 年 1 月 12 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="config-drift">Config Drift</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>テンプレートを複製して、元のテンプレートのコピーを作成できます。</p>
+</li>
+<li>
+<p>ゴールデンテンプレートは、これらのテンプレートに読み取り専用またはフルアクセスして、他の使用権のあるユーザと共有できます。<br>
+<a href="https://docs.netapp.com/us-en/active-iq/task_manage_template.html">"詳細をご確認ください"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-12-月-15-日">2021 年 12 月 15 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="レポート-2">レポート</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>* Cluster Viewer Report * ：このレポートには、 1 つまたは複数のクラスタに関する情報が顧客レベルと監視リストレベルで表示されます。Cluster Viewer レポートを使用して、 1 つのファイル内のすべての情報をダウンロードできます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</p>
+</li>
+<li>
+<p>* パフォーマンスレポート * ：このレポートは、監視リストレベルで、クラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報を 1 つの zip ファイルにまとめたものです。各 zip ファイルには、単一のクラスタのパフォーマンスデータが含まれており、各クラスタのデータの分析に役立ちます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="e-シリーズシステムとの統合">E シリーズシステムとの統合</h3>
+<div class="paragraph">
+<p>Digital Advisorでは、選択したEシリーズシステムの容量の詳細とパフォーマンスグラフを表示できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-11-月-18-日">2021 年 11 月 18 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ストレージ効率-3">ストレージ効率</h3>
+<div class="paragraph">
+<p>NetApp Cloud Insights で管理および監視されているノードのストレージ効率の詳細を表示できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-11-月-11-日">2021 年 11 月 11 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-3">健全性チェックのダッシュボード</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>健全性チェックタイルにアイコンが追加されました。このアイコンは、 SupportEdge Advisor および SupportEdge Expert サポートサービスを提供するシステムにのみ適用されます。この機能強化は、「ソフトウェアの通貨とファームウェアの通貨」セクション、「推奨構成」、「ベストプラクティス」の推奨ソフトウェアに適用されました。</p>
+</li>
+<li>
+<p>Digital Advisor–Reports画面に、社内ユーザと社外ユーザ（お客様とパートナー）向けのConfidential Dataバナーを追加。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性とアップグレードウィジェット">健全性とアップグレードウィジェット</h3>
+<div class="paragraph">
+<p>E シリーズのアップグレードに関する推奨事項と、ウェルネスアクション履歴の列にリスクトリガー日が追加されたダッシュボードが強化されました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cluster-viewer-クラスタビューア-3">Cluster Viewer （クラスタビューア）</h3>
+<div class="paragraph">
+<p>Cluster Viewer Stack Visualization モジュールが強化され、 Zoom In/Zoom Out and Save Image 機能が追加されました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ストレージ効率-4">ストレージ効率</h3>
+<div class="paragraph">
+<p>NetApp Cloud Insights で管理および監視されるシステムのストレージ効率の詳細を表示できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-10-月-14-日">2021 年 10 月 14 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ansible-のインベントリ">Ansible のインベントリ</h3>
+<div class="paragraph">
+<p>地域およびサイトレベルで、 .yml および .ini ファイル形式で Ansible インベントリファイルを生成できるようになりました。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="inactive-data-reporting-idr">Inactive Data Reporting （ IDR ）</h3>
+<div class="paragraph">
+<p>FabricPool Advisor の画面で、 Inactive Data Reporting （ IDR ）をアクティブ化してアグリゲートを監視し、 Ansible プレイブックを生成できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ドリフトタイムラインレポート">ドリフトタイムラインレポート</h3>
+<div class="paragraph">
+<p>過去 90 日間の AutoSupport データを比較して、ドリフトタイムラインレポートを生成できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_generate_drift_timeline_report.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="準拠システムの切り替え">準拠システムの切り替え</h3>
+<div class="paragraph">
+<p>健全性チェックダッシュボードが強化され、 OS の最小数と最新バージョンの切り替えが可能になりました。これにより、システムが準拠しており、推奨バージョンと最新バージョンの最小要件に準拠していないことを確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="主な推奨事項の概要">主な推奨事項の概要</h3>
+<div class="paragraph">
+<p>ヘルスチェックダッシュボードでは、主要な推奨事項の上位 5 つの概要を確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ネットアップの-cloud-volumes-ontap-および-e-シリーズプラットフォーム用のタブ">ネットアップの Cloud Volumes ONTAP および E シリーズプラットフォーム用のタブ</h3>
+<div class="paragraph">
+<p>健全性チェックダッシュボードが強化され、 Cloud Volumes ONTAP ** および E シリーズのタブではヘルスチェック KPI やそれらのプラットフォームの詳細を表示できるようになりました。</p>
+</div>
+<div class="paragraph">
+<p>「 ONTAP 」のタブも、現在有効になっている他のプラットフォームとともに追加されています。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量">容量</h3>
+<div class="paragraph">
+<p>NetApp Cloud Volumes ONTAP システムの容量に関する詳細をDigital Advisorで確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="レポート-3">レポート</h3>
+<div class="paragraph">
+<p>レポートスケジュールは 12 カ月に延長されました。また、スケジュールレポートの有効期限が近づいたときに通知が送信されます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-9-月-30-日">2021 年 9 月 30 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="お客様の条件を満たすバージョン">お客様の条件を満たすバージョン</h3>
+<div class="paragraph">
+<p>お客様限定バージョンは、サポートアカウントマネージャ（ SAM ）がお客様のインストールベースの一部を管理するのに役立ちます。このベースには、次の要件を満たすアプリケーションが含まれます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ONTAP の以前のバージョンと、サポートされない場合もあります</p>
+</li>
+<li>
+<p>または、特定の OS バージョンを使用することがテストおよび認定されたお客様のインストールベース。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="テクニカルケースのワークフロー">テクニカルケースのワークフロー</h3>
+<div class="paragraph">
+<p>ダッシュボードとドリルダウン画面の両方で、データチャートと折れ線グラフにグラフィカルな機能強化が施されています。また、棒グラフでそのデータを表示することもできます。折れ線グラフウィンドウでは、これらのユーザーインターフェイスの [ オープン ] 、 [ クローズ済み ] 、 [ 合計 ] の各ケースのグラフを表示、選択、選択解除できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="パフォーマンスグラフ">パフォーマンスグラフ</h3>
+<div class="paragraph">
+<p>パフォーマンスグラフは、 CSV 形式に加えて、 PNG 形式および JPG 形式でダウンロードできるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="サポート終了-eos-コントローラが-12-カ月以上ある">サポート終了（ EOS ）コントローラが 12 カ月以上ある</h3>
+<div class="paragraph">
+<p>ヘルスチェックダッシュボードが強化され、 12 カ月を超える EOS があるコントローラを表示するタブが追加されました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-9-月-16-日">2021 年 9 月 16 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康-5">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ランサムウェア防御ウィジェットは、スタンドアロンウィジェットではなくウェルネスワークフローの一部になりました。</p>
+</li>
+<li>
+<p>Wellness Review の E メールでは、更新ではなくランサムウェア防御に関する情報を確認できます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量-2">容量</h3>
+<div class="paragraph">
+<p>NetApp ONTAP ®Selectシステムの容量に関する詳細をデジタルアドバイザで確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cluster-viewer-クラスタビューア-4">Cluster Viewer （クラスタビューア）</h3>
+<div class="paragraph">
+<p>Cluster Viewer の表示タブで、ケーブル接続の問題やその他のエラーを確認できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-9-月-6-日">2021 年 9 月 6 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-5">StorageGRID</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>View AutoSupport ： StorageGRID と基盤のノードの AutoSupport ログを表示します。</p>
+</li>
+<li>
+<p>StorageGRID アプライアンスの詳細：ノードタイプ、アプライアンスモデル、ドライブサイズ、ドライブタイプ、 RAID モードなど、 StorageGRID アプライアンスの詳細を表示します。 グリッドビューアのグリッドインベントリセクションなどで行います。</p>
+</li>
+<li>
+<p>更新：グリッドと、更新が予定されている基盤のノードのリストを表示します。</p>
+</li>
+<li>
+<p>E シリーズ SANtricity のリスク：グリッドの「ダッシュボード - ウェルネス」セクションで、基盤となるノードの E シリーズ SANtricity のリスクを確認できます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量の予測">容量の予測</h3>
+<div class="paragraph">
+<p>容量予測ウィジェットが更新され、システムの再構成を改善するアルゴリズムが追加されました。 <a href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#capacity">"詳細はこちら。"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-8-月-26-日">2021 年 8 月 26 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="digital-advisorモバイルアプリケーション">Digital Advisorモバイルアプリケーション</h3>
+<div class="paragraph">
+<p>Digital Advisorモバイルアプリケーションで生体認証を有効にできるようになりました。認証に使用できるオプションは、お使いの携帯電話でサポートされている機能によって異なります。</p>
+</div>
+<div class="paragraph">
+<p>アプリケーションをダウンロードして、詳細を確認してください。<a href="https://play.google.com/store/apps/details?id=com.netapp.myautosupport" target="_blank" rel="noopener">"Digital Advisorモバイルアプリケーション（Android）"</a><br>
+<a href="https://apps.apple.com/us/app/active-iq/id1230542480" target="_blank" rel="noopener">"Digital Advisorモバイルアプリケーション（iOS）"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-6">健康</h3>
+<div class="paragraph">
+<p>ウェルネスウィジェットには、 Ransomware Defense 属性が追加されています。ランサムウェアの検出、防止、リカバリに関連するリスクや対処方法を確認できるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-8-月-16-日">2021 年 8 月 16 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性のレビュー">健全性のレビュー</h3>
+<div class="paragraph">
+<p>これで、オンデマンドレポートを生成できるようになりました。さらに、最後にスケジュールされたレポートは、 [Wellness Review Subscription] 画面からダウンロードできます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="在庫-3">在庫</h3>
+<div class="paragraph">
+<p>Grid Inventory タブでは、ノードの詳細をサイトレベルに基づいて展開および縮小可能な形式で表示できるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="混在モデルクラスタフラグ">混在モデルクラスタフラグ</h3>
+<div class="paragraph">
+<p>クラスタに複数のハードウェアモデルが混在している場合は、クラスタ全体に適用されている OS バージョンが、すべてのノードで使用できるバージョンになります。そのため、最新のハードウェアモデルの一部のノードの OS バージョンが、適切な場所から旧バージョンになる可能性があります。これらの混在モデルクラスタをより見やすくするために、「混在モデル」アイコンを適用しました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="推奨される構成-storage-virtual-machine-svm-の健常性ボリュームレベルの概要">推奨される構成 / Storage Virtual Machine （ SVM ）の健常性：ボリュームレベルの概要</h3>
+<div class="paragraph">
+<p>SVM テーブルの青い [ ボリュームの概要 ] ボックスをクリックすると、ポップアップに、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-7-月-12-日">2021 年 7 月 12 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="システムファームウェア">システムファームウェア</h3>
+<div class="paragraph">
+<p>ONTAP のメジャーバージョンおよびパッチバージョンと一緒に出荷されたシステムファームウェアに関する情報を確認できるようになりました。この機能には、 [ クイックリンク ] メニューからアクセスできます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-4">健全性チェックのダッシュボード</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>健全性チェックのダッシュボードが強化され、 SupportEdge Advisor でサポートされないシステムについては青のバナーがユーザに表示されるようになりました。また、 SupportEdge Expert は健全性スコアの計算時に考慮されません。</p>
+</li>
+<li>
+<p>推奨される構成ウィジェットが拡張され、 Storage VM （ SVM ）で失敗したチェックの詳細な分析ができるようになりました。また、リスクごとに推奨される対処方法を確認できます。</p>
+</li>
+<li>
+<p>クラスタ内のすべてのノードで、異なるハードウェアモデルを使用して構成された推奨ターゲットの ONTAP バージョンが同じになりました。ターゲットのバージョンはすべてのノードでサポートされます。</p>
+</li>
+<li>
+<p>コントローラ、ディスク、シェルフの EOS タイムラインを PVR で購入できるようになりました。購入した PVR の日付と延長期間の詳細は、サポート終了ウィジェットで確認できます。PVR の詳細も EOSL レポートの一部として提供されます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="在庫-4">在庫</h3>
+<div class="paragraph">
+<p>詳細なインベントリページでは、ハードウェア、ソフトウェア、および返却できないディスクに関するサポート契約の終了日を確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="サポートサービスのアップグレード">サポートサービスのアップグレード</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ユーザーインタフェースが拡張され、Digital Advisorで登録した特定のサポートサービスが表示されるようになりました。</p>
+</li>
+<li>
+<p>システムダッシュボードからサポートサービスサブスクリプションのアップグレードを申請して、より多くの機能にアクセスできるようになりました。 <a href="https://docs.netapp.com/us-en/active-iq/task_upgrade_support_offering.html">"詳細をご確認ください"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-6-月-25-日">2021 年 6 月 25 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="keystone-subscriptionウィジェット">[Keystone Subscription]ウィジェット</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ONTAP コレクタで容量の使用状況に関するデータを取得するように選択している場合は、 [ 共有 ] タブと [ ディスク ] タブでファイル共有とディスクの詳細を表示できます。コミット済み容量が上限に近づいていることを確認すると、ストレージスペースを節約できます。</p>
+</li>
+<li>
+<p>Keystone - 容量利用率ダッシュボードに表示され、請求に使用される容量が論理容量に基づいて計算されるようになりました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-6-月-17-日">2021 年 6 月 17 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="レポート-4">レポート</h3>
+<div class="paragraph">
+<p>Storage VM 内のすべてのボリュームについて、曜日、週、または月に応じてアグリゲートボリュームのパフォーマンスレポートを生成できるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性確認の-e-メールです">健全性確認の E メールです</h3>
+<div class="paragraph">
+<p>健全性レビューの E メールに、健全性チェックとアップグレード操作のサポートと権限に関する情報が記載されるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="アップグレードワークフロー-3">アップグレードワークフロー</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ユーザインターフェイスが強化され、情報の表形式が表示されるようになりました。</p>
+</li>
+<li>
+<p>ONTAP バージョンのサポート終了に関する情報を ［ アップグレードの詳細 ］ 画面で確認できるようになりました。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="config-drift-2">Config Drift</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Config Drift が 200 以上の AutoSupport セクションをサポートするようになりました。これにより、ゴールデンテンプレートの作成と、顧客、サイト、グループ、監視リスト、クラスタ、 および host です。</p>
+</li>
+<li>
+<p>設定のずれを使用すると、設定のドリフトレポートのペイロードに含まれる Ansible の Playbook を使用して、違いを軽減できます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-5">健全性チェックのダッシュボード</h3>
+<div class="paragraph">
+<p>この機能が強化され、 Storage VM （ SVM ）と事前定義されたリスクカタログを比較してギャップを評価し、関連する対処方法を推奨できるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-6-月-9-日">2021 年 6 月 9 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-6">健全性チェックのダッシュボード</h3>
+<div class="paragraph">
+<p>ヘルススコアが計算されたシステムの数を表示できるようになりました。この拡張機能は、健全性チェックダッシュボードのすべての属性に適用されます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-5-月-20-日">2021 年 5 月 20 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="容量追加リクエストのためのドリフトチャット">容量追加リクエストのためのドリフトチャット</h3>
+<div class="paragraph">
+<p>容量追加リクエストをリアルタイムでサポートするには、ダッシュボードから直接販売員とチャットします。 <a href="https://docs.netapp.com/us-en/active-iq/task_identify_capacity_system.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-4-月-29-日">2021 年 4 月 29 日</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>ハッカーやランサムウェア攻撃からシステムを保護する方法をご紹介します。 <a href="https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">"詳細をご確認ください"</a>。</p>
+</li>
+<li>
+<p>ダウンタイムを回避し、データ損失を回避できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">"詳細をご確認ください"</a>。</p>
+</li>
+<li>
+<p>ボリュームがいっぱいにならないようにしてシステム停止を回避する方法をご確認ください。 <a href="https://docs.netapp.com/us-en/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">"詳細をご確認ください"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-4-月-7-日">2021 年 4 月 7 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="監視リスト-3">監視リスト</h3>
+<div class="paragraph">
+<p>Digital Advisorに初めてアクセスする場合は、ダッシュボードの代わりにウォッチリストを作成する必要があります。また、各種の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりすることもできます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-2-月-24-日">2021 年 2 月 24 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="config-drift-3">Config Drift</h3>
+<div class="paragraph">
+<p>このリリースには、次の機能があります。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>テンプレートの作成時に属性を編集できます。</p>
+</li>
+<li>
+<p>AutoSupport セクションのグループ化。</p>
+</li>
+<li>
+<p>構成のドリフトレポートを顧客、サイト、グループ、監視リスト、クラスタ全体にわたって生成またはスケジュール設定する とホスト名です。 <a href="https://docs.netapp.com/us-en/active-iq/task_compare_config_drift_template.html">"詳細をご確認ください"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="レポート-5">レポート</h3>
+<div class="paragraph">
+<p>容量と効率に関するレポートを生成またはスケジュール設定して、システムの容量と Storage Efficiency による削減量に関する詳細情報を表示できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021-年-2-月-10-日">2021 年 2 月 10 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-6">StorageGRID</h3>
+<div class="paragraph">
+<p>StorageGRID ダッシュボードは、 NextGen API フレームワークを使用して有効にします。</p>
+</div>
+<div class="paragraph">
+<p>監視リスト、お客様、グループ、サイトの各レベルで情報を表示するには、 StorageGRID ダッシュボードを使用します。</p>
+</div>
+<div class="paragraph">
+<p>このリリースには、次の機能があります。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>* インベントリウィジェット： * 選択したレベルで利用可能な StorageGRID システムのインベントリを表示します。</p>
+</li>
+<li>
+<p>* ウェルネスウィジェット： * 使用可能なシステムの既存の ARS ルールに基づいて適用される場合は、 StorageGRID に関連するリスクとアクションを含め、すべてのリスクとアクションを表示します。</p>
+</li>
+<li>
+<p>* 計画ウィジェット： *</p>
+<div class="ulist">
+<ul>
+<li>
+<p>* 容量の追加：既存の容量のしきい値の 70% を超えているグリッドサイトには通知が送信されます。容量のしきい値が 70% を超える可能性がある場合は、サイト内の StorageGRID ID に対して今後 1 カ月、 3 カ月、 6 カ月間の容量を追加することもできます。</p>
+</li>
+<li>
+<p>* 契約更新： * ライセンス契約が期限切れになっている、または今後 6 カ月以内に期限が近づいている StorageGRID システムについては、通知が届きます。1 つ以上のシステムを選択して、ネットアップサポートチームに契約更新を申請することができます。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>* グリッドダッシュボード： * グリッドダッシュボードには、選択したグリッドに対する健全性、計画、設定の詳細が表示されます。</p>
+</li>
+<li>
+<p>* 構成ウィジェット： * ウィジェットで選択した StorageGRID の基本的な詳細情報を表示します。これには、グリッド名、ホスト名、シリアル番号、モデル、 OS バージョン、お客様名、配送先、連絡先情報などが含まれます。</p>
+</li>
+<li>
+<p>* グリッドビューア： * 環境設定 * ウィジェットから * グリッドビューア * リンクをクリックすると、グリッド設定を詳細に表示できます。構成 * ウィジェットから、選択した StorageGRID のサイトの詳細と容量の詳細をダウンロードするには、 * グリッドビューア * 画面で * ダウンロード * ボタンをクリックします。</p>
+</li>
+<li>
+<p>* サイトの詳細： * このタブには、各サイトで使用可能なグリッドの概要とストレージノードが表示されます。</p>
+</li>
+<li>
+<p>* グリッドサマリ： * 基本情報が含まれます。たとえば、ライセンスタイプ、ライセンス容量、インストールされているノードの数、サポート期間（ライセンス契約終了日）、プライマリ管理ノード、プライマリ管理ノードのプライマリサイトなどです。このタブには、サイト名、および対応するサイトでタグ付けされているストレージノードの数も表示されます。このリリースでは、対応するサイトのストレージノードを表示するためのハイパーリンクをクリックすると、ノード名のリストが表示されます。</p>
+</li>
+<li>
+<p>* Capacity Details タブ：グリッドに対して設定された Grid レベルとサイトの容量の詳細が表示されます。インストールされているストレージ容量、使用可能なストレージ容量、合計使用済みストレージ容量、データとメタデータに使用されている容量など、容量の詳細。これらの詳細は、グリッドレベルとサイトレベルの両方で確認できます。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fabricpool-アドバイザー">FabricPool アドバイザー</h3>
+<div class="paragraph">
+<p>FabricPool ダッシュボードに階層データボタンが追加され、NetApp BlueXPを使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="クラウド対応ワークロード">クラウド対応ワークロード</h3>
+<div class="paragraph">
+<p>ストレージシステム内で使用可能なさまざまなタイプのワークロードを表示して、クラウド対応のワークロードを特定できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-12-月-21-日">2020 年 12 月 21 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-7">健全性チェックのダッシュボード</h3>
+<div class="paragraph">
+<p>ダッシュボードに次のウィジェットが追加されました。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>推奨ソフトウェア：このウィジェットには、すべてのソフトウェアとファームウェアのアップグレードおよび通貨に関する推奨事項の統合リストが表示されます。</p>
+</li>
+<li>
+<p>信号消失：このウィジェットは、何らかの理由で AutoSupport データの送信を停止したシステムに関するスコアと情報を提供します。7 日以内にホスト名から AutoSupport データが受信されなかった場合に情報を提供します。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-11-月-12-日">2020 年 11 月 12 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="api-を使用したデータの統合">API を使用したデータの統合</h3>
+<div class="paragraph">
+<p>Digital Advisor APIを使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 <a href="https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html">"詳細はこちら。"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性-アップグレードウィジェット">健全性 - アップグレードウィジェット</h3>
+<div class="paragraph">
+<p>強化された Risk Advisor タブと Upgrade Advisor タブでは、すべてのシステムリスクを表示し、すべてのリスクを軽減するためのアップグレードを計画する際に役立ちます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-8">健全性チェックのダッシュボード</h3>
+<div class="paragraph">
+<p>推奨構成ウィジェットがダッシュボードに追加され、リモート管理のリスク、スペアドライブと障害ドライブのリスク、 HA ペアのリスクについて監視しているシステムの数が表示されます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fabricpool-アドバイザー-2">FabricPool アドバイザー</h3>
+<div class="paragraph">
+<p>クラスタを監視することで、ストレージの設置面積と関連コストを削減できます。これらのデータは、アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化データ、 IDR が有効になっていないデータの 4 つのカテゴリに分類されています。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="簡体字中国語および日本語でのローカライズ">簡体字中国語および日本語でのローカライズ</h3>
+<div class="paragraph">
+<p>Digital Advisorは、中国語、英語、日本語の3言語で利用できるようになりました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="レポート-6">レポート</h3>
+<div class="paragraph">
+<p>Cluster Viewer レポートを生成またはスケジュールして、システムの物理構成と論理構成の詳細情報を表示できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_generate_reports.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-10-月-15-日">2020 年 10 月 15 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全性チェックのダッシュボード-9">健全性チェックのダッシュボード</h3>
+<div class="paragraph">
+<p>Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。健全性チェックのスコアに基づいて、長期的な計画を立て、インストールベースの健全性を高めるために、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせることができます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="config-drift-4">Config Drift</h3>
+<div class="paragraph">
+<p>この機能を使用すると、システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_add_config_drift_template.html">"設定のドリフトテンプレートを追加する方法について説明します"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="autosupport">AutoSupport</h3>
+<div class="paragraph">
+<p>AutoSupport データを表示し、詳細を確認できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性レビューサブスクリプション">健全性レビューサブスクリプション</h3>
+<div class="paragraph">
+<p>システムの健全性ステータスをまとめた E メール通知を月単位で受け取るように登録できます。更新日が近づいているため、インストールベースでネットアップ製品のアップグレードが必要になります。 <a href="https://docs.netapp.com/us-en/active-iq/task_subscribe_to_wellness_review_email.html">"今すぐサブスクライブ"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="レポート-7">レポート</h3>
+<div class="paragraph">
+<p>レポート機能を使用すると、すぐにレポートを生成したり、週単位または月単位でレポートを生成するようにスケジュールしたりできます。 <a href="https://docs.netapp.com/us-en/active-iq/task_generate_reports.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="autosupport-の手動アップロード">AutoSupport の手動アップロード</h3>
+<div class="paragraph">
+<p>手動 AutoSupport アップロードが強化され、ユーザエクスペリエンスが向上しました。アップロードステータスに関する備考の列が追加されました。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="keystone-subscriptionウィジェット-2">[Keystone Subscription]ウィジェット</h3>
+<div class="paragraph">
+<p>NetApp Keystone サブスクリプションサービスのコミット済み、消費済み、バースト時のストレージ容量を監視できる。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-30-月-9-日">2020 年 30 月 9 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ansible-playbook-を使用した-aff-および-fas-ファームウェア">Ansible Playbook を使用した AFF および FAS ファームウェア</h3>
+<div class="paragraph">
+<p>ドキュメントが強化され、 AFF ファームウェアと FAS ファームウェアの Ansible による自動化パッケージのダウンロード、インストール、実行に関する情報が追加されました。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html">"Ansible を使用して AFF と FAS のファームウェアを更新する方法について説明します Playbook"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-8-月-18-日">2020 年 8 月 18 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="パフォーマンス">パフォーマンス</h3>
+<div class="paragraph">
+<p>パフォーマンスグラフが強化され、ボリュームのパフォーマンスを評価できるようになりました。ノードタブ、クラスタタブ、ローカル階層タブ、ボリュームタブの切り替えは同じ画面で実行できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_performance_graphs.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ansible-playbook-を使用した-aff-および-fas-ファームウェア-2">Ansible Playbook を使用した AFF および FAS ファームウェア</h3>
+<div class="paragraph">
+<p>AFF および FAS ファームウェア画面が強化され、より良いユーザエクスペリエンスが提供されるようになりました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-7-月-17-日">2020 年 7 月 17 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="パフォーマンス-2">パフォーマンス</h3>
+<div class="paragraph">
+<p>パフォーマンスグラフが強化され、ローカル階層のパフォーマンスを評価できるようになりました。同じ画面でノードタブ、クラスタタブ、ローカル階層タブの間を移動および切り替えできます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-7">健康</h3>
+<div class="paragraph">
+<p>健全性の属性が強化され、影響を受けるすべてのシステムが表示されるようになりました。対処方法やリスクについて詳細に調べる必要はありません。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-6-月-19-日">2020 年 6 月 19 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="インベントリのレポートを生成します">インベントリのレポートを生成します</h3>
+<div class="paragraph">
+<p>選択した監視リストのレポートを生成し、レポートを最大 5 人の受信者に E メールで送信できるようになりました。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="パフォーマンス-3">パフォーマンス</h3>
+<div class="paragraph">
+<p>パフォーマンスグラフが強化され、ストレージシステムのクラスタパフォーマンスを評価できるようになりました。同じ画面でノードタブとクラスタタブの間を移動および切り替えできます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ストレージ効率-5">ストレージ効率</h3>
+<div class="paragraph">
+<p>Storage Efficiency ウィジェットが強化され、クラスタレベルでストレージ効率と削減量を表示できるようになりました。同じ画面でノードタブとクラスタタブの間を移動および切り替えできます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="デフォルトのホームページを更新します">デフォルトのホームページを更新します</h3>
+<div class="paragraph">
+<p>これでフィードバックを送信し、Digital Advisorのデフォルトのホームページ画面を更新した理由をお知らせします。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="インベントリウィジェットを更新します">インベントリウィジェットを更新します</h3>
+<div class="paragraph">
+<p>インベントリウィジェットが強化され、使いやすい日付形式、プラットフォームのサポート終了用の列、およびバージョンのサポート終了時の列が提供されるようになり、ユーザエクスペリエンスが向上しました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-5-月-19-日">2020 年 5 月 19 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="デフォルトのホームページを設定します">デフォルトのホームページを設定します</h3>
+<div class="paragraph">
+<p>Digital Advisorのデフォルトのホームページ画面を設定できるようになりました。Digital AdvisorまたはClassicに設定できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ストレージ効率-6">ストレージ効率</h3>
+<div class="paragraph">
+<p>AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="パフォーマンス-4">パフォーマンス</h3>
+<div class="paragraph">
+<p>パフォーマンスグラフを使用して、さまざまな重要領域でストレージデバイスのパフォーマンスを評価できます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ansible-playbook-を使用した-aff-および-fas-ファームウェアのアップグレード">Ansible Playbook を使用した AFF および FAS ファームウェアのアップグレード</h3>
+<div class="paragraph">
+<p>特定されたリスクを軽減し、ストレージシステムを最新の状態に維持するために、ストレージシステムで Ansible を使用して AFF と FAS のファームウェアを更新します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全性スコア機能を無効にします">健全性スコア機能を無効にします</h3>
+<div class="paragraph">
+<p>健全性スコア機能は一時的に無効になっており、スコアリングアルゴリズムを改善して全体的なエクスペリエンスを簡素化します。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-4-月-2-日">2020 年 4 月 2 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="オンボーディングの概要ビデオ">オンボーディングの概要ビデオ</h3>
+<div class="paragraph">
+<p>オンボーディングビデオは、Digital Advisorのオプションや機能を簡単に理解するために役立ちます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康スコア">健康スコア</h3>
+<div class="paragraph">
+<p>健全性スコアを取得すると、高いリスクの数と期限切れの契約数に基づいて、インストールベースの総合スコアをお客様に提供できます。スコアは、「良い」、「普通」、「悪い」のいずれかになります。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="リスクの概要">リスクの概要</h3>
+<div class="paragraph">
+<p>リスクの概要には、リスク、リスクの影響、対処方法に関する詳細情報が表示されます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="リスクの承認と無視のサポート">リスクの承認と無視のサポート</h3>
+<div class="paragraph">
+<p>リスクを軽減する必要がある場合、または軽減できない場合に、リスクを承認するオプションを提供します。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-19-月-3-日">2020 年 19 月 3 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="アップグレードワークフロー-4">アップグレードワークフロー</h3>
+<div class="paragraph">
+<p>アップグレードワークフローを使用して、アップグレードの推奨事項や、ターゲットの ONTAP リリースで使用できる新機能の概要を確認できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="価値ある分析情報">価値ある分析情報</h3>
+<div class="paragraph">
+<p>Digital Advisorとサポート契約を通じて得られたメリットの概要を確認できます。選択したシステムについては、値レポートに過去 1 年間のメリットが統合されています。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_valuable_insight_widget.html">"今すぐご覧ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="詳細を確認します">詳細を確認します</h3>
+<div class="paragraph">
+<p>より詳細な情報を提供します。これは、データを詳細に分析し、必要に応じて集計された情報の構成を即座に把握するための強力な方法です。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量の追加">容量の追加</h3>
+<div class="paragraph">
+<p>容量を超えているシステムや容量の 90% に近づいているシステムをプロアクティブに特定し、容量の拡張を申請できます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020-年-2-月-29-日">2020 年 2 月 29 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="強化されたユーザインターフェイス">強化されたユーザインターフェイス</h3>
+<div class="paragraph">
+<p>最新のDigital Advisorダッシュボードでは、パーソナライズされたエクスペリエンスを提供します。直感的な操作で、ダッシュボード、ウィジェット、画面全体をスムーズかつシームレスにナビゲーションできます。一体型のエクスペリエンスを提供します。比較、関係、傾向について説明します。さまざまなダッシュボードで提示されるデータに基づいて、重要な関係や意味のある違いを検出して検証するのに役立つ分析情報を提供します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="カスタマイズ可能なダッシュボード">カスタマイズ可能なダッシュボード</h3>
+<div class="paragraph">
+<p>1 つ以上のページや画面でデータに関する重要な分析情報を提供し、システムを一目で監視できるようにします。最大 10 個のダッシュボードを作成して、ビジネス上の意思決定を効率的に行うこともできます。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html">"詳細はこちら。"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="active-iq-unified-manager-を使用してリスクを軽減">Active IQ Unified Manager を使用してリスクを軽減</h3>
+<div class="paragraph">
+<p>Active IQ Unified Manager を使用して、リスクを表示して修正できます。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_risks_remediated_unified_manager.html">"詳細をご確認ください"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-8">健康</h3>
+<div class="paragraph">
+<p>次の 6 つのウィジェットに分類されるストレージシステムのステータスに関する詳細情報を表示します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>パフォーマンスと効率性</p>
+</li>
+<li>
+<p>可用性と保護</p>
+</li>
+<li>
+<p>容量</p>
+</li>
+<li>
+<p>設定</p>
+</li>
+<li>
+<p>セキュリティ</p>
+</li>
+<li>
+<p>契約更新</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>を参照してください <a href="https://docs.netapp.com/us-en/active-iq/concept_overview_wellness.html">"健全性の属性を分析します"</a> 詳細：</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="よりスマートで高速な検索">よりスマートで高速な検索</h3>
+<div class="paragraph">
+<p>単一システムビューを使用して、シリアル番号、システム ID 、ホスト名、サイト名、グループ名、クラスタ名などのパラメータを検索できます。また、システムのグループを検索することもできます。また、システムのグループごとに、お客様名、サイト名、またはグループ名で検索することもできます。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/ja-jp/active-iq/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/ja-jp/active-iq/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">このページ</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">ご利用規約</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">プライバシー ポリシー</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">クッキー ポリシー</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">クッキーの設定</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">このページに関するフィードバックをお寄せください</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ja-jp/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ja-jp/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/ja-jp/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ja-jp/active-iq/js/ie-tabbed-blocks.js'></script>
+    <script src='/ja-jp/active-iq/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
