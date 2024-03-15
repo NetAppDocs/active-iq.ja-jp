@@ -20,6 +20,24 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2024年3月15日
+
+
+
+=== 健康
+
+* 健全性ワークフローにSustainabilityウィジェットが追加されました。このウィジェットには、お客様、監視リスト、サイト、グループの各レベルで推奨されるアクションの数が表示されます。アクションの数をクリックすると、Sustainabilityダッシュボードでこれらの推奨アクションの詳細が表示されます。詳細については、を参照してください link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["ストレージシステムの持続可能性を分析する"]。
+* WellnessワークフローのSecurity VulnerabilitiesウィジェットとRansomware Defenseウィジェットが1つのウィジェットに統合され、現在はSecurity & Ransomware Defenseと呼ばれています。
+
+
+
+
+=== 健全性チェックダッシュボード
+
+テクニカルケースのタイムラインが強化され、6カ月または12カ月間のケース履歴がすべて表示されるようになりました。
+
+
+
 == 2024年2月29日
 
 

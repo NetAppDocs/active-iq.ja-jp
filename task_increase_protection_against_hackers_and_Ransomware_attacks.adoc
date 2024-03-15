@@ -26,10 +26,10 @@ Digital Advisorの対象外の製品を含む、ネットアップ製品のそ�
 
 .手順
 . Digital Advisorにログインします。
-. セキュリティーの脆弱性 * ウィジェットで * アクション * をクリックします。image:Security_Image 1 Ransomware attacks.png["セキュリティの脆弱性ウィジェット"]
-+
-影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。
-
+. [Security & Ransomware Defense]ウィジェットの*[Actions]*をクリックします。
+image:Security_Image 2 Ransomware attacks.png["セキュリティの脆弱性ウィジェット"]
+. [Ransomware Defense]*チェックボックスをオフにします。
+. 影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。
 . [*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。image:Corrective Action_Image 2 Ransomware attacks.png["対処方法の列"]
 +
 ONTAP 9.7P8 以降では、リスクが修正されています。image:Remediations_Image 3 Ransomware attacks.png["［ 修正 ］ タブ"]
