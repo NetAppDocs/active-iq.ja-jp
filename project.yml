@@ -81,8 +81,6 @@ sidebar:
       url: "/upgrade_advisor_overview.html"
     - title: 単一クラスタおよび複数クラスタのアップグレードプランの生成
       url: "/generate_upgrade_plan_single_multiple_clusters.html"
-    - title: ノードのアップグレード計画の生成
-      url: "/task_view_upgrade.html"
   - title: システムの詳細を表示します
     entries:
     - title: インベントリの詳細を表示します
