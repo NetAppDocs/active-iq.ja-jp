@@ -56,9 +56,7 @@
   <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">テクニカル以外のケース</block>
   <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*非技術的なケースとは？*</block>
   <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">在庫にシステムが表示されない、契約期間が正しくないなど、技術的でない問題は技術的なケース以外のケースに分類されます。</block>
-  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*非技術的なケースを作成する必要があるのはいつですか。*</block>
   <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">次の場合は、テクニカルケース以外のケースを作成する必要があります。</block>
-  <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">特定の機能にアクセスできません</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">インベントリにシステムがありません</block>
   <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">インストールベースからのシステムの運用停止</block>
   <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">契約期間の日付が正しくないか、不足しています</block>
@@ -1503,4 +1501,23 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">古いバージョンのUpgrade Advisorは廃止されました。強化されたバージョンのUpgrade Advisorを使用すると、単一のクラスタおよび複数のクラスタのアップグレードプランを生成できます。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="09e1051fd25e78ca51d5f56f36581890" category="paragraph">Upgrade Advisorが強化され、単一のクラスタと複数のクラスタの無停止アップグレードプランが自動で提供されます。アップグレードの推奨事項は、リスクの概要、アップグレード前のチェックレポート、新機能や拡張機能に関する情報など、単一のクラスタについてのみ表示できます。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="cd798e0859b41c1efded8de089ce45b3" category="paragraph">Upgrade Advisorを使用して、アップグレードの対象となるクラスタまたは対象外のクラスタのリストを表示できます。対象となるクラスタのアップグレードの推奨事項を確認し、アップグレードプランを生成できます。クラスタに対応していない問題を修正して、アップグレードの対象にすることができます。</block>
+  <block id="1f9ef86a19fb9104f4d7a15dcd85da08" category="section-title">テクニカルケース</block>
+  <block id="3a3fe5cea8eb171bc705034869baf974" category="paragraph">*テクニカルケースはいつ作成するのですか？*</block>
+  <block id="34146078710488bcb88e2208ddabb74e" category="paragraph">テクニカルケースは、ハードウェアの停止、パフォーマンスの低下、データの問題、または技術情報の要求に関連する技術的な問題について、NetApp製品のサポートを求めるために作成されます。</block>
+  <block id="8fa70b8a3fbd3112ebe49465f5e4f6f4" category="paragraph">*テクニカルケースを作成するにはどうすればよいですか？*</block>
+  <block id="74345213f8d76009dd92f861947ff81d" category="list-text">をクリックします <block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block> NetApp Support Siteを開きます。</block>
+  <block id="ab26c6ed73849626062a39e18c415af0" category="list-text">トップメニューの*[My Cases]*をクリックします。</block>
+  <block id="97026494f28ea8b85c28720a5dcc49ba" category="list-text">[ケースの作成]*をクリックします。</block>
+  <block id="2017e57b58cd03255505cd1386833eda" category="list-text">カテゴリを選択し、必要な詳細を入力して*[新規検索]*をクリックし、インベントリからシステムを検索します。</block>
+  <block id="3a7cf8f60b6dbf828b28e59d650f69c7" category="list-text">表示されたシステムのリストから、ケースを作成するシステムを選択します。</block>
+  <block id="d25803d7582f3b219af4a612ad2ec38a" category="list-text">新しいケースの優先度を選択します。</block>
+  <block id="d58cf7db3887b590a8c6217f53660b52" category="list-text">[問題のカテゴリ]ドロップダウンリストから適切なカテゴリを選択します。</block>
+  <block id="5b2a1684bf941c030a190eeaca82ea46" category="list-text">Problem概要フィールドにProblem概要を入力し、* Proceed *をクリックします。</block>
+  <block id="4f42268c65a397c8cddfe11341e788b6" category="list-text">問題の詳細を入力します。</block>
+  <block id="0d105b5d8aad07987a8fc6ca830c5c98" category="list-text">[ファイルの選択]*をクリックして、問題の診断に役立つファイルまたは画像をアップロードします。</block>
+  <block id="2f88e5cbd35ab951b0bce5a96b06bb36" category="list-text">[* Proceed] をクリックします。</block>
+  <block id="dd270a8aa811a52ca44969147eaf4518" category="list-text">連絡先の詳細を入力します。</block>
+  <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">[ケースの作成]*をクリックします。</block>
+  <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">*テクニカル以外のケースはいつ作成するのですか？*</block>
+  <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">特定の機能にアクセスできない、またはDigital Advisorの機能に関するサポートが必要な場合</block>
 </blocks>
