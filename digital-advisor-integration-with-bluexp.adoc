@@ -33,7 +33,7 @@ BlueXPを使用することで、ITエキスパートとクラウドアーキテ
 クラスタを管理するには、BlueXPからDigital Advisorにアクセスします。
 
 .手順
-. Web ブラウザを開き、に進みます https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^]
+. Web ブラウザを開き、に進みます https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^]。
 . 「* NetApp Support Site 資格情報でログイン*」を選択し、資格情報を入力します。
 +
 以前に電子メールとパスワードを使用してBlueXPログインを作成していた場合は、代わりにそのログインオプションを使用する必要があります。
@@ -52,4 +52,4 @@ BlueXPを使用することで、ITエキスパートとクラウドアーキテ
 
 == BlueXPの詳細をご覧ください
 
-https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["詳細については、BlueXPのマニュアルを参照してください"^]
+https://docs.netapp.com/us-en/bluexp-family/index.html["詳細については、BlueXPのマニュアルを参照してください"^]

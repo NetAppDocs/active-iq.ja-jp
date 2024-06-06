@@ -20,6 +20,16 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2024年5月15日
+
+
+
+=== Sustainability Dashboard
+
+EシリーズシステムとStorageGRIDシステムでサステナビリティがサポートされるようになりました。これらのシステムのSustainabilityダッシュボードでは、推奨される対処方法と環境指標のリストを表示して、電力、直接的な炭素使用量、熱の予測を表示できます。詳細については、を参照してください link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"^]。
+
+
+
 == 2024年3月28日
 
 
