@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: digital-advisor-integration-with-bluexp.html 
 keywords: digital advisor, integration, bluexp 
-summary: 'Digital Advisor (以前のActive IQ Digital Advisor )は"BlueXPと完全に統合されましたクラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。' 
+summary: 'Digital AdvisorがBlueXPに完全に統合されました。クラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。' 
 ---
 = Digital AdvisorとBlueXPの統合
 :hardbreaks:
@@ -16,7 +16,7 @@ summary: 'Digital Advisor (以前のActive IQ Digital Advisor )は"BlueXPと完�
 
 
 [role="lead"]
-Digital Advisor (以前のActive IQ Digital Advisor )は'BlueXPと完全に統合されましたクラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。
+Digital AdvisorがBlueXPに完全に統合されました。クラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。
 
 BlueXPを使用することで、ITエキスパートとクラウドアーキテクトはハイブリッドマルチクラウドインフラを一元管理できます。必要なのは、BlueXPのDigital AdvisorにアクセスするためのNetApp Support Site （NSS）アカウントだけです。
 

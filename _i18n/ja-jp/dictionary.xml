@@ -972,7 +972,6 @@
   <block id="044be2af3d7a8e5a1f40d130d2438c9f" category="list-text">[Tier Data](階層データ)をクリックして'BlueXP*を起動します</block>
   <block id="d47e8f11a965b60f93af502da96f983a" category="list-text">[クラウドにバックアップ]をクリックして、*BlueXP*を起動します。</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">[クラウドに複製]をクリックして、*BlueXP*を起動します。</block>
-  <block id="37d1c7cc9a28ed0051987a7bb5b7d027" category="summary">Digital Advisor (以前のActive IQ Digital Advisor )は'BlueXPと完全に統合されましたクラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。</block>
   <block id="460143bcf999273db551806a244f984a" category="doc">Digital AdvisorとBlueXPの統合</block>
   <block id="8c36f4cc3d20ca0b82973d5efc0db5f7" category="paragraph">BlueXPを使用することで、ITエキスパートとクラウドアーキテクトはハイブリッドマルチクラウドインフラを一元管理できます。必要なのは、BlueXPのDigital AdvisorにアクセスするためのNetApp Support Site （NSS）アカウントだけです。</block>
   <block id="ef968e276f61485a7817ba225a8c20b6" category="section-title">統合の概要</block>
@@ -1174,17 +1173,13 @@
   <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
   <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Sustainabilityダッシュボードの概要</block>
-  <block id="4c2b4426b7dc09f399ba26ed28948574" category="paragraph">持続可能性ダッシュボードには、ストレージシステムの環境評価と、ネットアップが推奨するアクションの形で改善に役立つ実用的なインサイトが表示されます。</block>
   <block id="ca83c30c00a0e9764753dfe902966c87" category="inline-image-macro">持続可能性ダッシュボードを示すUIスクリーンショット。</block>
   <block id="3cab16f01bfdfc4bc2969c6d95293181" category="paragraph"><block ref="3cab16f01bfdfc4bc2969c6d95293181" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b4f83b03956523a39e8bbbd0895f0f29" category="inline-link-macro">Cloud Insights の機能です</block>
   <block id="b571f57eccbda9dd69031db85e4d4c3c" category="admonition">ダッシュボードから最良の結果を得るには、AutoSupportを有効にする必要があります。AutoSupportが有効になっていない場合、データは製品仕様に基づきます。リアルタイムの電力詳細を取得するには、Cloud Insightsを有効にする必要があります。Cloud Insightsを有効にする方法の詳細については、を参照してください。 <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>。</block>
-  <block id="349d5b603d0e4251a3e164f95f8c02f8" category="paragraph">*環境インジケータ*：電力、直接的な炭素使用量、および熱放出の予測を表示して、ストレージシステムの環境状態を評価します。これらの予測は、実際の電力（使用できない場合）の標準電力値に基づいています。これらの予測は、このセクションの右上にあるドロップダウンから希望するオプションを選択して、月単位、四半期単位、または年単位で表示できます。</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">サイトの炭素緩和の割合とこの割合を編集する方法を示すスクリーンショット。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
   <block id="beb260be8cea3e84f70f9430a752b705" category="inline-link-macro">持続可能性スコアの向上</block>
-  <block id="fe143bdce72bc5ab4569489181cdd2e4" category="paragraph">*推奨される対処方法*：ストレージシステムの持続可能性スコアを向上させるための推奨される対処方法のリストを表示します。これらのアクションはすぐに実行することも、あとで実行することもできます。
-持続可能性スコアを向上させる方法の詳細については、を参照してください。 <block ref="873cf785eea222f4f03b5ce3115ed1d1" category="inline-link-macro-rx"></block>。</block>
   <block id="8567bc66d7819e8863325a79e4709020" category="paragraph">*作業環境*：より効率的なストレージに移動するクラスタを特定するのに役立つ環境パラメータが表に表示されます。このテーブルでは、次の操作を実行できます。</block>
   <block id="62fddd607dc9693b0c872b37a4574243" category="inline-link-macro">クラスタレベルで持続可能性のスコアを向上</block>
   <block id="d349bd444ea7cf19afb8883ebd796f29" category="list-text">クラスタレベルの持続可能性スコアを表示し、* ClusterViewer *にアクセスするクラスタ名を選択して、持続可能性を向上させるための具体的な推奨措置を実行します。詳細については、を参照してください <block ref="7b74333fc84c714028dfd344685516f9" category="inline-link-macro-rx"></block>。</block>
@@ -1518,10 +1513,20 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">必要に応じて、コメントを入力します。</block>
   <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">[送信]*をクリックして要求をNetAppストレージチームに送信し、選択したシステムの容量の追加を支援します。</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024年5月15日</block>
-  <block id="0108740b4afbf178bb60484e5406b8b8" category="paragraph">EシリーズシステムとStorageGRIDシステムでサステナビリティがサポートされるようになりました。これらのシステムのSustainabilityダッシュボードでは、推奨される対処方法と環境指標のリストを表示して、電力、直接的な炭素使用量、熱の予測を表示できます。詳細については、を参照してください <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
   <block id="7f7cec1be1735b1983c4a5c393d28f95" category="list-text">Web ブラウザを開き、に進みます<block ref="728980458233383868b0f55c1d2cfb83" category="inline-link-rx"></block>。</block>
   <block id="75a2fb3e65876cbcfa3205242ff8f481" category="paragraph"><block ref="75a2fb3e65876cbcfa3205242ff8f481" category="inline-link-rx"></block></block>
   <block id="aa5dc235d62725940283cabf93c99f56" category="paragraph">Sustainabilityダッシュボードでは、持続可能性スコア、電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">持続可能性は、Cloud Volumes ONTAP、AFFシステム（AシリーズおよびCシリーズ）、Eシリーズ、FAS、およびStorageGRIDシステムでサポートされます。</block>
   <block id="85146254574b987d9cbb6cab677e0b41" category="list-text">持続可能性スコアと、電力、直接炭素、熱の使用量の予測を表示します。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、ネットアップが推奨する対処方法に沿ってスコアを改善します。 <block ref="39c6b2486cd9bf17fda30dbe2d930cc2" category="inline-link-macro-rx"></block>。</block>
+  <block id="f78aea7a273ac10c7cb721f1b73054d6" category="paragraph">持続可能性ダッシュボードには、お客様のストレージシステムの環境評価と、ネットアップが推奨するアクションの形で改善に役立つ実用的なインサイトが表示されます。</block>
+  <block id="1894439cce0793aa137fea7a4b35dabb" category="paragraph">*環境インジケータ*：電力、直接的な炭素使用量、および熱放出の予測を表示して、ストレージシステムの環境状態を評価します。これらの予測は、実際の電力（使用できない場合）の標準電力値に基づいています。これらの予測は、このセクションの右上にあるドロップダウンから希望するオプションを選択して、月単位、四半期単位、または年単位で表示できます。</block>
+  <block id="be7240e9b76d1939220e2878a2db9c57" category="paragraph">*推奨される対処方法*：ストレージシステムの持続可能性スコアを向上させるための推奨される対処方法のリストを表示します。これらのアクションはすぐに実行することも、あとで実行することもできます。持続可能性スコアを向上させる方法の詳細については、を参照してください <block ref="873cf785eea222f4f03b5ce3115ed1d1" category="inline-link-macro-rx"></block>。</block>
+  <block id="e24114b3239c82dab2f946aab9cd9d56" category="summary">Digital AdvisorがBlueXPに完全に統合されました。クラスタを管理し、BlueXPユーザーインターフェイス(UI)からDigital Advisorのすべての機能にアクセスできるようになりました。</block>
+  <block id="d16ed76d9bbe68a33a560068a6d75b3a" category="section-title">持続可能性スコアの計算</block>
+  <block id="1edb693117135d541a37bbf14f07ec73" category="paragraph">持続可能性スコアは、ストレージシステムに関連する一連のルールに基づいて計算されます。各ルールは、特定のリスクに対処し、軽減のための推奨アクションを提供します。すべてのルールには、その重要性を反映するスコアが与えられます。たとえば、ストレージシステムには、周囲温度の維持、理想的な容量使用率の確保、チタン製電源の使用という3つのルールがあり、それぞれスコアは30、40、30ポイントです。これらのスコアを追加すると、分母として機能する合計100ポイントが与えられます。</block>
+  <block id="4d17f9cca03c70725a36605d7c17e756" category="paragraph">ストレージシステムがすべての基準を完全に満たしていれば、持続可能性スコアは100%になります。システムのパフォーマンスが最適なレベルの半分であれば、50%のスコアを達成できます。合計ポイントは基準となり、実際のパフォーマンスと理想的なパフォーマンスを比較するために使用されます。これらのルールへの準拠を強化するために推奨されるアクションを実装できます。これにより、持続可能性スコアが向上します。</block>
+  <block id="8e4743bb176d909e65d015847fc93346" category="admonition">持続可能性のスコアは最初はクラスタレベルで計算され、次にお客様レベルや監視リストレベルなどの他のレベルで集計されます。</block>
+  <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024年7月4日</block>
+  <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">ストレージシステムの環境の健全性に関するインサイトを提供する環境指標により、高度な予測モデルに基づいて、予測される電力使用量、直接炭素使用量、および熱排出量のより正確な値が提供されるようになりました。詳細については、を参照して <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">EシリーズシステムとStorageGRIDシステムでサステナビリティがサポートされるようになりました。これらのシステムのSustainabilityダッシュボードでは、推奨される対処方法と環境指標のリストを表示して、電力、直接的な炭素使用量、熱の予測を表示できます。詳細については、を参照して <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>ください。</block>
 </blocks>
