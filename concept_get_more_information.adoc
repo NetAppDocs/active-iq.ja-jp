@@ -20,6 +20,6 @@ summary: Digital Advisorに関する詳細情報を提供します。
 
 * link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["ネットアップコミュニティ"^]
 * link:https://www.netapp.com/us/documentation/active-iq.aspx["ドキュメントに関するリソース"^]
-* link:https://www.netapp.com/us/media/tr-4688.pdf["ネットアップ計測データのセキュリティとプライバシー"^]
-* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport と AutoSupport オンデマンド"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["ネットアップ計測データのセキュリティとプライバシー"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["ONTAP AutoSupport と AutoSupport オンデマンド"^]
 
