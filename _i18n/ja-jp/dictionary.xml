@@ -588,7 +588,6 @@
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">* ノード *</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">すべてのプラットフォームでサポートされます</block>
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">容量の追加</block>
-  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ）</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">clustered Data ONTAP でのみサポートされます</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">アップグレード</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">監視リストを管理するための情報を提供します。</block>
@@ -880,8 +879,6 @@
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">未解決および確認済みのリスク、リスクの詳細、対処方法、影響を受けるシステムに関する情報が表示されます。</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康–集約されました</block>
   <block id="df67990129d3bd9cbda01755e666bbee" category="cell">未解決のリスクと影響を受けるシステムの数を表示します。</block>
-  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7-Mode Upgrade Advisor の計画</block>
-  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">7-Mode システム向けの Upgrade Advisor プランに関するレポートを提供します。このレポートには、HAパートナーに関する情報が含まれます。</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">地域またはサイトごとにシステムインベントリの詳細をすべて表示する Ansible インベントリファイルを提供します。このファイルは自動化に使用できます。</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">非アクティブ、コールド、アクティブ、ホット、階層化、 監視対象外のデータです。このレポートには、無効なアグリゲートで Inactive Data Reporting を有効にするための Ansible プレイブックも含まれています。</block>
@@ -1529,4 +1526,8 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">EシリーズシステムとStorageGRIDシステムでサステナビリティがサポートされるようになりました。これらのシステムのSustainabilityダッシュボードでは、推奨される対処方法と環境指標のリストを表示して、電力、直接的な炭素使用量、熱の予測を表示できます。詳細については、を参照して <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>ください。</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">2024 年 8 月 21 日</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">ソフトウェア バージョンのサポート</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Data ONTAP 7-Modeストレージシステムのアップグレード</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">7-Modeシステムの限定サポートが終了したため、* 7-Mode Upgrade Advisor Plans *レポートはご利用いただけなくなりました。詳細については、を参照してください <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。詳細については、をご覧ください <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
 </blocks>

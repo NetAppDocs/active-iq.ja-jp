@@ -40,7 +40,7 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | 契約更新 | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます 
 
 
-| 容量の追加 | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） | ONTAP プラットフォームでのみサポートされます （ Data ONTAP 7-Mode および clustered Data ONTAP ） 
+| 容量の追加 | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
 
 
 | 在庫 | すべてのプラットフォームでサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
