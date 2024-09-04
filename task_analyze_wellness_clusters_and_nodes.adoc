@@ -4,7 +4,7 @@ permalink: task_analyze_wellness_clusters_and_nodes.html
 keywords: cluster, node, clusterviewer, configuration 
 summary: Cluster Viewer についての情報を提供します。 
 ---
-= クラスタとノードの健全性を分析します
+= クラスタとノードの健全性を分析
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_update_AFF_FAS_firmware.html
 keywords: update, AFF, FAS firmware, firmware 
 summary: AFF および FAS ファームウェアを更新する方法について説明します。 
 ---
-= AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします
+= AFFおよびFASファームウェアのAnsible Automationパッケージをダウンロード
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

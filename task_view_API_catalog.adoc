@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: API カタログで使用できる API に関する情報を提供します。 
 ---
-= API を実行するには、 API カタログを使用します
+= APIカタログを使用したAPIの実行
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

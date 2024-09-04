@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: ヘルスチェックダッシュボードについて理解するための情報を提供します。 
 ---
-= 健全性チェックのダッシュボードを確認
+= 健全性チェックダッシュボードについて理解する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,9 +16,9 @@ summary: ヘルスチェックダッシュボードについて理解するた�
 
 
 [role="lead"]
-Digital Advisorの健全性チェックダッシュボードでは、環境全体のポイントインタイムレビューが提供されます。
+Digital Advisorの健全性チェックダッシュボードでは、環境全体をポイントインタイムで確認できます。
 
 健全性チェックのスコアに基づいて、長期的な計画に備えて、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせて調整することができます。ソフトウェアとハードウェアで実行されているすべてのシステムを、一元化されたユーザインターフェイスで監視できます。ヘルスチェックのスコアを使用すると、システムリスクに関する情報をすばやく取得できます。主な推奨事項とベストプラクティスは、インストールベースの健常性を改善するための対処方法です。
 
 
-NOTE: 健全性チェックダッシュボードには、ネットアップの SupportEdge Advisor と SupportEdge Expert のサービスからのみアクセスできます。
+NOTE: 健全性チェックダッシュボードには、NetApp SupportEdge AdvisorとSupportEdge Expertのサービスからのみアクセスできます。

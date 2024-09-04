@@ -13,8 +13,6 @@ sidebar:
   entries:
   - title: Digital Advisorのドキュメント
     url: "/index.html"
-  - title: Digital AdvisorとBlueXPの統合
-    url: "/digital-advisor-integration-with-bluexp.html"
   - title: リリースノート
     entries:
     - title: 新機能
@@ -27,153 +25,158 @@ sidebar:
       url: "/concept_getting_started_2.html"
     - title: Digital Advisorの機能を理解する
       url: "/concept_understand_activeiq_features.html"
+    - title: Digital AdvisorとBlueXPの統合
+      url: "/digital-advisor-integration-with-bluexp.html"
     - title: 主な概念
       url: "/concept_key_terms.html"
     - title: AutoSupport とは
       url: "/concept_autosupport.html"
     - title: Digital Advisorにログインします
       url: "/task_login_activeiq.html"
-  - title: 監視リストをプロビジョニング
-    entries:
-    - title: 概要
-      url: "/concept_overview_dashboard.html"
-    - title: 監視リストを作成します
-      url: "/task_add_watchlist.html"
-    - title: 監視リストを管理します
-      url: "/task_manage_watchlists.html"
-  - title: 健全性の属性を分析します
-    entries:
-    - title: 概要
-      url: "/concept_overview_wellness.html"
-    - title: リスクを確認し、修正措置を手動で実施します
-      url: "/task_view_risk_and_take_action.html"
-    - title: セキュリティの脆弱性を検出します
-      url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
-    - title: ランサムウェアのリスクからシステムを保護
-      url: "/task_protect_systems_against_ransomware_risks.html"
-    - title: リスクを確認して承認します
-      url: "/task_view_and_acknowledge_risks.html"
-    - title: 健全性の履歴を表示します
-      url: "/task_view_wellness_history.html"
-    - title: Active を使用して自動で軽減できるリスクを表示します IQ Unified Manager または Ansible プレイブック
-      url: "/task_view_risks_remediated_unified_manager.html"
-    - title: ダウンタイムとデータ損失の可能性を回避します
-      url: "/task_avoid_the_downtime_and_possible_data_loss.html"
-    - title: ウェルネスレビューメールに登録する
-      url: "/task_subscribe_to_wellness_review_email.html"
-    - title: ソフトウェアとハードウェアを更新します
-      url: "/task_renew_software_and_hardware.html"
-    - title: クラスタとノードの健全性を分析します
-      url: "/task_analyze_wellness_clusters_and_nodes.html"
-  - title: ストレージシステムの持続可能性を分析する
-    entries:
-    - title: 持続可能性の詳細
-      url: "/learn_BlueXP_sustainability.html"
-    - title: Sustainabilityダッシュボードにアクセス
-      url: "/get_started_sustainability_dashboard.html"
-    - title: Sustainabilityダッシュボードの概要
-      url: "/BlueXP_sustainability_dashboard_overview.html"
-    - title: 持続可能性スコアの向上
-      url: "/improve_sustainability_score.html"
-  - title: アップグレードプランの生成
-    entries:
-    - title: 概要
-      url: "/upgrade_advisor_overview.html"
-    - title: 単一クラスタおよび複数クラスタのアップグレードプランの生成
-      url: "/generate_upgrade_plan_single_multiple_clusters.html"
-  - title: システムの詳細を表示します
-    entries:
-    - title: インベントリの詳細を表示します
-      url: "/task_view_inventory_details.html"
-    - title: Cloud Insights と統合して仮想マシンの詳細を表示
-      url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
-    - title: 価値ある分析情報を確認できます
-      url: "/task_view_valuable_insight_widget.html"
-    - title: Keystoneサブスクリプションの容量利用率を確認
-      url: "/view_keystone_capacity_utilization.html"
-  - title: システム要件をプロアクティブに特定します
-    entries:
-    - title: 概要
-      url: "/concept_overview_planning.html"
-    - title: 容量が上限に達しているシステムを特定します
-      url: "/task_identify_capacity_system.html"
-    - title: ボリュームがいっぱいにならないようにしてシステム停止を回避してください
-      url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-    - title: テクノロジの更新を評価する
-      url: "/evaluate-tech-refresh.html"
-    - title: ソフトウェアとハードウェアを更新します
-      url: "/task_renew_software_and_hardware.html"
-  - title: クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思
-    url: "/task-informed-decisions-based-on-cloud-recommendations.html"
-  - title: 設定の違いを特定
-    entries:
-    - title: 概要
-      url: "/concept_overview_config_drift.html"
-    - title: 設定ドリフトテンプレートを追加します
-      url: "/task_add_config_drift_template.html"
-    - title: 構成ドリフトテンプレートを比較します
-      url: "/task_compare_config_drift_template.html"
-    - title: ドリフトタイムラインレポートを生成します
-      url: "/task_generate_drift_timeline_report.html"
-    - title: テンプレートを管理します
-      url: "/task_manage_template.html"
-  - title: ストレージシステムの効率性とパフォーマンスを向上させます
-    entries:
-    - title: 容量と効率化による削減効果を分析できます
-      url: "/task_analyze_storage_efficiency.html"
-    - title: ストレージパフォーマンスを分析
-      url: "/task_view_performance_graphs.html"
-  - title: ストレージシステムの健常性を分析します
-    entries:
-    - title: 概要
-      url: "/concept_understand_health_check_dashboard.html"
-    - title: 健全性チェックダッシュボードの利用を開始しましょう
-      url: "/concept_get_started_with_health_check_dashboard.html"
-    - title: サポート契約の更新
-      url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: アップグレードしてインストールベースを最適化します
-    entries:
-    - title: サポートサービスをアップグレードします
-      url: "/task_upgrade_support_offering.html"
-    - title: Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください
+    - title: 監視リストをプロビジョニング
       entries:
-      - title: AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします
-        url: "/task_update_AFF_FAS_firmware.html"
-      - title: AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ（熟練ユーザー）
-        url: "/task_install_execute_firmware_update_exp_user.html"
-      - title: AFF ファームウェアと FAS ファームウェアの Ansible Automation をインストールして実行します パッケージ (
-          初心者 )
+      - title: 概要
+        url: "/concept_overview_dashboard.html"
+      - title: 監視リストを作成します
+        url: "/task_add_watchlist.html"
+      - title: 監視リストを管理します
+        url: "/task_manage_watchlists.html"
+    - title: FAQ
+      url: reference_aiq_faq.html
+  - title: Digital Advisorを使用します
+    entries:
+    - title: 健全性の属性を分析します
+      entries:
+      - title: 概要
+        url: "/concept_overview_wellness.html"
+      - title: リスクを確認して手動で対処
+        url: "/task_view_risk_and_take_action.html"
+      - title: セキュリティの脆弱性を検出
+        url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
+      - title: ランサムウェアのリスクからシステムを保護
+        url: "/task_protect_systems_against_ransomware_risks.html"
+      - title: リスクを確認して承認します
+        url: "/task_view_and_acknowledge_risks.html"
+      - title: 健全性の履歴を表示します
+        url: "/task_view_wellness_history.html"
+      - title: Unified Manager を使用して自動で軽減できるリスクを表示します Ansible Playbook もご覧いただけます
+        url: "/task_view_risks_remediated_unified_manager.html"
+      - title: ダウンタイムとデータ損失の可能性を回避
+        url: "/task_avoid_the_downtime_and_possible_data_loss.html"
+      - title: ウェルネスレビューメールに登録する
+        url: "/task_subscribe_to_wellness_review_email.html"
+      - title: ストレージ・システムのソフトウェアとハードウェアの更新
+        url: "/task_renew_software_and_hardware.html"
+      - title: クラスタとノードの健全性を分析
+        url: "/task_analyze_wellness_clusters_and_nodes.html"
+    - title: ストレージシステムの持続可能性を分析します
+      entries:
+      - title: 持続可能性の詳細
+        url: "/learn_BlueXP_sustainability.html"
+      - title: Sustainabilityダッシュボードの使用を開始する
+        url: "/get_started_sustainability_dashboard.html"
+      - title: Sustainabilityダッシュボードの概要
+        url: "/BlueXP_sustainability_dashboard_overview.html"
+      - title: 持続可能性スコアの向上
+        url: "/improve_sustainability_score.html"
+    - title: アップグレードプランの生成
+      entries:
+      - title: 概要
+        url: "/upgrade_advisor_overview.html"
+      - title: 単一クラスタおよび複数クラスタのアップグレードプランの生成
+        url: "/generate_upgrade_plan_single_multiple_clusters.html"
+    - title: システムの詳細を表示します
+      entries:
+      - title: インベントリの詳細を表示します
+        url: "/task_view_inventory_details.html"
+      - title: Cloud Insights と統合して仮想マシンの詳細を表示
+        url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
+      - title: 価値ある分析情報を確認できます
+        url: "/task_view_valuable_insight_widget.html"
+      - title: NetApp Keystoneサブスクリプションの容量利用率を表示
+        url: "/view_keystone_capacity_utilization.html"
+    - title: システム要件をプロアクティブに特定します
+      entries:
+      - title: 概要
+        url: "/concept_overview_planning.html"
+      - title: 容量が上限に達しているシステムを特定します
+        url: "/task_identify_capacity_system.html"
+      - title: ボリュームがいっぱいにならないようにしてシステム停止を回避してください
+        url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+      - title: テクノロジの更新を評価する
+        url: "/evaluate-tech-refresh.html"
+      - title: ストレージ・システムのソフトウェアとハードウェアの更新
+        url: "/task_renew_software_and_hardware.html"
+    - title: クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
+    - title: 構成の偏差を特定
+      entries:
+      - title: 概要
+        url: "/concept_overview_config_drift.html"
+      - title: 設定ドリフトテンプレートを追加します
+        url: "/task_add_config_drift_template.html"
+      - title: 構成ドリフトテンプレートを比較します
+        url: "/task_compare_config_drift_template.html"
+      - title: ドリフトタイムラインレポートを生成します
+        url: "/task_generate_drift_timeline_report.html"
+      - title: テンプレートを管理します
+        url: "/task_manage_template.html"
+    - title: ストレージシステムの効率性とパフォーマンスを向上させます
+      entries:
+      - title: 容量と Storage Efficiency による削減効果を分析できます
+        url: "/task_analyze_storage_efficiency.html"
+      - title: パフォーマンスグラフを分析
+        url: "/task_view_performance_graphs.html"
+    - title: ストレージシステムの健常性を分析します
+      entries:
+      - title: 概要
+        url: "/concept_understand_health_check_dashboard.html"
+      - title: 健全性チェックダッシュボードの使用を開始する
+        url: "/concept_get_started_with_health_check_dashboard.html"
+      - title: サポート契約の更新
+        url: "/task_renew_support_contracts_for_your_systems.html"
+    - title: アップグレードしてインストールベースを最適化します
+      entries:
+      - title: サポートサービスをアップグレードします
+        url: "/task_upgrade_support_offering.html"
+      - title: Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください
         entries:
-        - title: Web サーバを使用したホストファームウェアファイル
-          url: "/task_hosting_firmware_files_using_web_server.html"
-        - title: インベントリファイルを操作します
-          url: "/concept_working_with_inventory_file.html"
-        - title: NetApp Docker イメージを使用して Ansible プレイブックを実行する
-          url: "/task_execute_ansible_playbook_using_docker.html"
-        - title: Docker を使用せずに Ansible プレイブックを実行する
-          url: "/task_execute_ansible_playbook_without_docker.html"
-        - title: ファームウェアのインストールを確認
-          url: "/task_validate_firmware_installation.html"
-        - title: トラブルシューティング、フィードバック、サポート
-          url: "/reference_ansible_troubleshoot_feedback_support.html"
-  - title: API を使用してデータを統合
+        - title: AFFおよびFASファームウェアのAnsible Automationパッケージをダウンロード
+          url: "/task_update_AFF_FAS_firmware.html"
+        - title: AFFおよびFASファームウェアのAnsible自動化パッケージをインストールして実行（経験豊富なユーザ）
+          url: "/task_install_execute_firmware_update_exp_user.html"
+        - title: AFFおよびFASファームウェアのAnsible自動化パッケージのインストールと実行（初心者向け）
+          entries:
+          - title: Web サーバを使用してホストファームウェアファイルを作成します
+            url: "/task_hosting_firmware_files_using_web_server.html"
+          - title: インベントリファイルを操作します
+            url: "/concept_working_with_inventory_file.html"
+          - title: NetApp Docker イメージを使用して Ansible プレイブックを実行する
+            url: "/task_execute_ansible_playbook_using_docker.html"
+          - title: NetApp Dockerイメージを使用せずにAnsible Playbookを実行
+            url: "/task_execute_ansible_playbook_without_docker.html"
+          - title: ファームウェアのインストールを確認
+            url: "/task_validate_firmware_installation.html"
+    - title: API を使用してデータを統合
+      entries:
+      - title: 概要
+        url: "/concept_overview_API_service.html"
+      - title: API を使用するトークンを生成します
+        url: "/task_generate_tokens_API_services.html"
+      - title: APIカタログを使用したAPIの実行
+        url: "/task_view_API_catalog.html"
+    - title: カスタムレポートを生成
+      entries:
+      - title: レポートのタイプ
+        url: "/concept_report_types.html"
+      - title: レポートを生成します
+        url: "/task_generate_reports.html"
+  - title: 知識とサポート
     entries:
-    - title: 概要
-      url: "/concept_overview_API_service.html"
-    - title: API にアクセスするためのトークンを生成します
-      url: "/task_generate_tokens_API_services.html"
-    - title: API を実行するには、 API カタログを使用します
-      url: "/task_view_API_catalog.html"
-  - title: カスタムレポートを生成
-    entries:
-    - title: レポートのタイプ
-      url: "/concept_report_types.html"
-    - title: レポートを生成します
-      url: "/task_generate_reports.html"
-  - title: よくある質問
-    url: reference_aiq_faq.html
-  - title: 詳細はこちらをご覧ください
-    url: "/concept_get_more_information.html"
+    - title: サポートに登録します
+      url: "/reference_ansible_troubleshoot_feedback_support.html"
+    - title: ヘルプを表示します
+      url: "/concept_get_more_information.html"
   - title: 法的通知
     url: "/legal-notices.html"
 product-family:

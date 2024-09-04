@@ -4,7 +4,7 @@ permalink: view_keystone_capacity_utilization.html
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: NetApp Keystone サブスクリプションでの容量利用率に関する情報を提供します。 
 ---
-= NetApp Keystone サブスクリプションを使用して容量利用率を表示します
+= NetApp Keystoneサブスクリプションの容量利用率を表示
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
