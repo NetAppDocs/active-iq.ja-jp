@@ -20,6 +20,16 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2024年9月23日
+
+
+
+=== サポートサービス
+
+NetApp SupportEdge Basicサービスには、SupportEdge AdvisorおよびSupportEdge Expertで使用できるすべてのデジタルアドバイザ機能が含まれるようになりました。ただし、フルスタックトポロジ（VMware）は、有効にしてもVMwareのフルスタック監視を可視化できません。
+
+
+
 == 2024 年 8 月 21 日
 
 
