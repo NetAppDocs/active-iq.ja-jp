@@ -46,7 +46,7 @@ NetApp SupportEdge Basicサービスには、SupportEdge AdvisorおよびSupport
 
 === Sustainability Dashboard
 
-ストレージシステムの環境の健全性に関するインサイトを提供する環境指標により、高度な予測モデルに基づいて、予測される電力使用量、直接炭素使用量、および熱排出量のより正確な値が提供されるようになりました。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"^]ください。
+ストレージシステムの環境の健全性に関するインサイトを提供する環境指標により、高度な予測モデルに基づいて、予測される電力使用量、直接炭素使用量、および熱排出量のより正確な値が提供されるようになりました。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"]ください。
 
 
 
@@ -736,6 +736,10 @@ Storage VM 内のすべてのボリュームについて、曜日、週、また
 
 
 == 2021 年 4 月 29 日
+
+
+
+=== ハッカーや攻撃から保護
 
 * ハッカーやランサムウェア攻撃からシステムを保護する方法をご紹介します。 link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["詳細をご確認ください"]。
 * ダウンタイムを回避し、データ損失を回避できます。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["詳細をご確認ください"]。

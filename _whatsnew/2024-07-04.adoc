@@ -1,0 +1,9 @@
+= Sustainability Dashboard
+:allow-uri-read: 
+
+
+
+
+=== Sustainability Dashboard
+
+ストレージシステムの環境の健全性に関するインサイトを提供する環境指標により、高度な予測モデルに基づいて、予測される電力使用量、直接炭素使用量、および熱排出量のより正確な値が提供されるようになりました。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"]ください。
