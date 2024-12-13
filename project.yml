@@ -8,7 +8,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: Digital Advisorのドキュメント
@@ -85,6 +85,8 @@ sidebar:
         url: "/upgrade_advisor_overview.html"
       - title: 単一クラスタおよび複数クラスタのアップグレードプランの生成
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
+      - title: ファームウェア更新の推奨事項を表示
+        url: "/view-firmware-update-recommendations.html"
     - title: システムの詳細を表示します
       entries:
       - title: インベントリの詳細を表示します

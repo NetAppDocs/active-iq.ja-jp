@@ -20,6 +20,16 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2024年12月12日
+
+
+
+=== Upgrade Advisor を使用します
+
+更新に推奨されるストレージファームウェア、SP / BMCファームウェア、およびAutonomous Ransomware Package（ARP）を確認できるようになりました。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["ファームウェアアップデートの推奨事項を表示する方法"]です。
+
+
+
 == 2024年9月23日
 
 

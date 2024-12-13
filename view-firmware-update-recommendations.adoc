@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: view-firmware-update-recommendations.html 
+keywords: Upgrade Advisor, firmware recommendations, storage firmware, SP/BMC firmware, system files, security files 
+summary: ストレージファームウェア、SP / BMCファームウェア、システムファイル、およびセキュリティファイルの更新に関する推奨事項を表示します。 
+---
+= ファームウェア更新の推奨事項を表示
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+お客様は、Control Towerを使用してシステムを最新のファームウェアバージョンに自動的に更新できるため、時間と労力を節約できます。これにより、手動による操作やスケジュール設定が不要になります。このアップデートにより、古いファームウェアバージョンや互換性のないファームウェアバージョンが原因で問題が発生するリスクが軽減され、最適なシステムパフォーマンス、安定性、およびセキュリティが確保されます。
+
+お客様は、ファームウェアアップデートのステータスに関するタイムリーな通知とアラートを受け取ることができます。また、AutoSupportおよび自動アップデート設定を有効にするオプションもあります。
+
+.手順
+. ダッシュボードページで、* Upgrade Advisor *ウィジェットの* Other recommendations *をクリックします。
+. 推奨事項のリストを表示するには、*推奨事項の表示*をクリックします。
+. [更新ステータス]*列で*[進捗状況を表示]*をクリックして、更新の対象となるクラスタを確認します。
+. 問題が発生した場合は、それぞれのリンクをクリックして、問題を軽減する手順を表示します。
+
