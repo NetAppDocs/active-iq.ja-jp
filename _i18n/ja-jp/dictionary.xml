@@ -1538,4 +1538,13 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">推奨事項のリストを表示するには、*推奨事項の表示*をクリックします。</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">[更新ステータス]*列で*[進捗状況を表示]*をクリックして、更新の対象となるクラスタを確認します。</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">問題が発生した場合は、それぞれのリンクをクリックして、問題を軽減する手順を表示します。</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupportウィジェット</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupportウィジェットがダッシュボードのメイン画面に追加され、AutoSupportのステータス関連の問題についてお客様に通知されるようになりました。</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">クラスタ番号とシリアル番号ではAutoSupportウィジェットを使用できません</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupportウィジェットには、クラスタとシリアル番号の検索に関するアラートは表示されません。</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">AutoSupportウィジェットでシリアルレベルのAutoSupportの詳細にドリルダウンできない</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">AutoSupportの[Reporting]ページで、ステータス、最近送信を停止したシステム、AutoSupportがオフになっているシステムをクリックしても、[Health Check]画面には移動しません。</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">[Inventory]ウィジェットではフィルタとソートは使用できません。</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">インベントリウィジェットでデータをフィルタしてソートすることはできません。[Filter by]ドロップダウンでONTAP AFF、ONTAP ASA、ONTAP Edge、またはONTAP Selectを選択しても、データは表示されません。</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024年12月4日</block>
 </blocks>

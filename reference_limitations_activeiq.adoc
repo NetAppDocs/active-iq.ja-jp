@@ -46,3 +46,21 @@ summary: に、このリリースの制限事項を示します。
 == 承認済みのリスクと未確認のリスクがDigital Advisorに反映されるまでに60分かかる場合があります
 
 承認済みおよび承認済みのリスクのステータスは、Digital Advisorにはすぐに反映されません。変更内容がDigital Advisorと健全性レポートに反映されるまでに最大60分かかる場合があります。
+
+
+
+== クラスタ番号とシリアル番号ではAutoSupportウィジェットを使用できません
+
+AutoSupportウィジェットには、クラスタとシリアル番号の検索に関するアラートは表示されません。
+
+
+
+== AutoSupportウィジェットでシリアルレベルのAutoSupportの詳細にドリルダウンできない
+
+AutoSupportの[Reporting]ページで、ステータス、最近送信を停止したシステム、AutoSupportがオフになっているシステムをクリックしても、[Health Check]画面には移動しません。
+
+
+
+== [Inventory]ウィジェットではフィルタとソートは使用できません。
+
+インベントリウィジェットでデータをフィルタしてソートすることはできません。[Filter by]ドロップダウンでONTAP AFF、ONTAP ASA、ONTAP Edge、またはONTAP Selectを選択しても、データは表示されません。
