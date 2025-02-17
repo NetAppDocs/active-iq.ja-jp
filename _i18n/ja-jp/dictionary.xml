@@ -863,26 +863,17 @@
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">レポート名（ Report Name ）</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">未解決および確認済みのリスク、リスクの詳細、対処方法、影響を受けるシステムに関する情報が表示されます。</block>
-  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健康–集約されました</block>
-  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">未解決のリスクと影響を受けるシステムの数を表示します。</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">地域またはサイトごとにシステムインベントリの詳細をすべて表示する Ansible インベントリファイルを提供します。このファイルは自動化に使用できます。</block>
-  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
-  <block id="7eaee357275d531796b5348076c7abaa" category="cell">非アクティブ、コールド、アクティブ、ホット、階層化、 監視対象外のデータです。このレポートには、無効なアグリゲートで Inactive Data Reporting を有効にするための Ansible プレイブックも含まれています。</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">選択したウォッチリスト、顧客、サイト、グループレベルのインストールベースに関する情報が表示されます。このレポートは、インベントリ詳細ページから直接ダウンロードするか、レポートページから生成できます。</block>
-  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">サポート終了（EOS）に達したコントローラ、シェルフ、ディスクの一覧について説明します。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">推奨される構成</block>
-  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">リモート管理構成、スペアとドライブ、 HA ペア、および SVM 健全性に関するさまざまな推奨構成ギャップに関する情報を提供します。</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">テクニカルケースの詳細</block>
   <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">すべてのテクニカルケースとそのステータスに関する年次レポートを提供します。</block>
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">アップグレードの推奨事項（ SW と FW ）</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">検索条件に含まれる各コントローラまたはシリアルのソフトウェアとファームウェアの通貨および推奨バージョンに関するマルチタブレポート。</block>
-  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">Cluster Viewer レポート</block>
   <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">顧客および監視リストレベルの単一または複数のクラスタに関する情報が表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量と効率性</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">クラスタ、顧客、サイト、グループ、監視リスト、ノードレベルでの容量と効率の詳細に関する情報が表示されます。</block>
-  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">ボリュームパフォーマンスレポート</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">クラスタレベルのボリュームのパフォーマンスの詳細に関する情報が表示されます。</block>
-  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">パフォーマンスレポート</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">クラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報が監視リストレベルで表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">NetApp Docker イメージなしで Ansible Playbook を実行</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
@@ -1547,4 +1538,22 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">[Inventory]ウィジェットではフィルタとソートは使用できません。</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">インベントリウィジェットでデータをフィルタしてソートすることはできません。[Filter by]ドロップダウンでONTAP AFF、ONTAP ASA、ONTAP Edge、またはONTAP Selectを選択しても、データは表示されません。</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024年12月4日</block>
+  <block id="1ae1cd0b4937cfa4a52d9dd9c59a7bff" category="cell">ONTAPで利用可能</block>
+  <block id="eda9493cdedf376a22ce96af673b5ce1" category="cell">Eシリーズで利用可能</block>
+  <block id="ae816a91a9239284b014c29def79b1a9" category="cell">StorageGRIDで利用可能</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">はい</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">いいえ</block>
+  <block id="9c575f87ce93324cdc7902925f6337cc" category="cell">クラウドリソースを最適化するための分析情報と推奨事項を提供これには、ディザスタリカバリ、バックアップ、階層化、移行に関する詳細が含まれます。</block>
+  <block id="710106984647f0730faca0e1eaeeee6d" category="cell">システム構成の「ゴールデンベースライン」を確立し、このベースラインから逸脱した場合にアラートを送信できます。システムのパフォーマンスやセキュリティに影響を与える可能性のある設定変更を特定して対処するのに役立ちます。</block>
+  <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">配送ロジスティクス</block>
+  <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">製品やサービスを提供するためのロジスティクスに関する情報を提供します。</block>
+  <block id="fbd781a535485932684e2fdb756c3913" category="cell">健全性評価エグゼクティブサマリー</block>
+  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">さまざまなActive IQ KPIに関する情報をPowerPoint (PPT)形式で提供します。さまざまなKPIについては、さまざまなスライドで説明しています。</block>
+  <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">定期ダイジェスト</block>
+  <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">主要な指標と分析情報を定期的にまとめます。これには、システムのパフォーマンス、容量、効率に関するデータが含まれます。</block>
+  <block id="17b58822f294ceb27e2330591b9224e4" category="cell">リモート管理構成、スペアとドライブ、HAペア、SVMの健全性、バッテリステータス、およびRecovery Guruのアドバイザリに推奨される構成ギャップに関する情報が表示されます。</block>
+  <block id="67049dbeb0547988bdd3bb265ef87afc" category="cell">契約の詳細に関する情報と、サポート終了（EOS）に達したコントローラ、シェルフ、ディスクのリストが表示されます。</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="cell">アップグレードプラン</block>
+  <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">ソフトウェアとファームウェアのアップグレードに関する推奨事項を提供します。推奨される最新バージョン、潜在的な問題、アップグレードの実行手順の詳細が記載されています。</block>
+  <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">ボリュームのパフォーマンス</block>
 </blocks>
