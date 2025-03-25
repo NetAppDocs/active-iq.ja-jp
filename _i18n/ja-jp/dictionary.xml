@@ -1556,4 +1556,7 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">アップグレードプラン</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">ソフトウェアとファームウェアのアップグレードに関する推奨事項を提供します。推奨される最新バージョン、潜在的な問題、アップグレードの実行手順の詳細が記載されています。</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">ボリュームのパフォーマンス</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Disk Qualification Package（DQP）を使用して、事前に定義された健常性とパフォーマンスの条件に従って、ディスクコントローラとストレージデバイスファームウェアを自動的に更新できるようになりました。これにより、潜在的な障害が減少し、システム全体の信頼性が向上します。</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">システムと最新のタイムゾーン定義の整合性を自動的に維持するために、タイムゾーンデータベース（DB）が導入されました。これにより、タイムゾーンルールが変更された場合でも、時間依存の操作がスムーズに継続されます。</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025年3月5日</block>
 </blocks>
