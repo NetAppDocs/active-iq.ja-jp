@@ -1529,7 +1529,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">推奨事項のリストを表示するには、*推奨事項の表示*をクリックします。</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">[更新ステータス]*列で*[進捗状況を表示]*をクリックして、更新の対象となるクラスタを確認します。</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">問題が発生した場合は、それぞれのリンクをクリックして、問題を軽減する手順を表示します。</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupportウィジェット</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupportウィジェットがダッシュボードのメイン画面に追加され、AutoSupportのステータス関連の問題についてお客様に通知されるようになりました。</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">クラスタ番号とシリアル番号ではAutoSupportウィジェットを使用できません</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupportウィジェットには、クラスタとシリアル番号の検索に関するアラートは表示されません。</block>
@@ -1559,4 +1558,10 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Disk Qualification Package（DQP）を使用して、事前に定義された健常性とパフォーマンスの条件に従って、ディスクコントローラとストレージデバイスファームウェアを自動的に更新できるようになりました。これにより、潜在的な障害が減少し、システム全体の信頼性が向上します。</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">システムと最新のタイムゾーン定義の整合性を自動的に維持するために、タイムゾーンデータベース（DB）が導入されました。これにより、タイムゾーンルールが変更された場合でも、時間依存の操作がスムーズに継続されます。</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025年3月5日</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="doc">AutoSupportウィジェット</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">AutoSupportウィジェットが拡張され、AutoSupportデータの送信を停止したシステムの詳細を示すポップアップが表示されるようになりました。AutoSupportを有効にすることで、ダウンタイムのリスクを軽減し、プロアクティブなシステム健全性管理をサポート</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">サポート契約レポート</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">サポート契約レポートが強化され、新しいASP/LSGフラグフィールドが追加されました。このフィールドでは、認定サポートパートナー（ライフサイクルサービス認定）の対象となるシステムをフィルタして特定できます。</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">サステナビリティプレゼンテーションに含まれているリンクを使用して、Sustainabilityダッシュボードを起動できるようになりました。</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025年5月8日</block>
 </blocks>
