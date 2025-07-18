@@ -1564,4 +1564,10 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">サポート契約レポートが強化され、新しいASP/LSGフラグフィールドが追加されました。このフィールドでは、認定サポートパートナー（ライフサイクルサービス認定）の対象となるシステムをフィルタして特定できます。</block>
   <block id="80604874cd369ef578265c67a223d997" category="paragraph">サステナビリティプレゼンテーションに含まれているリンクを使用して、Sustainabilityダッシュボードを起動できるようになりました。</block>
   <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025年5月8日</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">ONTAPのアップグレード計画を簡素化し、潜在的な障害や警告に対処するため、Upgrade Advisorプランにマルチフォーマットのダウンロードオプションが追加されました。Excel、PDF、JSON形式でUpgrade Advisorプランをダウンロードできるようになりました。</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">アップグレード アドバイザー プランの Excel 形式では、次の機能強化が行われました。</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">クラスタで実行された事前チェックの結果は、「合格」、「不合格」、「スキップ」などのフラグで表示されます。これにより、クラスタがONTAPアップグレードを完了するのに最適な状態であることが保証されます。</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">クラスタに適用可能な推奨される最新のファームウェア アップデートと、 ONTAPターゲット バージョンに付属のバージョンを表示できます。</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">SANクラスタの相互運用性チェックを提供する新しいタブが追加されました。選択したターゲットONTAPバージョンでサポートされているホストOSバージョンが表示されます。</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025年7月9日</block>
 </blocks>
