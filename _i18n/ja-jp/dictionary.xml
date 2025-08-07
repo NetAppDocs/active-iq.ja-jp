@@ -811,7 +811,6 @@
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* 参照 *</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">API カタログが表示されます。</block>
-  <block id="82ee712943040cce957254912d97aba0" category="list-text">任意の API を選択します</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">ページの上部で、トグルを「実験」にスライドします。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。</block>
   <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">API を展開します。</block>
@@ -918,7 +917,6 @@
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">マルチホップアップグレード</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">一部の自動無停止アップグレード（ANDU）から隣接していないリリースへのアップグレードでは、中間リリースおよびターゲットリリースのソフトウェアイメージをインストールできます。自動アップグレードプロセスでは、バックグラウンドの中間イメージを使用してターゲットリリースへの更新を完了します。たとえば、クラスタで 9.3 を実行している場合に 9.7 にアップグレードするには、 9.5 と 9.7 の両方の ONTAP インストールパッケージをロードし、 ANDU を 9.7 に開始します。その後、 ONTAP はクラスタを 9.5 に、その後 9.7 に自動的にアップグレードします。テイクオーバー / ギブバック処理や関連するリブートが複数回行われることを想定してください。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor を使用します</block>
-  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">* Inventory * ウィジェットには、所有する合計システムのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Digital Advisorにログインするための情報を提供します。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Digital Advisorにログインします</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。</block>
@@ -1570,4 +1568,29 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">クラスタに適用可能な推奨される最新のファームウェア アップデートと、 ONTAPターゲット バージョンに付属のバージョンを表示できます。</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">SANクラスタの相互運用性チェックを提供する新しいタブが追加されました。選択したターゲットONTAPバージョンでサポートされているホストOSバージョンが表示されます。</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025年7月9日</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">サポート対象のスイッチ</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">サポート対象のスイッチを表示する方法を学ぶ</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupportデータのしきい値</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupportウィジェットの最近の送信停止 (RSS) 制限が、システムが RSS としてフラグ付けされるまでの 48 時間 (2 日間) から 216 時間 (9 日間) に延長されました。これは、週ごとのAutoSupportデータのみを送信するStorageGRIDなどのプラットフォームに対応するために行われます。</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API カタログの非推奨 API セクション</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API カタログに、新しい非推奨の API セクションが追加されました。廃止が予定されている API と、廃止のタイムラインおよび代替 API がリストされます。</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">容量予測 V2 およびサポート終了 API モジュールの廃止</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量予測 V2 およびサポート終了 API モジュールは廃止される予定です。廃止された API にアクセスしたり、廃止予定のタイムラインや代替 API について知るには、*API サービス -&gt; 参照 -&gt; 廃止された API* に移動します。</block>
+  <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor は、パフォーマンス、柔軟性、スケーラビリティを向上させるために、主要な API プラットフォームとして REST API から GraphQL に移行しています。移行は段階的に行われ、REST API と GraphQL API の間に重複期間が設けられます。廃止予定の REST API ごとに、 Digital Advisor API カタログに廃止通知が公開され、その特定のエンドポイントを GraphQL に移行するのに 6 か月かかります。廃止予定のAPIのリストを確認するには、*APIサービス -&gt; 参照 -&gt; 廃止予定のAPI*に移動します。</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
+  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">GraphQL API にアクセスする</block>
+  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">*GraphQL* をクリックしてドキュメントを確認します。</block>
+  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL APIエンドポイントとレビュースキーマ</block>
+  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">アクセス<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
+  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
+  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">すぐに実行できるサンプルクエリを使用してGraphQL APIを試してみてください。<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">APIリクエストのヘッダーの認証フィールドを選択してユーザートークンを提供します</block>
+  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">必要な変数を提供する</block>
+  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">クエリを実行して出力を確認する</block>
+  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">REST API にアクセスする</block>
+  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">*ActiveIQ-Public*をクリックし、任意のAPIを選択します。</block>
+  <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*インベントリ* ウィジェットには、所有するシステムの合計数とサポート対象のスイッチのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
+  <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">サポート対象のスイッチの詳細を表示</block>
+  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">*インベントリ* ウィジェットで、*サポート対象スイッチ* をクリックすると、サポート対象スイッチすべてに関する情報が表示されます。</block>
 </blocks>

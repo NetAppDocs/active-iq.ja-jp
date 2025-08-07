@@ -20,13 +20,35 @@ API カタログを使用すると、各カテゴリ内のカテゴリや使用�
 
 有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。
 
+
+
+== GraphQL API にアクセスする
+
 .手順
 . [* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。
 . をクリックします link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* 参照 *"^] [API カタログ * （ API Catalog * ） ] アイコンの下。
 +
 API カタログが表示されます。
 
-. 任意の API を選択します
+. *GraphQL* をクリックしてドキュメントを確認します。
+. アクセスlink:https://gql.aiq.netapp.com/["GraphQL APIエンドポイントとレビュースキーマ"^]
+. すぐに実行できるサンプルクエリを使用してGraphQL APIを試してみてください。link:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital AdvisorGraphQL Studio"^] 。
+. APIリクエストのヘッダーの認証フィールドを選択してユーザートークンを提供します
+. 必要な変数を提供する
+. クエリを実行して出力を確認する
+
+
+
+
+== REST API にアクセスする
+
+.手順
+. [* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。
+. をクリックします link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* 参照 *"^] [API カタログ * （ API Catalog * ） ] アイコンの下。
++
+API カタログが表示されます。
+
+. *ActiveIQ-Public*をクリックし、任意のAPIを選択します。
 . ページの上部で、トグルを「実験」にスライドします。
 . 左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。
 . API を展開します。
