@@ -1569,8 +1569,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">SANクラスタの相互運用性チェックを提供する新しいタブが追加されました。選択したターゲットONTAPバージョンでサポートされているホストOSバージョンが表示されます。</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025年7月9日</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">サポート対象のスイッチ</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">サポート対象のスイッチを表示する方法を学ぶ</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupportデータのしきい値</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupportウィジェットの最近の送信停止 (RSS) 制限が、システムが RSS としてフラグ付けされるまでの 48 時間 (2 日間) から 216 時間 (9 日間) に延長されました。これは、週ごとのAutoSupportデータのみを送信するStorageGRIDなどのプラットフォームに対応するために行われます。</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API カタログの非推奨 API セクション</block>
@@ -1593,4 +1591,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*インベントリ* ウィジェットには、所有するシステムの合計数とサポート対象のスイッチのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">サポート対象のスイッチの詳細を表示</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">*インベントリ* ウィジェットで、*サポート対象スイッチ* をクリックすると、サポート対象スイッチすべてに関する情報が表示されます。</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">サポート対象のスイッチを表示する方法を学ぶ</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
 </blocks>
