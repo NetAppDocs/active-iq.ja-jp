@@ -809,7 +809,6 @@
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">API カタログで使用できる API に関する情報を提供します。</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API カタログを使用すると、各カテゴリ内のカテゴリや使用可能な API を参照できます。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* 参照 *</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">API カタログが表示されます。</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">ページの上部で、トグルを「実験」にスライドします。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。</block>
@@ -1112,7 +1111,6 @@
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web サーバは、複数の方法で設定できます。Python を使用して単純な Web サーバをセットアップする手順については、を参照してください <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">をクリックします <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> [API カタログ * （ API Catalog * ） ] アイコンの下。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">にアクセスします <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> ログインページ。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">ONTAP システムでは、ストレージシステムの初回設定時に、 AutoSupport がデフォルトで有効になります。お勧めします <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> ONTAP システムで、テクニカルサポートおよび社内のサポート部門に AutoSupport 情報を送信する方法を制御します。</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1579,8 +1577,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">GraphQL API にアクセスする</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">*GraphQL* をクリックしてドキュメントを確認します。</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL APIエンドポイントとレビュースキーマ</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">アクセス<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">すぐに実行できるサンプルクエリを使用してGraphQL APIを試してみてください。<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">APIリクエストのヘッダーの認証フィールドを選択してユーザートークンを提供します</block>
@@ -1593,4 +1589,6 @@ NetApp BlueXPのログインページが表示されます。</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">*インベントリ* ウィジェットで、*サポート対象スイッチ* をクリックすると、サポート対象スイッチすべてに関する情報が表示されます。</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">サポート対象のスイッチを表示する方法を学ぶ</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">参照</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">クリック<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block>*API カタログ* アイコンの下にあります。</block>
 </blocks>
