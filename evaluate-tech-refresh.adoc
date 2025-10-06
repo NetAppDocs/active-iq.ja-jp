@@ -19,6 +19,6 @@ summary: テクニカルサポート契約またはハードウェアの機器�
 テクニカルサポート契約またはハードウェアの更新が推奨されているかどうかを確認するには、Tech Refreshオプションを使用します。
 
 
-NOTE: この機能には、BlueXPの経済効率化機能（*[ガバナンス]>[経済効率化]>[機器更改]*）またはNetAppデジタルアドバイザ（*[ダッシュボード]>[計画]ウィジェット>[機器更改]*）からアクセスできます。
+NOTE: この機能には、ライフサイクル プランニング (* ストレージ * > * ライフサイクル プランニング *) またはDigital Advisor(* ダッシュボード > プランニング ウィジェット > 技術更新 *) からアクセスできます。
 
-この機能の詳細については、を参照してください。 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["テクノロジの更新を評価する"] を参照してください。
+この機能の詳細については、link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["テクノロジの更新を評価する"]コンソールのドキュメントをご覧ください。

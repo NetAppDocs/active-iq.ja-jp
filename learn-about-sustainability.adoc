@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
-permalink: learn_BlueXP_sustainability.html 
-keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+permalink: learn-about-sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
 summary: エネルギー消費量を削減し、環境目標に向けた取り組みを可能にする持続可能性に関する情報を提供します。 
 ---
 = 持続可能性の詳細
@@ -16,9 +16,9 @@ summary: エネルギー消費量を削減し、環境目標に向けた取り�
 
 
 [role="lead"]
-サービスとしての持続可能性により、エネルギー消費量を削減し、環境目標に向かって取り組むことができます。これにより、ストレージシステムを環境に配慮した手法に合わせて調整し、持続可能性の目標を達成できます。
+持続可能性により、エネルギー消費を削減し、環境目標に向けて取り組むことが可能になります。これにより、ストレージ システムを環境に配慮した慣行に適合させ、持続可能性の目標を達成できるようになります。
 
-Sustainabilityダッシュボードでは、持続可能性スコア、電力、直接炭素、熱の使用量の予測を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。サステナビリティスコアに基づいて、サステナビリティに対する姿勢を評価し、ネットアップが推奨するアクションを実施してスコアを改善できます。Sustainabilityダッシュボードの詳細については、 link:BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"]。
+サステナビリティ ダッシュボードから、サステナビリティ スコア、電力、直接炭素、熱の予測使用量を表示できます。特定のサイトの炭素削減率を調整できます。クラスター レベルで持続可能性スコアを表示することもできます。持続可能性スコアに基づいて、持続可能性の姿勢を評価し、スコアを向上させるために NetApp が推奨するアクションを実装できます。サステナビリティダッシュボードの詳細については、link:sustainability-dashboard-overview.html["Sustainabilityダッシュボードの概要"] 。
 
 
 NOTE: 持続可能性は、Cloud Volumes ONTAP、AFFシステム（AシリーズおよびCシリーズ）、Eシリーズ、FAS、およびStorageGRIDシステムでサポートされます。

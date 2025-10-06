@@ -24,8 +24,8 @@ sidebar:
       url: "/concept_getting_started_2.html"
     - title: Digital Advisorの機能を理解する
       url: "/concept_understand_activeiq_features.html"
-    - title: Digital AdvisorとBlueXPの統合
-      url: "/digital-advisor-integration-with-bluexp.html"
+    - title: Digital AdvisorとNetAppコンソールの統合
+      url: "/digital-advisor-integration-with-console.html"
     - title: 主な概念
       url: "/concept_key_terms.html"
     - title: AutoSupport とは
@@ -71,11 +71,11 @@ sidebar:
     - title: ストレージシステムの持続可能性を分析します
       entries:
       - title: 持続可能性の詳細
-        url: "/learn_BlueXP_sustainability.html"
+        url: "/learn-about-sustainability.html"
       - title: Sustainabilityダッシュボードの使用を開始する
         url: "/get_started_sustainability_dashboard.html"
       - title: Sustainabilityダッシュボードの概要
-        url: "/BlueXP_sustainability_dashboard_overview.html"
+        url: "/sustainability-dashboard-overview.html"
       - title: 持続可能性スコアの向上
         url: "/improve_sustainability_score.html"
     - title: アップグレードプランの生成
@@ -90,7 +90,7 @@ sidebar:
       entries:
       - title: インベントリの詳細を表示します
         url: "/task_view_inventory_details.html"
-      - title: Cloud Insights と統合して仮想マシンの詳細を表示
+      - title: Data Infrastructure Insightsとの統合により仮想マシンの詳細を表示
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
       - title: 価値ある分析情報を確認できます
         url: "/task_view_valuable_insight_widget.html"
@@ -181,5 +181,5 @@ sidebar:
   - title: 法的通知
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP
-  repo: cloud-manager-family
+  name: Netapp Console
+  repo: console-family

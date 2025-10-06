@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
-keywords: Cloud Insights, VMs, virtual machines 
-summary: Cloud Insights の仮想マシンに関する情報を提供します 
+keywords: Cloud Insights, VMs, virtual machines, Data Infrastructure Insights 
+summary: Data Infrastructure Insightsの仮想マシンに関する情報を提供します 
 ---
-= Cloud Insights と統合して仮想マシンの詳細を表示
+= Data Infrastructure Insightsとの統合により仮想マシンの詳細を表示
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: Cloud Insights の仮想マシンに関する情報を提供します
 
 
 [role="lead"]
-Digital Advisorは、Cloud Insights ベーシックバージョンと統合され、お客様に完全なスタックインベントリと相互運用性チェックを提供します。
+Digital AdvisorはData Infrastructure Insights Basic バージョンと統合され、フルスタックのインベントリと相互運用性のチェックを顧客に提供できるようになりました。
 
 この統合の利点は次のとおりです。
 
@@ -29,8 +29,8 @@ Digital Advisorは、Cloud Insights ベーシックバージョンと統合さ�
 NOTE: この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびDigital Advisorのアップグレード契約でのみ使用できます。
 
 .手順
-. [* Inventory *（インベントリ*）]ウィジェットで、[* Virtual Machines *（仮想マシン*）]をクリックして、Cloud Insights で使用可能なデータを表示します。
+. *インベントリ* ウィジェットで、*仮想マシン* をクリックして、 Data Infrastructure Insightsで利用可能なデータを表示します。
 . [仮想マシンの概要*]タブをクリックします。
 . [ESXホストの数]をクリックして、ホストに関する情報を表示します。
-. ESX名*をクリックしてCloud Insights に移動すると、詳細が表示されます。
+. *ESX 名* をクリックして、Data Infrastructure Insightsに移動し、詳細情報を表示します。
 

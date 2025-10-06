@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
-permalink: BlueXP_sustainability_dashboard_overview.html 
-keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
-summary: ダッシュボード、持続可能性スコア、作業環境、推奨される対処方法に関する情報が表示されます。 
+permalink: sustainability-dashboard-overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
+summary: ダッシュボード、持続可能性スコア、システム、推奨アクションに関する情報を提供します。 
 ---
 = Sustainabilityダッシュボードの概要
 :hardbreaks:
@@ -18,7 +18,7 @@ summary: ダッシュボード、持続可能性スコア、作業環境、推�
 [role="lead"]
 持続可能性ダッシュボードには、お客様のストレージシステムの環境評価と、ネットアップが推奨するアクションの形で改善に役立つ実用的なインサイトが表示されます。
 
-image:get_started_sustainability_dashboard.png["持続可能性ダッシュボードを示すUIスクリーンショット。"]
+image:sustainability_dashboard_console.png["コンソールのサステナビリティ ダッシュボードの概要を示す UI スクリーンショット。"]
 
 
 NOTE: 持続可能性スコアを正確に計算するには、AutoSupportを有効にする必要があります。
@@ -43,11 +43,11 @@ image:carbon_mitigation_percentage.png["サイトの炭素緩和の割合とこ�
 
 *推奨される対処方法*：ストレージシステムの持続可能性スコアを向上させるための推奨される対処方法のリストを表示します。これらのアクションはすぐに実行することも、あとで実行することもできます。持続可能性スコアを向上させる方法の詳細については、を参照してください link:improve_sustainability_score.html["持続可能性スコアの向上"]。
 
-*作業環境*：より効率的なストレージに移動するクラスタを特定するのに役立つ環境パラメータが表に表示されます。このテーブルでは、次の操作を実行できます。
+*システム*: より効率的なストレージに移動するクラスターを識別するのに役立つ環境パラメータをテーブルに表示します。この表から、次の操作を実行できます。
 
 * クラスタレベルの持続可能性スコアを表示し、* ClusterViewer *にアクセスするクラスタ名を選択して、持続可能性を向上させるための具体的な推奨措置を実行します。詳細については、を参照してください link:improve_sustainability_score.html["クラスタレベルで持続可能性のスコアを向上"]。
 +
-image:working_environments.png["さまざまな環境パラメータを示すUIのスクリーンショット"]
+image:systems.png["さまざまな環境パラメータを示すUIのスクリーンショット"]
 
-* リアルタイムの電力の詳細をクラスタレベルで確認するには、*[Real-time power]列で監視を有効にします。詳細については、を参照してください link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights の機能です"^]。
+* *リアルタイム電力*列からの監視を有効にして、クラスター レベルでリアルタイム電力の詳細を表示します。詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] 。
 

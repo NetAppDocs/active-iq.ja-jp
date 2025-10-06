@@ -34,7 +34,7 @@ indexpage:
   - title: Digital Advisorを使用して分析します
     links:
     - title: ONTAP のアップグレードに関する推奨事項を確認する
-      url: task_view_upgrade.html
+      url: upgrade_advisor_overview.html
     - title: クラウドの推奨事項に基づいて、十分な情報に基づいた意思
       url: task-informed-decisions-based-on-cloud-recommendations.html
     - title: NetApp Keystoneサブスクリプションの容量利用率を表示

@@ -20,6 +20,18 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
 == 2025年8月6日
 
 
@@ -146,7 +158,7 @@ NetApp SupportEdge Basicサービスには、SupportEdge AdvisorおよびSupport
 
 === Sustainability Dashboard
 
-ストレージシステムの環境の健全性に関するインサイトを提供する環境指標により、高度な予測モデルに基づいて、予測される電力使用量、直接炭素使用量、および熱排出量のより正確な値が提供されるようになりました。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"]ください。
+ストレージ システムの環境の健全性に関する洞察を提供する環境指標は、高度な予測モデルに基づいて、予測される電力使用量、直接的な炭素使用量、および熱放出のより正確な値を提供するようになりました。詳細については、link:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Sustainabilityダッシュボードの概要"] 。
 
 
 
@@ -156,7 +168,7 @@ NetApp SupportEdge Basicサービスには、SupportEdge AdvisorおよびSupport
 
 === Sustainability Dashboard
 
-EシリーズシステムとStorageGRIDシステムでサステナビリティがサポートされるようになりました。これらのシステムのSustainabilityダッシュボードでは、推奨される対処方法と環境指標のリストを表示して、電力、直接的な炭素使用量、熱の予測を表示できます。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Sustainabilityダッシュボードの概要"^]ください。
+持続可能性は、E シリーズおよびStorageGRIDシステムでサポートされるようになりました。これらのシステムのサステナビリティ ダッシュボードから、電力、直接的な炭素使用量、熱の予測を表示する推奨アクションと環境指標のリストを表示できます。詳細については、link:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Sustainabilityダッシュボードの概要"^] 。
 
 
 
@@ -176,7 +188,7 @@ EシリーズシステムとStorageGRIDシステムでサステナビリティ�
 
 === 健康
 
-* 健全性ワークフローにSustainabilityウィジェットが追加されました。このウィジェットには、お客様、監視リスト、サイト、グループの各レベルで推奨されるアクションの数が表示されます。アクションの数をクリックすると、Sustainabilityダッシュボードでこれらの推奨アクションの詳細が表示されます。詳細については、を参照してください link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["ストレージシステムの持続可能性を分析する"]。
+* Wellness ワークフローに、顧客、ウォッチリスト、サイト、およびグループ レベルで推奨されるアクションの数を提供する Sustainability ウィジェットが含まれるようになりました。アクションの数をクリックすると、サステナビリティ ダッシュボードでこれらの推奨アクションの詳細が表示されます。詳細については、link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["ストレージシステムの持続可能性を分析する"] 。
 * WellnessワークフローのSecurity VulnerabilitiesウィジェットとRansomware Defenseウィジェットが1つのウィジェットに統合され、現在はSecurity & Ransomware Defenseと呼ばれています。
 
 
@@ -283,7 +295,7 @@ Upgrade Advisorが強化され、単一のクラスタと複数のクラスタ�
 
 === Sustainability Dashboard
 
-Sustainabilityダッシュボードは、ストレージシステムの環境の持続可能性に関する貴重なインサイトを提供します。持続可能性スコア、炭素緩和率、電力使用量の予測、直接炭素、熱などの情報を表示できます。特定のサイトの炭素緩和率を調整できます。持続可能性スコアはクラスタレベルでも確認できます。持続可能性のスコアに基づいて、ストレージシステム全体の効率を評価し、持続可能性を強化するためのネットアップの推奨アクションに合わせることができます。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["詳細はこちら。"]。
+持続可能性ダッシュボードは、ストレージ システムの環境的持続可能性に関する貴重な洞察を提供します。持続可能性スコア、炭素削減率、予測される電力使用量、直接炭素、熱などの情報を表示できます。特定のサイトの炭素削減率を調整できます。クラスター レベルで持続可能性スコアを表示することもできます。持続可能性スコアに基づいて、ストレージ システムの全体的な効率を評価し、持続可能性を高めるために NetApp が推奨するアクションと一致させることができます。link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["詳細はこちら。"] 。
 
 
 
@@ -319,7 +331,7 @@ AFF Aシリーズ、AFF C190、オールSANアレイ、ONTAP 9.10以降を実行
 
 === Digital AdvisorとBlueXPの統合
 
-Active IQ Digital Advisorはデジタルアドバイザに変更され、ハイブリッドマルチクラウド環境向けのネットアップの統合管理コンソールであるBlueXPに統合されました。 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["詳細はこちら。"]。
+Active IQ Digital Advisor はDigital Advisorに変更され、ハイブリッド マルチクラウド環境向けの NetApp の統合管理コンソールであるBlueXPに統合されました。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["詳細はこちら。"] 。
 
 
 

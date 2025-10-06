@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get_started_sustainability_dashboard.html 
-keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
-summary: BlueXPまたはDigital Advisorからアクセスして、BlueXPの持続可能性ダッシュボードを使い始めましょう。 
+keywords: activeiq, sustainability dashboard, sustainability dashboard login, bluexp, NetApp Console 
+summary: NetAppコンソールまたはDigital Advisorにアクセスして、サステナビリティ ダッシュボードの使用を開始します。 
 ---
 = Sustainabilityダッシュボードの使用を開始する
 :hardbreaks:
@@ -16,22 +16,18 @@ summary: BlueXPまたはDigital Advisorからアクセスして、BlueXPの持�
 
 
 [role="lead"]
-Sustainabilityダッシュボードは、AIOps対応のレポートとスコアリングに実用的なインサイトを提供し、持続可能性に対する姿勢を改善します。Sustainabilityダッシュボードには、NetApp BlueXPまたはデジタルアドバイザからアクセスできます。
+サステナビリティ ダッシュボードは、AIOps 対応のレポートとスコアリングを提供し、実用的な洞察を提供して、サステナビリティの姿勢を改善します。サステナビリティ ダッシュボードには、 NetAppコンソールまたはDigital Advisorからアクセスできます。
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.NetAppコンソール
 --
-BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。の詳細を確認してください link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["BlueXPへのログイン"^]。
+コンソールにログインするには、 NetAppサポート サイトの認証情報を使用するか、電子メールとパスワードを使用してNetAppコンソール ログインにサインアップすることができます。詳細はこちらlink:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["コンソールにログインする"^] 。
 
 .手順
-. Webブラウザを開き、 link:https://console.bluexp.netapp.com/["BlueXPコンソール"^]。
-NetApp BlueXPのログインページが表示されます。
-. BlueXPにログインします。
-. BlueXPの左側のナビゲーションで、* Governance *>* Sustainability *を選択します。
-  Sustainabilityダッシュボードが表示されます。
-  [+]
-image:sustainability_dashboard_bluexp.png["BlueXPの持続可能性ダッシュボードの概要を示すUIスクリーンショット。"]
+. ウェブブラウザを開いて、link:https://console.netapp.com/["コンソール"^] 。コンソールのログイン ページが表示されます。
+. コンソールにログインします。
+. コンソールの左側のナビゲーションから、*ヘルス* > *持続可能性* を選択します。サステナビリティダッシュボードが表示されます。+image:sustainability_dashboard_console.png["コンソールのサステナビリティ ダッシュボードの概要を示す UI スクリーンショット。"]
 
 
 
@@ -45,7 +41,7 @@ Digital Advisorにログインするには、NetApp Support Siteクレデンシ�
 .手順
 . Webブラウザを開き、 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] ログインページ。
 . ユーザー名とパスワードを入力し、 * サインイン * をクリックします。
-. 左側のナビゲーションで、* storage health *>* Sustainability *を選択します。
+. 左側のナビゲーションから、[持続可能性] を選択します。
 +
 image:sustainability_dashboard.png["サステナビリティダッシュボードの概要を示すUIスクリーンショット。"]
 
