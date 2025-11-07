@@ -822,7 +822,6 @@
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">十分な情報に基づいて決定を下すことができる推奨事項を提供します。</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">データ移行</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">ストレージシステム内で使用可能なさまざまなタイプのワークロードに関する情報を提供し、クラウドに対応しているワークロードを特定します。ワークロードをクラウドに移行することで、コストを削減し、クラウドを使用したディザスタリカバリを実現できます。</block>
-  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">Cloud Volumes ONTAP （CVO）とCloud Volumes Service （CVS）への移行については、次の基準を満たすボリュームが推奨されます。</block>
   <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">ボリュームは、NFS、SMB、CIFS、FCP、またはiSCSIのいずれかのプロトコルを使用している必要があります</block>
   <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">ルートボリュームは除外されます</block>
   <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">ボリューム内のワークロードは、Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、FileShare、仮想化、Trident</block>
@@ -1561,4 +1560,5 @@
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital AdvisorはData Infrastructure Insights Basic バージョンと統合され、フルスタックのインベントリと相互運用性のチェックを顧客に提供できるようになりました。</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">*インベントリ* ウィジェットで、*仮想マシン* をクリックして、 Data Infrastructure Insightsで利用可能なデータを表示します。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">*ESX 名* をクリックして、Data Infrastructure Insightsに移動し、詳細情報を表示します。</block>
+  <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Cloud Volumes ONTAP (CVO) への移行には、次の基準を満たすボリュームが推奨されます。</block>
 </blocks>
