@@ -1561,4 +1561,9 @@
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">*インベントリ* ウィジェットで、*仮想マシン* をクリックして、 Data Infrastructure Insightsで利用可能なデータを表示します。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">*ESX 名* をクリックして、Data Infrastructure Insightsに移動し、詳細情報を表示します。</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Cloud Volumes ONTAP (CVO) への移行には、次の基準を満たすボリュームが推奨されます。</block>
+  <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">アップグレード プランを生成する前に、次の操作を行う必要があります。</block>
+  <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">ONTAP AutoSupport解決ガイド</block>
+  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">AutoSupport (ASUP) が有効になっていて正しく構成されており、必要なセクションがすべて含まれていることを確認します。詳細については、 <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>。</block>
+  <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">非技術的なケースを開く</block>
+  <block id="ece2db758a882f00813e14d082e4552c" category="list-text">AutoSupport のクラスタ メンバーが SAP クラスタ構成と一致していることを確認します。詳細については、<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> 。</block>
 </blocks>
