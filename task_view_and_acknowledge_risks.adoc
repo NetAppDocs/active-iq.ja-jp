@@ -4,7 +4,7 @@ permalink: task_view_and_acknowledge_risks.html
 keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
 summary: ストレージシステムの健全性を確認および分析し、リスクを承認するための情報を提供します。 
 ---
-= リスクを確認して承認します
+= Digital Advisorで健康属性を分析し、リスクを認識する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

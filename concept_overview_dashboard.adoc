@@ -4,7 +4,7 @@ permalink: concept_overview_dashboard.html
 keywords: overview, provision, dashboard, widget, watchlist 
 summary: ダッシュボード、監視リスト、およびウィジェットに関する情報が表示されます。 
 ---
-= 監視リストがわかります
+= Digital Advisorのウォッチリストについて学ぶ
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

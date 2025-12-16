@@ -4,7 +4,7 @@ permalink: concept_overview_wellness.html
 keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
 summary: 健全性とリスクのタイプに関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。 
 ---
-= 健康を理解する
+= Digital Advisorのウェルネスウィジェットについて学ぶ
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

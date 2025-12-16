@@ -4,7 +4,7 @@ permalink: task_analyze_storage_efficiency.html
 keywords: renew, hardware, software 
 summary: ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。 
 ---
-= 容量と Storage Efficiency による削減効果を分析できます
+= Digital Advisorで容量とストレージ効率の節約を表示
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

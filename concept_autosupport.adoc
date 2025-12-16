@@ -4,7 +4,7 @@ permalink: concept_autosupport.html
 keywords: AutoSupport 
 summary: AutoSupport の概要を示します。 
 ---
-= AutoSupport とは
+= Digital AdvisorのAutoSupportについて学ぶ
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

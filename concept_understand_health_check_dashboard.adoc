@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: ヘルスチェックダッシュボードについて理解するための情報を提供します。 
 ---
-= 健全性チェックダッシュボードについて理解する
+= Digital Advisorのヘルスチェックダッシュボードについて学ぶ
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

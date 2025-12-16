@@ -4,7 +4,7 @@ permalink: task_view_valuable_insight_widget.html
 keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
 summary: 貴重なインサイトウィジェットに関する情報を提供します。 
 ---
-= 価値ある分析情報を確認できます
+= Digital Advisorの Valuable Insights ウィジェットを使用して、サポートケースとストレージ システムの詳細を表示します。
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

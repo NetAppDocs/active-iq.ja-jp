@@ -4,7 +4,7 @@ permalink: sustainability-dashboard-overview.html
 keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
 summary: ダッシュボード、持続可能性スコア、システム、推奨アクションに関する情報を提供します。 
 ---
-= Sustainabilityダッシュボードの概要
+= Digital Advisorのサステナビリティダッシュボード機能について学ぶ
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_generate_tokens_API_services.html
 keywords: generate token, access token, refresh token, API services 
 summary: API にアクセスするためのトークンを生成する方法について説明します。 
 ---
-= API を使用するトークンを生成します
+= Digital Advisor API サービスを使用するためのトークンを生成する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_generate_reports.html
 keywords: reports, generate reports 
 summary: レポートを生成するための情報を提供します。 
 ---
-= レポートを生成します
+= Digital Advisorでレポートを生成またはスケジュールする
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_generate_drift_timeline_report.html
 keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
 summary: ドリフトタイムラインレポートを生成するための情報を提供します。 
 ---
-= ドリフトタイムラインレポートを生成します
+= Digital Advisorで構成ドリフトのタイムライン レポートを生成する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

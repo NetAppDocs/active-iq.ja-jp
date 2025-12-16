@@ -4,7 +4,7 @@ permalink: task_hosting_firmware_files_using_web_server.html
 keywords: firmware, web server, hosting 
 summary: Web サーバを使用してファームウェアファイルをホストする方法について説明します。 
 ---
-= Web サーバを使用してホストファームウェアファイルを作成します
+= AFFおよびFASファームウェアファイルをWebサーバーにホストする
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

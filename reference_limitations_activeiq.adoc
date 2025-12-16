@@ -4,7 +4,7 @@ permalink: reference_limitations_activeiq.html
 keywords: limitation, issues, not supported, drawbacks 
 summary: に、このリリースの制限事項を示します。 
 ---
-= 既知の制限
+= Digital Advisorの既知の制限
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

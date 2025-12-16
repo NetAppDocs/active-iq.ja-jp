@@ -4,7 +4,7 @@ permalink: generate_upgrade_plan_single_multiple_clusters.html
 keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
 summary: 1つのクラスタと複数のクラスタのONTAPのアップグレードまたはリバートを成功させるためのアップグレード計画を生成する手順を示します。 
 ---
-= 単一クラスタおよび複数クラスタのアップグレードプランの生成
+= Digital Advisorで単一および複数のクラスタのONTAPアップグレード プランを生成する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

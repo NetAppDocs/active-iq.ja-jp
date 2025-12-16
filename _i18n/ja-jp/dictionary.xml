@@ -12,7 +12,6 @@
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">AFF および FAS ファームウェア</block>
   <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">* Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">インベントリファイルの操作に関する情報を提供します。</block>
-  <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">インベントリファイルを操作します</block>
   <block id="d9d85047436d37abb6c5c8deca6fe036" category="paragraph">インベントリファイルは、ファームウェア更新の対象となるシステムのクラスタ管理 LIF で構成されています。このリストには、ディスクとシェルフファームウェアのファイル名情報が該当する場合に表示されます。</block>
   <block id="d6c78c605ec5b1cf9ed3237663470e46" category="paragraph">サービスプロセッサファームウェアの更新の場合、インベントリファイルにノードのホスト名と SP / BMC IP が記録されます。</block>
   <block id="4bfcc6f41dca1008b82bd33b35e9028c" category="section-title">インベントリファイルの形式</block>
@@ -26,7 +25,6 @@
   <block id="75a224357589706495901ad497cb3098" category="paragraph">cluster_firmware_fw_filekey と値が cluster-1 から削除されています。</block>
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">手動によるクラスタまたはコントローラの追加はサポートされていません。</block>
   <block id="834e689bebc0737b35009981790fcddc" category="summary">健全性とリスクのタイプに関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。</block>
-  <block id="bda4a48b47a4d90e94b87697e6455bb9" category="doc">健康を理解する</block>
   <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">健全性ウィジェットには、ストレージシステムに関する詳細情報が表示されます。パフォーマンスと効率、容量、設定、セキュリティの脆弱性、更新など、ストレージシステムのさまざまな属性に関する情報を提供します。 その他。</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健全性ワークフロー</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
@@ -45,9 +43,7 @@
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">ドキュメント化されたベストプラクティスとの違い</block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">次のビデオで、健全性の属性の重要性を確認できます。</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。</block>
-  <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">有効期限が切れているソフトウェアやハードウェアを 6 カ月以内にプロアクティブに特定し、ハードウェアやソフトウェアの更新を申請することができます。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">プランニング（ Planning ） * ウィジェットの更新（ Renewals ） * をクリックします。</block>
-  <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">更新するシステムを選択し、 * 更新 * をクリックします。</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">必要に応じて、追加のコメントを入力します。</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">[ 送信（ Send ） ] をクリックします。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
@@ -168,7 +164,6 @@
   <block id="fff04069266603da7d63522615d51f31" category="list-text">システムを表示する権限がありません。</block>
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">テクニカル以外のケースを作成します</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">こちらをご覧ください。</block>
-  <block id="7c6137cde05014e7fab83f78a553dffa" category="doc">容量と Storage Efficiency による削減効果を分析できます</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">システムの容量の詳細および Storage Efficiency による削減効果を表示して、適切な処理を実行できます。容量とストレージ効率の情報は、クラスタレベルまたはノードレベルで表示できます。</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">この機能は E シリーズシステムではサポートされません。</block>
   <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">容量のダッシュボードには、システムの容量の詳細と容量予測が表示されます。容量予測では、過去の容量情報を使用して各システムの利用率を特定します。使用容量と割り当て容量の履歴データ（使用可能な場合は 1 年分のデータ）に基づいて、アルゴリズムは各システムの現在の使用率を考慮し、今後 1 ～ 6 か月にわたってシステムの使用率の予測を生成します。</block>
@@ -182,14 +177,12 @@
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率を上回る場合は、「 * ユーザ事例を共有」をクリックして、実施したベストプラクティスをお知らせください。</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率より低い場合は、「 * お問い合わせ * 」をクリックして、ストレージシステムの構成をお知らせください。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
-  <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">ランサムウェアのリスクからシステムを保護</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Snapshot の作成、保持、および ONTAP の FPolicy リスクを確認し、修正するためのアクションを実行できます。</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">表示されたリスクについては、影響レベルを確認し、推奨される対処方法に従います。</block>
   <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">[Unique Rises] タブをクリックし、 [*Corrective Action] 列にリンクします。</block>
   <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">[ 影響を受けるシステム ] タブをクリックして、リスクのあるシステムを表示します。</block>
   <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">システムを保護するために推奨される修正措置を実行します。</block>
   <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">構成ドリフトテンプレートを比較するための情報を提供します。</block>
-  <block id="07bccdf47af12c51bb370278a660f033" category="doc">構成ドリフトテンプレートを比較します</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">システム構成とクラスタ構成を比較して、設定の違いをほぼリアルタイムで検出できます。</block>
   <block id="610f90ca909a7ffba0cca7c8587ce0c7" category="list-text">左側のペインで、 [Config Drift *] をクリックします。</block>
   <block id="3d768fbe606a71f8b806879ad00eba22" category="list-text">既存のテンプレートのいずれかを選択するか、 * テンプレートの追加 * をクリックして新しいテンプレートを追加します。</block>
@@ -208,8 +201,6 @@
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">選択したシステム間の設定の偏差の詳細が記載された E メールが送信されます。</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">ヘルスチェックダッシュボードについて理解するための情報を提供します。</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">健全性チェックのスコアに基づいて、長期的な計画に備えて、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせて調整することができます。ソフトウェアとハードウェアで実行されているすべてのシステムを、一元化されたユーザインターフェイスで監視できます。ヘルスチェックのスコアを使用すると、システムリスクに関する情報をすばやく取得できます。主な推奨事項とベストプラクティスは、インストールベースの健常性を改善するための対処方法です。</block>
-  <block id="cf03e3b283bc7fa70a7713acb40de102" category="doc">ウェルネスレビューメールに登録する</block>
-  <block id="21ad3730eb42f0e7e97440864d89b224" category="paragraph">健全性レビュー E メールに登録すると、健全性ステータスの概要、更新期限が近づいているシステム、インストールベースのネットアップ製品のアップグレードが必要なシステムに関する E メールを毎月受け取ることができます。健全性確認の E メールが送信され、月ごとの概要を確認してシステムに対処することができます。サブスクリプションを表示、編集、共有、削除するオプションもあります。電子メールを受信しない場合は、いつでも電子メールの受信を停止できます。</block>
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">サブスクリプションを有効にしたら、サブスクリプションを追加するときに開始日を選択する必要があります。月ごとの E メールサマリーには、健全性、更新、アップグレード、健全性チェックの未処理のアクションが表示されます。確認用 E メールアドレスを入力すると、指定した E メールアドレスに E メールが送信されます。サブスクリプションを削除することもできます。</block>
   <block id="758be7d229b841d1130a3c7c210ffbdf" category="admonition">この機能を使用できるのは、ネットアップの SupportEdge Advisor と SupportEdge Expert のサービスが提供している場合のみです。</block>
   <block id="e7b254db09865dd430cfc8b7b0677352" category="list-text">左側のペインで、 *Wellness Review* をクリックします。</block>
@@ -227,12 +218,10 @@
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">レポートの形式を選択します。</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">新しいレポートが生成されると、既存のスケジュール済みレポートが置き換えられます。</block>
   <block id="6d70d8473310213564444d3b9fe477dd" category="summary">停止を回避するためにボリュームがフルにならないようにする方法について説明します。</block>
-  <block id="a80aea1c7f0129b13ea55e329311ec63" category="doc">ボリュームがいっぱいにならないようにしてシステム停止を回避してください</block>
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">設定ウィジェット</block>
   <block id="60436722270a4533c09cb8939f672895" category="list-text">構成 * （ Configuration * ）ウィジェットで * アクション * （ Actions * ）をクリックします。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">[* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1adfed22e84a753b83628708ada03eee" category="summary">構成ドリフトテンプレートを追加するための情報を提供します。</block>
-  <block id="474c5ad2b749cb9d123843c02a15e051" category="doc">設定ドリフトテンプレートを追加します</block>
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出するために、テンプレートを追加する必要があります。設定のドリフトテンプレートは、 AutoSupport データを実行するシステムを使用して追加されます。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">[ テンプレートの追加 ] をクリックします。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">必要な値を指定します。</block>
@@ -484,7 +473,6 @@
   <block id="ec16ae1399b2143d882f379f451279d9" category="list-text">ディスク、シェルフ、およびサービスプロセッサ / BMC ファームウェアパッケージの名前は、それぞれ「 * all.zip * 」、「 * all_self-fw_.zip * 」、および「 * &lt;SP / BMC &gt;/BMC_&lt;version_number&gt;_fw.zip * 」です。</block>
   <block id="3c31ca2c59ebd12781d8a3ccae41f4f7" category="admonition">インベントリファイルへのクラスタとコントローラの手動追加はサポートされていません。</block>
   <block id="e02babead98c40fa29fb8fc1d8fdc331" category="summary">ストレージシステムの健全性を確認および分析し、リスクを承認するための情報を提供します。</block>
-  <block id="e5ec766403e277fb64b1373cde7b1e02" category="doc">リスクを確認して承認します</block>
   <block id="271d577ec8f32c51ee101c1c091a870f" category="paragraph">ストレージシステムの健全性属性を分析するには、関連する操作とリスクを表示します。対処方法を確認し、リスクを手動で軽減する必要があります。</block>
   <block id="c8c26be9319b332a2b6294dcfb6585b6" category="list-text">ダッシュボードで健全性属性ウィジェットをクリックするか、 * すべての操作の表示 * をクリックして、すべてのアクションとリスクのリストを表示します。</block>
   <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">健全性属性に関連付けられている * アクション * と * リスク * を表示します。</block>
@@ -496,7 +484,6 @@
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">リスクは承認済みのリスクに追加されます。</block>
   <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">リスクを承認する必要がなくなった場合は、 * Un-Ack * をクリックして同じ手順に従うことで、リスクを無視してかまいません。</block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">パフォーマンスに関する情報を提供します。</block>
-  <block id="14b9230853f4485a198aadfb867fa9d2" category="doc">パフォーマンスグラフを分析</block>
   <block id="665087aa09840ccfb70bca045f36d8db" category="paragraph">パフォーマンスグラフを使用して、ストレージデバイスのパフォーマンスを分析できます。ONTAP クラスタまたは ONTAP クラスタ / E シリーズコントローラの複数のノードについて、詳細なパフォーマンスグラフを表示できます。これらのグラフには、パフォーマンスの傾向やパターンの分析を理解するために使用できる履歴パフォーマンスデータが表示されます。カレンダーから日付を選択すると、 1 日、 1 週間、 1 カ月、 2 カ月、 12 カ月のパフォーマンスグラフを表示できます。複数のノードを選択すると、特定のグラフを同時に表示できます。</block>
   <block id="be879ac697bce0956116e49ae0638f3d" category="paragraph">プリファレンスを設定できます。たとえば、 3 つのノードの場合は 1 つのグラフ、 3 つのノードの場合は 2 つのグラフのいずれかを表示できます。</block>
   <block id="076450bd5493fb3f2b96a170a0dd6c27" category="paragraph">グラフが最初に表示されるときは、 1 週間分のタブが事前に選択され、グラフ形式で 1 週間分のデータが表示されます。これにより、大量のデータと、さまざまな系列のデータ間の関係を簡単に把握できます。たとえば、日付範囲をリセットする場合は、 [ 1 か月 ] タブをクリックし、カレンダーで日付を選択します。</block>
@@ -522,8 +509,6 @@
   <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">CPU 利用率</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">スループット</block>
   <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">システムリスクと、健全性履歴の表示方法に関する情報を提供します。</block>
-  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="doc">健全性の履歴を表示します</block>
-  <block id="74d76c2b05d8452b29d401847b93bccc" category="paragraph">過去 3 カ月間に発生したシステムリスクを表示して、超過勤務がどのように進行しているかを確認できます。</block>
   <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">これらのリスクは、「 * 未解決 * 」、「新規 * 」、「解決済み * 」、「承認済み * 」の 4 種類のリスクに分類されます。これらは異なる色で表されます。これらのリスクの概要は、リスク履歴 * グラフで表されます。</block>
   <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">ダッシュボードの * Wellness * ペインで、 * View All Actions * をクリックします。</block>
   <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">[*Wellness History] をクリックします。</block>
@@ -537,7 +522,6 @@
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">[ 監視リストを管理 ] 画面が表示されます。</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">監視リストを作成 * をクリックします。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">監視リストの名前を指定します。</block>
-  <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">1 つのカテゴリに最大 15,000 台のシステムを追加でき、 1 つのシリアル番号には 500 台のシステムを追加できます。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">監視リストダッシュボードが表示されます。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">ダッシュボード、ヘルススコア、機能、ウィジェットに関する情報を提供します。</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">このダッシュボードでは、次のウィジェットを使用してインストールベースの概要を一目で把握できます。</block>
@@ -548,14 +532,12 @@
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">* ベストプラクティス * ：パフォーマンスと効率性、可用性と保護、容量、構成、セキュリティの脆弱性など、ストレージシステムのベストプラクティス属性を評価することにより、健全性チェックのスコアを表示します。ネットアップのベストプラクティスはシステムヘルスの維持に役立ちます。これにより、インストールベースのパフォーマンスが最適化されます。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp Support Site</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">API サービス機能の概要を示します。</block>
-  <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">API サービスを理解する</block>
   <block id="272eb6d717938719a6643dde54a455f1" category="section-title">API カタログ</block>
   <block id="609b94093c96779bd697e437a237dada" category="paragraph">ページ上部の切り替えボタンを使用すると、 2 つのモードを切り替えてカタログを表示できます。コードビューでは、必要な入力パラメータ、戻りデータの内容と形式、およびコードサンプルに焦点を当てて、ユーザがコードを適切に設定し始めるようにします。Experiment ビューでは、メインの API Services ページから取得した生成されたトークンを使用して、ブラウザで API を「試してみる」ことができます。</block>
   <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">どちらのビューでも、左側のナビゲーションペインを使用して、使用可能な項目を参照できます。項目はサービスごとにアルファベット順に分類されています。特定のサービス内で、見出しを展開すると個々の API エンドポイントが表示されます。サービスヘッダーまたは API エンドポイントをクリックすると、中央のペインにあるカタログの該当するセクションに移動します。</block>
   <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">API を使用する</block>
   <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">認証され、トークンを生成できるようになったら、トークンを利用して、プログラムによるクエリを作成したり、データを取得したりできます。API カタログ内から API をテストして、クエリの仕組みと返されるデータのタイプを一元的に確認することもできます。これは、システムでコードフレームワークを構築する前に、 API がどのように機能するかを理解するのに役立ちます。</block>
   <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">API にアクセスするためのトークンを生成する方法について説明します。</block>
-  <block id="bdddfc6c707fca332fdc31a6f26637d2" category="doc">API を使用するトークンを生成します</block>
   <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">API サービスへの登録やトークンの生成は簡単です。</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">[* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">[*Register] をクリックします。</block>
@@ -600,7 +582,6 @@
   <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">レポートのスケジュール設定中に空のレポートが表示されます</block>
   <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">スケジュールされたレポートは、 SupportEdge Advisor または SupportEdge Expert サポート契約がある場合にのみ使用できます。システムが SupportEdge Advisor または SupportEdge Expert サポート契約を締結していない場合は、レポートのスケジュール設定中に空白のレポートが表示されることがあります。</block>
   <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">テンプレートを管理するための情報を提供します。</block>
-  <block id="50265178fa957fba00e89ee31583eda9" category="doc">テンプレートを管理します</block>
   <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">テンプレートのクローン作成、テンプレートの共有、既存のテンプレートの詳細の編集、テンプレートの削除を行うことができます。</block>
   <block id="fb9ec4a767166de614d7b27285754a9b" category="paragraph">テンプレートを共有することで、ユーザーがすでに作成したテンプレートを作成してカスタマイズするために必要な時間と労力を節約できます。共有テンプレートは共有ユーザが相互に変更できるため、複数のユーザが 1 つのゴールデンテンプレートに変更を加えることができます。</block>
   <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">共有テンプレートへのアクセスは、いつでも無効にできます。</block>
@@ -615,16 +596,13 @@
   <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">削除</block>
   <block id="a9345dca2427f7f88c526df2640684ed" category="list-text">をクリックします <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> テンプレートを削除します。</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">貴重なインサイトウィジェットに関する情報を提供します。</block>
-  <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">価値ある分析情報を確認できます</block>
   <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">「有益な分析情報 * 」ウィジェットには、サポートケースの数、保留中のソフトウェアアップグレード、ストレージ効率化による削減効果、軽減されたリスクなどに関する情報が表示されます。また、 [*Wellness *] 属性からのリスク通知も積極的に一覧表示します。</block>
   <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">[* インベントリ（ * Inventory ） ] ウィジェットで、 [* システム * （ * Systems * ） ] をクリックしてすべてのプラットフォームのシステム情報を表示するか、プラットフォームタイプをクリックし、 [ * システム * （ * Systems * ） ] をクリックして、そのプラットフォームに固有のシステムを表示します。</block>
   <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">ノードまたはクラスタをクリックすると、システムに関する詳細情報が表示されます。</block>
   <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">「有益なインサイト * 」ウィジェットはダッシュボードで確認できます。</block>
   <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">ウィジェットの情報を確認し、サポート契約で得られるビジネス上の価値と技術的な価値を把握します。</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">システムの容量を拡張するための情報を提供します。</block>
-  <block id="9438f616517805af3f4c395324944dff" category="doc">容量が上限に達しているシステムを特定します</block>
   <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">Ansible Playbook を使用して、ファームウェアの更新プログラムをインストール、実行する方法について説明しています。</block>
-  <block id="c8cc6f58456eb3a7923573bb5d9a8b03" category="doc">AFF ファームウェアと FAS ファームウェアの Ansible Automation パッケージをインストールして実行します （経験豊富なユーザ）</block>
   <block id="c35aa20a55cbeb586909eacd3abea8d0" category="paragraph">経験豊富なユーザが、 AFF および FAS ファームウェアの Ansible Automation パッケージを迅速にインストールして実行できます。</block>
   <block id="2cc3e52bf2e235fe75c3143d19d34c35" category="section-title">NetApp Docker Image を使用して Ansible でファームウェアを更新</block>
   <block id="bfafdb377b55f8c583e98a32ccdf8474" category="list-text">Ansible Docker イメージを Linux ホストに取得します。</block>
@@ -701,7 +679,6 @@
   <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">テクニカルレポート - ONTAP AutoSupport and AutoSupport On Demand をご覧ください</block>
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">テクニカルレポート - ネットアップ計測データのセキュリティとプライバシー</block>
   <block id="fba1e9100df562973f55a49a6269cc88" category="summary">システムの容量や、有効期限が切れるソフトウェアやハードウェアを特定するための情報を提供します。</block>
-  <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">計画の理解</block>
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">* 計画 * ウィジェットは、容量の使用率が 90% を超えているか、容量の 90% に近づいている容量要件を特定し、期限切れになったソフトウェアやハードウェア、または今後 6 カ月以内に期限切れに近づいているハードウェアを特定するのに役立ちます。ストレージシステムの容量の拡張やハードウェアおよびソフトウェアの更新を要求することができます。</block>
   <block id="7988a3af08a9ab5c3313f24277fd8cdb" category="paragraph">この統合の利点は次のとおりです。</block>
   <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">ONTAP のSaaS監視が簡易化されました</block>
@@ -710,7 +687,6 @@
   <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">[仮想マシンの概要*]タブをクリックします。</block>
   <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">[ESXホストの数]をクリックして、ホストに関する情報を表示します。</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">に、設定ドリフト機能の概要を示します</block>
-  <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">構成の偏差を把握する</block>
   <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">Config Drift 機能は、システムテンプレートを「ゴールデン」またはベースシステムテンプレートと比較することで、設定の差異を特定します。毎週または毎月のドリフトレポートをスケジュールしたり、オンデマンドで生成したりできます。設定のドリフトレポートに含まれる Ansible プレイブックを使用して、一部の差異を軽減できます。</block>
   <block id="00c936ae5068ea9685cb242934d6e619" category="paragraph">この機能は、 Advisor と Expert Support 契約を結んでいるシステムでのみ使用できます。</block>
   <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">次の図を参考に、設定の違いを特定してレポートを生成するワークフローを把握してください。</block>
@@ -718,16 +694,13 @@
   <block id="bd7c8ab041a2ad665bf462b1a7a3644f" category="paragraph"><block ref="bd7c8ab041a2ad665bf462b1a7a3644f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">次のビデオでは、 Ansible Playbook を生成して実行することで、構成の違いを修正できます。</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">ダッシュボード、監視リスト、およびウィジェットに関する情報が表示されます。</block>
-  <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">監視リストがわかります</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">また、カードに適用される色についても注意する必要があります。色は、リスクの重大度とタイプを示します。</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">システムのサポート契約を更新する方法について説明します。</block>
-  <block id="fba041f597391cccf20df624e451614c" category="doc">サポート契約の更新</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">ダッシュボードでは、アクティブなすべてのサポート契約のスコアと概要を確認できます。優先度順に提示された主要な推奨事項に基づいて処理を実行できます。</block>
   <block id="4dc41be6abef4ee242883df1a57fb262" category="list-text">ヘルスチェックダッシュボードで、 * サポートおよびエンタイトルメント * ウィジェットをクリックします。</block>
   <block id="195a1e51a63db10df6d13350df648daf" category="list-text">ご使用のシステムサポート契約のいずれかが期限切れになっているか、または有効期限が近づいている場合は、 * Active Support Contracts * ウィジェットをクリックします。</block>
   <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">選択したシステムの更新プロセスを開始するには、チェックボックスをオンにし、 * 更新 * をクリックします。</block>
   <block id="79e58a59d5d9e700b34093a1d2e53ffb" category="summary">Unified Manager を使用して自動的に修正できるリスクを表示するための情報を提供します。</block>
-  <block id="77e1702155a3d41741a7eee390691869" category="doc">Unified Manager を使用して自動で軽減できるリスクを表示します Ansible Playbook もご覧いただけます</block>
   <block id="45eee928d91988f1092c821e200e91e7" category="paragraph">アクションやリスクを確認することでストレージシステムを分析し、 Active IQ Unified Manager や Ansible Playbook を使用して軽減できます。</block>
   <block id="da48e8a594a1d177bf4a0a523841c6bb" category="list-text">ダッシュボードで * すべてのアクションを表示 * をクリックします。</block>
   <block id="a07983e266ae35893ec0d3fb2fbe58ad" category="inline-image-macro">スパナー</block>
@@ -742,14 +715,12 @@
   <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">Download * をクリックして、 AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。</block>
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">「 Fix it 」オプションと Ansible Playbook 機能を使用するには、 SupportEdge Advisor または SupportEdge Expert の契約が必要です。</block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Web サーバを使用してファームウェアファイルをホストする方法について説明します。</block>
-  <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">Web サーバを使用してホストファームウェアファイルを作成します</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">自動化パッケージをダウンロードしたら、ファームウェアファイルを Web サーバでホストする必要があります。</block>
   <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">Python を使用した Web サーバ</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">ステップ</block>
   <block id="f48786c9c76c96752daaf8192b199d06" category="list-text">Web サーバのベース URL を保存します。ディスクファームウェア、シェルフファームウェア、およびサービスプロセッサファームウェアの URL が * 。 http://&lt;web-server&gt;/path/all_shelf_fw.zip* 、 * 。 http://&lt;web-server&gt;/path/all.zip* 、 * 。 http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip* の場合、 * 。 http://&lt;web-server&gt;/path/* をベース URL として保存します。</block>
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">ファイル名は Ansible Playbook で自動的に検出されます。</block>
   <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">サポートサービスのアップグレードに関する情報を提供します。</block>
-  <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">サポートサービスをアップグレードします</block>
   <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">現在のサポートサービスをアップグレードして、推奨されるプラクティスと修正、 Ansible プレイブックによるアップグレードの自動化、実用的なレポートとレビュー、カスタマイズされたサポートなどによって、インストールベースを最適化できます。アップグレードは、サポート契約を更新したとき、またはシステム（ノード）ダッシュボードから他のタイミングで購入できます。</block>
   <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">AIQ のアップグレードは、現在 SupportEdge Premium または SupportEdge セキュアのサポートサービスを使用している場合にのみ選択できます。</block>
   <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">[* Inventory * （インベントリ * ） ] ウィジェットの横にある [* View All Systems （すべてのシステムを表示） ] をクリック</block>
@@ -776,7 +747,6 @@
   <block id="f2681bd59cd373759d660366f9539908" category="list-text">関連する対処方法をクリックし、情報に従ってリスクを解決します。</block>
   <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">リスクを軽減する手順は、すべての健全性属性で同じです。次のビデオで、セキュリティ関連の問題を監視して修正できます。</block>
   <block id="181b78869ff3c2e1d0f13fbb85809980" category="summary">Docker イメージを使用して Ansible Playbook を実行する方法について説明します。</block>
-  <block id="ffa09fb8e8764d736920c50362846ed7" category="doc">NetApp Docker イメージを使用して Ansible Playbook を実行</block>
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Ansible Playbook を実行する前に、 * NetApp_EAnsible _ ** * .zip * ファイルを展開し、ディスクまたはシェルフファームウェアファイルが保存されている Web サーバの準備が完了していることを確認してください。</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">NetApp Docker を使用して Ansible Playbook を実行する前に、以下の作業を完了してください。</block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">インベントリファイルを操作します</block>
@@ -814,7 +784,6 @@
   <block id="541d1e8525d813225b5812766f70549c" category="paragraph">また、 API の * Responses * セクションを調べて、返されるデータをよりよく理解することもできます。* 値の例 * をクリックしてデータの形式を表示するか、 * モデル * をクリックし、キャレットをクリックしてセクションを展開し、各エレメントの定義を表示できます。</block>
   <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">トグルを * コード * 表示にスライドさせると、さまざまな言語でコードサンプルを表示できます。</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">所有しているインベントリ全体に関する情報が表示されます。</block>
-  <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">インベントリの詳細を表示します</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">選択した監視リストのレポートを生成し、レポートを最大 5 名の受信者に E メールで送信することもできます。</block>
   <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">システムの詳細を .xls 形式で表示するには、 * Inventory * レポートをダウンロードします。</block>
   <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">Ansible Inventory * レポートをダウンロードして、地域またはサイトレベルの .yml および .ini 形式でシステムの詳細を確認できます。</block>
@@ -852,7 +821,6 @@
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">ユーザが使用できるさまざまなタイプのレポートに関する情報が表示されます。</block>
-  <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">レポートのタイプ</block>
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">レポート名（ Report Name ）</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">未解決および確認済みのリスク、リスクの詳細、対処方法、影響を受けるシステムに関する情報が表示されます。</block>
@@ -868,7 +836,6 @@
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">クラスタ、顧客、サイト、グループ、監視リスト、ノードレベルでの容量と効率の詳細に関する情報が表示されます。</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">クラスタレベルのボリュームのパフォーマンスの詳細に関する情報が表示されます。</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">クラスタ、ノード、ローカル階層（アグリゲート）、ボリュームのパフォーマンスに関する情報が監視リストレベルで表示されます。このレポートは、ノードが 100 個までの監視リストに対してのみ生成できます。</block>
-  <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">NetApp Docker イメージなしで Ansible Playbook を実行</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
   <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
   <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">* pip * を使用して必要な Python パッケージをインストールします。</block>
@@ -878,7 +845,6 @@
   <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">Ansible Playbook を * Ansible プレイブック * コマンドで実行：</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">プレイブックを実行したら、を参照してください <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 実行後の手順については、を参照してください。</block>
   <block id="d33c547719b131d3de1a17847217be28" category="summary">ファームウェアのインストールを検証する方法について説明します。</block>
-  <block id="19f3cc5c7d290cca42fee095792dee18" category="doc">ファームウェアのインストールを確認</block>
   <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">プレイブックの実行後、クラスタ管理者としてクラスタにログインします。</block>
   <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">ディスクファームウェアのインストールを検証する</block>
   <block id="3083d2c1ae7f9607307c4933fafac051" category="list-text">ドライブファームウェアがインストールされていることを確認します。</block>
@@ -895,17 +861,11 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
-  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">クイックスタート</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">監視リストをプロビジョニング</block>
-  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">システムの詳細を表示します</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">システム要件をプロアクティブに特定します</block>
-  <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">ストレージシステムの効率性とパフォーマンスを向上させます</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">ストレージパフォーマンスを分析</block>
-  <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">ストレージシステムの健常性を分析します</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">アップグレードしてインストールベースを最適化します</block>
-  <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Ansible Playbook を使用して、 AFF と FAS のファームウェアを更新してください</block>
-  <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">NetApp Docker イメージを使用して Ansible プレイブックを実行する</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">API を使用してデータを統合</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">マルチホップアップグレード</block>
@@ -989,7 +949,6 @@
   <block id="56f4dbda16e117456735f4152501a126" category="list-text">*クイックリンク：* Digital Advisorを使用して起動できるアプリケーションのリストが表示されます。</block>
   <block id="8b4015616b4ebb333b0bb005e28e4b8e" category="list-text">* お客様： * お客様のインストールベースを表示および管理できます。カスタマーダッシュボードは、Digital Advisorの中央ポータルです。</block>
   <block id="c185e2d804ea74628fccd45ec760120b" category="paragraph">Digital Advisorにログインし、* Configuration *ウィジェットに赤いバッジが表示されます。ウィジェットをクリックするとボリュームの使用率が 98% に達し、原因が停止する可能性があることがわかります。この問題を修正するとボリュームがいっぱいになるのを回避できます。ボリュームが読み取り専用になり、アプリケーションがクラッシュして失敗する原因となります。</block>
-  <block id="f9d46621c3d43242e4a3984f6d9b49d4" category="doc">Digital Advisorの機能を理解する</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Digital Advisorを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要、インベントリ、計画、アップグレード、重要な分析情報を監視リストレベルで確認できます。</block>
   <block id="4d7ba674630738cac5e8b1e2fed17854" category="paragraph">Digital Advisorの機能の一部を以下に示します。</block>
   <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">Digital Advisorのその他の機能にアクセスするには、サポートサービスへのアップグレードを購入することができます。</block>
@@ -998,7 +957,6 @@
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Digital Advisorにログインします。</block>
   <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisorは、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムのAnsibleスクリプトまたはプレイブックを生成します。</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisorのドキュメント</block>
-  <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">クラウドに関する推奨事項に基づいて、十分な情報に基づいて意思</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは、生成とリフレッシュトークンの1時間後に期限切れになります。トークンは、7日ごとに再生成し、アプリケーションにインストールする必要があります。これを行うには、アプリケーションにログインする必要はありません。ただし、90日が経過したら、アプリケーションにログインして新しいアクセストークンと更新トークンを取得する必要があります。</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">設定ドリフトテンプレートの属性は編集可能で、テンプレートの次のグループは、一部のセクションで正規表現をサポートしています。</block>
   <block id="03937134cedab9078be39a77ee3a48a0" category="cell">グループ</block>
@@ -1219,7 +1177,6 @@
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">ストレージシステムの持続可能性を分析する</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023年10月4日</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">[Planning]ウィジェット</block>
-  <block id="0f39f4240371d8ece7d1695a2c16fc9b" category="doc">AutoSupport とは</block>
   <block id="da0ad1a41b699c5a3226f922417a0037" category="list-text"><block ref="da0ad1a41b699c5a3226f922417a0037" category="inline-link-macro-rx"></block></block>
   <block id="f1882284408a9b189100dc3da835bb13" category="list-text"><block ref="f1882284408a9b189100dc3da835bb13" category="inline-link-macro-rx"></block></block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
@@ -1307,8 +1264,6 @@
   <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024年2月29日</block>
   <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">監視リストは、Digital Advisor内で事前に選択されたシステムにすばやく簡単にアクセスするために使用されます。特定の顧客または一連のシステムを頻繁に表示する場合は、監視リストを作成することをお勧めします。監視リストは最大100個まで作成でき、各監視リストにカテゴリで追加する場合は最大15、000、シリアル番号で追加する場合は最大500のシステムを含めることができます。</block>
   <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Digital Advisorに初めてアクセスしたときは、監視リストを作成するか、お客様名、サイト名、グループ名、StorageGRID、ホスト名、 クラスタ、シリアル番号、システムID、Keystoneサブスクリプション。</block>
-  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">一連のシステムにすばやく簡単にアクセスできる監視リストを作成できます。カテゴリまたはシリアル番号に基づいてシステムを追加できます。</block>
-  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">次のいずれかのオプションを選択してシステムを監視リストに追加します。</block>
   <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*カテゴリ*：お客様、サイト、グループ、Keystoneサブスクリプションなど、特定のカテゴリに関連付けられたインベントリ全体を追加できます。 を監視リストに追加します。</block>
   <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Keystone監視リストで検索</block>
   <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">Keystoneサブスクリプション*オプションを使用すると、Keystoneサブスクリプションに関連付けられているサブスクリプション番号を含めることができます。監視リストで検索すると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションを確認できます。詳細については、を参照してください <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>。</block>
@@ -1395,27 +1350,15 @@
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Data ONTAP 7-Modeストレージシステムのアップグレード</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">7-Modeシステムの限定サポートが終了したため、* 7-Mode Upgrade Advisor Plans *レポートはご利用いただけなくなりました。詳細については、を参照してください <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。詳細については、をご覧ください <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
   <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">健全性チェックダッシュボードの使用を開始する</block>
-  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">健全性チェックダッシュボードについて理解する</block>
   <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">Digital Advisorの健全性チェックダッシュボードでは、環境全体をポイントインタイムで確認できます。</block>
   <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">健全性チェックダッシュボードには、NetApp SupportEdge AdvisorとSupportEdge Expertのサービスからのみアクセスできます。</block>
-  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">Sustainabilityダッシュボードの使用を開始する</block>
-  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">クラスタとノードの健全性を分析</block>
-  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">ダウンタイムとデータ損失の可能性を回避</block>
   <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">AFFおよびFASファームウェアのAnsible Automationパッケージをダウンロード</block>
   <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
   <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">Webサーバを使用してファームウェアファイルをホストする</block>
   <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
-  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">セキュリティの脆弱性を検出</block>
-  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">ストレージ・システムのソフトウェアとハードウェアの更新</block>
-  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">APIカタログを使用したAPIの実行</block>
-  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">リスクを確認して手動で対処</block>
   <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">NetApp Keystoneサブスクリプションの容量利用率を表示</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">ストレージシステムの持続可能性を分析します</block>
   <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">構成の偏差を特定</block>
-  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">AFFおよびFASファームウェアのAnsible自動化パッケージをインストールして実行（経験豊富なユーザ）</block>
   <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">AFFおよびFASファームウェアのAnsible自動化パッケージのインストールと実行（初心者向け）</block>
-  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">NetApp Dockerイメージを使用せずにAnsible Playbookを実行</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">サポートに登録します</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">ヘルプを表示します</block>
@@ -1507,7 +1450,6 @@
   <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">変更内容の詳細については、<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> 。</block>
   <block id="72f7167f9069924b2f82beb448023d6b" category="list-text">持続可能性スコア、電力、直接炭素、熱の予測使用量を表示します。持続可能性スコアに基づいて、ストレージ システムの全体的な効率を評価し、スコアを向上させるために NetApp の推奨アクションに従います。<block ref="88471609a02ffbaf7f222a2aedb3d7f2" category="inline-link-macro-rx"></block> 。</block>
   <block id="a9aa66a7b3cfc4542dbfc9211a6c428b" category="summary">Digital AdvisorはNetApp Console と完全に統合されました。  NetAppコンソール ユーザー インターフェイス (UI) からクラスターを管理し、 Digital Advisorのすべての機能にアクセスできるようになりました。</block>
-  <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="doc">Digital AdvisorとNetAppコンソールの統合</block>
   <block id="ab8fdb90e4f7afafc378a1b57c166a3f" category="paragraph">Digital AdvisorはNetApp Console と完全に統合されました。コンソール ユーザー インターフェース (UI) からクラスターを管理し、 Digital Advisorのすべての機能にアクセスできるようになりました。</block>
   <block id="8bfbf187468875f94539de6f70320c9c" category="paragraph">コンソールを使用すると、IT 専門家とクラウド アーキテクトはハイブリッド マルチクラウド インフラストラクチャを集中管理できます。コンソールのDigital Advisorにアクセスするために必要なのは、 NetAppサポート サイト (NSS) アカウントだけです。</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetAppコンソール</block>
@@ -1556,7 +1498,6 @@
   <block id="46bb48cd2d8ba3072152fddd39652880" category="list-text">*クラウドへのバックアップ* をクリックして *コンソール* を起動します。</block>
   <block id="dca585924df6925f014c537785d04c0f" category="list-text">*クラウドに複製* をクリックして *コンソール* を起動します。</block>
   <block id="7bc90abe1556491a7adc105773e5b4f5" category="summary">Data Infrastructure Insightsの仮想マシンに関する情報を提供します</block>
-  <block id="a0aeb93a632027e20400cead009b815c" category="doc">Data Infrastructure Insightsとの統合により仮想マシンの詳細を表示</block>
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital AdvisorはData Infrastructure Insights Basic バージョンと統合され、フルスタックのインベントリと相互運用性のチェックを顧客に提供できるようになりました。</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">*インベントリ* ウィジェットで、*仮想マシン* をクリックして、 Data Infrastructure Insightsで利用可能なデータを表示します。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">*ESX 名* をクリックして、Data Infrastructure Insightsに移動し、詳細情報を表示します。</block>
@@ -1566,4 +1507,112 @@
   <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">AutoSupport (ASUP) が有効になっていて正しく構成されており、必要なセクションがすべて含まれていることを確認します。詳細については、 <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>。</block>
   <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">非技術的なケースを開く</block>
   <block id="ece2db758a882f00813e14d082e4552c" category="list-text">AutoSupport のクラスタ メンバーが SAP クラスタ構成と一致していることを確認します。詳細については、<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> 。</block>
+  <block id="b0898535e25a9a49559570e490a63c7d" category="doc">Digital AdvisorのAutoSupportについて学ぶ</block>
+  <block id="dbd378f84d7f1acefe0f16bae1460ecd" category="doc">Digital Advisorヘルスチェックダッシュボードを使い始める</block>
+  <block id="8861ce6f982c9fa3ae18a1cca30ef813" category="doc">Digital AdvisorAPIサービスについて学ぶ</block>
+  <block id="9d0213d4e659476a7862e220e596a06e" category="doc">Digital Advisorを使用してストレージ システムの構成の逸脱を検出します</block>
+  <block id="708edaeeb34fbfa4d60b966f324e0e42" category="doc">Digital Advisorのウォッチリストについて学ぶ</block>
+  <block id="11af6bd4d5dd478c34b28f858f65b491" category="doc">Digital Advisorの計画ウィジェットを使用して、ストレージ システムの容量要件を管理します。</block>
+  <block id="e0bd83b921f48fd90a8d833bc8f9237e" category="doc">Digital Advisorのウェルネスウィジェットについて学ぶ</block>
+  <block id="364f6f00ae9e3c41d31115e2622eb0b6" category="doc">Digital Advisorレポートについて学ぶ</block>
+  <block id="570719b584e6e69c4931e958bef6979e" category="doc">Digital Advisorの機能について学ぶ</block>
+  <block id="8083f9b299587af579ece9bb64335b08" category="doc">Digital Advisorのヘルスチェックダッシュボードについて学ぶ</block>
+  <block id="e5961c9ba5d2ded320c587ca2be451d3" category="doc">AFFおよびFASファームウェアアップデートのインベントリファイルを更新します</block>
+  <block id="17cf57a799d9d94a0c583f49a7f30df1" category="doc">Digital Advisorでストレージ システムにテクノロジの更新が推奨されるかどうかを判断します</block>
+  <block id="2aa63ba789e73b06bdbb2c2a977b1a63" category="doc">Digital Advisorで単一および複数のクラスタのONTAPアップグレード プランを生成する</block>
+  <block id="c1f1e34afc313dc547fc394981f53ffd" category="doc">Digital Advisorのサステナビリティダッシュボードにアクセスする</block>
+  <block id="6a67202f32080d987cdaf104a007ea9f" category="doc">Digital Advisorからストレージシステムの持続可能性スコアを向上させる</block>
+  <block id="b74c1a114d91a8ff4c5e80925a0eb76d" category="doc">Digital Advisorで持続可能性について学ぶ</block>
+  <block id="648cf18fc359fdbd8541f549708a9e24" category="doc">Digital Advisorに関するよくある質問</block>
+  <block id="2b1a2e89f1b2f5c6d6515a6dc429c7fd" category="doc">Digital Advisorの既知の制限</block>
+  <block id="f2a73885c1e995cc3311a29291a28fde" category="doc">Digital Advisorのサステナビリティダッシュボード機能について学ぶ</block>
+  <block id="e44ce4d3422f101f306224bb091ea2db" category="doc">Digital Advisorのクラウド推奨事項を使用してストレージ システムの健全性を分析します</block>
+  <block id="b9456a2df38d30018b5aa1d2c39d55ba" category="doc">Digital Advisorを使用して、 Data Infrastructure Insightsで利用可能な仮想マシン データを表示します。</block>
+  <block id="6b067412319dd9485298444d9a34fc87" category="doc">Digital Advisorでストレージ システムの構成ドリフト テンプレートを追加します</block>
+  <block id="e67ed4f24a1e1077c5eb307d08729f7c" category="doc">Digital Advisorでウォッチリストを作成する</block>
+  <block id="a526a7fadbc4d3ff6b76aeace82c0a35" category="paragraph">ウォッチリストを作成すると、一連のストレージ システムにすばやく簡単にアクセスできます。カテゴリまたはシリアル番号に基づいてストレージ システムを追加できます。</block>
+  <block id="186b444c7e1538546cd3797bc4e13f6b" category="admonition">カテゴリごとに最大 15,000 個のストレージ システム、シリアル番号ごとに最大 500 個のストレージ システムを追加できます。</block>
+  <block id="ade07d6bbbe7ba4dca1efb40aa7352bd" category="list-text">ストレージ システムを監視リストに追加するには、次のいずれかのオプションを選択します。</block>
+  <block id="9e626aab5b921b3ca1f8a803c59e26c3" category="doc">Digital Advisorで容量とストレージ効率の節約を表示</block>
+  <block id="f20d4ff4105f49a3027ff751b2efde6c" category="doc">Digital Advisor の ClusterViewer ウィジェットを使用して、クラスターとノードの健全性を表示します。</block>
+  <block id="9ac4aca4ac0756136b6042d0474cfcf3" category="doc">Digital Advisorでボリューム ストレージ容量のしきい値を管理する</block>
+  <block id="8aed0befb763089b90784f7bb6c222cd" category="doc">Digital Advisorを使用して、可用性と保護ウィジェットで特定された重大なリスクを修正します</block>
+  <block id="65185bbce1d7f537b3c14697168318fc" category="doc">Digital Advisorで構成ドリフト テンプレートを比較する</block>
+  <block id="9ee24bf51d58897bfb757831cdbfe525" category="doc">NetApp Docker イメージを使用して Ansible プレイブックを実行する</block>
+  <block id="1d171292f5d993b6b1a0ace428002ae8" category="doc">NetApp DockerイメージなしでAnsibleプレイブックを実行する</block>
+  <block id="90f3ab06fb2b5ec1e539116cfe0cd3bb" category="doc">Digital Advisorで構成ドリフトのタイムライン レポートを生成する</block>
+  <block id="1b12ad840be07a671cddf255ef0ba4a8" category="doc">Digital Advisorでレポートを生成またはスケジュールする</block>
+  <block id="fcdc266661735ff673a0dd6db9dee871" category="doc">Digital Advisor API サービスを使用するためのトークンを生成する</block>
+  <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">AFFおよびFASファームウェアファイルをWebサーバーにホストする</block>
+  <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Digital Advisorで容量制限に近づいているストレージ システムを特定します</block>
+  <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Digital Advisorでセキュリティリスクを検出し、是正措置を講じる</block>
+  <block id="a7780228d5aa137f7cb990b61a022315" category="doc">Ansible パッケージを使用してAFFおよびFASファームウェアを更新する (経験豊富なユーザー)</block>
+  <block id="8a88e2413d4f95f64b219b6c28f57a07" category="doc">Digital Advisorで構成ドリフト テンプレートを管理する</block>
+  <block id="8b7cb0834e8dc268b50c925ad45b6ddd" category="doc">Digital Advisorでウォッチリストを管理する</block>
+  <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Digital Advisorが管理するストレージ システムをランサムウェアのリスクから保護します</block>
+  <block id="b89f83893f4727447716c66a3b51f536" category="doc">Digital Advisorからストレージ システムのソフトウェアとハ​​ードウェアの更新を特定します</block>
+  <block id="8c56611178fbe8b564f32305bee2660a" category="paragraph">ストレージ システムのソフトウェアとハードウェアのうち、有効期限が切れたか、今後 6 か月以内に有効期限が近づいているものを事前に特定し、ハードウェアとソフトウェアの更新リクエストを送信できます。</block>
+  <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">更新するストレージ システムを選択し、「*更新*」をクリックします。</block>
+  <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Digital Advisorでサポート契約を更新する</block>
+  <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Digital Advisorからのストレージ システムの健全性に関する通知を購読する</block>
+  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">ウェルネス レビュー メールを購読すると、ウェルネス ステータス、更新日が近づいているストレージ システム、インストール ベース内のNetApp製品のアップグレードが必要なストレージ システムの概要を記載したメールを毎月受信できます。月次サマリーを確認し、ストレージ システムに対してアクションを実行できるように、ウェルネス レビュー メールが送信されます。サブスクリプションを表示、編集、共有、削除するオプションもあります。メールを受信したくない場合は、いつでもメールの受信を停止できます。</block>
+  <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Digital AdvisorからAFFおよびFASファームウェアAnsibleパッケージをダウンロードします。</block>
+  <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Digital Advisorのサポート サービスをアップグレードする</block>
+  <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">ストレージシステムへのAFFおよびFASファームウェアのインストールを検証します</block>
+  <block id="e11965f61e6b60a8c6e2460a84cc204c" category="doc">Digital Advisor APIカタログを使用してAPIを実行します</block>
+  <block id="7d8cfcd1375c38dde47d477af932e6f3" category="doc">Digital Advisorで健康属性を分析し、リスクを認識する</block>
+  <block id="e2b13842235a9d8f6222d5443d06264d" category="doc">Digital Advisorでストレージ システムのインベントリの詳細を表示します</block>
+  <block id="55e59275438e24e489c9eedadc22e820" category="doc">Digital Advisorでストレージ システムのパフォーマンス グラフを表示する</block>
+  <block id="f61c091c0b8b3a7d65b3749b4d6ff7d8" category="doc">Digital Advisorでストレージ システムのリスクを確認し、是正措置を講じる</block>
+  <block id="a3837bd0607e681b36ecf4e98364055e" category="doc">Digital Advisorでアクションのリスクを確認し、Unified Manager または Ansible Playbook を使用してリスクを軽減します。</block>
+  <block id="d5d5f1e84cb21be570db134b36f27648" category="doc">Digital Advisorの Valuable Insights ウィジェットを使用して、サポートケースとストレージ システムの詳細を表示します。</block>
+  <block id="bf913ddfb71b3c6ee1d82aca387fe57b" category="doc">Digital Advisorでストレージ システムのリスク履歴を表示する</block>
+  <block id="32b133d86b8eb3fd5557c2e108cfa557" category="paragraph">過去 3 か月間に発生したストレージ システムのリスクを表示して、時間の経過とともにどのように推移しているかを把握できます。</block>
+  <block id="a296f34f7bd8bbc9cecdb02dd3c7a98d" category="doc">Digital AdvisorでONTAPアップグレード プランを生成する方法について学習します。</block>
+  <block id="f3c8e17c53c0461b4df3e0eeb99f32a7" category="doc">Digital Advisorでファームウェア更新の推奨事項を表示する</block>
+  <block id="fe145b2d12d4d69847fa71a1cbf8e316" category="doc">Digital AdvisorでNetApp Keystoneサブスクリプションの容量使用率を表示する</block>
+  <block id="9d6a64b8b79990034dfd292e21cf3351" category="sidebar">AutoSupportの詳細</block>
+  <block id="017a3d6f875d284784730abfabf9156c" category="sidebar">ウォッチリストについて学ぶ</block>
+  <block id="16f27994003a5fd99674095b003495ca" category="sidebar">ウェルネスウィジェットについて学ぶ</block>
+  <block id="6aa8f267930828d736fc43060dce3ed2" category="sidebar">ストレージ システムのリスクを確認し、是正措置を講じる</block>
+  <block id="ca94d6165165dd3749e39eb2544e92bd" category="sidebar">セキュリティリスクを検出し、是正措置を講じる</block>
+  <block id="e4912b4dd78368e95a2efe840edd8cf8" category="sidebar">ストレージシステムをランサムウェアのリスクから保護する</block>
+  <block id="5bf7a540fbc45328960280d062d53d16" category="sidebar">健康特性を分析し、リスクを認識する</block>
+  <block id="de8e058114d9b334187888b0674c0ff4" category="sidebar">ストレージシステムのリスク履歴を表示する</block>
+  <block id="6c800302ee852099b731ceed29b0ff51" category="sidebar">Unified Manager または Ansible Playbook を使用してリスクを表示し、リスクを軽減します</block>
+  <block id="f79af03fd1638888a127903790971ffd" category="sidebar">Digital Advisorを使用して、特定された重大なリスクを修正します</block>
+  <block id="e97c90acf2a807a05231bc10c80c92e6" category="sidebar">ストレージシステムの健全性通知を購読する</block>
+  <block id="817f1b924949766ab1b677366c38b65a" category="sidebar">ストレージシステムのソフトウェアとハードウェアの更新を特定する</block>
+  <block id="ed1102ac3077dfae9b2126f07c2d07ae" category="sidebar">ClusterViewer ウィジェットを使用してクラスターとノードの健全性を表示します</block>
+  <block id="1911c13c60c86258e36dd352cb4e1b8e" category="sidebar">ストレージシステムの持続可能性を分析する</block>
+  <block id="578a9f91df099dcd9187a6221c1a6727" category="sidebar">サステナビリティダッシュボードにアクセスする</block>
+  <block id="30d5deda0fd445117ab4c32ff6a513b2" category="sidebar">サステナビリティダッシュボードの機能について学ぶ</block>
+  <block id="e7c7e4ad8baec457c1e5c62def388060" category="sidebar">ストレージシステムの持続可能性スコアの向上</block>
+  <block id="bac3163878d2374ee594903ac6c1802c" category="sidebar">ONTAPアップグレードプランの生成について学ぶ</block>
+  <block id="114d8ec8c75a41f7a77d940bbedc89ba" category="sidebar">単一および複数のクラスタのONTAPアップグレード プランを生成する</block>
+  <block id="ebc19daf25c395407a52101068117655" category="sidebar">ストレージシステムのインベントリの詳細を表示する</block>
+  <block id="8c3ce1cbbe048dec5ffdc13f56c2ccf4" category="sidebar">Data Infrastructure Insightsで利用可能な仮想マシンのデータを表示する</block>
+  <block id="aa80415eea92e632f36c8f4c62c4b138" category="sidebar">Valuable Insights ウィジェットでサポートケースとストレージ システムの詳細を表示します</block>
+  <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">プランニングウィジェットでストレージシステムの容量要件を管理する</block>
+  <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">容量制限に近づいているストレージシステムを特定する</block>
+  <block id="670d5d545130d51748bc5083b6b61b03" category="sidebar">ボリュームストレージ容量のしきい値を管理する</block>
+  <block id="619122f60cc5d0d60681fb618a43634b" category="sidebar">ストレージシステムの技術更新が推奨されるかどうかを判断します</block>
+  <block id="38ce951a3b0659ec3d5cbbb32de780f8" category="sidebar">ストレージシステムのソフトウェアとハードウェアを更新する</block>
+  <block id="df1499afb39a1c2cf9d675ff51761e59" category="sidebar">クラウドの推奨事項を使用してストレージ システムの健全性を分析する</block>
+  <block id="29da45b00d724bc9c112a3904192176a" category="sidebar">ストレージシステムの構成逸脱を検出する</block>
+  <block id="dc257426448e2fa425271fb064f19428" category="sidebar">ストレージシステム用の構成ドリフトテンプレートを追加する</block>
+  <block id="aaafdba4c0c7e26402e049623e95a726" category="sidebar">構成ドリフトテンプレートを比較する</block>
+  <block id="596faf0af4a0ea3e6b20308ed2215114" category="sidebar">構成ドリフトタイムラインレポートを生成する</block>
+  <block id="08e20b683f96f6a10770af6e5011cd6d" category="sidebar">構成ドリフトテンプレートを管理する</block>
+  <block id="106cc9ea46ccd7a9bcef8e9ea71dff02" category="sidebar">ストレージシステムの効率とパフォーマンスを向上</block>
+  <block id="08a687618d13df36577f5389d45455d8" category="sidebar">容量とストレージ効率の節約を表示</block>
+  <block id="f3c6ba1b23c4d453a40f0fd2698619a0" category="sidebar">ストレージシステムのパフォーマンスグラフを表示する</block>
+  <block id="497cd649105b34f2df8142815305fab2" category="sidebar">ストレージシステムの健全性を分析する</block>
+  <block id="40f0aed0699d03ae68eb635a82bdf9d8" category="sidebar">ヘルスチェックダッシュボードについて学ぶ</block>
+  <block id="a06e3ce4add4740b8cd1019f78a7150f" category="sidebar">サポート契約の更新</block>
+  <block id="370e2418d7c66dbb1459fb77fcb2de5b" category="sidebar">アップグレードサポートの提供</block>
+  <block id="e6f1ebdad2113657694a5b8ee6b12a9a" category="sidebar">Ansible Playbook を使用してAFFおよびFASファームウェアを更新する</block>
+  <block id="aae53b31f1046bfeb5ca553426f2d07e" category="sidebar">AFFおよびFASファームウェアのAnsibleパッケージをダウンロードする</block>
+  <block id="b3b883fb818b35e0c1f7289c9e15f2a7" category="sidebar">ストレージシステムへのAFFおよびFASファームウェアのインストールを検証する</block>
+  <block id="737d0abe4f71a75181ee9d78766bb60f" category="sidebar">レポートを生成またはスケジュールする</block>
 </blocks>

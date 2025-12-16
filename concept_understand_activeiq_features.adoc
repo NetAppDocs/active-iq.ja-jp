@@ -4,7 +4,7 @@ permalink: concept_understand_activeiq_features.html
 keywords: digital advisor, features, upgrade, support offering 
 summary: ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。 
 ---
-= Digital Advisorの機能を理解する
+= Digital Advisorの機能について学ぶ
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

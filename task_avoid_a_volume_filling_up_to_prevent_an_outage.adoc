@@ -4,7 +4,7 @@ permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html
 keywords: volume filling up, prevent an outage 
 summary: 停止を回避するためにボリュームがフルにならないようにする方法について説明します。 
 ---
-= ボリュームがいっぱいにならないようにしてシステム停止を回避してください
+= Digital Advisorでボリューム ストレージ容量のしきい値を管理する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

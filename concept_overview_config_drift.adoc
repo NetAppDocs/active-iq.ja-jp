@@ -4,7 +4,7 @@ permalink: concept_overview_config_drift.html
 keywords: config drift, configuration deviation, add template, compare template 
 summary: に、設定ドリフト機能の概要を示します 
 ---
-= 構成の偏差を把握する
+= Digital Advisorを使用してストレージ システムの構成の逸脱を検出します
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

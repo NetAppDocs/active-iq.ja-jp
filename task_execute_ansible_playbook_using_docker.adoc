@@ -4,7 +4,7 @@ permalink: task_execute_ansible_playbook_using_docker.html
 keywords: Ansible Playbook, Ansible, Playbook, docker 
 summary: Docker イメージを使用して Ansible Playbook を実行する方法について説明します。 
 ---
-= NetApp Docker イメージを使用して Ansible Playbook を実行
+= NetApp Docker イメージを使用して Ansible プレイブックを実行する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

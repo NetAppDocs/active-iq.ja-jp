@@ -4,7 +4,7 @@ permalink: task_manage_template.html
 keywords: templates, share template, clone template, edit template, delete template 
 summary: テンプレートを管理するための情報を提供します。 
 ---
-= テンプレートを管理します
+= Digital Advisorで構成ドリフト テンプレートを管理する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

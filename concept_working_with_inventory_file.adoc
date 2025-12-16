@@ -4,7 +4,7 @@ permalink: concept_working_with_inventory_file.html
 keywords: inventory file, file format 
 summary: インベントリファイルの操作に関する情報を提供します。 
 ---
-= インベントリファイルを操作します
+= AFFおよびFASファームウェアアップデートのインベントリファイルを更新します
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

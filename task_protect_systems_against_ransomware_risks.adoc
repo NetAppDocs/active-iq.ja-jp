@@ -4,7 +4,7 @@ permalink: task_protect_systems_against_ransomware_risks.html
 keywords: ransomware, risks, ransomware risks 
 summary:  
 ---
-= ランサムウェアのリスクからシステムを保護
+= Digital Advisorが管理するストレージ システムをランサムウェアのリスクから保護します
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

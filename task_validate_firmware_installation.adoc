@@ -4,7 +4,7 @@ permalink: task_validate_firmware_installation.html
 keywords: validate, firmware, firmware installation 
 summary: ファームウェアのインストールを検証する方法について説明します。 
 ---
-= ファームウェアのインストールを確認
+= ストレージシステムへのAFFおよびFASファームウェアのインストールを検証します
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

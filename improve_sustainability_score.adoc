@@ -4,7 +4,7 @@ permalink: improve_sustainability_score.html
 keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level, NetApp Console 
 summary: 推奨されるアクションを通じて、持続可能性スコアを改善するための手順を示します。 
 ---
-= 持続可能性スコアの向上
+= Digital Advisorからストレージシステムの持続可能性スコアを向上させる
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

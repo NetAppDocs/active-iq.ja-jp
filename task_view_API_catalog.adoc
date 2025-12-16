@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: API カタログで使用できる API に関する情報を提供します。 
 ---
-= APIカタログを使用したAPIの実行
+= Digital Advisor APIカタログを使用してAPIを実行します
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
