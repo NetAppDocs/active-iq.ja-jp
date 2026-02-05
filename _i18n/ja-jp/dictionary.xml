@@ -1615,4 +1615,12 @@
   <block id="aae53b31f1046bfeb5ca553426f2d07e" category="sidebar">AFFおよびFASファームウェアのAnsibleパッケージをダウンロードする</block>
   <block id="b3b883fb818b35e0c1f7289c9e15f2a7" category="sidebar">ストレージシステムへのAFFおよびFASファームウェアのインストールを検証する</block>
   <block id="737d0abe4f71a75181ee9d78766bb60f" category="sidebar">レポートを生成またはスケジュールする</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">包括的なセキュリティ監視のための新しいセキュリティレポート</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisorに、ストレージ環境全体のONTAPセキュリティリスクの統合ビューを提供するセキュリティレポートが追加されました。このレポートにより、クラスタ、SVM、ボリューム全体の設定ミス、コンプライアンスギャップ、セキュリティ問題をより迅速に検出でき、安全なストレージインフラストラクチャの維持に役立ちます。</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">混合パッチレベルに対する Enhanced Upgrade Advisor のサポート強化</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">アップグレードアドバイザーは、同じONTAPメジャーリリース内で異なるパッチレベルを実行しているノードがあるクラスタのアップグレードレポートを生成するようになりました。この機能強化により、クラスタがメジャーバージョン間で混在していない限り、お客様はアップグレードをシームレスに進めることができ、アップグレード計画の柔軟性が向上します。</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">限定サポート終了ONTAP バージョンの延長サポート</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisorは、9か月の猶予期間付きで限定サポートが終了したONTAPバージョンのアップグレードプランの生成をサポートするようになりました。この機能は、移行期間中に明確なガイダンスを提供することで、顧客がタイムリーな対応を取り、アップグレードの中断を回避するのに役立ちます。</block>
+  <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">クラスタ、SVM、ボリューム全体にわたる ONTAP ストレージセキュリティリスクとコンプライアンスギャップの包括的でエクスポート可能な概要を提供します。</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026年2月4日</block>
 </blocks>
