@@ -897,7 +897,6 @@
   <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*容量はDigital Advisor Base 2またはBase 10に表示されていますか？* Digital Advisorに表示されるすべての容量はBase 2（1024で除算した値）で、GiB / TiB単位で表されます。ONTAP ストレージとその他のネットアップ製品についても、 2 ベースで容量の使用状況が表示されます。</block>
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">新しいシステムは、SAPで追加または更新された後、Digital Advisorに反映されるまでに1日以上かかります。</block>
   <block id="7b8ca3eb07a8240bd90e77dc0b6b4b64" category="list-text">Digital Advisorでレポートを編集することはできません。既存のレポートを削除して、新しいレポートを作成する必要があります。</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">このレポートは、Digital Advisorに3日間保存されます。</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Digital Advisorに関する詳細情報を提供します。</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisorは、テレメトリデータと公開された製品セキュリティアドバイザリを利用して、対象の*およびサポート資格のある製品のセキュリティ問題を検出します。製品のテレメトリデータは、デジタルアドバイザがリスクを検出できるよう、AutoSupport 経由でネットアップに送信する必要があります。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Digital Advisorにログインします。</block>
@@ -1623,4 +1622,5 @@
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisorは、9か月の猶予期間付きで限定サポートが終了したONTAPバージョンのアップグレードプランの生成をサポートするようになりました。この機能は、移行期間中に明確なガイダンスを提供することで、顧客がタイムリーな対応を取り、アップグレードの中断を回避するのに役立ちます。</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">クラスタ、SVM、ボリューム全体にわたる ONTAP ストレージセキュリティリスクとコンプライアンスギャップの包括的でエクスポート可能な概要を提供します。</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026年2月4日</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">レポートはDigital Advisorに3か月間保存されます。</block>
 </blocks>
