@@ -160,14 +160,8 @@ sidebar:
             url: "/task_execute_ansible_playbook_without_docker.html"
           - title: ストレージシステムへのAFFおよびFASファームウェアのインストールを検証する
             url: "/task_validate_firmware_installation.html"
-    - title: API を使用してデータを統合
-      entries:
-      - title: Digital AdvisorAPIサービスについて学ぶ
-        url: "/concept_overview_API_service.html"
-      - title: Digital Advisor API サービスを使用するためのトークンを生成する
-        url: "/task_generate_tokens_API_services.html"
-      - title: Digital Advisor APIカタログを使用してAPIを実行します
-        url: "/task_view_API_catalog.html"
+    - title: Digital AdvisorAPIサービスについて学ぶ
+      url: "/concept_overview_API_service.html"
     - title: カスタムレポートを生成
       entries:
       - title: Digital Advisorレポートについて学ぶ

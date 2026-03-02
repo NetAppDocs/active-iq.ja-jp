@@ -537,13 +537,6 @@
   <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">どちらのビューでも、左側のナビゲーションペインを使用して、使用可能な項目を参照できます。項目はサービスごとにアルファベット順に分類されています。特定のサービス内で、見出しを展開すると個々の API エンドポイントが表示されます。サービスヘッダーまたは API エンドポイントをクリックすると、中央のペインにあるカタログの該当するセクションに移動します。</block>
   <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">API を使用する</block>
   <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">認証され、トークンを生成できるようになったら、トークンを利用して、プログラムによるクエリを作成したり、データを取得したりできます。API カタログ内から API をテストして、クエリの仕組みと返されるデータのタイプを一元的に確認することもできます。これは、システムでコードフレームワークを構築する前に、 API がどのように機能するかを理解するのに役立ちます。</block>
-  <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">API にアクセスするためのトークンを生成する方法について説明します。</block>
-  <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">API サービスへの登録やトークンの生成は簡単です。</block>
-  <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">[* クイックリンク * （ Quick Links * ） ] メニューから [* API サービス * （ API Services * ） ] をクリックします。</block>
-  <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">[*Register] をクリックします。</block>
-  <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">承認フォームに必要事項を入力し、 [*Submit*] をクリックします。</block>
-  <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">[Main API Services] ページで、 [Generate Token] をクリックしてアクセストークンを表示およびダウンロードし、トークンを更新して API を呼び出します。</block>
-  <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">ポータルでは、 1 つまたは両方のトークンを複数の方法でセットに保存できます。クリップボードにコピーしたり、テキストファイルとしてダウンロードしたり、プレーンテキストで表示したりすることができます。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -772,17 +765,6 @@
   <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">* インベントリ * ウィジェットで、目的のクラスタまたはノード（ホスト）を選択します。</block>
   <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">クラスタレベルまたはノードレベルで、 * Configuration * ウィジェットの横にある * ClusterViewer * をクリックします。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">[* Visualization * ] タブをクリックすると、クラスタがグラフィカルに表示されます。</block>
-  <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">API カタログで使用できる API に関する情報を提供します。</block>
-  <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API カタログを使用すると、各カテゴリ内のカテゴリや使用可能な API を参照できます。</block>
-  <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">有効なアクセストークンを使用して、必要なフィールドの入力を修正し、 API のテスト呼び出しを実行できます。</block>
-  <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">API カタログが表示されます。</block>
-  <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">ページの上部で、トグルを「実験」にスライドします。</block>
-  <block id="835a43b0478137c574edbef583d126a1" category="list-text">左側のナビゲーションでカテゴリを展開し、任意の API を選択して詳細情報を表示します。</block>
-  <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">API を展開します。</block>
-  <block id="3bf0bb81ef29ed72536c933fd264a98e" category="list-text">右側の [* Try it Out * （試してみてください * ） ] ボタンをクリックします。</block>
-  <block id="10d2154e0509c65c04341184204f6715" category="list-text">必要なパラメータを指定し、 * Execute * をクリックして結果を表示します。</block>
-  <block id="541d1e8525d813225b5812766f70549c" category="paragraph">また、 API の * Responses * セクションを調べて、返されるデータをよりよく理解することもできます。* 値の例 * をクリックしてデータの形式を表示するか、 * モデル * をクリックし、キャレットをクリックしてセクションを展開し、各エレメントの定義を表示できます。</block>
-  <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">トグルを * コード * 表示にスライドさせると、さまざまな言語でコードサンプルを表示できます。</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">所有しているインベントリ全体に関する情報が表示されます。</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">選択した監視リストのレポートを生成し、レポートを最大 5 名の受信者に E メールで送信することもできます。</block>
   <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">システムの詳細を .xls 形式で表示するには、 * Inventory * レポートをダウンロードします。</block>
@@ -866,7 +848,6 @@
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">システム要件をプロアクティブに特定します</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">ストレージパフォーマンスを分析</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">アップグレードしてインストールベースを最適化します</block>
-  <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">API を使用してデータを統合</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">マルチホップアップグレード</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">一部の自動無停止アップグレード（ANDU）から隣接していないリリースへのアップグレードでは、中間リリースおよびターゲットリリースのソフトウェアイメージをインストールできます。自動アップグレードプロセスでは、バックグラウンドの中間イメージを使用してターゲットリリースへの更新を完了します。たとえば、クラスタで 9.3 を実行している場合に 9.7 にアップグレードするには、 9.5 と 9.7 の両方の ONTAP インストールパッケージをロードし、 ANDU を 9.7 に開始します。その後、 ONTAP はクラスタを 9.5 に、その後 9.7 に自動的にアップグレードします。テイクオーバー / ギブバック処理や関連するリブートが複数回行われることを想定してください。</block>
@@ -905,7 +886,6 @@
   <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Digital Advisor API Servicesは、自動化機能を使用してワークフローを効率化します。API サービスは、 20 以上の異なるサービス領域にグループ化された 100 を超える API エンドポイントを記述した * API カタログ * を提供します。これらの API はネットアップのお客様が利用でき、システム情報、ストレージ効率、パフォーマンス、健常性、アップグレードなど、さまざまな目的に利用できます。</block>
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">APIは、プログラムによってDigital Advisorにアクセスし、コンピューティング環境にデータを戻すことができる簡単なコードを記述できるインターフェイスです。Digital Advisorに毎日連絡し、関心のある分野の最新データを返すような方法でコードを書くことができます。その後、このデータを使用してチケット処理システムにデータを入力したり、独自のダッシュボード、 Web ページ、レポートを作成したりできます。Digital Advisor API Catalogには、コードサンプルと機能の両方が用意されており、ブラウザでAPIを試すことができます。</block>
   <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">API による自動化は、毎日または毎週のタスクに効率性と正確性を追加する優れた方法です。リソースが解放され、より複雑なアクティビティの実行や新しいワークフローの自動化が可能になります。たとえば、修正が必要なシステムヘルスリスクがある場合は、少なくともDigital Advisorからのそれらの項目のプルアウトを自動化し、チケットシステムにプッシュすることができます。</block>
-  <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">アクティブ化は自動的に行われ、瞬時に行われます。Digital Advisor APIの使用が許可されると、プログラムによるAPI呼び出しに使用するトークンを生成できます。これらのトークンを使用して、 API カタログ内から「試してみよう」を実行することもできます。プログラムによって取得されたトークンは、常にアクセストークンとリフレッシュトークンの 2 つのセットで構成されます。アクセストークンは、すべての API を正常に使用するために渡される必要があります（ただし、リフレッシュトークンを使用すると、プログラムによって新しいトークンセットを取得できます）。</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">容量およびストレージ効率の詳細については、を参照してください <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>。</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Digital Advisorの新機能</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Digital Advisorでは、次の機能および拡張機能が導入されました。</block>
@@ -956,7 +936,6 @@
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Digital Advisorにログインします。</block>
   <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisorは、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムのAnsibleスクリプトまたはプレイブックを生成します。</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisorのドキュメント</block>
-  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">あとで使用できるように、アクセストークンをダウンロードして保存し、トークンを更新する必要があります。アクセストークンは、生成とリフレッシュトークンの1時間後に期限切れになります。トークンは、7日ごとに再生成し、アプリケーションにインストールする必要があります。これを行うには、アプリケーションにログインする必要はありません。ただし、90日が経過したら、アプリケーションにログインして新しいアクセストークンと更新トークンを取得する必要があります。</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">設定ドリフトテンプレートの属性は編集可能で、テンプレートの次のグループは、一部のセクションで正規表現をサポートしています。</block>
   <block id="03937134cedab9078be39a77ee3a48a0" category="cell">グループ</block>
   <block id="d2c24d59e0baff4d0155fbdf62590867" category="cell">セクション</block>
@@ -1426,22 +1405,11 @@
   <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量予測 V2 およびサポート終了 API モジュールは廃止される予定です。廃止された API にアクセスしたり、廃止予定のタイムラインや代替 API について知るには、*API サービス -&gt; 参照 -&gt; 廃止された API* に移動します。</block>
   <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor は、パフォーマンス、柔軟性、スケーラビリティを向上させるために、主要な API プラットフォームとして REST API から GraphQL に移行しています。移行は段階的に行われ、REST API と GraphQL API の間に重複期間が設けられます。廃止予定の REST API ごとに、 Digital Advisor API カタログに廃止通知が公開され、その特定のエンドポイントを GraphQL に移行するのに 6 か月かかります。廃止予定のAPIのリストを確認するには、*APIサービス -&gt; 参照 -&gt; 廃止予定のAPI*に移動します。</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
-  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">GraphQL API にアクセスする</block>
-  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">*GraphQL* をクリックしてドキュメントを確認します。</block>
-  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
-  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">すぐに実行できるサンプルクエリを使用してGraphQL APIを試してみてください。<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
-  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">APIリクエストのヘッダーの認証フィールドを選択してユーザートークンを提供します</block>
-  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">必要な変数を提供する</block>
-  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">クエリを実行して出力を確認する</block>
-  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">REST API にアクセスする</block>
-  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">*ActiveIQ-Public*をクリックし、任意のAPIを選択します。</block>
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*インベントリ* ウィジェットには、所有するシステムの合計数とサポート対象のスイッチのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">サポート対象のスイッチの詳細を表示</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">*インベントリ* ウィジェットで、*サポート対象スイッチ* をクリックすると、サポート対象スイッチすべてに関する情報が表示されます。</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">サポート対象のスイッチを表示する方法を学ぶ</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
-  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">参照</block>
-  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">クリック<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block>*API カタログ* アイコンの下にあります。</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">ストレージ システムの環境の健全性に関する洞察を提供する環境指標は、高度な予測モデルに基づいて、予測される電力使用量、直接的な炭素使用量、および熱放出のより正確な値を提供するようになりました。詳細については、<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block> 。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetAppコンソールになりました</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
@@ -1541,7 +1509,6 @@
   <block id="1d171292f5d993b6b1a0ace428002ae8" category="doc">NetApp DockerイメージなしでAnsibleプレイブックを実行する</block>
   <block id="90f3ab06fb2b5ec1e539116cfe0cd3bb" category="doc">Digital Advisorで構成ドリフトのタイムライン レポートを生成する</block>
   <block id="1b12ad840be07a671cddf255ef0ba4a8" category="doc">Digital Advisorでレポートを生成またはスケジュールする</block>
-  <block id="fcdc266661735ff673a0dd6db9dee871" category="doc">Digital Advisor API サービスを使用するためのトークンを生成する</block>
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">AFFおよびFASファームウェアファイルをWebサーバーにホストする</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Digital Advisorで容量制限に近づいているストレージ システムを特定します</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Digital Advisorでセキュリティリスクを検出し、是正措置を講じる</block>
@@ -1558,7 +1525,6 @@
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Digital AdvisorからAFFおよびFASファームウェアAnsibleパッケージをダウンロードします。</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Digital Advisorのサポート サービスをアップグレードする</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">ストレージシステムへのAFFおよびFASファームウェアのインストールを検証します</block>
-  <block id="e11965f61e6b60a8c6e2460a84cc204c" category="doc">Digital Advisor APIカタログを使用してAPIを実行します</block>
   <block id="7d8cfcd1375c38dde47d477af932e6f3" category="doc">Digital Advisorで健康属性を分析し、リスクを認識する</block>
   <block id="e2b13842235a9d8f6222d5443d06264d" category="doc">Digital Advisorでストレージ システムのインベントリの詳細を表示します</block>
   <block id="55e59275438e24e489c9eedadc22e820" category="doc">Digital Advisorでストレージ システムのパフォーマンス グラフを表示する</block>
@@ -1623,4 +1589,6 @@
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">クラスタ、SVM、ボリューム全体にわたる ONTAP ストレージセキュリティリスクとコンプライアンスギャップの包括的でエクスポート可能な概要を提供します。</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026年2月4日</block>
   <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">レポートはDigital Advisorに3か月間保存されます。</block>
+  <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor APIドキュメント</block>
+  <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">Digital Advisor APIへのアクセス方法と使用方法については、<block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
