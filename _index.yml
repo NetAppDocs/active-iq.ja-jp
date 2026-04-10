@@ -43,6 +43,8 @@ indexpage:
     links:
     - title: Digital Advisor Webポータル
       url: https://mysupport.netapp.com/myautosupport/home.html
+    - title: NetApp Digital Advisor APIドキュメント
+      url: https://docs.netapp.com/us-en/digital-advisor-automation/
     - title: Digital Advisorのビデオ
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: ネットアップコミュニティ–Digital Advisor
