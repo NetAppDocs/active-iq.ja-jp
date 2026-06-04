@@ -25,7 +25,6 @@
   <block id="75a224357589706495901ad497cb3098" category="paragraph">cluster_firmware_fw_filekey と値が cluster-1 から削除されています。</block>
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">手動によるクラスタまたはコントローラの追加はサポートされていません。</block>
   <block id="834e689bebc0737b35009981790fcddc" category="summary">健全性とリスクのタイプに関する情報が表示されます。これは、ストレージシステムの改善に役立ちます。</block>
-  <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">健全性ウィジェットには、ストレージシステムに関する詳細情報が表示されます。パフォーマンスと効率、容量、設定、セキュリティの脆弱性、更新など、ストレージシステムのさまざまな属性に関する情報を提供します。 その他。</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健全性ワークフロー</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="15d214cfadac5e15f2d227c604756873" category="paragraph">健全性ウィジェットには、リスクと、各健全性属性のリスクを軽減するために実施する必要があるアクションに関する情報も表示されます。各リスクのタイプと関連する結果は次のとおりです。</block>
@@ -43,7 +42,6 @@
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">ドキュメント化されたベストプラクティスとの違い</block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">次のビデオで、健全性の属性の重要性を確認できます。</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。</block>
-  <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">プランニング（ Planning ） * ウィジェットの更新（ Renewals ） * をクリックします。</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">必要に応じて、追加のコメントを入力します。</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">[ 送信（ Send ） ] をクリックします。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
@@ -366,7 +364,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">* インベントリウィジェット： * 選択したレベルで利用可能な StorageGRID システムのインベントリを表示します。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">* ウェルネスウィジェット： * 使用可能なシステムの既存の ARS ルールに基づいて適用される場合は、 StorageGRID に関連するリスクとアクションを含め、すべてのリスクとアクションを表示します。</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">* 計画ウィジェット： *</block>
-  <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">* 容量の追加：既存の容量のしきい値の 70% を超えているグリッドサイトには通知が送信されます。容量のしきい値が 70% を超える可能性がある場合は、サイト内の StorageGRID ID に対して今後 1 カ月、 3 カ月、 6 カ月間の容量を追加することもできます。</block>
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">* 契約更新： * ライセンス契約が期限切れになっている、または今後 6 カ月以内に期限が近づいている StorageGRID システムについては、通知が届きます。1 つ以上のシステムを選択して、ネットアップサポートチームに契約更新を申請することができます。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">* グリッドダッシュボード： * グリッドダッシュボードには、選択したグリッドに対する健全性、計画、設定の詳細が表示されます。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">* 構成ウィジェット： * ウィジェットで選択した StorageGRID の基本的な詳細情報を表示します。これには、グリッド名、ホスト名、シリアル番号、モデル、 OS バージョン、お客様名、配送先、連絡先情報などが含まれます。</block>
@@ -555,7 +552,6 @@
   <block id="f72e303ceb317ddb2d49f55359f01d75" category="cell">* クラスタ *</block>
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">* ノード *</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">すべてのプラットフォームでサポートされます</block>
-  <block id="28e26766a62bd9ef329986f7963b6357" category="cell">容量の追加</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">clustered Data ONTAP でのみサポートされます</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">アップグレード</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">監視リストを管理するための情報を提供します。</block>
@@ -636,9 +632,6 @@
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">* リスクの確認応答を取り消し（確認応答を取り消し）： * 承認されたリスクとシステムの確認応答を取り消すことができます。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">* 修正： * Active IQ United Manager （ UM ） 9.7 以降を使用してシステムに対するリスクを修正。このボタンをクリックして UM を起動し、リスクを軽減する手順を実行します。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">* レポートを生成： * 選択したウォッチリストのレポートを生成し、最大 5 名の受信者にレポートを電子メールで送信します。</block>
-  <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">* 計画ウィジェット： * 更新が必要な容量追加、ソフトウェア、ハードウェアに関する情報が表示されます。</block>
-  <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">* 容量の追加：容量の上限を超えている、または 90% に近づいているシステムや、容量を超えている、または 70% に近づいているグリッドサイトを特定します。ストレージシステムの容量を拡張する要求を発行できます。</block>
-  <block id="a14095eb1402d18db0b8da516449039e" category="list-text">* Renewals ： * は、 6 カ月以内に期限切れになったソフトウェアやハードウェアに関する情報を提供します。</block>
   <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*アップグレードウィジェット：ONTAP およびEシリーズシステムで利用可能なアップグレード数を表示します。</block>
   <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">ONTAP システムについては、アップグレードが必要なシステム数に関する情報を表示して、アップグレードプランを申請できます。</block>
   <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">Eシリーズシステムについては、アップグレードが必要なシステムの数に関する情報のみを表示できます。</block>
@@ -1259,9 +1252,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webポータル</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Digital Advisorのビデオ</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
-  <block id="a05a52081b0fa90b1547ef6f59f35788" category="summary">テクニカルサポート契約またはハードウェアの機器更改（Tech Refresh）を評価するための情報を提供します。</block>
-  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="doc">テクノロジの更新を評価する</block>
-  <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">テクニカルサポート契約またはハードウェアの更新が推奨されているかどうかを確認するには、Tech Refreshオプションを使用します。</block>
   <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">*セキュリティとランサムウェア対策：*セキュリティの脆弱性、ランサムウェアの検出、防止、リカバリに関連するリスクと対処方法に関する情報を提供します。</block>
   <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">*持続可能性：*お客様、監視リスト、サイト、グループの各レベルでの持続可能性スコアを改善するために推奨されるアクションの数が表示されます。</block>
   <block id="0235bcf89237278317e178c8c295ac74" category="list-text">[Security &amp; Ransomware Defense]ウィジェットの*[Actions]*をクリックします。
@@ -1303,14 +1293,12 @@
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">特定の機能にアクセスできない、またはDigital Advisorの機能に関するサポートが必要な場合</block>
   <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">容量が上限に達しているシステムをプロアクティブに特定し、ストレージシステムの容量拡張をリクエストします。</block>
   <block id="64c0215a49227967002da65613b613e8" category="paragraph">ONTAPの場合は、容量の90%を超えているシステム、または容量の90%を超える予定のシステムを1カ月、3カ月、6カ月のうちに表示できます。StorageGRIDの場合は、容量の70%を超えているシステム、または70%を超える予定のシステムを1カ月、3カ月、6カ月のうちに表示できます。</block>
-  <block id="c8a74c1549aa26d254c47b2fe445b5be" category="list-text">[Planning]ウィジェットで、*[Capacity Additions]*をクリックします。</block>
   <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">デフォルトでは、容量の90%を超えているか容量の90%に近づいているONTAPシステムが表示されます。</block>
   <block id="8774a5436b96ad3e78450845bce43111" category="list-text">StorageGRID *タブをクリックして、容量が70%を超えているか容量が70%に近づいているStorageGRIDシステムを表示します。</block>
   <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">容量を拡張するシステムを選択します。</block>
   <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">[容量予測の表示]*をクリックすると、今後6カ月間の容量予測が表示されます。</block>
   <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">[容量の追加を申請]*をクリックします。</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">必要に応じて、コメントを入力します。</block>
-  <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">[送信]*をクリックして要求をNetAppストレージチームに送信し、選択したシステムの容量の追加を支援します。</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024年5月15日</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">持続可能性は、Cloud Volumes ONTAP、AFFシステム（AシリーズおよびCシリーズ）、Eシリーズ、FAS、およびStorageGRIDシステムでサポートされます。</block>
   <block id="f78aea7a273ac10c7cb721f1b73054d6" category="paragraph">持続可能性ダッシュボードには、お客様のストレージシステムの環境評価と、ネットアップが推奨するアクションの形で改善に役立つ実用的なインサイトが表示されます。</block>
@@ -1430,8 +1418,6 @@
   <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">ウェブブラウザを開いて、<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block> 。</block>
   <block id="5bf5d855aa43f8908638c956b6a6ef8b" category="paragraph">以前にメールとパスワードを使用してコンソール ログインを作成したことがある場合は、代わりにそのログイン オプションを引き続き使用する必要があります。</block>
   <block id="e55f1920f154b5cf14dc8dc4428d7185" category="paragraph">このログインは、手順 2 で完了したログインとは異なります。手順 2 では、コンソールにログインしました。これで、 Digital Advisorにログインします。</block>
-  <block id="53d31668ff4a0d2a40cc587f9c13ec8e" category="admonition">この機能には、ライフサイクル プランニング (* ストレージ * &gt; * ライフサイクル プランニング *) またはDigital Advisor(* ダッシュボード &gt; プランニング ウィジェット &gt; 技術更新 *) からアクセスできます。</block>
-  <block id="81726c1bdc965a2834b9dcfa001ef6b0" category="paragraph">この機能の詳細については、<block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block>コンソールのドキュメントをご覧ください。</block>
   <block id="251a116e3518821c4cb40f8abb066a2f" category="summary">NetAppコンソールまたはDigital Advisorにアクセスして、サステナビリティ ダッシュボードの使用を開始します。</block>
   <block id="eb78fdcbf8bbae675c7ee0f97a884a74" category="paragraph">サステナビリティ ダッシュボードは、AIOps 対応のレポートとスコアリングを提供し、実用的な洞察を提供して、サステナビリティの姿勢を改善します。サステナビリティ ダッシュボードには、 NetAppコンソールまたはDigital Advisorからアクセスできます。</block>
   <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">コンソールにログインする</block>
@@ -1484,7 +1470,6 @@
   <block id="570719b584e6e69c4931e958bef6979e" category="doc">Digital Advisorの機能について学ぶ</block>
   <block id="8083f9b299587af579ece9bb64335b08" category="doc">Digital Advisorのヘルスチェックダッシュボードについて学ぶ</block>
   <block id="e5961c9ba5d2ded320c587ca2be451d3" category="doc">AFFおよびFASファームウェアアップデートのインベントリファイルを更新します</block>
-  <block id="17cf57a799d9d94a0c583f49a7f30df1" category="doc">Digital Advisorでストレージ システムにテクノロジの更新が推奨されるかどうかを判断します</block>
   <block id="2aa63ba789e73b06bdbb2c2a977b1a63" category="doc">Digital Advisorで単一および複数のクラスタのONTAPアップグレード プランを生成する</block>
   <block id="c1f1e34afc313dc547fc394981f53ffd" category="doc">Digital Advisorのサステナビリティダッシュボードにアクセスする</block>
   <block id="6a67202f32080d987cdaf104a007ea9f" category="doc">Digital Advisorからストレージシステムの持続可能性スコアを向上させる</block>
@@ -1560,7 +1545,6 @@
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">プランニングウィジェットでストレージシステムの容量要件を管理する</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">容量制限に近づいているストレージシステムを特定する</block>
   <block id="670d5d545130d51748bc5083b6b61b03" category="sidebar">ボリュームストレージ容量のしきい値を管理する</block>
-  <block id="619122f60cc5d0d60681fb618a43634b" category="sidebar">ストレージシステムの技術更新が推奨されるかどうかを判断します</block>
   <block id="38ce951a3b0659ec3d5cbbb32de780f8" category="sidebar">ストレージシステムのソフトウェアとハードウェアを更新する</block>
   <block id="df1499afb39a1c2cf9d675ff51761e59" category="sidebar">クラウドの推奨事項を使用してストレージ システムの健全性を分析する</block>
   <block id="29da45b00d724bc9c112a3904192176a" category="sidebar">ストレージシステムの構成逸脱を検出する</block>
@@ -1593,4 +1577,29 @@
   <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">AutoSupport（ASUP）が有効化され、正しく設定されており、必要なセクションがすべて含まれていることを確認してください。詳細については、<block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">2026年7月以降、ウェルネスレビュー機能はDigital Advisorで利用できなくなります。ご質問がある場合は、mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]までメールをお送りください。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026年5月18日</block>
+  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisorウィジェット名の更新</block>
+  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">次のDigital Advisor機能の名前が変更されました：</block>
+  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">システム更新を評価する</block>
+  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">Tech Refresh機能は、System Refreshという名称に変更されました。<block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block>方法をご確認ください。</block>
+  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Digital Advisorウィジェット</block>
+  <block id="7b68bc21ce78c08210db229203879260" category="list-text">容量追加機能は、ストレージ拡張という名称に変更されました。<block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>について学ぶ。</block>
+  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">更新機能は、現在「サポート更新」という名称になっています。<block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>について学ぶ。</block>
+  <block id="4e48390599cbc0039283bd380eac0cdd" category="cell">サポート更新</block>
+  <block id="a6622e39d0619e452c435935de0631a7" category="cell">ストレージ拡張</block>
+  <block id="51b0c2b7b72e87dd0bf515df5f9e6f5e" category="list-text">*計画ウィジェット：*更新が必要なストレージ拡張、ソフトウェア、およびハードウェアに関する情報を表示します。</block>
+  <block id="72249fa940a7ec954e6f3d3abf4091cf" category="list-text">*ストレージ拡張：*容量の90%を超えている、または90%に近づいているシステムと、容量の70%を超えている、または70%に近づいているGRIDサイトを特定します。ストレージシステムの容量を増やすようリクエストすることができます。</block>
+  <block id="4147677b5e66a7db19581c18353c5d87" category="list-text">*サポート更新：* 有効期限が切れた、または今後6か月以内に有効期限が切れる予定のソフトウェアおよびハードウェアに関する情報を提供します。</block>
+  <block id="05990f83c518983518d1838e09f090e8" category="paragraph">ウェルネスウィジェットは、ストレージシステムに関する詳細情報を提供します。この機能により、ストレージシステムのパフォーマンスと効率、容量、構成設定、セキュリティ上の脆弱性、サポートの更新など、さまざまな属性に関する情報が提供されます。</block>
+  <block id="9b9e31bebddf0b3c6a491e94b6ef64b5" category="summary">テクニカルサポート契約またはハードウェアのシステム更新を評価するための情報を提供します。</block>
+  <block id="c4d91836762c79f24882b84639da9ecd" category="doc">Digital Advisorでストレージシステムのシステム更新が推奨されるかどうかを判断します</block>
+  <block id="ae7c8af4913d5ed60eee9eba144d34f2" category="paragraph">Tech Support契約またはハードウェアに対してシステム更新が推奨されるかどうかを確認したい場合は、システム更新オプションを使用できます。</block>
+  <block id="b673e7cded650c08d6c0289225510337" category="paragraph">この機能には、ライフサイクル計画（*ストレージ* &gt; *ライフサイクル計画*）またはDigital Advisor（*ダッシュボード* &gt; *プランニングウィジェット* &gt; *システム更新*）からアクセスできます。</block>
+  <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">システムリフレッシュを評価する</block>
+  <block id="4b6c29e1e0ca5888882f9afb85d41460" category="paragraph">この機能の詳細については、コンソールのドキュメントの<block ref="60246966bc8fb02ea32471ffe11e7654" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">2026年6月3日</block>
+  <block id="2014a31fd7c5aa735efd9b3eab46bae2" category="list-text">*容量追加：* 既存容量の70%のしきい値を超えるGRIDサイトについては、通知されます。容量しきい値が70%を超える可能性が高い場合、サイト内のStorageGRIDの容量を今後1ヶ月、3ヶ月、6ヶ月間追加するオプションがあります。</block>
+  <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">*Planning*ウィジェットで、*ストレージ拡張*をクリックします。</block>
+  <block id="2e703d88e9f579295840057715d9e123" category="list-text">*送信*をクリックして、選択したシステムのストレージ拡張を支援するNetAppストレージチームにリクエストを送信します。</block>
+  <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">*計画*ウィジェットから*サポートの更新*をクリックします。</block>
+  <block id="ac7c07737d772453b955c31ac43f2b1f" category="sidebar">ストレージシステムのシステム更新が推奨されるかどうかを判断します</block>
 </blocks>

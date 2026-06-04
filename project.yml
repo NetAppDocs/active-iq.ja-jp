@@ -106,7 +106,7 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: ボリュームストレージ容量のしきい値を管理する
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: ストレージシステムの技術更新が推奨されるかどうかを判断します
+      - title: ストレージシステムのシステム更新が推奨されるかどうかを判断します
         url: "/evaluate-tech-refresh.html"
       - title: ストレージシステムのソフトウェアとハードウェアを更新する
         url: "/task_renew_software_and_hardware.html"
