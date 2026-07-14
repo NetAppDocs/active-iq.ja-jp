@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Upgrade Advisor を使用します
 
 * ONTAPのアップグレード計画を簡素化し、潜在的な障害や警告に対処するため、Upgrade Advisorプランにマルチフォーマットのダウンロードオプションが追加されました。Excel、PDF、JSON形式でUpgrade Advisorプランをダウンロードできるようになりました。

@@ -20,6 +20,7 @@ Ansible Playbook を実行する前に、 * NetApp_EAnsible _ ** * .zip * ファ
 
 
 
+[[before-you-begin]]
 == 作業を開始する前に
 
 NetApp Docker を使用して Ansible Playbook を実行する前に、以下の作業を完了してください。

@@ -28,6 +28,7 @@ Sustainabilityダッシュボードについては、次のビデオをご覧く
 video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
+[[benefits-of-sustainability]]
 == 持続可能性のメリット
 
 サステナビリティには、次のようなメリットがあります。

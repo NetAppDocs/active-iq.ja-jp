@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Upgrade Advisor を使用します
 
 更新に推奨されるストレージファームウェア、SP / BMCファームウェア、およびAutonomous Ransomware Package（ARP）を確認できるようになりました。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["ファームウェアアップデートの推奨事項を表示する方法"]です。
