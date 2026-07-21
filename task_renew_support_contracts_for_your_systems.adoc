@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_renew_support_contracts_for_your_systems.html 
-keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+keywords: renew, renewals, support contracts, support and entitlements, active support contracts, 
 summary: システムのサポート契約を更新する方法について説明します。 
 ---
 = Digital Advisorでサポート契約を更新する

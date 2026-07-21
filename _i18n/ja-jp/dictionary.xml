@@ -1331,7 +1331,6 @@
   <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">ファームウェアアップデートの推奨事項を表示する方法</block>
   <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">更新に推奨されるストレージファームウェア、SP / BMCファームウェア、およびAutonomous Ransomware Package（ARP）を確認できるようになりました。<block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>です。</block>
   <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024年12月12日</block>
-  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">ストレージファームウェア、SP / BMCファームウェア、システムファイル、およびセキュリティファイルの更新に関する推奨事項を表示します。</block>
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">ファームウェア更新の推奨事項を表示</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">お客様は、Control Towerを使用してシステムを最新のファームウェアバージョンに自動的に更新できるため、時間と労力を節約できます。これにより、手動による操作やスケジュール設定が不要になります。このアップデートにより、古いファームウェアバージョンや互換性のないファームウェアバージョンが原因で問題が発生するリスクが軽減され、最適なシステムパフォーマンス、安定性、およびセキュリティが確保されます。</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">お客様は、ファームウェアアップデートのステータスに関するタイムリーな通知とアラートを受け取ることができます。また、AutoSupportおよび自動アップデート設定を有効にするオプションもあります。</block>
@@ -1501,7 +1500,6 @@
   <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">更新するストレージ システムを選択し、「*更新*」をクリックします。</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Digital Advisorでサポート契約を更新する</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Digital Advisorからのストレージ システムの健全性に関する通知を購読する</block>
-  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">ウェルネス レビュー メールを購読すると、ウェルネス ステータス、更新日が近づいているストレージ システム、インストール ベース内のNetApp製品のアップグレードが必要なストレージ システムの概要を記載したメールを毎月受信できます。月次サマリーを確認し、ストレージ システムに対してアクションを実行できるように、ウェルネス レビュー メールが送信されます。サブスクリプションを表示、編集、共有、削除するオプションもあります。メールを受信したくない場合は、いつでもメールの受信を停止できます。</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Digital AdvisorからAFFおよびFASファームウェアAnsibleパッケージをダウンロードします。</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Digital Advisorのサポート サービスをアップグレードする</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">ストレージシステムへのAFFおよびFASファームウェアのインストールを検証します</block>
@@ -1616,4 +1614,11 @@
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026年6月29日</block>
   <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
   <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
+  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Wellness Reviewの廃止に関するお知らせ</block>
+  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review機能は廃止され、2026年7月をもってDigital Advisorでは利用できなくなりました。</block>
+  <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
+  <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">ウェルネスレビューメールに登録すると、ウェルネスステータス、更新日が近づいているストレージシステム、インストール済みベース内の NetApp 製品のアップグレードが必要なストレージシステムをまとめた月次メールを受け取ることができます。ウェルネスレビューメールを受信することで、月次概要を確認し、ストレージシステムに対して必要な対策を講じることができます。</block>
+  <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">購読しているコンテンツを表示、編集、共有、削除するオプションもあります。いつでも、メールの受信を希望しない場合は、メールの配信停止手続きを行うことができます。</block>
+  <block id="9700c329d00878c280440dc2e026802a" category="summary">ストレージファームウェア、SP および BMC ファームウェア、システムファイル、およびセキュリティファイルの更新推奨事項を表示します。</block>
 </blocks>
