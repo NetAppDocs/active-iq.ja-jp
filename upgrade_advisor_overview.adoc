@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: upgrade_advisor_overview.html 
-keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+keywords: upgrade advisor, upgrade plan, ontap, upgrade recommendation, clusters, storage systems 
 summary: ONTAPアップグレードの計画を簡易化するUpgrade Advisorの概要を示します。 
 ---
 = Digital AdvisorでONTAPアップグレード プランを生成する方法について学習します。

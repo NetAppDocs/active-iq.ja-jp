@@ -134,12 +134,12 @@ Upgrade Advisorは、9か月の猶予期間付きで限定サポートが終了�
 
 
 
-[[bluexp-is-now-netapp-console]]
-=== BlueXPはNetAppコンソールになりました
+[[netapp-console-previously-known-as-bluexp]]
+=== NetApp Console（以前は BlueXP として知られていました）
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化および再構築されたNetApp Consoleの基盤の上に構築されており、オンプレミスおよびクラウド環境全体にわたって、エンタープライズグレードでNetAppストレージとNetApp Data Servicesの一元管理を提供します。リアルタイムのインサイト、より迅速なワークフロー、簡素化された管理を実現し、高度なセキュリティとコンプライアンスを備えています。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更点の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"]を参照してください。
 
 
 
@@ -441,7 +441,7 @@ Upgrade Advisorが強化され、単一のクラスタと複数のクラスタ�
 
 * 削減比率を示すラベル* Storage Efficiency *の名前が* Data Reduction *に変更されます。
 * ラベル「Data Saved by Storage Efficiency」*の名前が「Data Reduction Savings」*に変更されます。
-* 機能の変更に伴い、[Snapshotバックアップなしの削減]*の名前が*[Snapshotコピーあり]*に変更されました。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["詳細はこちら。"]。
+* *スナップショットバックアップなしの削減効果*というトグルは、*スナップショットコピーあり*に名称変更され、機能も変更されました。link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["詳細はこちら。"]。
 
 
 
@@ -473,7 +473,7 @@ Upgrade Advisorが強化され、単一のクラスタと複数のクラスタ�
 [[storage-efficiency]]
 === ストレージ効率
 
-AFF Aシリーズ、AFF C190、オールSANアレイ、ONTAP 9.10以降を実行するFAS500などのONTAP システムでは、SANとNASのストレージ効率をノードレベルで実現できます。
+SANおよびNASのStorage Efficiencyは、AFF A-Series、AFF C190、All SAN Array、FAS500を含むONTAPシステムのノードレベルで利用可能です。
 
 
 
@@ -494,10 +494,10 @@ AFF Aシリーズ、AFF C190、オールSANアレイ、ONTAP 9.10以降を実行
 
 
 
-[[digital-advisor-integrating-with-bluexp]]
-=== Digital AdvisorとBlueXPの統合
+[[digital-advisor-integrating-with-netapp-console]]
+=== NetApp Consoleと統合されたDigital Advisor
 
-Active IQ Digital Advisor はDigital Advisorに変更され、ハイブリッド マルチクラウド環境向けの NetApp の統合管理コンソールであるBlueXPに統合されました。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["詳細はこちら。"] 。
+Active IQ Digital AdvisorはDigital Advisorに変更され、ハイブリッド マルチクラウド環境向けのNetAppの統合管理コンソールであるNetApp Consoleに統合されました。 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["詳細はこちら。"] 
 
 
 
@@ -681,10 +681,10 @@ Cluster Viewerに、クラスタのSnapMirror（データ保護）の概要が�
 
 
 
-[[bluexp]]
-=== BlueXP
+[[netapp-console]]
+=== NetAppコンソール
 
-BlueXPユーザーは、Digital Advisorの既存の機能と同様に、必要に応じて新しいタブでDigital Advisorリンクを開くことができるようになりました。
+NetApp Consoleユーザーは、Digital Advisorの既存の機能と同様に、該当する場合はDigital Advisorのリンクを新しいタブで開けるようになりました。
 
 
 
@@ -880,7 +880,7 @@ NetApp Cloud Volumes ONTAP システムの容量に関する詳細をDigital Adv
 === 健康
 
 * ランサムウェア防御ウィジェットは、スタンドアロンウィジェットではなくウェルネスワークフローの一部になりました。
-* Wellness Review の E メールでは、更新ではなくランサムウェア防御に関する情報を確認できます。
+* ウェルネスレビューのメールには、更新情報ではなく、ランサムウェア対策に関する情報が記載されています。
 
 
 
@@ -973,7 +973,7 @@ Grid Inventory タブでは、ノードの詳細をサイトレベルに基づ�
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === 推奨される構成 / Storage Virtual Machine （ SVM ）の健常性：ボリュームレベルの概要
 
-SVM テーブルの青い [ ボリュームの概要 ] ボックスをクリックすると、ポップアップに、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。
+SVMテーブルの青色の「ボリューム概要」ボックスをクリックすると、「ポップアウト」が表示され、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。
 
 
 
@@ -1167,8 +1167,8 @@ StorageGRID ダッシュボードは、 NextGen API フレームワークを使�
 * * ウェルネスウィジェット： * 使用可能なシステムの既存の ARS ルールに基づいて適用される場合は、 StorageGRID に関連するリスクとアクションを含め、すべてのリスクとアクションを表示します。
 * * 計画ウィジェット： *
 +
-** *容量追加：* 既存容量の70%のしきい値を超えるGRIDサイトについては、通知されます。容量しきい値が70%を超える可能性が高い場合、サイト内のStorageGRIDの容量を今後1ヶ月、3ヶ月、6ヶ月間追加するオプションがあります。
-** * 契約更新： * ライセンス契約が期限切れになっている、または今後 6 カ月以内に期限が近づいている StorageGRID システムについては、通知が届きます。1 つ以上のシステムを選択して、ネットアップサポートチームに契約更新を申請することができます。
+** *容量追加：* 既存容量の70%のしきい値を超えるGRIDサイトについては、通知されます。容量しきい値が70%を超える可能性が高い場合、サイト内のStorageGRIDの容量を今後1か月、3か月、6か月間追加するオプションがあります。
+** *更新：* StorageGRIDライセンス契約が既に失効している、または今後6か月以内に失効する予定のシステムについては、通知されます。1つ以上のシステムを選択して、更新のリクエストをNetAppサポートチームに送信できます。
 
 
 * * グリッドダッシュボード： * グリッドダッシュボードには、選択したグリッドに対する健全性、計画、設定の詳細が表示されます。
@@ -1184,7 +1184,7 @@ StorageGRID ダッシュボードは、 NextGen API フレームワークを使�
 [[fabricpool-advisor]]
 === FabricPool アドバイザー
 
-FabricPool ダッシュボードに階層データボタンが追加され、NetApp BlueXPを使用して低コストのオブジェクトストレージ階層にデータを階層化できるようになりました。
+「ティアデータ」ボタンがFabricPoolダッシュボードに追加されました。このボタンを使用すると、NetApp Consoleを使用して低コストのオブジェクトストレージ階層にデータを階層化できます。
 
 
 
@@ -1219,7 +1219,7 @@ FabricPool ダッシュボードに階層データボタンが追加され、Net
 [[integrating-data-using-apis]]
 === API を使用したデータの統合
 
-Digital Advisor APIを使用して、関心のあるデータを抽出し、会社のワークフローに直接統合できます。 link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["詳細はこちら。"]。
+Digital Advisor APIを使用して、必要なデータを取得し、会社のワークフローに直接統合することができます。link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["詳細はこちら。"]。
 
 
 
@@ -1419,7 +1419,7 @@ Digital Advisorのデフォルトのホームページ画面を設定できる�
 [[storage-efficiency]]
 === ストレージ効率
 
-AFF システム、AFF以外のシステム、またはその両方のSnapshotコピーがある場合とない場合のストレージシステムの削減率および削減量を表示できます。ストレージ効率情報はノードレベルで表示できます。 link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["詳細をご確認ください"]。
+AFFシステム、非AFFシステム、またはその両方について、スナップショットコピーの有無によるストレージシステムのStorage Efficiency比と節約額を確認できます。Storage Efficiencyに関する情報は、ノードレベルで確認できます。link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["詳細をご確認ください"]。
 
 
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: digital-advisor-integration-with-console.html 
-keywords: digital advisor, integration, bluexp, NetApp Console 
+keywords: digital advisor, integration, netapp console 
 summary: 'Digital AdvisorはNetApp Console と完全に統合されました。  NetAppコンソール ユーザー インターフェイス (UI) からクラスターを管理し、 Digital Advisorのすべての機能にアクセスできるようになりました。' 
 ---
 = NetAppコンソールでDigital Advisorにアクセスする
@@ -29,9 +29,9 @@ Digital Advisor はNetAppコンソールからアクセスできます。
 
 NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとデータ サービスの集中管理を提供します。 NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。
 
-NetAppコンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。
+NetApp Console の使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムや NetApp データ サービスへの接続を確保するためにクラウドに Console エージェントをデプロイする必要がある場合にのみ料金が発生します。ただし、Console からアクセスできる一部の NetApp データ サービスは、ライセンスまたはサブスクリプションが必要です。
 
-詳細はこちら https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetAppコンソール"]。
+ https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetAppコンソール"]の詳細については、こちらをご覧ください。
 
 コンソールからDigital Advisorにアクセスしてクラスターを管理できます。
 
@@ -39,11 +39,11 @@ NetAppコンソールの使用を開始するためにライセンスやサブ�
 . ウェブブラウザを開いて、link:https://console.netapp.com/["コンソール"^] 。
 . 「* NetApp Support Site 資格情報でログイン*」を選択し、資格情報を入力します。
 +
-以前にメールとパスワードを使用してコンソール ログインを作成したことがある場合は、代わりにそのログイン オプションを引き続き使用する必要があります。
+以前にメールアドレスとパスワードを使用してコンソールログインを作成している場合は、引き続きそのログイン方法を使用する必要があります。
 
 . プロンプトが表示されたら、NetApp Support Site クレデンシャルを使用してログインします。
 +
-このログインは、手順 2 で完了したログインとは異なります。手順 2 では、コンソールにログインしました。これで、 Digital Advisorにログインします。
+このログインは、手順2で完了したログインとは異なります。手順2では、コンソールにログインしました。現在、Digital Advisor にログインしています。
 
 
 

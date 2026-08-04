@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 Digital Advisorにログインすると、* Security & Ransomware Defense *ウィジェットで強調表示された* Actions *が表示され、リスク数が示されます。
 
-Snapshot の作成、保持、および ONTAP の FPolicy リスクを確認し、修正するためのアクションを実行できます。
+スナップショットの作成、保持、および ONTAP FPolicy のリスクを確認し、それらを解決するための対処を行うことができます。
 
 .手順
 . Digital Advisorにログインします。

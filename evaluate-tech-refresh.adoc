@@ -20,4 +20,4 @@ Tech Support契約またはハードウェアに対してシステム更新が�
 
 この機能には、ライフサイクル計画（*ストレージ* > *ライフサイクル計画*）またはDigital Advisor（*ダッシュボード* > *プランニングウィジェット* > *システム更新*）からアクセスできます。
 
-この機能の詳細については、コンソールのドキュメントのlink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["システムリフレッシュを評価する"]を参照してください。
+この機能の詳細については、コンソールのドキュメントのlink:https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["システムリフレッシュを評価する"]を参照してください。

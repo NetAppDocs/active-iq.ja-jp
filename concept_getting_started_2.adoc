@@ -40,11 +40,13 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | サポート更新 | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます | すべてのプラットフォームでサポートされます 
 
 
-| ストレージ拡張 | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
+| ストレージ拡張 | ONTAPでのみサポートされています | ONTAPでのみサポートされています | ONTAPでのみサポートされています 
 
 
-| 在庫 | すべてのプラットフォームでサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
+| 在庫 | すべてのプラットフォームでサポートされます | ONTAPでのみサポートされています | ONTAPでのみサポートされています 
 
 
-| アップグレード | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます | clustered Data ONTAP でのみサポートされます 
+| アップグレード | ONTAPでのみサポートされています | ONTAPでのみサポートされています | ONTAPでのみサポートされています 
 |===
+
+NOTE: すべてのプラットフォームとは、ONTAP、Eシリーズ、StorageGRID、ONTAP Select、およびCloud Volumes ONTAPを指します。
