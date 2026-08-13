@@ -196,7 +196,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出するために、テンプレートを追加する必要があります。設定のドリフトテンプレートは、 AutoSupport データを実行するシステムを使用して追加されます。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">[ テンプレートの追加 ] をクリックします。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">必要な値を指定します。</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">リリースの新機能に関する情報を提供します。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">詳細をご確認ください</block>
   <block id="0e1335531f896df953b41fb40e52c70e" category="section-title">2022年7月14日</block>
@@ -979,7 +978,6 @@
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">* Ansible プレイブック * コマンドの詳細については、を参照してください <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> また、 Ansible Playbook をチェックモード（ dry run ）で実行する方法については、を参照してください <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Sustainabilityダッシュボードの概要</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">サイトの炭素緩和の割合とこの割合を編集する方法を示すスクリーンショット。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">ストレージ効率ダッシュボードには、データ削減比率、使用されている論理領域、使用されている物理領域、および保存されたデータの総量が表示されます。データ削減比率と節約量は、AFFシステム、非AFFシステム、またはその両方について、スナップショットコピーの有無で確認できます。顧客ストレージ全体でのデータ削減量は、ボリューム重複排除、ボリューム圧縮、コンパクション、FlexCloneボリューム、およびスナップショットコピーなどの効率化機能ごとに確認できます。効率比率が最も高いストレージシステムの上位5機種を表示できます。AFF A-Series、AFF C190、All SAN Array、FAS500などのONTAPシステムについて、ノードレベルでスナップショットコピーなしのSANおよびNASの効率を確認することもできます。</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">スナップショットの作成、保持、および ONTAP FPolicy のリスクを確認し、それらを解決するための対処を行うことができます。</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">ストレージファームウェア、SP/BMCファームウェア、システムファイル、およびセキュリティファイルの更新推奨事項を表示します。</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift の非推奨に関するお知らせ</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift機能は、2026年9月にDigital Advisorで廃止される予定です。</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Digital Advisor の新機能と機能強化について説明します。</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
 </blocks>
