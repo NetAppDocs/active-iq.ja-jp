@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: concept_value_insights.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: お客様の ONTAP システムの全体的な健全性、削減効果、安定性、およびセキュリティ指標に関する情報を提供します。 
+---
+= Digital Advisorで価値のインサイトを確認する
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Value Insights機能は、お客様のONTAPシステムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。
+
+
+NOTE: Value InsightsはONTAPシステムでのみ使用できます。
+
+Value Insightsは以下の情報を提供します：
+
+* ONTAPシステムの全体的な健全性は、9つの主要業績評価指標（KPI）から構成される健全性スコア指標です。各セクションには、詳細なKPIとスコアの内訳が記載されています。
+* 節約効果と安定性のスコアは、効率的なリソース利用によって容量とストレージの節約を実現する方法を示しています。EMS ファイルのダウンロード機能を含む、ストレージのアップタイムおよび計画外停止に関するトレンド情報にアクセスできます。
+* セキュリティと将来計画では、回避されたリスクと未然に防がれた問題について詳細に説明します。コスト削減額は、ストレージ効率に基づいて算出されます。
+* インフラストラクチャの価値を最大化するには、インフラストラクチャのパフォーマンスをさらに向上させ、最高の効率性を実現するための追加機能を推奨します。
+
+
+.次の手順
+link:task_view_value_insights_dashboard.html["Value Insightsダッシュボードを表示する"]

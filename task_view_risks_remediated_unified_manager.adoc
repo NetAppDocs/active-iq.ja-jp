@@ -20,8 +20,8 @@ summary: Unified Manager を使用して自動的に修正できるリスクを�
 
 video::XusFvXM7h-E[youtube,width=848,height=480]
 .手順
-. ダッシュボードで * すべてのアクションを表示 * をクリックします。
-. アクション * をクリックしてアクションに関連するリスクを表示するか、 * リスク * をクリックしてすべてのリスクを表示するか、 * 影響を受けるシステム * をクリックして注意が必要なシステムを表示します。
+. ダッシュボードで*すべてのアクションを表示*を選択します。
+. *Actions* を選択するとそのアクションに関連するリスクが表示され、*Risks* を選択するとすべてのリスクが表示され、*Affected Systems* を選択すると注意が必要なシステムが表示されます。
 +
 Active IQ Unified Manager を使用してリスクを軽減できる場合は、を参照してください image:spanner.png["スパナー"] アイコンが強調表示され、 Ansible プレイブックを使用してリスクを軽減できる場合は、を参照してください image:update_ansible.png["Ansible を更新します"] アイコンが強調表示されます。
 
@@ -33,14 +33,14 @@ Active IQ Unified Manager を使用してリスクを軽減できる場合は、
 
 
  a| 
-. をクリックします image:spanner.png["スパナー"] をクリックします。
-. [* Fix it* （修正） ] をクリックして Active IQ Unified Manager を起動します。
-. Active IQ Unified Manager 9.7 以降をインストールするには、 * Install * をクリックして * Fix it * オプションを使用します。
-. Active IQ Unified Manager 9.7 以降にアップグレードするには、 * アップグレード * をクリックして、 * 修正 * オプションを使用します。
+. image:spanner.png["スパナー"] アイコンを選択します。
+. 「修正」を選択して、Active IQ Unified Manager を起動します。
+. 「Install」を選択して、Active IQ Unified Manager 9.7以降をインストールし、「Fix It」オプションを使用します。
+. 「アップグレード」を選択して Active IQ Unified Manager 9.7 以降にアップグレードし、「Fix It」オプションを使用します。
 
  a| 
-. をクリックします image:update_ansible.png["Ansible を更新します"] をクリックします。
-. Download * をクリックして、 AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。
+. image:update_ansible.png["Ansible を更新します"]アイコンを選択します。
+. 「ダウンロード」を選択して、AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。
 
 
 |===

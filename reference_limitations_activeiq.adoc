@@ -51,7 +51,7 @@ AutoSupportウィジェットには、クラスタとシリアル番号の検索
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == AutoSupportウィジェットでシリアルレベルのAutoSupportの詳細にドリルダウンできない
 
-AutoSupportの[Reporting]ページで、ステータス、最近送信を停止したシステム、AutoSupportがオフになっているシステムをクリックしても、[Health Check]画面には移動しません。
+AutoSupport レポートページで、いずれかのステータス、最近送信を停止したシステム、または AutoSupport がオフになっているシステムを選択しても、ヘルスチェック画面には移動しません。
 
 
 

@@ -20,14 +20,14 @@ Digital Advisorにログインし、*可用性と保護*ウィジェットに赤
 
 .手順
 . Digital Advisorにログインします。
-. [* 可用性と保護 * （ Availability & Protection ） ] ウィジェットで、 [ * アクション * （ Actions * ） ] をクリックしimage:Availability and protection_image 1 downtime and data loss.png["可用性と保護ウィジェット"]
+. *Availability & Protection* ウィジェットで *Actions* を選択します。image:Availability and protection_image 1 downtime and data loss.png["可用性と保護ウィジェット"]
 +
 影響の大きいセキュリティリスクについては、ディスクファームウェアの更新が推奨される対処方法に従ってください。
 
-. リスクサマリを表示するには、リスク名 * リンクをクリックします。image:Risk summary_image 2 downtime and data loss.png["リスクの概要"]
-. [*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。image:Corrective action_image 3 downtime and data loss.png["対処方法"]
+. リスクの概要を表示するには、*リスク名*リンクを選択してください。image:Risk summary_image 2 downtime and data loss.png["リスクの概要"]
+. *固有リスク*タブを選択し、*是正措置*列のリンクを選択します。image:Corrective action_image 3 downtime and data loss.png["対処方法"]
 +
 Digital Advisorは、ディスクファームウェアファイルなど、必要なディスクファームウェアを更新するために、カスタムのAnsibleスクリプトまたはプレイブックを生成します。
 
-. * Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF および FAS ファームウェア"]
+. スクリプトを生成してダウンロードするには、*Ansible "A"* アイコンを選択してください。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF および FAS ファームウェア"]
 

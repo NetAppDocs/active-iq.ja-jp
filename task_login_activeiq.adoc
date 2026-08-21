@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisorは、有効なサポート契約を締結しているシステムを表示します。契約が期限切れになると、 90 日間の猶予期間が与えられ、システムは引き続き表示されます。その後、Digital Advisorでシステムを検索したり表示したりすることはできません。
 
-. ユーザー名とパスワードを入力し、 * サインイン * をクリックします。
+. ユーザー名とパスワードを入力し、*サインイン*を選択してください。
 

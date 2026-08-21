@@ -2,15 +2,10 @@
 <blocks>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">ダウンタイムとデータ損失の可能性を回避する方法について説明します。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
-  <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用性と保護ウィジェット</block>
-  <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">[* 可用性と保護 * （ Availability &amp; Protection ） ] ウィジェットで、 [ * アクション * （ Actions * ） ] をクリックし<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e91f704233072d4cd24a403d5175cfc" category="paragraph">影響の大きいセキュリティリスクについては、ディスクファームウェアの更新が推奨される対処方法に従ってください。</block>
   <block id="586072113125e441fad32377fb3b55fc" category="inline-image-macro">リスクの概要</block>
-  <block id="36ae45e0f51d582bd7ecffce242361dd" category="list-text">リスクサマリを表示するには、リスク名 * リンクをクリックします。<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57b854162d6caadf0053934ab77436cd" category="inline-image-macro">対処方法</block>
-  <block id="194764f556fc1cef4cadf0744c5dc483" category="list-text">[*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">AFF および FAS ファームウェア</block>
-  <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">* Ansible 「 A 」 * アイコンをクリックして、スクリプトを生成およびダウンロードします。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">インベントリファイルの操作に関する情報を提供します。</block>
   <block id="d9d85047436d37abb6c5c8deca6fe036" category="paragraph">インベントリファイルは、ファームウェア更新の対象となるシステムのクラスタ管理 LIF で構成されています。このリストには、ディスクとシェルフファームウェアのファイル名情報が該当する場合に表示されます。</block>
   <block id="d6c78c605ec5b1cf9ed3237663470e46" category="paragraph">サービスプロセッサファームウェアの更新の場合、インベントリファイルにノードのホスト名と SP / BMC IP が記録されます。</block>
@@ -43,7 +38,6 @@
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">次のビデオで、健全性の属性の重要性を確認できます。</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">ストレージシステムのソフトウェアとハードウェアを更新するための情報を提供します。</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">必要に応じて、追加のコメントを入力します。</block>
-  <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">[ 送信（ Send ） ] をクリックします。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
   <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">テクニカル以外のケース</block>
   <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*非技術的なケースとは？*</block>
@@ -57,12 +51,10 @@
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">こちらをご覧ください</block>
   <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">[ フィードバックカテゴリ *] ドロップダウンリストから適切なカテゴリを選択します。</block>
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">必要な詳細情報を入力し、 [Comments] ボックスに追加情報を入力します。</block>
-  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">[Submit （送信） ] をクリックします。</block>
   <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">ケースが作成され、リファレンスのケース番号が提供されます。</block>
   <block id="ac028435b37412dea24f9b1040cc0dc4" category="paragraph">フィードバックや質問をするには、 mailto ： ng-activeiq-feedback@netapp.com [[[.underline] #ng-activeiq-feedback@netapp.com まで E メールを送信してください。</block>
   <block id="fd18465573ec21a6218982055981f6b1" category="section-title">ストレージ効率</block>
   <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">右上の検索ボックスで、お客様、サイト、グループ、クラスタ、またはノードを検索して対応するダッシュボードにアクセスします。</block>
-  <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">左側のナビゲーションから * Storage Efficiency * をクリックします。</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">監視リストを使用して作成されたダッシュボードは Storage Efficiency ウィジェットに表示されません。</block>
   <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">重複排除</block>
   <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">圧縮</block>
@@ -139,24 +131,15 @@
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">こちらをご覧ください。</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">システムの容量の詳細および Storage Efficiency による削減効果を表示して、適切な処理を実行できます。容量とストレージ効率の情報は、クラスタレベルまたはノードレベルで表示できます。</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">この機能は E シリーズシステムではサポートされません。</block>
-  <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">左側のペインで、 * 容量と効率 * をクリックします。</block>
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">デフォルトでは、 * 容量 * タブが選択されています。</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">クラスタレベルおよびノードレベルで容量の詳細を表示します。</block>
   <block id="be131fcebf48482dd72ea96add51f0e0" category="list-text">ノードレベルの容量予測を表示します。</block>
   <block id="c08f4fce6d9fc3b55b586bec7ed0c778" category="paragraph">ONTAP システムについては、 Cluster Viewer で物理容量に関する情報を確認できます。</block>
-  <block id="03c660c2768c96f05e2acdb21cf61ebb" category="list-text">容量の追加 * をクリックして、ネットアップまたはパートナーに容量を追加する通知を送信します。</block>
   <block id="6d01d6a00b896623fe1252dcd728f7d4" category="list-text">ストレージシステムの Storage Efficiency およびデータ削減量を表示します。</block>
-  <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率を上回る場合は、「 * ユーザ事例を共有」をクリックして、実施したベストプラクティスをお知らせください。</block>
-  <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">ストレージシステムのストレージ容量削減比率が平均ストレージ容量削減比率より低い場合は、「 * お問い合わせ * 」をクリックして、ストレージシステムの構成をお知らせください。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">表示されたリスクについては、影響レベルを確認し、推奨される対処方法に従います。</block>
-  <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">[Unique Rises] タブをクリックし、 [*Corrective Action] 列にリンクします。</block>
-  <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">[ 影響を受けるシステム ] タブをクリックして、リスクのあるシステムを表示します。</block>
-  <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">システムを保護するために推奨される修正措置を実行します。</block>
   <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">構成ドリフトテンプレートを比較するための情報を提供します。</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">システム構成とクラスタ構成を比較して、設定の違いをほぼリアルタイムで検出できます。</block>
-  <block id="610f90ca909a7ffba0cca7c8587ce0c7" category="list-text">左側のペインで、 [Config Drift *] をクリックします。</block>
-  <block id="3d768fbe606a71f8b806879ad00eba22" category="list-text">既存のテンプレートのいずれかを選択するか、 * テンプレートの追加 * をクリックして新しいテンプレートを追加します。</block>
   <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">構成ドリフトレポートを生成します</block>
   <block id="94d8a7699e6d9a94b8c7f9284a38e5c3" category="paragraph">レポートはすぐに生成することも、週単位または月単位で生成するようにスケジュール設定することもできます。</block>
   <block id="8037e16862d84c161a0376bf3349c34f" category="cell">すぐにレポートを生成するには、次の手順を</block>
@@ -166,7 +149,6 @@
   <block id="e5a357b5d9e14c026e56b048d8d30481" category="inline-link-macro">設定ドリフトレポートをダウンロードして表示します</block>
   <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>。</block>
   <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">設定のドリフトレポートの一部として含まれる Ansible Playbook を実行し、ドリフトを軽減してください。</block>
-  <block id="3d238a330bc38f038dc62d179d5a04fb" category="list-text">[ レポートのスケジュール * ] タブをクリックします。</block>
   <block id="0462e15ed17cd7dc971f1fa1cb455fff" category="list-text">レポートの頻度を選択します。</block>
   <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">レポートの開始日と終了日を選択します。</block>
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">選択したシステム間の設定の偏差の詳細が記載された E メールが送信されます。</block>
@@ -174,27 +156,19 @@
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">健全性チェックのスコアに基づいて、長期的な計画に備えて、ストレージシステムを推奨されるネットアップのベストプラクティスに合わせて調整することができます。ソフトウェアとハードウェアで実行されているすべてのシステムを、一元化されたユーザインターフェイスで監視できます。ヘルスチェックのスコアを使用すると、システムリスクに関する情報をすばやく取得できます。主な推奨事項とベストプラクティスは、インストールベースの健常性を改善するための対処方法です。</block>
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">サブスクリプションを有効にしたら、サブスクリプションを追加するときに開始日を選択する必要があります。月ごとの E メールサマリーには、健全性、更新、アップグレード、健全性チェックの未処理のアクションが表示されます。確認用 E メールアドレスを入力すると、指定した E メールアドレスに E メールが送信されます。サブスクリプションを削除することもできます。</block>
   <block id="758be7d229b841d1130a3c7c210ffbdf" category="admonition">この機能を使用できるのは、ネットアップの SupportEdge Advisor と SupportEdge Expert のサービスが提供している場合のみです。</block>
-  <block id="e7b254db09865dd430cfc8b7b0677352" category="list-text">左側のペインで、 *Wellness Review* をクリックします。</block>
-  <block id="2e732ac605c2ed9156bbd850efb40083" category="list-text">[ サブスクリプションの追加 ] をクリックします。</block>
   <block id="5fc44cddfe7ebd9f1c1db179221f47cf" category="list-text">[ 新規サブスクリプションの追加 ] ダイアログボックスの [ 名前 ] 、 [ カテゴリ * の選択 ] 、 [ 顧客の検索 ] 、および [ 電子メール * ] フィールドに必要な情報を入力します。</block>
-  <block id="85bb97cf1fc6a37ea1a5e97e0e2e1a8b" category="list-text">[*Subscribe*] をクリックします</block>
   <block id="59986442c027a30a72ff51fcf5ad3c9b" category="paragraph">サブスクリプションが成功すると、「サブスクリプションが追加されました」というメッセージが表示されます。</block>
   <block id="e0f076d59e2092bdbab66e81920ec8bf" category="summary">レポートを生成するための情報を提供します。</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">レポートを生成します</block>
   <block id="c18954481ec7b1ca7731f10fe88f17e0" category="paragraph">すぐにレポートを生成することも、週単位または月単位でレポートを生成するようにスケジュール設定することもできます。レポートは、さまざまな形式で生成できます。選択したレポートに基づいて、使用可能な形式が表示されます。</block>
   <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">* このタスクについて *</block>
-  <block id="b9078cbffeaf57a288d7d58d7ed02317" category="list-text">左側のペインで、 *Reports* をクリックします。</block>
-  <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">[ レポートの作成（ Create Report ） ] をクリックして、新しいレポートを生成する。</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">レポートのタイプを選択し、必要な値を入力します。</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">レポートの形式を選択します。</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">新しいレポートが生成されると、既存のスケジュール済みレポートが置き換えられます。</block>
   <block id="6d70d8473310213564444d3b9fe477dd" category="summary">停止を回避するためにボリュームがフルにならないようにする方法について説明します。</block>
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">設定ウィジェット</block>
-  <block id="60436722270a4533c09cb8939f672895" category="list-text">構成 * （ Configuration * ）ウィジェットで * アクション * （ Actions * ）をクリックします。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">[* Unique Rises] タブをクリックします。対処方法 * リンクをクリックすると、警告しきい値を変更したり、ボリュームにスペースを割り当てたりできます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1adfed22e84a753b83628708ada03eee" category="summary">構成ドリフトテンプレートを追加するための情報を提供します。</block>
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">システム構成とクラスタ構成を比較し、設定の差異をほぼリアルタイムで検出するために、テンプレートを追加する必要があります。設定のドリフトテンプレートは、 AutoSupport データを実行するシステムを使用して追加されます。</block>
-  <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">[ テンプレートの追加 ] をクリックします。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">必要な値を指定します。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">詳細をご確認ください</block>
@@ -336,9 +310,7 @@
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">* 計画ウィジェット： *</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">* グリッドダッシュボード： * グリッドダッシュボードには、選択したグリッドに対する健全性、計画、設定の詳細が表示されます。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">* 構成ウィジェット： * ウィジェットで選択した StorageGRID の基本的な詳細情報を表示します。これには、グリッド名、ホスト名、シリアル番号、モデル、 OS バージョン、お客様名、配送先、連絡先情報などが含まれます。</block>
-  <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* グリッドビューア： * 環境設定 * ウィジェットから * グリッドビューア * リンクをクリックすると、グリッド設定を詳細に表示できます。構成 * ウィジェットから、選択した StorageGRID のサイトの詳細と容量の詳細をダウンロードするには、 * グリッドビューア * 画面で * ダウンロード * ボタンをクリックします。</block>
   <block id="8952273932d18fb81102eabf38cabbd1" category="list-text">* サイトの詳細： * このタブには、各サイトで使用可能なグリッドの概要とストレージノードが表示されます。</block>
-  <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* グリッドサマリ： * 基本情報が含まれます。たとえば、ライセンスタイプ、ライセンス容量、インストールされているノードの数、サポート期間（ライセンス契約終了日）、プライマリ管理ノード、プライマリ管理ノードのプライマリサイトなどです。このタブには、サイト名、および対応するサイトでタグ付けされているストレージノードの数も表示されます。このリリースでは、対応するサイトのストレージノードを表示するためのハイパーリンクをクリックすると、ノード名のリストが表示されます。</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">* Capacity Details タブ：グリッドに対して設定された Grid レベルとサイトの容量の詳細が表示されます。インストールされているストレージ容量、使用可能なストレージ容量、合計使用済みストレージ容量、データとメタデータに使用されている容量など、容量の詳細。これらの詳細は、グリッドレベルとサイトレベルの両方で確認できます。</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">FabricPool アドバイザー</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">クラウド対応ワークロード</block>
@@ -427,11 +399,7 @@
   <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">ストレージシステムに Ansible をインストールしてセットアップします</block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">ストレージシステムに Ansible 2.9 とコレクションをインストールします</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">管理者ロールを持つアカウントを設定します</block>
-  <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">ダッシュボードでいずれかの健全性ウィジェットをクリックするか、 * すべての操作の表示 * をクリックして、すべての操作とリスクのリストを表示します。</block>
-  <block id="cd6050a6bccf4f0492eade7e0a8b22b4" category="list-text">[* ファームウェアアップグレード * ] をクリックして、すべてのファームウェアアップグレードのリスクを表示します。</block>
   <block id="1aff53cee8a7c38fb4ee3ddb6173f4e7" category="inline-image-macro">Ansible を更新します</block>
-  <block id="47629e856a7468c3fb4d1e1a69e972fe" category="list-text">アップデート AFF と FAS ファームウェア * をクリックして、利用可能なすべてを表示します パッケージを更新するか、をクリックします <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> をクリックして、そのリスクに固有のパッケージを更新します。</block>
-  <block id="93a006c876b6eaa096cc468c6c5701c3" category="list-text">ZIP ファイルをダウンロードしてストレージ・システムを更新するには、 * Download * をクリックします。</block>
   <block id="595cff17c33a5e83b1c88ca7a48f0cfd" category="paragraph">zip ファイルには次のものが含まれています。</block>
   <block id="25768194d367c4c25b7836beb6ba6a75" category="list-text">Ansible Playbook - ディスク、シェルフ、サービスプロセッサのファームウェア更新を実行するための Ansible スクリプトを含む YAML ファイルです。</block>
   <block id="ccc4f365b19456825f9b83309e5739f9" category="list-text">Inventory - ファームウェアの更新に適用可能なシステムの詳細を含む YAML ファイル。</block>
@@ -439,22 +407,13 @@
   <block id="3c31ca2c59ebd12781d8a3ccae41f4f7" category="admonition">インベントリファイルへのクラスタとコントローラの手動追加はサポートされていません。</block>
   <block id="e02babead98c40fa29fb8fc1d8fdc331" category="summary">ストレージシステムの健全性を確認および分析し、リスクを承認するための情報を提供します。</block>
   <block id="271d577ec8f32c51ee101c1c091a870f" category="paragraph">ストレージシステムの健全性属性を分析するには、関連する操作とリスクを表示します。対処方法を確認し、リスクを手動で軽減する必要があります。</block>
-  <block id="c8c26be9319b332a2b6294dcfb6585b6" category="list-text">ダッシュボードで健全性属性ウィジェットをクリックするか、 * すべての操作の表示 * をクリックして、すべてのアクションとリスクのリストを表示します。</block>
   <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">健全性属性に関連付けられている * アクション * と * リスク * を表示します。</block>
-  <block id="fc9f98aa0c178e3deb4bbfb52980b9ee" category="list-text">アクション * をクリックしてアクションに関連するリスクを表示するか、 * リスク * をクリックしてすべてのリスクを表示するか、 * 影響を受けるシステム * をクリックして注意が必要なシステムを表示します。</block>
-  <block id="2c60e29192926ea042adbfd8b4ef0fbd" category="list-text">リスクをクリックすると、リスクの概要が表示されます。</block>
-  <block id="c6f1cb771fe8d368c81ecb4ae31f7c66" category="list-text">リスクを承認するには、 [* Ack] をクリックします。</block>
   <block id="747d136ecce6fb802da86b65cb0bad59" category="paragraph">リスクの詳細な概要情報と、リスクを軽減するために手動で実行する必要がある対処方法が表示されます。</block>
-  <block id="712521b43d0b848d99bf5f898ee9c033" category="list-text">現在リスクを軽減したくない場合、または緩和できない場合は、フィールドに値を入力して、 [* Acknowledge * （確認） ] をクリックします。</block>
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">リスクは承認済みのリスクに追加されます。</block>
-  <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">リスクを承認する必要がなくなった場合は、 * Un-Ack * をクリックして同じ手順に従うことで、リスクを無視してかまいません。</block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">パフォーマンスに関する情報を提供します。</block>
   <block id="665087aa09840ccfb70bca045f36d8db" category="paragraph">パフォーマンスグラフを使用して、ストレージデバイスのパフォーマンスを分析できます。ONTAP クラスタまたは ONTAP クラスタ / E シリーズコントローラの複数のノードについて、詳細なパフォーマンスグラフを表示できます。これらのグラフには、パフォーマンスの傾向やパターンの分析を理解するために使用できる履歴パフォーマンスデータが表示されます。カレンダーから日付を選択すると、 1 日、 1 週間、 1 カ月、 2 カ月、 12 カ月のパフォーマンスグラフを表示できます。複数のノードを選択すると、特定のグラフを同時に表示できます。</block>
   <block id="be879ac697bce0956116e49ae0638f3d" category="paragraph">プリファレンスを設定できます。たとえば、 3 つのノードの場合は 1 つのグラフ、 3 つのノードの場合は 2 つのグラフのいずれかを表示できます。</block>
-  <block id="076450bd5493fb3f2b96a170a0dd6c27" category="paragraph">グラフが最初に表示されるときは、 1 週間分のタブが事前に選択され、グラフ形式で 1 週間分のデータが表示されます。これにより、大量のデータと、さまざまな系列のデータ間の関係を簡単に把握できます。たとえば、日付範囲をリセットする場合は、 [ 1 か月 ] タブをクリックし、カレンダーで日付を選択します。</block>
   <block id="ad3bed6f42a6ad4a8833910809d6869a" category="paragraph">また、パフォーマンスグラフを拡大表示するオプションもあり、個々のデータポイントが表示されます。</block>
-  <block id="6c21725c2fee517428d56fd28be8dce6" category="list-text">ダッシュボードで、 * パフォーマンス * をクリックします。</block>
-  <block id="5d92b2431ee288652fa8215751a358ff" category="paragraph">ONTAP システムでは、ノード * タブをクリックして ONTAP クラスタの 1 つのノードのパフォーマンスを表示したり、ローカル階層 * タブをクリックしてローカル階層のパフォーマンスを表示したり、ボリューム * タブをクリックしてボリュームのパフォーマンスを表示したりできます。デフォルトでは、クラスタのパフォーマンスが表示されます。</block>
   <block id="6fe197718e793119bb42e7711e87af78" category="paragraph">E シリーズシステムの場合、コントローラレベルのグラフしか表示できません。</block>
   <block id="0903dad68c16a638b10bd1ddb1e0174c" category="list-text">1 日、 1 週間、 1 カ月、 2 カ月、または 12 カ月のいずれかを選択します。 カレンダーで、パフォーマンスデータをグラフ形式で表示します。</block>
   <block id="7f563b85c5584569a5e770f9c808574e" category="paragraph">たとえば、 2 カ月間のデータを表示するには、 2 カ月間のタブを選択します。これにより、パフォーマンス要件に基づいて期間内の特定のデータを表示できます。</block>
@@ -475,30 +434,21 @@
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">スループット</block>
   <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">システムリスクと、健全性履歴の表示方法に関する情報を提供します。</block>
   <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">これらのリスクは、「 * 未解決 * 」、「新規 * 」、「解決済み * 」、「承認済み * 」の 4 種類のリスクに分類されます。これらは異なる色で表されます。これらのリスクの概要は、リスク履歴 * グラフで表されます。</block>
-  <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">ダッシュボードの * Wellness * ペインで、 * View All Actions * をクリックします。</block>
-  <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">[*Wellness History] をクリックします。</block>
-  <block id="a0131598041c59b5aec9b6bdcb8a9431" category="list-text">リスク履歴 * グラフで、リスク履歴を表示するカテゴリをクリックします。</block>
-  <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">色付きのバーの上にカーソルを置くと、各カテゴリのリスクの数に関する情報が表示されます。それぞれのリスクカテゴリをクリックすると、情報がリスク情報 * テーブルに表示されます。</block>
   <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">Excel シートにリスクの概要をダウンロードすることもできます。</block>
-  <block id="1dce4feb01121addbdaf71931c469035" category="list-text">ユーザー名とパスワードを入力し、 * サインイン * をクリックします。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">ダッシュボードに監視リストを追加するための情報を提供します。</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">監視リストを作成します</block>
-  <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">左側のペインで、「 * Watchlists * 」をクリックします</block>
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">[ 監視リストを管理 ] 画面が表示されます。</block>
-  <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">監視リストを作成 * をクリックします。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">監視リストの名前を指定します。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">監視リストダッシュボードが表示されます。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">ダッシュボード、ヘルススコア、機能、ウィジェットに関する情報を提供します。</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">このダッシュボードでは、次のウィジェットを使用してインストールベースの概要を一目で把握できます。</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">* 推奨構成 * ： * 推奨構成 * ウィジェットに従って、準拠および非準拠のシステムを表示します。これは、システムがインストールベース全体にわたって適切に構成されていることを確認するためのアクションを実行するのに役立ちます。ダッシュボードに表示されたスコアを確認し、優先度順に提示された主要な推奨事項に基づいて操作を実行できます。</block>
   <block id="e94ebb58e29dcb4765fa5c479c8e07d7" category="list-text">* 推奨ソフトウェア *: すべてのソフトウェアおよびファームウェアのアップグレードおよび通貨に関する推奨事項の統合リストを表示します。AutoSupport が有効になっており、ソフトウェアまたはファームウェアのバージョンが最小か最新であるシステムを表示できます。</block>
-  <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">* サポートおよびエンタイトルメント * ：有効期限が切れているサポート契約と、 6 ～ 12 か月以内に有効期限が切れているサポート契約が表示されます。サポート終了プラットフォーム、ディスク、シェルフ、使用権のコンプライアンス、有効期限が未設定のものが表示されます。 また、プラットフォームとハードウェアのサポート終了は適用されません。ダッシュボードに表示された健全性チェックのスコアを確認し、重要な推奨事項に基づいて処理を実行できます。これらの処理は優先度の高い順に行われます。サポート契約に関する詳細情報を表示するには、 * サポートおよびエンタイトルメント * ウィジェットをクリックします。このウィジェットを使用してサポート契約を更新することもできます。</block>
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">* ベストプラクティス * ：パフォーマンスと効率性、可用性と保護、容量、構成、セキュリティの脆弱性など、ストレージシステムのベストプラクティス属性を評価することにより、健全性チェックのスコアを表示します。ネットアップのベストプラクティスはシステムヘルスの維持に役立ちます。これにより、インストールベースのパフォーマンスが最適化されます。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp Support Site</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">API サービス機能の概要を示します。</block>
   <block id="272eb6d717938719a6643dde54a455f1" category="section-title">API カタログ</block>
   <block id="609b94093c96779bd697e437a237dada" category="paragraph">ページ上部の切り替えボタンを使用すると、 2 つのモードを切り替えてカタログを表示できます。コードビューでは、必要な入力パラメータ、戻りデータの内容と形式、およびコードサンプルに焦点を当てて、ユーザがコードを適切に設定し始めるようにします。Experiment ビューでは、メインの API Services ページから取得した生成されたトークンを使用して、ブラウザで API を「試してみる」ことができます。</block>
-  <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">どちらのビューでも、左側のナビゲーションペインを使用して、使用可能な項目を参照できます。項目はサービスごとにアルファベット順に分類されています。特定のサービス内で、見出しを展開すると個々の API エンドポイントが表示されます。サービスヘッダーまたは API エンドポイントをクリックすると、中央のペインにあるカタログの該当するセクションに移動します。</block>
   <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">API を使用する</block>
   <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">認証され、トークンを生成できるようになったら、トークンを利用して、プログラムによるクエリを作成したり、データを取得したりできます。API カタログ内から API をテストして、クエリの仕組みと返されるデータのタイプを一元的に確認することもできます。これは、システムでコードフレームワークを構築する前に、 API がどのように機能するかを理解するのに役立ちます。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
@@ -522,10 +472,6 @@
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">監視リストを管理するための情報を提供します。</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">監視リストを管理します</block>
   <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">別の監視リストのダッシュボードを表示したり、既存の監視リストの詳細を編集したり、監視リストを削除したりできます。</block>
-  <block id="ec42a36485bf0b7690ac95ac39ea08f3" category="list-text">左側のペインで、「 * Watchlists * 」をクリックします。</block>
-  <block id="c533a451e2ebd63cf7629e613a0e5483" category="list-text">監視リストの名前をクリックすると、監視リストのダッシュボードの詳細が表示されます。</block>
-  <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">「 * 編集 * 」をクリックして、監視リストの詳細を更新します。</block>
-  <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">[ 削除 *] をクリックして、ウォッチリストを削除します。</block>
   <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">に、このリリースの制限事項を示します。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">既知の制限</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください</block>
@@ -538,18 +484,12 @@
   <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">共有テンプレートへのアクセスは、いつでも無効にできます。</block>
   <block id="604e4b03afa73e998c83987a965bf62f" category="list-text">共有ユーザーは、いつでもアカウントからこのテンプレートを削除できます。</block>
   <block id="d329fd777726c300d7a044e482b967e7" category="inline-image-macro">クローン</block>
-  <block id="6f2f86dbd151feaab096b96a9b0c37eb" category="list-text">をクリックします <block ref="3b55c23dfb4079e2af5dd3be6ef65a9e" category="inline-image-macro-rx" type="image"></block> テンプレートのコピーを作成します。</block>
   <block id="85e47ac07ac9d6416168a97e33fa969a" category="inline-image-macro">共有</block>
-  <block id="30486c4de149468d64f86f131cbfba0a" category="list-text">をクリックします <block ref="e99ba43207c50943c58f4200e8020746" category="inline-image-macro-rx" type="image"></block> テンプレートを共有するユーザ名を入力します。</block>
   <block id="595120ebe2be774fab22543291877b24" category="admonition">ユーザ名ではなくユーザの E メールアドレスを入力した場合、テンプレートは共有されません。</block>
   <block id="de95b43bceeb4b998aed4aed5cef1ae7" category="inline-image-macro">編集</block>
-  <block id="0865a774e1174481df7273cee252f86b" category="list-text">をクリックします <block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block> テンプレートの詳細を更新します。</block>
   <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">削除</block>
-  <block id="a9345dca2427f7f88c526df2640684ed" category="list-text">をクリックします <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> テンプレートを削除します。</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">貴重なインサイトウィジェットに関する情報を提供します。</block>
   <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">「有益な分析情報 * 」ウィジェットには、サポートケースの数、保留中のソフトウェアアップグレード、ストレージ効率化による削減効果、軽減されたリスクなどに関する情報が表示されます。また、 [*Wellness *] 属性からのリスク通知も積極的に一覧表示します。</block>
-  <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">[* インベントリ（ * Inventory ） ] ウィジェットで、 [* システム * （ * Systems * ） ] をクリックしてすべてのプラットフォームのシステム情報を表示するか、プラットフォームタイプをクリックし、 [ * システム * （ * Systems * ） ] をクリックして、そのプラットフォームに固有のシステムを表示します。</block>
-  <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">ノードまたはクラスタをクリックすると、システムに関する詳細情報が表示されます。</block>
   <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">「有益なインサイト * 」ウィジェットはダッシュボードで確認できます。</block>
   <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">ウィジェットの情報を確認し、サポート契約で得られるビジネス上の価値と技術的な価値を把握します。</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">システムの容量を拡張するための情報を提供します。</block>
@@ -629,8 +569,6 @@
   <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">ONTAP のSaaS監視が簡易化されました</block>
   <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">VMwareのフルスタック監視機能を可視化</block>
   <block id="c1541ad2124531ef89e365336511a23e" category="list-text">相互運用性チェックを自動化し、ONTAP のアップグレード計画を支援することで、お客様の生産性を向上できます。これにより、ONTAP のアップグレードがスムーズになり、ホストとの互換性に問題が生じるリスクが軽減されます。</block>
-  <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">[仮想マシンの概要*]タブをクリックします。</block>
-  <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">[ESXホストの数]をクリックして、ホストに関する情報を表示します。</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">に、設定ドリフト機能の概要を示します</block>
   <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">Config Drift 機能は、システムテンプレートを「ゴールデン」またはベースシステムテンプレートと比較することで、設定の差異を特定します。毎週または毎月のドリフトレポートをスケジュールしたり、オンデマンドで生成したりできます。設定のドリフトレポートに含まれる Ansible プレイブックを使用して、一部の差異を軽減できます。</block>
   <block id="00c936ae5068ea9685cb242934d6e619" category="paragraph">この機能は、 Advisor と Expert Support 契約を結んでいるシステムでのみ使用できます。</block>
@@ -642,22 +580,12 @@
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">また、カードに適用される色についても注意する必要があります。色は、リスクの重大度とタイプを示します。</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">システムのサポート契約を更新する方法について説明します。</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">ダッシュボードでは、アクティブなすべてのサポート契約のスコアと概要を確認できます。優先度順に提示された主要な推奨事項に基づいて処理を実行できます。</block>
-  <block id="4dc41be6abef4ee242883df1a57fb262" category="list-text">ヘルスチェックダッシュボードで、 * サポートおよびエンタイトルメント * ウィジェットをクリックします。</block>
-  <block id="195a1e51a63db10df6d13350df648daf" category="list-text">ご使用のシステムサポート契約のいずれかが期限切れになっているか、または有効期限が近づいている場合は、 * Active Support Contracts * ウィジェットをクリックします。</block>
-  <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">選択したシステムの更新プロセスを開始するには、チェックボックスをオンにし、 * 更新 * をクリックします。</block>
   <block id="79e58a59d5d9e700b34093a1d2e53ffb" category="summary">Unified Manager を使用して自動的に修正できるリスクを表示するための情報を提供します。</block>
   <block id="45eee928d91988f1092c821e200e91e7" category="paragraph">アクションやリスクを確認することでストレージシステムを分析し、 Active IQ Unified Manager や Ansible Playbook を使用して軽減できます。</block>
-  <block id="da48e8a594a1d177bf4a0a523841c6bb" category="list-text">ダッシュボードで * すべてのアクションを表示 * をクリックします。</block>
   <block id="a07983e266ae35893ec0d3fb2fbe58ad" category="inline-image-macro">スパナー</block>
   <block id="3dd705058f6fd7884922146ffb1b552a" category="paragraph">Active IQ Unified Manager を使用してリスクを軽減できる場合は、を参照してください <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> アイコンが強調表示され、 Ansible プレイブックを使用してリスクを軽減できる場合は、を参照してください <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> アイコンが強調表示されます。</block>
   <block id="9be4ecab9993242061ef9bd0e3582d94" category="cell">リスクを軽減するには、 Unified Manager を使用します</block>
   <block id="a877d704a3d55f5485ebeade7e3d7202" category="cell">Ansible Playbook を使用すれば、リスクを軽減できます</block>
-  <block id="7fcc42d3ab47d6970d0745fc70a10ae3" category="list-text">をクリックします <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
-  <block id="f54fc4e92c7c9524bc86ce760eeac730" category="list-text">[* Fix it* （修正） ] をクリックして Active IQ Unified Manager を起動します。</block>
-  <block id="4b1c75d59fccd48f1c20cdbf5faf3645" category="list-text">Active IQ Unified Manager 9.7 以降をインストールするには、 * Install * をクリックして * Fix it * オプションを使用します。</block>
-  <block id="55065a8829503555cfbba421bd638a00" category="list-text">Active IQ Unified Manager 9.7 以降にアップグレードするには、 * アップグレード * をクリックして、 * 修正 * オプションを使用します。</block>
-  <block id="d159511cf27ee3a3fa24f2d31ff80434" category="list-text">をクリックします <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
-  <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">Download * をクリックして、 AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。</block>
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">「 Fix it 」オプションと Ansible Playbook 機能を使用するには、 SupportEdge Advisor または SupportEdge Expert の契約が必要です。</block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Web サーバを使用してファームウェアファイルをホストする方法について説明します。</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">自動化パッケージをダウンロードしたら、ファームウェアファイルを Web サーバでホストする必要があります。</block>
@@ -668,28 +596,20 @@
   <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">サポートサービスのアップグレードに関する情報を提供します。</block>
   <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">現在のサポートサービスをアップグレードして、推奨されるプラクティスと修正、 Ansible プレイブックによるアップグレードの自動化、実用的なレポートとレビュー、カスタマイズされたサポートなどによって、インストールベースを最適化できます。アップグレードは、サポート契約を更新したとき、またはシステム（ノード）ダッシュボードから他のタイミングで購入できます。</block>
   <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">AIQ のアップグレードは、現在 SupportEdge Premium または SupportEdge セキュアのサポートサービスを使用している場合にのみ選択できます。</block>
-  <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">[* Inventory * （インベントリ * ） ] ウィジェットの横にある [* View All Systems （すべてのシステムを表示） ] をクリック</block>
   <block id="3d30fb3e89786aced41e8a9ad5e64a9b" category="list-text">インベントリダッシュボードで、アップグレードするノード（ホスト）を選択します。システムダッシュボードまたはノードダッシュボードにリダイレクトされます。</block>
-  <block id="6d622bcce07deb96f1d4cea2024b0766" category="list-text">構成 * （ Configuration * ）ウィジェットで * アップグレード * （ Upgrade * ）をクリックします。</block>
   <block id="bf08cd4c1bc33720a5485c666caed145" category="paragraph"><block ref="bf08cd4c1bc33720a5485c666caed145" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="632064723404f7a0755249b947a55c6a" category="list-text">必要に応じて、 * サポートサービスの比較 * をクリックして比較チャートを表示し、要件に合ったサポートサービスを選択します。または、左側のナビゲーションメニューの * サポートサービス * をクリックして、比較チャートを表示することもできます。</block>
   <block id="88650e3130d602eb873c6cec8aa1b43d" category="list-text">必要なアップグレードのタイプを選択します。</block>
   <block id="6b1e028800580e41be7e09af7233c6ea" category="list-text">SupportEdge Premium または SupportEdge セキュアサポートサービスに AIQ アップグレードを追加</block>
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">その他のアップグレード要求</block>
-  <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">自分が持っているコメントを追加し、 * 送信 * をクリックします。サポートサービスのアップグレードを購入するリクエストが、ネットアップの更新チームに送信されます。</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">ハッカーやランサムウェア攻撃に対する保護を強化する方法について説明します。</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">* 対象製品： ONTAP 9 （オンプレミスおよびクラウド）、 SANtricity OS コントローラソフトウェア、 NetApp SolidFire （ Element ソフトウェア）、 StorageGRID 、 Active IQ Unified Manager 、 ONTAP Tools for VMware （ OTV ）</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">セキュリティの脆弱性ウィジェット</block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">影響の大きいセキュリティリスクについては、推奨される対処方法に従ってオペレーティングシステムをアップグレードしてください。</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">対処方法の列</block>
-  <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">[*Unique Rises] タブをクリックし、 [*Corrective Action] 列のリンクをクリックします。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">［ 修正 ］ タブ</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">ONTAP 9.7P8 以降では、リスクが修正されています。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">ストレージシステムの健全性を確認および分析し、リスクを軽減するための情報を提供します。</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">ストレージシステムの健全性属性を分析するには、関連する操作とリスクを表示します。関連する対処方法を確認して、リスクを手動で軽減する必要があります。</block>
-  <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">ダッシュボードの * ウェルネス * ウィジェットをクリックするか、 * すべてのアクションを表示 * をクリックして、すべてのアクションとリスクのリストを表示します。</block>
-  <block id="4c1501034b347258e5d755cf7e7fb1a3" category="list-text">リスク名をクリックすると、リスクに関する情報が表示されます。</block>
-  <block id="f2681bd59cd373759d660366f9539908" category="list-text">関連する対処方法をクリックし、情報に従ってリスクを解決します。</block>
   <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">リスクを軽減する手順は、すべての健全性属性で同じです。次のビデオで、セキュリティ関連の問題を監視して修正できます。</block>
   <block id="181b78869ff3c2e1d0f13fbb85809980" category="summary">Docker イメージを使用して Ansible Playbook を実行する方法について説明します。</block>
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Ansible Playbook を実行する前に、 * NetApp_EAnsible _ ** * .zip * ファイルを展開し、ディスクまたはシェルフファームウェアファイルが保存されている Web サーバの準備が完了していることを確認してください。</block>
@@ -715,12 +635,8 @@
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">Cluster Viewer には、ノードのスタック図、ストレージの使用状況と効率、ハードウェア容量のヘッドルームなどの情報が表示され、十分な情報に基づいてクラスタやノードの健全性を改善することができます。</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">ノードの物理構成をケーブル、スタック、 RAID ディスクの各レベルで可視化したり、グラフィカルに表示したりできます。SVG 形式で視覚エフェクトをダウンロードすることもできます。</block>
   <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">* インベントリ * ウィジェットで、目的のクラスタまたはノード（ホスト）を選択します。</block>
-  <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">クラスタレベルまたはノードレベルで、 * Configuration * ウィジェットの横にある * ClusterViewer * をクリックします。</block>
-  <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">[* Visualization * ] タブをクリックすると、クラスタがグラフィカルに表示されます。</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">所有しているインベントリ全体に関する情報が表示されます。</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">選択した監視リストのレポートを生成し、レポートを最大 5 名の受信者に E メールで送信することもできます。</block>
-  <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">システムの詳細を .xls 形式で表示するには、 * Inventory * レポートをダウンロードします。</block>
-  <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">Ansible Inventory * レポートをダウンロードして、地域またはサイトレベルの .yml および .ini 形式でシステムの詳細を確認できます。</block>
   <block id="cf9a05044c598886b8421db3045b9edd" category="paragraph">Ansible のインベントリファイルは、カスタマイズされた Ansible Playbook ファイルと併用し、インフラ構成を変更することができます。</block>
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">十分な情報に基づいて決定を下すことができる推奨事項を提供します。</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">データ移行</block>
@@ -730,8 +646,6 @@
   <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">ボリューム内のワークロードは、Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、FileShare、仮想化、Trident</block>
   <block id="c1328ee3765b6fd9ea6ec610e680fd21" category="list-text">システムの使用年数が1年を超えています</block>
   <block id="a6d684c1e9500a6c9c813745e8e2c394" category="list-text">サポート契約は6カ月以内に終了します</block>
-  <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">左側のペインで、*クラウドの推奨事項*をクリックします。</block>
-  <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">[* Migration *（移行*）]ペインで任意のリンクをクリックします。</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="section-title">階層化</block>
   <block id="02c463794e84ded5d1c10c4e83bcc812" category="paragraph">アクセス頻度の低いローカル階層（アグリゲート）データ、アクセス頻度の低いボリュームデータ、階層化されたデータ、監視対象外のデータに関する情報が表示されます。コールドデータや非アクティブデータを監視して低コストのオブジェクトストレージ階層に階層化することで、ストレージの設置面積と関連コストを削減できます。</block>
   <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">Inactive Data Reporting （ IDR ）を有効にして、 Ansible Playbook ファイルを含む zip ファイルを生成することができます。この情報は、顧客、サイト、グループ、監視リスト、クラスタ、ノードの各レベルで確認できます。</block>
@@ -739,19 +653,16 @@
   <block id="c9386bad11bf78c9c46c82639aed3b42" category="list-text">ボリュームでNFS、SMB、またはCIFSプロトコルが使用されている必要があります</block>
   <block id="e59435b98864e38b0a5fd790ad3f9213" category="list-text">アクセス頻度の低いデータが50%を超えています</block>
   <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">アグリゲート容量が50%を超えています</block>
-  <block id="c052aa26952758956923ba904ca5f96a" category="list-text">「*階層化*」パネルのいずれかのリンクをクリックします。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">FabricPool のベストプラクティス</block>
   <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">バックアップとアーカイブ</block>
   <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">クラウドにバックアップするシステムに関する情報が表示されます。NetApp Cloud Backupを使用して、システムを保護し、必要に応じてリストアすることができます。</block>
   <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">クラウドへのバックアップには、次の基準を満たすボリュームが推奨されます。</block>
   <block id="58fd2779462a85717972aef01a3e851e" category="list-text">ソースボリュームとデスティネーションシステム、およびSnapVault バックアップを含むボリュームは除外されます。</block>
-  <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">[* Backup &amp; Archive]ペインで任意のリンクをクリックします。</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="section-title">レプリケーション</block>
   <block id="a1ca393b9475ac14fc86fe05bb65fa30" category="paragraph">災害発生時にクラウドにレプリケートする必要があるデータに関する情報を提供します。</block>
   <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">クラウドへのレプリケーションには、次の基準を満たすボリュームが推奨されます。</block>
   <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirrorソースボリュームは除外されます</block>
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirrorデスティネーションボリューム（ボリュームタイプLSおよびDP）は除外されます</block>
-  <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">[* Disaster Recovery]ペインで任意のリンクをクリックします。</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">ダッシュボード、監視リスト、機能、ウィジェットに関する情報を提供します。</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">サポートサービスをシステムダッシュボードの * 構成 * ウィジェットからアップグレードすると、インストールベースに関する情報を取得し、お客様に合わせたサポートを受けることができます。</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">ユーザが使用できるさまざまなタイプのレポートに関する情報が表示されます。</block>
@@ -872,7 +783,6 @@
   <block id="acf7d20d0268fb3265f641fbc7ac8d68" category="list-text">* インベントリウィジェット： * 所有している合計システムのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="ec20f764d25cf1eba2cf41562f1a4dc7" category="paragraph">AutoSupport 機能にアクセスするには、Digital Advisorにログインしてクラスタまたはホスト名を検索します。AutoSupport オプションは左側のペインで使用できます。</block>
   <block id="56f4dbda16e117456735f4152501a126" category="list-text">*クイックリンク：* Digital Advisorを使用して起動できるアプリケーションのリストが表示されます。</block>
-  <block id="c185e2d804ea74628fccd45ec760120b" category="paragraph">Digital Advisorにログインし、* Configuration *ウィジェットに赤いバッジが表示されます。ウィジェットをクリックするとボリュームの使用率が 98% に達し、原因が停止する可能性があることがわかります。この問題を修正するとボリュームがいっぱいになるのを回避できます。ボリュームが読み取り専用になり、アプリケーションがクラッシュして失敗する原因となります。</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Digital Advisorを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要、インベントリ、計画、アップグレード、重要な分析情報を監視リストレベルで確認できます。</block>
   <block id="4d7ba674630738cac5e8b1e2fed17854" category="paragraph">Digital Advisorの機能の一部を以下に示します。</block>
   <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">Digital Advisorのその他の機能にアクセスするには、サポートサービスへのアップグレードを購入することができます。</block>
@@ -934,7 +844,6 @@
   <block id="124737733adb9db94833bf1012498225" category="inline-image-macro">持続可能性スコアとグラフを示すスクリーンショット。</block>
   <block id="a2bc2df13c5a3762142955fb95ab0af5" category="paragraph"><block ref="a2bc2df13c5a3762142955fb95ab0af5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d934690f46f773b38d9c65526a88d2a1" category="inline-image-macro">編集可能なアイコンを示すスクリーンショット。</block>
-  <block id="88ff2e9a0a1bf07b4e3957199ef248f0" category="paragraph">*Carbon Mitigation Percentages *:各サイト/都市での炭素緩和のパーセンテージが表示されます。表示されるベースライン値は、所在地に基づいています。特定のサイトの炭素緩和率を調整するには、をクリックします <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> パーセント値の横にあるアイコンをクリックすると、それに応じて炭素数が自動的に調整されます。</block>
   <block id="707741d275e0975dc229329ccd426a07" category="inline-image-macro">展開ビューにアクションのリストを表示するスクリーンショット。</block>
   <block id="e9cdfc3ff6e77bfb8ec195d6362f98f9" category="list-text">複数の監視リストを表示し、実用的で有用な情報を一目で確認できます。</block>
   <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">ストレージシステムのすべてのリスクとリスクを軽減するためのアクションに関する分析情報を取得できます。</block>
@@ -958,9 +867,7 @@
   <block id="90542ff9ec5b690c4ff349a953987a9f" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp module show ^]を参照してください。</block>
   <block id="c45f42f02d2bf7bd92e0d26534723c80" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp show ^]を参照してください。</block>
   <block id="d2a56416e501bf47a267c5eb4f202014" category="paragraph">このコマンドの詳細については、｛link-with-underscores｝[storage shelf acp configure ^]を参照してください。</block>
-  <block id="f3ffec30d4e62fd6b4663ba215a643ed" category="list-text">をクリックします <block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block> NetApp Support Siteで「 Non-Technical Feedback Tool 」を開きます。</block>
   <block id="3e77ec7dcefb3407f7a4b7c4b8051d1e" category="list-text">のホームページを開きます <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block>。</block>
-  <block id="8dd3258635f25ed56f238af521960f2b" category="paragraph">その他の理由でシステムを表示できない場合、クエリを使用している場合、またはアクセスを要求したい場合は、 <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>。テクニカル以外のケースの詳細については、をクリックしてください <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
   <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>。</block>
   <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">Docker Pull コマンドの詳細については、を参照してください <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>。</block>
   <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">コンテナが起動し、コンソールがコンテナの bash シェルに移動します。Docker Run コマンドの詳細については、を参照してください <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>。</block>
@@ -997,20 +904,15 @@
   <block id="ad604077bec83942cadee9567a15375b" category="list-text">後で対処する場合は、* Later *を選択します。</block>
   <block id="316dd9caa4fca945eb485f1dcba3db1b" category="list-text">* Later *を選択すると、選択した推奨アクションが* Actions for Later *タブに移動します。選択したアクションは30日間延期されます。30日後、このアクションは*推奨アクション*タブに移動します。</block>
   <block id="17e537edb555d063fe1acab7ca85d6fc" category="inline-image-macro">[Consider]オプションを使用した推奨アクションを示すスクリーンショット。</block>
-  <block id="c24f9daf3a159dfaed4c11baee5cd023" category="list-text">また、延期されたアクションをいつでも確認でき、* Consider *をクリックして* Recommended actions *タブに移動することもできます。
- [+]
-<block ref="0dbc91ab2b9301aabf5d18bb049d2fe1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d9eb6188c87dc4ea4c5f5759e3d7455" category="list-text">Digital Advisorダッシュボードの左側のナビゲーションにある* storage health *カテゴリから* Sustainability *に移動します。</block>
   <block id="0a6f9f8fb46f33ae6cc9e9839b8bf516" category="list-text">選択した推奨アクションのビューが展開されます。下矢印を使用して、推奨される対処方法の表示を展開することもできます。展開ビューでは、* Fix *オプションを使用すると、クラスタ名、持続可能性スコア、およびそれに続く増加が表示されます。
   [+]
 <block ref="d1f34a9fa829d3045f1efbad48f775eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="53b68f8aebb769e06e32c1bf7f78512a" category="paragraph">次の手順に従って、特定のクラスタの持続可能性の向上に重点を置いたクラスタレベルの持続可能性スコアを向上させることができます。</block>
-  <block id="94c9c3d23e6440e42d8b6cd9db7e01f2" category="list-text">ターゲットクラスタの*[推奨される操作]*列で操作の数をクリックします。</block>
   <block id="946215be00757e3a0ed7e4125cca42f7" category="inline-image-macro">アクションの数を示すスクリーンショット。</block>
   <block id="8e64c52acfc791ae8fe6c3547d04e4ce" category="paragraph"><block ref="8e64c52acfc791ae8fe6c3547d04e4ce" category="inline-image-macro-rx" type="image"></block></block>
   <block id="577c43012aa48226531ac9439f4c1bf7" category="inline-image-macro">推奨される対処方法の詳細と修正後のオプションが表示されたスクリーンショット。</block>
   <block id="2395cbcb2989e9bb5fdcad6d1ccbb35b" category="paragraph"><block ref="2395cbcb2989e9bb5fdcad6d1ccbb35b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e70a12812942ad5ac5305a12880397a" category="list-text">また、延期されたアクションをいつでも確認でき、* Consider *をクリックして* Recommended actions *タブに移動することもできます。</block>
   <block id="37cd424fb4c31937df9970a13be3fe53" category="inline-image-macro">パラメータを追加または削除するためのプラスアイコン</block>
   <block id="c8861916e6eb4a06944b90bf8c5ab56a" category="inline-image-macro">パラメーターをエクスポートするためのダウンロードシンボル</block>
   <block id="df99fff5ad47295f7f49e20f556653f3" category="summary">エネルギー消費量を削減し、環境目標に向けた取り組みを可能にする持続可能性に関する情報を提供します。</block>
@@ -1082,7 +984,6 @@
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023年9月27日</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">デフォルトの監視リストの[Upgrade Advisor]ページには、 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> リンク</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">アップグレードプランを生成して確認する方法を確認する</block>
-  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">[Generate Upgrade Plan]*をクリックします。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">ストレージシステムの持続可能性を分析する</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023年10月4日</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">[Planning]ウィジェット</block>
@@ -1098,7 +999,6 @@
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">Sustainabilityダッシュボードには、全体的なSustainabilityスコアとクラスタレベルのSustainabilityスコアを改善するために実装できる推奨アクションが表示されます。</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">Sustainabilityダッシュボードについては、次のビデオをご覧ください。</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">持続可能性スコアを正確に計算するには、AutoSupportを有効にする必要があります。</block>
-  <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">ダッシュボードで、* Upgrade Advisor *ウィジェットでクラスタ数をクリックします。</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">クラスタの数を示すスクリーンショット。</block>
   <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">[Upgrade Advisor - ONTAP]*ページが表示されます。</block>
@@ -1124,40 +1024,19 @@
   <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">[Upgrade Advisor]がオンになっていることを示すスクリーンショット。</block>
   <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">アップグレードの対象となるクラスタと対象外のクラスタのリストを表示できます。</block>
-  <block id="b3264e5abfc7f8aa9cbe9bbf2bf2839e" category="list-text">アップグレードするクラスタを選択します。
-[ターゲットOSバージョン]列には、推奨されるターゲットOSバージョンが表示されます。をクリックできます <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。</block>
   <block id="c25dba4666d739afcf74fafca0e16ec1" category="inline-image-macro">ターゲットバージョンの選択方法を示す画像。</block>
   <block id="df54a2761f4e27e29bd65d8ac649e3a9" category="paragraph"><block ref="df54a2761f4e27e29bd65d8ac649e3a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="33934d5a93267aecc3bf0f2c43482311" category="list-text">[ノード]列のノード数をクリックすると、クラスタのノードの概要を確認できます。</block>
   <block id="d4586bd723aa7ed4cd56bae25e8c11c6" category="inline-image-macro">問題のタイプと、それを修正するために必要な解像度を示す画像。</block>
-  <block id="e56c89382384db93bf68a52b43fa244d" category="list-text">[推奨される対処方法]列の*[問題の解決]*をクリックすると、クラスタがアップグレードの対象にならない問題を修正できます。
- [+]
-<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6aa4c290298860f81a97d2d4eb92f157" category="list-text">[Generate Upgrade Plan]*をクリックします。
-アップグレードの推奨事項*ページにリダイレクトされます。</block>
   <block id="be3de2fbd923b98d3ddce6f87604687b" category="list-text">[アップグレードの推奨事項]ページの*[リスクアドバイザー]*タブで、クラスタに関連するリスクの詳細を確認できます。アップグレードブロッカー、アップグレードの警告、必要な操作は*[アップグレード前のチェック]*タブで確認できます。また、*[拡張および更新されたONTAP機能]*タブでは、選択したターゲットOSバージョンに関連する新機能と拡張機能に関する情報を確認できます。</block>
   <block id="3968a0cc76421e54bc6b6ab94ab3ef6d" category="inline-image-macro">アップグレードの推奨ページの全体的なビューを示すスクリーンショット。</block>
   <block id="8cb031ec78addd4251b0d98fadb1f16d" category="paragraph"><block ref="8cb031ec78addd4251b0d98fadb1f16d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7911af84e5893fc16119ebbbd79e0ddd" category="list-text">別のターゲットOSバージョンを選択して、リスクの概要、アップグレード前のチェックレポート、ターゲットOSバージョンに関連する新機能や拡張機能に関する情報を表示できます。</block>
   <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">[エクスポート]ボタン</block>
-  <block id="d0ff34d4ed0d434b63065177d69660b4" category="list-text">をクリックできます <block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、リスクサマリをExcelシートにエクスポートします。</block>
-  <block id="f4c01d8521810198d0aedeb1804292d2" category="list-text">[アップグレードの推奨事項]ページの*[アップグレードプランの生成]*をクリックします。</block>
   <block id="391ae857ef756e131304172e405792b4" category="inline-image-macro">アップグレードプランを生成するためのリクエストを送信するための詳細情報を入力するポップアップが表示されます。</block>
   <block id="224d1474fa987e54a2ac30c76ea2e21e" category="list-text">表示されたポップアップで詳細を指定します。
   [+]
 <block ref="b84846bb39db1b32d099a86ab30da18d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ed103c2a26bede51077e4be32d323609" category="list-text">[* 生成（ Generate ） ] をクリックする。
-[レポート]ページにリダイレクトされます。</block>
-  <block id="d33dd907f0f2e416c58ccfa29cd01d18" category="inline-image-macro">View Upgrade Advisorがクリックする位置を示すスクリーンショット。 </block>
-  <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">[View Upgrade Advisor Reports]*をクリックすると、*[Reports]*ページに移動できます。
- [+]
-<block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">アップグレードするクラスタを選択してください。
-[ターゲットOSバージョン]列には推奨されるターゲットOSバージョンが表示されます。 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして、クラスタの別のターゲットOSバージョンを選択します。</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9fe2ae1dc4e08b83a8b63d06803dd564" category="list-text">[推奨される対処方法]列の*[問題の解決]*をクリックすると、クラスタがアップグレードの対象にならない問題を修正できます。
- [+]
-<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b323017de005e05ca9af3f3a9807384d" category="list-text">表示されたポップアップで詳細を指定します。
   [+]
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
@@ -1192,8 +1071,6 @@
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">ネットアップコミュニティ–Digital Advisor</block>
   <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">*セキュリティとランサムウェア対策：*セキュリティの脆弱性、ランサムウェアの検出、防止、リカバリに関連するリスクと対処方法に関する情報を提供します。</block>
   <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">*持続可能性：*お客様、監視リスト、サイト、グループの各レベルでの持続可能性スコアを改善するために推奨されるアクションの数が表示されます。</block>
-  <block id="0235bcf89237278317e178c8c295ac74" category="list-text">[Security &amp; Ransomware Defense]ウィジェットの*[Actions]*をクリックします。
-<block ref="2fcb804d5a34085afa85e482ac09263f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="83dec637bc884dc4a2f4600da2ca5f4a" category="list-text">[Ransomware Defense]*チェックボックスをオフにします。</block>
   <block id="434c0382d376982e5be3c7cf351f2ee1" category="section-title">2024年3月15日</block>
   <block id="6dca4e9566164889a09a5302487f229a" category="list-text">WellnessワークフローのSecurity VulnerabilitiesウィジェットとRansomware Defenseウィジェットが1つのウィジェットに統合され、現在はSecurity &amp; Ransomware Defenseと呼ばれています。</block>
@@ -1201,7 +1078,6 @@
   <block id="15853c3ab7376c7041427b2140bbd504" category="paragraph">テクニカルケースのタイムラインが強化され、6カ月または12カ月間のケース履歴がすべて表示されるようになりました。</block>
   <block id="51832813a6cc95d32db002987711fdc7" category="paragraph">Keystoneサブスクリプション番号に基づいて監視リストを作成し、サブスクリプション番号または監視リスト名の最初の3文字を使用してKeystoneサブスクリプションを検索できるようになりました。</block>
   <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">Digital Advisorにログインすると、* Security &amp; Ransomware Defense *ウィジェットで強調表示された* Actions *が表示され、リスク数が示されます。</block>
-  <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">[Security &amp; Ransomware Defense]ウィジェットの*[Actions]*をクリックします。</block>
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">[セキュリティの脆弱性]チェックボックスをオフにします。</block>
   <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">単一のクラスタおよび複数のクラスタに対して、自動無停止アップグレードプランを生成できます。単一のクラスタのアップグレードの推奨事項を表示できます。これには、クラスタに関連するリスクのリスト、アップグレードのブロックと警告のリストを含むアップグレード前チェックレポート、新機能と拡張機能に関する情報が含まれます。複数のクラスタに対してはアップグレードの推奨事項は提供されません。詳細については、を参照してください <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
   <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024年3月28日</block>
@@ -1213,28 +1089,17 @@
   <block id="3a3fe5cea8eb171bc705034869baf974" category="paragraph">*テクニカルケースはいつ作成するのですか？*</block>
   <block id="34146078710488bcb88e2208ddabb74e" category="paragraph">テクニカルケースは、ハードウェアの停止、パフォーマンスの低下、データの問題、または技術情報の要求に関連する技術的な問題について、NetApp製品のサポートを求めるために作成されます。</block>
   <block id="8fa70b8a3fbd3112ebe49465f5e4f6f4" category="paragraph">*テクニカルケースを作成するにはどうすればよいですか？*</block>
-  <block id="74345213f8d76009dd92f861947ff81d" category="list-text">をクリックします <block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block> NetApp Support Siteを開きます。</block>
-  <block id="ab26c6ed73849626062a39e18c415af0" category="list-text">トップメニューの*[My Cases]*をクリックします。</block>
-  <block id="97026494f28ea8b85c28720a5dcc49ba" category="list-text">[ケースの作成]*をクリックします。</block>
-  <block id="2017e57b58cd03255505cd1386833eda" category="list-text">カテゴリを選択し、必要な詳細を入力して*[新規検索]*をクリックし、インベントリからシステムを検索します。</block>
   <block id="3a7cf8f60b6dbf828b28e59d650f69c7" category="list-text">表示されたシステムのリストから、ケースを作成するシステムを選択します。</block>
   <block id="d25803d7582f3b219af4a612ad2ec38a" category="list-text">新しいケースの優先度を選択します。</block>
   <block id="d58cf7db3887b590a8c6217f53660b52" category="list-text">[問題のカテゴリ]ドロップダウンリストから適切なカテゴリを選択します。</block>
-  <block id="5b2a1684bf941c030a190eeaca82ea46" category="list-text">Problem概要フィールドにProblem概要を入力し、* Proceed *をクリックします。</block>
   <block id="4f42268c65a397c8cddfe11341e788b6" category="list-text">問題の詳細を入力します。</block>
-  <block id="0d105b5d8aad07987a8fc6ca830c5c98" category="list-text">[ファイルの選択]*をクリックして、問題の診断に役立つファイルまたは画像をアップロードします。</block>
-  <block id="2f88e5cbd35ab951b0bce5a96b06bb36" category="list-text">[* Proceed] をクリックします。</block>
   <block id="dd270a8aa811a52ca44969147eaf4518" category="list-text">連絡先の詳細を入力します。</block>
-  <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">[ケースの作成]*をクリックします。</block>
   <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">*テクニカル以外のケースはいつ作成するのですか？*</block>
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">特定の機能にアクセスできない、またはDigital Advisorの機能に関するサポートが必要な場合</block>
   <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">容量が上限に達しているシステムをプロアクティブに特定し、ストレージシステムの容量拡張をリクエストします。</block>
   <block id="64c0215a49227967002da65613b613e8" category="paragraph">ONTAPの場合は、容量の90%を超えているシステム、または容量の90%を超える予定のシステムを1カ月、3カ月、6カ月のうちに表示できます。StorageGRIDの場合は、容量の70%を超えているシステム、または70%を超える予定のシステムを1カ月、3カ月、6カ月のうちに表示できます。</block>
   <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">デフォルトでは、容量の90%を超えているか容量の90%に近づいているONTAPシステムが表示されます。</block>
-  <block id="8774a5436b96ad3e78450845bce43111" category="list-text">StorageGRID *タブをクリックして、容量が70%を超えているか容量が70%に近づいているStorageGRIDシステムを表示します。</block>
   <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">容量を拡張するシステムを選択します。</block>
-  <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">[容量予測の表示]*をクリックすると、今後6カ月間の容量予測が表示されます。</block>
-  <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">[容量の追加を申請]*をクリックします。</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">必要に応じて、コメントを入力します。</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024年5月15日</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">持続可能性は、Cloud Volumes ONTAP、AFFシステム（AシリーズおよびCシリーズ）、Eシリーズ、FAS、およびStorageGRIDシステムでサポートされます。</block>
@@ -1274,15 +1139,10 @@
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">ファームウェア更新の推奨事項を表示</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">お客様は、Control Towerを使用してシステムを最新のファームウェアバージョンに自動的に更新できるため、時間と労力を節約できます。これにより、手動による操作やスケジュール設定が不要になります。このアップデートにより、古いファームウェアバージョンや互換性のないファームウェアバージョンが原因で問題が発生するリスクが軽減され、最適なシステムパフォーマンス、安定性、およびセキュリティが確保されます。</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">お客様は、ファームウェアアップデートのステータスに関するタイムリーな通知とアラートを受け取ることができます。また、AutoSupportおよび自動アップデート設定を有効にするオプションもあります。</block>
-  <block id="fe47ca91d8c9f313f60692015dd2b72c" category="list-text">ダッシュボードページで、* Upgrade Advisor *ウィジェットの* Other recommendations *をクリックします。</block>
-  <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">推奨事項のリストを表示するには、*推奨事項の表示*をクリックします。</block>
-  <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">[更新ステータス]*列で*[進捗状況を表示]*をクリックして、更新の対象となるクラスタを確認します。</block>
-  <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">問題が発生した場合は、それぞれのリンクをクリックして、問題を軽減する手順を表示します。</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupportウィジェットがダッシュボードのメイン画面に追加され、AutoSupportのステータス関連の問題についてお客様に通知されるようになりました。</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">クラスタ番号とシリアル番号ではAutoSupportウィジェットを使用できません</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupportウィジェットには、クラスタとシリアル番号の検索に関するアラートは表示されません。</block>
   <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">AutoSupportウィジェットでシリアルレベルのAutoSupportの詳細にドリルダウンできない</block>
-  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">AutoSupportの[Reporting]ページで、ステータス、最近送信を停止したシステム、AutoSupportがオフになっているシステムをクリックしても、[Health Check]画面には移動しません。</block>
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">[Inventory]ウィジェットではフィルタとソートは使用できません。</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">インベントリウィジェットでデータをフィルタしてソートすることはできません。[Filter by]ドロップダウンでONTAP AFF、ONTAP ASA、ONTAP Edge、またはONTAP Selectを選択しても、データは表示されません。</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024年12月4日</block>
@@ -1329,7 +1189,6 @@
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*インベントリ* ウィジェットには、所有するシステムの合計数とサポート対象のスイッチのロールアップが表示されます。これには、Digital Advisor対応製品と非対応製品の両方が含まれます。</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">サポート対象のスイッチの詳細を表示</block>
-  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">*インベントリ* ウィジェットで、*サポート対象スイッチ* をクリックすると、サポート対象スイッチすべてに関する情報が表示されます。</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">サポート対象のスイッチを表示する方法を学ぶ</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">ストレージ システムの環境の健全性に関する洞察を提供する環境指標は、高度な予測モデルに基づいて、予測される電力使用量、直接的な炭素使用量、および熱放出のより正確な値を提供するようになりました。詳細については、<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block> 。</block>
@@ -1363,7 +1222,6 @@
   <block id="07837f561e3ee48313730477a0ce7e0f" category="paragraph">持続可能性により、エネルギー消費を削減し、環境目標に向けて取り組むことが可能になります。これにより、ストレージ システムを環境に配慮した慣行に適合させ、持続可能性の目標を達成できるようになります。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="1ca03fcdf1edff8f13c5ab3d96f71ef4" category="paragraph">持続可能性は、E シリーズおよびStorageGRIDシステムでサポートされるようになりました。これらのシステムのサステナビリティ ダッシュボードから、電力、直接的な炭素使用量、熱の予測を表示する推奨アクションと環境指標のリストを表示できます。詳細については、<block ref="324fa1323a5d1b555b99e90b4dfa69b7" category="inline-link-macro-rx"></block> 。</block>
-  <block id="e0bce4b165696e8af8dc9f23db141bb9" category="list-text">Wellness ワークフローに、顧客、ウォッチリスト、サイト、およびグループ レベルで推奨されるアクションの数を提供する Sustainability ウィジェットが含まれるようになりました。アクションの数をクリックすると、サステナビリティ ダッシュボードでこれらの推奨アクションの詳細が表示されます。詳細については、<block ref="0cf51c2fcac81ed872c11f6f85a6fa1e" category="inline-link-macro-rx"></block> 。</block>
   <block id="c0271ca41d216c76fc4707af387b19ff" category="paragraph">持続可能性ダッシュボードは、ストレージ システムの環境的持続可能性に関する貴重な洞察を提供します。持続可能性スコア、炭素削減率、予測される電力使用量、直接炭素、熱などの情報を表示できます。特定のサイトの炭素削減率を調整できます。クラスター レベルで持続可能性スコアを表示することもできます。持続可能性スコアに基づいて、ストレージ システムの全体的な効率を評価し、持続可能性を高めるために NetApp が推奨するアクションと一致させることができます。<block ref="573ac558e55731509c8353e25f1ec473" category="inline-link-macro-rx"></block> 。</block>
   <block id="f33417edb722273e609d7466e4031b36" category="summary">ダッシュボード、持続可能性スコア、システム、推奨アクションに関する情報を提供します。</block>
   <block id="cc3f62c281ad35f63b6650989fb52283" category="paragraph"><block ref="cc3f62c281ad35f63b6650989fb52283" category="inline-image-macro-rx" type="image"></block></block>
@@ -1371,14 +1229,8 @@
   <block id="6edd347f3567227e4ce1c45122c2197a" category="paragraph"><block ref="6edd347f3567227e4ce1c45122c2197a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="92ea8af39382bb4f23cbd857138ba4e1" category="list-text">*リアルタイム電力*列からの監視を有効にして、クラスター レベルでリアルタイム電力の詳細を表示します。詳細については、以下を参照してください。 <block ref="7828191105a84c038a1de3643ae1bbea" category="inline-link-macro-rx"></block> 。</block>
   <block id="f0f10feff8159ed4c58c13daef98da0e" category="admonition">Digital Advisor は、推奨事項を実装するためにNetAppコンソールに移動します。</block>
-  <block id="1f584d23b3652cbe77f11b78950971de" category="list-text">*クラウドに移行* をクリックして *コンソール* を起動します。</block>
-  <block id="4389988617262741e0e52347136b74bb" category="list-text">*Tier Data* をクリックして *Console* を起動します。</block>
-  <block id="46bb48cd2d8ba3072152fddd39652880" category="list-text">*クラウドへのバックアップ* をクリックして *コンソール* を起動します。</block>
-  <block id="dca585924df6925f014c537785d04c0f" category="list-text">*クラウドに複製* をクリックして *コンソール* を起動します。</block>
   <block id="7bc90abe1556491a7adc105773e5b4f5" category="summary">Data Infrastructure Insightsの仮想マシンに関する情報を提供します</block>
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital AdvisorはData Infrastructure Insights Basic バージョンと統合され、フルスタックのインベントリと相互運用性のチェックを顧客に提供できるようになりました。</block>
-  <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">*インベントリ* ウィジェットで、*仮想マシン* をクリックして、 Data Infrastructure Insightsで利用可能なデータを表示します。</block>
-  <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">*ESX 名* をクリックして、Data Infrastructure Insightsに移動し、詳細情報を表示します。</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Cloud Volumes ONTAP (CVO) への移行には、次の基準を満たすボリュームが推奨されます。</block>
   <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">アップグレード プランを生成する前に、次の操作を行う必要があります。</block>
   <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">ONTAP AutoSupport解決ガイド</block>
@@ -1427,7 +1279,6 @@
   <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Digital Advisorが管理するストレージ システムをランサムウェアのリスクから保護します</block>
   <block id="b89f83893f4727447716c66a3b51f536" category="doc">Digital Advisorからストレージ システムのソフトウェアとハ​​ードウェアの更新を特定します</block>
   <block id="8c56611178fbe8b564f32305bee2660a" category="paragraph">ストレージ システムのソフトウェアとハードウェアのうち、有効期限が切れたか、今後 6 か月以内に有効期限が近づいているものを事前に特定し、ハードウェアとソフトウェアの更新リクエストを送信できます。</block>
-  <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">更新するストレージ システムを選択し、「*更新*」をクリックします。</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Digital Advisorでサポート契約を更新する</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Digital Advisorからのストレージ システムの健全性に関する通知を購読する</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Digital AdvisorからAFFおよびFASファームウェアAnsibleパッケージをダウンロードします。</block>
@@ -1520,9 +1371,6 @@
   <block id="b673e7cded650c08d6c0289225510337" category="paragraph">この機能には、ライフサイクル計画（*ストレージ* &gt; *ライフサイクル計画*）またはDigital Advisor（*ダッシュボード* &gt; *プランニングウィジェット* &gt; *システム更新*）からアクセスできます。</block>
   <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">システムリフレッシュを評価する</block>
   <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">2026年6月3日</block>
-  <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">*Planning*ウィジェットで、*ストレージ拡張*をクリックします。</block>
-  <block id="2e703d88e9f579295840057715d9e123" category="list-text">*送信*をクリックして、選択したシステムのストレージ拡張を支援するNetAppストレージチームにリクエストを送信します。</block>
-  <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">*計画*ウィジェットから*サポートの更新*をクリックします。</block>
   <block id="ac7c07737d772453b955c31ac43f2b1f" category="sidebar">ストレージシステムのシステム更新が推奨されるかどうかを判断します</block>
   <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">ヘルスチェック GraphQL への移行とデータ精度の向上</block>
   <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">ヘルスチェックモジュールは、データ精度の向上と、最新基準に準拠したバージョン推奨機能の追加により強化されました。今回のリリースの一環として、パブリック API から GraphQL に移行し、パフォーマンスの向上、柔軟なクエリ機能、および長期的なサポートを提供します。</block>
@@ -1551,10 +1399,8 @@
   <block id="03c5b42b885a94fc682f43b75d5086a9" category="doc">NetApp Console（以前は BlueXP として知られていました）</block>
   <block id="096e72f185cd5ba74fed5d48c1f555a9" category="paragraph">NetApp Consoleは、強化および再構築されたNetApp Consoleの基盤の上に構築されており、オンプレミスおよびクラウド環境全体にわたって、エンタープライズグレードでNetAppストレージとNetApp Data Servicesの一元管理を提供します。リアルタイムのインサイト、より迅速なワークフロー、簡素化された管理を実現し、高度なセキュリティとコンプライアンスを備えています。</block>
   <block id="9a46da86154f0e764fc998d06fe64b60" category="paragraph">変更点の詳細については、<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="7d6ce3bee9fd5da819af4cfb0b2ade4f" category="list-text">*AutoSupport導入状況*：AutoSupportが有効になっているシステムの数と割合を表示します。「拒否」とマークされたシステム、*HTTPS* と *AutoSupport on Demand* が有効になっているシステム、および過去7日間にAutoSupportデータの送信を停止したシステムの*信号喪失*も表示できます。インストールベースのシステムに関するヘルスチェックスコアと情報を表示するには、*AutoSupport導入状況*ウィジェットをクリックしてください。</block>
   <block id="3730e1e889435130618fcdb87bf46f1c" category="cell">ONTAPでのみサポートされています</block>
   <block id="1e6ddc0aa4336129b8430dfbbb3741bb" category="admonition">すべてのプラットフォームとは、ONTAP、Eシリーズ、StorageGRID、ONTAP Select、およびCloud Volumes ONTAPを指します。</block>
-  <block id="ba541209b2d31087fd8081e9f1a7235f" category="list-text">*修正：* Active IQ Unified Manager を使用してシステムのリスクを修正します。このボタンをクリックして Unified Manager を起動し、リスクを軽減するための手順を実行します。</block>
   <block id="a7c3a3c652c30011db60f3b6078330ce" category="list-text">*Storage Efficiency:* AFFシステム、非AFFシステム、またはその両方について、スナップショットコピーの有無にかかわらず、ストレージシステムのStorage Efficiency比率と削減量を特定します。</block>
   <block id="57fd96c602ee5183b4c64c101687c0a4" category="list-text">*APIサービス：* 関心のあるデータを取得し、会社のワークフローに直接統合することができます。</block>
   <block id="fd7b263f8186cddb5aa64a9ee6549eec" category="list-text">*顧客：* 顧客の顧客インストール ベースを表示および管理できます。顧客ダッシュボードは、Digital Advisor の中央ポータルです。</block>
@@ -1604,7 +1450,6 @@
   <block id="8de0b8b02d2bfd48482512c91fa6e18e" category="paragraph">Active IQ Digital AdvisorはDigital Advisorに変更され、ハイブリッド マルチクラウド環境向けのNetAppの統合管理コンソールであるNetApp Consoleに統合されました。 <block ref="7cc56b953de24cf166f6b18ad0920a18" category="inline-link-macro-rx"></block> </block>
   <block id="c37f219aa571929728262a5acf740a28" category="paragraph">NetApp Consoleユーザーは、Digital Advisorの既存の機能と同様に、該当する場合はDigital Advisorのリンクを新しいタブで開けるようになりました。</block>
   <block id="a6c74eb040ea726fb2c4e5feca0368c2" category="list-text">ウェルネスレビューのメールには、更新情報ではなく、ランサムウェア対策に関する情報が記載されています。</block>
-  <block id="b6eeb808a3c1a36cdf1c37ebd476b922" category="paragraph">SVMテーブルの青色の「ボリューム概要」ボックスをクリックすると、「ポップアウト」が表示され、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。</block>
   <block id="b9cf4e905e96b235770e49865f22f11e" category="list-text">*容量追加：* 既存容量の70%のしきい値を超えるGRIDサイトについては、通知されます。容量しきい値が70%を超える可能性が高い場合、サイト内のStorageGRIDの容量を今後1か月、3か月、6か月間追加するオプションがあります。</block>
   <block id="599bbd3b519be9802a8dfd330b44eee9" category="list-text">*更新：* StorageGRIDライセンス契約が既に失効している、または今後6か月以内に失効する予定のシステムについては、通知されます。1つ以上のシステムを選択して、更新のリクエストをNetAppサポートチームに送信できます。</block>
   <block id="5e3cf62c27b7f1398ad383a1c7dab255" category="paragraph">「ティアデータ」ボタンがFabricPoolダッシュボードに追加されました。このボタンを使用すると、NetApp Consoleを使用して低コストのオブジェクトストレージ階層にデータを階層化できます。</block>
@@ -1620,4 +1465,226 @@
   <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
   <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Digital Advisor の新機能と機能強化について説明します。</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">バリューインサイトのご紹介</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 機能は、ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、ONTAP 環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value InsightsはONTAPシステムでのみ使用できます。</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph"><block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>の詳細をご覧ください。</block>
+  <block id="7429618639864b9a43e033e15d62ca26" category="list-text">*AutoSupport 導入状況*：AutoSupport が有効になっているシステムの数と割合を表示します。「Declined」とマークされたシステム、*HTTPS* と *AutoSupport on Demand* が有効になっているシステム、および過去 7 日間に AutoSupport データの送信を停止したシステムの *Loss of Signal* も表示できます。インストールベースのシステムに関するヘルスチェックスコアと情報を表示するには、*AutoSupport Adoption* ウィジェットを選択してください。</block>
+  <block id="231c79598bf0cd06157fd9b6bc8ebd97" category="list-text">*サポートと権利*：期限切れのサポート契約と、6～12か月以内に期限切れとなるサポート契約を表示します。サポート終了となったプラットフォーム、ディスク、シェルフ、ライセンスの遵守状況、有効期限切れ間近、およびプラットフォームとハードウェアのサポート終了が該当しないことを示します。ダッシュボードに表示される健康状態チェックのスコアを確認し、優先順位順に示されている主要な推奨事項に基づいて対策を講じることができます。サポート契約に関する詳細情報を表示するには、「サポートと権利」ウィジェットを選択してください。このウィジェットを使用してサポート契約を更新することもできます。</block>
+  <block id="a8c3535cbeee2a5498e557e8427ef727" category="list-text">*修正：* Active IQ Unified Manager を使用してシステムのリスクを修正します。このボタンを選択すると、Unified Manager が起動し、リスクを軽減するための手順を実行できます。</block>
+  <block id="9c25a224441df7966ab602d0305af6ad" category="paragraph">どちらの表示方法でも、左側のナビゲーションペインを使用して利用可能なアイテムを閲覧できます。アイテムはサービスごとにアルファベット順に整理されています。特定のサービス内では、見出しを展開して個々の API エンドポイントを表示できます。サービス見出しまたは API エンドポイントを選択すると、中央ペインのカタログの該当セクションに移動します。</block>
+  <block id="fa7c3894d73b6a3ea889392651463f04" category="inline-link-macro">価値に関するインサイトを確認する</block>
+  <block id="6c972d629a4b8ce6dde8752e4413ad48" category="list-text"><block ref="b444585736ac78c423532d41fccd5521" category="inline-link-macro-rx"></block>。これは、お客様の ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を提供します。</block>
+  <block id="bca0dd4752d962832123c179d6f29ae3" category="summary">お客様の ONTAP システムの全体的な健全性、削減効果、安定性、およびセキュリティ指標に関する情報を提供します。</block>
+  <block id="17b21ea825fede0731081b59fb813a26" category="doc">Digital Advisorで価値のインサイトを確認する</block>
+  <block id="e810df921218b2ae3c2ae8c157e80003" category="paragraph">Value Insights機能は、お客様のONTAPシステムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。</block>
+  <block id="3970e17ab0355896a02ce146a4b6a41b" category="paragraph">Value Insightsは以下の情報を提供します：</block>
+  <block id="fb3197cd95658195a5685c80f2cf096f" category="list-text">ONTAPシステムの全体的な健全性は、9つの主要業績評価指標（KPI）から構成される健全性スコア指標です。各セクションには、詳細なKPIとスコアの内訳が記載されています。</block>
+  <block id="071a5902c78d3712cf6ca92b6e3ffed7" category="list-text">節約効果と安定性のスコアは、効率的なリソース利用によって容量とストレージの節約を実現する方法を示しています。EMS ファイルのダウンロード機能を含む、ストレージのアップタイムおよび計画外停止に関するトレンド情報にアクセスできます。</block>
+  <block id="f23694bbe7451573bb87ca1b5c04b7d0" category="list-text">セキュリティと将来計画では、回避されたリスクと未然に防がれた問題について詳細に説明します。コスト削減額は、ストレージ効率に基づいて算出されます。</block>
+  <block id="4d059f5635fea2016015f6e1469efea7" category="list-text">インフラストラクチャの価値を最大化するには、インフラストラクチャのパフォーマンスをさらに向上させ、最高の効率性を実現するための追加機能を推奨します。</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次の手順</block>
+  <block id="18d37f2da2174aafbe0c4c2defb9a5d6" category="inline-link-macro">Value Insightsダッシュボードを表示する</block>
+  <block id="b85c3f33cd8b3e7beb43416b99de1131" category="paragraph"><block ref="b85c3f33cd8b3e7beb43416b99de1131" category="inline-link-macro-rx"></block></block>
+  <block id="ab81328231d527187f44ce829019bed3" category="list-text">ダッシュボードで、*Upgrade Advisor* ウィジェットのクラスター数を選択します。</block>
+  <block id="f0d08ce55dd88fe6c90a5ac483644ddf" category="list-text">アップグレードするクラスターを選択します。*対象OSバージョン*列には、推奨される対象OSバージョンが表示されます。<block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block>アイコンを選択して、クラスターの別のターゲットOSバージョンを選択できます。</block>
+  <block id="ad65ce8b480c48d8f6ff7c7cbf942b1d" category="list-text">「ノード」列でノード数を選択すると、クラスターのノード概要が表示されます。</block>
+  <block id="12f8688c8a681a5a997222c004101a29" category="list-text">アップグレード対象外のクラスターの問題を修正してアップグレード対象にするには、*推奨されるアクション*列から*問題の解決*を選択します。+ <block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de7791c6adf25aee62afd7ce7f6cc9d7" category="list-text">「アップグレードプランの生成」を選択します。「アップグレード推奨」ページにリダイレクトされます。</block>
+  <block id="4a1a205135d14e3da41f5df1274f7b36" category="list-text"><block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block>アイコンを選択して、リスクの概要をExcelシートにエクスポートできます。</block>
+  <block id="021243635e43e5042ab656af81576d7d" category="list-text">「アップグレード推奨事項」ページから「アップグレードプランの生成」を選択します。</block>
+  <block id="1a5b492d85739ef7b9dc87dbf437a553" category="list-text">「生成」を選択します。「レポート」ページにリダイレクトされます。</block>
+  <block id="5b49dd4e8d34b31a598c097a88f03374" category="inline-image-macro">View Upgrade Advisorを選択するための位置を示すスクリーンショット。</block>
+  <block id="cf6adbf5ffe49050ddf368340cf6efa4" category="admonition">「アップグレードアドバイザーレポートを表示」を選択すると、「レポート」ページに移動できます。+ <block ref="c7bd4f5c59b15aff733af234f6bd704a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b3090dfee26780768bbd10558f14bd08" category="list-text">アップグレードするクラスターを選択します。「ターゲット OS バージョン」列には、推奨されるターゲット OS バージョンが表示されます。クラスターの別のターゲット OS バージョンを選択するには、<block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block>アイコンを選択します。</block>
+  <block id="0b7ce1367d4c0cdb9832f770300d6637" category="list-text">アップグレード対象外のクラスターの問題を修正してアップグレード対象にするには、「推奨されるアクション」列から「問題の解決」を選択してください。+ <block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="091618e3cea8ab8c2be66398a16d5a35" category="list-text">「アップグレードプランの生成」を選択します。</block>
+  <block id="ecef2737159ffa4ba0019a481c01846c" category="list-text">ユーザー名とパスワードを入力し、*サインイン*を選択してください。</block>
+  <block id="942d04c17a32d1908c40c98d5e3f00ff" category="list-text">延期したアクションはいつでも確認でき、*検討する*を選択すると*推奨アクション*タブに移動できます。+ <block ref="0dbc91ab2b9301aabf5d18bb049d2fe1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="32ef8eccaca52f044dcf09f84ef8d527" category="list-text">対象クラスターの「推奨アクション」列でアクション数を選択します。</block>
+  <block id="6f5f86ae437de7aeb9cbd1580e2d6640" category="list-text">延期したアクションはいつでも確認でき、*「検討する」*を選択すると*「推奨アクション」*タブに移動できます。</block>
+  <block id="6b081bbbc9faa2e2bd9e1425936c330b" category="list-text"><block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block>を選択して、NetAppサポートサイトを開きます。</block>
+  <block id="d103819471f490f66ef8e58c538f59d1" category="list-text">上部メニューから「マイケース」を選択してください。</block>
+  <block id="10f936818ffaf1a17895b85b1d68c064" category="list-text">「ケースの作成」を選択します。</block>
+  <block id="7e258b91004251f5a62381f814cc6947" category="list-text">カテゴリを選択し、必要な詳細情報を入力して、*新規検索*を選択すると、インベントリからシステムを検索できます。</block>
+  <block id="f81985d06d4339a98b2a2a97c9ff68c7" category="list-text">「問題の説明」フィールドに問題の説明を入力し、「続行」を選択します。</block>
+  <block id="466693013f3c1b337538a1e337f264c0" category="list-text">問題の診断に役立つ可能性のあるファイルや画像をアップロードするには、「ファイルを選択」を選択してください。</block>
+  <block id="8cb15ce6c54092a253bd2c552317ad39" category="list-text">*続行*を選択します。</block>
+  <block id="d90df33ddfe221985bdf5553abae7ef3" category="list-text">「ケースの作成」を選択します。</block>
+  <block id="a46a90e716a52fabe5a85b378abe0cd9" category="list-text"><block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block>を選択して、NetAppサポートサイトの「非技術的フィードバックツール」を開きます。</block>
+  <block id="b623e6ded9a852f4e7cd9765578d0c08" category="list-text">*Submit* を選択します。</block>
+  <block id="53bcb6b5209424926cc946d1df4cb170" category="list-text">左側のナビゲーションから「ストレージ効率」を選択します。</block>
+  <block id="1bc9acd9bfa0291187b8f23dbf3a362f" category="paragraph">その他の理由でシステムを表示できない場合、質問がある場合、またはアクセスをリクエストしたい場合は、<block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>。非技術的なケースについてさらに詳しく知りたい場合は、<block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block>を選択してください。</block>
+  <block id="06a85ee2018958123c480cf1f534e7f2" category="paragraph">AutoSupport レポートページで、いずれかのステータス、最近送信を停止したシステム、または AutoSupport がオフになっているシステムを選択しても、ヘルスチェック画面には移動しません。</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
+  <block id="41e720b88c1be16ac8a238019c318fc0" category="list-text">ウェルネスワークフローに、顧客、ウォッチリスト、サイト、グループレベルでの推奨アクション数を表示するサステナビリティウィジェットが追加されました。サステナビリティダッシュボードでは、推奨されるアクションの詳細を表示するために、アクションの数を選択できます。詳細については、<block ref="0cf51c2fcac81ed872c11f6f85a6fa1e" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="bc22ebe3a2801035eb402b28a282f000" category="paragraph">SVMテーブルで青色の「ボリューム概要」ボックスを選択すると、「ポップアウト」が表示され、特定のシリアル番号または物理ノードにホストまたは接続されているボリュームに関する詳細情報が表示されます。</block>
+  <block id="fc59bac99adb61318147ef957d49ca9e" category="list-text">*GRIDビューア：* *設定*ウィジェットから、*GRIDビューア*リンクを選択することで、GRIDの設定を詳細に表示できます。*設定*ウィジェットから、*Grid Viewer*画面の*ダウンロード*ボタンを選択することで、選択したStorageGRIDのサイト詳細と容量詳細をダウンロードできます。</block>
+  <block id="9bd4377a0e7a29dfa86c90e160a8b977" category="list-text">*GRID概要:* ライセンスの種類、ライセンス容量、インストールされているノードの数、サポート期間（ライセンス契約の終了日）、プライマリ管理ノード、プライマリ管理ノードのプライマリサイトなどの基本情報が含まれています。このタブには、サイト名と、該当するサイトに紐づけられたストレージノードの数も表示されます。このリリースでは、該当するサイトのストレージノードを表示するために利用可能なハイパーリンクを選択すると、ノード名のリストを表示できます。</block>
+  <block id="0ff7d0b062dd5121bc5c7974e3b1ce37" category="paragraph">*炭素排出削減率*：各サイト/都市における炭素排出削減率を表示します。表示される基準値は、お客様の所在地に基づいています。特定のサイトの炭素削減率を調整するには、パーセンテージ値の横にある <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> アイコンを選択すると、炭素の数値が自動的に調整されます。</block>
+  <block id="d91525a34374f3c384434d5ac31e59a1" category="list-text">左側のペインから「クラウドのおすすめ」を選択します。</block>
+  <block id="df625868919a9f4c2b7c82e82a92144b" category="list-text">「移行」ペインでいずれかのリンクを選択してください。</block>
+  <block id="7195818938a29511d75ba36d94c3b472" category="list-text">「クラウドへ移行」を選択して「コンソール」を起動します。</block>
+  <block id="6788fdc54890a37fd0849fa3124544e5" category="list-text">「階層化」ペインのいずれかのリンクを選択します。</block>
+  <block id="ca1a154e70e264beeea3b48d9328f58c" category="list-text">「Tier Data」を選択して「Console」を起動します。</block>
+  <block id="4fc3833a830eeed213da97e2b0a09d35" category="list-text">「バックアップとアーカイブ」ペイン内のいずれかのリンクを選択します。</block>
+  <block id="e86b74e0a1b8c4931491d20900f2d101" category="list-text">*クラウドへのバックアップ*を選択して*コンソール*を起動します。</block>
+  <block id="46adab1d8ac82d1d77de75eb2a8868b4" category="list-text">「ディザスタリカバリ」ペインで、いずれかのリンクを選択してください。</block>
+  <block id="c9726831d2e2d716fb75d00b73314957" category="list-text">「クラウドに複製」を選択して「コンソール」を起動します。</block>
+  <block id="28298314ccb0860bd1ef1e8ab3ce820b" category="list-text">*インベントリ*ウィジェットで、*仮想マシン*を選択して、Data Infrastructure Insights で利用可能なデータを表示します。</block>
+  <block id="7edfb807126dfc8677c4d1149cec3e98" category="list-text">「仮想マシンの概要」タブを選択します。</block>
+  <block id="c012e1cda2e5e8aa26e2e5843e5ffd89" category="list-text">ホストに関する情報を表示するには、*ESX ホスト数*を選択してください。</block>
+  <block id="272d3caafb417092764639b89bafcc52" category="list-text">*ESX 名*を選択すると、Data Infrastructure Insights に移動して詳細情報を確認できます。</block>
+  <block id="0ce2232da639f843c6b73d9970a52764" category="list-text">左側のペインから「Config Drift」を選択します。</block>
+  <block id="cac4b64ffdedc8d6874f5961e3b22082" category="list-text">「テンプレートを追加」を選択します。</block>
+  <block id="a2d1079782859963d67ced26429deac9" category="list-text">左側のペインから「ウォッチリスト」を選択します。</block>
+  <block id="4f40826f81f98ce9360d7778fa779a52" category="list-text">「ウォッチリストを作成」を選択します。</block>
+  <block id="cafcd44817bc7e5f5b0651f7e6b83cc9" category="list-text">左側のペインから*容量と効率*を選択します。</block>
+  <block id="311dcbc6b10bba67dabf6b9a67911679" category="list-text">*容量を追加* を選択して、NetApp またはパートナーに容量追加の通知を送信します。</block>
+  <block id="9c9b219842bef91d2bce09db5e7d4831" category="list-text">お客様のストレージシステムのストレージ効率比が平均的なストレージ効率比よりも高い場合は、*成功事例を共有する*を選択して、実施されたベストプラクティスをお知らせください。</block>
+  <block id="8e186e81bfa1647c68861debc5f06e51" category="list-text">お使いのストレージシステムのストレージ効率比が平均ストレージ効率比を下回る場合は、*お問い合わせ*を選択して、ストレージシステムの構成をお知らせください。</block>
+  <block id="a780e7a077439820eae9d02c27258285" category="list-text">クラスターまたはノードレベルで、*設定*ウィジェットの横にある *ClusterViewer* を選択します。</block>
+  <block id="2adb3b86a242222ee35d01756ede6fe2" category="list-text">クラスターのグラフィカル表示を確認するには、*Visualization* タブを選択してください。</block>
+  <block id="610f679bc2146b4bb535b9e1a48fda58" category="paragraph">Digital Advisor にログインすると、*Configuration* ウィジェットに赤いバッジが表示されていることに気づきます。ウィジェットを選択すると、ボリュームが98%使用済みであり、これが原因でサービスが停止する可能性があることがわかります。この問題を解決すれば、ボリュームがいっぱいになって読み取り専用になり、それにアクセスするアプリケーションがクラッシュしたり失敗したりする事態を防ぐことができます。</block>
+  <block id="0cf16cf584f12226ef1d8cab2e1ee104" category="list-text">「設定」ウィジェットで「アクション」を選択します。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad30dfd9e3abc37ea5bda23c61250d50" category="list-text">*固有リスク*タブを選択してください。*是正措置*リンクを選択すると、警告しきい値を変更するか、ボリュームに割り当てる容量を増やすことができます。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c3b7a77060816d46d0397fb6823b56f6" category="inline-image-macro">可用性と保護ウィジェット</block>
+  <block id="e6630d39340b4688724e5aef36cd412c" category="list-text">*Availability &amp; Protection* ウィジェットで *Actions* を選択します。<block ref="d0dbe8068e3f0390698eccc9a5ef07df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="667d27eb81920e8f2b48bc760e029607" category="list-text">リスクの概要を表示するには、*リスク名*リンクを選択してください。<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3540dd06d45f87290be242b437c0ca01" category="list-text">*固有リスク*タブを選択し、*是正措置*列のリンクを選択します。<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="02e5a5b2ff4215e706068b528723179f" category="list-text">スクリプトを生成してダウンロードするには、*Ansible "A"* アイコンを選択してください。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="89fd02758b6b20051d33265c37640a9e" category="list-text">既存のテンプレートのいずれかを選択するか、*テンプレートを追加*を選択して新しいテンプレートを追加してください。</block>
+  <block id="7a7ed1a9a337477dab5b0640bf72ca42" category="list-text">「スケジュールレポート」タブを選択します。</block>
+  <block id="6ff31857e94a46afad37436ea055f3b8" category="list-text">左側のペインから「レポート」を選択します。</block>
+  <block id="b7c62a8eefd6705b7ac3506d4d281740" category="list-text">新しいレポートを生成するには、*レポートの作成*を選択してください。</block>
+  <block id="a33c20c018ebe1e32f519298c669d4ef" category="list-text">「Planning」ウィジェットで、「ストレージ拡張」を選択します。</block>
+  <block id="43132d95dcaa10b90f0aa108cd483d26" category="list-text">*StorageGRID* タブを選択すると、容量が70%を超えているか、70%に近づいているStorageGRIDシステムを表示できます。</block>
+  <block id="706b32ac5bf876665ab5c69bc8ea2be4" category="list-text">「容量予測を表示」を選択すると、今後6か月間の容量予測が表示されます。</block>
+  <block id="bd5af8815a27ad8cdcca6ecaded30abb" category="list-text">「容量追加リクエスト」を選択してください。</block>
+  <block id="bb212cff4c3c49f30de079f77e3d50aa" category="list-text">「送信」を選択してリクエストを送信し、選択したシステムのストレージ拡張をNetAppストレージチームにサポートしてもらいます。</block>
+  <block id="f2db6680f1e29912f732662aa1dd387e" category="list-text">*Security &amp; Ransomware Defense* ウィジェットで *Actions* を選択します。<block ref="2fcb804d5a34085afa85e482ac09263f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1bcd76c13bba2fdbac42418ba923af8b" category="list-text">*固有リスク*タブを選択し、*是正措置*列のリンクを選択します。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bfadff1ef9760c824d8628458125b05c" category="list-text"><block ref="3b55c23dfb4079e2af5dd3be6ef65a9e" category="inline-image-macro-rx" type="image"></block>を選択して、テンプレートのコピーを作成します。</block>
+  <block id="d68857976f84b0795756f136d1810d62" category="list-text"><block ref="e99ba43207c50943c58f4200e8020746" category="inline-image-macro-rx" type="image"></block>を選択し、テンプレートを共有したいユーザーのユーザー名を入力してください。</block>
+  <block id="39bc20d66f528839a3dd237427386065" category="list-text"><block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block>を選択して、テンプレートの詳細を更新します。</block>
+  <block id="9e391b9d557d0fca5de8932f0fa862d3" category="list-text"><block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block>を選択して、テンプレートを削除します。</block>
+  <block id="239cb158bb841067cfd336b36d90be03" category="list-text">左側のペインから「ウォッチリスト」を選択します。</block>
+  <block id="4c07191f74a45b21c59e3bfd2a229937" category="list-text">ウォッチリストの名前を選択すると、そのウォッチリストのダッシュボードの詳細が表示されます。</block>
+  <block id="03f58cfb8e241c8f0ba002dd85d537bb" category="list-text">ウォッチリストの詳細を更新するには、*編集*を選択してください。</block>
+  <block id="d425735c4a8c11659e6c56038dac1c07" category="list-text">ウォッチリストを削除するには、*削除*を選択してください。</block>
+  <block id="4896bea145ca90a5d1e69e3c9788ce41" category="list-text">「セキュリティとランサムウェア対策」ウィジェットで*アクション*を選択します。</block>
+  <block id="6e2137aee1686e8f9fc2be52ecf15c83" category="list-text">「固有リスク」タブを選択し、「是正措置」列のリンクを選択します。</block>
+  <block id="ffda6ab9841705d109b761ae13e91771" category="list-text">リスクのあるシステムを表示するには、*影響を受けるシステム*タブを選択してください。</block>
+  <block id="8acc69f0146a26142bb07e45bdcd63dc" category="list-text">システムを保護するために推奨される修復措置を選択してください。</block>
+  <block id="0c35141a364b09286a3651b482a8bdba" category="list-text">*Planning* ウィジェットから *Support Renewals* を選択します。</block>
+  <block id="6b4b75379beef7e7c2abe98a0b9a0dc2" category="list-text">更新するストレージシステムを選択し、*更新*を選択します。</block>
+  <block id="94f66866107911bd36ca9497f33cdf55" category="list-text">「送信」を選択します。</block>
+  <block id="8d42dbc56b232364f5fbc7ef878ab3f8" category="list-text">ヘルスチェックダッシュボードで、「サポートと権利」ウィジェットを選択します。</block>
+  <block id="bc6196aada3e781dd91a3ed4f4c10ef9" category="list-text">システムサポート契約のいずれかが期限切れになっているか、期限切れが近づいている場合は、*Active Support Contracts* ウィジェットを選択してください。</block>
+  <block id="cfb601a4dc901602c8bb7afdce8d6c79" category="list-text">チェックボックスを選択し、*更新*を選択すると、選択したシステムの更新プロセスが開始されます。</block>
+  <block id="b434ca3b73a15a97f8557864de19d3f7" category="list-text">左側のペインから「Wellness Review」を選択します。</block>
+  <block id="159d43e7f8a124385fd3d1fe2c65c6bb" category="list-text">「サブスクリプションを追加」を選択します。</block>
+  <block id="12975d5f412a47bef9db3c7a4d365814" category="list-text">「Subscribe」を選択します。</block>
+  <block id="35429e2dc21d5156d872730ed4a1094d" category="list-text">ダッシュボード上のウェルネスウィジェットを選択するか、*すべてのアクションを表示*を選択して、すべてのアクションとリスクのリストを表示します。</block>
+  <block id="73083319a7a7021190b428f1bba13b62" category="list-text">ファームウェアのアップグレードに関するすべてのリスクを表示するには、*Firmware Upgrade* を選択してください。</block>
+  <block id="be96b6408b34b172658b8e8046c8ff03" category="list-text">*AFF および FAS ファームウェアの更新*を選択して利用可能なすべての更新パッケージを表示するか、各リスクの横にある<block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block>を選択して、そのリスクに固有のパッケージを更新します。</block>
+  <block id="23e45138f7da960b1339e584ab459e0c" category="list-text">「ダウンロード」を選択してzipファイルをダウンロードし、ストレージシステムを更新してください。</block>
+  <block id="70e9b962388f213d011d9fada30e58be" category="list-text">*Inventory* ウィジェットの横にある *すべてのシステムを表示* を選択します。</block>
+  <block id="603b075ca41db43ebd04b2d36eb4ffef" category="list-text">「設定」ウィジェットで「アップグレード」を選択します。</block>
+  <block id="fc82e70acd236bac1c970f3a9b228285" category="list-text">必要に応じて、*サポート内容を比較する*を選択すると、比較表が表示され、お客様の要件に合ったサポート内容をお選びいただけます。</block>
+  <block id="338a352a51ef165a25ef09eb6ecf70e9" category="list-text">または、左側のナビゲーションメニューから「Support Offerings」を選択すると、比較表が表示されます。</block>
+  <block id="b8ac33c9243a2e7fe445773eb614ba8f" category="list-text">ご意見があれば追加して、「送信」を選択してください。サポート提供アップグレードの購入リクエストが NetApp 更新チームに送信されます。</block>
+  <block id="f55a7370d8574311b3cb8f1b7f613234" category="list-text">ダッシュボードでウェルネス属性ウィジェットを選択するか、*すべてのアクションを表示*を選択して、すべてのアクションとリスクのリストを表示します。</block>
+  <block id="9144d157111ed7136f6ff742fd12683e" category="list-text">*Actions* を選択するとそのアクションに関連するリスクが表示され、*Risks* を選択するとすべてのリスクが表示され、*Affected Systems* を選択すると注意が必要なシステムが表示されます。</block>
+  <block id="85e0f424ac1766c7d50926274623f727" category="list-text">リスクを選択すると、リスクの概要が表示されます。</block>
+  <block id="a59c80e263b7887f0d81f3c2d16a2ec0" category="list-text">リスクを承認するには、「Ack」を選択してください。</block>
+  <block id="5abb95d33aed71569992b0fd6b957298" category="list-text">現時点でリスクを軽減したくない、または軽減できない場合は、各項目に値を入力し、*承認*を選択してください。</block>
+  <block id="862159f793e1b0365c8c101382079499" category="admonition">リスクを認識済みにしたくない場合は、*Un-Ack* を選択して同じ手順に従うことで、そのリスクを無視できます。</block>
+  <block id="ae9062ae74a63707f6e56040405b29d0" category="list-text">*Inventory* ウィジェットで、*Systems* を選択するとすべてのプラットフォームのシステム情報が表示されます。または、プラットフォームの種類を選択してから *Systems* を選択すると、そのプラットフォーム固有のシステムが表示されます。</block>
+  <block id="b89039cb5fca55ab98183fe7e1dfbd80" category="list-text">システムの詳細情報を表示するには、ノードまたはクラスタを選択してください。</block>
+  <block id="86b8e002a574fe4c44b860ffaff96996" category="list-text">「ダウンロード」を選択すると、システムの詳細を .xls 形式で表示する「インベントリ」レポートをダウンロードできます。</block>
+  <block id="dd25215a62befc345056b33da4dc0660" category="list-text">*ダウンロード*を選択すると、*Ansible Inventory*レポートがダウンロードされ、リージョンまたはサイトレベルでのシステム詳細が.ymlおよび.ini形式で表示されます。</block>
+  <block id="6bac1f9b3bcd8c6139310d92eb7c4719" category="list-text">「Inventory」ウィジェットで「Support Entitled Switches」を選択すると、サポート対象のすべてのスイッチに関する情報が表示されます。</block>
+  <block id="d40ccef89ee64d26acd946e4e536968d" category="paragraph">グラフが最初に表示されるとき、1週間分のタブがあらかじめ選択されており、大量のデータとその異なるデータ系列間の関係を理解しやすくするために、1週間分のデータがグラフ形式で表示されます。例えば、日付範囲をリセットしたい場合は、「1か月」タブを選択し、カレンダーで日付を選択できます。</block>
+  <block id="970692bbbd7a5b1ef9f2c3d89397ff8c" category="list-text">ダッシュボードで「パフォーマンス」を選択します。</block>
+  <block id="74178ba0e62aba4b64fd5213375732bd" category="paragraph">ONTAP システムでは、*ノード* タブを選択して ONTAP クラスターの単一ノードのパフォーマンスを表示したり、*ローカル ティア* タブを選択してローカル ティアのパフォーマンスを表示したり、*ボリューム* タブを選択してボリュームのパフォーマンスを表示したりすることができます。デフォルトでは、クラスタのパフォーマンスが表示されます。</block>
+  <block id="92332c13fc6ade653576a2187ec4b7ce" category="list-text">ダッシュボードの*Wellness*ウィジェットを選択するか、*View All Actions*を選択して、すべてのアクションとリスクのリストを表示します。</block>
+  <block id="3960a42fc442c0bc2f5497884be47baf" category="list-text">リスク名を選択すると、そのリスクに関する情報が表示されます。</block>
+  <block id="002a7aa1cc9cb538df76a8aac0b153d3" category="list-text">関連する是正措置を選択し、指示に従ってリスクを解決してください。</block>
+  <block id="5fd667373031d59782b738e497b8ae6b" category="list-text">ダッシュボードで*すべてのアクションを表示*を選択します。</block>
+  <block id="de4b52f2043a3ff959c3485432185216" category="list-text"><block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> アイコンを選択します。</block>
+  <block id="6ab60595ef61e838973dfa78cedee016" category="list-text">「修正」を選択して、Active IQ Unified Manager を起動します。</block>
+  <block id="57ee2621f8a528c7a673d8c9ee41bfa9" category="list-text">「Install」を選択して、Active IQ Unified Manager 9.7以降をインストールし、「Fix It」オプションを使用します。</block>
+  <block id="f31b1f9ba89b9fc35c0a354381ec99de" category="list-text">「アップグレード」を選択して Active IQ Unified Manager 9.7 以降にアップグレードし、「Fix It」オプションを使用します。</block>
+  <block id="42220c0dbeb0ff2a4b2e4500b6189b58" category="list-text"><block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block>アイコンを選択します。</block>
+  <block id="1f51cfdc5fa1daf48bec5fe331ef373d" category="list-text">「ダウンロード」を選択して、AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。</block>
+  <block id="bbd590fe13d8dd24702f484b96583127" category="summary">Value Insights ダッシュボードを表示して、お客様の ONTAP システムの健全性、節約、安定性、セキュリティに関する情報にアクセスします。</block>
+  <block id="f650563cfd75874602716b4ff731fff3" category="list-text">*カスタマーサクセス* ＞ *バリューインサイト* を選択します。</block>
+  <block id="127eba23a5c4e6b42ae1b92d1960b6b7" category="list-text">「Overall health, and how NetApp can help」エリアでは、お客様の ONTAP システムの全体的なヘルススコアをパーセンテージで確認できます。このスコアは KPI に基づいて算出されています。</block>
+  <block id="431d370ffae7b3191357c28b56dcd569" category="list-text">すべてのKPIを表示するには、*その他の推奨事項*を選択してください。</block>
+  <block id="f2ba2dce0328465674c26a76d33915f0" category="cell">KPI</block>
+  <block id="40fd61ecb915e6889c685487160de14e" category="cell">持続可能な運営に関する提案に対応する</block>
+  <block id="08bc4e784da68076497dcfbe16641f93" category="cell">持続可能なシステム運用に関する推奨事項を提供します。</block>
+  <block id="903e88fe0b2b9c82b474dd3094ac8f4c" category="cell">クラスターのセキュリティ強化リスクを解決する</block>
+  <block id="b8a94df1b03873710fc248c22e4e4774" category="cell">各システムに関連するセキュリティリスクを評価します。</block>
+  <block id="7e5bcb743be47157b9646d3e705309f6" category="cell">ファームウェアとシステムファイルのアップデートを計画する</block>
+  <block id="46fec9224e0854a8fa12cea53e8aebf1" category="cell">システムが最新のファームウェアを実行しているかどうかを確認し、アップデートを提案します。これには、ファームウェアのアップデート計画を立てるための詳細なビューが含まれます。</block>
+  <block id="7c209a18632519636f49458f44bc1da3" category="cell">テクノロジーの更新オプション（サポート終了）を確認する</block>
+  <block id="e35f9f0b3e1243d9369342740d728b1f" category="cell">テクノロジーの刷新の必要性を評価します。</block>
+  <block id="c0498173a296c44b0a41ddf2d8541c8d" category="cell">クラスターでAutoSupport（ASUP）を有効にする</block>
+  <block id="7bcb15913d0e5786042ab1abd8ba6c4f" category="cell">クラスター上のAutoSupport（ASUP）のステータスを監視します。</block>
+  <block id="a47e8fffa9973ac71e8756b5c429091d" category="cell">最新の推奨 ONTAP バージョンへのアップグレードを計画する</block>
+  <block id="ac0dc014b571765bfb9218fcceb2c0b2" category="cell">システムのソフトウェアバージョンを評価し、アップデートを推奨します。</block>
+  <block id="8570816d3c399972873fb1c27b762034" category="cell">ストレージ拡張オプションの評価</block>
+  <block id="289696dc524d10193e275fc81f96e0e4" category="cell">現在のストレージ効率とストレージ拡張のニーズを評価します。将来のキャパシティ要件を予測します。</block>
+  <block id="faa98d33711b21436a070316ba6b4549" category="cell">契約更新</block>
+  <block id="8cdbdbe425e554aafb075956569ebdec" category="cell">サポート契約のステータスを評価し、更新に関する推奨事項を提供します。</block>
+  <block id="af7fda7878d0353b52c6a4cde6798a04" category="cell">予期せぬクラスターのダウンタイムを防ぐために積極的に監視する</block>
+  <block id="f5320f2ea36e3709920210750bc26cfd" category="cell">クラスター全体における計画外のダウンタイムの回数を示します。</block>
+  <block id="d1f743441021e988cfe68ef6d8853274" category="list-text">具体的なKPI計算については、「*どのように計算されますか？*」を選択してください。下にスクロールすると、満点、部分点、0点などのシステム詳細が表示されます。</block>
+  <block id="371c4e75ef16f27cc606efebd8ddc450" category="list-text">*NetApp が実現する節約と安定性*を選択すると、投資収益率（ROI）の詳細を確認できます。</block>
+  <block id="21021ea0e52be8e9c599f4dff41e5be0" category="cell">機能</block>
+  <block id="94cf0a310bc1ba95ee82428676c1afeb" category="cell"><block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="736a705d784469689545b0eea833b4ea" category="cell">TiBあたりのコストまたは支出を編集するには、こちらを選択してください。</block>
+  <block id="3d51d2c2a0ba75cfddeeaac3db4a08c3" category="cell">ストレージ効率値</block>
+  <block id="133145a1288f1ff4459c09ea91d9a279" category="cell">ROIダッシュボードを開くには、これを選択してください。</block>
+  <block id="0e00dee6c92a3ca20648d901ecbbc1f5" category="cell">ストレージの稼働時間価値</block>
+  <block id="04055b20add68e9dff4da8a956be6606" category="cell">値を確認し、詳細を表示するには「システム番号」の値を選択してください。</block>
+  <block id="5112eff792aeb3045e8cfd88b790f78b" category="cell">ASUP ID</block>
+  <block id="2aa9ecf747a629c52f01d65bada7dd3f" category="cell">該当する場合は、ダウンタイムやサービス停止の原因となっている問題またはイベントを選択して表示してください。</block>
+  <block id="caf9ad6ed0edbab5fc74ee4e01e04d9f" category="cell">リスクの検出と防止</block>
+  <block id="2f4a82e35daf1bd8ceae13638aba00c4" category="cell">過去3か月間の関連データを表示するには、こちらを選択してください。</block>
+  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="cell">ウェルネス履歴の表示</block>
+  <block id="d1de8771aa2f04c189f80a2438541aaa" category="cell">概要表示を選択します。</block>
+  <block id="d77f051c73b9cbf7e633f235031d7576" category="cell">リスク値</block>
+  <block id="3bd0cd02880d4802b56dbbf46a66886f" category="cell">各リスク値を選択すると、過去3か月間の関連データにアクセスできます。</block>
+  <block id="199626525506db8f55394d3e30f16150" category="list-text">セキュリティに関する情報を表示するには、「セキュリティと将来の計画」エリアを選択してください。</block>
+  <block id="d3112f106afbf2c408f82822d5e46290" category="cell">セキュリティ上の脅威は無力化されました</block>
+  <block id="6673d7a5c5f0cb9b4f36be9b69c563ea" category="cell">セキュリティの詳細を表示するには、こちらを選択してください。</block>
+  <block id="6d7373bc5e070f8648ca95028be3b0f5" category="cell">セキュリティ上の問題が解決されました</block>
+  <block id="312ee17d867760f729d5e95aec0a0a3e" category="cell">選択してウェルネス履歴ページを開きます。</block>
+  <block id="777f31feb36c253c00ecd33e83c38324" category="cell">ファームウェアの自動更新</block>
+  <block id="eb3cc90c941604b02387133d98926572" category="cell">ファームウェアの種類とアップグレードの詳細を表示するには、これを選択してください。</block>
+  <block id="175ebb07f827bc9d5a4b0b3d5db0f764" category="cell">自律型ランサムウェア対策AI/MLモデル</block>
+  <block id="b86bdafac80c92170d6c3e742f8ce8de" category="cell">モデルの詳細を表示するには、こちらを選択してください。</block>
+  <block id="9f877b6459cdadc14aa380b332778b55" category="cell">効率化による節約額の見込み</block>
+  <block id="a04d24882fdf0b7c7f8f42e2c9dfc678" category="list-text">「予測されるストレージ効率による節約額」の横にある<block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block>アイコンを選択して、PiBあたりのコストを編集します。</block>
+  <block id="da5d119d8dddcd0b1d6165118bb62c86" category="list-text">ストレージ容量の余裕率を選択すると、「容量と効率」ページが開きます。</block>
+  <block id="9100c4283aa59b4f569e087c9f99335a" category="list-text">「Lifecycle planning」を選択してください。</block>
+  <block id="432bba3060dc12d1babcfee63417b7f2" category="list-text">ツール値を選択して、それぞれの ONTAP 詳細ページを開きます：システム更新、ストレージ拡張、サポート更新。</block>
+  <block id="7ed73e5a4deebc042bd54da569358096" category="admonition">この機能はONTAPシステム専用であり、Cloud Volumes ONTAP、ONTAP Select、StorageGRID、Eシリーズなどのプラットフォームでは利用できません。</block>
+  <block id="cf07a5686fcf63a670d48bcea7c9e4f9" category="list-text">「インフラストラクチャの価値を最大化する方法」を選択すると、有効な機能と利用可能な最適化に関する情報が表示されます。</block>
+  <block id="47a0df045d55cf9faa11a9a47b197c14" category="list-text">システムの詳細を表示するには、*有効な機能*を選択してください。</block>
+  <block id="81b5003565efa9c569a9527ea493edbd" category="list-text">*利用可能な最適化の機会*を選択すると、提案が表示されます。</block>
+  <block id="f80c1a65fc0f08c08229446f1a174966" category="list-text">ダッシュボードの「ウェルネス」ペインで、「すべてのアクションを表示」を選択します。</block>
+  <block id="703299312bba3e83405426ef5ffd3bfb" category="list-text">「Wellness History」を選択してください。</block>
+  <block id="1be82388ca5ff4ed68cded091a2ed9d3" category="list-text">「リスク履歴」グラフで、リスク履歴を表示するカテゴリを選択します。</block>
+  <block id="7b9a794b2ff2a85fe5077dd94bf68627" category="paragraph">色付きの棒グラフにカーソルを合わせると、各カテゴリのリスク数に関する情報が表示されます。該当するリスクカテゴリを選択すると、その情報が「リスク情報」テーブルに表示されます。</block>
+  <block id="65f850610afa4fde5b35992694ff43b1" category="list-text">ダッシュボードページで、*Upgrade Advisor* ウィジェットの *Other recommendations* を選択します。</block>
+  <block id="c2481bead428edb94726c4e10ba02f6c" category="list-text">「推奨事項を表示」を選択すると、推奨事項の一覧が表示されます。</block>
+  <block id="0373d29c3464da93362949dcb0dff44a" category="list-text">*[Update Status]* 列で *[See progress]* を選択すると、更新対象のクラスターが表示されます。</block>
+  <block id="681c88be2de4220c0cbacb47fed97b82" category="list-text">問題が発生した場合は、該当するリンクを選択して、問題解決のための手順をご確認ください。</block>
+  <block id="e7a471dd8d8c761a219d09c2091e92a1" category="sidebar">バリューインサイトについて</block>
+  <block id="729a2290f604400a065ab66e68e8365c" category="sidebar">Value Insightsダッシュボードを表示</block>
 </blocks>

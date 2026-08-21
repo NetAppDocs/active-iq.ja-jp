@@ -31,6 +31,8 @@ indexpage:
       url: task_view_performance_graphs.html
     - title: レポートを生成します
       url: task_generate_reports.html
+    - title: 価値に関するインサイトを確認する
+      url: concept_value_insights.html
   - title: Digital Advisorを使用して分析します
     links:
     - title: ONTAP のアップグレードに関する推奨事項を確認する
@@ -48,7 +50,7 @@ indexpage:
     - title: Digital Advisorのビデオ
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: ネットアップコミュニティ–Digital Advisor
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+      url: https://community.netapp.com/community/
     - title: Digital Advisorモバイルアプリケーション（Android）
       url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
     - title: Digital Advisorモバイルアプリケーション（iOS）

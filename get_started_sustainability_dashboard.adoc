@@ -40,7 +40,7 @@ Digital Advisorにログインするには、NetApp Support Siteクレデンシ�
 
 .手順
 . Webブラウザを開き、 link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] ログインページ。
-. ユーザー名とパスワードを入力し、 * サインイン * をクリックします。
+. ユーザー名とパスワードを入力し、*サインイン*を選択してください。
 . 左側のナビゲーションから、[持続可能性] を選択します。
 +
 image:sustainability_dashboard.png["サステナビリティダッシュボードの概要を示すUIスクリーンショット。"]

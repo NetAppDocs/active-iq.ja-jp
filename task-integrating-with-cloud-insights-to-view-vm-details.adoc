@@ -29,8 +29,8 @@ Digital AdvisorはData Infrastructure Insights Basic バージョンと統合さ
 NOTE: この機能は、SupportEdge Advisor 、SupportEdge Expert 、およびDigital Advisorのアップグレード契約でのみ使用できます。
 
 .手順
-. *インベントリ* ウィジェットで、*仮想マシン* をクリックして、 Data Infrastructure Insightsで利用可能なデータを表示します。
-. [仮想マシンの概要*]タブをクリックします。
-. [ESXホストの数]をクリックして、ホストに関する情報を表示します。
-. *ESX 名* をクリックして、Data Infrastructure Insightsに移動し、詳細情報を表示します。
+. *インベントリ*ウィジェットで、*仮想マシン*を選択して、Data Infrastructure Insights で利用可能なデータを表示します。
+. 「仮想マシンの概要」タブを選択します。
+. ホストに関する情報を表示するには、*ESX ホスト数*を選択してください。
+. *ESX 名*を選択すると、Data Infrastructure Insights に移動して詳細情報を確認できます。
 
