@@ -387,7 +387,6 @@
   <block id="6a46e3c3984001a8a2d4481982e69a8f" category="section-title">よりスマートで高速な検索</block>
   <block id="d9c7072ff9d902e7ac9964e95c163d94" category="paragraph">単一システムビューを使用して、シリアル番号、システム ID 、ホスト名、サイト名、グループ名、クラスタ名などのパラメータを検索できます。また、システムのグループを検索することもできます。また、システムのグループごとに、お客様名、サイト名、またはグループ名で検索することもできます。</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Ansible に関する詳細情報を提供します。</block>
-  <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">詳細はこちらをご覧ください</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">さまざまなリソースからヘルプを参照したり、詳細情報を確認したりできます。</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">トラブルシューティング情報</block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">余裕期間ワークスペース</block>
@@ -1255,14 +1254,12 @@
   <block id="2b1a2e89f1b2f5c6d6515a6dc429c7fd" category="doc">Digital Advisorの既知の制限</block>
   <block id="f2a73885c1e995cc3311a29291a28fde" category="doc">Digital Advisorのサステナビリティダッシュボード機能について学ぶ</block>
   <block id="e44ce4d3422f101f306224bb091ea2db" category="doc">Digital Advisorのクラウド推奨事項を使用してストレージ システムの健全性を分析します</block>
-  <block id="b9456a2df38d30018b5aa1d2c39d55ba" category="doc">Digital Advisorを使用して、 Data Infrastructure Insightsで利用可能な仮想マシン データを表示します。</block>
   <block id="6b067412319dd9485298444d9a34fc87" category="doc">Digital Advisorでストレージ システムの構成ドリフト テンプレートを追加します</block>
   <block id="e67ed4f24a1e1077c5eb307d08729f7c" category="doc">Digital Advisorでウォッチリストを作成する</block>
   <block id="a526a7fadbc4d3ff6b76aeace82c0a35" category="paragraph">ウォッチリストを作成すると、一連のストレージ システムにすばやく簡単にアクセスできます。カテゴリまたはシリアル番号に基づいてストレージ システムを追加できます。</block>
   <block id="186b444c7e1538546cd3797bc4e13f6b" category="admonition">カテゴリごとに最大 15,000 個のストレージ システム、シリアル番号ごとに最大 500 個のストレージ システムを追加できます。</block>
   <block id="ade07d6bbbe7ba4dca1efb40aa7352bd" category="list-text">ストレージ システムを監視リストに追加するには、次のいずれかのオプションを選択します。</block>
   <block id="9e626aab5b921b3ca1f8a803c59e26c3" category="doc">Digital Advisorで容量とストレージ効率の節約を表示</block>
-  <block id="f20d4ff4105f49a3027ff751b2efde6c" category="doc">Digital Advisor の ClusterViewer ウィジェットを使用して、クラスターとノードの健全性を表示します。</block>
   <block id="9ac4aca4ac0756136b6042d0474cfcf3" category="doc">Digital Advisorでボリューム ストレージ容量のしきい値を管理する</block>
   <block id="8aed0befb763089b90784f7bb6c222cd" category="doc">Digital Advisorを使用して、可用性と保護ウィジェットで特定された重大なリスクを修正します</block>
   <block id="65185bbce1d7f537b3c14697168318fc" category="doc">Digital Advisorで構成ドリフト テンプレートを比較する</block>
@@ -1273,7 +1270,6 @@
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">AFFおよびFASファームウェアファイルをWebサーバーにホストする</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Digital Advisorで容量制限に近づいているストレージ システムを特定します</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Digital Advisorでセキュリティリスクを検出し、是正措置を講じる</block>
-  <block id="a7780228d5aa137f7cb990b61a022315" category="doc">Ansible パッケージを使用してAFFおよびFASファームウェアを更新する (経験豊富なユーザー)</block>
   <block id="8a88e2413d4f95f64b219b6c28f57a07" category="doc">Digital Advisorで構成ドリフト テンプレートを管理する</block>
   <block id="8b7cb0834e8dc268b50c925ad45b6ddd" category="doc">Digital Advisorでウォッチリストを管理する</block>
   <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Digital Advisorが管理するストレージ システムをランサムウェアのリスクから保護します</block>
@@ -1315,7 +1311,6 @@
   <block id="bac3163878d2374ee594903ac6c1802c" category="sidebar">ONTAPアップグレードプランの生成について学ぶ</block>
   <block id="114d8ec8c75a41f7a77d940bbedc89ba" category="sidebar">単一および複数のクラスタのONTAPアップグレード プランを生成する</block>
   <block id="ebc19daf25c395407a52101068117655" category="sidebar">ストレージシステムのインベントリの詳細を表示する</block>
-  <block id="8c3ce1cbbe048dec5ffdc13f56c2ccf4" category="sidebar">Data Infrastructure Insightsで利用可能な仮想マシンのデータを表示する</block>
   <block id="aa80415eea92e632f36c8f4c62c4b138" category="sidebar">Valuable Insights ウィジェットでサポートケースとストレージ システムの詳細を表示します</block>
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">プランニングウィジェットでストレージシステムの容量要件を管理する</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">容量制限に近づいているストレージシステムを特定する</block>
@@ -1687,4 +1682,12 @@
   <block id="681c88be2de4220c0cbacb47fed97b82" category="list-text">問題が発生した場合は、該当するリンクを選択して、問題解決のための手順をご確認ください。</block>
   <block id="e7a471dd8d8c761a219d09c2091e92a1" category="sidebar">バリューインサイトについて</block>
   <block id="729a2290f604400a065ab66e68e8365c" category="sidebar">Value Insightsダッシュボードを表示</block>
+  <block id="e3bf61ee8c8fee9ffb69993bd28d87a8" category="doc">Digital Advisorの追加リソース</block>
+  <block id="1b7791b3614101fe0419ae77deeacf88" category="doc">Digital Advisor の主要な用語と定義</block>
+  <block id="182708895bd34a37bc21f98f7d14d0a2" category="doc">Digital Advisor のトラブルシューティングとサポートリソース</block>
+  <block id="e124694694f1a62071bd7725254b9327" category="doc">Digital Advisor を使用して Data Infrastructure Insights で利用可能な仮想マシンのデータを表示する</block>
+  <block id="155f865ff2277e5b3d0c9cabfd7007d7" category="doc">Digital AdvisorのClusterViewerウィジェットを使用してクラスターとノードの状態を確認する</block>
+  <block id="e5054a84cf54978ce838e701041a4239" category="doc">Ansible パッケージを使用して AFF および FAS ファームウェアを更新する</block>
+  <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">Data Infrastructure Insights で利用可能な仮想マシンデータを表示する</block>
+  <block id="608a46677d36b132542feed4a0445c56" category="sidebar">経験豊富なユーザー向けにAnsibleパッケージを使用してAFFおよびFASファームウェアを更新する</block>
 </blocks>

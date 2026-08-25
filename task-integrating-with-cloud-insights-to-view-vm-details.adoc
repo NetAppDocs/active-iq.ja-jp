@@ -4,7 +4,7 @@ permalink: task-integrating-with-cloud-insights-to-view-vm-details.html
 keywords: cloud insights, vms, virtual machines, data infrastructure insights 
 summary: Data Infrastructure Insightsの仮想マシンに関する情報を提供します 
 ---
-= Digital Advisorを使用して、 Data Infrastructure Insightsで利用可能な仮想マシン データを表示します。
+= Digital Advisor を使用して Data Infrastructure Insights で利用可能な仮想マシンのデータを表示する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

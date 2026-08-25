@@ -28,7 +28,7 @@ sidebar:
       url: "/concept_understand_activeiq_features.html"
     - title: NetAppコンソールでDigital Advisorにアクセスする
       url: "/digital-advisor-integration-with-console.html"
-    - title: Digital Advisorの詳細をご覧ください
+    - title: Digital Advisor の主要な用語と定義
       url: "/concept_key_terms.html"
     - title: AutoSupportの詳細
       url: "/concept_autosupport.html"
@@ -92,7 +92,7 @@ sidebar:
       entries:
       - title: ストレージシステムのインベントリの詳細を表示する
         url: "/task_view_inventory_details.html"
-      - title: Data Infrastructure Insightsで利用可能な仮想マシンのデータを表示する
+      - title: Data Infrastructure Insights で利用可能な仮想マシンデータを表示する
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
       - title: Valuable Insights ウィジェットでサポートケースとストレージ システムの詳細を表示します
         url: "/task_view_valuable_insight_widget.html"
@@ -146,7 +146,7 @@ sidebar:
         entries:
         - title: AFFおよびFASファームウェアのAnsibleパッケージをダウンロードする
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: Ansible パッケージを使用してAFFおよびFASファームウェアを更新する (経験豊富なユーザー)
+        - title: 経験豊富なユーザー向けにAnsibleパッケージを使用してAFFおよびFASファームウェアを更新する
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: AFFおよびFASファームウェアのAnsible自動化パッケージのインストールと実行（初心者向け）
           entries:

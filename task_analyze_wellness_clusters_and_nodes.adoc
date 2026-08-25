@@ -4,7 +4,7 @@ permalink: task_analyze_wellness_clusters_and_nodes.html
 keywords: cluster, node, clusterviewer, configuration 
 summary: Cluster Viewer についての情報を提供します。 
 ---
-= Digital Advisor の ClusterViewer ウィジェットを使用して、クラスターとノードの健全性を表示します。
+= Digital AdvisorのClusterViewerウィジェットを使用してクラスターとノードの状態を確認する
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
