@@ -20,6 +20,20 @@ Digital Advisorでは、次の機能および拡張機能が導入されまし�
 
 
 
+[[14-september-2026]]
+== 2026年9月14日
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== 仮想マシンの非推奨に関するお知らせ
+
+仮想マシン機能は、2026年10月に Digital Advisor で非推奨となります。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
+
+
+
 [[20-august-2026]]
 == 2026年8月20日
 
