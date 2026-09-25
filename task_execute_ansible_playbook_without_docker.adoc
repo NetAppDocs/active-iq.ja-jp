@@ -40,7 +40,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-Ansible galxy コマンドの詳細については、を参照してください link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible Galaxy Documentation を参照してください"^] NetApp Ansible コレクションの詳細については、を参照してください link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible のコレクションページ"^]。
+ansible-galaxy コマンドの詳細については、link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html["Ansible Galaxy Documentation を参照してください"^]を参照してください。また、NetApp Ansible コレクションの詳細については、link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible のコレクションページ"^]を参照してください。
 
 . Ansible Playbook を * Ansible プレイブック * コマンドで実行：
 +
