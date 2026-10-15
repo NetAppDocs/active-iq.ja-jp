@@ -1472,9 +1472,7 @@
   <block id="6c972d629a4b8ce6dde8752e4413ad48" category="list-text"><block ref="b444585736ac78c423532d41fccd5521" category="inline-link-macro-rx"></block>。これは、お客様の ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を提供します。</block>
   <block id="bca0dd4752d962832123c179d6f29ae3" category="summary">お客様の ONTAP システムの全体的な健全性、削減効果、安定性、およびセキュリティ指標に関する情報を提供します。</block>
   <block id="17b21ea825fede0731081b59fb813a26" category="doc">Digital Advisorで価値のインサイトを確認する</block>
-  <block id="e810df921218b2ae3c2ae8c157e80003" category="paragraph">Value Insights機能は、お客様のONTAPシステムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。</block>
   <block id="3970e17ab0355896a02ce146a4b6a41b" category="paragraph">Value Insightsは以下の情報を提供します：</block>
-  <block id="fb3197cd95658195a5685c80f2cf096f" category="list-text">ONTAPシステムの全体的な健全性は、9つの主要業績評価指標（KPI）から構成される健全性スコア指標です。各セクションには、詳細なKPIとスコアの内訳が記載されています。</block>
   <block id="071a5902c78d3712cf6ca92b6e3ffed7" category="list-text">節約効果と安定性のスコアは、効率的なリソース利用によって容量とストレージの節約を実現する方法を示しています。EMS ファイルのダウンロード機能を含む、ストレージのアップタイムおよび計画外停止に関するトレンド情報にアクセスできます。</block>
   <block id="f23694bbe7451573bb87ca1b5c04b7d0" category="list-text">セキュリティと将来計画では、回避されたリスクと未然に防がれた問題について詳細に説明します。コスト削減額は、ストレージ効率に基づいて算出されます。</block>
   <block id="4d059f5635fea2016015f6e1469efea7" category="list-text">インフラストラクチャの価値を最大化するには、インフラストラクチャのパフォーマンスをさらに向上させ、最高の効率性を実現するための追加機能を推奨します。</block>
@@ -1615,7 +1613,6 @@
   <block id="1f51cfdc5fa1daf48bec5fe331ef373d" category="list-text">「ダウンロード」を選択して、AFF および FAS ファームウェアの Ansible Automation パッケージをダウンロードします。</block>
   <block id="bbd590fe13d8dd24702f484b96583127" category="summary">Value Insights ダッシュボードを表示して、お客様の ONTAP システムの健全性、節約、安定性、セキュリティに関する情報にアクセスします。</block>
   <block id="f650563cfd75874602716b4ff731fff3" category="list-text">*カスタマーサクセス* ＞ *バリューインサイト* を選択します。</block>
-  <block id="127eba23a5c4e6b42ae1b92d1960b6b7" category="list-text">「Overall health, and how NetApp can help」エリアでは、お客様の ONTAP システムの全体的なヘルススコアをパーセンテージで確認できます。このスコアは KPI に基づいて算出されています。</block>
   <block id="431d370ffae7b3191357c28b56dcd569" category="list-text">すべてのKPIを表示するには、*その他の推奨事項*を選択してください。</block>
   <block id="f2ba2dce0328465674c26a76d33915f0" category="cell">KPI</block>
   <block id="40fd61ecb915e6889c685487160de14e" category="cell">持続可能な運営に関する提案に対応する</block>
@@ -1699,4 +1696,13 @@
   <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 機能は非推奨となり、2026年9月をもって Digital Advisor では利用できなくなりました。</block>
   <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026年9月25日</block>
   <block id="1d2715b65bd9e5fca57122f543d61e60" category="paragraph">ansible-galaxy コマンドの詳細については、<block ref="a42b19d985084b52ec12dfca2fc50aad" category="inline-link-macro-rx"></block>を参照してください。また、NetApp Ansible コレクションの詳細については、<block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Value InsightsでのEシリーズおよびStorageGRIDのサポート</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">Value Insightsの健全性、リスク、セキュリティリスク、およびライフサイクルの合計に、ONTAP、Eシリーズ、StorageGRIDシステムが含まれるようになりました。ダッシュボードをプラットフォームでフィルタリングして、プラットフォーム固有の詳細を表示できます。達成済みおよび予測される削減額は、引き続きONTAPシステムでのみ利用可能です。</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e8c477e3e0719f7edf2927c1d933b6c" category="paragraph">Value Insights機能は、お客様のEシリーズ、ONTAP、およびStorageGRIDシステムの全体的な健全性スコア、削減量、安定性、およびセキュリティ情報を統合します。この情報を使用することで、お客様のEシリーズ、ONTAP、およびStorageGRID環境の継続的かつデータ主体なビューを通じて、システムの健全性スコアとパフォーマンスを向上させることができます。</block>
+  <block id="c5f6b0719211ae09e8aba87dc0d9cb6f" category="admonition">Value Insightsは、Eシリーズ、ONTAP、およびStorageGRIDシステムで利用できます。</block>
+  <block id="85b2022a323e43c4ae8c4065c865e789" category="list-text">システムの全体的な健全性は、9つの主要パフォーマンス指標で構成される健全性スコア指標です。各セクションには、詳細なKPIとスコアの内訳が記載されています。</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
+  <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">Value Insightsダッシュボードを表示して、お客様のEシリーズ、ONTAP、StorageGRIDシステムのヘルススコア、削減額、安定性、セキュリティ情報にアクセスします。</block>
+  <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">*全体的な健常性とNetAppのサポート*エリアでは、Eシリーズ、ONTAP、StorageGRIDシステムの全体的な健常性スコアをパーセンテージで確認できます。このスコアはKPIに基づいて算出されています。</block>
 </blocks>

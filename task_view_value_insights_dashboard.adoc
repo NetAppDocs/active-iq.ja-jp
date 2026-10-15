@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_value_insights_dashboard.html 
-keywords: value insights, health, savings, stability, security, ontap systems 
+keywords: value insights, health, savings, stability, security, ontap, e-series, storagegrid 
 summary: Value Insights ダッシュボードを表示して、お客様の ONTAP システムの健全性、節約、安定性、セキュリティに関する情報にアクセスします。 
 ---
 = Value Insightsダッシュボードを表示する
@@ -16,11 +16,11 @@ summary: Value Insights ダッシュボードを表示して、お客様の ONTA
 
 
 [role="lead"]
-Value Insights ダッシュボードを表示して、お客様の ONTAP システムの健全性、節約、安定性、セキュリティに関する情報にアクセスします。
+Value Insightsダッシュボードを表示して、お客様のEシリーズ、ONTAP、StorageGRIDシステムのヘルススコア、削減額、安定性、セキュリティ情報にアクセスします。
 
 .手順
 . *カスタマーサクセス* ＞ *バリューインサイト* を選択します。
-. 「Overall health, and how NetApp can help」エリアでは、お客様の ONTAP システムの全体的なヘルススコアをパーセンテージで確認できます。このスコアは KPI に基づいて算出されています。
+. *全体的な健常性とNetAppのサポート*エリアでは、Eシリーズ、ONTAP、StorageGRIDシステムの全体的な健常性スコアをパーセンテージで確認できます。このスコアはKPIに基づいて算出されています。
 +
 ** すべてのKPIを表示するには、*その他の推奨事項*を選択してください。
 +
