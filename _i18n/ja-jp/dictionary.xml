@@ -879,7 +879,6 @@
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">FabricPool の詳細については、を参照してください <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">* テクニカルケース * ：選択可能な期間にわたって、ケースタイプおよびオープンまたはクローズステータス別に、テクニカルケースの履歴を詳細に表示します。  ケースグループにドリルダウンしたり、でケースの詳細を確認したりできます <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> またはその他のケースポータル。</block>
-  <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">をインストールします <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> および <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>。</block>
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">* Ansible プレイブック * コマンドの詳細については、を参照してください <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> また、 Ansible Playbook をチェックモード（ dry run ）で実行する方法については、を参照してください <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
@@ -1705,4 +1704,5 @@
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
   <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">Value Insightsダッシュボードを表示して、お客様のEシリーズ、ONTAP、StorageGRIDシステムのヘルススコア、削減額、安定性、セキュリティ情報にアクセスします。</block>
   <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">*全体的な健常性とNetAppのサポート*エリアでは、Eシリーズ、ONTAP、StorageGRIDシステムの全体的な健常性スコアをパーセンテージで確認できます。このスコアはKPIに基づいて算出されています。</block>
+  <block id="e44972e0feb4e8ce723a5b8e319c7632" category="list-text"><block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> および <block ref="335afa7963b775a01549fa6757d9b16e" category="inline-link-macro-rx"></block> をインストールします。</block>
 </blocks>
